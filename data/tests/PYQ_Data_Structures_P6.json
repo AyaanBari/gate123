@@ -1,0 +1,1120 @@
+{
+  "id": "PYQ_Data_Structures_P6",
+  "fileName": "PYQ_Data_Structures_P6.json",
+  "title": "GATE Official PYQs | Data Structures Part 6",
+  "subject": "Data Structures",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 33,
+  "totalMarks": 39,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 1991 | Question: 03,vii</strong></div><p>The following sequence of operations is performed on a stack:<br/>The sequence of values popped out is<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/522/gate-cse-1991-question-03-vii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 1994 | Question: 1.14</strong></div><p>Which of the following permutations can be obtained in the output (in the same order) using a stack<br/>assuming that the input is the sequence<br/>in that order?<br/>data-structures<br/>stack</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2457/gate-cse-1994-question-1-14"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 1995 | Question: 2.21</strong></div><p>The postfix expression for the infix expression<br/>is:<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2457/gate-cse-1994-question-1-14"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2000 | Question: 13</strong></div><p>Suppose a stack implementation supports, in addition to PUSH and POP, an operation REVERSE, which<br/>reverses the order of the elements on the stack.<br/>A<br/>.<br/>To implement a queue using the above stack implementation, show how to implement ENQUEUE using a single<br/>operation and DEQUEUE using a sequence of<br/>operations.<br/>B<br/>.<br/>The following post ﬁx expression, containing single digit operands and arithmetic operators<br/>and<br/>, is<br/>evaluated using a stack.<br/>Show the contents of the stack<br/>i<br/>.<br/>After evaluating<br/>ii<br/>.<br/>After evaluating<br/>iii<br/>.<br/>At the end of evaluation<br/>data-structures<br/>stack<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/684/gate-cse-2000-question-13"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2003 | Question: 64</strong></div><p>Let<br/>S<br/>be a stack of size<br/>. Starting with the empty stack, suppose we push the ﬁrst<br/>n<br/>natural numbers in<br/>sequence, and then perform<br/>pop operations. Assume that Push and Pop operations take<br/>seconds<br/>each, and<br/>seconds elapse between the end of one such stack operation and the start of the next operation. For<br/>, deﬁne the stack-life of<br/>as the time elapsed from the end of<br/>to the start of the pop operation<br/>that removes<br/>from<br/>S<br/>. The average stack-life of an element of this stack is<br/>data-structures<br/>stack</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/951/gate-cse-2003-question-64"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2004 | Question: 3</strong></div><p>A single array<br/>is used to implement two stacks. The two stacks grow from opposite<br/>ends of the array. Variables<br/>and<br/>point to the location of the topmost element in<br/>each of the stacks. If the space is to be used efficiently, the condition for<br/>is<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2633/gate-cse-1995-question-2-21"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2004 | Question: 5</strong></div><p>The best data structure to check whether an arithmetic expression has balanced parentheses is a<br/>data-structures<br/>easy<br/>stack</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1002/gate-cse-2004-question-5"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2014 | Set 2 | Question: 41</strong></div><p>Suppose a stack implementation supports an instruction<br/>, which reverses the order of elements<br/>on the stack, in addition to the<br/>and<br/>instructions. Which one of the following statements is<br/>(<br/>with respect to this modified stack<br/>)?<br/>A<br/>.<br/>A queue cannot be implemented using this stack.<br/>B<br/>.<br/>A queue can be implemented where<br/>takes a single instruction and<br/>takes a sequence<br/>of two instructions.<br/>C<br/>.<br/>A queue can be implemented where<br/>takes a sequence of three instructions and<br/>takes a single instruction.<br/>D<br/>.<br/>A queue can be implemented where both<br/>and<br/>take a single instruction each.<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1002/gate-cse-2004-question-5"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2015 | Set 2 | Question: 38</strong></div><p>Consider the C program below<br/>#include<br/><stdio.h><br/>int<br/>*<br/>A<br/>,<br/>stkTop<br/>;<br/>int<br/>stkFunc<br/>(<br/>int<br/>opcode<br/>,<br/>int<br/>val<br/>)<br/>{<br/>static<br/>int<br/>size<br/>=<br/>0<br/>,<br/>stkTop<br/>=<br/>0<br/>;<br/>switch<br/>(<br/>opcode<br/>)<br/>{<br/>case<br/>-<br/>1<br/>:<br/>size<br/>=<br/>val<br/>;<br/>break<br/>;<br/>case<br/>0<br/>:<br/>if<br/>(<br/>stkTop<br/><<br/>size<br/>)<br/>A<br/>[<br/>stkTop<br/>++]=<br/>val<br/>;<br/>break<br/>;<br/>default<br/>:<br/>if<br/>(<br/>stkTop<br/>)<br/>return<br/>A<br/>[--<br/>stkTop<br/>];<br/>}<br/>return<br/>-<br/>1<br/>;<br/>}<br/>int<br/>main<br/>()<br/>{<br/>int<br/>B<br/>[<br/>20<br/>];<br/>A<br/>=<br/>B<br/>;<br/>stkTop<br/>=<br/>-<br/>1<br/>;<br/>stkFunc<br/>(-<br/>1<br/>,<br/>10<br/>);<br/>stkFunc<br/>(<br/>0<br/>,<br/>5<br/>);<br/>stkFunc<br/>(<br/>0<br/>,<br/>10<br/>);<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>stkFunc<br/>(<br/>1<br/>,<br/>0<br/>)+<br/>stkFunc<br/>(<br/>1<br/>,<br/>0<br/>));<br/>}<br/>The value printed by the above program is ________.<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/1002/gate-cse-2004-question-5"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2015 | Set 3 | Question: 12</strong></div><p>The result evaluating the postfix expression<br/>is<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8164/gate-cse-2015-set-2-question-38"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2021 | Set 1 | Question: 21</strong></div><p>Consider the following sequence of operations on an empty stack.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "86 : 86",
+      "discussUrl": "https://gateoverflow.in/1002/gate-cse-2004-question-5"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2023 | Question: 49</strong></div><p>Consider a sequence<br/>of elements<br/>, and<br/>. The following<br/>operations are performed on a stack<br/>and a queue<br/>both of which are initially empty.<br/>I<br/>.<br/>the elements of<br/>from<br/>to<br/>in that order into<br/>.<br/>II<br/>.<br/>the elements of<br/>from<br/>to<br/>in that order into<br/>.<br/>III<br/>.<br/>an element from<br/>.<br/>IV<br/>.<br/>an element from<br/>.<br/>V<br/>.<br/>an element from<br/>.<br/>VI<br/>.<br/>an element from<br/>.<br/>VII<br/>.<br/>an element from<br/>and push the same element into<br/>.<br/>VIII<br/>.<br/>Repeat operation<br/>three times.<br/>IX<br/>.<br/>an element from<br/>.<br/>X<br/>.<br/>an element from<br/>.<br/>The top element of<br/>after executing the above operations is ______________.<br/>data-structures<br/>stack<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/399262/gate-cse-2023-question-49"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2024 | Set 2 | Question: 38</strong></div><p>​​​​​<br/>Let<br/>and<br/>be two stacks.<br/>has capacity of<br/>elements.<br/>has capacity of<br/>elements.<br/>already has<br/>elements:<br/>, and<br/>, whereas<br/>is empty, as shown below.<br/>Only the following three operations are available:<br/>PushToS2:<br/>Pop the top element from S1 and push it on S2.<br/>PushToS1:<br/>Pop the top element from S2 and push it on S1.<br/>GenerateOutput<br/>: Pop the top element from S1 and output it to the user.<br/>Note that the pop operation is not allowed on an empty stack and the push operation is not allowed on a full stack.<br/>Which of the following output sequences can be generated by using the above operations?<br/>data-structures<br/>stack<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/399262/gate-cse-2023-question-49"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 2025 | Set 2 | Question: 35</strong></div><p>Consider a stack data structure into which we can PUSH and POP records. Assume that each record<br/>pushed in the stack has a positive integer key and that all keys are distinct.<br/>We wish to augment the stack data structure with an<br/>time MIN operation that returns a pointer to the record<br/>with smallest key present in the stack<br/>1<br/>.<br/>without deleting the corresponding record, and<br/>2<br/>.<br/>without increasing the complexities of the standard stack operations.<br/>Which one or more of the following approach(es) can achieve it?<br/>A<br/>.<br/>Keep with every record in the stack, a pointer to the record with the smallest key below it.<br/>B<br/>.<br/>Keep a pointer to the record with the smallest key in the stack.<br/>C<br/>.<br/>Keep an auxiliary array in which the key values of the records in the stack are maintained in sorted order.<br/>D<br/>.<br/>Keep a Min-Heap in which the key values of the records in the stack are maintained.<br/>data-structures<br/>stack<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460800/gate-cse-2025-set-2-question-35"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE DA 2025 | Question: 54</strong></div><p>Consider the following pseudocode.<br/>Create<br/>empty stack S<br/>Set<br/>x<br/>=<br/>0<br/>,<br/>flag<br/>=<br/>0<br/>,<br/>sum<br/>=<br/>0<br/>Push<br/>x onto S<br/>while<br/>(<br/>S<br/>is<br/>not<br/>empty<br/>){<br/>if<br/>(<br/>flag equals<br/>0<br/>){<br/>Set<br/>x<br/>=<br/>x<br/>+<br/>1<br/>Push<br/>x onto S<br/>}<br/>if<br/>(<br/>x equals<br/>8<br/>):<br/>Set<br/>flag<br/>=<br/>1<br/>if<br/>(<br/>flag equals<br/>1<br/>){<br/>x<br/>=<br/>Pop<br/>(<br/>S<br/>)<br/>if<br/>(<br/>x<br/>is<br/>odd<br/>):<br/>Pop<br/>(<br/>S<br/>)<br/>Set<br/>sum<br/>=<br/>sum<br/>+<br/>x<br/>}<br/>}<br/>Output<br/>sum<br/>The value of<br/>output by a program executing the above pseudocode is __________ (Answer in integer)<br/>gateda-2025<br/>data-structures<br/>stack<br/>output</p></div>",
+      "options": [],
+      "correctAnswer": "24:24",
+      "discussUrl": "https://gateoverflow.in/460800/gate-cse-2025-set-2-question-35"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE IT 2004 | Question: 52</strong></div><p>A program attempts to generate as many permutations as possible of the string, '<br/>' by pushing the<br/>characters<br/>in the same order onto a stack, but it may pop oﬀ the top character at any time. Which<br/>one of the following strings CANNOT be generated using this program?<br/>data-structures<br/>stack</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3695/gate-it-2004-question-52"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE IT 2005 | Question: 13</strong></div><p>A function<br/>deﬁned on stacks of integers satisﬁes the following properties.<br/>and<br/>for all stacks<br/>and integers<br/>.<br/>If a stack<br/>contains the integers<br/>in order from bottom to top, what is<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3758/gate-it-2005-question-13"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE IT 2007 | Question: 32</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>#define<br/>EOF<br/>-<br/>1<br/>void<br/>push<br/>(<br/>int<br/>);<br/>/* push the argument on the stack */<br/>int<br/>pop<br/>(<br/>void<br/>);<br/>/* pop the top of the stack */<br/>void<br/>flagError<br/>();<br/>int<br/>main<br/>()<br/>{<br/>int<br/>c<br/>,<br/>m<br/>,<br/>n<br/>,<br/>r<br/>;<br/>while<br/>((<br/>c<br/>=<br/>getchar<br/>())<br/>!=<br/>EOF<br/>)<br/>{<br/>if<br/>(<br/>isdigit<br/>(<br/>c<br/>)<br/>)<br/>push<br/>(<br/>c<br/>);<br/>else<br/>if<br/>((<br/>c<br/>==<br/>'+'<br/>)<br/>||<br/>(<br/>c<br/>==<br/>'*'<br/>))<br/>{<br/>m<br/>=<br/>pop<br/>();<br/>n<br/>=<br/>pop<br/>();<br/>r<br/>=<br/>(<br/>c<br/>==<br/>'+'<br/>)<br/>?<br/>n<br/>+<br/>m<br/>:<br/>n<br/>*<br/>m<br/>;<br/>push<br/>(<br/>r<br/>);<br/>}<br/>else<br/>if<br/>(<br/>c<br/>!=<br/>' '<br/>)<br/>flagError<br/>();<br/>}<br/>printf<br/>(<br/>\"% c\"<br/>,<br/>pop<br/>());<br/>}<br/>What is the output of the program for the following input?<br/>stack<br/>Time Complexity<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3465/gate-it-2007-question-32"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2025 | Set 2 | Question: 28</strong></div><p>A meld operation on two instances of a data structure combines them into one single instance of the same<br/>data structure. Consider the following data structures:<br/>P. Unsorted doubly linked list with pointers to the head node and tail node of the list.<br/>Q. Min-heap implemented using an array.<br/>R. Binary Search Tree.<br/>Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size<br/>of these data structures?<br/>A<br/>.<br/>B<br/>.<br/>:<br/>C<br/>.<br/>:<br/>D<br/>.<br/>:<br/>data-structures<br/>time-complexity<br/>Tree<br/>(13)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(3Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3465/gate-it-2007-question-32"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 1990 | Question: 13a</strong></div><p>Consider the height-balanced tree<br/>with values stored at only the leaf nodes, shown in Fig</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2131"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 1992 | Question: 02,vii</strong></div><p>A<br/>tree is such that<br/>a<br/>.<br/>All internal nodes have either<br/>or<br/>children<br/>b<br/>.<br/>All paths from root to the leaves have the same length<br/>The number of internal nodes of a<br/>tree having<br/>leaves could be<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>tree<br/>data-structures<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/562/gate-cse-1992-question-02-vii"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 1994 | Question: 5</strong></div><p>A<br/>tree is a tree in which every internal node has exactly three children. Use induction to prove that<br/>the number of leaves in a<br/>tree with<br/>internal nodes is<br/>.<br/>data-structures<br/>tree<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/562/gate-cse-1992-question-02-vii"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 1998 | Question: 1.24</strong></div><p>Which of the following statements is false?<br/>A<br/>.<br/>A tree with a<br/>nodes has<br/>edges<br/>B<br/>.<br/>A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.<br/>C<br/>.<br/>A complete binary tree with<br/>internal nodes has<br/>leaves.<br/>D<br/>.<br/>The maximum number of nodes in a binary tree of height h is<br/>data-structures<br/>tree<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/562/gate-cse-1992-question-02-vii"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 1998 | Question: 2.11</strong></div><p>A complete<br/>-ary tree is one in which every node has<br/>or<br/>sons. If<br/>is the number of internal nodes of a<br/>complete<br/>-ary tree, the number of leaves in it is given by<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1683/gate-cse-1998-question-2-11"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2002 | Question: 2.9</strong></div><p>The number of leaf nodes in a rooted tree of n nodes, with each node having<br/>or<br/>children is:<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1683/gate-cse-1998-question-2-11"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2004 | Question: 6</strong></div><p>Level order traversal of a rooted tree can be done by starting from the root and performing<br/>data-structures<br/>tree<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1683/gate-cse-1998-question-2-11"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2005 | Question: 36</strong></div><p>In a complete<br/>-ary tree, every internal node has exactly<br/>children. The number of leaves in such a tree<br/>with<br/>internal node is:<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1372/gate-cse-2005-question-36"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2007 | Question: 43</strong></div><p>A complete<br/>tree is a tree in which each node has<br/>children or no children. Let<br/>be the number of<br/>internal nodes and<br/>be the number of leaves in a complete<br/>tree. If<br/>and<br/>, what is<br/>the value of<br/>?<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1241/gate-cse-2007-question-43"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2014 | Set 3 | Question: 12</strong></div><p>Consider the following rooted tree with the vertex labeled<br/>as the root:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1683/gate-cse-1998-question-2-11"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2014 | Set 3 | Question: 41</strong></div><p>Consider the pseudocode given below. The function<br/>takes as argument a pointer to the<br/>root of an arbitrary tree represented by the<br/>representation. Each node of<br/>the tree is of type<br/>.<br/>typedef<br/>struct<br/>treeNode<br/>*<br/>treeptr<br/>;<br/>struct<br/>treeNode<br/>{<br/>treeptr leftMostChild<br/>,<br/>rightSibling<br/>;<br/>};<br/>int<br/>DoSomething<br/>(<br/>treeptr tree<br/>)<br/>{<br/>int<br/>value<br/>=<br/>0<br/>;<br/>if<br/>(<br/>tree<br/>!=<br/>NULL<br/>)<br/>{<br/>if<br/>(<br/>tree<br/>-><br/>leftMostChild<br/>==<br/>NULL<br/>)<br/>value<br/>=<br/>1<br/>;<br/>else<br/>value<br/>=<br/>DoSomething<br/>(<br/>tree<br/>-><br/>leftMostChild<br/>);<br/>value<br/>=<br/>value<br/>+<br/>DoSomething<br/>(<br/>tree<br/>-><br/>rightSibling<br/>);<br/>}<br/>return<br/>(<br/>value<br/>);<br/>}<br/>When the pointer to the root of a tree is passed as the argument to<br/>, the value returned by the<br/>function corresponds to the<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2075/gate-cse-2014-set-3-question-41"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2017 | Set 1 | Question: 20</strong></div><p>Let<br/>be a tree with<br/>vertices. The sum of the degrees of all the vertices in<br/>is ________<br/>data-structures<br/>tree<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "18",
+      "discussUrl": "https://gateoverflow.in/2075/gate-cse-2014-set-3-question-41"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree: GATE CSE 2021 | Set 1 | Question: 41</strong></div><p>A n<br/>in a connected graph is a vertex such that removing the vertex and its incident<br/>edges disconnects the graph into two or more connected components.<br/>Let<br/>be a<br/>tree obtained by doing<br/>in a connected undirected graph<br/>.<br/>Which of the following options is/are correct?<br/>A<br/>.<br/>Root of<br/>can never be an articulation point in<br/>.<br/>B<br/>.<br/>Root of<br/>is an articulation point in<br/>if and only if it has<br/>or more children.<br/>C<br/>.<br/>A leaf of<br/>can be an articulation point in<br/>.<br/>D<br/>.<br/>If<br/>is an articulation point in<br/>such that<br/>is an ancestor of<br/>in<br/>and<br/>is a descendent of<br/>in<br/>, then all<br/>paths from<br/>to<br/>in<br/>must pass through<br/>.<br/>multiple-selects<br/>data-structures<br/>tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2075/gate-cse-2014-set-3-question-41"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tree Traversal",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree Traversal: GATE CSE 2026 | Set 2 | Question: 2</strong></div><p>The set<br/>represents various traversals over binary tree. The set<br/>represents the order of visiting nodes<br/>during a traversal.<br/>Which one of the following is the correct match from<br/>to<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>data-structures<br/>tree-traversal<br/>Uniform Hashing<br/>(1)<br/>Uniform Hashing: GATE DS&AI 2024 | Question: 11<br/>Consider performing uniform hashing on an open address hash table with load factor<br/>, where<br/>elements are stored in the table with<br/>slots. The expected number of probes in an unsuccessful search is<br/>at most<br/>.<br/>Inserting an element in this hash table requires at most probes,<br/>on average.<br/>gate-ds-ai-2024<br/>data-structures<br/>hashing<br/>uniform-hashing<br/>3.1.1<br/>N/A<br/>3.1.2<br/>B<br/>3.1.3<br/>N/A<br/>3.1.4<br/>B<br/>3.1.5<br/>C<br/>3.1.6<br/>A<br/>3.2.1<br/>C<br/>3.3.1<br/>N/A<br/>3.3.2<br/>C<br/>3.3.3<br/>N/A<br/>3.3.4<br/>N/A<br/>3.3.5<br/>A<br/>3.3.6<br/>A<br/>3.3.7<br/>N/A<br/>3.3.8<br/>A<br/>3.3.9<br/>B<br/>3.3.10<br/>C<br/>3.3.11<br/>B<br/>3.3.12<br/>5<br/>3.3.13<br/>C<br/>3.4.1<br/>N/A<br/>3.4.2<br/>C<br/>3.4.3<br/>N/A<br/>3.4.4<br/>B<br/>3.4.5<br/>D<br/>3.4.6<br/>A<br/>3.4.7<br/>D<br/>3.4.8<br/>A<br/>3.4.9<br/>D<br/>3.4.10<br/>A<br/>3.4.11<br/>B<br/>3.4.12<br/>C<br/>3.4.13<br/>D<br/>3.4.14<br/>B<br/>3.4.15<br/>A<br/>3.4.16<br/>B<br/>3.4.17<br/>A<br/>3.4.18<br/>D<br/>3.4.19<br/>B<br/>3.4.20<br/>8<br/>3.4.21<br/>80<br/>3.4.22<br/>A<br/>3.4.23<br/>511<br/>3.4.24<br/>C<br/>3.4.25<br/>B<br/>3.4.26<br/>A<br/>3.4.27<br/>5:5<br/>3.4.28<br/>B<br/>3.4.29<br/>C<br/>3.4.30<br/>B<br/>3.5.1<br/>B<br/>3.5.2<br/>N/A<br/>3.5.3<br/>D<br/>3.5.4<br/>N/A<br/>3.5.5<br/>C<br/>3.5.6<br/>B<br/>3.5.7<br/>B<br/>3.5.8<br/>B<br/>3.5.9<br/>B<br/>3.5.10<br/>A</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2135"
+    }
+  ]
+}

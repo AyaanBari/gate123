@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_General_Aptitude_P5",
+  "fileName": "PYQ_General_Aptitude_P5.json",
+  "title": "GATE Official PYQs | General Aptitude Part 5",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Venn Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Venn Diagram: GATE CSE 2019 | GA | Question: 7</strong></div><p>In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in<br/>the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of<br/>_______<br/>general-aptitude<br/>quantitative-aptitude<br/>venn-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Venn Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Venn Diagram: GATE CSE 2019 | GA | Question: 9</strong></div><p>In a college, there are three student clubs,<br/>students are only in the Drama club,<br/>students are only in<br/>the Dance club,<br/>students are only in Maths club,<br/>students are in both Drama and Dance clubs,<br/>students are in both Dance and Maths clubs,<br/>students are in both Drama and Maths clubs, and<br/>students are in<br/>all clubs. If<br/>of the students in the college are not in any of these clubs, then the total number of students in the<br/>college is _____.<br/>general-aptitude<br/>quantitative-aptitude<br/>venn-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Venn Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Venn Diagram: GATE CSE 2024 | Set 2 | GA | Question: 3</strong></div><p>In an engineering college of<br/>students,<br/>like neither their core branches nor other branches.<br/>The number of students who like their core branches is<br/>of the number of students who like other<br/>branches. The number of students who like both their core and other branches is<br/>.<br/>The number of students who like their core branches is<br/>quantitative-aptitude<br/>venn-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Volume",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Volume: GATE CSE 2021 | Set 1 | GA | Question: 6</strong></div><p>We have<br/>rectangular sheets of paper,<br/>and<br/>, of dimensions<br/>each. Sheet<br/>is rolled to<br/>form an open cylinder by bringing the short edges of the sheet together. Sheet<br/>is cut into equal square<br/>patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed,<br/>the ratio of the volume of the cylinder to that of the cube is _________.<br/>quantitative-aptitude<br/>mensuration<br/>volume<br/>Work Time<br/>(3)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/312027/gate2010-tf-ga-8"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Work Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Work Time: GATE CSE 2010 | Question: 64</strong></div><p>skilled workers can build a wall in<br/>days;<br/>semi-skilled workers can build a wall in<br/>days;<br/>unskilled<br/>workers can build a wall in<br/>days. If a team has<br/>skilled,<br/>semi-skilled and<br/>unskilled workers, how long<br/>it will take to build the wall?<br/>quantitative-aptitude<br/>work-time</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/312027/gate2010-tf-ga-8"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Work Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Work Time: GATE CSE 2011 | Question: 64</strong></div><p>A transporter receives the same number of orders each day. Currently, he has some pending orders<br/>(backlog) to be shipped. If he uses<br/>trucks, then at the end of the<br/>day he can clear all the orders.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40208/gate2011-gg-ga-7"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Work Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Work Time: GATE CSE 2013 | Question: 65</strong></div><p>The current erection cost of a structure is Rs.<br/>If the labour wages per day increase by<br/>of the<br/>current wages and the working hours decrease by<br/>of the current period, then the new cost of erection<br/>in Rs. is<br/>quantitative-aptitude<br/>work-time<br/>9.1.1<br/>A<br/>9.2.1<br/>D<br/>9.2.2<br/>B<br/>9.2.3<br/>D<br/>9.2.4<br/>B<br/>9.2.5<br/>B<br/>9.3.1<br/>B<br/>9.4.1<br/>D<br/>9.4.2<br/>B<br/>9.5.1<br/>A<br/>9.6.1<br/>C<br/>9.6.2<br/>B<br/>9.6.3<br/>C<br/>9.7.1<br/>C<br/>9.8.1<br/>2006<br/>9.8.2<br/>C<br/>9.8.3<br/>A<br/>9.8.4<br/>A<br/>9.9.1<br/>B<br/>9.10.1<br/>B<br/>9.10.2<br/>C<br/>9.10.3<br/>C<br/>9.10.4<br/>C<br/>9.11.1<br/>D<br/>9.11.2<br/>A<br/>9.11.3<br/>C<br/>9.12.1<br/>A<br/>9.13.1<br/>B<br/>9.13.2<br/>C<br/>9.13.3<br/>D<br/>9.13.4<br/>C<br/>9.13.5<br/>D<br/>9.14.1<br/>B<br/>9.14.2<br/>D<br/>9.14.3<br/>A<br/>9.15.1<br/>C<br/>9.15.2<br/>0.4895 : 0.4897<br/>9.16.1<br/>C<br/>9.16.2<br/>C<br/>9.17.1<br/>A<br/>9.17.2<br/>A<br/>9.17.3<br/>C<br/>9.17.4<br/>1300<br/>9.18.1<br/>D<br/>9.18.2<br/>B<br/>9.19.1<br/>A<br/>9.20.1<br/>D<br/>9.20.2<br/>A<br/>9.20.3<br/>B<br/>9.21.1<br/>C<br/>9.22.1<br/>D<br/>9.22.2<br/>C<br/>9.22.3<br/>C<br/>9.23.1<br/>B<br/>9.24.1<br/>8<br/>9.24.2<br/>C<br/>9.24.3<br/>B<br/>9.24.4<br/>C<br/>9.24.5<br/>B<br/>9.24.6<br/>A<br/>9.24.7<br/>C<br/>9.25.1<br/>6<br/>9.25.2<br/>A<br/>9.25.3<br/>D<br/>9.25.4<br/>A<br/>9.25.5<br/>A<br/>9.26.1<br/>A<br/>9.27.1<br/>140<br/>9.27.2<br/>C<br/>9.27.3<br/>C<br/>9.27.4<br/>B<br/>9.27.5<br/>B<br/>9.28.1<br/>B<br/>9.28.2<br/>C<br/>9.28.3<br/>A<br/>9.28.4<br/>C<br/>9.28.5<br/>C<br/>9.28.6<br/>D<br/>9.29.1<br/>C<br/>9.30.1<br/>B<br/>9.30.2<br/>C<br/>9.30.3<br/>C<br/>9.30.4<br/>A<br/>9.31.1<br/>C<br/>9.32.1<br/>D<br/>9.33.1<br/>B<br/>9.34.1<br/>B<br/>9.34.2<br/>C<br/>9.34.3<br/>C<br/>9.34.4<br/>B<br/>9.34.5<br/>D<br/>9.35.1<br/>C<br/>9.35.2<br/>A<br/>9.35.3<br/>C<br/>9.35.4<br/>B<br/>9.36.1<br/>A<br/>9.36.2<br/>X<br/>9.37.1<br/>96<br/>9.37.2<br/>B<br/>9.37.3<br/>D<br/>9.37.4<br/>B<br/>9.37.5<br/>C<br/>9.37.6<br/>D<br/>9.37.7<br/>A<br/>9.37.8<br/>A<br/>9.37.9<br/>D<br/>9.38.1<br/>850<br/>9.38.2<br/>D<br/>9.38.3<br/>C<br/>9.38.4<br/>A<br/>9.38.5<br/>B<br/>9.38.6<br/>D<br/>9.38.7<br/>C<br/>9.38.8<br/>D<br/>9.39.1<br/>A<br/>9.39.2<br/>B<br/>9.39.3<br/>B<br/>9.39.4<br/>B<br/>9.40.1<br/>32<br/>9.40.2<br/>C<br/>9.40.3<br/>D<br/>9.40.4<br/>B<br/>9.40.5<br/>D<br/>9.41.1<br/>B<br/>9.42.1<br/>C<br/>9.43.1<br/>B<br/>9.44.1<br/>D<br/>9.44.2<br/>A<br/>9.44.3<br/>C<br/>9.44.4<br/>D</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1569/gate-cse-2013-question-65"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2010 | Question: 56</strong></div><p>Choose the most appropriate word from the options given below to complete the following sentence:<br/>His rather casual remarks on politics ________ his lack of seriousness about the subject.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2364/gate-cse-2010-question-56"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2010 | Question: 58</strong></div><p>Choose the most appropriate word from the options given below to complete the following sentence:<br/>If we manage to __________ our natural resources, we would leave a better planet for our children.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2364/gate-cse-2010-question-56"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2011 | Question: 58</strong></div><p>Choose the most appropriate word(s) from the options given below to complete the following sentence.<br/>I contemplated _________ Singapore for my vacation but decided against it.<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2167/gate-cse-2011-question-58"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2011 | Question: 59</strong></div><p>Choose the most appropriate word from the options given below to complete the following sentence.<br/>If you are trying to make a strong impression on your audience, you cannot do so by being<br/>understated, tentative or ________.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2167/gate-cse-2011-question-58"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2012 | Question: 57</strong></div><p>Choose the most appropriate alternative from the options given below to complete the following sentence:<br/>Despite several _________ the mission succeeded in its attempt to resolve the conflict.<br/>verbal-aptitude<br/>easy<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2195/gate-cse-2012-question-57"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2012 | Question: 60</strong></div><p>Choose the most appropriate alternative from the options given below to complete the following sentence:<br/>Suresh’s dog is the one ________ was hurt in the stampede.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2195/gate-cse-2012-question-57"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2014 | Set 1 | GA | Question: 2</strong></div><p>Choose the most appropriate word from the options given below to complete the following sentence.<br/>She could not understand the judges awarding her the ﬁrst prize, because she thought that her performance was<br/>quite _________.<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2167/gate-cse-2011-question-58"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2014 | Set 2 | GA | Question: 1</strong></div><p>Choose the most appropriate phrase from the options given below to complete the following sentence.<br/>India is a post-colonial country because</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2167/gate-cse-2011-question-58"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2015 | Set 2 | GA | Question: 4</strong></div><p>A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is<br/>verbal-aptitude<br/>easy<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2015 | Set 3 | GA | Question: 3</strong></div><p>Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student<br/>that they close their minds to anything ___________ to the requirements of the exam.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2016 | Set 1 | GA | Question: 03</strong></div><p>Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the<br/>world.\"<br/>The sentence above is an example of a ____________ statement.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2017 | Set 1 | GA | Question: 2</strong></div><p>Research in the workplace reveals that people work for many reasons _______________ .<br/>general-aptitude<br/>verbal-aptitude<br/>english-grammar<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2018 | GA | Question: 1</strong></div><p>\"From where are they bringing their books? _______ bringing _______ books from ________\"<br/>The words that best fill the blanks in the above sentence are<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2018 | GA | Question: 2</strong></div><p>A ________ investigation can sometimes yield new facts, but typically organized ones are more successful.<br/>The word that best fills the blank in the above sentence is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-ga-question-4"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2019 | GA | Question: 1</strong></div><p>The expenditure on the project _____ as follows: equipment Rs.<br/>lakhs, salaries Rs.<br/>lakhs, and<br/>contingency Rs.<br/>lakhs.<br/>general-aptitude<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2019 | GA | Question: 2</strong></div><p>The search engine’s business model ____ around the fulcrum of trust.<br/>general-aptitude<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2019 | GA | Question: 5</strong></div><p>A court is to a judge as _________ is to a teacher<br/>general-aptitude<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2022 | GA | Question: 1</strong></div><p>The ____________ is too high for it to be considered _____________.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2023 | GA | Question: 1</strong></div><p>We reached the station late, and _______ missed the train.<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2024 | Set 1 | GA | Question: 1</strong></div><p>If '<br/>' denotes increasing order of intensity, then the meaning of the words<br/>[dry<br/>arid<br/>parched] is analogous to [diet<br/>fast<br/>________ ].<br/>Which one of the given options is appropriate to fill the blank?<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2024 | Set 1 | GA | Question: 6</strong></div><p>In the given text, the blanks are numbered<br/>. Select the best match for all the blanks.<br/>Steve was advised to keep his head<br/>(i)<br/>before heading<br/>(ii)<br/>to bat; for, while he had a head<br/>(iii)<br/>batting,<br/>he could only do so with a cool head<br/>iv<br/>his shoulders.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302872/gate-cse-2019-ga-question-1"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2024 | Set 2 | GA | Question: 1</strong></div><p>If '<br/>' denotes increasing order of intensity, then the meaning of the words [walk<br/>jog<br/>sprint] is<br/>analogous to [bothered<br/>________<br/>daunted].<br/>Which one of the given options is appropriate to fill the blank?<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422906/gate-cse-2024-set-2-ga-question-1"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2025 | Set 1 | GA | Question: 2</strong></div><p>The CEO's decision to downsize the workforce was considered<br/>because it sacriﬁced long-term<br/>stability to accommodate short-term gains.<br/>Select the most appropriate option that can replace the word \"myopic\" without changing the meaning of the<br/>sentence.<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422906/gate-cse-2024-set-2-ga-question-1"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE CSE 2025 | Set 2 | GA | Question: 1</strong></div><p>Despite his initial hesitation, Rehman's ____________ to contribute to the success of the project never<br/>wavered.<br/>Select the most appropriate option to complete the above sentence.<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422906/gate-cse-2024-set-2-ga-question-1"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Most Appropriate Word",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Most Appropriate Word: GATE DA 2025 | GA | Question: 1</strong></div><p>​​​​<br/>Courage : Bravery :: Yearning : _________.<br/>Select the most appropriate option to complete the analogy.<br/>gateda-2025<br/>verbal-aptitude<br/>most-appropriate-word<br/>easy<br/>Most Appropriate Word: GATE DS&AI 2024 | GA | Question: 1<br/>If '<br/>' denotes increasing order of intensity, then the meaning of the words [sick<br/>inﬁrm<br/>moribund] is<br/>analogous to [silly<br/>daft].<br/>Which one of the given options is appropriate to fill the blank?<br/>gate-ds-ai-2024<br/>verbal-aptitude<br/>most-appropriate-word</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422906/gate-cse-2024-set-2-ga-question-1"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2010 | Question: 63</strong></div><p>Modern warfare has changed from large scale clashes of armies to suppression of civilian<br/>populations. Chemical agents that do their work silently appear to be suited to such warfare; and<br/>regretfully, there exist people in military establishments who think that chemical agents are useful tools for<br/>their cause.<br/>Which of the following statements best sums up the meaning of the above passage:<br/>A<br/>.<br/>Modern warfare has resulted in civil strife.<br/>B<br/>.<br/>Chemical agents are useful in modern warfare.<br/>C<br/>.<br/>Use of chemical agents in warfare would be undesirable.<br/>D<br/>.<br/>People in military establishments like to use chemical agents in war.<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2371/gate-cse-2010-question-63"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2011 | Question: 61</strong></div><p>Few school curricula include a unit on how to deal with bereavement and grief, and yet all students<br/>at some point in their lives suffer from losses through death and parting.<br/>Based on the above passage which topic would not be included in a unit on bereavement?<br/>A<br/>.<br/>how to write a letter of condolence<br/>B<br/>.<br/>what emotional stages are passed through in the healing process<br/>C<br/>.<br/>what the leading causes of death are<br/>D<br/>.<br/>how to give support to a grieving friend<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2171/gate-cse-2011-question-61"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2013 | Question: 63</strong></div><p>After several defeats in wars, Robert Bruce went in exile and wanted to commit suicide. Just before<br/>committing suicide, he came across a spider attempting tirelessly to have its net. Time and again, the spider<br/>failed but that did not deter it to refrain from making attempts. Such attempts by the spider made Bruce curious.<br/>Thus, Bruce started observing the near-impossible goal of the spider to have the net. Ultimately, the spider<br/>succeeded in having its net despite several failures. Such act of the spider encouraged Bruce not to commit<br/>suicide. And then, Bruce went back again and won many a battle, and the rest is history.<br/>Which one of the following assertions is best supported by the above information?<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2371/gate-cse-2010-question-63"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2014 | Set 1 | GA | Question: 6</strong></div><p>The Palghat Gap (or Palakkad Gap) , a region about<br/>wide in the southern part of the Western Ghats<br/>in India, is lower than the hilly terrain to its north and south. The exact reasons for the formation of this gap<br/>are not clear. It results in the neighbouring regions of Tamil Nadu getting more rainfall from the South West<br/>monsoon and the neighbouring regions of Kerala having higher summer temperatures.<br/>What can be inferred from this passage?<br/>Select one:<br/>A<br/>.<br/>The Palghat gap is caused by high rainfall and high temperatures in southern Tamil Nadu and Kerala<br/>B<br/>.<br/>The regions in Tamil Nadu and Kerala that are near the Palghat Gap are low-lying<br/>C<br/>.<br/>The low terrain of the Palghat Gap has a signiﬁcant impact on weather patterns in neighbouring parts of Tamil<br/>Nadu and Kerala<br/>D<br/>.<br/>Higher summer temperatures result in higher rainfall near the Palghat Gap area<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/774/gate-cse-2014-set-1-ga-question-6"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2014 | Set 2 | GA | Question: 6</strong></div><p>The old city of Koenigsberg, which had a German majority population before World War 2, is now called<br/>Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly<br/>Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west<br/>and Lithuania to the east respectively. Which of the statements below can be inferred from this passage?<br/>A<br/>.<br/>Kaliningrad was historically Russian in its ethnic make up<br/>B<br/>.<br/>Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia<br/>C<br/>.<br/>Koenigsberg was renamed Kaliningrad, as that was its original Russian name<br/>D<br/>.<br/>Poland and Lithuania are on the route from Kaliningrad to the rest of Russia<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/774/gate-cse-2014-set-1-ga-question-6"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2014 | Set 2 | GA | Question: 7</strong></div><p>Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is<br/>twice the number diagnosed last year. Municipal authorities have concluded that measures to control the<br/>mosquito population have failed in this region.<br/>Which one of the following statements, if true, does not contradict this conclusion?<br/>A<br/>.<br/>A high proportion of the aﬀected population has returned from neighbouring countries where dengue is<br/>prevalent<br/>B<br/>.<br/>More cases of dengue are now reported because of an increase in the Municipal Oﬃce's administrative<br/>efficiency<br/>C<br/>.<br/>Many more cases of dengue are being diagnosed this year since the introduction of a new and eﬀective<br/>diagnostic test<br/>D<br/>.<br/>The number of people with malarial fever (also contracted from mosquito bites) has increased this year<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/774/gate-cse-2014-set-1-ga-question-6"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2014 | Set 3 | GA | Question: 6</strong></div><p>A dance programme is scheduled for<br/>a.m. Some students are participating in the programme and<br/>they need to come an hour earlier than the start of the event. These students should be accompanied by a<br/>parent. Other students and parents should come in time for the programme. The instruction you think that is<br/>appropriate for this is<br/>A<br/>.<br/>Students should come at<br/>a.m. and parents should come at<br/>a.m.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/774/gate-cse-2014-set-1-ga-question-6"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2014 | Set 3 | GA | Question: 7</strong></div><p>By the beginning of the<br/>century, several hypotheses were being proposed, suggesting a paradigm shift<br/>in our understanding of the universe. However, the clinching evidence was provided by experimental<br/>measurements of the position of a star which was directly behind our sun.<br/>Which of the following inference(s) may be drawn from the above passage?<br/>i<br/>.<br/>Our understanding of the universe changes based on the positions of stars<br/>ii<br/>.<br/>Paradigm shifts usually occur at the beginning of centuries<br/>iii<br/>.<br/>Stars are important objects in the universe<br/>iv<br/>.<br/>Experimental evidence was important in confirming this paradigm shift<br/>verbal-aptitude<br/>passage-reading<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2031/gate-cse-2014-set-3-ga-question-7"
+    }
+  ]
+}

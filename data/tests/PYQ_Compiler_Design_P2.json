@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Compiler_Design_P2",
+  "fileName": "PYQ_Compiler_Design_P2.json",
+  "title": "GATE Official PYQs | Compiler Design Part 2",
+  "subject": "Compiler Design",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Expression Evaluation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expression Evaluation: GATE CSE 2014 | Set 2 | Question: 39</strong></div><p>Consider the expression tree shown. Each leaf represents a numerical value, which can either be<br/>or<br/>.<br/>Over all possible choices of the values at the leaves, the maximum possible value of the expression<br/>represented by the tree is ___.<br/>compiler-design<br/>expression-evaluation<br/>First and Follow<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/849/gate-cse-2002-question-2-19"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 1992 | Question: 02,xiii</strong></div><p>For a context free grammar, FOLLOW(A) is the set of terminals that can appear immediately to the right of<br/>non-terminal<br/>in some \"sentential\" form. We deﬁne two sets LFOLLOW(A) and RFOLLOW(A) by replacing<br/>the word \"sentential\" by \"left sentential\" and \"right most sentential\" respectively in the definition of FOLLOW (A).<br/>parsing<br/>compiler-design<br/>multiple-selects<br/>first-and-follow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/849/gate-cse-2002-question-2-19"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 2012 | Question: 52</strong></div><p>For the grammar below, a partial<br/>parsing table is also presented along with the grammar. Entries that</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2181/gate-cse-2012-question-52"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 2017 | Set 1 | Question: 17</strong></div><p>Consider the following grammar:<br/>What is FOLLOW(<br/>)?<br/>compiler-design<br/>parsing<br/>easy<br/>first-and-follow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118297/gate-cse-2017-set-1-question-17"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 2019 | Question: 19</strong></div><p>Consider the grammar given below:</p></div>",
+      "options": [],
+      "correctAnswer": "31",
+      "discussUrl": "https://gateoverflow.in/302829/gate-cse-2019-question-19"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 2024 | Set 1 | Question: 28</strong></div><p>Consider the following grammar<br/>, with<br/>as the start symbol. The grammar<br/>has three incomplete<br/>productions denoted by<br/>, and<br/>.<br/>The set of terminals is<br/>. The FIRST and FOLLOW sets of the different non-terminals are as follows.<br/>Which one of the following options CORRECTLY fills in the incomplete productions?<br/>A<br/>.<br/>(1)<br/>(2)<br/>(3)<br/>B<br/>.<br/>(1)<br/>(2)<br/>(3)<br/>C<br/>.<br/>(1)<br/>(2)<br/>(3)<br/>D<br/>.<br/>(1)<br/>(2)<br/>(3)<br/>compiler-design<br/>first-and-follow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "First and Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First and Follow: GATE CSE 2025 | Set 1 | Question: 36</strong></div><p>Which of the following statement(s) is/are TRUE while computing<br/>and<br/>during top down parsing<br/>by a compiler?<br/>A<br/>.<br/>For a production<br/>will be added to<br/>.<br/>B<br/>.<br/>If there is any input right end marker, it will be added to<br/>, where<br/>is the start symbol.<br/>C<br/>.<br/>For a production<br/>will be added to Follow<br/>.<br/>D<br/>.<br/>If there is any input right end marker, it will be added to<br/>, where<br/>is the start symbol.<br/>compiler-design<br/>first-and-follow<br/>parsing<br/>multiple-selects<br/>Grammar<br/>(47)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1988 | Question: 10ia</strong></div><p>Consider the following grammar:<br/>Construct the collection of sets of<br/>items for this grammar and draw its goto graph.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94390/gate-cse-1988-question-10ia"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1988 | Question: 10ib</strong></div><p>Consider the following grammar:<br/>Indicate the shift-reduce and reduce-reduce conflict (if any) in the various states of the<br/>parser.<br/>compiler-design<br/>descriptive<br/>grammar<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94391/gate-cse-1988-question-10ib"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1990 | Question: 16a</strong></div><p>Show that grammar<br/>is ambiguous using parse trees:<br/>if<br/>then<br/>else<br/>if<br/>then<br/>descriptive<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/86869/gate-cse-1990-question-16a"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1991 | Question: 10b</strong></div><p>Consider the following grammar for arithmetic expressions using binary operators<br/>and<br/>which are not<br/>associative<br/>(<br/>is the start symbol)<br/>Does the grammar allow expressions with redundant parentheses as in<br/>or in<br/>? If so, convert<br/>the grammar into one which does not generate expressions with redundant parentheses. Do this with minimum<br/>number of changes to the given production rules and adding at most one more production rule.<br/>grammar<br/>compiler-design<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94391/gate-cse-1988-question-10ib"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1991 | Question: 10c</strong></div><p>Consider the following grammar for arithmetic expressions using binary operators<br/>and<br/>which are not<br/>associative<br/>(<br/>is the start symbol)<br/>Does the grammar allow expressions with redundant parentheses as in<br/>or in<br/>? If so, convert<br/>the grammar into one which does not generate expressions with redundant parentheses. Do this with minimum<br/>number of changes to the given production rules and adding at most one more production rule.<br/>Convert the grammar obtained above into one that is not left recursive.<br/>grammar<br/>compiler-design<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94391/gate-cse-1988-question-10ib"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1992 | Question: 02,xviii</strong></div><p>If<br/>is a context free grammar and<br/>is a string of length<br/>in<br/>, how long is a derivation of<br/>in<br/>, if<br/>is in Chomsky normal form?<br/>compiler-design<br/>easy<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1994 | Question: 1.18</strong></div><p>Which of the following features cannot be captured by context-free grammars?<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1994 | Question: 20</strong></div><p>A grammar<br/>is in Chomsky-Normal Form (CNF) if all its productions are of the form<br/>or<br/>,<br/>where<br/>and<br/>, are non-terminals and<br/>is a terminal. Suppose<br/>is a CFG in CNF and<br/>is a string in<br/>of length<br/>, then how long is a derivation of<br/>in<br/>?<br/>compiler-design<br/>grammar<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2461/gate-cse-1994-question-1-18"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1994 | Question: 3.5</strong></div><p>Match the following items<br/>compiler-design<br/>grammar<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1995 | Question: 1.10</strong></div><p>Consider a grammar with the following productions<br/>The above grammar is:<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1995 | Question: 9</strong></div><p></p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1996 | Question: 11</strong></div><p>Let<br/>be a context-free grammar where<br/>with the productions in<br/>given below.<br/>(<br/>denotes the null string). Transform the grammar<br/>to an equivalent context-free grammar<br/>that has no<br/>productions and no unit productions. (A unit production is of the form<br/>, and<br/>and<br/>are non terminals).<br/>compiler-design<br/>grammar<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2763/gate-cse-1996-question-11"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1996 | Question: 2.10</strong></div><p>The grammar whose productions are<br/>is ambiguous because<br/>(a) the sentence<br/>if<br/>a<br/>then<br/>if<br/>b<br/>then<br/>c<br/>:=<br/>d<br/>has more than two parse trees<br/>(b) the left most and right most derivations of the sentence<br/>if<br/>a<br/>then<br/>if<br/>b<br/>then<br/>c<br/>:=<br/>d<br/>give rise to different parse trees<br/>(c) the sentence<br/>if<br/>a<br/>then<br/>if<br/>b<br/>then<br/>c<br/>:=<br/>d<br/>else<br/>c<br/>:=<br/>f<br/>has more than two parse trees<br/>(d) the sentence<br/>if<br/>a<br/>then<br/>if<br/>b<br/>then<br/>c<br/>:=<br/>d<br/>else<br/>c<br/>:=<br/>f<br/>has two parse trees<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2763/gate-cse-1996-question-11"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1997 | Question: 11</strong></div><p>Consider the grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2763/gate-cse-1996-question-11"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1998 | Question: 14</strong></div><p>A<br/>.<br/>Let<br/>be a CFG where,<br/>and<br/>is given by<br/>What is<br/>?<br/>B<br/>.<br/>Use the grammar in Part(a) to give a CFG for<br/>by adding not<br/>more than<br/>production rules.<br/>C<br/>.<br/>Is<br/>inherently ambiguous?<br/>compiler-design<br/>grammar<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1728/gate-cse-1998-question-14"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1998 | Question: 6b</strong></div><p>Consider the grammar<br/>S<br/>A<br/>Construct an equivalent grammar with no left recursion and with minimum number of production rules.<br/>compiler-design<br/>grammar<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1728/gate-cse-1998-question-14"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 1999 | Question: 2.15</strong></div><p>A grammar that is both left and right recursive for a non-terminal, is<br/>A<br/>.<br/>Ambiguous<br/>B<br/>.<br/>Unambiguous<br/>C<br/>.<br/>Information is not sufficient to decide whether it is ambiguous or unambiguous<br/>D<br/>.<br/>None of the above<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1728/gate-cse-1998-question-14"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2001 | Question: 1.18</strong></div><p>Which of the following statements is false?<br/>A<br/>.<br/>An unambiguous grammar has same leftmost and rightmost derivation<br/>B<br/>.<br/>An LL(1) parser is a top-down parser<br/>C<br/>.<br/>LALR is more powerful than SLR<br/>D<br/>.<br/>An ambiguous grammar can never be LR(k) for any k<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/711/gate-cse-2001-question-1-18"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2001 | Question: 18</strong></div><p>A<br/>.<br/>Remove left-recursion from the following grammar:<br/>B<br/>.<br/>Consider the following grammar:<br/>Construct all possible parse trees for the string abab. Is the grammar ambiguous?<br/>compiler-design<br/>grammar<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/711/gate-cse-2001-question-1-18"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2003 | Question: 56</strong></div><p>Consider the grammar shown below<br/>In the predictive parse table,<br/>of this grammar, the entries<br/>and<br/>respectively are<br/>A<br/>.<br/>and<br/>B<br/>.<br/>and<br/>C<br/>.<br/>and<br/>D<br/>.<br/>} and<br/>compiler-design<br/>grammar<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/944/gate-cse-2003-question-56"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2003 | Question: 57</strong></div><p>Consider the grammar shown below.<br/>This grammar is<br/>compiler-design<br/>grammar<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/944/gate-cse-2003-question-56"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2003 | Question: 58</strong></div><p>Consider the translation scheme shown below.<br/>num<br/>(<br/>num.<br/>val)<br/>Here<br/>num<br/>is a token that represents an integer and<br/>num<br/>.val represents the corresponding integer value. For an<br/>input string ‘<br/>’, this translation scheme will print<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/946/gate-cse-2003-question-58"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2004 | Question: 8</strong></div><p>Which of the following grammar rules violate the requirements of an operator grammar?<br/>are<br/>nonterminals, and<br/>are terminals.<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/946/gate-cse-2003-question-58"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2004 | Question: 88</strong></div><p>Consider the following grammar G:<br/>Let<br/>and<br/>denote the number of a’s and b’s in a string<br/>respectively.<br/>The language<br/>over<br/>generated by<br/>is<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1005/gate-cse-2004-question-8"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2005 | Question: 14</strong></div><p>The grammar<br/>is not suitable for predictive-parsing because the grammar is:<br/>compiler-design<br/>parsing<br/>grammar<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1350/gate-cse-2005-question-14"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2005 | Question: 59</strong></div><p>Consider the grammar:<br/>For a sentence<br/>, the handles in the right-sentential form of the reduction are:<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1382/gate-cse-2005-question-59"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2006 | Question: 32, ISRO2016-35</strong></div><p>Consider the following statements about the context free grammar<br/>I<br/>.<br/>is ambiguous<br/>II<br/>.<br/>produces all strings with equal number of<br/>’s and<br/>’s<br/>III<br/>.<br/>can be accepted by a deterministic PDA.<br/>Which combination below expresses all the true statements about<br/>?<br/>compiler-design<br/>grammar<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/995/gate-cse-2006-question-32-isro2016-35"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2006 | Question: 59</strong></div><p>Consider the following translation scheme.<br/>Here<br/>is a token that represents an integer and<br/>represents the corresponding integer value. For an<br/>input<br/>this translation scheme prints<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1382/gate-cse-2005-question-59"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2006 | Question: 84</strong></div><p>Which one of the following grammars generates the language<br/>?<br/>compiler-design<br/>grammar<br/>theory-of-computation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/995/gate-cse-2006-question-32-isro2016-35"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2006 | Question: 85</strong></div><p>The grammar<br/>generates the language<br/>. In this grammar what is the length of the derivation (number of steps<br/>starting from<br/>) to generate the string<br/>with<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/79801/gate-cse-2006-question-85"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2007 | Question: 52</strong></div><p>Consider the grammar with non-terminals<br/>, terminals<br/>, with<br/>as the<br/>start symbol, and the following set of rules:<br/>The grammar is NOT LL(1) because:<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1250/gate-cse-2007-question-52"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2007 | Question: 53</strong></div><p>Consider the following two statements:<br/>P: Every regular grammar is LL(1)<br/>Q: Every regular set has a LR(1) grammar<br/>Which of the following is<br/>TRUE<br/>?<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1250/gate-cse-2007-question-52"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammar: GATE CSE 2007 | Question: 78</strong></div><p>Consider the CFG with<br/>as the non-terminal alphabet,<br/>as the terminal alphabet,<br/>as the<br/>start symbol and the following set of production rules:<br/>Which of the following strings is generated by the grammar?<br/>compiler-design<br/>grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1250/gate-cse-2007-question-52"
+    }
+  ]
+}

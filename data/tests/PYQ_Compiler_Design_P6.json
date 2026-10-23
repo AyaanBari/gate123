@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Compiler_Design_P6",
+  "fileName": "PYQ_Compiler_Design_P6.json",
+  "title": "GATE Official PYQs | Compiler Design Part 6",
+  "subject": "Compiler Design",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1995 | Question: 1.14</strong></div><p>A linker is given object modules for a set of programs that were compiled separately. What information need<br/>not be included in an object module?<br/>A<br/>.<br/>Object code<br/>B<br/>.<br/>Relocation bits<br/>C<br/>.<br/>Names and locations of all external symbols defined in the object module<br/>D<br/>.<br/>Absolute addresses of internal symbols<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2601/gate-cse-1995-question-1-14"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1996 | Question: 2.17</strong></div><p>The correct matching for the following pairs is<br/>compiler-design<br/>easy<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2601/gate-cse-1995-question-1-14"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1997 | Question: 1.10</strong></div><p>Heap allocation is required for languages.<br/>compiler-design<br/>easy<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2601/gate-cse-1995-question-1-14"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1997 | Question: 1.8</strong></div><p>A language<br/>allows declaration of arrays whose sizes are not known during compilation. It is required to<br/>make efficient use of memory. Which one of the following is true?<br/>A<br/>.<br/>A compiler using static memory allocation can be written for<br/>B<br/>.<br/>A compiler cannot be written for<br/>; an interpreter must be used<br/>C<br/>.<br/>A compiler using dynamic memory allocation can be written for<br/>D<br/>.<br/>None of the above<br/>compiler-design<br/>easy<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2601/gate-cse-1995-question-1-14"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1998 | Question: 1.25, ISRO2008-41</strong></div><p>In a resident – OS computer, which of the following systems must reside in the main memory under all<br/>situations?<br/>compiler-design<br/>runtime-environment<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2601/gate-cse-1995-question-1-14"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1998 | Question: 1.28</strong></div><p>A linker reads four modules whose lengths are<br/>and<br/>words, respectively. If they are<br/>loaded in that order, what are the relocation constants?<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1665/gate-cse-1998-question-1-28"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1998 | Question: 2.15</strong></div><p>Faster access to non-local variables is achieved using an array of pointers to activation records called a<br/>programming<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1665/gate-cse-1998-question-1-28"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2001 | Question: 1.17</strong></div><p>The process of assigning load addresses to the various parts of the program and adjusting the code and the<br/>data in the program to reflect the assigned addresses is called<br/>compiler-design<br/>runtime-environment<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1665/gate-cse-1998-question-1-28"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2002 | Question: 2.20</strong></div><p>Dynamic linking can cause security concerns because<br/>A<br/>.<br/>Security is dynamic<br/>B<br/>.<br/>The path for searching dynamic libraries is not known till runtime<br/>C<br/>.<br/>Linking is insecure<br/>D<br/>.<br/>Cryptographic procedures are not available for dynamic linking<br/>compiler-design<br/>runtime-environment<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1665/gate-cse-1998-question-1-28"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2008 | Question: 54</strong></div><p>Which of the following are true?<br/>I<br/>.<br/>A programming language which does not permit global variables of any kind and has no nesting of<br/>procedures/functions, but permits recursion can be implemented with static storage allocation<br/>II<br/>.<br/>Multi-level access link (or display) arrangement is needed to arrange activation records only if the programming<br/>language being implemented has nesting of procedures/functions<br/>III<br/>.<br/>Recursion in programming languages cannot be implemented with dynamic storage allocation<br/>IV<br/>.<br/>Nesting procedures/functions and recursion require a dynamic heap allocation scheme and cannot be<br/>implemented with a stack-based allocation scheme for activation records<br/>V<br/>.<br/>Programming languages which permit a function to return a function as its result cannot be implemented with a<br/>stack-based storage allocation scheme for activation records<br/>compiler-design<br/>difficult<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/477/gate-cse-2008-question-54"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2010 | Question: 14</strong></div><p>Which languages necessarily need heap allocation in the runtime environment?<br/>compiler-design<br/>easy<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2187/gate-cse-2010-question-14"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2012 | Question: 36</strong></div><p>Consider the program given below, in a block-structured pseudo-language with lexical scoping and nesting<br/>of procedures permitted.<br/>Program<br/>main<br/>;<br/>Var<br/>...<br/>Procedure<br/>A1<br/>;<br/>Var<br/>...<br/>Call<br/>A2<br/>;<br/>End<br/>A1<br/>Procedure<br/>A2<br/>;<br/>Var<br/>...<br/>Procedure<br/>A21<br/>;<br/>Var<br/>...<br/>Call<br/>A1<br/>;<br/>End<br/>A21<br/>Call<br/>A21<br/>;<br/>End<br/>A2<br/>Call<br/>A1<br/>;<br/>End<br/>main<br/>.<br/>Consider the calling chain<br/>The correct set of activation records along with their access links is given by:<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1758/gate-cse-2012-question-36"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2014 | Set 2 | Question: 18</strong></div><p>Which one of the following is<br/>NOT<br/>performed during compilation?<br/>compiler-design<br/>easy<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2187/gate-cse-2010-question-14"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2014 | Set 3 | Question: 18</strong></div><p>Which of the following statements are CORRECT?<br/>1<br/>.<br/>Static allocation of all data areas by a compiler makes it impossible to implement recursion.<br/>2<br/>.<br/>Automatic garbage collection is essential to implement recursion.<br/>3<br/>.<br/>Dynamic allocation of activation records is essential to implement recursion.<br/>4<br/>.<br/>Both heap and stack are essential to implement recursion.<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2052/gate-cse-2014-set-3-question-18"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2021 | Set 1 | Question: 4</strong></div><p>Consider the following statements.<br/>The sequence of procedure calls corresponds to a preorder traversal of the activation tree.<br/>The sequence of procedure returns corresponds to a postorder traversal of the activation tree.<br/>Which one of the following options is correct?<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2052/gate-cse-2014-set-3-question-18"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2023 | Question: 26</strong></div><p>Consider the following program:<br/>int<br/>main<br/>()<br/>{<br/>f1<br/>();<br/>f2<br/>(<br/>2<br/>);<br/>f3<br/>();<br/>return<br/>(<br/>0<br/>);<br/>}<br/>int<br/>f1<br/>()<br/>{<br/>return<br/>(<br/>1<br/>);<br/>}<br/>int<br/>f2<br/>(<br/>int<br/>X<br/>)<br/>{<br/>f3<br/>();<br/>if<br/>(<br/>X<br/>==<br/>1<br/>);<br/>return<br/>f1<br/>();<br/>else<br/>return<br/>(<br/>X<br/>*<br/>f2<br/>(<br/>X<br/>-<br/>1<br/>));<br/>}<br/>int<br/>f3<br/>()<br/>{<br/>return<br/>(<br/>5<br/>);<br/>}<br/>Which one of the following options represents the activation tree corresponding to the main function?<br/>compiler-design<br/>runtime-environment<br/>Static Single Assignment<br/>(3)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399285/gate-cse-2023-question-26"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Static Single Assignment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Static Single Assignment: GATE CSE 2015 | Set 1 | Question: 55</strong></div><p>The least number of temporary variables required to create a three-address code in static single assignment<br/>form for the expression<br/>is__________________.<br/>compiler-design<br/>intermediate-code<br/>static-single-assignment</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Static Single Assignment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Static Single Assignment: GATE CSE 2016 | Set 1 | Question: 19</strong></div><p>Consider the following code segment.<br/>x<br/>=<br/>u<br/>-<br/>t<br/>;<br/>y<br/>=<br/>x<br/>*<br/>v<br/>;<br/>x<br/>=<br/>y<br/>+<br/>w<br/>;<br/>y<br/>=<br/>t<br/>-<br/>z<br/>;<br/>y<br/>=<br/>x<br/>*<br/>y<br/>;<br/>The minimum number of<br/>total<br/>variables required to convert the above code segment to<br/>static single assignment<br/>form is __________.<br/>compiler-design<br/>static-single-assignment</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Static Single Assignment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Static Single Assignment: GATE CSE 2017 | Set 1 | Question: 12</strong></div><p>Consider the following intermediate program in three address code<br/>p<br/>=<br/>a<br/>-<br/>b<br/>q<br/>=<br/>p<br/>*<br/>c<br/>p<br/>=<br/>u<br/>*<br/>v<br/>q<br/>=<br/>p<br/>+<br/>q<br/>Which one of the following corresponds to a<br/>static single assignment<br/>form of the above code?<br/>compiler-design<br/>intermediate-code<br/>static-single-assignment<br/>Symbol Table<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Symbol Table",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Symbol Table: GATE CSE 2025 | Set 1 | Question: 2</strong></div><p>Which ONE of the following statements is<br/>FALSE<br/>regarding the symbol table?<br/>A<br/>.<br/>Symbol table is responsible for keeping track of the scope of variables.<br/>B<br/>.<br/>Symbol table can be implemented using a binary search tree.<br/>C<br/>.<br/>Symbol table is not required after the parsing phase.<br/>D<br/>.<br/>Symbol table is created during the lexical analysis phase.<br/>compiler-design<br/>symbol-table<br/>easy<br/>Syntax Directed Translation<br/>(19)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 1992 | Question: 11a</strong></div><p>Write syntax directed deﬁnitions (semantic rules) for the following grammar to add the type of each identiﬁer<br/>to its entry in the symbol table during semantic analysis. Rewriting the grammar is not permitted and<br/>semantic rules are to be added to the ends of productions only.<br/>compiler-design<br/>syntax-directed-translation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/590/gate-cse-1992-question-11a"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 1995 | Question: 2.10</strong></div><p>A shift reduce parser carries out the actions speciﬁed within braces immediately after reducing with the<br/>corresponding rule of grammar<br/>What is the translation of<br/>using the syntax directed translation scheme described by the above rules?<br/>compiler-design<br/>grammar<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/590/gate-cse-1992-question-11a"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 1996 | Question: 20</strong></div><p>Consider the syntax-directed translation schema (SDTS) shown below:<br/>{print “+”}<br/>{print “.”}<br/>{print id.name}<br/>An LR-parser executes the actions associated with the productions immediately after a reduction by the<br/>corresponding production. Draw the parse tree and write the translation for the sentence.<br/>, using SDTS given above.<br/>compiler-design<br/>syntax-directed-translation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2772/gate-cse-1996-question-20"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 1998 | Question: 23</strong></div><p>Let the attribute ‘<br/>’ give the value of a binary number generated by<br/>in the following grammar:<br/>For example, an input<br/>gives<br/>Construct a syntax directed translation scheme using only synthesized attributes, to determine<br/>.<br/>compiler-design<br/>syntax-directed-translation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1738/gate-cse-1998-question-23"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2000 | Question: 19</strong></div><p>Consider the syntax directed translation scheme<br/>given in the following. Assume attribute evaluation<br/>with bottom-up parsing, i.e., attributes are evaluated immediately after a reduction.<br/>A<br/>.<br/>Using this<br/>construct a parse tree for the expression<br/>and also compute its<br/>.<br/>B<br/>.<br/>It is required to compute the total number of reductions performed to parse a given input. Using synthesized<br/>attributes only, modify the<br/>given, without changing the grammar, to ﬁnd<br/>, the number of<br/>reductions performed while reducing an input to<br/>.<br/>compiler-design<br/>syntax-directed-translation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/690/gate-cse-2000-question-19"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2001 | Question: 17</strong></div><p>The syntax of the repeat-until statement is given by the following grammar<br/>where E stands for expressions,<br/>and<br/>stand for statements. The non-terminals<br/>and<br/>have an attribute<br/>code that represents generated code. The non-terminal E has two attributes. The attribute code represents<br/>generated code to evaluate the expression and store its value in a  distinct variable, and the attribute varName<br/>contains the name of the variable in which the truth value is stored. The truth-value stored in the variable is 1 if E is<br/>true, 0 if E is false.<br/>Give a syntax-directed deﬁnition to generate three-address code for the repeat-until statement. Assume that you<br/>can call a function newlabel() that returns a distinct label for a statement. Use the operator '\\\\' to concatenate two<br/>strings and the function gen(s) to generate a line containing the string s.<br/>compiler-design<br/>syntax-directed-translation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/758/gate-cse-2001-question-17"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2003 | Question: 18</strong></div><p>In a bottom-up evaluation of a syntax directed definition, inherited attributes can<br/>A<br/>.<br/>always be evaluated<br/>B<br/>.<br/>be evaluated only if the definition is L-attributed<br/>C<br/>.<br/>be evaluated only if the definition has synthesized attributes<br/>D<br/>.<br/>never be evaluated<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/908/gate-cse-2003-question-18"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2003 | Question: 59</strong></div><p>Consider the syntax directed definition shown below.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/908/gate-cse-2003-question-18"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2004 | Question: 45</strong></div><p>Consider the grammar with the following translation rules and<br/>as the start symbol<br/>Compute E.value for the root of the parse tree for the expression:<br/>#<br/>&<br/>#<br/>&<br/>compiler-design<br/>grammar<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1042/gate-cse-2004-question-45"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2016 | Set 1 | Question: 46</strong></div><p>Consider the following Syntax Directed Translation Scheme<br/>, with non-terminals<br/>and<br/>terminals<br/>.<br/>Using the above<br/>, the output printed by a bottom-up parser, for the input<br/>is:<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1042/gate-cse-2004-question-45"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2019 | Question: 36</strong></div><p>Consider the following grammar and the semantic actions to support the inherited type declaration attributes.<br/>Let<br/>, and<br/>be the placeholders for the non-terminals<br/>or<br/>in the following<br/>table:<br/>Which one of the following are appropriate choices for<br/>and<br/>?<br/>A<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302812/gate-cse-2019-question-36"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2020 | Question: 33</strong></div><p>Consider the productions<br/>and<br/>. Each of the ﬁve non-terminals<br/>and<br/>has<br/>two attributes:<br/>is a synthesized attribute, and<br/>is an inherited attribute. Consider the following rules.<br/>Rule<br/>and<br/>Rule<br/>and<br/>Which one of the following is TRUE?<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333198/gate-cse-2020-question-33"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2021 | Set 1 | Question: 26</strong></div><p>Consider the following grammar (that admits a series of declarations, followed by expressions) and the<br/>associated syntax directed translation<br/>actions, given as pseudo-code<br/>With respect to the above grammar, which one of the following choices is correct?<br/>A<br/>.<br/>The actions can be used to correctly type-check any syntactically correct program<br/>B<br/>.<br/>The actions can be used to type-check syntactically correct integer variable declarations and integer<br/>expressions<br/>C<br/>.<br/>The actions can be used to type-check syntactically correct boolean variable declarations and boolean<br/>expressions.<br/>D<br/>.<br/>The actions will lead to an infinite loop<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333198/gate-cse-2020-question-33"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2022 | Question: 55</strong></div><p>Consider the following grammar along with translation rules.</p></div>",
+      "options": [],
+      "correctAnswer": "80",
+      "discussUrl": "https://gateoverflow.in/371881/gate-cse-2022-question-55"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2023 | Question: 50</strong></div><p>Consider the syntax directed translation given by the following grammar and semantic rules. Here<br/>and<br/>are non-terminals.<br/>is the starting non-terminal, and<br/>and<br/>are lexical tokens corresponding to<br/>input letters<br/>respectively.<br/>denotes the synthesized attribute (a numeric value)<br/>associated with a non-terminal<br/>and<br/>denote occurrences of<br/>and<br/>on the right hand side of a<br/>production, respectively. For the tokens<br/>and<br/>and<br/>.<br/>The value computed by the translation scheme for the input string<br/>is ____________. (Rounded off to three decimal places)<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [],
+      "correctAnswer": "2.375",
+      "discussUrl": "https://gateoverflow.in/399261/gate-cse-2023-question-50"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2024 | Set 1 | Question: 27</strong></div><p>​<br/>Consider the following syntax-directed definition<br/>.<br/>Given<br/>as the input, which one of the following options is the<br/>value computed by the<br/>(in the attribute<br/>)?<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399261/gate-cse-2023-question-50"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2024 | Set 2 | Question: 19</strong></div><p>​​​​​<br/>Which of the following statements is/are FALSE?<br/>A<br/>.<br/>An attribute grammar is a syntax-directed deﬁnition<br/>in which the functions in the semantic rules have no<br/>side effects<br/>B<br/>.<br/>The attributes in a<br/>-attributed definition cannot always be evaluated in a depth-first order<br/>C<br/>.<br/>Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed<br/>D<br/>.<br/>All<br/>-attributed definitions based on<br/>grammar can be evaluated using a bottom-up parsing strategy<br/>compiler-design<br/>syntax-directed-translation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/422878/gate-cse-2024-set-2-question-19"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2025 | Set 2 | Question: 12</strong></div><p>​​<br/>Given the following syntax directed translation rules:<br/>Rule 1:<br/>Rule 2:<br/>Rule 3:<br/>Which ONE is the CORRECT option among the following?<br/>A<br/>.<br/>Rule<br/>is<br/>-attributed and<br/>-attributed; Rule<br/>is<br/>-attributed and not<br/>-attributed; Rule<br/>is neither<br/>-<br/>attributed nor<br/>-attributed.<br/>B<br/>.<br/>Rule<br/>is neither<br/>-attributed not<br/>-attributed; Rule<br/>is<br/>-attributed and<br/>-attributed; Rule<br/>is<br/>-attributed<br/>and<br/>-attributed.<br/>C<br/>.<br/>Rule<br/>is neither<br/>-attributed nor<br/>-attributed; Rule<br/>is not<br/>-attributed and is<br/>-attributed; Rule<br/>is<br/>-<br/>attributed and<br/>-attributed.<br/>D<br/>.<br/>Rule<br/>is<br/>-attributed and not<br/>-attributed; Rule<br/>is not<br/>-attributed and is<br/>-attributed; Rule<br/>is<br/>-attributed<br/>and<br/>-attributed.<br/>compiler-design<br/>syntax-directed-translation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422878/gate-cse-2024-set-2-question-19"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Syntax Directed Translation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Syntax Directed Translation: GATE CSE 2026 | Set 1 | Question: 43</strong></div><p>​​​​​​<br/>Consider the following two syntax-directed definitions<br/>and<br/>for type declarations.<br/>SDD1<br/>Grammar<br/>(G1)<br/>Semantic Rules<br/>SDD2<br/>Grammar<br/>(G2)<br/>Semantic Rules</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/422878/gate-cse-2024-set-2-question-19"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Variable Scope",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Variable Scope: GATE CSE 1987 | Question: 1-xix</strong></div><p>Study the following program written in a block-structured language:<br/>Var<br/>x<br/>,<br/>y<br/>:<br/>interger<br/>;<br/>procedure P<br/>(<br/>n<br/>:<br/>interger<br/>);<br/>begin<br/>x<br/>:=(<br/>n<br/>+<br/>2<br/>)/(<br/>n<br/>-<br/>3<br/>);<br/>end<br/>;<br/>procedure Q<br/>Var<br/>x<br/>,<br/>y<br/>:<br/>interger<br/>;<br/>begin<br/>x<br/>:=<br/>3<br/>;<br/>y<br/>:=<br/>4<br/>;<br/>P<br/>(<br/>y<br/>);<br/>Write<br/>(<br/>x<br/>)<br/>__<br/>(<br/>1<br/>)<br/>end<br/>;<br/>begin<br/>x<br/>:=<br/>7<br/>;<br/>y<br/>:=<br/>8<br/>;<br/>Q<br/>;<br/>Write<br/>(<br/>x<br/>);<br/>__<br/>(<br/>2<br/>)<br/>end<br/>.<br/>What will be printed by the write statements marked<br/>and<br/>in the program if the variables are statically<br/>scoped?<br/>compiler-design<br/>variable-scope<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80373/gate-cse-1987-question-1-xix"
+    }
+  ]
+}

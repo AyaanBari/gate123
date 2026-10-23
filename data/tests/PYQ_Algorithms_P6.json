@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Algorithms_P6",
+  "fileName": "PYQ_Algorithms_P6.json",
+  "title": "GATE Official PYQs | Algorithms Part 6",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 47,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2015 | Set 3 | Question: 40</strong></div><p>Let<br/>be a connected undirected graph of<br/>vertices and<br/>edges. The weight of a minimum spanning<br/>tree of<br/>is<br/>. When the weight of each edge of<br/>is increased by ﬁve, the weight of a minimum spanning<br/>tree becomes ______.<br/>algorithms<br/>minimum-spanning-tree<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "995",
+      "discussUrl": "https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2016 | Set 1 | Question: 14</strong></div><p>Let<br/>be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is<br/>increased by the same value, then which of the following statements is/are TRUE?<br/>: Minimum spanning tree of<br/>does not change.<br/>: Shortest path between any pair of vertices does not change.<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2016 | Set 1 | Question: 39</strong></div><p>Let<br/>be a complete undirected graph on<br/>vertices, having<br/>edges with weights being<br/>and<br/>.<br/>The maximum possible weight that a minimum weight spanning tree of<br/>can have is __________<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2016 | Set 1 | Question: 40</strong></div><p>is an undirected simple graph in which each edge has a distinct weight, and<br/>is a particular<br/>edge of<br/>. Which of the following statements about the minimum spanning trees<br/>of<br/>is/are<br/>TRUE?<br/>I<br/>.<br/>If<br/>is the lightest edge of some cycle in<br/>, then every MST of<br/>includes<br/>.<br/>II<br/>.<br/>If<br/>is the heaviest edge of some cycle in<br/>, then every MST of<br/>excludes<br/>.<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2018 | Question: 47</strong></div><p>Consider the following undirected graph<br/>:<br/>Choose a value for<br/>that will maximize the number of minimum weight spanning trees (MWSTs) of<br/>. The number<br/>of MWSTs of<br/>for this value of<br/>is ____.<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/204122/gate-cse-2018-question-47"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2020 | Question: 31</strong></div><p>L e t<br/>be a weighted undirected graph and let<br/>be a Minimum Spanning Tree (MST) of<br/>maintained using adjacency lists. Suppose a new weighed edge<br/>is added to<br/>. The worst<br/>case time complexity of determining if<br/>is still an MST of the resultant graph is<br/>algorithms<br/>minimum-spanning-tree<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/333200/gate-cse-2020-question-31"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2020 | Question: 49</strong></div><p>Consider a graph<br/>, where<br/>,<br/>, and<br/>weight of the edge<br/>is<br/>. The weight of minimum spanning tree of<br/>is _________<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "99",
+      "discussUrl": "https://gateoverflow.in/333200/gate-cse-2020-question-31"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2021 | Set 1 | Question: 17</strong></div><p>Consider the following undirected graph with edge weights as shown:<br/>The number of minimum-weight spanning trees of the graph is ___________.<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "3 : 3",
+      "discussUrl": "https://gateoverflow.in/204122/gate-cse-2018-question-47"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2021 | Set 2 | Question: 1</strong></div><p>Let<br/>be a connected undirected weighted graph. Consider the following two statements.<br/>: There exists a minimum weight edge in<br/>which is present in every minimum spanning tree of<br/>.<br/>: If every edge in<br/>has distinct weight, then<br/>has a unique minimum spanning tree.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204122/gate-cse-2018-question-47"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2022 | Question: 39</strong></div><p>Consider a simple undirected weighted graph<br/>all of whose edge weights are distinct. Which of the<br/>following statements about the minimum spanning trees of<br/>is/are<br/>A<br/>.<br/>The edge with the second smallest weight is always part of any minimum spanning tree of<br/>B<br/>.<br/>One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum<br/>spanning tree of<br/>C<br/>.<br/>Suppose<br/>be such that<br/>and<br/>. Consider the edge with the minimum weight such that one of<br/>its vertices is in<br/>and the other in<br/>Such an edge will always be part of any minimum spanning tree of<br/>D<br/>.<br/>can have multiple minimum spanning trees.<br/>algorithms<br/>minimum-spanning-tree<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/371897/gate-cse-2022-question-39"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2022 | Question: 48</strong></div><p>Let<br/>be a directed graph, where<br/>is the set of vertices and<br/>is the set of<br/>directed edges, as defined by the following adjacency matrix<br/>indicates a directed edge from node<br/>to node<br/>A<br/>of<br/>rooted at<br/>is<br/>deﬁned as a subgraph<br/>of<br/>such that the undirected version of<br/>is a tree, and<br/>contains a directed path from<br/>to every other vertex in<br/>The number of such directed spanning trees rooted at vertex<br/>is<br/>__________________.<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "24",
+      "discussUrl": "https://gateoverflow.in/371897/gate-cse-2022-question-39"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2024 | Set 2 | Question: 49</strong></div><p>The number of distinct minimum-weight spanning trees of the following graph is<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in/371897/gate-cse-2022-question-39"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2025 | Set 1 | Question: 54</strong></div><p>The maximum value of<br/>such that the edge between the nodes<br/>and<br/>is included in every minimum<br/>spanning tree of the given graph is _________. (answer in integer)</p></div>",
+      "options": [],
+      "correctAnswer": "5:5",
+      "discussUrl": "https://gateoverflow.in/371897/gate-cse-2022-question-39"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2026 | Set 1 | Question: 39</strong></div><p>Let<br/>be a simple, undirected, edge-weighted graph with unique edge weights.<br/>Which of the following statements about the minimum spanning trees (MST) of<br/>is/are true?<br/>A<br/>.<br/>In every cycle<br/>of<br/>, the edge with the largest weight in<br/>is not in any MST<br/>B<br/>.<br/>In every cycle<br/>of<br/>, the edge with the smallest weight in<br/>is in every MST<br/>C<br/>.<br/>For every vertex<br/>, the edge with the largest weight incident on<br/>is not in any MST<br/>D<br/>.<br/>For every vertex<br/>, the edge with the smallest weight incident on<br/>is in every MST<br/>algorithms<br/>minimum-spanning-tree<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/523041/gate-cse-2026-set-1-question-39"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE IT 2005 | Question: 52</strong></div><p>Let<br/>be a weighted undirected graph and e be an edge with maximum weight in<br/>. Suppose there is a<br/>minimum weight spanning tree in<br/>containing the edge<br/>. Which of the following statements is always<br/>TRUE?<br/>A<br/>.<br/>There exists a cutset in<br/>having all edges of maximum weight.<br/>B<br/>.<br/>There exists a cycle in<br/>having all edges of maximum weight.<br/>C<br/>.<br/>Edge<br/>cannot be contained in a cycle.<br/>D<br/>.<br/>All edges in<br/>have the same weight.<br/>algorithms<br/>minimum-spanning-tree<br/>Number of Swap<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523041/gate-cse-2026-set-1-question-39"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number of Swap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number of Swap: GATE CSE 2025 | Set 1 | Question: 23</strong></div><p>The pseudocode of a function<br/>is given below:<br/>fun<br/>(<br/>int<br/>A<br/>[<br/>0<br/>,....,<br/>n<br/>-<br/>1<br/>])<br/>{<br/>for<br/>i<br/>=<br/>0<br/>to n<br/>-<br/>2<br/>for<br/>j<br/>=<br/>0<br/>to n<br/>-<br/>i<br/>-<br/>2<br/>if<br/>(<br/>A<br/>[<br/>j<br/>]><br/>A<br/>[<br/>j<br/>+<br/>1<br/>])<br/>then<br/>swap A<br/>[<br/>j<br/>]<br/>and<br/>A<br/>[<br/>j<br/>+<br/>1<br/>]<br/>}<br/>Let<br/>be an array storing<br/>distinct integers in descending order. The number of swap operations that<br/>will be performed, if the function<br/>is called with<br/>as argument, is _________. (Answer in integer)<br/>data-structures<br/>array<br/>number-of-swap</p></div>",
+      "options": [],
+      "correctAnswer": "435:435",
+      "discussUrl": "https://gateoverflow.in/523041/gate-cse-2026-set-1-question-39"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Prims Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prims Algorithm: GATE IT 2004 | Question: 56</strong></div><p>Consider the undirected graph below:<br/>Using Prim's algorithm to construct a minimum spanning tree starting with node A, which one of the following<br/>sequences of edges represents a possible order in which the edges would be added to construct the minimum<br/>spanning tree?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>graph-algorithms<br/>prims-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3699/gate-it-2004-question-56"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Prims Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prims Algorithm: GATE IT 2008 | Question: 45</strong></div><p>For the undirected, weighted graph given below, which of the following sequences of edges represents a<br/>correct execution of Prim's algorithm to construct a Minimum Span<br/>​<br/>ning Tree?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree<br/>prims-algorithm<br/>Quick Sort<br/>(15)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(2Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3355/gate-it-2008-question-45"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 1987 | Question: 1-xviii</strong></div><p>Let<br/>be a quicksort program to sort numbers in ascending order. Let<br/>and<br/>be the time taken by the<br/>program for the inputs<br/>and<br/>, respectively. Which of the following holds?<br/>algorithms<br/>sorting<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/80366/gate-cse-1987-question-1-xviii"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 1989 | Question: 9</strong></div><p>An input files has<br/>records with keys as given below:<br/>This is to be sorted in non-decreasing order.<br/>i<br/>.<br/>Sort the input ﬁle using QUICKSORT by correctly positioning the ﬁrst element of the ﬁle/subﬁle. Show the<br/>subfiles obtained at all intermediate steps. Use square brackets to demarcate subfiles.<br/>ii<br/>.<br/>Sort the input ﬁle using<br/>-way- MERGESORT showing all major intermediate steps. Use square brackets to<br/>demarcate subfiles.<br/>descriptive<br/>algorithms<br/>sorting<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/89083/gate-cse-1989-question-9"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 1992 | Question: 03,iv</strong></div><p>Assume that the last element of the set is used as partition element in Quicksort. If<br/>distinct elements from<br/>the set<br/>are to be sorted, give an input for which Quicksort takes maximum time.<br/>algorithms<br/>sorting<br/>easy<br/>quick-sort<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/581/gate-cse-1992-question-03-iv"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 1996 | Question: 2.15</strong></div><p>Quick-sort is run on two inputs shown below to sort in ascending order taking first element as pivot<br/>i<br/>.<br/>ii<br/>.<br/>Let<br/>and<br/>be the number of comparisons made for the inputs (i) and (ii) respectively. Then,<br/>algorithms<br/>sorting<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/581/gate-cse-1992-question-03-iv"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2001 | Question: 1.14</strong></div><p>Randomized quicksort is an extension of quicksort where the pivot is chosen randomly. What is the worst<br/>case complexity of sorting n numbers using Randomized quicksort?<br/>algorithms<br/>sorting<br/>time-complexity<br/>easy<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/89083/gate-cse-1989-question-9"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2006 | Question: 52</strong></div><p>The median of<br/>elements can be found in<br/>time. Which one of the following is correct about the<br/>complexity of quick sort, in which median is selected as pivot?<br/>algorithms<br/>sorting<br/>easy<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1830/gate-cse-2006-question-52"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2008 | Question: 43</strong></div><p>Consider the Quicksort algorithm. Suppose there is a procedure for ﬁnding a pivot element which splits the<br/>list into two sub-lists each of which contains at least one-ﬁfth of the elements. Let<br/>be the number of<br/>comparisons required to sort<br/>elements. Then</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/455/gate-cse-2008-question-43"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2009 | Question: 39</strong></div><p>In quick-sort, for sorting<br/>elements, the<br/>smallest element is selected as pivot using an<br/>time<br/>algorithm. What is the worst case time complexity of the quick sort?<br/>algorithms<br/>sorting<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1325/gate-cse-2009-question-39"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2014 | Set 1 | Question: 14</strong></div><p>Let<br/>be quicksort program to sort numbers in ascending order using the ﬁrst element as the pivot. Let<br/>and<br/>be the number of comparisons made by P for the inputs<br/>and<br/>respectively.<br/>Which one of the following holds?<br/>algorithms<br/>sorting<br/>easy<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1325/gate-cse-2009-question-39"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2014 | Set 3 | Question: 14</strong></div><p>You have an array of<br/>elements. Suppose you implement quicksort by always choosing the central element<br/>of the array as the pivot. Then the tightest upper bound for the worst case performance is<br/>algorithms<br/>sorting<br/>easy<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1325/gate-cse-2009-question-39"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2015 | Set 1 | Question: 2</strong></div><p>Which one of the following is the recurrence equation for the worst case time complexity of the quick sort<br/>algorithm for sorting<br/>numbers? In the recurrence equations given in the options below,<br/>is a<br/>constant.<br/>algorithms<br/>recurrence-relation<br/>sorting<br/>easy<br/>quick-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1325/gate-cse-2009-question-39"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2015 | Set 2 | Question: 45</strong></div><p>Suppose you are provided with the following function declaration in the C programming language.<br/>int<br/>partition<br/>(<br/>int<br/>a<br/>[],<br/>int<br/>n<br/>);<br/>The function treats the ﬁrst element of<br/>as a pivot and rearranges the array so that all elements less than or<br/>equal to the pivot is in the left part of the array, and all elements greater than the pivot is in the right part. In<br/>addition, it moves the pivot so that the pivot is the last element of the left part. The return value is the number of<br/>elements in the left part.<br/>The following partially given function in the C programming language is used to ﬁnd the<br/>smallest element in an<br/>array<br/>of size<br/>using the partition function. We assume<br/>.<br/>int<br/>kth_smallest<br/>(<br/>int<br/>a<br/>[],<br/>int<br/>n<br/>,<br/>int<br/>k<br/>)<br/>{<br/>int<br/>left_end<br/>=<br/>partition<br/>(<br/>a<br/>,<br/>n<br/>);</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1325/gate-cse-2009-question-39"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE CSE 2019 | Question: 20</strong></div><p>An array of<br/>distinct elements is to be sorted using quicksort. Assume that the pivot element is chosen<br/>uniformly at random. The probability that the pivot element gets placed in the worst possible location in the<br/>first round of partitioning (rounded off to<br/>decimal places) is ________<br/>algorithms<br/>quick-sort<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.08",
+      "discussUrl": "https://gateoverflow.in/302828/gate-cse-2019-question-20"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Quick Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quick Sort: GATE DA 2026 | Question: 5</strong></div><p>Consider that the quick sort algorithm is used to sort an array of<br/>distinct randomly ordered elements. In<br/>every call, the pivot is chosen as the first element of the current subarray.<br/>Let<br/>denote the expected time to sort the array. Assume that the time to partition is linear in the size of the<br/>current subarray.<br/>Which of the following recurrence relations correctly represents<br/>in this scenario?<br/>gateda-2026<br/>algorithms<br/>quick-sort<br/>recurrence-relation<br/>Quick Sort: GATE DS&AI 2024 | Question: 20<br/>Consider sorting the following array of integers in ascending order using an inplace Quicksort algorithm that<br/>uses the last element as the pivot.<br/>The minimum number of swaps performed during this Quicksort is<br/>.<br/>gate-ds-ai-2024<br/>algorithms<br/>quick-sort<br/>Recurrence Relation<br/>(36)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(14Q)</p></div>",
+      "options": [],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523210/gate-da-2026-question-5"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1987 | Question: 10a</strong></div><p>Solve the recurrence equations:<br/>algorithms<br/>recurrence-relation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82450/gate-cse-1987-question-10a"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1988 | Question: 13iv</strong></div><p>Solve the recurrence equations:<br/>descriptive<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94637/gate-cse-1988-question-13iv"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1989 | Question: 13b</strong></div><p>Find a solution to the following recurrence equation:<br/>descriptive<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94637/gate-cse-1988-question-13iv"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1990 | Question: 17a</strong></div><p>Express<br/>in terms of the harmonic number<br/>, where<br/>satisﬁes the<br/>recurrence relation,<br/>, for<br/>and<br/>What is the asymptotic behaviour of<br/>as a function of<br/>?<br/>descriptive<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93175/gate-cse-1989-question-13b"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1992 | Question: 07a</strong></div><p>Consider the function<br/>for which the pseudocode is given below :<br/>Function<br/>F<br/>(<br/>n<br/>)<br/>begin<br/>F1<br/>←<br/>1<br/>if<br/>(<br/>n<br/>=<br/>1<br/>)<br/>then<br/>F<br/>←<br/>3<br/>else<br/>For<br/>i<br/>=<br/>1<br/>to n<br/>do<br/>begin<br/>C<br/>←<br/>0<br/>For<br/>j<br/>=<br/>1<br/>to n<br/>–<br/>1<br/>do<br/>begin<br/>C<br/>←<br/>C<br/>+<br/>1<br/>end<br/>F1<br/>=<br/>F1<br/>*<br/>C<br/>end<br/>F<br/>=<br/>F1<br/>end</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/586/gate-cse-1992-question-07a"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1992 | Question: 07b</strong></div><p>Consider the function<br/>for which the pseudocode is given below :<br/>Function<br/>F<br/>(<br/>n<br/>)<br/>begin<br/>F1<br/>←<br/>1<br/>if<br/>(<br/>n<br/>=<br/>1<br/>)<br/>then<br/>F<br/>←<br/>3<br/>else<br/>For<br/>i<br/>=<br/>1<br/>to n<br/>do<br/>begin<br/>C<br/>←<br/>0<br/>For<br/>j<br/>=<br/>1<br/>to n<br/>–<br/>1<br/>do<br/>begin<br/>C<br/>←<br/>C<br/>+<br/>1<br/>end<br/>F1<br/>=<br/>F1<br/>*<br/>C<br/>end<br/>F<br/>=<br/>F1<br/>end<br/>[<br/>is a positive integer greater than zero]<br/>B<br/>.<br/>Solve the recurrence relation for a closed form solution of<br/>.<br/>algorithms<br/>recurrence-relation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43600/gate-cse-1992-question-07b"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1993 | Question: 15</strong></div><p>Consider the recursive algorithm given below:<br/>procedure bubblesort<br/>(<br/>n<br/>);<br/>var<br/>i<br/>,<br/>j<br/>:<br/>index<br/>;<br/>temp<br/>:<br/>item<br/>;<br/>begin<br/>for<br/>i<br/>:=<br/>1<br/>to n<br/>-<br/>1<br/>do<br/>if<br/>A<br/>[<br/>i<br/>]<br/>><br/>A<br/>[<br/>i<br/>+<br/>1<br/>]<br/>then<br/>begin<br/>temp<br/>:=<br/>A<br/>[<br/>i<br/>];<br/>A<br/>[<br/>i<br/>]<br/>:=<br/>A<br/>[<br/>i<br/>+<br/>1<br/>];<br/>A<br/>[<br/>i<br/>+<br/>1<br/>]<br/>:=<br/>temp<br/>;<br/>end<br/>;<br/>bubblesort<br/>(<br/>n<br/>-<br/>1<br/>)<br/>end<br/>Let<br/>be the number of times the ‘if…then…’ statement gets executed when the algorithm is run with value<br/>. Set<br/>up the recurrence relation by defining<br/>in terms of<br/>. Solve for<br/>.<br/>algorithms<br/>recurrence-relation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2312/gate-cse-1993-question-15"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1994 | Question: 1.7, ISRO2017-14</strong></div><p>The recurrence relation that arises in relation with the complexity of binary search is:<br/>algorithms<br/>recurrence-relation<br/>easy<br/>isro2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43600/gate-cse-1992-question-07b"
+    }
+  ]
+}

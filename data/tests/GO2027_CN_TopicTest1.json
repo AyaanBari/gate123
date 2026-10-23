@@ -1,0 +1,430 @@
+{
+  "id": "GO2027_CN_TopicTest1",
+  "fileName": "GO2027_CN_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Computer Networks | Subnetting, TCP & Protocols",
+  "subject": "Computer Networks",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 15,
+  "totalMarks": 25,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Network Layer</strong></div>\n<p>A router has the following CIDR routing table entries:<br/>1. `128.16.0.0/16` $\\to$ Interface 0<br/>2. `128.16.128.0/17` $\\to$ Interface 1<br/>3. `128.16.192.0/18` $\\to$ Interface 2<br/>4. `default` $\\to$ Interface 3<br/>Which interface will a packet with destination IP address `128.16.200.1` be forwarded to?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Address: `128.16.200.1`. In binary, 3rd octet $200 = 11001000_2$.<br/>- `/16`: matches.<br/>- `/17` (`128.16.128.0` has 1st bit of 3rd octet = 1): matches.<br/>- `/18` (`128.16.192.0` has first two bits of 3rd octet = $11_2$): matches since $200 = 11001000_2$.<br/>By Longest Prefix Match, the router selects the longest prefix `/18` $\\to$ Interface 2.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Interface 0</span>",
+          "textHtml": "<span>Interface 0</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Interface 1</span>",
+          "textHtml": "<span>Interface 1</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Interface 2</span>",
+          "textHtml": "<span>Interface 2</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Interface 3</span>",
+          "textHtml": "<span>Interface 3</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Data Link Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Data Link Layer</strong></div>\n<p>A 100 Mbps CSMA/CD network has a cable length of 1 km with signal propagation speed of $2 \\times 10^8$ m/s. What is the minimum frame size (in bytes) required to detect collisions reliably?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Propagation delay $T_p = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{1000}{2 \\times 10^8} = 5 \\times 10^{-6}$ s $= 5\\;\\mu$s.<br/>CSMA/CD condition: Transmission time $T_t \\ge 2 T_p \\implies \\frac{L}{B} \\ge 2 T_p \\implies L \\ge 2 \\times 5 \\times 10^{-6} \\times 100 \\times 10^6 = 1000$ bits.<br/>Frame size in bytes $= 1000 / 8 = 125$ bytes.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "125",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Transport Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Transport Layer</strong></div>\n<p>Which of the following events causes TCP Reno to set its Slow Start Threshold (`ssthresh`) to half of the current congestion window size?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Both on triple duplicate ACKs (loss indication) and retransmission timeout (severe congestion), TCP Reno reduces `ssthresh = cwnd / 2`. During normal ACK reception, `cwnd` increases, not `ssthresh`.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Reception of three duplicate ACKs (Fast Retransmit)</span>",
+          "textHtml": "<span>Reception of three duplicate ACKs (Fast Retransmit)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Retransmission Timeout (RTO) expiration</span>",
+          "textHtml": "<span>Retransmission Timeout (RTO) expiration</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Reception of an ACK for a new segment during Congestion Avoidance</span>",
+          "textHtml": "<span>Reception of an ACK for a new segment during Congestion Avoidance</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Connection establishment via three-way handshake</span>",
+          "textHtml": "<span>Connection establishment via three-way handshake</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Application Layer</strong></div>\n<p>Standard DNS lookup queries sent by a client resolver to a local recursive DNS server predominantly use which transport layer protocol?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Standard DNS queries use UDP port 53 due to low latency and single request-response nature. TCP port 53 is used for zone transfers or responses exceeding 512 bytes.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>TCP on port 53</span>",
+          "textHtml": "<span>TCP on port 53</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>UDP on port 53</span>",
+          "textHtml": "<span>UDP on port 53</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>UDP on port 67</span>",
+          "textHtml": "<span>UDP on port 67</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>TCP on port 80</span>",
+          "textHtml": "<span>TCP on port 80</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Network Layer</strong></div>\n<p>In an IPv4 packet header without options, the total header length is represented by an IHL field value of:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    The minimum IPv4 header is 20 bytes. The Internet Header Length (IHL) field counts the header size in 32-bit (4-byte) words. Thus $\\text{IHL} = 20 / 4 = 5$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Routing Protocols",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Routing Protocols</strong></div>\n<p>Which mechanism is specifically designed to alleviate the <strong>count-to-infinity problem</strong> in Distance Vector Routing (Bellman-Ford)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Split horizon with poison reverse prevents routing loops between adjacent neighbors by advertising an infinite metric ($\\infty$) back on the interface from which the route was learned.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Split Horizon with Poison Reverse</span>",
+          "textHtml": "<span>Split Horizon with Poison Reverse</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Open Shortest Path First (OSPF) Link State Advertisements</span>",
+          "textHtml": "<span>Open Shortest Path First (OSPF) Link State Advertisements</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Subnet masking with VLSM</span>",
+          "textHtml": "<span>Subnet masking with VLSM</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Address Resolution Protocol (ARP) caching</span>",
+          "textHtml": "<span>Address Resolution Protocol (ARP) caching</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Data Link Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Data Link Layer</strong></div>\n<p>A Selective Repeat sliding window protocol uses a 4-bit sequence number field. What is the maximum allowable window size for both sender and receiver to prevent duplicate packet confusion?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In Selective Repeat, the sender and receiver windows must satisfy $W_s + W_r \\le 2^k$. With $W_s = W_r$, $2W \\le 2^k \\implies W \\le 2^{k-1}$. For $k=4$ bits: $W_{\\max} = 2^{4-1} = 2^3 = 8$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Network Security",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Network Security</strong></div>\n<p>In the RSA public-key cryptosystem with public key $(e, n)$ and private key $d$, which of the following relations is/are <strong>ALWAYS SATISFIED</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are foundational RSA properties.</b> D is FALSE: $e$ and $d$ only need to be coprime to Euler's totient $\\phi(n)$; they do not need to be prime numbers themselves.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$e \\cdot d \\equiv 1 \\pmod{\\phi(n)}$</span>",
+          "textHtml": "<span>$e \\cdot d \\equiv 1 \\pmod{\\phi(n)}$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\gcd(e, \\phi(n)) = 1$</span>",
+          "textHtml": "<span>$\\gcd(e, \\phi(n)) = 1$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>For any plaintext $M < n$, $(M^e)^d \\equiv M \\pmod n$</span>",
+          "textHtml": "<span>For any plaintext $M < n$, $(M^e)^d \\equiv M \\pmod n$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$e$ and $d$ must both be prime numbers</span>",
+          "textHtml": "<span>$e$ and $d$ must both be prime numbers</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Flow Control",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Flow Control</strong></div>\n<p>In a Stop-and-Wait protocol, frame transmission time is 1 ms and round-trip propagation time is 9 ms. Processing and ACK times are negligible. What is the link utilization efficiency (in %)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Efficiency $\\eta = \\frac{T_t}{T_t + RTT} = \\frac{1}{1 + 9} = \\frac{1}{10} = 10\\%$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Transport Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Transport Layer</strong></div>\n<p>A SYN Flood attack exploits which stage of the TCP connection lifecycle?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    SYN flood sends a barrage of TCP SYN packets with spoofed source IPs without completing the 3rd ACK, exhausting the server's embryonic connection backlog queue (SYN queue).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Three-way handshake half-open connection state allocation in backlog queue</span>",
+          "textHtml": "<span>Three-way handshake half-open connection state allocation in backlog queue</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Four-way FIN termination sequence</span>",
+          "textHtml": "<span>Four-way FIN termination sequence</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Congestion Avoidance window scaling</span>",
+          "textHtml": "<span>Congestion Avoidance window scaling</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Selective Acknowledgment options negotiation</span>",
+          "textHtml": "<span>Selective Acknowledgment options negotiation</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Network Layer</strong></div>\n<p>An IPv4 datagram carrying 4000 bytes of data (plus 20 bytes IP header) passes through a link with MTU = 1500 bytes. What is the fragment offset value in the second fragment?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    MTU = 1500 bytes. With 20-byte IP header, max payload per fragment is 1480 bytes (which is divisible by 8: $1480 / 8 = 185$).<br/>- First fragment carries data bytes 0 to 1479 (offset = 0).<br/>- Second fragment carries data starting at byte 1480. Fragment offset $= 1480 / 8 = 185$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "185",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Application Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Application Layer</strong></div>\n<p>Which of the following features were introduced in <strong>HTTP/2</strong> compared to HTTP/1.1?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are core HTTP/2 features.</b> D is HTTP/3 (which uses QUIC over UDP).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Binary framing layer instead of textual format</span>",
+          "textHtml": "<span>Binary framing layer instead of textual format</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Multiplexing of multiple bidirectional streams over a single TCP connection</span>",
+          "textHtml": "<span>Multiplexing of multiple bidirectional streams over a single TCP connection</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>HPACK header compression</span>",
+          "textHtml": "<span>HPACK header compression</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Replacement of TCP with UDP (QUIC)</span>",
+          "textHtml": "<span>Replacement of TCP with UDP (QUIC)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Address Resolution Protocol",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Address Resolution Protocol</strong></div>\n<p>The Address Resolution Protocol (ARP) operates at which conceptual boundary and scope?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    ARP broadcasts on the local link layer (Layer 2) to discover the 48-bit MAC address corresponding to a given 32-bit IPv4 address on the same local subnet.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Resolves IP addresses to MAC addresses within a single local broadcast domain (LAN)</span>",
+          "textHtml": "<span>Resolves IP addresses to MAC addresses within a single local broadcast domain (LAN)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Resolves MAC addresses to IP addresses across the global Internet</span>",
+          "textHtml": "<span>Resolves MAC addresses to IP addresses across the global Internet</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Translates private IP addresses to public IP addresses at a NAT gateway</span>",
+          "textHtml": "<span>Translates private IP addresses to public IP addresses at a NAT gateway</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Routes packets between distinct autonomous systems</span>",
+          "textHtml": "<span>Routes packets between distinct autonomous systems</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Network Layer</strong></div>\n<p>How many total IP addresses are contained in the CIDR subnet block `172.16.0.0/22`?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Subnet mask prefix length is 22. Number of host bits $= 32 - 22 = 10$. Total IP addresses $= 2^{10} = 1024$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "1024",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Transport Layer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Transport Layer</strong></div>\n<p>Which algorithm is implemented at the sender side to prevent the <strong>Silly Window Syndrome</strong> in TCP?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Nagle's algorithm operates on the sender side to delay transmission until a full MSS is available or all outstanding data is acknowledged. Clark's solution is receiver-side.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Nagle's Algorithm</span>",
+          "textHtml": "<span>Nagle's Algorithm</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Clark's Solution</span>",
+          "textHtml": "<span>Clark's Solution</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Karn's Algorithm</span>",
+          "textHtml": "<span>Karn's Algorithm</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Jacobson's RTT Estimation</span>",
+          "textHtml": "<span>Jacobson's RTT Estimation</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

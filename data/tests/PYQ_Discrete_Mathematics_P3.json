@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P3",
+  "fileName": "PYQ_Discrete_Mathematics_P3.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 3",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1988 | Question: 2xvi</strong></div><p>Write the adjacency matrix representation of the graph given in below figure.<br/>descriptive<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94340/gate-cse-1988-question-2xvi"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1990 | Question: 1-viii</strong></div><p>A graph which has the same number of edges as its complement must have number of vertices congruent to<br/>________ or ________ modulo<br/>.<br/>graph-theory<br/>graph-connectivity<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94340/gate-cse-1988-question-2xvi"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1991 | Question: 01,xv</strong></div><p>The maximum number of possible edges in an undirected graph with<br/>vertices and<br/>components is<br/>______.<br/>graph-theory<br/>graph-connectivity<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/510/gate-cse-1991-question-01-xv"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1992 | Question: 03,iii</strong></div><p>How many edges can there be in a forest with<br/>components having<br/>vertices in all?<br/>graph-theory<br/>graph-connectivity<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/580/gate-cse-1992-question-03-iii"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1993 | Question: 8.1</strong></div><p>Consider a simple connected graph<br/>with<br/>vertices and<br/>edges<br/>. Then, which of the following<br/>statements are true?<br/>A<br/>.<br/>has no cycles<br/>B<br/>.<br/>The graph obtained by removing any edge from<br/>is not connected<br/>C<br/>.<br/>has at least one cycle<br/>D<br/>.<br/>The graph obtained by removing any two edges from<br/>is not connected<br/>E<br/>.<br/>None of the above<br/>graph-theory<br/>graph-connectivity<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/94340/gate-cse-1988-question-2xvi"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1994 | Question: 1.6, ISRO2008-29</strong></div><p>The number of distinct simple graphs with up to three nodes is<br/>graph-theory<br/>graph-connectivity<br/>isro2008<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2443/gate-cse-1994-question-1-6-isro2008-29"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1994 | Question: 2.5</strong></div><p>The number of edges in a regular graph of degree<br/>and<br/>vertices is ____________<br/>graph-theory<br/>easy<br/>graph-connectivity<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2443/gate-cse-1994-question-1-6-isro2008-29"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1994 | Question: 24</strong></div><p>An independent set in a graph is a subset of vertices such that no two vertices in the subset are connected<br/>by an edge. An incomplete scheme for a greedy algorithm to ﬁnd a maximum independent set in a tree is<br/>given below:<br/>V<br/>:<br/>Set<br/>of<br/>all vertices<br/>in<br/>the tree<br/>;<br/>I<br/>:=<br/>ϕ<br/>while<br/>V<br/>≠<br/>ϕ<br/>do<br/>begin<br/>select<br/>a vertex u<br/>∊<br/>V such that<br/>_______<br/>;<br/>V<br/>:=<br/>V<br/>-<br/>{<br/>u<br/>};<br/>if<br/>u<br/>is<br/>such that<br/>________then I<br/>:=<br/>I<br/>∪<br/>{<br/>u<br/>}<br/>end<br/>;<br/>Output<br/>(<br/>I<br/>);<br/>A<br/>.<br/>Complete the algorithm by specifying the property of vertex<br/>in each case.<br/>B<br/>.<br/>What is the time complexity of the algorithm?<br/>graph-theory<br/>descriptive<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2443/gate-cse-1994-question-1-6-isro2008-29"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1995 | Question: 1.25</strong></div><p>The minimum number of edges in a connected cyclic graph on<br/>vertices is:<br/>graph-theory<br/>graph-connectivity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2443/gate-cse-1994-question-1-6-isro2008-29"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1999 | Question: 1.15</strong></div><p>The number of articulation points of the following graph is<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2443/gate-cse-1994-question-1-6-isro2008-29"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1999 | Question: 5</strong></div><p>Let<br/>be a connected, undirected graph. A cut in<br/>is a set of edges whose removal results in<br/>being<br/>broken into two or more components, which are not connected with each other. The size of a cut is called its<br/>cardinality. A min-cut of<br/>is a cut in<br/>of minimum cardinality. Consider the following graph:<br/>a<br/>.<br/>Which of the following sets of edges is a cut?<br/>i<br/>.<br/>ii<br/>.<br/>b<br/>.<br/>What is cardinality of min-cut in this graph?<br/>c<br/>.<br/>Prove that if a connected undirected graph<br/>with<br/>vertices has a min-cut of cardinality<br/>, then<br/>has at least<br/>edges.<br/>graph-theory<br/>graph-connectivity<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1504/gate-cse-1999-question-5"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2002 | Question: 1.25, ISRO2008-30, ISRO2016-6</strong></div><p>The maximum number of edges in a<br/>-node undirected graph without self loops is<br/>graph-theory<br/>easy<br/>isro2008<br/>isro2016<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1504/gate-cse-1999-question-5"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2003 | Question: 8, ISRO2009-53</strong></div><p>Let<br/>be an arbitrary graph with<br/>nodes and<br/>components. If a vertex is removed from<br/>, the number of<br/>components in the resultant graph must necessarily lie down between<br/>graph-theory<br/>graph-connectivity<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/830/gate-cse-2002-question-1-25-isro2008-30-isro2016-6"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2004 | Question: 81</strong></div><p>Let<br/>and<br/>be connected graphs on the same vertex set<br/>with more than two<br/>vertices. If<br/>is not a connected graph, then the graph<br/>graph-theory<br/>difficult<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1075/gate-cse-2004-question-81"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2005 | Question: 11</strong></div><p>Let<br/>be a simple graph with<br/>vertices and<br/>edges. The size of the minimum vertex cover of G is<br/>.<br/>Then, the size of the maximum independent set of<br/>is:<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1161/gate-cse-2005-question-11"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2006 | Question: 73</strong></div><p>The<br/>vertices of a graph<br/>corresponds to all subsets of a set of size<br/>, for<br/>.  Two vertices of<br/>are<br/>adjacent if and only if the corresponding sets intersect in exactly two elements.<br/>The number of connected components in<br/>is:<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43567/gate-cse-2006-question-73"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2007 | Question: 23</strong></div><p>Which of the following graphs has an Eulerian circuit?<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1221/gate-cse-2007-question-23"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2008 | Question: 42</strong></div><p>is a graph on<br/>vertices and<br/>edges. The edges of<br/>can be partitioned into two edge-disjoint<br/>spanning trees. Which of the following is NOT true for<br/>?<br/>A<br/>.<br/>For every subset of<br/>vertices, the induced subgraph has at most<br/>edges.<br/>B<br/>.<br/>The minimum cut in<br/>has at least<br/>edges.<br/>C<br/>.<br/>There are at least<br/>edge-disjoint paths between every pair of vertices.<br/>D<br/>.<br/>There are at least<br/>vertex-disjoint paths between every pair of vertices.<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1872/gate-cse-2008-question-42"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2013 | Question: 26</strong></div><p>The line graph<br/>of a simple graph<br/>is defined as follows:<br/>There is exactly one vertex<br/>in<br/>for each edge<br/>in<br/>.<br/>For any two edges<br/>and<br/>in<br/>,<br/>has an edge between<br/>and<br/>, if and only if<br/>and<br/>are incident<br/>with the same vertex in<br/>.<br/>Which of the following statements is/are TRUE?<br/>(P) The line graph of a cycle is a cycle.<br/>(Q) The line graph of a clique is a clique.<br/>(R) The line graph of a planar graph is planar.<br/>(S) The line graph of a tree is a tree.<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1537/gate-cse-2013-question-26"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2014 | Set 1 | Question: 51</strong></div><p>Consider an undirected graph<br/>where self-loops are not allowed. The vertex set of<br/>is<br/>. There is an edge between<br/>and<br/>if<br/>and</p></div>",
+      "options": [],
+      "correctAnswer": "506",
+      "discussUrl": "https://gateoverflow.in/1221/gate-cse-2007-question-23"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2014 | Set 2 | Question: 3</strong></div><p>The maximum number of edges in a bipartite graph on<br/>vertices is____<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [],
+      "correctAnswer": "36",
+      "discussUrl": "https://gateoverflow.in/1955/gate-cse-2014-set-2-question-3"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2014 | Set 3 | Question: 51</strong></div><p>If<br/>is the forest with<br/>vertices and<br/>connected components, how many edges does<br/>have?<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1955/gate-cse-2014-set-2-question-3"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2015 | Set 2 | Question: 50</strong></div><p>In a connected graph, a bridge is an edge whose removal disconnects the graph. Which one of the following<br/>statements is true?<br/>A<br/>.<br/>A tree has no bridges<br/>B<br/>.<br/>A bridge cannot be part of a simple cycle<br/>C<br/>.<br/>Every edge of a clique with size<br/>is a bridge (A clique is any complete subgraph of a graph)<br/>D<br/>.<br/>A graph with bridges cannot have cycle<br/>graph-theory<br/>graph-connectivity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1955/gate-cse-2014-set-2-question-3"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2019 | Question: 12</strong></div><p>L e t<br/>be an undirected complete graph on<br/>vertices, where<br/>. Then, the number of diﬀerent<br/>Hamiltonian cycles in<br/>is equal to<br/>engineering-mathematics<br/>discrete-mathematics<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/302836/gate-cse-2019-question-12"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2019 | Question: 38</strong></div><p>Let<br/>be any connected, weighted, undirected graph.<br/>I<br/>.<br/>has a unique minimum spanning tree, if no two edges of<br/>have the same weight.<br/>II<br/>.<br/>has a unique minimum spanning tree, if, for every cut of<br/>, there is a unique minimum-weight edge crossing<br/>the cut.<br/>Which of the following statements is/are TRUE?<br/>engineering-mathematics<br/>discrete-mathematics<br/>graph-theory<br/>graph-connectivity<br/>minimum-spanning-tree<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302836/gate-cse-2019-question-12"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2021 | Set 1 | Question: 36</strong></div><p>Let<br/>be an undirected unweighted connected graph. The<br/>diameter<br/>of<br/>is defined as:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1955/gate-cse-2014-set-2-question-3"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2022 | Question: 20</strong></div><p>Consider a simple undirected graph of<br/>vertices. If the graph is disconnected, then the maximum number<br/>of edges it can have is _______________ .<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [],
+      "correctAnswer": "36",
+      "discussUrl": "https://gateoverflow.in/371916/gate-cse-2022-question-20"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2022 | Question: 27</strong></div><p>Consider a simple undirected unweighted graph with at least three vertices. If<br/>is the adjacency matrix of<br/>the graph, then the number of<br/>cycles in the graph is given by the trace of<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371916/gate-cse-2022-question-20"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2022 | Question: 42</strong></div><p>Which of the properties hold for the adjacency matrix<br/>of a simple undirected unweighted graph having<br/>vertices?<br/>A<br/>.<br/>The diagonal entries of<br/>are the degrees of the vertices of the graph.<br/>B<br/>.<br/>If the graph is connected, then none of the entries of<br/>can be zero.<br/>C<br/>.<br/>If the sum of all the elements of<br/>is at most<br/>then the graph must be acyclic.<br/>D<br/>.<br/>If there is at least a<br/>in each of<br/>rows and columns, then the graph must be connected.<br/>graph-theory<br/>graph-connectivity<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371916/gate-cse-2022-question-20"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2024 | Set 1 | Question: 24</strong></div><p>The number of spanning trees in a<br/>complete<br/>graph of<br/>vertices labelled<br/>and<br/>is _________.<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/371916/gate-cse-2022-question-20"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2024 | Set 2 | Question: 41</strong></div><p>Let<br/>be an undirected connected graph in which every edge has a positive integer weight. Suppose that</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371916/gate-cse-2022-question-20"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 2024 | Set 2 | Question: 7</strong></div><p>​​​​<br/>Let<br/>be the adjacency matrix of a simple undirected graph<br/>. Suppose<br/>is its own inverse. Which one of<br/>the following statements is<br/>always<br/>TRUE?<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422890/gate-cse-2024-set-2-question-7"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2004 | Question: 37</strong></div><p>What is the number of vertices in an undirected connected graph with<br/>edges,<br/>vertices of degree<br/>vertices of degree<br/>and remaining of degree<br/>?<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3680/gate-it-2004-question-37"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2004 | Question: 5</strong></div><p>What is the maximum number of edges in an acyclic undirected graph with<br/>vertices?<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3680/gate-it-2004-question-37"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2005 | Question: 56</strong></div><p>Let<br/>be a directed graph whose vertex set is the set of numbers from<br/>to<br/>. There is an edge from a<br/>vertex<br/>to a vertex<br/>iff either<br/>or<br/>. The minimum number of edges in a path in<br/>from vertex<br/>to vertex<br/>is<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3817/gate-it-2005-question-56"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2006 | Question: 11</strong></div><p>If all the edge weights of an undirected graph are positive, then any subset of edges that connects all the<br/>vertices and has minimum total weight is a<br/>graph-theory<br/>graph-connectivity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3550/gate-it-2006-question-11"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2007 | Question: 25</strong></div><p>What is the largest integer<br/>such that every simple connected graph with<br/>vertices and<br/>edges contains<br/>at least<br/>different spanning trees ?<br/>graph-theory<br/>graph-connectivity<br/>tricky</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3458/gate-it-2007-question-25"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2008 | Question: 27</strong></div><p>is a simple undirected graph. Some vertices of<br/>are of odd degree. Add a node<br/>to<br/>and make it<br/>adjacent to each odd degree vertex of<br/>. The resultant graph is sure to be<br/>graph-theory<br/>graph-connectivity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3317/gate-it-2008-question-27"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE IT 2008 | Question: 4</strong></div><p>What is the size of the smallest<br/>(Maximal Independent Set) of a chain of nine nodes?<br/>graph-connectivity<br/>Graph Isomorphism<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3458/gate-it-2007-question-25"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Isomorphism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Isomorphism: GATE CSE 2012 | Question: 26</strong></div><p>Which of the following graphs is isomorphic to<br/>graph-theory<br/>graph-isomorphism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3264/gate-it-2008-question-4"
+    }
+  ]
+}

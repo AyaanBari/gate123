@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_General_Aptitude_P4",
+  "fileName": "PYQ_General_Aptitude_P4.json",
+  "title": "GATE Official PYQs | General Aptitude Part 4",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 52,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2015 | Set 1 | GA | Question: 10</strong></div><p>The probabilities that a student passes in mathematics, physics and chemistry are<br/>and<br/>respectively.<br/>Of these subjects, the student has<br/>chance of passing in at least one, a<br/>chance of passing in at<br/>least two and a<br/>chance of passing in exactly two. Following relations are drawn in<br/>:<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2015 | Set 1 | GA | Question: 3</strong></div><p>Given Set<br/>and Set<br/>, two numbers are randomly selected, one from<br/>each set. What is the probability that the sum of the two numbers equals<br/>?<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2017 | Set 1 | GA | Question: 5</strong></div><p>The probability that a<br/>-digit number does NOT contain the digits<br/>or<br/>is<br/>general-aptitude<br/>quantitative-aptitude<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2017 | Set 2 | GA | Question: 5</strong></div><p>There are<br/>red socks,<br/>green socks and<br/>blue socks.You choose<br/>socks. The probability that they are of<br/>the same colour is<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118419/gate-cse-2017-set-2-ga-question-5"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2018 | GA | Question: 10</strong></div><p>A six sided unbiased die with four green faces and two red faces is rolled seven times. Which of the<br/>following combinations is the most likely outcome of the experiment?<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204071/gate-cse-2018-ga-question-10"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2021 | Set 1 | GA | Question: 8</strong></div><p>There are ﬁve bags each containing identical sets of ten distinct chocolates. One chocolate is picked from<br/>each bag.<br/>The probability that at least two chocolates are identical is __________<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118419/gate-cse-2017-set-2-ga-question-5"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2022 | GA | Question: 8</strong></div><p>A box contains ﬁve balls of same size and shape. Three of them are green coloured balls and two of them<br/>are orange coloured balls. Balls are drawn from the box one at a time. If a green ball is drawn, it is not<br/>replaced. If an orange ball is drawn, it is replaced with another orange ball.<br/>First ball is drawn. What is the probability of getting an orange ball in the next draw?<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118419/gate-cse-2017-set-2-ga-question-5"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2025 | Set 1 | GA | Question: 8</strong></div><p>A fair six-faced dice, with the faces labelled<br/>‘<br/>’<br/>,<br/>‘<br/>’<br/>,<br/>‘<br/>’<br/>,<br/>‘<br/>’<br/>,<br/>‘<br/>’<br/>, and<br/>‘<br/>’<br/>, is rolled thrice. What is the<br/>probability of rolling<br/>‘<br/>’<br/>exactly once?<br/>quantitative-aptitude<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118419/gate-cse-2017-set-2-ga-question-5"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2026 | Set 1 | GA | Question: 10</strong></div><p>An unbiased six-faced dice whose faces are marked with numbers<br/>, and<br/>is rolled twice in<br/>succession and the number on the top face is recorded each time. The probability that the number<br/>appearing in the second roll is an integer multiple of the number appearing in the first roll is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118419/gate-cse-2017-set-2-ga-question-5"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2026 | Set 2 | GA | Question: 10</strong></div><p>An unbiased six-faced dice whose faces are marked with numbers<br/>, and<br/>is rolled twice in<br/>succession and the number on the top face is recorded each time. The probability that the sum of the two<br/>recorded numbers is a prime number is<br/>quantitative-aptitude<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523148/gate-cse-2026-set-2-ga-question-10"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2026 | Set 2 | GA | Question: 3</strong></div><p>A day can only be cloudy or sunny. The probability of a day being cloudy is<br/>, independent of the condition<br/>on other days. What is the probability that in any given four days, there will be three cloudy days and one<br/>sunny day?<br/>quantitative-aptitude<br/>probability<br/>Probability: GATE DS&AI 2024 | GA | Question: 7<br/>The probability of a boy or a girl being born is<br/>. For a family having only three children, what is the<br/>probability of having two girls and one boy?<br/>gate-ds-ai-2024<br/>quantitative-aptitude<br/>probability<br/>Probability: GATE2012 AE: GA-6<br/>Two policemen,<br/>and<br/>, ﬁre once each at the same time at an escaping convict. The probability that<br/>hits<br/>the convict is three times the probability that<br/>hits the convict. If the probability of the convict not getting<br/>injured is<br/>, the probability that<br/>hits the convict is<br/>quantitative-aptitude<br/>probability<br/>Probability: GATE2012 AR: GA-9<br/>A smuggler has<br/>capsules in which ﬁve are ﬁlled with narcotic drugs and the rest contain the original<br/>medicine. All the<br/>capsules are mixed in a single box, from which the customs oﬃcials picked two<br/>capsules at random and tested for the presence of narcotic drugs. The probability that the smuggler will be caught<br/>is<br/>quantitative-aptitude<br/>probability<br/>Probability: GATE2012 CY: GA-7<br/>and<br/>are friends. They decide to meet between 1:00 pm and 2:00 pm on a given day. There is a<br/>condition that whoever arrives ﬁrst will not wait for the other for more than<br/>minutes. The probability that<br/>they will meet on that day is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523148/gate-cse-2026-set-2-ga-question-10"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Profit Loss",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Profit Loss: GATE CSE 2021 | Set 1 | GA | Question: 7</strong></div><p>Details of prices of two items<br/>and<br/>are presented in the above table. The ratio of cost of item<br/>to cost of item<br/>is<br/>. Discount is calculated as the diﬀerence between the marked price and the selling price. The proﬁt<br/>percentage is calculated as the ratio of the difference between selling price and cost, to the cost<br/>The discount on item<br/>, as a percentage of its marked price, is _______<br/>quantitative-aptitude<br/>profit-loss</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40293/gate2013-ee-ga-6"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Profit Loss",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Profit Loss: GATE CSE 2024 | Set 2 | GA | Question: 7</strong></div><p>A person sold two diﬀerent items at the same price. He made<br/>proﬁt in one item, and<br/>loss in the<br/>other item. In selling these two items, the person made a total of<br/>quantitative-aptitude<br/>profit-loss<br/>Profit Loss: GATE2013 CE: GA-9<br/>A ﬁrm is selling its product at Rs.<br/>per unit. The total cost of production is Rs.<br/>and ﬁrm is earning total<br/>proﬁt of Rs.<br/>. Later, the total cost increased by<br/>By what percentage the price should be increased<br/>to maintained the same profit level.<br/>₹<br/>₹</p></div>",
+      "options": [],
+      "correctAnswer": "25",
+      "discussUrl": "https://gateoverflow.in/40293/gate2013-ee-ga-6"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quadratic Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quadratic Equations: GATE CSE 2014 | Set 1 | GA | Question: 5</strong></div><p>The roots of<br/>are real and positive.<br/>and<br/>are real. Then<br/>has<br/>quantitative-aptitude<br/>quadratic-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1852"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quadratic Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quadratic Equations: GATE CSE 2016 | Set 2 | GA | Question: 05</strong></div><p>In a quadratic function, the value of the product of the roots<br/>is<br/>. Find the value of<br/>quantitative-aptitude<br/>quadratic-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1852"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quadratic Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quadratic Equations: GATE CSE 2021 | Set 2 | GA | Question: 4</strong></div><p>​​​​​​<br/>If<br/>, then the value of<br/>is:<br/>quantitative-aptitude<br/>quadratic-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1852"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Quadratic Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Quadratic Equations: GATE CSE 2022 | GA | Question: 3</strong></div><p>Let<br/>be a root of the equation<br/>Then the value of the expression<br/>is<br/>quantitative-aptitude<br/>quadratic-equations<br/>Quadratic Equations: GATE2011 MN: GA-62<br/>A student attempted to solve a quadratic equation in<br/>twice. However, in the ﬁrst attempt, he incorrectly<br/>wrote the constant term and ended up with the roots as<br/>. In the second attempt, he incorrectly wrote<br/>down the coeﬃcient of<br/>and got the roots as<br/>. Based on the above information, the roots of the correct<br/>quadratic equation are<br/>quadratic-equations<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39532/gate-cse-2016-set-2-ga-question-05"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ratio Proportion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ratio Proportion: GATE CSE 2016 | Set 1 | GA | Question: 10</strong></div><p>In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of<br/>units, it takes<br/>cycles for failure. When the load is halved, it takes<br/>for failure.The load<br/>for which the failure will happen in<br/>is _____________.<br/>quantitative-aptitude<br/>ratio-proportion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/40295/gate2013-ee-ga-8"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Ratio Proportion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ratio Proportion: GATE CSE 2018 | GA | Question: 8</strong></div><p>In a party,<br/>of the invited guests are male and<br/>are female.If<br/>of the invited guests attended the<br/>party and if all the invited female guests attended, what would be the ratio of males to females among the<br/>attendees in the party?<br/>quantitative-aptitude<br/>ratio-proportion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40295/gate2013-ee-ga-8"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ratio Proportion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ratio Proportion: GATE CSE 2021 | Set 1 | GA | Question: 1</strong></div><p>​​​​​​<br/>The ratio of boys to girls in a class is<br/>to<br/>.<br/>Among the options below, an acceptable value for the total number of students in the class is:<br/>quantitative-aptitude<br/>ratio-proportion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Ratio Proportion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ratio Proportion: GATE CSE 2021 | Set 2 | GA | Question: 8</strong></div><p>The number of students in three classes is in the ratio<br/>. If<br/>students are added to each class, the<br/>ratio changes to<br/>.<br/>The total number of students in all the three classes in the beginning was:<br/>ratio-proportion<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ratio Proportion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ratio Proportion: GATE CSE 2024 | Set 1 | GA | Question: 2</strong></div><p>If two distinct non-zero real variables<br/>and<br/>are such that<br/>is proportional to<br/>then the value<br/>of<br/>quantitative-aptitude<br/>ratio-proportion<br/>Ratio Proportion: GATE2011 AG: GA-8<br/>Three friends,<br/>and<br/>shared toﬀee from a bowl.<br/>took<br/>of the toﬀees, but returned four to the<br/>bowl.<br/>took<br/>of what was left but returned three toﬀees to the bowl.<br/>took half of the remainder but<br/>returned two back into the bowl. If the bowl had<br/>toffees left, how may toffees were originally there in the bowl?<br/>general-aptitude<br/>quantitative-aptitude<br/>ratio-proportion<br/>Ratio Proportion: GATE2011 GG: GA-4<br/>If<br/>students require a total of<br/>pages of stationery in<br/>days, then<br/>students will require<br/>pages of<br/>stationery in<br/>quantitative-aptitude<br/>ratio-proportion<br/>Ratio Proportion: GATE2013 AE: GA-1<br/>If<br/>and<br/>then which of the following options is TRUE?<br/>quantitative-aptitude<br/>ratio-proportion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sequence Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sequence Series: GATE CSE 2012 | Question: 65</strong></div><p>Given the sequence of terms,<br/>, the next term is<br/>quantitative-aptitude<br/>sequence-series<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "180",
+      "discussUrl": "https://gateoverflow.in/2213/gate-cse-2012-question-65"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sequence Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sequence Series: GATE CSE 2018 | GA | Question: 5</strong></div><p>quantitative-aptitude<br/>sequence-series<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2213/gate-cse-2012-question-65"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sequence Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sequence Series: GATE CSE 2023 | GA | Question: 3</strong></div><p>A series of natural numbers<br/>obeys<br/>for all integers<br/>.<br/>If<br/>and<br/>then what is<br/>quantitative-aptitude<br/>sequence-series<br/>Sequence Series: GATE DS&AI 2024 | GA | Question: 4<br/>​​​​​​<br/>The sum of the following infinite series is<br/>gate-ds-ai-2024<br/>quantitative-aptitude<br/>sequence-series<br/>Shortest Path<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/40308/gate2014-ae-ga-8"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2020 | GA | Question: 5</strong></div><p>There are multiple routes to reach from node<br/>to node<br/>, as shown in the network.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2213/gate-cse-2012-question-65"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Speed Time Distance",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Speed Time Distance: GATE CSE 2013 | Question: 64</strong></div><p>A tourist covers half of his journey by train at<br/>, half of the remainder by bus at<br/>and the<br/>rest by cycle at<br/>. The average speed of the tourist in<br/>during his entire journey is<br/>quantitative-aptitude<br/>easy<br/>speed-time-distance</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1568/gate-cse-2013-question-64"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Speed Time Distance",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Speed Time Distance: GATE CSE 2019 | GA | Question: 3</strong></div><p>Two cars at the same time from the same location and go in the same direction. The speed of the ﬁrst car is<br/>km/h and the speed of the second car is<br/>km/h. The number of hours it takes for the distance between<br/>the two cars to be<br/>km is _____.<br/>general-aptitude<br/>quantitative-aptitude<br/>speed-time-distance<br/>Speed Time Distance: GATE2013 AE: GA-6<br/>Velocity of an object ﬁred directly in upward direction is given by<br/>ܸ<br/>, where<br/>(time) is in<br/>seconds. When will the velocity be between<br/>and<br/>?<br/>quantitative-aptitude<br/>speed-time-distance<br/>Speed Time Distance: GATE2013 EE: GA-9<br/>A car travels<br/>in the ﬁrst quarter of an hour,<br/>in the second quarter and<br/>in the third quarter.<br/>The average speed of the car in km per hour over the entire journey is<br/>speed-time-distance<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1568/gate-cse-2013-question-64"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statistics",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statistics: GATE CSE 2012 | Question: 64</strong></div><p>Which of the following assertions are<br/>CORRECT<br/>?<br/>P: Adding<br/>to each entry in a list adds<br/>to the mean of the list<br/>Q: Adding<br/>to each entry in a list adds<br/>to the standard deviation of the list<br/>R: Doubling each entry in a list doubles the mean of the list<br/>S: Doubling each entry in a list leaves the standard deviation of the list unchanged<br/>quantitative-aptitude<br/>statistics</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2212/gate-cse-2012-question-64"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statistics",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statistics: GATE CSE 2024 | Set 1 | GA | Question: 3</strong></div><p>Consider the following sample of numbers:<br/>The median of the sample is<br/>quantitative-aptitude<br/>statistics<br/>Statistics: GATE2012 AE: GA-5<br/>The arithmetic mean of ﬁve diﬀerent natural numbers is<br/>. The largest possible value among the numbers<br/>is<br/>statistics<br/>quantitative-aptitude<br/>System of Equations<br/>(1)<br/>System of Equations: GATE2011 GG: GA-6<br/>The number of solutions for the following system of inequalities is<br/>quantitative-aptitude<br/>system-of-equations<br/>Tables<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1878"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tables",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tables: GATE CSE 2025 | Set 2 | GA | Question: 8</strong></div><p>Which one of the following options is correct for the given data in the table?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1878"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tabular Data",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tabular Data: GATE CSE 2014 | Set 1 | GA | Question: 9</strong></div><p>In a survey,<br/>respondents were asked whether they own a vehicle or not. If yes, they were further asked<br/>to mention whether they own a car or scooter or both. Their responses are tabulated below. What percent of<br/>respondents do not own a scooter?<br/>quantitative-aptitude<br/>data-interpretation<br/>tabular-data</p></div>",
+      "options": [],
+      "correctAnswer": "48",
+      "discussUrl": "https://gateoverflow.in/test/1872"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tabular Data",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tabular Data: GATE CSE 2014 | Set 3 | GA | Question: 5</strong></div><p>The table below has question-wise data on the performance of students in an examination. The marks for<br/>each question are also listed. There is no negative or partial marking in the examination.<br/>What is the average of the marks obtained by the class in the examination?<br/>quantitative-aptitude<br/>data-interpretation<br/>tabular-data</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/777/gate-cse-2014-set-1-ga-question-9"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tabular Data",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tabular Data: GATE CSE 2015 | Set 1 | GA | Question: 6</strong></div><p>The number of students in a class who have answered correctly, wrongly, or not attempted each question in<br/>an exam, are listed in the table below. The marks for each question are also listed. There is no negative or<br/>partial marking.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1872"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tabular Data",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tabular Data: GATE CSE 2016 | Set 1 | GA | Question: 06</strong></div><p>A shaving set company sells<br/>different types of razors- Elegance, Smooth, Soft and Executive.<br/>Elegance sells at<br/>, Smooth at<br/>, Soft at<br/>and Executive at<br/>per piece. The table<br/>below shows the numbers of each razor sold in each quarter of a year.<br/>Which product contributes the greatest fraction to the revenue of the company in that year?<br/>quantitative-aptitude<br/>data-interpretation<br/>easy<br/>tabular-data<br/>Tabular Data: GATE2011 MN: GA-64<br/>Four archers P, Q, R, and S try to hit a bull’s eye during a tournament consisting of seven rounds. As<br/>illustrated in the ﬁgure below, a player receives<br/>points for hitting the bull's eye,<br/>points for hitting within<br/>the inner circle and<br/>point for hitting within the outer circle.<br/>The final scores received by the players during the tournament are listed in the table below.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39616/gate-cse-2016-set-1-ga-question-06"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Triangles",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Triangles: GATE CSE 2015 | Set 2 | GA | Question: 8</strong></div><p>In a triangle<br/>is the angle bisector of<br/>. What is the length of<br/>?<br/>quantitative-aptitude<br/>geometry<br/>difficult<br/>triangles</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1842"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Triangles",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Triangles: GATE CSE 2018 | GA | Question: 9</strong></div><p>In the figure below,<br/>is equal to _____<br/>quantitative-aptitude<br/>geometry<br/>triangles</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8039/gate-cse-2015-set-2-ga-question-8"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Triangles",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Triangles: GATE CSE 2022 | GA | Question: 9</strong></div><p>The corners and mid-points of the sides of a triangle are named using the distinct letters<br/>and<br/>but not necessarily in the same order. Consider the following statements:<br/>The line joining<br/>and<br/>is parallel to the line joining<br/>and<br/>is placed on the side opposite to the corner<br/>and<br/>cannot be placed on the same side.<br/>Which one of the following statements is correct based on the above information?<br/>quantitative-aptitude<br/>geometry<br/>triangles<br/>Venn Diagram<br/>(7)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(3Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8039/gate-cse-2015-set-2-ga-question-8"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Venn Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Venn Diagram: GATE CSE 2010 | Question: 59</strong></div><p>persons are in a room.<br/>of them play hockey,<br/>of them play football and<br/>of them play both hockey<br/>and football. Then the number of persons playing neither hockey nor football is:<br/>quantitative-aptitude<br/>easy<br/>set-theory&algebra<br/>venn-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Venn Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Venn Diagram: GATE CSE 2016 | Set 2 | GA | Question: 06</strong></div><p>Among<br/>faculty members in an institute,<br/>are connected with each other through Facebook and<br/>are<br/>connected through Whatsapp.<br/>faculty members do not have Facebook or Whatsapp accounts. The<br/>numbers of faculty members connected only through Facebook accounts is _______.<br/>quantitative-aptitude<br/>venn-diagram<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59"
+    }
+  ]
+}

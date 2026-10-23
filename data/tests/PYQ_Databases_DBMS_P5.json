@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Databases_DBMS_P5",
+  "fileName": "PYQ_Databases_DBMS_P5.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 5",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1994 | Question: 13</strong></div><p>Consider the following relational schema:<br/>COURSES (<br/>cno<br/>, cname)<br/>STUDENTS (<br/>rollno<br/>, sname, age, year)<br/>REGISTERED_FOR (<br/>cno, rollno<br/>)<br/>The underlined attributes indicate the primary keys for the relations. The ‘year’ attribute for the STUDENTS relation<br/>indicates the year in which the student is currently studying (First year, Second year etc.)<br/>A<br/>.<br/>Write a relational algebra query to print the roll number of students who have registered for cno<br/>B<br/>.<br/>Write a SQL query to print the age and year of the youngest student in each year.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43581/gate-cse-1992-question-13b"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1994 | Question: 3.8</strong></div><p>Give a relational algebra expression using only the minimum number of operators from<br/>which is<br/>equivalent to<br/>databases<br/>relational-algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2494/gate-cse-1994-question-3-8"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1995 | Question: 27</strong></div><p>Consider the relation scheme.<br/>Express the following queries using (one or more of) SELECT, PROJECT, JOIN and DIVIDE operations.<br/>A<br/>.<br/>Get the names of all publishers.<br/>B<br/>.<br/>Get values of all attributes of all authors who have published a book for the publisher with<br/>PNAME=’TECHNICAL PUBLISHERS’.<br/>C<br/>.<br/>Get the names of all authors who have published a book for any publisher located in Madras<br/>databases<br/>relational-algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2666/gate-cse-1995-question-27"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1996 | Question: 27</strong></div><p>A library relational database system uses the following schema<br/>USERS (User#, User Name, Home Town)<br/>BOOKS (Book#, Book Title, Author Name)<br/>ISSUED (Book#, User#, Date)<br/>Explain in one English sentence, what each of the following relational algebra queries is designed to determine<br/>a<br/>.<br/>b<br/>.<br/>databases<br/>relational-algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2666/gate-cse-1995-question-27"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1997 | Question: 76-a</strong></div><p>Consider the following relational database schema:<br/>EMP (<br/>eno<br/>name, age)<br/>PROJ (<br/>pno<br/>name)<br/>INVOLVED (<br/>eno, pno<br/>)<br/>EMP contains information about employees. PROJ about projects and involved about which employees involved in<br/>which projects. The underlined attributes are the primary keys for the respective relations.<br/>What is the relational algebra expression containing one or more of<br/>which is equivalent to SQL<br/>query.<br/>select<br/>eno<br/>from<br/>EMP<br/>|<br/>INVOLVED<br/>where<br/>EMP<br/>.<br/>eno<br/>=<br/>INVOLVED<br/>.<br/>eno<br/>and<br/>INVOLVED<br/>.<br/>pno<br/>=<br/>3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/19838/gate-cse-1997-question-76-a"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1998 | Question: 1.33</strong></div><p>Given two union compatible relations<br/>and<br/>, what is the result of the operation<br/>?<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1670/gate-cse-1998-question-1-33"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1998 | Question: 27</strong></div><p>Consider the following relational database schemes:<br/>COURSES (Cno, Name)<br/>PRE_REQ(Cno, Pre_Cno)<br/>COMPLETED (Student_no, Cno)<br/>COURSES gives the number and name of all the available courses.<br/>PRE_REQ gives the information about which courses are pre-requisites for a given course.<br/>COMPLETED indicates what courses have been completed by students<br/>Express the following using relational algebra:<br/>List all the courses for which a student with Student_no 2310 has completed all the pre-requisites.<br/>databases<br/>relational-algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1670/gate-cse-1998-question-1-33"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 1999 | Question: 1.18,</strong></div><p>ISRO2016-53<br/>Consider the join of a relation<br/>with a relation<br/>. If<br/>has<br/>tuples and<br/>has<br/>tuples then the maximum<br/>and minimum sizes of the join respectively are<br/>A<br/>.<br/>and<br/>B<br/>.<br/>and<br/>C<br/>.<br/>and<br/>D<br/>.<br/>and<br/>databases<br/>relational-algebra<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1670/gate-cse-1998-question-1-33"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2000 | Question: 1.23, ISRO2016-57</strong></div><p>Given the relations<br/>employee (name, salary, dept-no), and<br/>department (dept-no, dept-name,address),<br/>Which of the following queries cannot be expressed using the basic relational algebra operations<br/>?<br/>A<br/>.<br/>Department address of every employee<br/>B<br/>.<br/>Employees whose name is the same as their department name<br/>C<br/>.<br/>The sum of all employees' salaries<br/>D<br/>.<br/>All employees of a given department<br/>databases<br/>relational-algebra<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1670/gate-cse-1998-question-1-33"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2001 | Question: 1.24</strong></div><p>Suppose the adjacency relation of vertices in a graph is represented in a table Adj<br/>Which of the<br/>following queries cannot be expressed by a relational algebra expression of constant length?<br/>A<br/>.<br/>List all vertices adjacent to a given vertex<br/>B<br/>.<br/>List all vertices which have self loops<br/>C<br/>.<br/>List all vertices which belong to cycles of less than three vertices<br/>D<br/>.<br/>List all vertices reachable from a given vertex<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/717/gate-cse-2001-question-1-24"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2001 | Question: 1.25</strong></div><p>Let r and s be two relations over the relation schemes R and S respectively, and let A be an attribute in R.<br/>The relational algebra expression<br/>is always equal to<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/717/gate-cse-2001-question-1-24"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2001 | Question: 21-a</strong></div><p>Consider a relation examinee (regno, name, score), where regno is the primary key to score is a real<br/>number.<br/>Write a relational algebra using<br/>to find the list of names which appear more than once in examinee.<br/>databases<br/>descriptive<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/717/gate-cse-2001-question-1-24"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2002 | Question: 15</strong></div><p>A university placement center maintains a relational database of companies that interview students on<br/>campus and make job oﬀers to those successful in the interview. The schema of the database is given<br/>below:<br/>The COMPANY relation gives the name and location of the company. The STUDENT relation gives the student’s<br/>roll number, name and the degree program for which the student is registered in the university. The INTERVIEW<br/>relation gives the date on which a student is interviewed by a company. The OFFER relation gives the salary<br/>oﬀered to a student who is successful in a company’s interview. The key for each relation is indicated by the<br/>underlined attributes<br/>a<br/>.<br/>Write a<br/>relational algebra<br/>expressions (using only the operators<br/>) for the following queries.<br/>i<br/>.<br/>List the<br/>and<br/>of students who attended at least one interview but did not receive<br/>job offer.<br/>ii<br/>.<br/>List the<br/>and<br/>of students who went for interviews and received job oﬀers from<br/>company with which they interviewed.<br/>b<br/>.<br/>Write an SQL query to list, for each degree program in which more than<br/>students were oﬀered jobs, the<br/>name of the degree and the average offered salary of students in this degree program.<br/>databases<br/>descriptive<br/>relational-algebra<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/868/gate-cse-2002-question-15"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2003 | Question: 30</strong></div><p>Consider the following SQL query<br/>Select distinct<br/>from<br/>where<br/>P<br/>For an arbitrary predicate P, this query is equivalent to which of the following relational algebra expressions?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/920/gate-cse-2003-question-30"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2004 | Question: 51</strong></div><p>Consider the relation Student (<br/>name<br/>, sex, marks), where the primary key is shown underlined, pertaining to<br/>students in a class that has at least one boy and one girl. What does the following relational algebra<br/>expression produce? (Note:<br/>is the rename operator).<br/>A<br/>.<br/>names of girl students with the highest marks<br/>B<br/>.<br/>names of girl students with more marks than some boy student<br/>C<br/>.<br/>names of girl students with marks not less than some boy student<br/>D<br/>.<br/>names of girl students with more marks than all the boy students<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1047/gate-cse-2004-question-51"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2007 | Question: 59</strong></div><p>Information about a collection of students is given by the relation<br/>. The<br/>relation<br/>gives which student has enrolled for (or taken) what course(s). Assume<br/>that every course is taken by at least one male and at least one female student. What does the following relational<br/>algebra expression represent?<br/>A<br/>.<br/>Courses in which all the female students are enrolled.<br/>B<br/>.<br/>Courses in which a proper subset of female students are enrolled.<br/>C<br/>.<br/>Courses in which only male students are enrolled.<br/>D<br/>.<br/>None of the above<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2428/gate-cse-2007-question-59"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2008 | Question: 68</strong></div><p>Let R and S be two relations with the following schema<br/>where<br/>is the key for both schemas. Which of the following queries are equivalent?<br/>I<br/>.<br/>II<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/491/gate-cse-2008-question-68"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2014 | Set 3 | Question: 21</strong></div><p>What is the optimized version of the relation algebra expression<br/>, where<br/>are sets of attributes in<br/>with<br/>and<br/>are Boolean expressions based on the attributes in<br/>?<br/>databases<br/>relational-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2055/gate-cse-2014-set-3-question-21"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2014 | Set 3 | Question: 30</strong></div><p>Consider the relational schema given below, where<br/>eId<br/>of the relation<br/>dependent<br/>is a foreign key referring<br/>to<br/>empId<br/>of the relation<br/>employee<br/>. Assume that every employee has at least one associated dependent in<br/>the<br/>dependent<br/>relation.<br/>employee (empId, empName, empAge)<br/>dependent (depId, eId, depName, depAge)<br/>Consider the following relational algebra query:<br/>The above query evaluates to the set of<br/>empId<br/>s of employees whose age is greater than that of<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2055/gate-cse-2014-set-3-question-21"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2015 | Set 1 | Question: 7</strong></div><p>SELECT operation in SQL is equivalent to<br/>A<br/>.<br/>The selection operation in relational algebra<br/>B<br/>.<br/>The selection operation in relational algebra, except that SELECT in SQL retains duplicates<br/>C<br/>.<br/>The projection operation in relational algebra<br/>D<br/>.<br/>The projection operation in relational algebra, except that SELECT in SQL retains duplicates<br/>databases<br/>sql<br/>relational-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2055/gate-cse-2014-set-3-question-21"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2017 | Set 1 | Question: 46</strong></div><p>Consider a database that has the relation schema CR(StudentName, CourseName). An instance of the<br/>schema CR is as given below.</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/2055/gate-cse-2014-set-3-question-21"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2018 | Question: 41</strong></div><p>Consider the relations<br/>and<br/>, where<br/>is a primary key and<br/>is a foreign key<br/>referencing<br/>. Consider the query<br/>Let LOJ denote the natural left outer-join operation. Assume that<br/>and<br/>contain no null values.<br/>Which of the following is NOT equivalent to<br/>?<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204115/gate-cse-2018-question-41"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2019 | Question: 55</strong></div><p>Consider the following relations<br/>and<br/>.</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/302793/gate-cse-2019-question-55"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2021 | Set 1 | Question: 27</strong></div><p>The following relation records the age of<br/>employees of a company, where<br/>(indicating the<br/>employee number) is the key:<br/>Consider the following relational algebra expression:<br/>What does the above expression generate?<br/>A<br/>.<br/>Employee numbers of only those employees whose age is the maximum<br/>B<br/>.<br/>Employee numbers of only those employees whose age is more than the age of exactly one other employee<br/>C<br/>.<br/>Employee numbers of all employees whose age is not the minimum<br/>D<br/>.<br/>Employee numbers of all employees whose age is the minimum<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357424/gate-cse-2021-set-1-question-27"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2022 | Question: 15</strong></div><p>Consider the following three relations in a relational database.<br/>Which of the following relational algebra expressions return the set of<br/>who own all the brands?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>databases<br/>relational-algebra<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/371921/gate-cse-2022-question-15"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2024 | Set 1 | Question: 25</strong></div><p>Consider the following two relations,<br/>and<br/>:</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/357424/gate-cse-2021-set-1-question-27"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE CSE 2024 | Set 2 | Question: 35</strong></div><p>The relation schema, Person (pid, city), describes the city of residence for every person uniquely identiﬁed<br/>by pid. The following relational algebra operators are available: selection, projection, cross product, and<br/>rename.<br/>To ﬁnd the list of cities where at least<br/>persons reside, using the above operators, the minimum number of cross<br/>product operations that must be used is<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422862/gate-cse-2024-set-2-question-35"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE DA 2025 | Question: 52</strong></div><p>Consider the following tables,<br/>and<br/>of a bank.<br/>Query<br/>:<br/>Loan<br/>Borrower<br/>Loan<br/>where<br/>denotes natural join.<br/>The number of tuples returned by the above relational algebra query is ____________ (Answer in integer)<br/>gateda-2025<br/>databases<br/>relational-algebra</p></div>",
+      "options": [],
+      "correctAnswer": "1:1",
+      "discussUrl": "https://gateoverflow.in/460970/gate-da-2025-question-52"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE DA 2025 | Question: 7</strong></div><p>Consider the following three relations:<br/>A tuple in<br/>represents a speciﬁc car of a given<br/>made in a given<br/>with a<br/>number and a<br/>A tuple in<br/>speciﬁes that a<br/>company makes cars of a certain<br/>A tuple in<br/>speciﬁes that an<br/>owns the car with a given<br/>number. Keys are underlined; (<br/>) together form key for<br/>(<br/>denotes natural join)<br/>Which one of the following options describes what the above expression computes?<br/>A<br/>.<br/>All owners of a red car, a car made by<br/>or a red car made by<br/>B<br/>.<br/>All owners of more than one car, where at least one car is red and made by<br/>C<br/>.<br/>All owners of a red car made by<br/>D<br/>.<br/>All red cars made by<br/>gateda-2025<br/>databases<br/>relational-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461015/gate-da-2025-question-7"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE DA 2026 | Question: 32</strong></div><p>Consider the given relations<br/>and<br/>. The relation<br/>has three columns<br/>and<br/>. The relation<br/>has three columns<br/>and<br/>. The relation<br/>has two columns<br/>and<br/>.<br/>X<br/>P<br/>Q<br/>R<br/>P1<br/>Q1<br/>R1<br/>P2<br/>Q2<br/>R2<br/>P3<br/>Q3<br/>R2<br/>Y<br/>P<br/>Q<br/>S<br/>P1<br/>Q1<br/>2<br/>P1<br/>Q2<br/>5<br/>P2<br/>Q1<br/>6<br/>P3<br/>Q3<br/>1<br/>Z<br/>P<br/>T<br/>P1<br/>T1<br/>P3<br/>T2<br/>P4<br/>T3<br/>P4<br/>NULL<br/>Consider the relational algebra expression<br/>where<br/>denotes natural join operation.<br/>Which of the following options is the correct output for the given expression?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523183/gate-da-2026-question-32"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Algebra: GATE IT 2005 | Question: 68</strong></div><p>A table 'student' with schema (roll, name, hostel, marks), and another table 'hobby' with schema (roll,<br/>hobbyname) contains records as shown below:<br/>The following SQL query is executed on the above tables:<br/>select<br/>hostel<br/>from<br/>student natural<br/>join<br/>hobby<br/>where<br/>marks<br/>>=<br/>75<br/>and<br/>roll between<br/>2000<br/>and<br/>3000<br/>;<br/>Relations<br/>and<br/>with the same schema as those of these two tables respectively contain the same information<br/>as tuples. A new relation<br/>is obtained by the following relational algebra operation:<br/>The difference between the number of rows output by the SQL statement and the number of tuples in<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3831/gate-it-2005-question-68"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 1993 | Question: 23</strong></div><p>The following relations are used to store data about students, courses, enrollment of students in courses and<br/>teachers of courses. Attributes for primary key in each relation are marked by ‘*’.<br/>Students<br/>(<br/>rollno<br/>*,<br/>sname<br/>,<br/>saddr<br/>)<br/>courses<br/>(<br/>cno<br/>*,<br/>cname<br/>)<br/>enroll<br/>(<br/>rollno<br/>*,<br/>cno<br/>*,<br/>grade<br/>)<br/>teach<br/>(<br/>tno<br/>*,<br/>tname<br/>,<br/>cao<br/>*)<br/>(cno is course number cname is course name, tno is teacher number, tname is teacher name, sname is student<br/>name, etc.)<br/>Write a SQL query for retrieving roll number and name of students who got A grade in at least one course taught by<br/>teacher names Ramesh for the above relational database.<br/>databases<br/>sql<br/>relational-calculus<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2320/gate-cse-1993-question-23"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 1998 | Question: 2.19</strong></div><p>Which of the following query transformations (i.e., replacing the l.h.s. expression by the r.h.s expression) is<br/>incorrect? R1 and R2 are relations, C1 and C2 are selection conditions and A1 and A2 are attributes of R1.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>databases<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/2156"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 1999 | Question: 1.19</strong></div><p>The relational algebra expression equivalent to the following tuple calculus expression:<br/>is<br/>databases<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2156"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2001 | Question: 2.24</strong></div><p>Which of the following relational calculus expression is not safe?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>relational-calculus<br/>databases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2156"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2002 | Question: 1.20</strong></div><p>With regards to the expressive power of the formal relational query languages, which of the following<br/>statements is true?<br/>A<br/>.<br/>Relational algebra is more powerful than relational calculus<br/>B<br/>.<br/>Relational algebra has the same power as relational calculus<br/>C<br/>.<br/>Relational algebra has the same power as safe relational calculus<br/>D<br/>.<br/>None of the above<br/>databases<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/825/gate-cse-2002-question-1-20"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2004 | Question: 13</strong></div><p>Let<br/>and<br/>be two relation schema, where the primary keys are shown underlined,<br/>and let C be a foreign key in<br/>referring to<br/>. Suppose there is no violation of the above referential<br/>integrity constraint in the corresponding relation instances<br/>and<br/>. Which of the following relational algebra<br/>expressions would necessarily produce an empty relation?<br/>databases<br/>relational-calculus<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1010/gate-cse-2004-question-13"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2007 | Question: 60</strong></div><p>Consider the relation<br/>employee<br/>(name, sex, supervisorName) with<br/>name<br/>as the key,<br/>supervisorName<br/>gives<br/>the name of the supervisor of the employee under consideration. What does the following Tuple Relational<br/>Calculus query produce?<br/>A<br/>.<br/>Names of employees with a male supervisor.<br/>B<br/>.<br/>Names of employees with no immediate male subordinates.<br/>C<br/>.<br/>Names of employees with no immediate female subordinates.<br/>D<br/>.<br/>Names of employees with a female supervisor.<br/>databases<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1258/gate-cse-2007-question-60"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2008 | Question: 15</strong></div><p>Which of the following tuple relational calculus expression(s) is/are equivalent to<br/>?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>databases<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/413/gate-cse-2008-question-15"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2009 | Question: 45</strong></div><p>Let<br/>and<br/>be relational schemes such that<br/>and<br/>Now consider the following<br/>queries on the database:<br/>1<br/>.<br/>2<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1331/gate-cse-2009-question-45"
+    }
+  ]
+}

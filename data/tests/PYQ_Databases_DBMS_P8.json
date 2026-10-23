@@ -1,0 +1,571 @@
+{
+  "id": "PYQ_Databases_DBMS_P8",
+  "fileName": "PYQ_Databases_DBMS_P8.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 8",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 16,
+  "totalMarks": 18,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2019 | Question: 11</strong></div><p>Consider the following two statements about database transaction schedules:<br/>I<br/>.<br/>Strict two-phase locking protocol generates conflict serializable schedules that are also recoverable.<br/>II<br/>.<br/>Timestamp-ordering concurrency control protocol with Thomas’ Write Rule can generate view<br/>serializable schedules that are not conflict serializable<br/>Which of the above statements is/are TRUE?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302837/gate-cse-2019-question-11"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2021 | Set 1 | Question: 13</strong></div><p>Suppose a database system crashes again while recovering from a previous crash. Assume checkpointing<br/>is not done by the database either during the transactions or during recovery.<br/>Which of the following statements is/are correct?<br/>A<br/>.<br/>The same undo and redo list will be used while recovering again<br/>B<br/>.<br/>The system cannot recover any further<br/>C<br/>.<br/>All the transactions that are already undone and redone will not be recovered again<br/>D<br/>.<br/>The database will become inconsistent<br/>multiple-selects<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2024 | Set 2 | Question: 9</strong></div><p>Once the<br/>informs the user that a transaction has been successfully completed, its eﬀect should<br/>persist even if the system crashes before all its changes are reflected on disk. This property is called<br/>databases<br/>transaction-and-concurrency<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2025 | Set 1 | Question: 5</strong></div><p>A schedule of three database transactions<br/>, and<br/>is shown.<br/>and<br/>denote read and<br/>write of data item<br/>by transaction<br/>. The transaction<br/>aborts at the end. Which other<br/>transaction(s) will be required to be rolled back?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2025 | Set 2 | Question: 17</strong></div><p>An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account<br/>attempted simultaneous transfers of Rs.<br/>each from account<br/>to account<br/>. Both transactions<br/>read the same value, Rs.<br/>, as the initial balance in<br/>and were allowed to go through.<br/>was credited Rs.<br/>twice.<br/>was debited only once and ended up with a balance of Rs.<br/>.<br/>Which of the following properties is/are certain to have been violated by the system?<br/>databases<br/>transaction-and-concurrency<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2026 | Set 2 | Question: 10</strong></div><p>Consider concurrent execution of two transactions<br/>and<br/>in a DBMS, both of which access a data<br/>object<br/>. For these two transactions to not conﬂict on<br/>, which one of the following statements must be<br/>true?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2004 | Question: 21</strong></div><p>Which level of locking provides the highest degree of concurrency in a relational database ?<br/>A<br/>.<br/>Page<br/>B<br/>.<br/>Table<br/>C<br/>.<br/>Row<br/>D<br/>.<br/>Page, table and row level locking allow the same degree of concurrency<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3662/gate-it-2004-question-21"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2004 | Question: 77</strong></div><p>Consider the following schedule<br/>of transactions<br/>and<br/>Which of the following is TRUE about the schedule<br/>?<br/>A<br/>.<br/>is serializable only as<br/>B<br/>.<br/>is serializable only as<br/>C<br/>.<br/>is serializable both as<br/>and<br/>D<br/>.<br/>is not serializable either as<br/>or as<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/3662/gate-it-2004-question-21"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2005 | Question: 24</strong></div><p>Amongst the ACID properties of a transaction, the 'Durability' property requires that the changes made to the<br/>database by a successful transaction persist<br/>A<br/>.<br/>Except in case of an Operating System crash<br/>B<br/>.<br/>Except in case of a Disk crash<br/>C<br/>.<br/>Except in case of a power failure<br/>D<br/>.<br/>Always, even if there is a failure of any kind<br/>databases<br/>transaction-and-concurrency<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3769/gate-it-2005-question-24"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2005 | Question: 67</strong></div><p>A company maintains records of sales made by its salespersons and pays them commission based on each<br/>individual's total sales made in a year. This data is maintained in a table with following schema:<br/>salesinfo = (salespersonid, totalsales, commission)<br/>In a certain year, due to better business results, the company decides to further reward its salespersons by<br/>enhancing the commission paid to them as per the following formula:<br/>If commission<br/>enhance it by<br/>If<br/>commission<br/>enhance it by<br/>If commission<br/>enhance it by<br/>The IT staﬀ has written three diﬀerent SQL scripts to calculate enhancement for each slab, each of these scripts is<br/>to run as a separate transaction as follows:<br/>T1<br/>Update<br/>salesinfo<br/>Set<br/>commission<br/>=<br/>commission<br/>*<br/>1.02<br/>Where<br/>commission<br/><<br/>=<br/>50000<br/>;<br/>T2<br/>Update<br/>salesinfo<br/>Set<br/>commission<br/>=<br/>commission<br/>*<br/>1.04<br/>Where<br/>commission<br/>><br/>50000<br/>and<br/>commission<br/>is<br/><<br/>=<br/>100000<br/>;<br/>T3<br/>Update<br/>salesinfo<br/>Set<br/>commission<br/>=<br/>commission<br/>*<br/>1.06<br/>Where<br/>commission<br/>><br/>100000<br/>;<br/>Which of the following options of running these transactions will update the commission of all salespersons correctly<br/>A<br/>.<br/>Execute T1 followed by T2 followed by T3<br/>B<br/>.<br/>Execute T2, followed by T3; T1 running concurrently throughout<br/>C<br/>.<br/>Execute T3 followed by T2; T1 running concurrently throughout<br/>D<br/>.<br/>Execute T3 followed by T2 followed by T1<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3830/gate-it-2005-question-67"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2007 | Question: 66</strong></div><p>Consider the following two transactions<br/>and<br/>Which of the following schemes, using shared and exclusive locks, satisfy the requirements for strict two phase<br/>locking for the above transactions?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3511/gate-it-2007-question-66"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE IT 2008 | Question: 63</strong></div><p>Consider the following three schedules of transactions T1, T2 and T3. [Notation: In the following NYO<br/>represents the action Y (R for read, W for write) performed by transaction N on object O.]<br/>Which of the following statements is TRUE?<br/>A<br/>.<br/>S1, S2 and S3 are all conflict equivalent to each other<br/>B<br/>.<br/>No two of S1, S2 and S3 are conflict equivalent to each other<br/>C<br/>.<br/>S2 is conflict equivalent to S3, but not to S1<br/>D<br/>.<br/>S1 is conflict equivalent to S2, but not to S3<br/>databases<br/>transaction-and-concurrency<br/>Tuple Relational Calculus<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3374/gate-it-2008-question-63"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Tuple Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tuple Relational Calculus: GATE CSE 2025 | Set 1 | Question: 29</strong></div><p>Consider two relations describing teams and players in a sports league:<br/>teams(tid, tname): tid, tname are team-id and team-name, respectively<br/>players(pid,pname,tid): pid, pname, and tid denote player-id, playername and the team-id of the player,<br/>respectively<br/>Which ONE of the following tuple relational calculus queries returns the name of the players who play for the team<br/>having tname as '<br/>?<br/>A<br/>.<br/>. pname<br/>players<br/>teams<br/>B<br/>.<br/>. pname<br/>teams<br/>players<br/>C<br/>.<br/>. pname<br/>players<br/>teams<br/>. tname<br/>D<br/>.<br/>. pname<br/>teams<br/>players<br/>. tname<br/>databases<br/>tuple-relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460051/gate-cse-2025-set-1-question-29"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Tuple Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tuple Relational Calculus: GATE CSE 2026 | Set 1 | Question: 33</strong></div><p>Consider a relational database schema with two relations<br/>and<br/>.<br/>Let<br/>be a tuple relational calculus expression.<br/>Which one of the following relational algebraic expressions is equivalent to<br/>?<br/>databases<br/>tuple-relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3374/gate-it-2008-question-63"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tuple Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tuple Relational Calculus: GATE DA 2026 | Question: 49</strong></div><p>Let there be two relations<br/>and<br/>as shown.<br/>has three columns<br/>and<br/>has two columns<br/>and<br/>.</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/523047/gate-cse-2026-set-1-question-33"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Two Phase Locking Protocol",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Two Phase Locking Protocol: GATE CSE 2024 | Set 2 | Question: 17</strong></div><p>​​​​<br/>Which of the following statements about the Two Phase Locking (<br/>) protocol is/are TRUE?<br/>A<br/>.<br/>permits only serializable schedules<br/>B<br/>.<br/>With<br/>, a transaction always locks the data item being read or written just before every operation and always<br/>releases the lock just after the operation<br/>C<br/>.<br/>With<br/>, once a lock is released on any data item inside a transaction, no more locks on any data item can be<br/>obtained inside that transaction<br/>D<br/>.<br/>A deadlock is possible with<br/>databases<br/>two-phase-locking-protocol<br/>multiple-selects<br/>transaction-and-concurrency<br/>3.1.1<br/>D<br/>3.2.1<br/>N/A<br/>3.2.2<br/>N/A<br/>3.2.3<br/>N/A<br/>3.2.4<br/>N/A<br/>3.2.5<br/>B<br/>3.2.6<br/>N/A<br/>3.2.7<br/>B<br/>3.2.8<br/>N/A<br/>3.2.9<br/>N/A<br/>3.2.10<br/>N/A<br/>3.2.11<br/>C<br/>3.2.12<br/>B<br/>3.2.13<br/>C<br/>3.2.14<br/>D<br/>3.2.15<br/>A<br/>3.2.16<br/>C<br/>3.2.17<br/>C<br/>3.2.18<br/>B<br/>3.2.19<br/>5<br/>3.2.20<br/>50<br/>3.2.21<br/>A<br/>3.2.22<br/>52<br/>3.2.23<br/>B<br/>3.2.24<br/>A<br/>3.2.25<br/>B;D<br/>3.2.26<br/>33:33<br/>3.2.27<br/>A<br/>3.2.28<br/>C<br/>3.2.29<br/>A<br/>3.2.30<br/>C<br/>3.2.31<br/>A<br/>3.2.32<br/>A<br/>3.3.1<br/>N/A<br/>3.3.2<br/>D<br/>3.3.3<br/>A<br/>3.3.4<br/>8<br/>3.3.5<br/>19<br/>3.3.6<br/>B<br/>3.3.7<br/>A</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/422880/gate-cse-2024-set-2-question-17"
+    }
+  ]
+}

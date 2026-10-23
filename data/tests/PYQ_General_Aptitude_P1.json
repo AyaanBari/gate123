@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_General_Aptitude_P1",
+  "fileName": "PYQ_General_Aptitude_P1.json",
+  "title": "GATE Official PYQs | General Aptitude Part 1",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 55,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Age Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Age Relation: GATE CSE 2010 | Question: 62</strong></div><p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on<br/>January.<br/>The age diﬀerence between any two successive siblings (that is born one after another) is less than three<br/>years. Given the following facts:<br/>i<br/>.<br/>Hari's age<br/>Gita's age<br/>Irfan's age<br/>Saira's age<br/>ii<br/>.<br/>The age diﬀerence between Gita and Saira is one year. However Gita is not the oldest and Saira is not the<br/>youngest.<br/>iii<br/>.<br/>There are no twins.<br/>In what order they were born (oldest first)?<br/>analytical-aptitude<br/>logical-reasoning<br/>age-relation<br/>Age Relation: GATE2013 CE: GA-10<br/>Abhishek is elder to Savar. Savar is younger to Anshul. Which of the given conclusions is logically valid and<br/>is inferred from the above statements?<br/>logical-reasoning<br/>age-relation<br/>easy<br/>Analogy<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2370/gate-cse-2010-question-62"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Analogy",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Analogy: GATE CSE 2026 | Set 2 | GA | Question: 6</strong></div><p>Water :<br/>: Food :<br/>Choose the<br/>and<br/>combination from the options below to form a meaningful analogy.<br/>analytical-aptitude<br/>analogy<br/>Code Words<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2370/gate-cse-2010-question-62"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Words",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Words: GATE CSE 2015 | Set 3 | GA | Question: 1</strong></div><p>If<br/>is written as<br/>, then<br/>should be written as:<br/>analytical-aptitude<br/>easy<br/>logical-reasoning<br/>code-words<br/>code-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2370/gate-cse-2010-question-62"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Words",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Words: GATE CSE 2016 | Set 1 | GA | Question: 04</strong></div><p>If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could<br/>mean 'aftercare'?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2370/gate-cse-2010-question-62"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Coding Decoding",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Coding Decoding: GATE CSE 2025 | Set 2 | GA | Question: 7</strong></div><p>If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given<br/>options is the most appropriate code for BEACH?<br/>analytical-aptitude<br/>coding-decoding<br/>Direction Sense<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(14Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Direction Sense",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direction Sense: GATE CSE 2015 | Set 2 | GA | Question: 7</strong></div><p>Four branches of a company are located at<br/>and<br/>is north of<br/>at a distance of<br/>is<br/>south of<br/>at a distance of<br/>is southeast of<br/>by<br/>. What is the distance between<br/>and<br/>in<br/>?<br/>analytical-aptitude<br/>direction-sense</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Direction Sense",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direction Sense: GATE CSE 2017 | Set 2 | GA | Question: 3</strong></div><p>There are ﬁve buildings called<br/>,<br/>,<br/>,<br/>and<br/>in a row (not necessarily in that order).<br/>is to the West<br/>of<br/>.<br/>is to the East of<br/>and the West of<br/>.<br/>is to the West of<br/>. Which is the building in the middle?<br/>analytical-aptitude<br/>direction-sense</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Direction Sense",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direction Sense: GATE CSE 2019 | GA | Question: 10</strong></div><p>Three of the ﬁve students are allocated to a hostel put in special requests to the warden, Given the ﬂoor plan<br/>of the vacant rooms, select the allocation plan that will accommodate all their requests.<br/>Request by X: Due to pollen allergy, I want to avoid a wing next to the garden.<br/>Request by Y: I want to live as far from the washrooms as possible, since I am very much sensitive to smell.<br/>Request by Z: I believe in Vaastu and so I want to stay in South-West wing.<br/>The shaded rooms are already occupied. WR is washroom</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302863/gate-cse-2019-ga-question-10"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Direction Sense",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direction Sense: GATE CSE 2025 | Set 1 | GA | Question: 5</strong></div><p>According to the map shown in the figure, which one of the following statements is correct?<br/>Note: The figure shown is representative.<br/>A<br/>.<br/>The library is located to the northwest of the canteen.<br/>B<br/>.<br/>The hospital is located to the east of the chemistry lab.<br/>C<br/>.<br/>The chemistry lab is to the southeast of physics lab.<br/>D<br/>.<br/>The classrooms and canteen are next to each other.<br/>analytical-aptitude<br/>direction-sense<br/>easy<br/>Direction Sense: GATE2014 AG: GA-9<br/>is<br/>km northeast of<br/>.<br/>is<br/>km southeast of<br/>.<br/>is<br/>km west of<br/>.<br/>is<br/>km south of<br/>.<br/>is<br/>km east of<br/>. What is the distance between<br/>and<br/>in km?<br/>analytical-aptitude<br/>direction-sense<br/>Family Relationship<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460096/gate-cse-2025-set-1-ga-question-5"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Family Relationship",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Family Relationship: GATE CSE 2025 | Set 1 | GA | Question: 4</strong></div><p>Consider the relationships among<br/>, and<br/>:<br/>is the brother of<br/>.<br/>is the daughter of<br/>.<br/>is the sister of<br/>.<br/>is the mother of<br/>.<br/>The following statements are made based on the relationships given above.<br/>1<br/>.<br/>is the grandmother of<br/>.<br/>2<br/>.<br/>is the uncle of<br/>and<br/>.<br/>3<br/>.<br/>has only one son.<br/>4<br/>.<br/>has only one daughter.<br/>Which one of the following options is correct?<br/>analytical-aptitude<br/>logical-reasoning<br/>family-relationship<br/>Logical Inference<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460097/gate-cse-2025-set-1-ga-question-4"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Inference",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Inference: GATE CSE 2025 | Set 2 | GA | Question: 6</strong></div><p>​​​​​<br/>Based only on the conversation below, identify the logically correct inference:<br/>\"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told<br/>Josephine.<br/>A<br/>.<br/>Ramya knew that Josephine was in the hospital.<br/>B<br/>.<br/>Ramya did not know that Josephine was in the hospital.<br/>C<br/>.<br/>Ramya and Josephine were once close friends; but now, they are not.<br/>D<br/>.<br/>Josephine was in the hospital due to an injury to her leg.<br/>analytical-aptitude<br/>logical-inference<br/>Logical Reasoning<br/>(18)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(3Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460097/gate-cse-2025-set-1-ga-question-4"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2010 | Question: 61</strong></div><p>If<br/>how much is<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2369/gate-cse-2010-question-61"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2015 | Set 3 | GA | Question: 7</strong></div><p>The head of newly formed government desires to appoint ﬁve of the six selected members<br/>and<br/>to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if<br/>gets<br/>one of the ﬁve.<br/>wants either Home or Finance or no portfolio.<br/>says that if<br/>gets Power or Telecom, then she<br/>must get the other one. T insists on a portfolio if<br/>gets one.<br/>Which is the valid distribution of portfolios?<br/>A<br/>.<br/>-Home,<br/>-Power,<br/>-Defense,<br/>-Telecom,<br/>-Finance<br/>B<br/>.<br/>-Home,<br/>-Power,<br/>-Defense,<br/>-Telecom,<br/>-Finance</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460097/gate-cse-2025-set-1-ga-question-4"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2017 | Set 2 | GA | Question: 7</strong></div><p>There are three boxes. One contains apples, another contains oranges and the last one contains both<br/>apples and oranges. All three are known to be incorrectly labeled. If you are permitted to open just one box<br/>and then pull out and inspect only one fruit, which box would you open to determine the contents of all three boxes?<br/>analytical-aptitude<br/>tricky<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118421/gate-cse-2017-set-2-ga-question-7"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2021 | Set 2 | GA | Question: 10</strong></div><p>Six students<br/>, with distinct heights, compare their heights and make the following<br/>observations.<br/>:<br/>is taller than<br/>.<br/>:<br/>is the shortest of all.<br/>:<br/>is taller than only one student.<br/>:<br/>is taller than<br/>but is not the tallest<br/>The number of students that are taller than<br/>is the same as the number of students shorter than ____________.<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118421/gate-cse-2017-set-2-ga-question-7"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2023 | GA | Question: 4</strong></div><p>A survey for a certain year found that<br/>of pregnant women received medical care at least once before<br/>giving birth. Of these women,<br/>received medical care from doctors, while<br/>received medical care<br/>from other healthcare providers.<br/>Given this information, which one of the following statements can be inferred with<br/>certainty<br/>?<br/>A<br/>.<br/>More than half of the pregnant women received medical care at least once from a doctor.<br/>B<br/>.<br/>Less than half of the pregnant women received medical care at least once from a doctor.<br/>C<br/>.<br/>More than half of the pregnant women received medical care at most once from a doctor.<br/>D<br/>.<br/>Less than half of the pregnant women received medical care at most once from a doctor.<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118421/gate-cse-2017-set-2-ga-question-7"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 1 | GA | Question: 5</strong></div><p>'When the teacher is in the room, all students stand silently.'<br/>If the above statement is true, which one of the following statements is<br/>not necessarily<br/>true?<br/>A<br/>.<br/>If any student is not standing silently, then the teacher is not in the room.<br/>B<br/>.<br/>When the teacher is in the room, all students are silent.<br/>C<br/>.<br/>If all students are standing, then the teacher is in the room.<br/>D<br/>.<br/>When the teacher is in the room, all students are standing.<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118421/gate-cse-2017-set-2-ga-question-7"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 1 | GA | Question: 6</strong></div><p>Combinatorics deals with problems involving counting. For example, \"How many distinct arrangements of<br/>distinct objects in<br/>spaces on a circle are possible?\" is a typical problem in combinatorics. This kind of<br/>counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the diﬀerent<br/>combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the<br/>average values of physical quantities.<br/>Consider the following statements:<br/>Combinatorics is always invoked in the modeling of physical phenomena.<br/>Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to<br/>compute average values of physical quantities.<br/>Based on the passage above, what can be inferred about statements<br/>and<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 1 | GA | Question: 9</strong></div><p>In the<br/>summer Olympics' Javelin throw ﬁnals, Neeraj Chopra exhibited a spectacular performance to<br/>win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav<br/>Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of<br/>each athlete is considered for the medal. Following were the observations about the throws:<br/>i<br/>.<br/>The ﬁrst and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second<br/>throw, while the other two athletes did not have any medal winning throws in these rounds.<br/>ii<br/>.<br/>The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for<br/>scoring.<br/>iii<br/>.<br/>After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the<br/>succeeding rounds.<br/>iv<br/>.<br/>In the fourth round, the throw by Jakub Vadlejch was the best in that round.<br/>In which round did Vitezlav Vesely have his best throw?<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 2 | GA | Question: 5</strong></div><p>'When it is raining, peacocks dance.'<br/>Based only on this sentence, which one of the following options is necessarily true?<br/>A<br/>.<br/>Peacocks dance only when it is raining.<br/>B<br/>.<br/>When peacocks dance, it is raining.<br/>C<br/>.<br/>When peacocks are not dancing, it is not raining.<br/>D<br/>.<br/>When it is not raining, peacocks do not dance.<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 2 | GA | Question: 7</strong></div><p>Two tiles are missing in Panel<br/>. Which one of the options in Panel<br/>is the appropriate choice for the<br/>missing tiles?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2026 | Set 2 | GA | Question: 9</strong></div><p>The figure in Panel<br/>below is a grid of cells with four rows and four columns. The numbers on the top and on<br/>the left represent the number of cells that are to be shaded in that column and row, respectively. Which one<br/>of the options shown in Panel<br/>below represents the grid shaded correctly?<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523149/gate-cse-2026-set-2-ga-question-9"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE DA 2026 | GA | Question: 5</strong></div><p>'If his latest movie had been a commercial success, the actor would have made enough money to sponsor<br/>his next movie.'<br/>Based only on the above sentence, which one of the following statements is true?<br/>A<br/>.<br/>The actor will certainly sponsor his next movie.<br/>B<br/>.<br/>His latest movie was a commercial success.<br/>C<br/>.<br/>The actor made enough money from his latest movie.<br/>D<br/>.<br/>His latest movie was not commercially successful.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523149/gate-cse-2026-set-2-ga-question-9"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE DA 2026 | GA | Question: 8</strong></div><p>Rishi and Swathi are students of Class<br/>. Pavan and Tanvi are students of Class<br/>. Rishi and Pavan are<br/>boys. Swathi and Tanvi are girls. The four students played a total of three games of chess. The games were<br/>played one after another. A player who lost a game did not participate in any more games. It was observed that:<br/>I<br/>.<br/>the first game was the only game where two students of the same class played against each other,<br/>II<br/>.<br/>the students of Class<br/>won more games than the students of Class<br/>, and<br/>III<br/>.<br/>the boys won two games and the girls won one game.<br/>The student who did not lose any game is<br/>.<br/>gateda-2026<br/>analytical-aptitude<br/>logical-reasoning<br/>Logical Reasoning: GATE2011 GG: GA-8<br/>Three sisters<br/>and<br/>received a total of<br/>toys during Christmas. The toys were initially divided<br/>among them in a certain proportion. Subsequently,<br/>gave some toys to<br/>which doubled the share of<br/>.<br/>Then<br/>in turn gave some of her toys to<br/>, which doubled<br/>s share. Next, some of<br/>s toys were given to<br/>,<br/>which doubled the number of toys that<br/>currently had. As a result of all such exchanges, the three sisters were left<br/>with equal number of toys. How many toys did<br/>have originally?<br/>logical-reasoning<br/>analytical-aptitude<br/>Logical Reasoning: GATE2011 MN: GA-63<br/>and<br/>are waiting in a queue meant for children to enter the zoo. There are<br/>children between<br/>and<br/>, and<br/>children between<br/>and<br/>. If there are<br/>children ahead of<br/>and<br/>children behind<br/>, then<br/>what is the minimum number of children in the queue?<br/>analytical-aptitude<br/>logical-reasoning<br/>Logical Reasoning: GATE2012 AR: GA-8<br/>Ravi is taller than Arun but shorter than Iqbal. Sam is shorter than Ravi. Mohan is shorter than Arun. Balu is<br/>taller than Mohan and Sam. The tallest person can be<br/>logical-reasoning<br/>Logical Reasoning: GATE2012 CY: GA-9<br/>There are eight bags of rice looking alike, seven of which have equal weight and one is slightly heavier. The<br/>weighing balance is of unlimited capacity. Using this balance, the minimum number of weighings required to<br/>identify the heavier bag is<br/>analytical-aptitude<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523218/gate-da-2026-ga-question-8"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Number Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Relations: GATE CSE 2024 | Set 2 | GA | Question: 10</strong></div><p>In the<br/>array shown below, each cell of the first three rows has either a cross<br/>or a number.<br/>The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals)<br/>NOT having a cross (<br/>). Given that the last row has no crosses<br/>, the sum of the four numbers to be ﬁlled in<br/>the last row is<br/>analytical-aptitude<br/>number-relations<br/>Odd One<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/40307/gate2014-ae-ga-7"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Odd One",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Odd One: GATE CSE 2016 | Set 2 | GA | Question: 04</strong></div><p>Pick the odd one from the following options.<br/>analytical-aptitude<br/>odd-one<br/>Odd One: GATE2014 AE: GA-6<br/>Find the odd one in the following group:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40307/gate2014-ae-ga-7"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2022 | GA | Question: 7</strong></div><p>In a recently conducted national entrance test, boys constituted<br/>of those who appeared for the test.<br/>Girls constituted the remaining candidates and they accounted for<br/>of the qualified candidates.<br/>Which one of the following is the correct logical inference based on the information provided in the above passage?<br/>A<br/>.<br/>Equal number of boys and girls qualified<br/>B<br/>.<br/>Equal number of boys and girls appeared for the test<br/>C<br/>.<br/>The number of boys who appeared for the test is less than the number of girls who appeared<br/>D<br/>.<br/>The number of boys who qualified the test is less than the number of girls who qualified<br/>analytical-aptitude<br/>logical-reasoning<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1765"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2023 | GA | Question: 6</strong></div><p>The country of Zombieland is in distress since more than<br/>of its working population is suﬀering from<br/>serious health issues. Studies conducted by competent health experts concluded that a complete lack of<br/>physical exercise among its working population was one of the leading causes of their health issues. As one of the<br/>measures to address the problem, the Government of Zombieland has decided to provide monetary incentives to<br/>those who ride bicycles to work.<br/>Based only on the information provided above, which one of the following statements can be logically inferred with<br/>certainty<br/>?<br/>A<br/>.<br/>All the working population of Zombieland will henceforth ride bicycles to work.<br/>B<br/>.<br/>Riding bicycles will ensure that all of the working population of Zombieland is free of health issues.<br/>C<br/>.<br/>The health experts suggested to the Government of Zombieland to declare riding bicycles as mandatory.<br/>D<br/>.<br/>The Government of Zombieland believes that riding bicycles is a form of physical exercise.<br/>analytical-aptitude<br/>logical-reasoning<br/>passage-reading<br/>Round Table Arrangement<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1765"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Round Table Arrangement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Round Table Arrangement: GATE CSE 2017 | Set 1 | GA | Question: 7</strong></div><p>Six people are seated around a circular table. There are at least two men and two women. There are at least<br/>three right-handed persons. Every woman has a left-handed person to her immediate right. None of the<br/>women are right-handed. The number of women at the table is<br/>analytical-aptitude<br/>round-table-arrangement<br/>Seating Arrangement<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1765"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Seating Arrangement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Seating Arrangement: GATE CSE 2017 | Set 1 | GA | Question: 3</strong></div><p>Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali.<br/>Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1765"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Sequence Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sequence Series: GATE CSE 2020 | GA | Question: 7</strong></div><p>If<br/>,<br/>,<br/>, then<br/>________<br/>analytical-aptitude<br/>logical-reasoning<br/>sequence-series</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1761"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sequence Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sequence Series: GATE CSE 2024 | Set 2 | GA | Question: 5</strong></div><p>​​​​​<br/>In the sequence<br/>, a possible value of<br/>is<br/>analytical-aptitude<br/>sequence-series<br/>Sequence Series: GATE2010 MN: GA-7<br/>Given the sequence<br/>etc<br/>that is one<br/>two<br/>three<br/>four<br/>five<br/>and so on, the<br/>letter in the sequence will be<br/>general-aptitude<br/>logical-reasoning<br/>sequence-series<br/>Statements Follow<br/>(7)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1762"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statements Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statements Follow: GATE CSE 2016 | Set 1 | GA | Question: 08</strong></div><p>Consider the following statements relating to the level of poker play of four players<br/>.<br/>I<br/>.<br/>always beats<br/>II<br/>.<br/>always beats<br/>III<br/>.<br/>loses to<br/>only sometimes.<br/>IV<br/>.<br/>always loses to<br/>Which of the following can be logically inferred from the above statements?<br/>i<br/>.<br/>is likely to beat all the three other players<br/>ii<br/>.<br/>is the absolute worst player in the set<br/>analytical-aptitude<br/>statements-follow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1761"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statements Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statements Follow: GATE CSE 2016 | Set 2 | GA | Question: 08</strong></div><p>All hill-stations have a lake. Ooty has two lakes.<br/>Which of the statement(s) below is/are logically valid and can be inferred from the above sentences?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1762"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Statements Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statements Follow: GATE CSE 2021 | Set 1 | GA | Question: 9</strong></div><p>Given below are two statements<br/>and<br/>, and two conclusions<br/>and<br/>All bacteria are microorganisms.<br/>All pathogens are microorganisms.<br/>Some pathogens are bacteria.<br/>All pathogens are not bacteria.<br/>Based on the above statements and conclusions, which one of the following options is logically<br/>?<br/>analytical-aptitude<br/>logical-reasoning<br/>statements-follow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Statements Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statements Follow: GATE CSE 2022 | GA | Question: 4</strong></div><p>Given below are four statements.<br/>Statement<br/>All students are inquisitive.<br/>Statement<br/>Some students are inquisitive.<br/>Statement<br/>No student is inquisitive.<br/>Statement<br/>Some students are not inquisitive.<br/>From the given four statements, ﬁnd the two statements that<br/>simultaneously, assuming<br/>that there is at least one student in the class.<br/>analytical-aptitude<br/>logical-reasoning<br/>statements-follow<br/>Statements Follow: GATE DS&AI 2024 | GA | Question: 6<br/>Thousands of years ago, some people began dairy farming. This coincided with a number of mutations in a<br/>particular gene that resulted in these people developing the ability to digest dairy milk.<br/>Based on the given passage, which of the following can be inferred?<br/>A<br/>.<br/>All human beings can digest dairy milk.<br/>B<br/>.<br/>No human being can digest dairy milk.<br/>C<br/>.<br/>Digestion of dairy milk is essential for human beings.<br/>D<br/>.<br/>In human beings, digestion of dairy milk resulted from a mutated gene.<br/>gate-ds-ai-2024<br/>analytical-aptitude<br/>logical-reasoning<br/>statements-follow<br/>Statements Follow: GATE2013 AE: GA-9<br/>All professors are researchers</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Absolute Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Absolute Value: GATE CSE 2014 | Set 2 | GA | Question: 8</strong></div><p>If<br/>is real and<br/>, then possible values of<br/>include<br/>quantitative-aptitude<br/>absolute-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523154/gate-cse-2026-set-2-ga-question-4"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Absolute Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Absolute Value: GATE CSE 2017 | Set 1 | GA | Question: 8</strong></div><p>The expression<br/>is equal to :<br/>general-aptitude<br/>quantitative-aptitude<br/>maxima-minima<br/>absolute-value<br/>easy<br/>Absolute Value: GATE2011 AG: GA-7<br/>Given that<br/>and<br/>is non-zero real number, the value of<br/>is<br/>general-aptitude<br/>quantitative-aptitude<br/>absolute-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523154/gate-cse-2026-set-2-ga-question-4"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Alligation Mixture",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Alligation Mixture: GATE CSE 2011 | Question: 65</strong></div><p>A container originally contains<br/>litres of pure spirit. From this container,<br/>litre of spirit replaced with<br/>litre<br/>of water. Subsequently,<br/>litre of the mixture is again replaced with<br/>litre of water and this process is<br/>repeated one more time. How much spirit is now left in the container?<br/>quantitative-aptitude<br/>alligation-mixture<br/>Alligation Mixture: GATE2010 TF: GA-9<br/>A tank has<br/>liters of water<br/>At the end of every hour, the following two operations are performed in<br/>sequence<br/>water equal to<br/>of the current contents of the tank is added to the tank<br/>water equal to<br/>of the current contents of the tank is removed from the tank<br/>At the end of<br/>hours, the tank contains exactly<br/>liters of water<br/>The relation between<br/>and<br/>is<br/>general-aptitude<br/>quantitative-aptitude<br/>alligation-mixture<br/>Area<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/31536/gate2011-mn-ga-61"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Area",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Area: GATE CSE 2025 | Set 1 | GA | Question: 7</strong></div><p>In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two<br/>lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the<br/>triangle PST to the area of the trapezium SQRT?<br/>Note: The figure shown is representative.<br/>quantitative-aptitude<br/>geometry<br/>area<br/>Arithmetic Series<br/>(3)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7"
+    }
+  ]
+}

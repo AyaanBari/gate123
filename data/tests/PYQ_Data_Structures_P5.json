@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Data_Structures_P5",
+  "fileName": "PYQ_Data_Structures_P5.json",
+  "title": "GATE Official PYQs | Data Structures Part 5",
+  "subject": "Data Structures",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1987 | Question: 6a</strong></div><p>A list of<br/>elements is commonly written as a sequence of<br/>elements enclosed in a pair of square brackets.<br/>For example.<br/>is a list of three elements and<br/>is a nil list. Five functions are defined below:<br/>returns the first element of its argument list<br/>;<br/>returns the list obtained by removing the first element of the argument list<br/>;<br/>returns a list<br/>such that<br/>and<br/>.<br/>if<br/>then<br/>else<br/>;<br/>if<br/>then<br/>else<br/>,<br/>What do the following compute?<br/>a<br/>.<br/>b<br/>.<br/>data-structures<br/>linked-list<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1236/gate-cse-2007-question-38-isro2016-27"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1993 | Question: 13</strong></div><p>Consider a singly linked list having<br/>nodes. The data items<br/>are stored in these<br/>nodes. Let<br/>be a pointer to the<br/>node<br/>in which<br/>is stored. A new data item<br/>stored in node with<br/>address<br/>is to be inserted. Give an algorithm to insert<br/>into the list to obtain a list having items</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2310/gate-cse-1993-question-13"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1994 | Question: 1.17, UGCNET-Sep2013-II: 32</strong></div><p>Linked lists are not suitable data structures for which one of the following problems?<br/>data-structures<br/>linked-list<br/>ugcnetsep2013ii</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2460/gate-cse-1994-question-1-17-ugcnet-sep2013-ii-32"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1995 | Question: 2.22</strong></div><p>Which of the following statements is true?<br/>I<br/>.<br/>As the number of entries in a hash table increases, the number of collisions increases.<br/>II<br/>.<br/>Recursive programs are efficient<br/>III<br/>.<br/>The worst case complexity for Quicksort is<br/>IV<br/>.<br/>Binary search using a linear linked list is efficient<br/>data-structures<br/>linked-list<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2460/gate-cse-1994-question-1-17-ugcnet-sep2013-ii-32"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1997 | Question: 1.4</strong></div><p>The concatenation of two lists is to be performed on<br/>time. Which of the following implementations of a<br/>list should be used?<br/>data-structures<br/>linked-list<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2460/gate-cse-1994-question-1-17-ugcnet-sep2013-ii-32"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1997 | Question: 18</strong></div><p>Consider the following piece of  'C' code fragment that removes duplicates from an ordered list of integers.<br/>Node<br/>*<br/>remove<br/>-<br/>duplicates<br/>(<br/>Node<br/>*<br/>head<br/>,<br/>int<br/>*<br/>j<br/>)<br/>{<br/>Node<br/>*<br/>t1<br/>,<br/>*<br/>t2<br/>;<br/>*<br/>j<br/>=<br/>0<br/>;<br/>t1<br/>=<br/>head<br/>;<br/>if<br/>(<br/>t1<br/>!<br/>=<br/>NULL<br/>)<br/>t2<br/>=<br/>t1<br/>-><br/>next<br/>;<br/>else<br/>return<br/>head<br/>;<br/>*<br/>j<br/>=<br/>1<br/>;<br/>if<br/>(<br/>t2<br/>==<br/>NULL<br/>)<br/>return<br/>head<br/>;<br/>while<br/>(<br/>t2<br/>!=<br/>NULL<br/>)<br/>{<br/>if<br/>(<br/>t1<br/>.<br/>val<br/>!=<br/>t2<br/>.<br/>val<br/>)<br/>----------------><br/>(<br/>S1<br/>)<br/>{<br/>(*<br/>j<br/>)++;<br/>t1<br/>-><br/>next<br/>=<br/>t2<br/>;<br/>t1<br/>=<br/>t2<br/>;<br/>-----><br/>(<br/>S2<br/>)<br/>}<br/>t2<br/>=<br/>t2<br/>-><br/>next<br/>;<br/>}<br/>t1<br/>-><br/>next<br/>=<br/>NULL<br/>;<br/>return<br/>head<br/>;<br/>}<br/>Assume the list contains<br/>elements (<br/>) in the following questions.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2220/gate-cse-1997-question-1-4"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1998 | Question: 19a</strong></div><p>Let<br/>be a pointer as shown in the figure in a single linked list.<br/>What do the following assignment statements achieve?<br/>q<br/>:=<br/>p<br/>-><br/>next<br/>p<br/>-><br/>next<br/>:=<br/>q<br/>-><br/>next<br/>q<br/>-><br/>next<br/>:=(<br/>q<br/>-><br/>next<br/>)<br/>-><br/>next<br/>(<br/>p<br/>-><br/>next<br/>)<br/>-><br/>next<br/>:=<br/>q<br/>data-structures<br/>linked-list<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1733/gate-cse-1998-question-19a"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1999 | Question: 11b</strong></div><p>Write a constant time algorithm to insert a node with data<br/>just before the node with address<br/>of a singly<br/>linked list.<br/>data-structures<br/>linked-list<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93575/gate-cse-1999-question-11b"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2002 | Question: 1.5</strong></div><p>In the worst case, the number of comparisons needed to search a single linked list of length<br/>for a given<br/>element is<br/>easy<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1733/gate-cse-1998-question-19a"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2003 | Question: 90</strong></div><p>Consider the function<br/>defined below.<br/>struct<br/>item<br/>{<br/>int<br/>data<br/>;<br/>struct<br/>item<br/>*<br/>next<br/>;<br/>};<br/>int<br/>f<br/>(<br/>struct<br/>item<br/>*<br/>p<br/>)<br/>{<br/>return<br/>((<br/>p<br/>==<br/>NULL<br/>)<br/>||<br/>(<br/>p<br/>-><br/>next<br/>==<br/>NULL<br/>)||<br/>((<br/>p<br/>-><br/>data<br/><=<br/>p<br/>-><br/>next<br/>-><br/>data<br/>)<br/>&&<br/>f<br/>(<br/>p<br/>-><br/>next<br/>)));<br/>}<br/>For a given linked list<br/>, the function<br/>returns<br/>if and only if<br/>A<br/>.<br/>the list is empty or has exactly one element<br/>B<br/>.<br/>the elements in the list are sorted in non-decreasing order of data value<br/>C<br/>.<br/>the elements in the list are sorted in non-increasing order of data value<br/>D<br/>.<br/>not all elements in the list have the same data value<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/973/gate-cse-2003-question-90"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2004 | Question: 36</strong></div><p>A circularly linked list is used to represent a Queue. A single variable<br/>is used to access the Queue. To<br/>which node should<br/>point such that both the operations<br/>and<br/>can be performed in<br/>constant time?<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1033/gate-cse-2004-question-36"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2004 | Question: 40</strong></div><p>Suppose each set is represented as a linked list with elements in arbitrary order. Which of the operations<br/>among<br/>will be the slowest?<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1033/gate-cse-2004-question-36"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2008 | Question: 62</strong></div><p>The following C function takes a single-linked list of integers as a parameter and rearranges the elements of<br/>the list. The function is called with the list containing the integers<br/>in the given order. What<br/>will be the contents of the list after function completes execution?<br/>struct<br/>node<br/>{<br/>int<br/>value<br/>;<br/>struct<br/>node<br/>*<br/>next<br/>;<br/>};<br/>void<br/>rearrange<br/>(<br/>struct<br/>node<br/>*<br/>list<br/>)<br/>{<br/>struct<br/>node<br/>*<br/>p<br/>,<br/>*<br/>q<br/>;<br/>int<br/>temp<br/>;<br/>if<br/>(!<br/>list<br/>||<br/>!<br/>list<br/>-><br/>next<br/>)<br/>return<br/>;<br/>p<br/>=<br/>list<br/>;<br/>q<br/>=<br/>list<br/>-><br/>next<br/>;<br/>while<br/>(<br/>q<br/>)<br/>{<br/>temp<br/>=<br/>p<br/>-><br/>value<br/>;<br/>p<br/>-><br/>value<br/>=<br/>q<br/>-><br/>value<br/>;<br/>q<br/>-><br/>value<br/>=<br/>temp<br/>;<br/>p<br/>=<br/>q<br/>-><br/>next<br/>;<br/>q<br/>=<br/>p<br/>?<br/>p<br/>-><br/>next<br/>:<br/>0<br/>;<br/>}<br/>}<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/485/gate-cse-2008-question-62"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2010 | Question: 36</strong></div><p>The following C function takes a singly-linked list as input argument. It modiﬁes the list by moving the last<br/>element to the front of the list and returns the modified list. Some part of the code is left blank.<br/>typedef<br/>struct<br/>node<br/>{<br/>int<br/>value<br/>;<br/>struct<br/>node<br/>*<br/>next<br/>;<br/>}<br/>Node<br/>;<br/>Node<br/>*<br/>move_to<br/>-<br/>front<br/>(<br/>Node<br/>*<br/>head<br/>)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1033/gate-cse-2004-question-36"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2016 | Set 2 | Question: 15</strong></div><p>items are stored in a sorted doubly linked list. For a<br/>delete<br/>operation, a pointer is provided to the record to<br/>be deleted. For a<br/>decrease-key<br/>operation, a pointer is provided to the record on which the operation is to be<br/>performed.<br/>An algorithm performs the following operations on the list in this order:<br/>delete<br/>,<br/>insert<br/>,<br/>find<br/>, and<br/>decrease-key<br/>. What is the time complexity of all these operations put together?<br/>data-structures<br/>linked-list<br/>time-complexity<br/>algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39557/gate-cse-2016-set-2-question-15"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2017 | Set 1 | Question: 08</strong></div><p>Consider the C code fragment given below.<br/>typedef<br/>struct<br/>node<br/>{<br/>int<br/>data<br/>;<br/>node<br/>*<br/>next<br/>;<br/>}<br/>node<br/>;<br/>void<br/>join<br/>(<br/>node<br/>*<br/>m<br/>,<br/>node<br/>*<br/>n<br/>)<br/>{<br/>node<br/>*<br/>p<br/>=<br/>n<br/>;<br/>while<br/>(<br/>p<br/>-><br/>next<br/>!=<br/>NULL<br/>)<br/>{<br/>p<br/>=<br/>p<br/>-><br/>next<br/>;<br/>}<br/>p<br/>-><br/>next<br/>=<br/>m<br/>;<br/>}<br/>Assuming that m and n point to valid NULL-terminated linked lists, invocation of join will<br/>A<br/>.<br/>append list m to the end of list n for all inputs.<br/>B<br/>.<br/>either cause a null pointer dereference or append list m to the end of list n.<br/>C<br/>.<br/>cause a null pointer dereference for all inputs.<br/>D<br/>.<br/>append list n to the end of list m for all inputs.<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39557/gate-cse-2016-set-2-question-15"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2020 | Question: 16</strong></div><p>What is the worst case time complexity of inserting<br/>elements into an empty linked list, if the linked list<br/>needs to be maintained in sorted order?<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333215/gate-cse-2020-question-16"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2022 | Question: 5</strong></div><p>Consider the problem of reversing a singly linked list. To take an example, given the linked list below,<br/>the reversed linked list should look like<br/>Which one of the following statements is<br/>about the time complexity of algorithms that solve the above<br/>problem in<br/>space?<br/>A<br/>.<br/>The best algorithm for the problem takes<br/>time in the worst case.<br/>B<br/>.<br/>The best algorithm for the problem takes<br/>time in the worst case.<br/>C<br/>.<br/>The best algorithm for the problem takes<br/>time in the worst case.<br/>D<br/>.<br/>It is not possible to reverse a singly linked list in<br/>space.<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333215/gate-cse-2020-question-16"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2023 | Question: 3</strong></div><p>Let<br/>be a function that deletes a node in a singly-linked list given a pointer to the node and a pointer<br/>to the head of the list. Similarly, let<br/>be another function that deletes a node in a doubly-linked list<br/>given a pointer to the node and a pointer to the head of the list.<br/>Let<br/>denote the number of nodes in each of the linked lists. Which one of the following choices is<br/>about<br/>the worst-case time complexity of<br/>and<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/333215/gate-cse-2020-question-16"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2025 | Set 1 | Question: 52</strong></div><p>Let<br/>be a datatype for an implementation of linked list defined as follows:<br/>typedef<br/>struct<br/>list<br/>{<br/>int<br/>data<br/>;<br/>struct<br/>list<br/>*<br/>next<br/>;<br/>}<br/>LIST<br/>;<br/>Suppose a program has created two linked lists,<br/>and<br/>, whose contents are given in the ﬁgure below (code for<br/>creating<br/>and<br/>is not provided here).<br/>contains<br/>nodes, and<br/>contains<br/>nodes.<br/>Consider the following C program segment that modiﬁes the list<br/>. The number of nodes that will be there in<br/>after the execution of the code segment is __________. (Answer in integer)</p></div>",
+      "options": [],
+      "correctAnswer": "5:5",
+      "discussUrl": "https://gateoverflow.in/333215/gate-cse-2020-question-16"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 2026 | Set 1 | Question: 29</strong></div><p>Consider the following code snippet in C language that computes the number of nodes in a non-empty singly<br/>linked list pointed to by the pointer variable head.<br/>struct<br/>node<br/>{<br/>int<br/>elt<br/>;<br/>struct<br/>node<br/>*<br/>next<br/>;<br/>};<br/>int<br/>getListSize<br/>(<br/>struct<br/>node<br/>*<br/>head<br/>)<br/>{<br/>if<br/>(<br/>E1<br/>)<br/>return<br/>1<br/>;<br/>return<br/>E2<br/>;<br/>}<br/>Which one of the following options gives the correct replacements for the expressions<br/>and<br/>A<br/>.<br/>E1<br/>:<br/>head<br/>==<br/>NULL<br/>E2<br/>:<br/>1<br/>+<br/>getListSize<br/>(<br/>head<br/>)<br/>B<br/>.<br/>E1<br/>:<br/>head<br/>-><br/>next<br/>==<br/>NULL<br/>E2<br/>:<br/>1<br/>+<br/>getListSize<br/>(<br/>head<br/>-><br/>next<br/>)<br/>C<br/>.<br/>E1<br/>:<br/>head<br/>==<br/>NULL<br/>E2<br/>:<br/>1<br/>+<br/>getListSize<br/>(<br/>head<br/>-><br/>next<br/>)<br/>D<br/>.<br/>E1<br/>:<br/>head<br/>-><br/>next<br/>==<br/>NULL<br/>E2<br/>:<br/>1<br/>+<br/>getListSize<br/>(<br/>head<br/>)<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523051/gate-cse-2026-set-1-question-29"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE IT 2004 | Question: 13</strong></div><p>Let<br/>be a singly linked list. Let<br/>be the pointer to an intermediate node<br/>in the list. What is the worst-<br/>case time complexity of the best-known algorithm to delete the node<br/>from the list ?<br/>data-structures<br/>linked-list<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3654/gate-it-2004-question-13"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE IT 2005 | Question: 54</strong></div><p>The following C function takes a singly-linked list of integers as a parameter and rearranges the elements of<br/>the list. The list is represented as pointer to a structure. The function is called with the list containing the<br/>integers<br/>in the given order. What will be the contents of the list after the function completes<br/>execution?<br/>struct<br/>node<br/>{<br/>int<br/>value<br/>;<br/>struct<br/>node<br/>*<br/>next<br/>;);<br/>void<br/>rearrange<br/>(<br/>struct<br/>node<br/>*<br/>list<br/>)<br/>{<br/>struct<br/>node<br/>*<br/>p<br/>,<br/>*<br/>q<br/>;<br/>int<br/>temp<br/>;<br/>if<br/>(!<br/>list<br/>||<br/>!<br/>list<br/>-><br/>next<br/>)<br/>return<br/>;<br/>p<br/>=<br/>list<br/>;<br/>q<br/>=<br/>list<br/>-><br/>next<br/>;<br/>while<br/>(<br/>q<br/>)<br/>{<br/>temp<br/>=<br/>p<br/>-><br/>value<br/>;<br/>p<br/>-><br/>value<br/>=<br/>q<br/>-><br/>value<br/>;<br/>q<br/>-><br/>value<br/>=<br/>temp<br/>;<br/>p<br/>=<br/>q<br/>-><br/>next<br/>;<br/>q<br/>=<br/>p<br/>?<br/>p<br/>-><br/>next<br/>:<br/>0<br/>;<br/>}<br/>}<br/>data-structures<br/>linked-list<br/>Priority Queue<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3815/gate-it-2005-question-54"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Priority Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Priority Queue: GATE CSE 1997 | Question: 4.7</strong></div><p>A priority queue<br/>is used to implement a stack that stores characters. PUSH (C) is implemented as<br/>INSERT<br/>where<br/>is an appropriate integer key chosen by the implementation. POP is<br/>implemented as DELETEMIN<br/>. For a sequence of operations, the keys chosen are in<br/>data-structures<br/>stack<br/>priority-queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3815/gate-it-2005-question-54"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Priority Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Priority Queue: GATE CSE 2023 | Question: 36</strong></div><p>Let<br/>be a priority queue for maintaining a set of elements. Suppose<br/>is implemented using a max-heap<br/>data structure. The operation<br/>extracts and deletes the maximum element from<br/>.<br/>The operation<br/>inserts a new element<br/>in<br/>. The properties of a max-heap are preserved at<br/>the end of each of these operations.<br/>When<br/>contains<br/>elements, which one of the following statements about the worst case running time of these<br/>two operations is<br/>A<br/>.<br/>Both<br/>and<br/>run in<br/>.<br/>B<br/>.<br/>Both<br/>and<br/>run in<br/>.<br/>C<br/>.<br/>runs in<br/>whereas<br/>runs in<br/>.<br/>D<br/>.<br/>runs in<br/>whereas<br/>runs in<br/>.<br/>data-structures<br/>priority-queue<br/>time-complexity<br/>binary-heap<br/>Queue<br/>(15)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399275/gate-cse-2023-question-36"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 1992 | Question: 09</strong></div><p>Suggest a data structure for representing a subset<br/>of integers from<br/>to<br/>. Following operations on the set<br/>are to be performed in constant time (independent of cardinality of<br/>).<br/>Give pictorial examples of your data structure. Give routines for these operations in an English like language. You<br/>may assume that the data structure has been suitable initialized. Clearly state your assumptions regarding<br/>initialization.<br/>data-structures<br/>descriptive<br/>queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/588/gate-cse-1992-question-09"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 1994 | Question: 26</strong></div><p>A queue<br/>containing<br/>items and an empty stack<br/>are given. It is required to transfer all the items from<br/>the queue to the stack, so that the item at the front of queue is on the TOP of the stack, and the order of all<br/>other items are preserved. Show how this can be done in<br/>time using only a constant amount of additional<br/>storage. Note that the only operations which can be performed on the queue and stack are Delete, Insert, Push and<br/>Pop. Do not assume any implementation of the queue or stack.<br/>data-structures<br/>queue<br/>stack<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2522/gate-cse-1994-question-26"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 1996 | Question: 1.12</strong></div><p>Consider the following statements:<br/>i<br/>.<br/>First-in-first out types of computations are efficiently supported by STACKS.<br/>ii<br/>.<br/>Implementing LISTS on linked lists is more eﬃcient than implementing LISTS on an array for almost all the<br/>basic LIST operations.<br/>iii<br/>.<br/>Implementing QUEUES on a circular array is more eﬃcient than implementing QUEUES on a linear array with<br/>two indices.<br/>iv<br/>.<br/>Last-in-first-out type of computations are efficiently supported by QUEUES.<br/>data-structures<br/>easy<br/>queue<br/>stack<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/588/gate-cse-1992-question-09"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2001 | Question: 2.16</strong></div><p>What is the minimum number of stacks of size<br/>required to implement a queue of size<br/>?<br/>data-structures<br/>easy<br/>stack<br/>queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/588/gate-cse-1992-question-09"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2006 | Question: 49</strong></div><p>An implementation of a queue<br/>, using two stacks<br/>and<br/>, is given below:<br/>void<br/>insert<br/>(<br/>Q<br/>,<br/>x<br/>)<br/>{<br/>push<br/>(<br/>S1<br/>,<br/>x<br/>);<br/>}<br/>void<br/>delete<br/>(<br/>Q<br/>)<br/>{<br/>if<br/>(<br/>stack<br/>-<br/>empty<br/>(<br/>S2<br/>))<br/>then</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1826/gate-cse-2006-question-49"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2012 | Question: 35</strong></div><p>Suppose a circular queue of capacity<br/>elements is implemented with an array of<br/>elements.<br/>Assume that the insertion and deletion operations are carried out using<br/>and<br/>as array index<br/>variables, respectively. Initially,<br/>. The conditions to detect queue full and queue empty are:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>data-structures<br/>queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1756/gate-cse-2012-question-35"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2013 | Question: 44</strong></div><p>Consider the following operation along with Enqueue and Dequeue operations on queues, where<br/>is a<br/>global parameter.<br/>MultiDequeue<br/>(<br/>Q<br/>){<br/>m<br/>=<br/>k<br/>while<br/>(<br/>Q<br/>is<br/>not<br/>empty<br/>)<br/>and<br/>(<br/>m<br/>><br/>0<br/>)<br/>{<br/>Dequeue<br/>(<br/>Q<br/>)<br/>m<br/>=<br/>m<br/>–<br/>1<br/>}<br/>}<br/>What is the worst case time complexity of a sequence of<br/>queue operations on an initially empty<br/>queue?<br/>data-structures<br/>algorithms<br/>queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/61/gate-cse-2013-question-44"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2016 | Set 1 | Question: 10</strong></div><p>A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed<br/>eﬃciently. Which one of the following statements is<br/>CORRECT<br/>(<br/>refers to the number of items in the</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1756/gate-cse-2012-question-35"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2016 | Set 1 | Question: 41</strong></div><p>Let<br/>denote a queue containing sixteen numbers and<br/>be an empty stack.<br/>returns the element<br/>at the head of the queue<br/>without removing it from<br/>. Similarly<br/>returns the element at the top of<br/>without removing it from<br/>. Consider the algorithm given below.<br/>while<br/>Q<br/>is<br/>not<br/>Empty<br/>do<br/>if<br/>S<br/>is<br/>Empty<br/>OR<br/>Top<br/>(<br/>S<br/>)<br/>≤<br/>Head<br/>(<br/>Q<br/>)<br/>then<br/>x<br/>:=<br/>Dequeue<br/>(<br/>Q<br/>);<br/>Push<br/>(<br/>S<br/>,<br/>x<br/>);<br/>else<br/>x<br/>:=<br/>Pop<br/>(<br/>S<br/>);<br/>Enqueue<br/>(<br/>Q<br/>,<br/>x<br/>);<br/>end<br/>end<br/>The maximum possible number of iterations of the<br/>while<br/>loop in the algorithm is _______.<br/>data-structures<br/>queue<br/>difficult</p></div>",
+      "options": [],
+      "correctAnswer": "256",
+      "discussUrl": "https://gateoverflow.in/39684/gate-cse-2016-set-1-question-41"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2017 | Set 2 | Question: 13</strong></div><p>A circular queue has been implemented using a singly linked list where each node consists of a value and a<br/>single pointer pointing to the next node. We maintain exactly two external pointers FRONT and REAR<br/>pointing to the front node and the rear node of the queue, respectively. Which of the following statements is/are<br/>CORRECT for such a circular queue, so that insertion and deletion operations can be performed in<br/>time?<br/>I<br/>.<br/>Next pointer of front node points to the rear node.<br/>II<br/>.<br/>Next pointer of rear node points to the front node.<br/>data-structures<br/>queue</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39684/gate-cse-2016-set-1-question-41"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2018 | Question: 3</strong></div><p>A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail<br/>pointer, as shown in the ﬁgure. Let<br/>denote the number of nodes in the queue. Let 'enqueue' be<br/>implemented by inserting a new node at the head, and 'dequeue' be implemented by deletion of a node from the<br/>tail.<br/>Which one of the following is the time complexity of the most time-eﬃcient implementation of 'enqueue' and<br/>'dequeue, respectively, for this data structure?<br/>algorithms<br/>data-structures<br/>queue<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39684/gate-cse-2016-set-1-question-41"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2022 | Question: 52</strong></div><p>Consider the queues<br/>containing four elements and<br/>containing none (shown as the<br/>in the<br/>ﬁgure). The only operations allowed on these two queues are<br/>and<br/>The minimum number of<br/>operations on<br/>required to place the elements of<br/>in<br/>in reverse order<br/>(shown as the<br/>in the figure) without using any additional storage is________________.<br/>data-structures<br/>queue</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/371884/gate-cse-2022-question-52"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE CSE 2026 | Set 2 | Question: 40</strong></div><p>Consider a stack<br/>and a queue<br/>. Both of them are initially empty and have the capacity to store ten<br/>elements each. The elements<br/>, and<br/>arrive one by one, in that order. When an element arrives, it<br/>is assigned either to<br/>(pushed on<br/>) or to<br/>(enqueued to<br/>). Once all the ﬁve elements are stored, the output<br/>is generated in two steps. First, stack S is emptied by popping all elements. Then queue<br/>is emptied by<br/>dequeueing all elements. The output obtained by following this process is<br/>.<br/>Given the output, the objective is to predict whether an element was assigned to<br/>or<br/>.<br/>Which of the following options is/are possible valid assignment(s) of the elements?<br/>Note: In the options, the notation<br/>denotes that element<br/>was assigned to<br/>and<br/>denotes that element<br/>was assigned to<br/>.<br/>data-structures<br/>stack<br/>queue<br/>multiple-selects<br/>Queue: GATE DS&AI 2024 | Question: 22<br/>The fundamental operations in a double-ended queue<br/>are:<br/>insertFirst (e) - Insert a new element<br/>at the beginning of<br/>.<br/>insertLast (e) - Insert a new element<br/>at the end of D.<br/>removeFirst () - Remove and return the first element of<br/>.<br/>removeLast () - Remove and return the last element of<br/>.<br/>In an empty double-ended queue, the following operations are performed:<br/>insertFirst (10)<br/>insertLast (32)<br/>a<br/>removeFirst ()<br/>insertLast (28)<br/>insertLast (17)<br/>a<br/>removeFirst ()<br/>removeLast ()<br/>The value of<br/>is<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/371884/gate-cse-2022-question-52"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Queue",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Queue: GATE IT 2007 | Question: 30</strong></div><p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on<br/>the queue are:<br/>i<br/>.<br/>— returns true if the queue is empty, false otherwise.<br/>ii<br/>.<br/>— deletes the element at the front of the queue and returns its value.<br/>iii<br/>.<br/>— inserts the integer i at the rear of the queue.<br/>Consider the following function:<br/>void<br/>f<br/>(<br/>queue Q<br/>)<br/>{<br/>int<br/>i<br/>;<br/>if<br/>(!<br/>isEmpty<br/>(<br/>Q<br/>))<br/>{<br/>i<br/>=<br/>delete<br/>(<br/>Q<br/>);<br/>f<br/>(<br/>Q<br/>);<br/>insert<br/>(<br/>Q<br/>,<br/>i<br/>);<br/>}<br/>}<br/>What operation is performed by the above function<br/>?<br/>A<br/>.<br/>Leaves the queue<br/>unchanged<br/>B<br/>.<br/>Reverses the order of the elements in the queue<br/>C<br/>.<br/>Deletes the element at the front of the queue<br/>and inserts it at the rear keeping the other elements in the same<br/>order<br/>D<br/>.<br/>Empties the queue<br/>data-structures<br/>queue<br/>Stack<br/>(19)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3463/gate-it-2007-question-30"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stack",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stack: GATE CSE 1989 | Question: 4-ii</strong></div><p>Compute the postfix equivalent of the following infix arithmetic expression<br/>where<br/>represents exponentiation. Assume normal operator precedences.<br/>descriptive<br/>data-structures<br/>stack</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3463/gate-it-2007-question-30"
+    }
+  ]
+}

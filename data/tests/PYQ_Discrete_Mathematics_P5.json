@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P5",
+  "fileName": "PYQ_Discrete_Mathematics_P5.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 5",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2017 | Set 1 | Question: 02</strong></div><p>Consider the ﬁrst-order logic sentence<br/>. Assuming non-empty logical domains, which of<br/>the sentences below are<br/>implied<br/>by<br/>?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/769/gate-cse-2014-set-1-question-1"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2018 | Question: 28</strong></div><p>Consider the first-order logic sentence<br/>where<br/>is a quantiﬁer-free ﬁrst-order logic formula using only predicate symbols, and possibly<br/>equality, but no function symbols. Suppose<br/>has a model with a universe containing<br/>elements.<br/>Which one of the following statements is necessarily true?<br/>A<br/>.<br/>There exists at least one model of<br/>with universe of size less than or equal to<br/>B<br/>.<br/>There exists no model of<br/>with universe of size less than or equal to<br/>C<br/>.<br/>There exists no model of<br/>with universe size of greater than<br/>D<br/>.<br/>Every model of<br/>has a universe of size equal to<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204102/gate-cse-2018-question-28"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2019 | Question: 35</strong></div><p>Consider the first order predicate formula<br/>:<br/>Here<br/>denotes that<br/>, where<br/>and<br/>are integers. Consider the following sets:<br/>Set of all positive integers<br/>Set of all integers<br/>Which of the above sets satisfy<br/>?<br/>discrete-mathematics<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302813/gate-cse-2019-question-35"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2020 | Question: 39</strong></div><p>Which one of the following predicate formulae is NOT logically valid?<br/>Note that<br/>is a predicate formula without any free occurrence of<br/>.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>first-order-logic<br/>mathematical-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333192/gate-cse-2020-question-39"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2023 | Question: 16</strong></div><p>Geetha has a conjecture about integers, which is of the form<br/>where<br/>is a statement about integers, and<br/>is a statement about pairs of integers. Which of the following (one or</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/399295/gate-cse-2023-question-16"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2025 | Set 1 | Question: 38</strong></div><p>Which of the following predicate logic formulae/formula is/are CORRECT representation(s) of the statement:<br/>\"Everyone has exactly one mother\"?<br/>The meanings of the predicates used are:<br/>mother<br/>is the mother of<br/>noteq<br/>and<br/>are not equal<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/460042/gate-cse-2025-set-1-question-38"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2025 | Set 2 | Question: 5</strong></div><p>Let<br/>be an arbitrary predicate over the domain of natural numbers. Which ONE of the following<br/>statements is TRUE?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460042/gate-cse-2025-set-1-question-38"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2026 | Set 2 | Question: 1</strong></div><p>For two diﬀerent persons<br/>and<br/>, the predicate<br/>denotes that<br/>knows<br/>. Consider the following<br/>statement.<br/>There is a person who does not know anyone else, but that person is known by everyone else.<br/>Which one of the following expressions represents the above statement?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460042/gate-cse-2025-set-1-question-38"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2004 | Question: 3</strong></div><p>Let<br/>and<br/>be three statements with variables<br/>and<br/>chosen from some universe.<br/>Consider the following statement:<br/>Which one of the following is its equivalent?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>discrete-mathematics<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3644/gate-it-2004-question-3"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2005 | Question: 36</strong></div><p>Let<br/>and<br/>be arbitrary predicates. Which of the following statements is always<br/>TRUE<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3644/gate-it-2004-question-3"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2006 | Question: 21</strong></div><p>Consider the following first order logic formula in which<br/>is a binary relation symbol.<br/>The formula is<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3560/gate-it-2006-question-21"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2007 | Question: 21</strong></div><p>Which one of these first-order logic formulae is valid?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3560/gate-it-2006-question-21"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2008 | Question: 21</strong></div><p>Which of the following ﬁrst order formulae is logically valid? Here<br/>is a ﬁrst order formula with<br/>as a<br/>free variable, and<br/>is a first order formula with no free variable.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3560/gate-it-2006-question-21"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE IT 2008 | Question: 22</strong></div><p>Which of the following is the negation of<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic<br/>Logical Reasoning<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3283/gate-it-2008-question-22"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2012 | Question: 1</strong></div><p>Consider the following logical inferences.<br/>: If it rains then the cricket match will not be played.<br/>The cricket match was played.<br/>Inference:  There was no rain.<br/>: If it rains then the cricket match will not be played.<br/>It did not rain.<br/>Inference: The cricket match was played.<br/>Which of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>Both<br/>and<br/>are correct inferences<br/>B<br/>.<br/>is correct but<br/>is not a correct inference<br/>C<br/>.<br/>is not correct but<br/>is a correct inference<br/>D<br/>.<br/>Both<br/>and<br/>are not correct inferences<br/>mathematical-logic<br/>easy<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/33/gate-cse-2012-question-1"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2015 | Set 2 | Question: 3</strong></div><p>Consider the following two statements.<br/>: If a candidate is known to be corrupt, then he will not be elected<br/>: If a candidate is kind, he will be elected<br/>Which one of the following statements follows from<br/>and<br/>as per sound inference rules of logic?<br/>A<br/>.<br/>If a person is known to be corrupt, he is kind<br/>B<br/>.<br/>If a person is not known to be corrupt, he is not kind<br/>C<br/>.<br/>If a person is kind, he is not known to be corrupt<br/>D<br/>.<br/>If a person is not kind, he is not known to be corrupt<br/>mathematical-logic<br/>logical-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3283/gate-it-2008-question-22"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logical Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logical Reasoning: GATE CSE 2015 | Set 3 | Question: 24</strong></div><p>In a room there are only two types of people, namely<br/>and<br/>.<br/>people always tell the<br/>truth and<br/>people always lie. You give a fair coin to a person in that room, without knowing which<br/>type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking the person replies<br/>the following<br/>\"The result of the toss is head if and only if I am telling the truth\"<br/>Which of the following options is correct?<br/>mathematical-logic<br/>difficult<br/>logical-reasoning<br/>Propositional Logic<br/>(40)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8427/gate-cse-2015-set-3-question-24"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1987 | Question: 10e</strong></div><p>Show that the conclusion<br/>follows from the premises<br/>mathematical-logic<br/>propositional-logic<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82457/gate-cse-1987-question-10e"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1988 | Question: 2vii</strong></div><p>Define the validity of a well-formed formula(wff)?<br/>descriptive<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8427/gate-cse-2015-set-3-question-24"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1989 | Question: 3-v</strong></div><p>Which of the following well-formed formulas are equivalent?<br/>mathematical-logic<br/>propositional-logic<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/8427/gate-cse-2015-set-3-question-24"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1990 | Question: 3-x</strong></div><p>Indicate which of the following well-formed formulae are valid:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>propositional-logic<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8427/gate-cse-2015-set-3-question-24"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1991 | Question: 03,xii</strong></div><p>I f<br/>,<br/>and<br/>are propositional formulae such that<br/>and<br/>are both<br/>tautologies, then which of the following is true:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/526/gate-cse-1991-question-03-xii"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1992 | Question: 02,xvi</strong></div><p>Which of the following is/are a tautology?<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/574/gate-cse-1992-question-02-xvi"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1992 | Question: 15.a</strong></div><p>Use Modus ponens<br/>or resolution to show that the following set is inconsistent:<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>where<br/>and<br/>are universally quantified variables,<br/>is a constant and<br/>are monadic predicates.<br/>mathematical-logic<br/>propositional-logic<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/574/gate-cse-1992-question-02-xvi"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1993 | Question: 18</strong></div><p>Show that proposition<br/>is a logical consequence of the formula<br/>using truth tables.<br/>mathematical-logic<br/>propositional-logic<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2315/gate-cse-1993-question-18"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1993 | Question: 8.2</strong></div><p>The proposition<br/>is:<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/574/gate-cse-1992-question-02-xvi"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1994 | Question: 3.13</strong></div><p>Let<br/>and<br/>be propositions. Using only the Truth Table, decide whether<br/>does not imply<br/>is<br/>True<br/>or<br/>False<br/>.<br/>mathematical-logic<br/>propositional-logic<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/2315/gate-cse-1993-question-18"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1995 | Question: 13</strong></div><p>Obtain the principal (canonical) conjunctive normal form of the propositional formula</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2499/gate-cse-1994-question-3-13"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1995 | Question: 2.19</strong></div><p>If the proposition<br/>is true, then the truth value of the proposition<br/>, where<br/>is negation,<br/>is inclusive OR and<br/>is implication, is<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2631/gate-cse-1995-question-2-19"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1996 | Question: 2.3</strong></div><p>Which of the following is NOT True?<br/>(Read<br/>as AND,<br/>as OR,<br/>as NOT,<br/>as one way implication and<br/>as two way implication)<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2631/gate-cse-1995-question-2-19"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1997 | Question: 3.2</strong></div><p>Which of the following propositions is a tautology?<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2631/gate-cse-1995-question-2-19"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1998 | Question: 1.5</strong></div><p>What is the converse of the following assertion?<br/>I stay only if you go<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2631/gate-cse-1995-question-2-19"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 1999 | Question: 14</strong></div><p>Show that the formula<br/>is not a tautology.<br/>Let<br/>be a tautology and<br/>any other formula. Prove that<br/>is a tautology.<br/>mathematical-logic<br/>propositional-logic<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1513/gate-cse-1999-question-14"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2000 | Question: 2.7</strong></div><p>Let<br/>be propositions. Assume that the equivalence<br/>and<br/>hold. Then the truth-<br/>value of the formula<br/>is always<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/654/gate-cse-2000-question-2-7"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2001 | Question: 1.3</strong></div><p>Consider two well-formed formulas in propositional logic<br/>Which one of the following statements is correct?<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/696/gate-cse-2001-question-1-3"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2002 | Question: 1.8</strong></div><p>\"If<br/>then<br/>unless<br/>\" is represented by which of the following formulas in propositional logic? (\"<br/>\" is<br/>negation, \"<br/>\" is conjunction, and \"<br/>\" is implication)<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/696/gate-cse-2001-question-1-3"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2002 | Question: 5b</strong></div><p>Determine whether each of the following is a tautology, a contradiction, or neither (\"<br/>\" is disjunction, \"<br/>\" is<br/>conjunction, \"<br/>\" is implication, \"<br/>\" is negation, and \"<br/>\" is biconditional (if and only if).<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>mathematical-logic<br/>easy<br/>descriptive<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/654/gate-cse-2000-question-2-7"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2003 | Question: 72</strong></div><p>The following resolution rule is used in logic programming.<br/>Derive clause<br/>from clauses<br/>Which of the following statements related to this rule is FALSE?<br/>A<br/>.<br/>is logically valid<br/>B<br/>.<br/>is logically valid<br/>C<br/>.<br/>is satisfiable if and only if<br/>is satisfiable<br/>D<br/>.<br/>if and only if both<br/>and<br/>are unsatisfiable<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/959/gate-cse-2003-question-72"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2004 | Question: 70</strong></div><p>The following propositional statement is<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1064/gate-cse-2004-question-70"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2005 | Question: 40</strong></div><p>Let<br/>and<br/>be three atomic propositional assertions. Let<br/>denote<br/>and<br/>denote<br/>Which one of the following is a tautology?<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1165/gate-cse-2005-question-40"
+    }
+  ]
+}

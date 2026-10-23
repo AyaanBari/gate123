@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P9",
+  "fileName": "PYQ_Discrete_Mathematics_P9.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 9",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 2000 | Question: 2.4</strong></div><p>A polynomial<br/>satisfies the following:<br/>The minimum degree of such a polynomial is<br/>set-theory&algebra<br/>polynomials</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3456/gate-it-2007-question-23"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 2014 | Set 2 | Question: 5</strong></div><p>A non-zero polynomial<br/>of degree 3 has roots at<br/>,<br/>and<br/>. Which one of the following<br/>must be TRUE?<br/>set-theory&algebra<br/>polynomials</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3456/gate-it-2007-question-23"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 2017 | Set 2 | Question: 24</strong></div><p>Consider the quadratic equation<br/>with coeﬃcients in a base<br/>. The solutions of this</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/3456/gate-it-2007-question-23"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1987 | Question: 2d</strong></div><p>State whether the following statements are TRUE or FALSE:<br/>The union of two equivalence relations is also an equivalence relation.<br/>set-theory&algebra<br/>relations<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1987 | Question: 9a</strong></div><p>How many binary relations are there on a set<br/>with<br/>elements?<br/>set-theory&algebra<br/>relations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1987 | Question: 9e</strong></div><p>How many true inclusion relations are there of the form<br/>, where<br/>and<br/>are subsets of a set<br/>with<br/>elements?<br/>set-theory&algebra<br/>relations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1989 | Question: 1-iv</strong></div><p>The transitive closure of the relation<br/>on the set<br/>is ___________.<br/>set-theory&algebra<br/>relations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1992 | Question: 15.b</strong></div><p>Let<br/>be the set of all integers and let<br/>be a ﬁxed integer. Deﬁne for<br/>iﬀ<br/>is a<br/>multiple of<br/>. Show that<br/>is an equivalence relation and find its equivalence classes for<br/>.<br/>set-theory&algebra<br/>relations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43579/gate-cse-1992-question-15-b"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1994 | Question: 2.3</strong></div><p>Amongst the properties<br/>the relation<br/>satisfies _________<br/>set-theory&algebra<br/>relations<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1995 | Question: 1.19</strong></div><p>Let<br/>be a symmetric and transitive relation on a set<br/>. Then<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/80583/gate-cse-1987-question-2d"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1996 | Question: 2.2</strong></div><p>Let<br/>be a non-empty relation on a collection of sets deﬁned by<br/>if and only if<br/>. Then, (pick<br/>the true statement)<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2731/gate-cse-1996-question-2-2"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1996 | Question: 8</strong></div><p>Let<br/>be the collection of all functions<br/>. If<br/>and<br/>, deﬁne an equivalence<br/>relation<br/>by<br/>if and only if<br/>.<br/>a<br/>.<br/>Find the number of equivalence classes defined by<br/>.<br/>b<br/>.<br/>Find the number of elements in each equivalence class.<br/>set-theory&algebra<br/>relations<br/>functions<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2731/gate-cse-1996-question-2-2"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1997 | Question: 14</strong></div><p>Let<br/>be a reflexive and transitive relation on a set<br/>. Define a new relation<br/>on<br/>as<br/>Prove that<br/>is an equivalence relation on<br/>.<br/>Deﬁne a relation<br/>on the equivalence classes of<br/>as<br/>if<br/>such that<br/>. Prove that<br/>is a partial order.<br/>set-theory&algebra<br/>relations<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2274/gate-cse-1997-question-14"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1997 | Question: 6.3</strong></div><p>The number of equivalence relations of the set<br/>is<br/>set-theory&algebra<br/>relations<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2731/gate-cse-1996-question-2-2"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1998 | Question: 1.6</strong></div><p>Suppose<br/>is a finite set with<br/>elements. The number of elements in the largest equivalence relation of A is<br/>set-theory&algebra<br/>relations<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2731/gate-cse-1996-question-2-2"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1998 | Question: 1.7</strong></div><p>Let<br/>and<br/>be two equivalence relations on a set. Consider the following assertions:<br/>i<br/>.<br/>is an equivalence relation<br/>ii<br/>.<br/>is an equivalence relation<br/>Which of the following is correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2731/gate-cse-1996-question-2-2"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1998 | Question: 10a</strong></div><p>Prove by induction that the expression for the number of diagonals in a polygon of<br/>sides is<br/>set-theory&algebra<br/>descriptive<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1724/gate-cse-1998-question-10a"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1998 | Question: 10b</strong></div><p>Let<br/>be a binary relation on<br/>represented by the following two component<br/>digraph. Find the smallest integers<br/>and<br/>such that<br/>and<br/>.<br/>descriptive<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1724/gate-cse-1998-question-10a"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1998 | Question: 2.3</strong></div><p>The binary relation<br/>on the set<br/>is<br/>set-theory&algebra<br/>easy<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1724/gate-cse-1998-question-10a"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1999 | Question: 1.2</strong></div><p>The number of binary relations on a set with<br/>elements is:<br/>set-theory&algebra<br/>relations<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1724/gate-cse-1998-question-10a"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1999 | Question: 2.3</strong></div><p>Let<br/>be a set with a relation<br/>which is transitive, anti-symmetric and reﬂexive and for any two elements<br/>, let the least upper bound<br/>and the greatest lower bound<br/>exist. Which of the<br/>following is/are true?<br/>set-theory&algebra<br/>relations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/1724/gate-cse-1998-question-10a"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 1999 | Question: 3</strong></div><p>a<br/>.<br/>Mr. X claims the following:<br/>If a relation R is both symmetric and transitive, then R is reflexive. For this, Mr. X offers the following proof:<br/>“From xRy, using symmetry we get yRx. Now because R is transitive xRy and yRx together imply xRx.<br/>Therefore, R is reflexive”.<br/>b<br/>.<br/>Give an example of a relation R which is symmetric and transitive but not reflexive.<br/>set-theory&algebra<br/>relations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1522/gate-cse-1999-question-3"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2000 | Question: 2.5</strong></div><p>A relation<br/>is deﬁned on the set of integers as<br/>iff<br/>is even. Which of the following statements is<br/>true?<br/>A<br/>.<br/>is not an equivalence relation<br/>B<br/>.<br/>is an equivalence relation having<br/>equivalence class<br/>C<br/>.<br/>is an equivalence relation having<br/>equivalence classes<br/>D<br/>.<br/>is an equivalence relation having<br/>equivalence classes<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1522/gate-cse-1999-question-3"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2001 | Question: 1.2</strong></div><p>Consider the following relations:<br/>iff<br/>is even over the set of integers<br/>iff<br/>is odd over the set of integers<br/>iff<br/>over the set of non-zero rational numbers<br/>iff<br/>over the set of natural numbers<br/>Which of the following statements is correct?<br/>A<br/>.<br/>and<br/>are equivalence relations,<br/>and<br/>are not<br/>B<br/>.<br/>and<br/>are equivalence relations,<br/>and<br/>are not<br/>C<br/>.<br/>and<br/>are equivalence relations,<br/>and<br/>are not<br/>D<br/>.<br/>and<br/>all are equivalence relations<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1522/gate-cse-1999-question-3"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2002 | Question: 2.17</strong></div><p>The binary relation<br/>on a set<br/>is<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1522/gate-cse-1999-question-3"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2002 | Question: 3</strong></div><p>Let<br/>be a set of<br/>elements. Let<br/>be the number of binary relations on<br/>and let<br/>be the<br/>number of functions from<br/>to<br/>A<br/>.<br/>Give the expression for<br/>in terms of<br/>B<br/>.<br/>Give the expression for<br/>terms of</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1522/gate-cse-1999-question-3"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2004 | Question: 24</strong></div><p>Consider the binary relation:<br/>The reflexive transitive closure is<br/>is<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>set-theory&algebra<br/>easy<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1021/gate-cse-2004-question-24"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2005 | Question: 42</strong></div><p>Let<br/>and<br/>be any two equivalence relations on a non-empty set<br/>. Which one of the following statements<br/>is TRUE?<br/>A<br/>.<br/>,<br/>are both equivalence relations<br/>B<br/>.<br/>is an equivalence relation<br/>C<br/>.<br/>is an equivalence relation<br/>D<br/>.<br/>Neither<br/>nor<br/>are equivalence relations<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1167/gate-cse-2005-question-42"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2005 | Question: 7</strong></div><p>The time complexity of computing the transitive closure of a binary relation on a set of<br/>elements is known<br/>to be:<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1167/gate-cse-2005-question-42"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2006 | Question: 4</strong></div><p>A relation<br/>is defined on ordered pairs of integers as follows:<br/>Then<br/>is:<br/>A<br/>.<br/>Neither a Partial Order nor an Equivalence Relation<br/>B<br/>.<br/>A Partial Order but not a Total Order<br/>C<br/>.<br/>A total Order<br/>D<br/>.<br/>An Equivalence Relation<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1021/gate-cse-2004-question-24"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2007 | Question: 2</strong></div><p>Let<br/>be a set of<br/>elements. The number of ordered pairs in the largest and the smallest equivalence<br/>relations on<br/>are:<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1201/gate-cse-2007-question-2"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2009 | Question: 4</strong></div><p>Consider the binary relation<br/>on the set<br/>. Which one of the<br/>following is<br/>TRUE<br/>?<br/>set-theory&algebra<br/>easy<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/797/gate-cse-2009-question-4"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2010 | Question: 3</strong></div><p>What is the possible number of reflexive relations on a set of<br/>elements?<br/>set-theory&algebra<br/>easy<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1149/gate-cse-2010-question-3"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2015 | Set 2 | Question: 16</strong></div><p>Let<br/>be the relation on the set of positive integers such that<br/>and only if<br/>and<br/>are distinct and let<br/>have a common divisor other than<br/>Which one of the following statements about<br/>is true?<br/>A<br/>.<br/>is symmetric and reflexive but not transitive<br/>B<br/>.<br/>is reflexive but not symmetric not transitive<br/>C<br/>.<br/>is transitive but not reflexive and not symmetric<br/>D<br/>.<br/>is symmetric but not reflexive and not transitive<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1201/gate-cse-2007-question-2"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2015 | Set 3 | Question: 41</strong></div><p>Let<br/>be a relation on the set of ordered pairs of positive integers such that<br/>if and only if<br/>. Which one of the following is true about<br/>?<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1149/gate-cse-2010-question-3"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2016 | Set 2 | Question: 26</strong></div><p>A binary relation<br/>on<br/>is deﬁned as follows:<br/>if<br/>or<br/>. Consider the following<br/>propositions:<br/>is reflexive.<br/>is transitive.<br/>Which one of the following statements is<br/>TRUE<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1201/gate-cse-2007-question-2"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2020 | Question: 17</strong></div><p>Let<br/>be the set of all binary relations on the set<br/>. Suppose a relation is chosen from<br/>at random.<br/>The probability that the chosen relation is reflexive (round off to<br/>decimal places) is ______.<br/>probability<br/>relations</p></div>",
+      "options": [],
+      "correctAnswer": "0.1249:0.1259",
+      "discussUrl": "https://gateoverflow.in/333214/gate-cse-2020-question-17"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2021 | Set 1 | Question: 43</strong></div><p>A relation<br/>is said to be circular if<br/>and<br/>together imply<br/>.<br/>Which of the following options is/are correct?<br/>A<br/>.<br/>If a relation<br/>is reflexive and symmetric, then<br/>is an equivalence relation.<br/>B<br/>.<br/>If a relation<br/>is circular and symmetric, then<br/>is an equivalence relation.<br/>C<br/>.<br/>If a relation<br/>is reflexive and circular, then<br/>is an equivalence relation.<br/>D<br/>.<br/>If a relation<br/>is transitive and circular, then<br/>is an equivalence relation.<br/>multiple-selects<br/>set-theory&algebra<br/>relations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333214/gate-cse-2020-question-17"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2025 | Set 2 | Question: 32</strong></div><p>​​<br/>Let<br/>be the set of all functions from<br/>to<br/>. Define the binary relation<br/>on<br/>as follows:<br/>if and only if<br/>, where<br/>.<br/>Which of the following statement(s) is/are TRUE?<br/>A<br/>.<br/>is a symmetric relation<br/>B<br/>.<br/>is a partial order<br/>C<br/>.<br/>is a lattice<br/>D<br/>.<br/>is an equivalence relation<br/>set-theory&algebra<br/>functions<br/>relations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/333214/gate-cse-2020-question-17"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Relations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relations: GATE CSE 2026 | Set 2 | Question: 16</strong></div><p>Let<br/>be a binary relation on the set<br/>, where<br/>if the product of<br/>and<br/>is square of<br/>an integer. Which of the following properties is/are satisfied by<br/>?<br/>set-theory&algebra<br/>relations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/333214/gate-cse-2020-question-17"
+    }
+  ]
+}

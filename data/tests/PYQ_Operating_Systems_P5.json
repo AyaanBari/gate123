@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Operating_Systems_P5",
+  "fileName": "PYQ_Operating_Systems_P5.json",
+  "title": "GATE Official PYQs | Operating Systems Part 5",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2006 | Question: 65</strong></div><p>Consider three processes, all arriving at time zero, with total execution time of<br/>,<br/>and<br/>units,<br/>respectively. Each process spends the ﬁrst<br/>of execution time doing I/O, the next<br/>of time doing<br/>computation, and the last<br/>of time doing I/O again. The operating system uses a shortest remaining compute<br/>time ﬁrst scheduling algorithm and schedules a new process either when the running process gets blocked on I/O<br/>or when the running process ﬁnishes its compute burst. Assume that all I/O operations can be overlapped as much<br/>as possible. For what percentage of time does the CPU remain idle?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1843/gate-cse-2006-question-65"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2007 | Question: 16</strong></div><p>Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications. Match entries<br/>in Group 1 to entries in Group 2.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1214/gate-cse-2007-question-16"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2007 | Question: 55</strong></div><p>An operating system used Shortest Remaining System Time ﬁrst (SRT) process scheduling algorithm.<br/>Consider the arrival times and execution times for the following processes:<br/>What is the total waiting time for process<br/>?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1214/gate-cse-2007-question-16"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2009 | Question: 32</strong></div><p>In the following process state transition diagram for a uniprocessor system, assume that there are always<br/>some processes in the ready state:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1318/gate-cse-2009-question-32"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2010 | Question: 25</strong></div><p>Which of the following statements are true?<br/>I<br/>.<br/>Shortest remaining time first scheduling may cause starvation<br/>II<br/>.<br/>Preemptive scheduling may cause starvation<br/>III<br/>.<br/>Round robin is better than FCFS in terms of response time<br/>operating-system<br/>process-scheduling<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2204/gate-cse-2010-question-25"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2011 | Question: 35</strong></div><p>Consider the following table of arrival time and burst time for three processes<br/>and<br/>The pre-emptive shortest job ﬁrst scheduling algorithm is used. Scheduling is carried out only at arrival or<br/>completion of processes. What is the average waiting time for the three processes?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2137/gate-cse-2011-question-35"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2012 | Question: 31</strong></div><p>Consider the<br/>processes,<br/>and<br/>shown in the table.<br/>The completion order of the<br/>processes under the policies FCFS and RR<br/>(round robin scheduling with CPU<br/>quantum of<br/>time units) are<br/>A<br/>.<br/>FCFS<br/>:<br/>RR2<br/>:<br/>B<br/>.<br/>FCFS<br/>:<br/>RR2<br/>:<br/>C<br/>.<br/>FCFS<br/>:<br/>RR2<br/>:<br/>D<br/>.<br/>FCFS<br/>:<br/>RR2<br/>:<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1749/gate-cse-2012-question-31"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2013 | Question: 10</strong></div><p>A scheduling algorithm assigns priority proportional to the waiting time of a process. Every process starts<br/>with zero (the lowest priority). The scheduler re-evaluates the process priorities every<br/>time units and<br/>decides the next process to schedule. Which one of the following is<br/>TRUE<br/>if the processes have no I/O operations<br/>and all arrive at time zero?<br/>A<br/>.<br/>This algorithm is equivalent to the first-come-first-serve algorithm.<br/>B<br/>.<br/>This algorithm is equivalent to the round-robin algorithm.<br/>C<br/>.<br/>This algorithm is equivalent to the shortest-job-first algorithm.<br/>D<br/>.<br/>This algorithm is equivalent to the shortest-remaining-time-first algorithm.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1419/gate-cse-2013-question-10"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2014 | Set 1 | Question: 32</strong></div><p>Consider the following set of processes that need to be scheduled on a single CPU. All the times are given<br/>in milliseconds.<br/>Using the<br/>shortest remaining time ﬁrst<br/>scheduling algorithm, the average process turnaround time (in msec) is<br/>____________________.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "7.2",
+      "discussUrl": "https://gateoverflow.in/1419/gate-cse-2013-question-10"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2014 | Set 2 | Question: 32</strong></div><p>Three processes<br/>,<br/>and<br/>each execute a loop of<br/>iterations. In each iteration of the loop, a process<br/>performs a single computation that requires<br/>CPU milliseconds and then initiates a single I/O operation<br/>that lasts for<br/>milliseconds. It is assumed that the computer where the processes execute has suﬃcient number<br/>of I/O devices and the OS of the computer assigns diﬀerent I/O devices to each process. Also, the scheduling<br/>overhead of the OS is negligible. The processes have the following characteristics:<br/>The processes<br/>,<br/>, and<br/>are started at times<br/>,<br/>and<br/>milliseconds respectively, in a pure time sharing<br/>system (round robin scheduling) that uses a time slice of<br/>milliseconds. The time in milliseconds at which process<br/>C would<br/>complete<br/>its first I/O operation is ___________.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "1000",
+      "discussUrl": "https://gateoverflow.in/1419/gate-cse-2013-question-10"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2014 | Set 3 | Question: 32</strong></div><p>An operating system uses<br/>shortest remaining time ﬁrst<br/>scheduling algorithm for pre-emptive scheduling of<br/>processes. Consider the following set of processes with their arrival times and CPU burst times (in</p></div>",
+      "options": [],
+      "correctAnswer": "5.5",
+      "discussUrl": "https://gateoverflow.in/1419/gate-cse-2013-question-10"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2015 | Set 1 | Question: 46</strong></div><p>Consider a uniprocessor system executing three tasks<br/>and<br/>each of which is composed of an<br/>inﬁnite sequence of jobs (or instances) which arrive periodically at intervals of<br/>and<br/>milliseconds,<br/>respectively. The priority of each task is the inverse of its period, and the available tasks are scheduled in order of<br/>priority, which is the highest priority task scheduled ﬁrst. Each instance of<br/>and<br/>requires an execution time<br/>of<br/>and<br/>milliseconds, respectively. Given that all tasks initially arrive at the beginning of the<br/>millisecond<br/>and task preemptions are allowed, the ﬁrst instance of<br/>completes its execution at the end<br/>of_____________________milliseconds.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/8330/gate-cse-2015-set-1-question-46"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2015 | Set 3 | Question: 1</strong></div><p>The maximum number of processes that can be in<br/>state for a computer system with<br/>CPUs is :<br/>operating-system<br/>process-scheduling<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8330/gate-cse-2015-set-1-question-46"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2015 | Set 3 | Question: 34</strong></div><p>For the processes listed in the following table, which of the following scheduling schemes will give the lowest<br/>average turnaround time?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8330/gate-cse-2015-set-1-question-46"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2016 | Set 1 | Question: 20</strong></div><p>Consider an arbitrary set of CPU-bound processes with unequal CPU burst lengths submitted at the same<br/>time to a computer system. Which one of the following process scheduling algorithms would minimize the<br/>average waiting time in the ready queue?<br/>A<br/>.<br/>Shortest remaining time first<br/>B<br/>.<br/>Round-robin with the time quantum less than the shortest CPU burst<br/>C<br/>.<br/>Uniform random</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8330/gate-cse-2015-set-1-question-46"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2016 | Set 2 | Question: 47</strong></div><p>Consider the following processes, with the arrival time and the length of the CPU burst given in milliseconds.<br/>The scheduling algorithm used is preemptive shortest remaining-time first.<br/>The average turn around time of these processes is ___________ milliseconds.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "8.25",
+      "discussUrl": "https://gateoverflow.in/39625/gate-cse-2016-set-2-question-47"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2017 | Set 1 | Question: 24</strong></div><p>Consider the following CPU processes with arrival times (in milliseconds) and length of CPU bursts (in<br/>milliseconds) as given below:<br/>If the pre-emptive shortest remaining time ﬁrst scheduling algorithm is used to schedule the processes, then the<br/>average waiting time across all processes is _____________ milliseconds.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/39625/gate-cse-2016-set-2-question-47"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2017 | Set 2 | Question: 51</strong></div><p>Consider the set of process with arrival time (in milliseonds), CPU burst time (in millisecods) and priority (<br/>is<br/>the highest priority)  shown below. None of the process have I/O burst time<br/>The average waiting time (in milli seconds) of all the process using premtive priority scheduling algorithm is ______<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "29",
+      "discussUrl": "https://gateoverflow.in/39625/gate-cse-2016-set-2-question-47"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2019 | Question: 41</strong></div><p>Consider the following four processes with arrival times (in milliseconds) and their length of CPU bursts (in<br/>milliseconds) as shown below:</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/302807/gate-cse-2019-question-41"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2020 | Question: 12</strong></div><p>Consider the following statements about process state transitions for a system using preemptive scheduling.<br/>I<br/>.<br/>A running process can move to ready state.<br/>II<br/>.<br/>A ready process can move to running state.<br/>III<br/>.<br/>A blocked process can move to running state.<br/>IV<br/>.<br/>A blocked process can move to ready state.<br/>Which of the above statements are TRUE?<br/>operating-system<br/>process-scheduling<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333219/gate-cse-2020-question-12"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2020 | Question: 50</strong></div><p>Consider the following set of processes, assumed to have arrived at time<br/>. Consider the CPU scheduling<br/>algorithms Shortest Job First (SJF) and Round Robin (RR). For RR, assume that the processes are<br/>scheduled in the order<br/>.<br/>If the time quantum for RR is<br/>ms, then the absolute value of the diﬀerence between the average turnaround times<br/>(in ms) of SJF and RR  (round off to<br/>decimal places is_______<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "5.25:5.26",
+      "discussUrl": "https://gateoverflow.in/333219/gate-cse-2020-question-12"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2021 | Set 1 | Question: 25</strong></div><p>Three processes arrive at time zero with<br/>bursts of<br/>and<br/>milliseconds. If the scheduler has<br/>prior knowledge about the length of the<br/>bursts, the minimum achievable average waiting time for these<br/>three processes in a non-preemptive scheduler (rounded to nearest integer) is _____________ milliseconds.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "12 : 12",
+      "discussUrl": "https://gateoverflow.in/333219/gate-cse-2020-question-12"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2021 | Set 2 | Question: 14</strong></div><p>Which of the following statement(s) is/are correct in the context of<br/>scheduling?<br/>A<br/>.<br/>Turnaround time includes waiting time<br/>B<br/>.<br/>The goal is to only maximize<br/>utilization and minimize throughput<br/>C<br/>.<br/>Round-robin policy can be used even when the<br/>time required by each of the processes is not known<br/>apriori<br/>D<br/>.<br/>Implementing preemptive scheduling needs hardware support</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/333219/gate-cse-2020-question-12"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2023 | Question: 17</strong></div><p>Which one or more of the following<br/>scheduling algorithms can potentially cause starvation?<br/>operating-system<br/>process-scheduling<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/399294/gate-cse-2023-question-17"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2024 | Set 1 | Question: 15</strong></div><p>Which of the following process state transitions is/are NOT possible?<br/>operating-system<br/>process-scheduling<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/399294/gate-cse-2023-question-17"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2024 | Set 2 | Question: 27</strong></div><p>Consider a single processor system with four processes<br/>and<br/>, represented as given below,<br/>where for each process the first value is its arrival time, and the second value is its<br/>burst time.<br/>, and<br/>.<br/>Which one of the following options gives the average waiting times when preemptive Shortest Remaining Time First<br/>and Non-Preemptive Shortest Job First<br/>scheduling algorithms are applied to the<br/>processes?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399294/gate-cse-2023-question-17"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2025 | Set 1 | Question: 28</strong></div><p>A computer has two processors,<br/>and<br/>. Four processes<br/>with CPU bursts of<br/>, and<br/>milliseconds, respectively, arrive at the same time and these are the only processes in<br/>the system. The scheduler uses non-preemptive priority scheduling, with priorities decided as follows:<br/>uses priority of execution for the processes as,<br/>, i.e.,<br/>and<br/>have highest and<br/>lowest priorities, respectively.<br/>uses priority of execution for the processes as,<br/>, i.e.,<br/>and<br/>have highest and<br/>lowest priorities, respectively.<br/>A process<br/>is scheduled to a processor<br/>, if the processor is free and no other process<br/>is waiting with higher<br/>priority. At any given point of time, a process can be allocated to any one of the free processors without violating<br/>the execution priority rules. Ignore the context switch time. What will be the average waiting time of the processes in<br/>milliseconds?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399294/gate-cse-2023-question-17"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2026 | Set 1 | Question: 54</strong></div><p>Consider a CPU that has to execute two types of processes. The ﬁrst type, Actuators (A), requires a CPU<br/>burst of<br/>seconds. The second type, Controllers (C), requires a CPU burst of<br/>seconds. A new process of<br/>type A arrives at time<br/>,<br/>, and<br/>(in seconds). Similarly, a new process of type C arrives at time<br/>, and<br/>(in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The ﬁrst<br/>process of type A starts running at<br/>seconds. The average waiting time (in seconds) for the<br/>processes is<br/>. (rounded off to one decimal place)<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "9.5 : 9.5",
+      "discussUrl": "https://gateoverflow.in/523026/gate-cse-2026-set-1-question-54"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2026 | Set 2 | Question: 13</strong></div><p>Which one of the following CPU scheduling algorithms<br/>cannot<br/>be preemptive?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523026/gate-cse-2026-set-1-question-54"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE IT 2005 | Question: 60</strong></div><p>We wish to schedule three processes<br/>,<br/>and<br/>on a uniprocessor system. The priorities, CPU time<br/>requirements and arrival times of the processes are as shown below.<br/>We have a choice of preemptive or non-preemptive scheduling. In preemptive scheduling, a late-arriving higher<br/>priority process can preempt a currently running process with lower priority. In non-preemptive scheduling, a late-<br/>arriving higher priority process must wait for the currently executing process to complete before it can be scheduled<br/>on the processor.<br/>What are the turnaround times (time from arrival till completion) of<br/>using preemptive and non-preemptive<br/>scheduling respectively?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3821/gate-it-2005-question-60"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE IT 2006 | Question: 12</strong></div><p>In the working-set strategy, which of the following is done by the operating system to prevent thrashing?<br/>I<br/>.<br/>It initiates another process if there are enough extra frames.<br/>II<br/>.<br/>It selects a process to suspend if the sum of the sizes of the working-sets exceeds the total number of available<br/>frames.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3551/gate-it-2006-question-12"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE IT 2006 | Question: 54</strong></div><p>The arrival time, priority, and duration of the CPU and I/O bursts for each of three processes<br/>and<br/>are given in the table below. Each process has a CPU burst followed by an I/O burst followed by another</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523026/gate-cse-2026-set-1-question-54"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE IT 2007 | Question: 26</strong></div><p>Consider<br/>jobs<br/>such that job<br/>has execution time<br/>and a non-negative integer weight<br/>.<br/>The weighted mean completion time of the jobs is defined to be<br/>, where<br/>is the completion time of<br/>job<br/>. Assuming that there is only one processor available, in what order must the jobs be executed in order to<br/>minimize the weighted mean completion time of the jobs?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3459/gate-it-2007-question-26"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE IT 2008 | Question: 55</strong></div><p>If the time-slice used in the round-robin scheduling policy is more than the maximum time required to<br/>execute any process, then the policy will<br/>operating-system<br/>process-scheduling<br/>easy<br/>Process Synchronization<br/>(52)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(11Q)<br/>Weekly Quiz 1<br/>(16Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3365/gate-it-2008-question-55"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1987 | Question: 1-xvi</strong></div><p>A critical region is<br/>A<br/>.<br/>One which is enclosed by a pair of<br/>and<br/>operations on semaphores.<br/>B<br/>.<br/>A program segment that has not been proved bug-free.<br/>C<br/>.<br/>A program segment that often causes unexpected system crashes.<br/>D<br/>.<br/>A program segment where shared resources are accessed.<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/2213"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1987 | Question: 8a</strong></div><p>Consider the following proposal to the \"readers and writers problem.\"<br/>Shared variables and semaphores:<br/>aw<br/>,<br/>ar<br/>,<br/>rw<br/>,<br/>rr<br/>:<br/>interger<br/>;<br/>mutex<br/>,<br/>reading<br/>,<br/>writing<br/>:<br/>semaphore<br/>:<br/>initial values<br/>of<br/>variables<br/>and<br/>states<br/>of<br/>semaphores<br/>:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3365/gate-it-2008-question-55"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1988 | Question: 10iib</strong></div><p>Given below is solution for the critical section problem of two processes<br/>and<br/>sharing the following<br/>variables:<br/>var<br/>flag<br/>:<br/>array<br/>[<br/>0.<br/>.<br/>1<br/>]<br/>of<br/>boolean<br/>;<br/>(<br/>initially<br/>false<br/>)<br/>turn<br/>:<br/>0<br/>..<br/>1<br/>;<br/>The program below is for process<br/>where process<br/>being the other one.<br/>repeat<br/>flag<br/>[<br/>i<br/>]:=<br/>true<br/>;<br/>while<br/>turn<br/>!=<br/>i<br/>do<br/>begin<br/>while<br/>flag<br/>[<br/>j<br/>]<br/>do<br/>skip<br/>turn<br/>:=<br/>i<br/>;<br/>end<br/>critical section<br/>flag<br/>[<br/>i<br/>]:=<br/>false<br/>;<br/>until<br/>false<br/>Determine of the above solution is correct. If it is incorrect, demonstrate with an example how it violates the<br/>conditions.<br/>descriptive<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94393/gate-cse-1988-question-10iib"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1990 | Question: 2-iii</strong></div><p>Match the pairs:<br/>match-the-following<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/83859/gate-cse-1990-question-2-iii"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1991 | Question: 11,a</strong></div><p>Consider the following scheme for implementing a critical section in a situation with three processes<br/>and<br/>.<br/>Pi<br/>;<br/>repeat<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>;<br/>while<br/>flag<br/>[<br/>j<br/>]<br/>or<br/>flag<br/>[<br/>k<br/>]<br/>do<br/>case<br/>turn<br/>of<br/>j<br/>:<br/>if<br/>flag<br/>[<br/>j<br/>]<br/>then<br/>begin<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>false<br/>;<br/>while<br/>turn<br/>!=<br/>i<br/>do<br/>skip<br/>;<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>;<br/>end<br/>;<br/>k<br/>:<br/>if<br/>flag<br/>[<br/>k<br/>]<br/>then<br/>begin<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>false<br/>,<br/>while<br/>turn<br/>!=<br/>i<br/>do<br/>skip<br/>;<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>end<br/>end<br/>critical section<br/>if<br/>turn<br/>=<br/>i<br/>then<br/>turn<br/>:=<br/>j<br/>;<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>false<br/>non<br/>-<br/>critical section<br/>until<br/>false<br/>;<br/>a<br/>.<br/>Does the scheme ensure mutual exclusion in the critical section? Briefly explain.<br/>process-synchronization<br/>operating-system<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/538/gate-cse-1991-question-11-a"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1991 | Question: 11,b</strong></div><p>Consider the following scheme for implementing a critical section in a situation with three processes<br/>and<br/>.<br/>Pi;<br/>repeat<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>;<br/>while<br/>flag<br/>[<br/>j<br/>]<br/>or<br/>flag<br/>[<br/>k<br/>]<br/>do<br/>case<br/>turn<br/>of<br/>j<br/>:<br/>if<br/>flag<br/>[<br/>j<br/>]<br/>then<br/>begin<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>false<br/>;<br/>while<br/>turn<br/>!=<br/>i<br/>do<br/>skip<br/>;<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>;<br/>end<br/>;<br/>k<br/>:<br/>if<br/>flag<br/>[<br/>k<br/>]<br/>then<br/>begin<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>false<br/>,<br/>while<br/>turn<br/>!=<br/>i<br/>do<br/>skip<br/>;<br/>flag<br/>[<br/>i<br/>]<br/>:=<br/>true<br/>end<br/>end</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/538/gate-cse-1991-question-11-a"
+    }
+  ]
+}

@@ -1,0 +1,1147 @@
+{
+  "id": "PYQ_Algorithms_P9",
+  "fileName": "PYQ_Algorithms_P9.json",
+  "title": "GATE Official PYQs | Algorithms Part 9",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 32,
+  "totalMarks": 34,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1999 | Question: 1.16</strong></div><p>If<br/>is a power of<br/>, then the minimum number of multiplications needed to compute<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87080/gate-cse-1989-question-2-iii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1999 | Question: 11a</strong></div><p>Consider the following algorithms. Assume, procedure<br/>and procedure<br/>take<br/>and<br/>unit of<br/>time respectively. Derive the time complexity of the algorithm in<br/>-notation.<br/>algorithm what<br/>(<br/>n<br/>)<br/>begin<br/>if<br/>n<br/>=<br/>1<br/>then<br/>call A<br/>else<br/>begin<br/>what<br/>(<br/>n<br/>-<br/>1<br/>);<br/>call B<br/>(<br/>n<br/>)<br/>end<br/>end<br/>.<br/>algorithms<br/>time-complexity<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1510/gate-cse-1999-question-11a"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2000 | Question: 1.15</strong></div><p>Let<br/>be a sorted array of<br/>integers. Let<br/>denote the time taken for the most eﬃcient algorithm to<br/>determined if there are two elements with sum less than<br/>in<br/>. Which of the following statement is true?<br/>easy<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1510/gate-cse-1999-question-11a"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2003 | Question: 66</strong></div><p>The cube root of a natural number<br/>is deﬁned as the largest natural number<br/>such that<br/>. The<br/>complexity of computing the cube root of<br/>(<br/>is represented by binary notation) is<br/>A<br/>.<br/>but not<br/>B<br/>.<br/>but not<br/>for any constant<br/>C<br/>.<br/>for some constant<br/>, but not<br/>for any constant<br/>D<br/>.<br/>for some constant<br/>, but not<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/258/gate-cse-2003-question-66"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2004 | Question: 39</strong></div><p>Two matrices<br/>and<br/>are to be stored in arrays<br/>and<br/>respectively. Each array can be stored either<br/>in row-major or column-major order in contiguous memory locations. The time complexity of an algorithm to<br/>compute<br/>will be<br/>A<br/>.<br/>best if<br/>is in row-major, and<br/>is in column-major order<br/>B<br/>.<br/>best if both are in row-major order<br/>C<br/>.<br/>best if both are in column-major order<br/>D<br/>.<br/>independent of the storage scheme<br/>algorithms<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1036/gate-cse-2004-question-39"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2004 | Question: 82</strong></div><p>Let<br/>be an array storing a bit (<br/>or<br/>) at each location, and<br/>is a function whose time<br/>complexity is<br/>. Consider the following program fragment written in a C like language:<br/>counter<br/>=<br/>0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>1<br/>;<br/>i<br/><=<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>if<br/>(<br/>a<br/>[<br/>i<br/>]<br/>==<br/>1<br/>)<br/>counter<br/>++;<br/>else<br/>{<br/>f<br/>(<br/>counter<br/>);<br/>counter<br/>=<br/>0<br/>;}<br/>}<br/>The complexity of this program fragment is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1076/gate-cse-2004-question-82"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2006 | Question: 15</strong></div><p>Consider the following C-program fragment in which<br/>,<br/>and<br/>are integer variables.<br/>for<br/>(<br/>i<br/>=<br/>n<br/>,<br/>j<br/>=<br/>0<br/>;<br/>i<br/>><br/>0<br/>;<br/>i<br/>/=<br/>2<br/>,<br/>j<br/>+=<br/>i<br/>);<br/>Let<br/>denote the value stored in the variable<br/>after termination of the for loop. Which one of the following is<br/>true?<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/976/gate-cse-2006-question-15"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2007 | Question: 15, ISRO2016-26</strong></div><p>Consider the following segment of C-code:<br/>int<br/>j<br/>,<br/>n<br/>;<br/>j<br/>=<br/>1<br/>;<br/>while<br/>(<br/>j<br/><=<br/>n<br/>)<br/>j<br/>=<br/>j<br/>*<br/>2<br/>;<br/>The number of comparisons made in the execution of the loop for any<br/>is:<br/>algorithms<br/>time-complexity<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/976/gate-cse-2006-question-15"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2007 | Question: 45</strong></div><p>What is the<br/>of the following recursive function?<br/>int<br/>DoSomething<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>2<br/>)<br/>return<br/>1<br/>;<br/>else<br/>return<br/>(<br/>DoSomething<br/>(<br/>floor<br/>(<br/>sqrt<br/>(<br/>n<br/>)))<br/>+<br/>n<br/>);<br/>}<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/56129/gate-cse-2007-question-15-isro2016-26"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2007 | Question: 50</strong></div><p>An array of<br/>numbers is given, where<br/>is an even number. The maximum as well as the minimum of these<br/>numbers needs to be determined. Which of the following is<br/>TRUE<br/>about the number of comparisons<br/>needed?<br/>A<br/>.<br/>At least<br/>comparisons, for some constant<br/>are needed.<br/>B<br/>.<br/>At most<br/>comparisons are needed.<br/>C<br/>.<br/>At least<br/>comparisons are needed<br/>D<br/>.<br/>None of the above<br/>algorithms<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1248/gate-cse-2007-question-50"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2007 | Question: 51</strong></div><p>Consider the following C program segment:<br/>int<br/>IsPrime<br/>(<br/>n<br/>)<br/>{<br/>int<br/>i<br/>,<br/>n<br/>;<br/>for<br/>(<br/>i<br/>=<br/>2<br/>;<br/>i<br/><=<br/>sqrt<br/>(<br/>n<br/>);<br/>i<br/>++)<br/>if<br/>(<br/>n<br/>%<br/>i<br/>==<br/>0<br/>)<br/>{<br/>printf<br/>(<br/>\"Not Prime \\n\"<br/>);<br/>return<br/>0<br/>;}<br/>return<br/>1<br/>;<br/>}<br/>Let<br/>denote number of times the<br/>loop is executed by the program on input<br/>. Which of the following is<br/>TRUE?<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1248/gate-cse-2007-question-50"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2008 | Question: 40</strong></div><p>The minimum number of comparisons required to determine if an integer appears more than<br/>times in a<br/>sorted array of<br/>integers is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/452/gate-cse-2008-question-40"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2008 | Question: 47</strong></div><p>We have a binary heap on<br/>elements and wish to insert<br/>more elements (not necessarily one after<br/>another) into this heap. The total time required for this is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/452/gate-cse-2008-question-40"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2008 | Question: 74</strong></div><p>Consider the following C functions:<br/>int<br/>f1<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>0<br/>||<br/>n<br/>==<br/>1<br/>)<br/>return<br/>n<br/>;<br/>else</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/452/gate-cse-2008-question-40"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2008 | Question: 75</strong></div><p>Consider the following C functions:<br/>int<br/>f1<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>0<br/>||<br/>n<br/>==<br/>1<br/>)<br/>return<br/>n<br/>;<br/>else<br/>return<br/>(<br/>2<br/>*<br/>f1<br/>(<br/>n<br/>-<br/>1<br/>)<br/>+<br/>3<br/>*<br/>f1<br/>(<br/>n<br/>-<br/>2<br/>));<br/>}<br/>int<br/>f2<br/>(<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>;<br/>int<br/>X<br/>[<br/>N<br/>],<br/>Y<br/>[<br/>N<br/>],<br/>Z<br/>[<br/>N<br/>];<br/>X<br/>[<br/>0<br/>]<br/>=<br/>Y<br/>[<br/>0<br/>]<br/>=<br/>Z<br/>[<br/>0<br/>]<br/>=<br/>0<br/>;<br/>X<br/>[<br/>1<br/>]<br/>=<br/>1<br/>;<br/>Y<br/>[<br/>1<br/>]<br/>=<br/>2<br/>;<br/>Z<br/>[<br/>1<br/>]<br/>=<br/>3<br/>;<br/>for<br/>(<br/>i<br/>=<br/>2<br/>;<br/>i<br/><=<br/>n<br/>;<br/>i<br/>++){<br/>X<br/>[<br/>i<br/>]<br/>=<br/>Y<br/>[<br/>i<br/>-<br/>1<br/>]<br/>+<br/>Z<br/>[<br/>i<br/>-<br/>2<br/>];<br/>Y<br/>[<br/>i<br/>]<br/>=<br/>2<br/>*<br/>X<br/>[<br/>i<br/>];<br/>Z<br/>[<br/>i<br/>]<br/>=<br/>3<br/>*<br/>X<br/>[<br/>i<br/>];<br/>}<br/>return<br/>X<br/>[<br/>n<br/>];<br/>}<br/>and<br/>return the values<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43489/gate-cse-2008-question-75"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2010 | Question: 12</strong></div><p>Two alternative packages<br/>and<br/>are available for processing a database having<br/>records. Package<br/>requires<br/>time units and package<br/>requires<br/>time units to process<br/>records. What is<br/>the smallest value of<br/>for which package<br/>will be preferred over<br/>?<br/>algorithms<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2185/gate-cse-2010-question-12"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2014 | Set 1 | Question: 42</strong></div><p>Consider the following pseudo code. What is the total number of multiplications to be performed?<br/>D<br/>=<br/>2<br/>for<br/>i<br/>=<br/>1<br/>to n<br/>do</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2185/gate-cse-2010-question-12"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2015 | Set 1 | Question: 40</strong></div><p>An algorithm performs<br/>ﬁnd operations ,<br/>insert operations,<br/>delete operations, and<br/>decrease-key operations on a set of data items with keys drawn from a linearly ordered set . For a<br/>delete operation, a pointer is provided to the record that must be deleted . For the decrease-key operation, a<br/>pointer is provided to the record that has its key decreased. Which one of the following data structures is the most<br/>suited for the algorithm to use, if the goal is to achieve the best total asymptotic complexity considering all the<br/>operations?<br/>algorithms<br/>data-structures<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2015 | Set 2 | Question: 22</strong></div><p>An unordered list contains<br/>distinct elements. The number of comparisons to ﬁnd an element in this list that<br/>is neither maximum nor minimum is<br/>algorithms<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2017 | Set 2 | Question: 03</strong></div><p>Match the algorithms with their time complexities:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>time-complexity<br/>match-the-following<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2017 | Set 2 | Question: 38</strong></div><p>Consider the following C function<br/>int<br/>fun<br/>(<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>,<br/>j<br/>;<br/>for<br/>(<br/>i<br/>=<br/>1<br/>;<br/>i<br/><=<br/>n<br/>;<br/>i<br/>++)<br/>{</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2019 | Question: 37</strong></div><p>There are<br/>unsorted arrays:<br/>. Assume that<br/>is odd.Each of<br/>contains<br/>distinct elements. There are no common elements between any two arrays. The worst-case time complexity<br/>of computing the median of the medians of<br/>is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302811/gate-cse-2019-question-37"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2024 | Set 1 | Question: 7</strong></div><p>Given an integer array of size<br/>, we want to check if the array is sorted (in either ascending or descending<br/>order). An algorithm solves this problem by making a single pass through the array and comparing each<br/>element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302811/gate-cse-2019-question-37"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2026 | Set 1 | Question: 7</strong></div><p>Consider the following recurrence relations:<br/>For all<br/>,<br/>Assume that for all<br/>and<br/>.<br/>Which one of the following options is correct?<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302811/gate-cse-2019-question-37"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 2026 | Set 2 | Question: 28</strong></div><p>Consider an array<br/>of integers of size<br/>. The indices of<br/>run from<br/>to<br/>. An algorithm is to be designed<br/>to check whether<br/>satisfies the condition given below.<br/>such that<br/>Which one of the following gives the worst case time complexity of the fastest algorithm that can be designed for<br/>the problem?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302811/gate-cse-2019-question-37"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE IT 2007 | Question: 17</strong></div><p>Exponentiation is a heavily used operation in public key cryptography. Which of the following options is the<br/>tightest upper bound on the number of multiplications required to compute<br/>?<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3450/gate-it-2007-question-17"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE IT 2007 | Question: 81</strong></div><p>Let<br/>be<br/>points in the<br/>-plane such that no three of them are collinear. For every pair of<br/>points<br/>and<br/>, let<br/>be the line passing through them. Let<br/>be the line with the steepest gradient<br/>among all<br/>lines.<br/>The time complexity of the best algorithm for finding<br/>and<br/>is<br/>algorithms<br/>time-complexity<br/>Topological Sort<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3450/gate-it-2007-question-17"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Topological Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Topological Sort: GATE CSE 2007 | Question: 5</strong></div><p>Consider the DAG with<br/>shown below.<br/>Which of the following is not a topological ordering?<br/>algorithms<br/>graph-algorithms<br/>topological-sort<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3450/gate-it-2007-question-17"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Topological Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Topological Sort: GATE CSE 2014 | Set 1 | Question: 13</strong></div><p>Consider the directed graph below given.<br/>Which one of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>The graph does not have any topological ordering.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3450/gate-it-2007-question-17"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Topological Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Topological Sort: GATE CSE 2016 | Set 1 | Question: 11</strong></div><p>Consider the following directed graph:<br/>The number of different topological orderings of the vertices of the graph is _____________.<br/>algorithms<br/>graph-algorithms<br/>topological-sort<br/>Topological Sort: GATE DS&AI 2024 | Question: 41<br/>​​​​​​<br/>Consider the directed acyclic graph (DAG) below:<br/>Which of the following is/are valid vertex orderings that can be obtained from a topological sort of the DAG?<br/>gate-ds-ai-2024<br/>algorithms<br/>topological-sort<br/>directed-acyclic-graph<br/>multiple-selects<br/>Tree Traversal<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/39669/gate-cse-2016-set-1-question-11"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Tree Traversal",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tree Traversal: GATE DA 2026 | Question: 15</strong></div><p>You are given the following Pre-order and In-order traversals of a Binary Tree<br/>with nodes<br/>.<br/>Which of the following statements is/are true about the Binary Tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523200/gate-da-2026-question-15"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Uniform Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Hashing: GATE CSE 2022 | Question: 6</strong></div><p>Suppose we are given<br/>keys,<br/>hash table slots, and two simple uniform hash functions<br/>and<br/>Further suppose our hashing scheme uses<br/>for the odd keys and<br/>for the even keys. What is the<br/>expected number of keys in a slot?<br/>algorithms<br/>hashing<br/>uniform-hashing<br/>1.1.1<br/>N/A<br/>1.1.2<br/>N/A<br/>1.1.3<br/>B<br/>1.1.4<br/>C<br/>1.1.5<br/>12<br/>1.1.6<br/>29<br/>1.1.7<br/>A;C<br/>1.1.8<br/>B<br/>1.2.1<br/>N/A<br/>1.2.2<br/>B<br/>1.2.3<br/>C<br/>1.2.4<br/>A<br/>1.2.5<br/>B<br/>1.2.6<br/>A<br/>1.2.7<br/>C<br/>1.2.8<br/>C<br/>1.2.9<br/>C<br/>1.3.1<br/>A;B<br/>1.3.2<br/>B<br/>1.3.3<br/>X<br/>1.3.4<br/>D<br/>1.3.5<br/>B<br/>1.3.6<br/>A<br/>1.3.7<br/>C<br/>1.3.8<br/>C<br/>1.3.9<br/>D<br/>1.3.10<br/>A<br/>1.3.11<br/>C<br/>1.3.12<br/>C<br/>1.3.13<br/>D<br/>1.3.14<br/>B<br/>1.3.15<br/>D<br/>1.3.16<br/>A<br/>1.3.17<br/>A;C<br/>1.3.18<br/>A;D<br/>1.3.19<br/>A<br/>1.3.20<br/>A<br/>1.3.21<br/>D<br/>1.3.22<br/>A<br/>1.4.1<br/>B<br/>1.4.2<br/>C<br/>1.5.1<br/>B;C<br/>1.6.1<br/>B<br/>1.6.2<br/>C<br/>1.6.3<br/>10:10<br/>1.6.4<br/>A<br/>1.7.1<br/>D<br/>1.7.2<br/>7 : 7<br/>1.7.3<br/>A;C<br/>1.8.1<br/>11 : 11<br/>1.9.1<br/>C<br/>1.9.2<br/>D<br/>1.9.3<br/>C<br/>1.10.1<br/>N/A<br/>1.11.1<br/>TBA<br/>1.12.1<br/>B;D<br/>1.12.2<br/>75:75<br/>1.13.1<br/>N/A<br/>1.13.2<br/>B<br/>1.13.3<br/>D<br/>1.13.4<br/>A<br/>1.13.5<br/>D<br/>1.14.1<br/>929 : 929<br/>1.14.2<br/>A<br/>1.15.1<br/>13<br/>1.15.2<br/>10:10<br/>1.16.1<br/>B<br/>1.16.2<br/>C<br/>1.16.3<br/>C<br/>1.16.4<br/>B<br/>1.16.5<br/>B<br/>1.16.6<br/>A<br/>1.16.7<br/>34<br/>1.16.8<br/>150<br/>1.16.9<br/>C<br/>1.16.10<br/>A<br/>1.17.1<br/>B<br/>1.17.2<br/>D<br/>1.17.3<br/>A<br/>1.17.4<br/>A<br/>1.17.5<br/>B<br/>1.17.6<br/>A<br/>1.17.7<br/>A;B<br/>1.17.8<br/>A<br/>1.17.9<br/>A<br/>1.17.10<br/>C<br/>1.17.11<br/>D<br/>1.18.1<br/>N/A<br/>1.18.2<br/>C<br/>1.18.3<br/>C<br/>1.18.4<br/>C<br/>1.18.5<br/>D<br/>1.18.6<br/>D<br/>1.18.7<br/>C<br/>1.18.8<br/>C<br/>1.18.9<br/>B<br/>1.18.10<br/>19<br/>1.18.11<br/>D<br/>1.18.12<br/>31<br/>1.18.13<br/>D<br/>1.18.14<br/>A<br/>1.18.15<br/>5040<br/>1.18.16<br/>C<br/>1.18.17<br/>60<br/>1.18.18<br/>6:6<br/>1.18.19<br/>A<br/>1.18.20<br/>D<br/>1.18.21<br/>D<br/>1.18.22<br/>D<br/>1.18.23<br/>B<br/>1.19.1<br/>A<br/>1.19.2<br/>B<br/>1.19.3<br/>D<br/>1.19.4<br/>A<br/>1.19.5<br/>16<br/>1.20.1<br/>B<br/>1.20.2<br/>N/A<br/>1.20.3<br/>C<br/>1.20.4<br/>C<br/>1.20.5<br/>3:3<br/>1.20.6<br/>D<br/>1.21.1<br/>C<br/>1.21.2<br/>D<br/>1.22.1<br/>2.33<br/>1.22.2<br/>A<br/>1.22.3<br/>D<br/>1.22.4<br/>225<br/>1.22.5<br/>B<br/>1.22.6<br/>A<br/>1.23.1<br/>N/A<br/>1.23.2<br/>N/A<br/>1.23.3<br/>C<br/>1.23.4<br/>A<br/>1.23.5<br/>N/A<br/>1.23.6<br/>C</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371930/gate-cse-2022-question-6"
+    }
+  ]
+}

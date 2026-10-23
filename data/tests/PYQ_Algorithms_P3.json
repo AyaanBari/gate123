@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Algorithms_P3",
+  "fileName": "PYQ_Algorithms_P3.json",
+  "title": "GATE Official PYQs | Algorithms Part 3",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 49,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2021 | Set 2 | Question: 46</strong></div><p>Consider the following directed graph:<br/>Which of the following is/are correct about the graph?<br/>A<br/>.<br/>The graph does not have a topological order<br/>B<br/>.<br/>A depth-first traversal starting at vertex<br/>classifies three directed edges as back edges<br/>C<br/>.<br/>The graph does not have a strongly connected component<br/>D<br/>.<br/>For each pair of vertices<br/>and<br/>, there is a directed path from<br/>to<br/>multiple-selects<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/118306/gate-cse-2017-set-1-question-26"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2026 | Set 1 | Question: 31</strong></div><p>Let<br/>be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum<br/>of the weights of the edges in that path. The length of a path is the number of edges in that path.<br/>Let<br/>be a vertex in<br/>. For every<br/>and for every<br/>, let<br/>denote the weight of a shortest path<br/>(in terms of weight) from<br/>to<br/>of length at most<br/>. If there is no path from<br/>to<br/>of length at most<br/>, then<br/>.<br/>Consider the statements:<br/>S1: For every<br/>and<br/>.<br/>S2: For every<br/>, if<br/>is part of a shortest path (in terms of weight) from<br/>to<br/>, then for every<br/>.<br/>Which one of the following options is correct?<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118306/gate-cse-2017-set-1-question-26"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE IT 2005 | Question: 15</strong></div><p>In the following table, the left column contains the names of standard graph algorithms and the right column<br/>contains the time complexities of the algorithms. Match each algorithm with its time complexity.<br/>algorithms<br/>graph-algorithms<br/>match-the-following<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3760/gate-it-2005-question-15"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE IT 2005 | Question: 84a</strong></div><p>A sink in a directed graph is a vertex i such that there is an edge from every vertex<br/>to<br/>and there is no<br/>edge from<br/>to any other vertex. A directed graph<br/>with<br/>vertices is represented by its adjacency matrix<br/>,<br/>where<br/>if there is an edge directed from vertex<br/>to<br/>and<br/>otherwise. The following algorithm<br/>determines whether there is a sink in the graph<br/>.<br/>i<br/>=<br/>0<br/>;<br/>do<br/>{<br/>j<br/>=<br/>i<br/>+<br/>1<br/>;<br/>while<br/>((<br/>j<br/><<br/>n<br/>)<br/>&&<br/>E1<br/>)<br/>j<br/>++;<br/>if<br/>(<br/>j<br/><<br/>n<br/>)<br/>E2<br/>;<br/>}<br/>while<br/>(<br/>j<br/><<br/>n<br/>);<br/>flag<br/>=<br/>1<br/>;<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>n<br/>;<br/>j<br/>++)<br/>if<br/>((<br/>j<br/>!<br/>=<br/>i<br/>)<br/>&&<br/>E3<br/>)<br/>flag<br/>=<br/>0<br/>;<br/>if<br/>(<br/>flag<br/>)<br/>printf<br/>(<br/>\"Sink exists\"<br/>);<br/>else<br/>printf<br/>(<br/>\"Sink does not exist\"<br/>);<br/>Choose the correct expressions for<br/>and<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3760/gate-it-2005-question-15"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE IT 2005 | Question: 84b</strong></div><p>A sink in a directed graph is a vertex i such that there is an edge from every vertex<br/>to<br/>and there is no<br/>edge from<br/>to any other vertex. A directed graph<br/>with<br/>vertices is represented by its adjacency matrix<br/>,<br/>where<br/>if there is an edge directed from vertex<br/>to<br/>and<br/>otherwise. The following algorithm<br/>determines whether there is a sink in the graph<br/>.<br/>i<br/>=<br/>0<br/>;<br/>do<br/>{<br/>j<br/>=<br/>i<br/>+<br/>1<br/>;<br/>while<br/>((<br/>j<br/><<br/>n<br/>)<br/>&&<br/>E1<br/>)<br/>j<br/>++;<br/>if<br/>(<br/>j<br/><<br/>n<br/>)<br/>E2<br/>;<br/>}<br/>while<br/>(<br/>j<br/><<br/>n<br/>);<br/>flag<br/>=<br/>1<br/>;<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>n<br/>;<br/>j<br/>++)<br/>if<br/>((<br/>j<br/>!<br/>=<br/>i<br/>)<br/>&&<br/>E3<br/>)<br/>flag<br/>=<br/>0<br/>;<br/>if<br/>(<br/>flag<br/>)<br/>printf<br/>(<br/>\"Sink exists\"<br/>)<br/>;<br/>else<br/>printf<br/>(<br/>\"Sink does not exist\"<br/>);<br/>Choose the correct expression for<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3760/gate-it-2005-question-15"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 1989 | Question: 4-vii</strong></div><p>In the graph shown above, the depth-ﬁrst spanning tree edges are marked with a<br/>. Identify the forward,<br/>backward, and cross edges.<br/>descriptive<br/>algorithms<br/>graph-algorithms<br/>depth-first-search<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/88152/gate-cse-1989-question-4-vii"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2000 | Question: 1.13</strong></div><p>The most appropriate matching for the following pairs<br/>is:<br/>algorithms<br/>easy<br/>graph-algorithms<br/>graph-search<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1981"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2000 | Question: 2.19</strong></div><p>Let<br/>be an undirected graph. Consider a depth-ﬁrst traversal of<br/>, and let<br/>be the resulting depth-ﬁrst<br/>search tree. Let<br/>be a vertex in<br/>and let<br/>be the ﬁrst new (unvisited) vertex visited after visiting<br/>in the<br/>traversal. Which of the following statement is always true?<br/>A<br/>.<br/>must be an edge in<br/>, and<br/>is a descendant of<br/>in<br/>B<br/>.<br/>must be an edge in<br/>, and<br/>is a descendant of<br/>in<br/>C<br/>.<br/>If<br/>is not an edge in<br/>then<br/>is a leaf in<br/>D<br/>.<br/>If<br/>is not an edge in<br/>then<br/>and<br/>must have the same parent in<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1981"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2001 | Question: 2.14</strong></div><p>Consider an undirected, unweighted graph<br/>. Let a breadth-ﬁrst traversal of<br/>be done starting from a node<br/>. Let<br/>and<br/>be the lengths of the shortest paths from<br/>to<br/>and<br/>respectively in<br/>. If<br/>is<br/>visited before<br/>during the breadth-first traversal, which of the following statements is correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1982"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2003 | Question: 21</strong></div><p>Consider the following graph:<br/>Among the following sequences:<br/>I<br/>.<br/>abeghf<br/>II<br/>.<br/>abfehg<br/>III<br/>.<br/>abfhge<br/>IV<br/>.<br/>afghbe<br/>Which are the depth-first traversals of the above graph?<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/911/gate-cse-2003-question-21"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2006 | Question: 48</strong></div><p>Let<br/>be a depth ﬁrst search tree in an undirected graph<br/>. Vertices<br/>and<br/>are leaves of this tree<br/>. The<br/>degrees of both<br/>and<br/>in<br/>are at least<br/>. which one of the following statements is true?<br/>A<br/>.<br/>There must exist a vertex<br/>adjacent to both<br/>and<br/>in<br/>B<br/>.<br/>There must exist a vertex<br/>whose removal disconnects<br/>and<br/>in<br/>C<br/>.<br/>There must exist a cycle in<br/>containing<br/>and<br/>D<br/>.<br/>There must exist a cycle in<br/>containing<br/>and all its neighbours in<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1824/gate-cse-2006-question-48"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2008 | Question: 19</strong></div><p>The Breadth First Search algorithm has been implemented using the queue data structure. One possible<br/>order of visiting the nodes of the following graph is:<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/417/gate-cse-2008-question-19"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2014 | Set 1 | Question: 11</strong></div><p>Let<br/>be a graph with<br/>vertices and<br/>edges. What is the tightest upper bound on the running time of<br/>Depth First Search on<br/>, when<br/>is represented as an adjacency matrix?<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2014 | Set 2 | Question: 14</strong></div><p>Consider the tree arcs of a BFS traversal from a source node<br/>in an unweighted, connected, undirected<br/>graph. The tree<br/>formed by the tree arcs is a data structure for computing<br/>A<br/>.<br/>the shortest path between every pair of vertices.<br/>B<br/>.<br/>the shortest path from<br/>to every vertex in the graph.<br/>C<br/>.<br/>the shortest paths from<br/>to only those nodes that are leaves of<br/>.<br/>D<br/>.<br/>the longest path in the graph.<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2014 | Set 3 | Question: 13</strong></div><p>Suppose depth ﬁrst search is executed on the graph below starting at some unknown vertex. Assume that a<br/>recursive call to visit a vertex is made only after ﬁrst checking that the vertex has not been visited earlier.<br/>Then the maximum possible recursion depth (including the initial call) is _________.<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [],
+      "correctAnswer": "19",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2015 | Set 1 | Question: 45</strong></div><p>Let<br/>be a simple undirected graph, and<br/>be a particular vertex in it called the source. For<br/>, let<br/>denote the shortest distance in<br/>from<br/>to<br/>. A breadth ﬁrst search (BFS) is performed<br/>starting at<br/>. Let<br/>be the resultant BFS tree. If<br/>is an edge of<br/>that is not in<br/>, then which one of the<br/>following CANNOT be the value of<br/>?<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2016 | Set 2 | Question: 11</strong></div><p>Breadth First Search (BFS) is started on a binary tree beginning from the root vertex. There is a vertex<br/>at a<br/>distance four from the root. If<br/>is the<br/>vertex in this BFS traversal, then the maximum possible value of<br/>is __________<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [],
+      "correctAnswer": "31",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2017 | Set 2 | Question: 15</strong></div><p>The Breadth First Search (BFS) algorithm has been implemented using the queue data structure. Which one</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2018 | Question: 30</strong></div><p>Let<br/>be a simple undirected graph. Let<br/>be a depth ﬁrst search tree of<br/>. Let<br/>be a breadth ﬁrst<br/>search tree of<br/>. Consider the following statements.<br/>I<br/>.<br/>No edge of<br/>is a cross edge with respect to<br/>. (A cross edge in<br/>is between two nodes neither of which is<br/>an ancestor of the other in<br/>).<br/>II<br/>.<br/>For every edge<br/>of<br/>, if<br/>is at depth<br/>and<br/>is at depth<br/>in<br/>, then<br/>.<br/>Which of the statements above must necessarily be true?<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204104/gate-cse-2018-question-30"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2023 | Question: 46</strong></div><p>Let<br/>. Let<br/>denote the powerset of<br/>. Consider an undirected graph<br/>whose vertex set is<br/>. For any<br/>is an edge in<br/>if and only if (i)<br/>, and (ii) either<br/>or<br/>.<br/>For any vertex<br/>in<br/>, the set of all possible orderings in which the vertices of<br/>can be visited in a Breadth First<br/>Search<br/>starting from<br/>is denoted by<br/>.<br/>If<br/>denotes the empty set, then the cardinality of<br/>is ______________.<br/>algorithms<br/>breadth-first-search<br/>graph-search</p></div>",
+      "options": [],
+      "correctAnswer": "5040",
+      "discussUrl": "https://gateoverflow.in/399265/gate-cse-2023-question-46"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2024 | Set 1 | Question: 35</strong></div><p>Let<br/>be a directed graph and<br/>a depth ﬁrst search<br/>spanning tree in<br/>that is rooted at a vertex<br/>.<br/>Suppose<br/>is also a breadth ﬁrst search<br/>tree in<br/>, rooted at<br/>. Which of the following statements<br/>is/are TRUE for<br/>every<br/>such graph<br/>and tree<br/>?<br/>A<br/>.<br/>There are no back-edges in<br/>with respect to the tree<br/>B<br/>.<br/>There are no cross-edges in<br/>with respect to the tree<br/>C<br/>.<br/>There are no forward-edge in<br/>with respect to the tree<br/>D<br/>.<br/>The only edges in<br/>are the edges in<br/>algorithms<br/>multiple-selects<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204104/gate-cse-2018-question-30"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2024 | Set 1 | Question: 50</strong></div><p>The number of edges present in the forest generated by the<br/>traversal of an undirected graph<br/>with<br/>vertices is<br/>. The number of connected components in<br/>is __________.<br/>graph-search<br/>graph-algorithms</p></div>",
+      "options": [],
+      "correctAnswer": "60",
+      "discussUrl": "https://gateoverflow.in/204104/gate-cse-2018-question-30"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE CSE 2025 | Set 2 | Question: 49</strong></div><p>Consider the following algorithm<br/>someAlgo<br/>that takes an undirected graph<br/>as input.<br/>someAlgo<br/>(G)<br/>1<br/>.<br/>Let<br/>be any vertex in<br/>. Run BFS on<br/>starting at<br/>. Let<br/>be a vertex in<br/>at maximum distance from<br/>as<br/>given by the BFS.<br/>2<br/>.<br/>Run BFS on<br/>again with<br/>as the starting vertex. Let<br/>be the vertex at maximum distance from<br/>as given by<br/>the BFS.<br/>3<br/>.<br/>Output the distance between<br/>and<br/>in<br/>.<br/>The output of<br/>someAlgo<br/>(<br/>) for the tree shown in the given figure is ___________. (Answer in integer)<br/>algorithms<br/>breadth-first-search<br/>graph-search<br/>Graph Search: GATE DS&AI 2024 | Question: 4<br/>Consider performing depth-ﬁrst search (DFS) on an undirected and unweighted graph<br/>starting at vertex<br/>.<br/>For any vertex<br/>in<br/>is the length of the shortest path from<br/>to<br/>. Let<br/>be an edge in<br/>such<br/>that<br/>. If the edge<br/>is explored ﬁrst in the direction from<br/>to<br/>during the above DFS, then<br/>becomes a<br/>edge.<br/>gate-ds-ai-2024<br/>graph-search<br/>depth-first-search<br/>algorithms</p></div>",
+      "options": [],
+      "correctAnswer": "6:6",
+      "discussUrl": "https://gateoverflow.in/460844/gate-cse-2025-set-2-question-49"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE IT 2005 | Question: 14</strong></div><p>In a depth-ﬁrst traversal of a graph<br/>with<br/>vertices,<br/>edges are marked as tree edges. The number of<br/>connected components in<br/>is<br/>algorithms<br/>graph-algorithms<br/>graph-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3759/gate-it-2005-question-14"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE IT 2006 | Question: 47</strong></div><p>Consider the depth-ﬁrst-search of an undirected graph with<br/>vertices<br/>,<br/>, and<br/>. Let discovery time<br/>represent the time instant when the vertex<br/>is ﬁrst visited, and ﬁnish time<br/>represent the time instant<br/>when the vertex<br/>is last visited. Given that<br/>Which one of the following statements is TRUE about the graph?<br/>A<br/>.<br/>There is only one connected component<br/>B<br/>.<br/>There are two connected components, and<br/>and<br/>are connected<br/>C<br/>.<br/>There are two connected components, and<br/>and<br/>are connected<br/>D<br/>.<br/>There are two connected components, and<br/>and<br/>are connected</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3590/gate-it-2006-question-47"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE IT 2007 | Question: 24</strong></div><p>A depth-ﬁrst search is performed on a directed acyclic graph. Let<br/>denote the time at which vertex<br/>is<br/>visited for the ﬁrst time and<br/>the time at which the DFS call to the vertex<br/>terminates. Which of the<br/>following statements is always TRUE for all edges<br/>in the graph ?<br/>algorithms<br/>graph-algorithms<br/>graph-search<br/>depth-first-search</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3457/gate-it-2007-question-24"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Search: GATE IT 2008 | Question: 47</strong></div><p>Consider the following sequence of nodes for the undirected graph given below:<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>A Depth First Search (DFS) is started at node<br/>. The nodes are listed in the order they are ﬁrst visited. Which of the<br/>above is/are possible output(s)?<br/>algorithms<br/>graph-algorithms<br/>graph-search<br/>depth-first-search<br/>Greedy Algorithms<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3357/gate-it-2008-question-47"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Greedy Algorithms: GATE CSE 1999 | Question: 2.20</strong></div><p>The minimum number of record movements required to merge ﬁve ﬁles A (with<br/>records), B (with<br/>records), C (with<br/>records), D (with<br/>records) and E (with<br/>records) is:<br/>algorithms<br/>greedy-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3457/gate-it-2007-question-24"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Greedy Algorithms: GATE CSE 2003 | Question: 69</strong></div><p>The following are the starting and ending times of activities<br/>and<br/>respectively in<br/>chronological order:<br/>. Here,<br/>denotes the starting time and<br/>denotes the ending time of activity X. We need to schedule the activities in a set of rooms available to us. An<br/>activity can be scheduled in a room only if the room is reserved for the activity for its entire duration. What is the<br/>minimum number of rooms required?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/956/gate-cse-2003-question-69"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Greedy Algorithms: GATE CSE 2005 | Question: 84a</strong></div><p>We are given<br/>tasks<br/>. The execution of each task requires one unit of time. We can execute<br/>one task at a time. Each task<br/>has a profit<br/>and a deadline<br/>. Profit<br/>is earned if the task is completed<br/>before the end of the<br/>unit of time.<br/>Are all tasks completed in the schedule that gives maximum profit?<br/>algorithms<br/>greedy-algorithms<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1406/gate-cse-2005-question-84a"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Greedy Algorithms: GATE CSE 2005 | Question: 84b</strong></div><p>We are given<br/>tasks<br/>. The execution of each task requires one unit of time. We can execute<br/>one task at a time. Each task<br/>has a profit<br/>and a deadline<br/>. Profit<br/>is earned if the task is completed<br/>before the end of the<br/>unit of time.<br/>What is the maximum profit earned?<br/>algorithms<br/>greedy-algorithms<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1406/gate-cse-2005-question-84a"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Greedy Algorithms: GATE CSE 2018 | Question: 48</strong></div><p>Consider the weights and values of items listed below. Note that there is only one unit of each item.<br/>The task is to pick a subset of these items such that their total weight is no more than<br/>Kgs and their total value is<br/>maximized. Moreover, no item may be split. The total value of items picked by an optimal algorithm is denoted by<br/>. A greedy algorithm sorts the items by their value-to-weight ratios in descending order and packs them<br/>greedily, starting from the ﬁrst item in the ordered list. The total value of items picked by the greedy algorithm is<br/>denoted by<br/>.<br/>The value of<br/>is ____<br/>algorithms<br/>greedy-algorithms</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/204123/gate-cse-2018-question-48"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 1989 | Question: 1-vii, ISRO2015-14</strong></div><p>A hash table with ten buckets with one slot per bucket is shown in the following ﬁgure. The symbols<br/>to<br/>initially entered using a hashing function with linear probing. The maximum number of comparisons<br/>needed in searching an item that is not present is<br/>hashing<br/>isro2015<br/>algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/10905/gate-cse-1989-question-1-vii-isro2015-14"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 1990 | Question: 13b</strong></div><p>Consider a hash table with chaining scheme for overflow handling:<br/>i<br/>.<br/>What is the worst-case timing complexity of inserting<br/>elements into such a table?<br/>ii<br/>.<br/>For what type of instance does this hashing scheme take the worst-case time for insertion?<br/>hashing<br/>algorithms<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/86225/gate-cse-1990-question-13b"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2021 | Set 1 | Question: 47</strong></div><p>Consider a<br/>hashing approach for<br/>-bit integer keys:<br/>1<br/>.<br/>There is a main hash table of size<br/>.<br/>2<br/>.<br/>The<br/>least significant bits of a key is used to index into the main hash table.<br/>3<br/>.<br/>Initially, the main hash table entries are empty.<br/>4<br/>.<br/>Thereafter, when more keys are hashed into it, to resolve collisions, the set of all keys corresponding to a main<br/>hash table entry is organized as a binary tree that grows on demand.<br/>5<br/>.<br/>First, the<br/>least significant bit is used to divide the keys into left and right subtrees.<br/>6<br/>.<br/>To resolve more collisions, each node of the binary tree is further sub-divided into left and right subtrees based<br/>on the<br/>least significant bit.<br/>7<br/>.<br/>A split is done only if it is needed, i.e., only when there is a collision.<br/>Consider the following state of the hash table.<br/>Which of the following sequences of key insertions can cause the above state of the hash table (assume the keys<br/>are in decimal notation)?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/10905/gate-cse-1989-question-1-vii-isro2015-14"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2023 | Question: 10</strong></div><p>An algorithm has to store several keys generated by an adversary in a hash table. The adversary is<br/>malicious who tries to maximize the number of collisions. Let<br/>be the number of keys,<br/>be the number of<br/>slots in the hash table, and<br/>.<br/>Which one of the following is the best hashing strategy to counteract the adversary?<br/>A<br/>.<br/>Division method, i.e., use the hash function<br/>.<br/>B<br/>.<br/>Multiplication method, i.e., use the hash function<br/>, where<br/>is a carefully chosen<br/>constant.<br/>C<br/>.<br/>Universal hashing method.<br/>D<br/>.<br/>If<br/>is a prime number, use Division method. Otherwise, use Multiplication method.<br/>algorithms<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399302/gate-cse-2023-question-10"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2026 | Set 2 | Question: 20</strong></div><p>The keys<br/>are inserted into a hash table using the hash function<br/>. The collisions are resolved by chaining. After all the keys are inserted, the length of the<br/>longest chain is<br/>. (answer in integer)<br/>algorithms<br/>hashing</p></div>",
+      "options": [],
+      "correctAnswer": "3:3",
+      "discussUrl": "https://gateoverflow.in/399302/gate-cse-2023-question-10"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE IT 2005 | Question: 16</strong></div><p>A hash table contains<br/>buckets and uses linear probing to resolve collisions. The key values are integers<br/>and the hash function used is<br/>. If the values<br/>are inserted in the table, in what<br/>location would the key value<br/>be inserted?<br/>algorithms<br/>hashing<br/>easy<br/>Heap Sort<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3761/gate-it-2005-question-16"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Heap Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Heap Sort: GATE CSE 2013 | Question: 30</strong></div><p>The number of elements that can be sorted in<br/>time using heap sort is<br/>algorithms<br/>sorting<br/>heap-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399302/gate-cse-2023-question-10"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Heap Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Heap Sort: GATE CSE 2024 | Set 1 | Question: 31</strong></div><p>An array<br/>is heapiﬁed. Which one of the following options<br/>represents the first three elements in the heapified array?<br/>algorithms<br/>heap-sort<br/>sorting<br/>Huffman Code<br/>(6)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/399302/gate-cse-2023-question-10"
+    }
+  ]
+}

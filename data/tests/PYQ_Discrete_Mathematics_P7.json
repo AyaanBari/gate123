@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P7",
+  "fileName": "PYQ_Discrete_Mathematics_P7.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 7",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2006 | Question: 25</strong></div><p>Let<br/>Let<br/>be subsets of<br/>each of size<br/>Deﬁne a function<br/>from<br/>to the set of natural numbers as,<br/>is the number of sets<br/>that contain the element<br/>That is<br/>then<br/>is:<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/881/gate-cse-2006-question-2"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2007 | Question: 3</strong></div><p>What is the maximum number of different Boolean functions involving<br/>Boolean variables?<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1168/gate-cse-2005-question-43"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2012 | Question: 37</strong></div><p>How many onto (or surjective) functions are there from an<br/>-element<br/>set to a<br/>-element set?<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1759/gate-cse-2012-question-37"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2014 | Set 1 | Question: 50</strong></div><p>Let<br/>ܵ<br/>denote the set of all functions<br/>. Denote by<br/>the number of functions from<br/>S<br/>to<br/>the set<br/>. The value of<br/>is _______.<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/1168/gate-cse-2005-question-43"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2014 | Set 3 | Question: 2</strong></div><p>Let<br/>and<br/>be finite sets and<br/>be a function. Which one of the following statements is TRUE?<br/>A<br/>.<br/>For any subsets<br/>and<br/>of<br/>B<br/>.<br/>For any subsets<br/>and<br/>of<br/>C<br/>.<br/>For any subsets<br/>and<br/>of<br/>D<br/>.<br/>For any subsets<br/>and<br/>of<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2014 | Set 3 | Question: 49</strong></div><p>Consider the set of all functions<br/>such that<br/>, for all<br/>. Consider the following statements:<br/>. For each such function it must be the case that for every<br/>.<br/>. For each such function it must be the case that for some<br/>.<br/>. Each function must be onto.<br/>Which one of the following is CORRECT?<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 1 | Question: 5</strong></div><p>If<br/>and<br/>, then<br/>is:<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 2 | Question: 40</strong></div><p>The number of onto functions (surjective functions) from set<br/>to set<br/>is<br/>______.<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "36",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 2 | Question: 54</strong></div><p>Let<br/>and<br/>denote the sets containing<br/>and<br/>distinct objects respectively and<br/>denote the set of all<br/>possible functions deﬁned from<br/>to<br/>. Let<br/>be randomly chosen from<br/>. The probability of<br/>being one-<br/>to-one is ______.<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "0.95",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2016 | Set 1 | Question: 28</strong></div><p>A function<br/>, defined on the set of positive integers<br/>, satisfies the following properties:<br/>if<br/>is even<br/>if<br/>is odd</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/2036/gate-cse-2014-set-3-question-2"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2021 | Set 2 | Question: 11</strong></div><p>Consider the following sets, where<br/>:<br/>: Set of all<br/>matrices with entries from the set<br/>: Set of all functions from the set<br/>to the set<br/>Which of the following choice(s) is/are correct?<br/>A<br/>.<br/>There does not exist a bijection from<br/>to<br/>B<br/>.<br/>There exists a surjection from<br/>to<br/>C<br/>.<br/>There exists a bijection from<br/>to<br/>D<br/>.<br/>There does not exist an injection from<br/>to<br/>multiple-selects<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2023 | Question: 39</strong></div><p>L e t<br/>be an onto (or surjective) function, where<br/>and<br/>are nonempty sets. Deﬁne an<br/>equivalence relation<br/>on the set<br/>as<br/>where<br/>. Let<br/>be the set of all the equivalence classes under<br/>. Deﬁne a new<br/>mapping<br/>as<br/>Which of the following statements is/are<br/>set-theory&algebra<br/>functions<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/399272/gate-cse-2023-question-39"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2024 | Set 1 | Question: 22</strong></div><p>Let<br/>and<br/>be non-empty ﬁnite sets such that there exist one-to-one and onto functions<br/>from<br/>to<br/>and<br/>from<br/>to<br/>. The number of possible values of<br/>is ___________.<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE DA 2026 | Question: 23</strong></div><p>The number of bijections<br/>from the set<br/>to itself such that<br/>, for all<br/>, is<br/>. (Answer in integer)<br/>gateda-2026<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "10:10",
+      "discussUrl": "https://gateoverflow.in/399272/gate-cse-2023-question-39"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE IT 2005 | Question: 31</strong></div><p>Let<br/>be a function from a set<br/>to a set<br/>,<br/>a function from<br/>to<br/>, and<br/>a function from<br/>to<br/>, such<br/>that<br/>for all<br/>Which of the following statements is always true for all such functions<br/>and<br/>?<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3777/gate-it-2005-question-31"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE IT 2006 | Question: 6</strong></div><p>Given a boolean function<br/>which of the following equations is NOT true?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>set-theory&algebra<br/>functions<br/>Group Theory<br/>(33)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3545/gate-it-2006-question-6"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1988 | Question: 2xviii</strong></div><p>Show that if<br/>is a group such that<br/>for all<br/>belonging to<br/>, then<br/>is an abelian.<br/>descriptive<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3777/gate-it-2005-question-31"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1990 | Question: 2-x</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>set-theory&algebra<br/>group-theory<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3777/gate-it-2005-question-31"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1992 | Question: 14a</strong></div><p>If<br/>is a group of even order, then show that there exists an element<br/>, the identity in<br/>, such that<br/>.<br/>set-theory&algebra<br/>group-theory<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/593/gate-cse-1992-question-14a"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1993 | Question: 28</strong></div><p>Let<br/>be a semigroup where<br/>. Show that:<br/>a<br/>.<br/>and<br/>b<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2324/gate-cse-1993-question-28"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1994 | Question: 1.10</strong></div><p>Some group<br/>is known to be abelian. Then, which one of the following is true for<br/>?<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2451/gate-cse-1994-question-1-10"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1995 | Question: 2.17</strong></div><p>Let<br/>be the set of all non-singular matrices over real number and let<br/>be the matrix multiplication<br/>operation. Then<br/>A<br/>.<br/>is closed under<br/>but<br/>is not a semigroup.<br/>B<br/>.<br/>is a semigroup but not a monoid.<br/>C<br/>.<br/>is a monoid but not a group.<br/>D<br/>.<br/>is a a group but not an abelian group.<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2451/gate-cse-1994-question-1-10"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1995 | Question: 21</strong></div><p>Let<br/>and<br/>be subgroups of a group<br/>.<br/>A<br/>.<br/>Show that<br/>is also a subgroup of<br/>.<br/>B<br/>.<br/>Is<br/>always a subgroup of<br/>?.<br/>set-theory&algebra<br/>group-theory<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2629/gate-cse-1995-question-2-17"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1996 | Question: 1.4</strong></div><p>Which of the following statements is FALSE?<br/>A<br/>.<br/>The set of rational numbers is an abelian group under addition<br/>B<br/>.<br/>The set of integers in an abelian group under addition<br/>C<br/>.<br/>The set of rational numbers form an abelian group under multiplication<br/>D<br/>.<br/>The set of real numbers excluding zero is an abelian group under multiplication<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2451/gate-cse-1994-question-1-10"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1996 | Question: 2.4</strong></div><p>Which one of the following is false?<br/>A<br/>.<br/>The set of all bijective functions on a finite set forms a group under function composition<br/>B<br/>.<br/>The set<br/>forms a group under multiplication mod<br/>, where<br/>is a prime number<br/>C<br/>.<br/>The set of all strings over a finite alphabet forms a group under concatenation<br/>D<br/>.<br/>A subset<br/>of<br/>is a subgroup of the group<br/>if and only if for any pair of elements<br/>set-theory&algebra<br/>set-theory<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2451/gate-cse-1994-question-1-10"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1997 | Question: 3.1</strong></div><p>Let<br/>be an algebraic structure where<br/>is the set of integers and the operation<br/>is deﬁned by<br/>. Which of the following statements is true for<br/>?<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2232/gate-cse-1997-question-3-1"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1998 | Question: 12</strong></div><p>Let<br/>be a semigroup, Furthermore, for every<br/>and<br/>in<br/>, if<br/>, then<br/>.<br/>a<br/>.<br/>Show that for every<br/>in<br/>,<br/>b<br/>.<br/>Show that for every<br/>,<br/>in<br/>,<br/>c<br/>.<br/>Show that for every<br/>in<br/>,<br/>set-theory&algebra<br/>group-theory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1726/gate-cse-1998-question-12"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 1999 | Question: 4</strong></div><p>Let<br/>be a finite group and<br/>be a subgroup of<br/>. For<br/>, define<br/>.<br/>a<br/>.<br/>Show that<br/>b<br/>.<br/>Show that for every pair of elements<br/>, either<br/>or<br/>and<br/>are disjoint.<br/>c<br/>.<br/>Use the above to argue that the order of<br/>must divide the order of<br/>set-theory&algebra<br/>group-theory<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1503/gate-cse-1999-question-4"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2000 | Question: 4</strong></div><p>Let<br/>and<br/>denote multiplication modulo<br/>that is,<br/>a<br/>.<br/>Prove that<br/>is not a group.<br/>b<br/>.<br/>Write three distinct groups<br/>where<br/>and<br/>has<br/>elements.<br/>set-theory&algebra<br/>descriptive<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1503/gate-cse-1999-question-4"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2002 | Question: 1.6</strong></div><p>Which of the following is true?<br/>A<br/>.<br/>The set of all rational negative numbers forms a group under multiplication.<br/>B<br/>.<br/>The set of all non-singular matrices forms a group under multiplication.<br/>C<br/>.<br/>The set of all matrices forms a group under multiplication.<br/>D<br/>.<br/>Both B and C are true.<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2232/gate-cse-1997-question-3-1"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2003 | Question: 7</strong></div><p>Consider the set<br/>of all strings over the alphabet<br/>.<br/>with the concatenation operator for<br/>strings</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2232/gate-cse-1997-question-3-1"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2004 | Question: 72</strong></div><p>The following is the incomplete operation table of a<br/>element group.<br/>The last row of the table is<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1066/gate-cse-2004-question-72"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2005 | Question: 13</strong></div><p>The set<br/>is a group under multiplication modulo<br/>. The inverses of<br/>and<br/>are<br/>respectively:<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1163/gate-cse-2005-question-13"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2005 | Question: 46</strong></div><p>Consider the set<br/>of all<br/>matrices of the type<br/>where<br/>and<br/>are real numbers and<br/>Under the matrix multiplication operation, the set<br/>is:<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1163/gate-cse-2005-question-13"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2006 | Question: 3</strong></div><p>The set<br/>under multiplication modulo<br/>is not a group. Given below are four possible<br/>reasons. Which one of them is false?<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1163/gate-cse-2005-question-13"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2007 | Question: 21</strong></div><p>How many different non-isomorphic Abelian groups of order<br/>are there?<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1219/gate-cse-2007-question-21"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2009 | Question: 1</strong></div><p>Which one of the following is<br/>NOT<br/>necessarily a property of a Group?<br/>set-theory&algebra<br/>easy<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1219/gate-cse-2007-question-21"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2009 | Question: 22</strong></div><p>For the composition table of a cyclic group shown below:<br/>Which one of the following choices is correct?<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/795/gate-cse-2009-question-1"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2010 | Question: 4</strong></div><p>Consider the set<br/>, where<br/>and<br/>are cube roots of unity. If<br/>denotes the multiplication<br/>operation, the structure<br/>forms<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1150/gate-cse-2010-question-4"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2014 | Set 3 | Question: 3</strong></div><p>Let<br/>be a group with<br/>elements. Let<br/>be a subgroup of<br/>. It is known that<br/>and that the size of<br/>is at least<br/>. The size of<br/>is __________.<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/2037/gate-cse-2014-set-3-question-3"
+    }
+  ]
+}

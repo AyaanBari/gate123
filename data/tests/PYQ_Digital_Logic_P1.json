@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Digital_Logic_P1",
+  "fileName": "PYQ_Digital_Logic_P1.json",
+  "title": "GATE Official PYQs | Digital Logic Part 1",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 1988 | Question: 4ii</strong></div><p>Using binary full adders and other logic gates (if necessary), design an adder for adding<br/>-bit number<br/>(including sign) in<br/>complement notation.<br/>digital-logic<br/>descriptive<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94360/gate-cse-1988-question-4ii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 1990 | Question: 1-i</strong></div><p>Fill in the blanks:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2170"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 1997 | Question: 2.5</strong></div><p>An N-bit carry lookahead adder, where<br/>is a multiple of<br/>, employs ICs<br/>(<br/>bit ALU) and<br/>(<br/>bit carry lookahead generator).<br/>The minimum addition time using the best architecture for this adder is<br/>digital-logic<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2231/gate-cse-1997-question-2-5"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 1999 | Question: 2.16</strong></div><p>The number of full and half-adders required to add<br/>-bit numbers is<br/>digital-logic<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2231/gate-cse-1997-question-2-5"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 2003 | Question: 46</strong></div><p>Consider the ALU shown below.<br/>If the operands are in<br/>complement representation, which of the following operations can be performed by<br/>suitably setting the control lines<br/>and<br/>only (+ and – denote addition and subtraction respectively)?<br/>digital-logic<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/937/gate-cse-2003-question-46"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 2004 | Question: 62</strong></div><p>A 4-bit carry look ahead adder, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND,<br/>NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented<br/>forms and the delay of each gate is one time unit, what is the overall propagation delay of the adder? Assume that<br/>the carry network has been implemented using two-level AND-OR logic.<br/>digital-logic<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1057/gate-cse-2004-question-62"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 2015 | Set 2 | Question: 48</strong></div><p>A half adder is implemented with XOR and AND gates. A full adder is implemented with two half adders and<br/>one OR gate. The propagation delay of an XOR gate is twice that of an AND/OR gate. The propagation<br/>delay of an AND/OR gate is<br/>microseconds. A<br/>-bit-ripple-carry binary adder is implemented by using four full<br/>adders. The total propagation time of this<br/>-bit binary adder in microseconds is ______.<br/>digital-logic<br/>adder</p></div>",
+      "options": [],
+      "correctAnswer": "19.2",
+      "discussUrl": "https://gateoverflow.in/1057/gate-cse-2004-question-62"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 2016 | Set 1 | Question: 33</strong></div><p>Consider a carry look ahead adder for adding two<br/>-bit integers, built using gates of fan-in at most two. The<br/>time to perform addition using this adder is<br/>digital-logic<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1057/gate-cse-2004-question-62"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Adder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Adder: GATE CSE 2016 | Set 2 | Question: 07</strong></div><p>Consider an eight-bit ripple-carry adder for computing the sum of<br/>and<br/>, where<br/>and<br/>are integers<br/>represented in<br/>'s complement form. If the decimal value of<br/>is one, the decimal value of<br/>that leads to<br/>the longest latency for the sum to stabilize is ___________<br/>digital-logic<br/>adder<br/>Array Multiplier<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "-1",
+      "discussUrl": "https://gateoverflow.in/1057/gate-cse-2004-question-62"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array Multiplier",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array Multiplier: GATE CSE 1999 | Question: 1.21</strong></div><p>The maximum gate delay for any output to appear in an array multiplier for multiplying two<br/>bit numbers is<br/>digital-logic<br/>array-multiplier</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1057/gate-cse-2004-question-62"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array Multiplier",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array Multiplier: GATE CSE 2003 | Question: 11</strong></div><p>Consider an array multiplier for multiplying two<br/>bit numbers. If each gate in the circuit has a unit delay, the<br/>total delay of the multiplier is<br/>digital-logic<br/>array-multiplier</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/902/gate-cse-2003-question-11"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Codes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Codes: GATE CSE 2006 | Question: 40</strong></div><p>Consider numbers represented in 4-bit Gray code. Let<br/>be the Gray code  representation of a<br/>number<br/>and let<br/>be the Gray code of<br/>value of the number. Which one of<br/>the following functions is correct?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>number-representation<br/>binary-codes<br/>Boolean Algebra<br/>(34)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(1Q)<br/>Weekly Quiz 1<br/>(15Q)<br/>Weekly Quiz 2<br/>(10Q)<br/>Weekly Quiz 3<br/>(15Q)<br/>Weekly Quiz 4<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1816/gate-cse-2006-question-40"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1987 | Question: 1-II</strong></div><p>The total number of Boolean functions which can be realised with four variables is:<br/>digital-logic<br/>boolean-algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1816/gate-cse-2006-question-40"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1987 | Question: 12-a</strong></div><p>The Boolean expression<br/>is equivalent to<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/80032/gate-cse-1987-question-1-ii"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1988 | Question: 2-iii</strong></div><p>Let<br/>be deﬁned as a Boolean operation given as<br/>and let<br/>. If<br/>then<br/>prove that<br/>.<br/>digital-logic<br/>descriptive<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1816/gate-cse-2006-question-40"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1989 | Question: 4-x</strong></div><p>A switching function is said to be neutral if the number of input combinations for which its value is<br/>is equal<br/>to the number of input combinations for which its value is<br/>Compute the number of neutral switching<br/>functions of<br/>variables (for a given<br/>).<br/>descriptive<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1816/gate-cse-2006-question-40"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1989 | Question: 5-a</strong></div><p>Find values of Boolean variables<br/>which satisfy the following equations:<br/>A+ B = 1<br/>AC = BC</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2185"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1992 | Question: 02-i</strong></div><p>The operation which is commutative but not associative is:<br/>easy<br/>digital-logic<br/>boolean-algebra<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/555/gate-cse-1992-question-02-i"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1994 | Question: 4</strong></div><p>A<br/>.<br/>Let<br/>be a Boolean operation deﬁned as<br/>. If<br/>then evaluate and ﬁll in the<br/>blanks:<br/>i<br/>.<br/>______<br/>ii<br/>.<br/>______<br/>B<br/>.<br/>Solve the following boolean equations for the values of<br/>and<br/>digital-logic<br/>boolean-algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2500/gate-cse-1994-question-4"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1995 | Question: 2.5</strong></div><p>What values of<br/>and<br/>satisfy the following simultaneous Boolean equations?<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/555/gate-cse-1992-question-02-i"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1997 | Question: 2-1</strong></div><p>Let<br/>be defined as<br/>. Let<br/>. Value of<br/>is<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/555/gate-cse-1992-question-02-i"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1998 | Question: 1.13</strong></div><p>What happens when a bit-string is XORed with itself<br/>-times as shown:<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/555/gate-cse-1992-question-02-i"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1998 | Question: 2.8</strong></div><p>Which of the following operations is commutative but not associative?<br/>digital-logic<br/>easy<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1680/gate-cse-1998-question-2-8"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 1999 | Question: 1.7</strong></div><p>Which of the following expressions is not equivalent to<br/>?<br/>digital-logic<br/>easy<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1680/gate-cse-1998-question-2-8"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2000 | Question: 2.10</strong></div><p>The simultaneous equations on the Boolean variables<br/>and<br/>,<br/>have the following solution for<br/>and<br/>respectively:<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1680/gate-cse-1998-question-2-8"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2002 | Question: 2-3</strong></div><p>Let<br/>. Simplified expression for function<br/>is<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1680/gate-cse-1998-question-2-8"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2004 | Question: 17</strong></div><p>A Boolean function<br/>is equivalent to<br/>digital-logic<br/>easy<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1014/gate-cse-2004-question-17"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2007 | Question: 32</strong></div><p>Let<br/>. Which of the following expressions are NOT equivalent to<br/>?<br/>P:<br/>Q:<br/>R:<br/>S:<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1230/gate-cse-2007-question-32"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2007 | Question: 33</strong></div><p>Define the connective<br/>for the Boolean variables<br/>and<br/>as:<br/>Let<br/>. Consider the following expressions<br/>,<br/>and<br/>.<br/>Which of the following is<br/>TRUE<br/>?<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1231/gate-cse-2007-question-33"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2008 | Question: 26</strong></div><p>If<br/>are Boolean variables, then<br/>simplifies to<br/>easy<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/424/gate-cse-2008-question-26"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2012 | Question: 6</strong></div><p>The truth table<br/>represents the Boolean function<br/>digital-logic<br/>easy<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/424/gate-cse-2008-question-26"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2013 | Question: 21</strong></div><p>Which one of the following expressions does<br/>NOT<br/>represent exclusive NOR of<br/>and<br/>?<br/>digital-logic<br/>easy<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1532/gate-cse-2013-question-21"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2014 | Set 3 | Question: 55</strong></div><p>Let<br/>denote the exclusive OR (XOR) operation. Let '<br/>' and '<br/>' denote the binary constants. Consider the<br/>following Boolean expression for<br/>over two variables<br/>and<br/>:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1231/gate-cse-2007-question-33"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2015 | Set 2 | Question: 37</strong></div><p>The number of min-terms after minimizing the following Boolean expression is _______.<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2016 | Set 1 | Question: 06</strong></div><p>Consider the Boolean operator # with the following properties :<br/>and<br/>Then<br/>is equivalent to<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2016 | Set 2 | Question: 08</strong></div><p>Let,<br/>where<br/>are Boolean variables, and<br/>is the XOR operator.<br/>Which one of the following must always be<br/>TRUE<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2017 | Set 2 | Question: 27</strong></div><p>If<br/>are Boolean variables, then which one of the following is INCORRECT?<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2018 | Question: 4</strong></div><p>Let<br/>and<br/>denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the<br/>following is NOT CORRECT?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39540/gate-cse-2016-set-2-question-08"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2019 | Question: 6</strong></div><p>Which one of the following is NOT a valid identity?<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2021 | Set 1 | Question: 42</strong></div><p>Consider the following Boolean expression.<br/>Which of the following Boolean expressions is/are equivalent to<br/>(complement of<br/>)?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>multiple-selects<br/>digital-logic<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6"
+    }
+  ]
+}

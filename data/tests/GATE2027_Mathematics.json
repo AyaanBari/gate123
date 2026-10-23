@@ -1,0 +1,82 @@
+{
+  "id": "GATE2027_Mathematics",
+  "fileName": "GATE2027_Mathematics.json",
+  "title": "GATE 2027 Original | Discrete & Engineering Mathematics",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE 2027 Original",
+  "series": "GATE 2027 Original",
+  "durationMinutes": 45,
+  "totalQuestions": 3,
+  "totalMarks": 5,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Engineering Mathematics - Linear Algebra",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Engineering Mathematics - Linear Algebra</strong></div>\n<p>A $3 \\times 3$ real matrix $A$ has trace equal to 9 and determinant equal to 24. If one of the eigenvalues of $A$ is 2, what is the largest eigenvalue of $A$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Let the eigenvalues of $A$ be $\\lambda_1, \\lambda_2, \\lambda_3$.<br/>We are given $\\lambda_1 = 2$.<br/>1. Trace: $\\lambda_1 + \\lambda_2 + \\lambda_3 = 9 \\implies 2 + \\lambda_2 + \\lambda_3 = 9 \\implies \\lambda_2 + \\lambda_3 = 7$.<br/>2. Determinant: $\\lambda_1 \\cdot \\lambda_2 \\cdot \\lambda_3 = 24 \\implies 2 \\cdot \\lambda_2 \\cdot \\lambda_3 = 24 \\implies \\lambda_2 \\cdot \\lambda_3 = 12$.<br/>Solving $\\lambda^2 - 7\\lambda + 12 = 0 \\implies (\\lambda - 3)(\\lambda - 4) = 0$.<br/>So eigenvalues are $2, 3, 4$. The largest eigenvalue is 4.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Probability & Statistics - Bayes Theorem",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Probability & Statistics - Bayes Theorem</strong></div>\n<p>In a test for a rare disease affecting 1 in 1000 people, the test has a false positive rate of 5% (i.e. Probability(Positive | Healthy) = 0.05) and a sensitivity of 99% (i.e. Probability(Positive | Diseased) = 0.99). If a randomly chosen person tests positive, what is the posterior probability (expressed as a percentage, rounded to 1 decimal place) that the person actually has the disease?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Prior $P(D) = 0.001$, $P(H) = 0.999$.<br/>$P(+ | D) = 0.99$, $P(+ | H) = 0.05$.<br/>By Bayes' Theorem:<br/>$$P(D | +) = \\frac{P(+ | D) P(D)}{P(+ | D) P(D) + P(+ | H) P(H)}$$<br/>$$P(D | +) = \\frac{0.99 \\times 0.001}{(0.99 \\times 0.001) + (0.05 \\times 0.999)} = \\frac{0.00099}{0.00099 + 0.04995} = \\frac{0.00099}{0.05094} \\approx 0.01943 = 1.9\\%$$\\.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "1.9",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Discrete Mathematics - Graph Theory",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Discrete Mathematics - Graph Theory</strong></div>\n<p>Let $G$ be a connected simple graph with 20 vertices and 35 edges. Which of the following conditions is <strong>sufficient</strong> to guarantee that the chromatic number $\\chi(G) = 2$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    By König's Theorem, a graph is 2-colorable (bipartite) if and only if it contains no odd cycle. Hence, containing no odd cycle is both necessary and sufficient.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$G$ contains no cycle of length 3</span>",
+          "textHtml": "<span>$G$ contains no cycle of length 3</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$G$ is a planar graph</span>",
+          "textHtml": "<span>$G$ is a planar graph</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$G$ contains no odd cycle</span>",
+          "textHtml": "<span>$G$ contains no odd cycle</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>The maximum degree $\\Delta(G) = 3$</span>",
+          "textHtml": "<span>The maximum degree $\\Delta(G) = 3$</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

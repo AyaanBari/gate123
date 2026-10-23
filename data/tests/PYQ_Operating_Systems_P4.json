@@ -1,0 +1,1330 @@
+{
+  "id": "PYQ_Operating_Systems_P4",
+  "fileName": "PYQ_Operating_Systems_P4.json",
+  "title": "GATE Official PYQs | Operating Systems Part 4",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2007 | Question: 83</strong></div><p>A process, has been allocated<br/>page frames. Assume that none of the pages of the process are available in<br/>the memory initially. The process makes the following sequence of page references (reference string):<br/>Least Recently Used (LRU) page replacement policy is a practical approximation to optimal page replacement. For<br/>the above reference string, how many more page faults occur with LRU than with the optimal page replacement<br/>policy?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1274/gate-cse-2007-question-82"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2009 | Question: 9,</strong></div><p>ISRO2016-52<br/>In which one of the following page replacement policies, Belady's anomaly may occur?<br/>operating-system<br/>page-replacement<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1301/gate-cse-2009-question-9-isro2016-52"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2010 | Question: 24</strong></div><p>A system uses FIFO policy for system replacement. It has<br/>page frames with no pages loaded to begin<br/>with. The system ﬁrst accesses<br/>distinct pages in some order and then accesses the same<br/>pages<br/>but now in the reverse order. How many page faults will occur?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2203/gate-cse-2010-question-24"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2012 | Question: 42</strong></div><p>Consider the virtual page reference string<br/>on a demand paged virtual memory system running on a computer system that has main memory size of<br/>page<br/>frames which are initially empty. Let<br/>,<br/>and<br/>denote the number of page faults under the<br/>corresponding page replacement policy. Then<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2150/gate-cse-2012-question-42"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2014 | Set 1 | Question: 33</strong></div><p>Assume that there are<br/>page frames which are initially empty. If the page reference string is</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/1274/gate-cse-2007-question-82"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2014 | Set 2 | Question: 33</strong></div><p>A computer has twenty physical page frames which contain pages numbered<br/>through<br/>. Now a<br/>program accesses the pages numbered<br/>in that order, and repeats the access<br/>sequence<br/>THRICE<br/>. Which one of the following page replacement policies experiences the same number of page<br/>faults as the optimal page replacement policy for this program?<br/>operating-system<br/>page-replacement<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1992/gate-cse-2014-set-2-question-33"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2014 | Set 3 | Question: 20</strong></div><p>A system uses<br/>page frames for storing process pages in main memory. It uses the Least Recently Used<br/>(<br/>LRU<br/>) page replacement policy. Assume that all the page frames are initially empty. What is the total<br/>number of page faults that will occur while processing the page reference string given below?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/1992/gate-cse-2014-set-2-question-33"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2015 | Set 1 | Question: 47</strong></div><p>Consider a main memory with ﬁve-page frames and the following sequence of page references:<br/>. Which one of the following is true with respect to page replacement<br/>policies First In First Out (FIFO) and Least Recently Used (LRU)?<br/>A<br/>.<br/>Both incur the same number of page faults<br/>B<br/>.<br/>FIFO incurs<br/>more page faults than LRU<br/>C<br/>.<br/>LRU incurs<br/>more page faults than FIFO<br/>D<br/>.<br/>FIFO incurs<br/>more page faults than LRU<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1992/gate-cse-2014-set-2-question-33"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2016 | Set 1 | Question: 49</strong></div><p>Consider a computer system with ten physical page frames. The system is provided with an access<br/>sequence<br/>, where each<br/>is a distinct virtual page number. The<br/>diﬀerence in the number of page faults between the last-in-ﬁrst-out page replacement policy and the optimal page<br/>replacement policy is_________.<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/1992/gate-cse-2014-set-2-question-33"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2016 | Set 2 | Question: 20</strong></div><p>In which one of the following page replacement algorithms it is possible for the page fault rate to increase<br/>even when the number of allocated frames increases?<br/>operating-system<br/>page-replacement<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1992/gate-cse-2014-set-2-question-33"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2017 | Set 1 | Question: 40</strong></div><p>Recall that Belady's anomaly is that the page-fault rate may<br/>increase<br/>as the number of allocated frames<br/>increases. Now, consider the following statements:<br/>:<br/>Random page replacement<br/>algorithm (where a page chosen at random is replaced) suﬀers from Belady's<br/>anomaly.<br/>:<br/>LRU page replacement<br/>algorithm suffers from Belady's anomaly.<br/>Which of the following is CORRECT?<br/>page-replacement<br/>operating-system</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2021 | Set 1 | Question: 11</strong></div><p>In the context of operating systems, which of the following statements is/are correct with respect to paging?<br/>A<br/>.<br/>Paging helps solve the issue of external fragmentation<br/>B<br/>.<br/>Page size has no impact on internal fragmentation<br/>C<br/>.<br/>Paging incurs memory overheads<br/>D<br/>.<br/>Multi-level paging is necessary to support pages of different sizes<br/>multiple-selects<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2021 | Set 2 | Question: 48</strong></div><p>Consider a three-level page table to translate a<br/>bit virtual address to a physical address as shown<br/>below:<br/>The page size is<br/>bytes<br/>and page table entry size at every level is<br/>bytes. A process<br/>is<br/>currently using<br/>bytes<br/>virtual memory which is mapped to<br/>of physical memory. The<br/>minimum amount of memory required for the page table of<br/>across all levels is _________<br/>.<br/>operating-system<br/>memory-management<br/>page-replacement</p></div>",
+      "options": [],
+      "correctAnswer": "4108 : 4108",
+      "discussUrl": "https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2025 | Set 1 | Question: 44</strong></div><p>In optimal page replacement algorithm, information about all future page references is available to the<br/>operating system (OS). A modification of the optimal page replacement algorithm is as follows:<br/>The OS correctly predicts only up to next<br/>page references (including the current page) at the time of allocating a<br/>frame to a page.<br/>A process accesses the pages in the following order of page numbers:<br/>If the system has three memory frames that are initially empty, the number of page faults that will occur during<br/>execution of the process is __________. (Answer in integer)<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [],
+      "correctAnswer": "6:6",
+      "discussUrl": "https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE IT 2007 | Question: 12</strong></div><p>The address sequence generated by tracing a particular program executing in a pure demand paging<br/>system with<br/>bytes per page is<br/>Suppose that the memory can store only one page and if<br/>is the address which causes a page fault then the bytes<br/>from addresses<br/>to<br/>are loaded on to the memory.<br/>How many page faults will occur?<br/>operating-system<br/>virtual-memory<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3445/gate-it-2007-question-12"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE IT 2007 | Question: 58</strong></div><p>A demand paging system takes<br/>time units to service a page fault and<br/>time units to replace a dirty<br/>page. Memory access time is<br/>time unit. The probability of a page fault is<br/>. In case of a page fault, the<br/>probability of page being dirty is also<br/>. It is observed that the average access time is<br/>time units. Then the value<br/>of<br/>is<br/>operating-system<br/>page-replacement<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3445/gate-it-2007-question-12"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE IT 2008 | Question: 41</strong></div><p>Assume that a main memory with only<br/>pages, each of<br/>bytes, is initially empty. The CPU generates the<br/>following sequence of virtual addresses and uses the Least Recently Used (LRU) page replacement policy.<br/>How many page faults does this sequence cause? What are the page numbers of the pages present in the main<br/>memory at the end of the sequence?<br/>operating-system<br/>page-replacement<br/>Precedence Graph<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3351/gate-it-2008-question-41"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Precedence Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Precedence Graph: GATE CSE 1989 | Question: 11b</strong></div><p>Consider the following precedence graph<br/>of processes where a node denotes a process and a<br/>directed edge from node<br/>to node<br/>implies; that<br/>must complete before<br/>commences. Implement<br/>the graph using FORK and JOIN constructs. The actual computation done by a process may be indicated by a<br/>comment line.<br/>descriptive<br/>operating-system<br/>precedence-graph<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91096/gate-cse-1989-question-11b"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Precedence Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Precedence Graph: GATE CSE 1991 | Question: 01-xii</strong></div><p>A given set of processes can be implemented by using only<br/>parbegin/parend<br/>statement, if the precedence<br/>graph of these processes is ______<br/>operating-system<br/>precedence-graph<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/508/gate-cse-1991-question-01-xii"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Precedence Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Precedence Graph: GATE CSE 1992 | Question: 12-a</strong></div><p>Draw the precedence graph for the concurrent program given below<br/>S1<br/>parbegin<br/>begin<br/>S2<br/>:<br/>S4<br/>end<br/>;<br/>begin<br/>S3<br/>;<br/>parbegin<br/>S5<br/>;<br/>begin<br/>S6<br/>:<br/>S8<br/>end<br/>parend<br/>end<br/>;<br/>S7<br/>parend<br/>;<br/>S9<br/>operating-system<br/>concurrency<br/>precedence-graph<br/>descriptive<br/>Process<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/591/gate-cse-1992-question-12-a"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process: GATE CSE 1996 | Question: 1.18</strong></div><p>The process state transition diagram in the below figure is representative of<br/>A<br/>.<br/>a batch operating system<br/>B<br/>.<br/>an operating system with a preemptive scheduler<br/>C<br/>.<br/>an operating system with a non-preemptive scheduler<br/>D<br/>.<br/>a uni-programmed operating system<br/>operating-system<br/>process</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/508/gate-cse-1991-question-01-xii"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process: GATE CSE 2001 | Question: 2.20</strong></div><p>Which of the following does not interrupt a running process?<br/>operating-system<br/>easy<br/>process</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/591/gate-cse-1992-question-12-a"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process: GATE CSE 2002 | Question: 2.21</strong></div><p>Which combination of the following features will suffice to characterize an OS as a multi-programmed OS?<br/>a<br/>.<br/>More than one program may be loaded into main memory at the same time for execution<br/>b<br/>.<br/>If a program waits for certain events such as I/O, another program is immediately scheduled for execution<br/>c<br/>.<br/>If the execution of a program terminates, another program is immediately scheduled for execution.<br/>A<br/>.<br/>(a)<br/>B<br/>.<br/>(a) and (b)<br/>C<br/>.<br/>(a) and (c)<br/>D<br/>.<br/>(a), (b) and (c)<br/>operating-system<br/>process</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/851/gate-cse-2002-question-2-21"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process: GATE CSE 2023 | Question: 12</strong></div><p>Which one or more of the following need to be saved on a context switch from one thread<br/>of a process<br/>to another thread<br/>of the same process?<br/>operating-system<br/>process<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/399300/gate-cse-2023-question-12"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process: GATE IT 2006 | Question: 13</strong></div><p>The process state transition diagram of an operating system is as given below.<br/>Which of the following must be FALSE about the above operating system?<br/>operating-system<br/>process<br/>Process Scheduling<br/>(49)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(2Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3552/gate-it-2006-question-13"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1988 | Question: 2xa</strong></div><p>State any undesirable characteristic of the following criteria for measuring performance of an operating<br/>system:<br/>Turn around time<br/>descriptive<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/851/gate-cse-2002-question-2-21"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1988 | Question: 2xb</strong></div><p>State any undesirable characteristic of the following criteria for measuring performance of an operating<br/>system:<br/>Waiting time<br/>descriptive<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93953/gate-cse-1988-question-2xb"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1990 | Question: 1-vi</strong></div><p>The highest-response ratio next scheduling policy favours ___________ jobs, but it also limits the waiting<br/>time of _________ jobs.<br/>operating-system<br/>process-scheduling<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93953/gate-cse-1988-question-2xb"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1993 | Question: 7.10</strong></div><p>Assume that  the following jobs are to be executed on a single processor system<br/>The jobs are assumed to have arrived at time<br/>and in the order<br/>. Calculate the departure time<br/>(completion time) for job<br/>if scheduling is round robin with time slice<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2298/gate-cse-1993-question-7-10"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1995 | Question: 1.15</strong></div><p>Which scheduling policy is most suitable for a time shared operating system?<br/>operating-system<br/>process-scheduling<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/93953/gate-cse-1988-question-2xb"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1995 | Question: 2.6</strong></div><p>The sequence __________ is an optimal non-preemptive scheduling sequence for the following jobs which<br/>leaves the CPU idle for ________ unit(s) of time.<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93953/gate-cse-1988-question-2xb"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1996 | Question: 2.20, ISRO2008-15</strong></div><p>Four jobs to be executed on a single processor system arrive at time<br/>in the order<br/>. Their burst<br/>CPU time requirements are<br/>time units respectively. The completion time of<br/>under round robin<br/>scheduling with time slice of one time unit is<br/>operating-system<br/>process-scheduling<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2749/gate-cse-1996-question-2-20-isro2008-15"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1998 | Question: 2.17, UGCNET-Dec2012-III: 43</strong></div><p>Consider<br/>processes sharing the CPU in a round-robin fashion. Assuming that each process switch takes<br/>seconds, what must be the quantum size<br/>such that the overhead resulting from process switching is<br/>minimized but at the same time each process is guaranteed to get its turn at the CPU at least every<br/>seconds?<br/>operating-system<br/>process-scheduling<br/>ugcnetcse-dec2012-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2749/gate-cse-1996-question-2-20-isro2008-15"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1998 | Question: 24</strong></div><p>a<br/>.<br/>Four jobs are waiting to be run. Their expected run times are<br/>and<br/>In what order should they be run to<br/>minimize the average response time?<br/>b<br/>.<br/>Write a concurrent program using<br/>to represent the precedence graph shown below.<br/>operating-system<br/>process-scheduling<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1690/gate-cse-1998-question-2-17-ugcnet-dec2012-iii-43"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 1998 | Question: 7-b</strong></div><p>In a computer system where the ‘best-ﬁt’ algorithm is used for allocating ‘jobs’ to ‘memory partitions’, the<br/>following situation was encountered:<br/>When will the<br/>job complete?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "19",
+      "discussUrl": "https://gateoverflow.in/2749/gate-cse-1996-question-2-20-isro2008-15"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2002 | Question: 1.22</strong></div><p>Which of the following scheduling algorithms is non-preemptive?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2749/gate-cse-1996-question-2-20-isro2008-15"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2003 | Question: 77</strong></div><p>A uni-processor computer system only has two processes, both of which alternate<br/>CPU bursts with<br/>I/O bursts. Both the processes were created at nearly the same time. The I/O of both processes can<br/>proceed in parallel. Which of the following scheduling strategies will result in the<br/>least<br/>CPU utilization (over a long<br/>period of time) for this system?<br/>A<br/>.<br/>First come first served scheduling<br/>B<br/>.<br/>Shortest remaining time first scheduling<br/>C<br/>.<br/>Static priority scheduling with different priorities for the two processes<br/>D<br/>.<br/>Round robin scheduling with a time quantum of<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/963/gate-cse-2003-question-77"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2004 | Question: 46</strong></div><p>Consider the following set of processes, with the arrival times and the CPU-burst times gives in milliseconds.<br/>What is the average turnaround time for these processes with the preemptive shortest remaining processing time<br/>first (SRPT) algorithm?<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1043/gate-cse-2004-question-46"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2006 | Question: 06, ISRO2009-14</strong></div><p>Consider three CPU-intensive processes, which require<br/>,<br/>and<br/>time units and arrive at times<br/>,<br/>and<br/>, respectively. How many context switches are needed if the operating system implements a shortest<br/>remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end.<br/>operating-system<br/>process-scheduling<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/885/gate-cse-2006-question-06-isro2009-14"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Scheduling: GATE CSE 2006 | Question: 64</strong></div><p>Consider three processes (process id<br/>,<br/>,<br/>respectively) with compute time bursts<br/>,<br/>and<br/>time units. All<br/>processes arrive at time zero. Consider the longest remaining time ﬁrst (LRTF) scheduling algorithm. In<br/>LRTF ties are broken by giving priority to the process with the lowest process id. The average turn around time is:<br/>operating-system<br/>process-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/885/gate-cse-2006-question-06-isro2009-14"
+    }
+  ]
+}

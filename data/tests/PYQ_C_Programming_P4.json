@@ -1,0 +1,427 @@
+{
+  "id": "PYQ_C_Programming_P4",
+  "fileName": "PYQ_C_Programming_P4.json",
+  "title": "GATE Official PYQs | C Programming Part 4",
+  "subject": "C Programming",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 12,
+  "totalMarks": 13,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Strings",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Strings: GATE CSE 2004 | Question: 33</strong></div><p>Consider the following C program segment:<br/>char<br/>p<br/>[<br/>20<br/>];<br/>int<br/>i<br/>;<br/>char<br/>*<br/>s<br/>=<br/>\"string\"<br/>;<br/>int<br/>length<br/>=<br/>strlen<br/>(<br/>s<br/>);<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>length<br/>;<br/>i<br/>++)<br/>p<br/>[<br/>i<br/>]<br/>=<br/>s<br/>[<br/>length<br/>-<br/>i<br/>];<br/>printf<br/>(<br/>\"%s\"<br/>,<br/>p<br/>);<br/>The output of the program is:<br/>programming<br/>programming-in-c<br/>strings<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1030/gate-cse-2004-question-33"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Strings",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Strings: GATE CSE 2025 | Set 2 | Question: 9</strong></div><p>​​​​​<br/>Consider the following C program:<br/>#include<br/><stdio.h><br/>void<br/>stringcopy<br/>(<br/>char<br/>*,<br/>char<br/>*);<br/>int<br/>main<br/>()<br/>{<br/>char<br/>a<br/>[<br/>30<br/>]<br/>=<br/>\"@#Hello World!\"<br/>;<br/>stringcopy<br/>(<br/>a<br/>,<br/>a<br/>+<br/>2<br/>);<br/>printf<br/>(<br/>\"%s\\n\"<br/>,<br/>a<br/>);<br/>return<br/>0<br/>;<br/>}<br/>void<br/>stringcopy<br/>(<br/>char<br/>*<br/>s<br/>,<br/>char<br/>*<br/>t<br/>)<br/>{<br/>while<br/>(*<br/>t<br/>)<br/>*<br/>s<br/>++=*<br/>t<br/>++;<br/>}<br/>Which one of the following will be the output of the program?<br/>programming-in-c<br/>strings<br/>output<br/>Structure<br/>(5)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1030/gate-cse-2004-question-33"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Structure",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Structure: GATE CSE 2000 | Question: 1.11</strong></div><p>The following C declarations:<br/>struct<br/>node<br/>{<br/>int<br/>i<br/>:<br/>float<br/>j<br/>;<br/>};<br/>struct<br/>node<br/>*<br/>s<br/>[<br/>10<br/>];<br/>define s to be:<br/>A<br/>.<br/>An array, each element of which is a pointer to a structure of type node<br/>B<br/>.<br/>A structure of<br/>fields, each field being a pointer to an array of<br/>elements<br/>C<br/>.<br/>A structure of<br/>fields: an integer, a float, and an array of<br/>elements<br/>D<br/>.<br/>An array, each element of which is a structure of type node</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1030/gate-cse-2004-question-33"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Structure",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Structure: GATE CSE 2018 | Question: 2</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>struct<br/>Ournode<br/>{<br/>char<br/>x<br/>,<br/>y<br/>,<br/>z<br/>;<br/>};<br/>int<br/>main<br/>()<br/>{<br/>struct<br/>Ournode<br/>p<br/>={<br/>'1'<br/>,<br/>'0'<br/>,<br/>'a'<br/>+<br/>2<br/>};<br/>struct<br/>Ournode<br/>*<br/>q<br/>=&<br/>p<br/>;<br/>printf<br/>(<br/>\"%c, %c\"<br/>,<br/>*((<br/>char<br/>*)<br/>q<br/>+<br/>1<br/>),<br/>*((<br/>char<br/>*)<br/>q<br/>+<br/>2<br/>));<br/>return<br/>0<br/>;<br/>}<br/>The output of this program is:<br/>programming-in-c<br/>programming<br/>structure</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204076/gate-cse-2018-question-2"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Structure",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Structure: GATE CSE 2021 | Set 2 | Question: 35</strong></div><p>Consider the following<br/>program:<br/>#include<br/><stdio.h><br/>#include<br/><stdlib.h><br/>struct<br/>Node<br/>{<br/>int<br/>value<br/>;<br/>struct<br/>Node<br/>*<br/>next<br/>;};<br/>int<br/>main<br/>(<br/>)<br/>{<br/>struct<br/>Node<br/>*<br/>boxE<br/>,<br/>*<br/>head<br/>,<br/>*<br/>boxN<br/>;<br/>int<br/>index<br/>=<br/>0<br/>;<br/>boxE<br/>=<br/>head<br/>=<br/>(<br/>struct<br/>Node<br/>*)<br/>malloc<br/>(<br/>sizeof<br/>(<br/>struct<br/>Node<br/>));<br/>head<br/>→<br/>value<br/>=<br/>index<br/>;<br/>for<br/>(<br/>index<br/>=<br/>1<br/>;<br/>index<br/><=<br/>3<br/>;<br/>index<br/>++){<br/>boxN<br/>=<br/>(<br/>struct<br/>Node<br/>*)<br/>malloc<br/>(<br/>sizeof<br/>(<br/>struct<br/>Node<br/>));<br/>boxE<br/>→<br/>next<br/>=<br/>boxN<br/>;<br/>boxN<br/>→<br/>value<br/>=<br/>index<br/>;<br/>boxE<br/>=<br/>boxN<br/>;<br/>}<br/>for<br/>(<br/>index<br/>=<br/>0<br/>;<br/>index<br/><=<br/>3<br/>;<br/>index<br/>++)<br/>{<br/>printf<br/>(“<br/>Value<br/>at index<br/>%<br/>d<br/>is<br/>%<br/>d\\n<br/>”,<br/>index<br/>,<br/>head<br/>→<br/>value<br/>);<br/>head<br/>=<br/>head<br/>→<br/>next<br/>;<br/>printf<br/>(“<br/>Value<br/>at index<br/>%<br/>d<br/>is<br/>%<br/>d\\n<br/>”,<br/>index<br/>+<br/>1<br/>,<br/>head<br/>→<br/>value<br/>);<br/>}<br/>}<br/>Which one of the following statements below is correct about the program?<br/>A<br/>.<br/>Upon execution, the program creates a linked-list of five nodes<br/>B<br/>.<br/>Upon execution, the program goes into an infinite loop<br/>C<br/>.<br/>It has a missing<br/>which will be reported as an error by the compiler<br/>D<br/>.<br/>It dereferences an uninitialized pointer that may result in a run-time error<br/>programming-in-c<br/>pointers<br/>structure</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204076/gate-cse-2018-question-2"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Structure",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Structure: GATE IT 2004 | Question: 61</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>typedef<br/>struct<br/>{<br/>char<br/>*<br/>a<br/>;<br/>char<br/>*<br/>b<br/>;<br/>}<br/>t<br/>;<br/>void<br/>f1<br/>(<br/>t s<br/>);<br/>void<br/>f2<br/>(<br/>t<br/>*<br/>p<br/>);<br/>main<br/>()</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3704/gate-it-2004-question-61"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Structure",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Structure: GATE IT 2006 | Question: 49</strong></div><p>Which one of the choices given below would be printed when the following program is executed ?<br/>#include<br/><stdio.h><br/>struct<br/>test<br/>{<br/>int<br/>i<br/>;<br/>char<br/>*<br/>c<br/>;<br/>}<br/>st<br/>[]<br/>=<br/>{<br/>5<br/>,<br/>\"become\"<br/>,<br/>4<br/>,<br/>\"better\"<br/>,<br/>6<br/>,<br/>\"jungle\"<br/>,<br/>8<br/>,<br/>\"ancestor\"<br/>,<br/>7<br/>,<br/>\"brother\"<br/>};<br/>main<br/>()<br/>{<br/>struct<br/>test<br/>*<br/>p<br/>=<br/>st<br/>;<br/>p<br/>+=<br/>1<br/>;<br/>++<br/>p<br/>-><br/>c<br/>;<br/>printf<br/>(<br/>\"%s,\"<br/>,<br/>p<br/>++<br/>-><br/>c<br/>);<br/>printf<br/>(<br/>\"%c,\"<br/>,<br/>*++<br/>p<br/>-><br/>c<br/>);<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>p<br/>[<br/>0<br/>].<br/>i<br/>);<br/>printf<br/>(<br/>\"%s \\n\"<br/>,<br/>p<br/>-><br/>c<br/>);<br/>}<br/>programming<br/>programming-in-c<br/>structure<br/>Switch Case<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3592/gate-it-2006-question-49"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Switch Case",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Switch Case: GATE CSE 2012 | Question: 3</strong></div><p>What will be the output of the following C program segment?<br/>char<br/>inChar<br/>=<br/>'A'<br/>;<br/>switch<br/>(<br/>inChar<br/>)<br/>{<br/>case<br/>'A'<br/>:<br/>printf<br/>(<br/>\"Choice A \\ n\"<br/>);<br/>case<br/>'B'<br/>:<br/>case<br/>'C'<br/>:<br/>printf<br/>(<br/>\"Choice B\"<br/>);<br/>case<br/>'D'<br/>:<br/>case<br/>'E'<br/>:<br/>default<br/>:<br/>printf<br/>(<br/>\"No Choice\"<br/>);</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/3592/gate-it-2006-question-49"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Switch Case",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Switch Case: GATE CSE 2015 | Set 3 | Question: 48</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>=<br/>0<br/>;<br/>j<br/>=<br/>2<br/>*<br/>3<br/>/<br/>4<br/>+<br/>2.0<br/>/<br/>5<br/>+<br/>8<br/>/<br/>5<br/>;<br/>k<br/>-=--<br/>j<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>5<br/>;<br/>i<br/>++)<br/>{<br/>switch<br/>(<br/>i<br/>+<br/>k<br/>)<br/>{<br/>case<br/>1<br/>:<br/>case<br/>2<br/>:<br/>printf<br/>(<br/>\"\\n%d\"<br/>,<br/>i<br/>+<br/>k<br/>);<br/>case<br/>3<br/>:<br/>printf<br/>(<br/>\"\\n%d\"<br/>,<br/>i<br/>+<br/>k<br/>);<br/>default<br/>:<br/>printf<br/>(<br/>\"\\n%d\"<br/>,<br/>i<br/>+<br/>k<br/>);<br/>}<br/>}<br/>return<br/>0<br/>;<br/>}<br/>The number of times printf statement is executed is _______.<br/>programming<br/>programming-in-c<br/>switch-case<br/>Type Checking<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/8557/gate-cse-2015-set-3-question-48"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Type Checking",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Type Checking: GATE CSE 2003 | Question: 24</strong></div><p>Which of the following statements is FALSE?<br/>A<br/>.<br/>In statically typed languages, each variable in a program has a fixed type<br/>B<br/>.<br/>In un-typed languages, values do not have any types<br/>C<br/>.<br/>In dynamically typed languages, variables have no types<br/>D<br/>.<br/>In all statically typed languages, each variable in a program is associated with values of only a single type<br/>during the execution of the program<br/>programming<br/>type-checking<br/>Union<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/914/gate-cse-2003-question-24"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Union",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Union: GATE CSE 2000 | Question: 1.17, ISRO2015-79</strong></div><p>Consider the following C declaration:<br/>struct<br/>{<br/>short<br/>x<br/>[<br/>5<br/>];<br/>union<br/>{<br/>float<br/>y<br/>;<br/>long<br/>z<br/>;<br/>}<br/>u<br/>;<br/>)<br/>t<br/>;<br/>Assume that the objects of the type short, ﬂoat and long occupy<br/>bytes,<br/>bytes and<br/>bytes, respectively. The<br/>memory requirement for variable<br/>, ignoring alignment consideration, is:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8557/gate-cse-2015-set-3-question-48"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Variable Binding",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Variable Binding: GATE IT 2007 | Question: 34, UGCNET-Dec2012-III: 52</strong></div><p>Consider the program below in a hypothetical programming language which allows global variables and a<br/>choice of static or dynamic scoping.<br/>int<br/>i<br/>;<br/>program main<br/>()<br/>{<br/>i<br/>=<br/>10<br/>;<br/>call f<br/>();<br/>}<br/>procedure f<br/>()<br/>{<br/>int<br/>i<br/>=<br/>20<br/>;<br/>call g<br/>();<br/>}<br/>procedure g<br/>()<br/>{<br/>print<br/>i<br/>;<br/>}<br/>Let<br/>be the value printed under static scoping and<br/>be the value printed under dynamic scoping. Then,<br/>and<br/>are:<br/>programming<br/>variable-binding<br/>easy<br/>ugcnetcse-dec2012-paper3<br/>5.1.1<br/>A<br/>5.2.1<br/>B<br/>5.2.2<br/>C<br/>5.2.3<br/>A<br/>5.2.4<br/>C<br/>5.2.5<br/>C<br/>5.2.6<br/>6<br/>5.2.7<br/>19<br/>5.2.8<br/>C<br/>5.2.9<br/>A<br/>5.2.10<br/>C<br/>5.2.11<br/>B<br/>5.2.12<br/>C<br/>5.2.13<br/>B<br/>5.3.1<br/>230<br/>5.3.2<br/>A<br/>5.4.1<br/>A<br/>5.4.2<br/>A<br/>5.5.1<br/>N/A<br/>5.5.2<br/>C<br/>5.5.3<br/>C<br/>5.5.4<br/>3<br/>5.5.5<br/>26<br/>5.5.6<br/>B<br/>5.6.1<br/>N/A<br/>5.6.2<br/>N/A<br/>5.6.3<br/>N/A<br/>5.6.4<br/>N/A<br/>5.6.5<br/>A<br/>5.6.6<br/>B<br/>5.6.7<br/>C<br/>5.6.8<br/>C<br/>5.7.1<br/>A<br/>5.7.2<br/>7<br/>5.7.3<br/>C<br/>5.7.4<br/>C<br/>5.7.5<br/>46:46<br/>5.7.6<br/>21:21<br/>5.7.7<br/>46:46<br/>5.7.8<br/>09 :09<br/>5.8.1<br/>N/A<br/>5.8.2<br/>C<br/>5.8.3<br/>B<br/>5.8.4<br/>D<br/>5.8.5<br/>B<br/>5.8.6<br/>D<br/>5.8.7<br/>6561<br/>5.8.8<br/>2016<br/>5.8.9<br/>30<br/>5.8.10<br/>A<br/>5.8.11<br/>D<br/>5.8.12<br/>C<br/>5.9.1<br/>D<br/>5.9.2<br/>C<br/>5.9.3<br/>A<br/>5.9.4<br/>A<br/>5.9.5<br/>C<br/>5.9.6<br/>C<br/>5.9.7<br/>D<br/>5.9.8<br/>140<br/>5.9.9<br/>D<br/>5.9.10<br/>2<br/>5.9.11<br/>D<br/>5.9.12<br/>B<br/>5.9.13<br/>25:25<br/>5.9.14<br/>111:111<br/>5.9.15<br/>9:9<br/>5.10.1<br/>B<br/>5.11.1<br/>A<br/>5.11.2<br/>B<br/>5.11.3<br/>B<br/>5.11.4<br/>D<br/>5.11.5<br/>A<br/>5.11.6<br/>D<br/>5.11.7<br/>C<br/>5.11.8<br/>D<br/>5.11.9<br/>B<br/>5.11.10<br/>D<br/>5.11.11<br/>-5<br/>5.11.12<br/>D<br/>5.11.13<br/>D<br/>5.11.14<br/>3<br/>5.11.15<br/>23<br/>5.11.16<br/>A<br/>5.11.17<br/>0<br/>5.11.18<br/>B<br/>5.11.19<br/>B<br/>5.11.20<br/>5<br/>5.11.21<br/>10<br/>5.11.22<br/>B</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3467/gate-it-2007-question-34-ugcnet-dec2012-iii-52"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+$(document).ready(function(){
+	$("#exam_result_section_response").show();
+	$("#exam_result_section_stats").hide();
+
+	$("#exam_result_section_choice_stats").click(function(){
+		$("#exam_result_section_stats").show();
+		$("#exam_result_section_response").hide();
+		$("#exam_result_section_feedback").hide();
+	});
+
+	$("#exam_result_section_choice_response").click(function(){
+		$("#exam_result_section_response").show();
+		$("#exam_result_section_stats").hide();
+		$("#exam_result_section_feedback").hide();
+	});
+
+	$("#exam_result_section_choice_feedback").click(function(){
+		$("#exam_result_section_feedback").show();
+		$("#exam_result_section_response").hide();
+		$("#exam_result_section_stats").hide();
+	});
+});
+
+function plotStats(data)
+{
+
+	/*plot data*/
+	var category_data = data;
+	var category_names=[];
+	var pie_total_questions=[];
+	var pie_total_marks=[];
+
+	var bar_correct_num_questions=[];
+	var bar_incorrect_num_questions=[];
+	var bar_unattempted_num_questions=[];
+	var bar_free_num_questions=[];
+	//var category_names_with_num_correct_vs_total = [];
+
+	var bar_correct_marks=[];
+	var bar_incorrect_marks=[];
+	var bar_unattempted_marks=[];
+	var bar_free_marks=[];
+	//var category_names_with_marks_correct_vs_total = [];
+
+	var num_categories = 0;
+
+	var max_questions = 0;
+	var max_marks = 0;
+
+	for(cat in category_data)
+	{
+		category_names.push(cat);
+
+		cat_data = category_data[cat];
+
+		num_categories++;
+		
+		max_marks = Math.max(max_marks, cat_data.total_marks);
+		max_questions = Math.max(max_questions, cat_data.total_questions);
+
+		total_num_questions = cat_data.total_questions;
+		total_marks = cat_data.total_marks; 
+
+		pie_total_questions.push([cat+"("+total_num_questions+")",total_num_questions]);
+		pie_total_marks.push([cat+"("+total_marks+")",total_marks]);
+
+		/* data for correct vs incorrect number of questions per subject*/
+		/*correct_perc_num_questions = (cat_data.total_correct_questions/cat_data.total_questions)*100;
+		incorrect_perc_num_questions = 100  - correct_perc_num_questions;*/
+
+		
+		correct_num_questions = cat_data.total_correct_questions;
+		attempted_num_questions = cat_data.total_attempted_questions;
+		unattempted_num_questions = total_num_questions - attempted_num_questions;
+		free_num_questions = cat_data.total_free_questions;
+
+		incorrect_num_questions = total_num_questions  - correct_num_questions - unattempted_num_questions - free_num_questions ;
+
+		bar_correct_num_questions.push(correct_num_questions);
+		bar_incorrect_num_questions.push(incorrect_num_questions);
+		bar_unattempted_num_questions.push(unattempted_num_questions);
+		bar_free_num_questions.push(free_num_questions);
+
+		//category_names_with_num_correct_vs_total.push(cat+" ( "+ cat_data.total_correct_questions + "/" + cat_data.total_questions +" )");
+
+		
+		/* data for correct vs incorrect marks per subject */
+		/*correct_perc_marks = (cat_data.total_correct_marks/cat_data.total_marks)*100;
+		incorrect_perc_marks = 100 - correct_perc_marks;*/
+
+		correct_marks = cat_data.total_correct_marks;
+		attempted_marks = cat_data.total_attempted_marks;
+		unattempted_marks = total_marks - attempted_marks;
+		free_marks = cat_data.total_free_marks;	
+		incorrect_marks = total_marks - correct_marks - unattempted_marks - free_marks;
+
+		bar_correct_marks.push(correct_marks);
+		bar_incorrect_marks.push(incorrect_marks);
+		bar_unattempted_marks.push(cat_data.total_marks - cat_data.total_attempted_marks);
+		bar_free_marks.push(free_marks);
+
+		//category_names_with_marks_correct_vs_total.push(cat+" ( "+ cat_data.total_correct_marks + "/" + cat_data.total_marks +" )");
+	}
+
+	console.log(category_data);
+	
+    var num_questions_subject_pie_plot = $.jqplot('num_questions_subject_pie_plot', [pie_total_questions], {
+    	title: "Number Of Questions per Subject",
+	    gridPadding: {top:30, bottom:38, left:0, right:20},
+	    grid: {
+			 drawGridlines: false,
+			 borderColor: 'transparent',
+			 shadow: false,
+			 drawBorder: false,
+			 shadowColor: 'transparent',
+			 background: '#f9f9f9'
+		},
+	    seriesDefaults:{
+	        renderer:$.jqplot.PieRenderer,
+	        trendline:{ show:false }, 
+	        rendererOptions: { padding: 8, showDataLabels: true, dataLabels:'value' }
+	    },
+	    legend:{
+	        show:true,
+	        placement: 'outside',
+	        rendererOptions: {
+	            numberRows: pie_total_questions.length,
+	        }, 
+	        location:'e',
+	        marginTop: '15px',
+
+	    }       
+	});
+
+
+	var marks_subject_pie_plot = $.jqplot('marks_subject_pie_plot', [pie_total_marks], {
+    	title: "Marks per Subject",
+	    gridPadding: {top:30, bottom:38, left:0, right:20},
+	    grid: {
+			 drawGridlines: false,
+			 borderColor: 'transparent',
+			 shadow: false,
+			 drawBorder: false,
+			 shadowColor: 'transparent',
+			 background:"#f9f9f9",
+		},
+	    seriesDefaults:{
+	        renderer:$.jqplot.PieRenderer,
+	        trendline:{ show:false }, 
+	        rendererOptions: { padding: 8, showDataLabels: true, dataLabels:'value' }
+	    },
+	    legend:{
+	        show:true, 
+	        placement: 'outside',
+	        rendererOptions: {
+	            numberRows: pie_total_marks.length,
+	        }, 
+	        location:'e',
+	        marginTop: '15px'
+	    }       
+	});
+
+	/*	var s1 = [40, 60, 70, 40];
+	var s2 = [60, 40, 30, 60];
+	plot3 = $.jqplot('num_attempted_vs_correct_stacked_bar_plot', [s1, s2], {
+    // Tell the plot to stack the bars.
+    stackSeries: true,
+    seriesColors: ["#3cec1c","#ec4c1c"],
+    captureRightClick: true,
+    seriesDefaults:{
+      renderer:$.jqplot.BarRenderer,
+      rendererOptions: {
+          // Put a 30 pixel margin between bars.
+          barMargin: 80,
+          // Highlight bars when mouse button pressed.
+          // Disables default highlighting on mouse over.
+          highlightMouseDown: true   
+      },
+      pointLabels: {show: true}
+    },
+
+    axes: {
+      xaxis: {
+          renderer: $.jqplot.CategoryAxisRenderer,
+
+          rendererOptions: {  tickRenderer: $.jqplot.AxisTickRenderer, 
+                                tickOptions: {  mark: null,
+                                                fontSize: 12
+                                             }
+            				},
+			tickInterval: 50,
+
+            ticks: ["Algorithms","TOC","Operating Systems","CO & Architecture"],
+
+      },
+      yaxis: {
+        // Don't pad out the bottom of the data range.  By default,
+        // axes scaled as if data extended 10% above and below the
+        // actual range to prevent data points right on grid boundaries.
+        // Don't want to do that here.
+        min:0,
+        max:100,
+
+        tickOptions: { 
+	            formatString: '%d' 
+	        } ,
+
+        tickInterval: 20,
+        
+        padMin: 0
+      }
+    },
+    legend: {
+      show: true,
+      location: 'e',
+      placement: 'outside'
+    }      
+  });*/
+
+		/*Plot stacked bar charts*/
+		/*Adjusting sizes*/
+		var bar_length = 400;
+		var bar_width = 40;
+		var label_width = 250;
+		var barmargin = 20;
+		var legend_width = 100;
+		var plot_height = num_categories * (bar_width + barmargin);
+		var plot_width = bar_length + label_width + legend_width;
+
+		var xaxis_max_questions = max_questions;
+		var xaxis_max_marks = max_marks;
+
+		$("#correct_vs_num_questions_stacked_bar_plot").width(plot_width);
+		$("#correct_vs_num_questions_stacked_bar_plot").height(plot_height);
+
+
+		var correct_vs_num_questions_stacked_bar_plot = $.jqplot('correct_vs_num_questions_stacked_bar_plot', [
+		bar_correct_num_questions, 
+		bar_incorrect_num_questions,
+		bar_unattempted_num_questions,
+		bar_free_num_questions], {	
+
+	    title: 'Subjectwise Breakdown: Total Questions',
+		stackSeries: true,
+	 	seriesColors: ["#3cec1c","#ec4c1c","#a1d0f6","#b0e671"],
+
+	 	series:[
+	        {label:'Correct'},
+	        {label:'Incorrect'},
+	        {label:'Not Attempted'},
+	        {label:'Marks to All'}
+	    ],
+        // Show the legend and put it outside the grid, but inside the
+        // plot container, shrinking the grid to accomodate the legend.
+        // A value of "outside" would not shrink the grid and allow
+        // the legend to overflow the container.
+        legend: {
+            show: true,
+            placement: 'outsideGrid'
+        },
+
+	    seriesDefaults: {
+	        renderer:$.jqplot.BarRenderer,
+	        // Show point labels to the right ('e'ast) of each bar.
+	        // edgeTolerance of -15 allows labels flow outside the grid
+	        // up to 15 pixels.  If they flow out more than that, they 
+	        // will be hidden.
+	        pointLabels: { 
+	        	show: true, location: 'e', edgeTolerance: -15, hideZeros:true,
+	        	 },
+	        // Rotate the bar shadow as if bar is lit from top right.
+	        shadowAngle: 135,
+	        // Here's where we tell the chart it is oriented horizontally.
+	        rendererOptions: {
+	            barDirection: 'horizontal',
+	            barMargin:barmargin
+	        }
+	    },
+	    axes: {
+	        yaxis: {
+	            renderer: $.jqplot.CategoryAxisRenderer,
+	            tickRenderer: $.jqplot.CanvasAxisTickRenderer ,
+
+	            tickOptions: {
+	                angle: 	0,
+	                fontSize: '10pt',
+	                textAlign:'left',
+	            },
+
+	        	labelOptions: {
+	                
+	            },
+	        	ticks:category_names,
+	        },
+
+	        xaxis:
+	        {
+	        	min:0,
+	        	max:xaxis_max_questions,
+	        	tickInterval:xaxis_max_questions/5,
+	        }
+	    }
+	});
+
+
+	$("#correct_vs_total_marks_stacked_bar_plot").width(plot_width);
+	$("#correct_vs_total_marks_stacked_bar_plot").height(plot_height);
+
+	var correct_vs_total_marks_stacked_bar_plot = $.jqplot('correct_vs_total_marks_stacked_bar_plot', [
+	bar_correct_marks, 
+	bar_incorrect_marks,
+	bar_unattempted_marks,
+	bar_free_marks], {	
+
+    title: 'Subjectwise Breakdown: Total Marks',
+	stackSeries: true,
+ 	seriesColors: ["#3cec1c","#ec4c1c","#a1d0f6","#b0e671"],
+
+ 	series:[
+        {label:'Correct'},
+        {label:'Incorrect'},
+        {label:'Not Attempted'},
+        {label:'Marks to All'}
+    ],
+    // Show the legend and put it outside the grid, but inside the
+    // plot container, shrinking the grid to accomodate the legend.
+    // A value of "outside" would not shrink the grid and allow
+    // the legend to overflow the container.
+    legend: {
+        show: true,
+        placement: 'outsideGrid'
+    },
+
+    seriesDefaults: {
+        renderer:$.jqplot.BarRenderer,
+        // Show point labels to the right ('e'ast) of each bar.
+        // edgeTolerance of -15 allows labels flow outside the grid
+        // up to 15 pixels.  If they flow out more than that, they 
+        // will be hidden.
+        pointLabels: { show: true, location: 'e', edgeTolerance: -15, hideZeros:true },
+        // Rotate the bar shadow as if bar is lit from top right.
+        shadowAngle: 135,
+        // Here's where we tell the chart it is oriented horizontally.
+        rendererOptions: {
+            barDirection: 'horizontal',
+            barMargin:barmargin
+        }
+    },
+    axes: {
+        yaxis: {
+            renderer: $.jqplot.CategoryAxisRenderer,
+            tickRenderer: $.jqplot.CanvasAxisTickRenderer ,
+
+            tickOptions: {
+                angle: 	0,
+                fontSize: '10pt',
+                textAlign:'left',
+            },
+
+        	labelOptions: {
+                
+            },
+        	ticks:category_names,
+        },
+
+        xaxis:
+        {
+        	min:0,
+        	max:xaxis_max_marks,
+        	tickInterval:xaxis_max_marks/5,
+        }
+    }
+});
+
+	/*Reposition title*/
+
+	var leftPostion = $($("#correct_vs_num_questions_stacked_bar_plot .jqplot-series-canvas")[0]).css("left");
+	$("#correct_vs_num_questions_stacked_bar_plot .jqplot-title").css("text-align","left");
+	$("#correct_vs_num_questions_stacked_bar_plot .jqplot-title").css("left",leftPostion);
+
+	$("#correct_vs_total_marks_stacked_bar_plot .jqplot-title").css("text-align","left");
+	$("#correct_vs_total_marks_stacked_bar_plot .jqplot-title").css("left",leftPostion);
+}
+
+/*
+Useful links:
+http://www.jqplot.com/examples/bar-charts.php
+http://www.jqplot.com/examples/pieTest.php
+http://stackoverflow.com/questions/6204496/jqplot-barrenderer-y-axis-values-start-from-negative-values
+http://stackoverflow.com/questions/17928868/jqplot-force-static-minimum-and-maximum-values-on-y-axis
+http://stackoverflow.com/questions/8004087/how-to-display-y-axis-value-to-integers-only-in-jqplot
+http://stackoverflow.com/questions/8749892/how-to-change-label-on-jqplot-stacked-horizontal-bar-chart
+http://stackoverflow.com/questions/24015777/hide-0-valued-stack-bar-in-stacked-bar-chart-of-jqplot
+http://stackoverflow.com/questions/9819245/background-color-for-jqplot-pie-chart
+http://stackoverflow.com/questions/10412439/jqplot-stacked-horizontal-bar-chart-no-bars-when-stacked
+
+http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element
+*/
+
+function positionElements()
+{
+	//Position Print button
+	return; //no print button now
+	res_elem = $(".res_content")[0];
+	var boundingRect = res_elem.getBoundingClientRect();
+	top = boundingRect.top;
+	left = boundingRect.left;
+
+	print_elem = $("#results_print_button")[0];
+
+	print_elem_width = print_elem.getBoundingClientRect().width;
+
+	$(print_elem).css("left",left-print_elem_width*1.02);
+}
+
+
+function submitPrintForm(){
+        var el = document.getElementById("html");
+        el.value = $("html")[0].innerHTML;
+        document.forms["res_print_form"].submit();
+}
+
+
+

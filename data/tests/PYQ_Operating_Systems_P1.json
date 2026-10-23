@@ -1,0 +1,1246 @@
+{
+  "id": "PYQ_Operating_Systems_P1",
+  "fileName": "PYQ_Operating_Systems_P1.json",
+  "title": "GATE Official PYQs | Operating Systems Part 1",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Bankers Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bankers Algorithm: GATE CSE 2018 | Question: 39</strong></div><p>In a system, there are three types of resources:<br/>and<br/>. Four processes<br/>,<br/>,<br/>and<br/>execute<br/>concurrently. At the outset, the processes have declared their maximum resource requirements using a<br/>matrix named Max as given below. For example, Max[<br/>] is the maximum number of instances of<br/>that<br/>would require. The number of instances of the resources allocated to the various processes at any given state is<br/>given by a matrix named Allocation.<br/>Consider a state of the system with the Allocation matrix as shown below, and in which<br/>instances of<br/>and<br/>instances of<br/>are only resources available.<br/>From the perspective of deadlock avoidance, which one of the following is true?<br/>A<br/>.<br/>The system is in<br/>state<br/>B<br/>.<br/>The system is not in<br/>state, but would be<br/>if one more instance of<br/>were available<br/>C<br/>.<br/>The system is not in<br/>state, but would be<br/>if one more instance of<br/>were available<br/>D<br/>.<br/>The system is not in<br/>state, but would be<br/>if one more instance of<br/>were available<br/>operating-system<br/>deadlock-prevention-avoidance-detection<br/>bankers-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204113/gate-cse-2018-question-39"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Bankers Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bankers Algorithm: GATE CSE 2026 | Set 1 | Question: 19</strong></div><p>With respect to deadlocks in an operating system, which of the following statements is/are FALSE?<br/>A<br/>.<br/>Banker's algorithm is used to prevent deadlocks<br/>B<br/>.<br/>Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed<br/>C<br/>.<br/>An assignment edge in a resource allocation graph is marked from a process to a resource<br/>D<br/>.<br/>A safe state guarantees that all processes can finish without formation of a deadlock<br/>operating-system<br/>deadlock-prevention-avoidance-detection<br/>bankers-algorithm<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/test/2241"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Best Fit",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Best Fit: GATE CSE 2026 | Set 2 | Question: 45</strong></div><p>Consider contiguous allocation of physical memory to processes using variable partitioning scheme.<br/>Suppose there are<br/>holes in the memory of sizes<br/>,<br/>, and<br/>KB. Assume that no two holes are adjacent. Two processes<br/>of size<br/>KB and<br/>of size<br/>KB arrive in that<br/>order, and they are allocated memory using the best-ﬁt technique. After allocating space to<br/>and<br/>, the number<br/>of holes of size less than<br/>KB is<br/>. (answer in integer)<br/>Note:<br/>operating-system<br/>memory-management<br/>best-fit<br/>Context Switch<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [],
+      "correctAnswer": "3:3",
+      "discussUrl": "https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Switch",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Switch: GATE CSE 1999 | Question: 2.12</strong></div><p>Which of the following actions is/are typically not performed by the operating system when switching context<br/>from process<br/>to process<br/>?<br/>A<br/>.<br/>Saving current register values and restoring saved register values for process<br/>.<br/>B<br/>.<br/>Changing address translation tables.<br/>C<br/>.<br/>Swapping out the memory image of process<br/>to the disk.<br/>D<br/>.<br/>Invalidating the translation look-aside buffer.<br/>operating-system<br/>context-switch</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Switch",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Switch: GATE CSE 2000 | Question: 1.20, ISRO2008-47</strong></div><p>Which of the following need not necessarily be saved on a context switch between processes?<br/>operating-system<br/>easy<br/>isro2008<br/>context-switch</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Switch",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Switch: GATE CSE 2011 | Question: 6, UGCNET-June2013-III: 62</strong></div><p>Let the time taken to switch from user mode to kernel mode of execution be<br/>while time taken to switch<br/>between two user processes be<br/>. Which of the following is correct?<br/>operating-system<br/>context-switch<br/>easy<br/>ugcnetcse-june2013-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Context Switch",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Switch: GATE CSE 2024 | Set 2 | Question: 15</strong></div><p>Consider a process<br/>running on a<br/>. Which one or more of the following events will<br/>always<br/>trigger a<br/>context switch by the<br/>that results in process<br/>moving to a non-running state (e.g., ready, blocked)?<br/>A<br/>.<br/>makes a blocking system call to read a block of data from the disk<br/>B<br/>.<br/>tries to access a page that is in the swap space, triggering a page fault<br/>C<br/>.<br/>An interrupt is raised by the disk to deliver data requested by some other process<br/>D<br/>.<br/>A timer interrupt is raised by the hardware</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2001 | Question: 8</strong></div><p>Consider a disk with the following speciﬁcations: 20 surfaces, 1000 tracks/surface, 16 sectors/track, data<br/>density 1 KB/sector, rotation speed 3000 rpm. The operating system initiates the transfer between the disk<br/>and the memory sector-wise. Once the head has been placed on the right track, the disk reads a sector in a single<br/>scan. It reads bits from the sector while the head is passing over the sector. The read bits are formed into bytes in a<br/>serial-in-parallel-out buﬀer and each byte is then transferred to memory. The disk writing is exactly a<br/>complementary process.<br/>For parts (C) and (D) below, assume memory read-write time = 0.1 microseconds/byte, interrupt driven transfer has<br/>an interrupt overhead = 0.4 microseconds, the DMA initialization, and termination overhead is negligible compared<br/>to the total sector transfer time. DMA requests are always granted.<br/>A<br/>.<br/>What is the total capacity of the desk?<br/>B<br/>.<br/>What is the data transfer rate?<br/>C<br/>.<br/>What is the percentage of time the CPU is required for this disk I/O for byte-wise interrupts driven transfer?<br/>D<br/>.<br/>What is the maximum percentage of time the CPU is held up for this disk I/O for cycle-stealing DMA transfer?<br/>operating-system<br/>disk<br/>descriptive<br/>dma<br/>Deadlock Prevention Avoidance Detection<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [],
+      "correctAnswer": "800",
+      "discussUrl": "https://gateoverflow.in/749/gate-cse-2001-question-8"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Deadlock Prevention Avoidance Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Deadlock Prevention Avoidance Detection: GATE CSE 2018 | Question: 24</strong></div><p>Consider a system with<br/>processes that share<br/>instances of the same resource type. Each process can<br/>request a maximum of<br/>instances. Resources can be requested and releases only one at a time. The<br/>largest value of<br/>that will always avoid deadlock is ___<br/>operating-system<br/>deadlock-prevention-avoidance-detection<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/204098/gate-cse-2018-question-24"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Deadlock Prevention Avoidance Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Deadlock Prevention Avoidance Detection: GATE CSE 2021 | Set 2 | Question: 43</strong></div><p>Consider a computer system with multiple shared resource types, with one instance per resource type. Each<br/>instance can be owned by only one process at a time. Owning and freeing of resources are done by holding<br/>a global lock<br/>. The following scheme is used to own a resource instance:<br/>function<br/>OWNRESOURCE<br/>(<br/>Resource<br/>R<br/>)<br/>Acquire<br/>lock<br/>L<br/>// a global lock<br/>if<br/>R<br/>is<br/>available<br/>then<br/>Acquire<br/>R<br/>Release<br/>lock<br/>L<br/>else<br/>if<br/>R<br/>is<br/>owned<br/>by<br/>another process P<br/>then<br/>Terminate<br/>P<br/>,<br/>after releasing all resources owned<br/>by<br/>P<br/>Acquire<br/>R<br/>Restart<br/>P<br/>Release<br/>lock<br/>L<br/>end<br/>if<br/>end<br/>if<br/>end<br/>function<br/>Which of the following choice(s) about the above scheme is/are correct?<br/>A<br/>.<br/>The scheme ensures that deadlocks will not occur<br/>B<br/>.<br/>The scheme may lead to live-lock<br/>C<br/>.<br/>The scheme may lead to starvation<br/>D<br/>.<br/>The scheme violates the mutual exclusion property</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/749/gate-cse-2001-question-8"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Deadlock Prevention Avoidance Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Deadlock Prevention Avoidance Detection: GATE CSE 2026 | Set 1 | Question: 25</strong></div><p>Consider a system consisting of<br/>instances of a resource<br/>, being shared by<br/>processes. Assume that<br/>each process requires a maximum of two instances of resource<br/>and a process can request or release<br/>only one instance at a time. Further, a process can request the second instance of the resource only after acquiring<br/>the first instance.<br/>The minimum value of<br/>for the system to be deadlock-free is<br/>. (answer in integer)<br/>operating-system<br/>deadlock-prevention-avoidance-detection</p></div>",
+      "options": [],
+      "correctAnswer": "06 : 06",
+      "discussUrl": "https://gateoverflow.in/523055/gate-cse-2026-set-1-question-25"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Deadlock Prevention Avoidance Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Deadlock Prevention Avoidance Detection: GATE IT 2004 | Question: 63</strong></div><p>In a certain operating system, deadlock prevention is attempted using the following scheme. Each process is<br/>assigned a unique timestamp, and is restarted with the same timestamp if killed. Let<br/>be the process<br/>holding a resource<br/>be a process requesting for the same resource<br/>and<br/>and<br/>be their<br/>timestamps respectively. The decision to wait or preempt one of the processes is based on the following algorithm.<br/>if<br/>T<br/>(<br/>Pr<br/>)<br/><<br/>T<br/>(<br/>Ph<br/>)<br/>then<br/>kill<br/>Pr<br/>else<br/>wait<br/>Which one of the following is TRUE?<br/>A<br/>.<br/>The scheme is deadlock-free, but not starvation-free<br/>B<br/>.<br/>The scheme is not deadlock-free, but starvation-free<br/>C<br/>.<br/>The scheme is neither deadlock-free nor starvation-free<br/>D<br/>.<br/>The scheme is both deadlock-free and starvation-free<br/>operating-system<br/>deadlock-prevention-avoidance-detection<br/>Demand Paging<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3706/gate-it-2004-question-63"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Demand Paging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Demand Paging: GATE CSE 2022 | Question: 54</strong></div><p>Consider a demand paging system with four page frames (initially empty) and<br/>page replacement<br/>policy. For the following page reference string<br/>the page fault rate, deﬁned as the ratio of number of page faults to the number of memory accesses<br/>is _____________.<br/>operating-system<br/>page-replacement<br/>demand-paging</p></div>",
+      "options": [],
+      "correctAnswer": "0.6",
+      "discussUrl": "https://gateoverflow.in/371882/gate-cse-2022-question-54"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Demand Paging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Demand Paging: GATE CSE 2025 | Set 1 | Question: 4</strong></div><p>Consider a demand paging memory management system with<br/>-bit logical address,<br/>-bit physical<br/>address, and page size of<br/>bytes. Assuming that the memory is byte addressable, what is the<br/>maximum number of entries in the page table?<br/>operating-system<br/>demand-paging<br/>paging<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523055/gate-cse-2026-set-1-question-25"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Demand Paging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Demand Paging: GATE CSE 2025 | Set 2 | Question: 37</strong></div><p>Consider a demand paging system with three frames, and the following page reference string: 1 2 3 4 5 4 1<br/>6 4 5 1 3 2 . The contents of the frames are as follows initially and after each reference (from left to right):<br/>The *-marked references cause page replacements.<br/>Which one or more of the following could be the page replacement policy/policies in use?<br/>A<br/>.<br/>Least Recently Used page replacement policy<br/>B<br/>.<br/>Least Frequently Used page replacement policy<br/>C<br/>.<br/>Most Frequently Used page replacement policy<br/>D<br/>.<br/>Optimal page replacement policy<br/>operating-system<br/>page-replacement<br/>demand-paging<br/>multiple-selects<br/>Disk<br/>(30)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(2Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1990 | Question: 7-c</strong></div><p>A certain moving arm disk-storage device has the following specifications:<br/>Number of tracks per surface<br/>Track storage capacity<br/>bytes.<br/>Disk speed<br/>rpm<br/>Average seek time<br/>m secs.<br/>Estimate the average latency, the disk storage capacity, and the data transfer rate.<br/>operating-system<br/>disk<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1993 | Question: 6.7</strong></div><p>A certain moving arm disk storage, with one head, has the following specifications:<br/>Number of tracks/recording surface<br/>Disk rotation speed<br/>rpm<br/>Track storage capacity<br/>bits<br/>The average latency of this device is<br/>ms and the data transfer rate is<br/>bits/sec. Write the values of<br/>and<br/>.<br/>operating-system<br/>disk<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1993 | Question: 7.8</strong></div><p>The root directory of a disk should be placed</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1995 | Question: 14</strong></div><p>If the overhead for formatting a disk is<br/>bytes for a<br/>byte sector,<br/>A<br/>.<br/>Compute the unformatted capacity of the disk for the following parameters:<br/>Number of surfaces:<br/>Outer diameter of the disk:<br/>cm<br/>Inner diameter of the disk:<br/>cm<br/>Inner track space:<br/>mm<br/>Number of sectors per track:<br/>B<br/>.<br/>If the disk in (A) is rotating at<br/>rpm, determine the eﬀective data transfer rate which is deﬁned as the number<br/>of bytes transferred per second between disk and memory.<br/>operating-system<br/>disk<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2650/gate-cse-1995-question-14"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1996 | Question: 23</strong></div><p>A ﬁle system with a one-level directory structure is implemented on a disk with disk block size of<br/>bytes.<br/>The disk is used as follows:<br/>a<br/>.<br/>What is the maximum possible number of files?<br/>b<br/>.<br/>What is the maximum possible file size in blocks<br/>operating-system<br/>disk<br/>file-system<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2775/gate-cse-1996-question-23"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1997 | Question: 74</strong></div><p>A program<br/>reads and processes<br/>consecutive records from a sequential ﬁle<br/>stored on device<br/>without using any file system facilities. Given the following<br/>Size of each record<br/>bytes<br/>Access time of<br/>msecs<br/>Data transfer rate of<br/>bytes/second<br/>CPU time to process each record<br/>msecs<br/>What is the elapsed time of<br/>if<br/>A<br/>.<br/>contains unblocked records and<br/>does not use buffering?<br/>B<br/>.<br/>contains unblocked records and<br/>uses one buffer (i.e., it always reads ahead into the buffer)?<br/>C<br/>.<br/>records of<br/>are organized using a blocking factor of<br/>(i.e., each block on<br/>contains two records of<br/>) and<br/>uses one buffer?<br/>operating-system<br/>disk</p></div>",
+      "options": [],
+      "correctAnswer": "9.006",
+      "discussUrl": "https://gateoverflow.in/19704/gate-cse-1997-question-74"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1998 | Question: 2-9</strong></div><p>Formatting for a floppy disk refers to<br/>A<br/>.<br/>arranging the data on the disk in contiguous fashion<br/>B<br/>.<br/>writing the directory<br/>C<br/>.<br/>erasing the system data<br/>D<br/>.<br/>writing identification information on all tracks and sectors<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1681/gate-cse-1998-question-2-9"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1998 | Question: 25-a</strong></div><p>Free disk space can be used to keep track of using a free list or a bit map. Disk addresses require<br/>bits.<br/>For a disk with<br/>blocks,<br/>of which are free, state the condition under which the free list uses less space<br/>than the bit map.<br/>operating-system<br/>disk<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1681/gate-cse-1998-question-2-9"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1998 | Question: 25b</strong></div><p>Consider a disk with<br/>cylinders,<br/>tracks per cylinder,<br/>sectors per track and a sector length<br/>. A logical<br/>ﬁle<br/>with ﬁxed record length<br/>is stored continuously on this disk starting at location<br/>, where<br/>and<br/>are the cylinder, track and sector numbers, respectively. Derive the formula to calculate the disk<br/>address (i.e. cylinder, track and sector) of a logical record n assuming that<br/>.<br/>operating-system<br/>disk<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1681/gate-cse-1998-question-2-9"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 1999 | Question: 2-18, ISRO2008-46</strong></div><p>Raid configurations of the disks are used to provide<br/>operating-system<br/>disk<br/>easy<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1681/gate-cse-1998-question-2-9"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2001 | Question: 1.22</strong></div><p>Which of the following requires a device driver?<br/>operating-system<br/>disk<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1681/gate-cse-1998-question-2-9"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2003 | Question: 25, ISRO2009-12</strong></div><p>Using a larger block size in a fixed block size file system leads to<br/>A<br/>.<br/>better disk throughput but poorer disk space utilization<br/>B<br/>.<br/>better disk throughput and better disk space utilization<br/>C<br/>.<br/>poorer disk throughput but better disk space utilization<br/>D<br/>.<br/>poorer disk throughput and poorer disk space utilization<br/>operating-system<br/>disk<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1740/gate-cse-1998-question-25-a"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2004 | Question: 49</strong></div><p>A unix-style I-nodes has<br/>direct pointers and one single, one double and one triple indirect pointers. Disk<br/>block size is<br/>Kbyte, disk block address is<br/>bits, and<br/>-bit integers are used. What is the maximum<br/>possible file size?<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1045/gate-cse-2004-question-49"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2005 | Question: 21</strong></div><p>What is the swap space in the disk used for?<br/>operating-system<br/>disk<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1357/gate-cse-2005-question-21"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2007 | Question: 11, ISRO2009-36,</strong></div><p>ISRO2016-21<br/>Consider a disk pack with<br/>surfaces,<br/>tracks per surface and<br/>sectors per track.<br/>bytes of data<br/>are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to<br/>specify a particular sector in the disk are respectively:<br/>operating-system<br/>disk<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2008 | Question: 32</strong></div><p>For a magnetic disk with concentric circular tracks, the seek latency is not linearly proportional to the seek<br/>distance due to<br/>A<br/>.<br/>non-uniform distribution of requests<br/>B<br/>.<br/>arm starting and stopping inertia<br/>C<br/>.<br/>higher capacity of tracks on the periphery of the platter<br/>D<br/>.<br/>use of unfair arm scheduling policies<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/443/gate-cse-2008-question-32"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2009 | Question: 51</strong></div><p>A hard disk has<br/>sectors per track,<br/>platters each with<br/>recording surfaces and<br/>cylinders. The<br/>address of a sector is given as a triple<br/>, where<br/>is the cylinder number,<br/>is the surface number and<br/>is the sector number. Thus, the 0<br/>sector is addresses as<br/>, the 1<br/>sector as<br/>, and so on<br/>The address<br/>corresponds to sector number:<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2009 | Question: 52</strong></div><p>A hard disk has<br/>sectors per track,<br/>platters each with<br/>recording surfaces and<br/>cylinders. The<br/>address of a sector is given as a triple<br/>, where<br/>is the cylinder number,<br/>is the surface number and<br/>is the sector number. Thus, the 0<br/>sector is addresses as<br/>, the 1<br/>sector as<br/>, and so on</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2011 | Question: 44</strong></div><p>An application loads<br/>libraries at startup. Loading each library requires exactly one disk access. The<br/>seek time of the disk to a random location is given as<br/>ms. Rotational speed of disk is<br/>rpm. If all<br/>libraries are loaded from random locations on the disk, how long does it take to load all libraries? (The time to<br/>transfer data from the disk block once the head has been positioned at the start of the block may be neglected.)<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2146/gate-cse-2011-question-44"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2012 | Question: 41</strong></div><p>A ﬁle system with<br/>GByte disk uses a ﬁle descriptor with<br/>direct block addresses,<br/>indirect block<br/>address and<br/>doubly indirect block address. The size of each disk block is<br/>Bytes and the size of each<br/>disk block address is<br/>Bytes. The maximum possible file size in this file system is<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2149/gate-cse-2012-question-41"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2013 | Question: 29</strong></div><p>Consider a hard disk with<br/>recording surfaces<br/>having<br/>cylinders<br/>and each<br/>cylinder contains<br/>sectors<br/>. Data storage capacity in each sector is<br/>bytes. Data are<br/>organized cylinder-wise and the addressing format is<br/>. A ﬁle of size<br/>KB is stored in the disk and the starting disk location of the ﬁle is<br/>. What is the cylinder number of the<br/>last sector of the file, if it is stored in a contiguous manner?<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1540/gate-cse-2013-question-29"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2014 | Set 2 | Question: 20</strong></div><p>A FAT (ﬁle allocation table) based ﬁle system is being used and the total overhead of each entry in the FAT<br/>is<br/>bytes in size. Given a<br/>bytes disk on which the ﬁle system is stored and data block size is<br/>bytes, the maximum size of a file that can be stored on this disk in units of<br/>bytes is _________.<br/>operating-system<br/>disk<br/>file-system</p></div>",
+      "options": [],
+      "correctAnswer": "99.55 : 99.65",
+      "discussUrl": "https://gateoverflow.in/2146/gate-cse-2011-question-44"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2015 | Set 1 | Question: 48</strong></div><p>Consider a disk pack with a seek time of<br/>milliseconds and rotational speed of<br/>rotations per minute<br/>(RPM). It has<br/>sectors per track and each sector can store<br/>bytes of data. Consider a ﬁle stored in<br/>the disk. The ﬁle contains<br/>sectors. Assume that every sector access necessitates a seek, and the average<br/>rotational latency for accessing each sector is half of the time for one complete rotation. The total time (in<br/>milliseconds) needed to read the entire file is__________________<br/>operating-system<br/>disk</p></div>",
+      "options": [],
+      "correctAnswer": "14020",
+      "discussUrl": "https://gateoverflow.in/2146/gate-cse-2011-question-44"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2015 | Set 2 | Question: 49</strong></div><p>Consider a typical disk that rotates at<br/>rotations per minute (RPM) and has a transfer rate of<br/>bytes/sec. If the average seek time of the disk is twice the average rotational delay and the controller's<br/>transfer time is<br/>times the disk transfer time, the average time (in milliseconds) to read or write a<br/>-byte sector<br/>of the disk is _____<br/>operating-system<br/>disk</p></div>",
+      "options": [],
+      "correctAnswer": "6.1 : 6.2",
+      "discussUrl": "https://gateoverflow.in/8251/gate-cse-2015-set-2-question-49"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2024 | Set 1 | Question: 44</strong></div><p>Consider a<br/>GB hard disk with<br/>storage surfaces. There are<br/>sectors per track and each sector<br/>holds<br/>bytes of data. The number of cylinders in the hard disk is _________.<br/>operating-system<br/>disk</p></div>",
+      "options": [],
+      "correctAnswer": "4096",
+      "discussUrl": "https://gateoverflow.in/8251/gate-cse-2015-set-2-question-49"
+    }
+  ]
+}

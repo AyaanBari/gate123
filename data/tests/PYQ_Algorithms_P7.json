@@ -1,0 +1,1351 @@
+{
+  "id": "PYQ_Algorithms_P7",
+  "fileName": "PYQ_Algorithms_P7.json",
+  "title": "GATE Official PYQs | Algorithms Part 7",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1996 | Question: 2.12</strong></div><p>The recurrence relation<br/>has the solution<br/>equal to<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2741/gate-cse-1996-question-2-12"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1997 | Question: 15</strong></div><p>Consider the following function.<br/>Function<br/>F<br/>(<br/>n<br/>,<br/>m<br/>:<br/>integer<br/>):<br/>integer<br/>;<br/>begin<br/>if<br/>(<br/>n<br/><=<br/>0<br/>)<br/>or<br/>(<br/>m<br/><=<br/>0<br/>)<br/>then<br/>F<br/>:=<br/>1<br/>else<br/>F<br/>:<br/>F<br/>(<br/>n<br/>-<br/>1<br/>,<br/>m<br/>)<br/>+<br/>F<br/>(<br/>n<br/>-<br/>1<br/>,<br/>m<br/>-<br/>1<br/>);<br/>end<br/>;<br/>Use the recurrence relation<br/>to answer the following questions. Assume that<br/>are positive integers. Write only the answers without any explanation.<br/>a<br/>.<br/>What is the value of<br/>?<br/>b<br/>.<br/>What is the value of<br/>?<br/>c<br/>.<br/>How many recursive calls are made to the function<br/>, including the original call, when evaluating<br/>.<br/>algorithms<br/>recurrence-relation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2275/gate-cse-1997-question-15"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1997 | Question: 4.6</strong></div><p>Let<br/>be the function defined by<br/>for<br/>.<br/>Which of the following statements is true?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2741/gate-cse-1996-question-2-12"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1998 | Question: 6a</strong></div><p>Solve the following recurrence relation<br/>algorithms<br/>recurrence-relation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2741/gate-cse-1996-question-2-12"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2002 | Question: 1.3</strong></div><p>The solution to the recurrence equation<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2741/gate-cse-1996-question-2-12"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2002 | Question: 2.11</strong></div><p>The running time of the following algorithm<br/>Procedure<br/>If<br/>return (<br/>) else return<br/>;<br/>is best described by<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/841/gate-cse-2002-question-2-11"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2003 | Question: 35</strong></div><p>Consider the following recurrence relation<br/>for all<br/>The value of<br/>for<br/>is<br/>algorithms<br/>time-complexity<br/>recurrence-relation<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/925/gate-cse-2003-question-35"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2004 | Question: 83, ISRO2015-40</strong></div><p>The time complexity of the following C function is (assume<br/>)<br/>int<br/>recursive<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>1<br/>)<br/>return<br/>(<br/>1<br/>);<br/>else<br/>return<br/>(<br/>recursive<br/>(<br/>n<br/>-<br/>1<br/>)<br/>+<br/>recursive<br/>(<br/>n<br/>-<br/>1<br/>));<br/>}<br/>algorithms<br/>recurrence-relation<br/>time-complexity<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1077/gate-cse-2004-question-83-isro2015-40"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2004 | Question: 84</strong></div><p>The recurrence equation<br/>evaluates to<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/841/gate-cse-2002-question-2-11"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2006 | Question: 51, ISRO2016-34</strong></div><p>Consider the following recurrence:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1829/gate-cse-2006-question-51-isro2016-34"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2008 | Question: 78</strong></div><p>Let<br/>denote the number of binary strings of length<br/>that contain no consecutive<br/>s.<br/>Which of the following recurrences does<br/>satisfy?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/497/gate-cse-2008-question-78"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2008 | Question: 79</strong></div><p>Let<br/>denote the number of binary strings of length<br/>that contain no consecutive<br/>s.<br/>The value of<br/>is<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/497/gate-cse-2008-question-78"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2009 | Question: 35</strong></div><p>The running time of an algorithm is represented by the following recurrence relation:<br/>Which one of the following represents the time complexity of the algorithm?<br/>algorithms<br/>recurrence-relation<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1321/gate-cse-2009-question-35"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2012 | Question: 16</strong></div><p>The recurrence relation capturing the optimal execution time of the<br/>problem with<br/>discs is<br/>algorithms<br/>easy<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/48/gate-cse-2012-question-16"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2014 | Set 2 | Question: 13</strong></div><p>Which one of the following correctly determines the solution of the recurrence relation with<br/>?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/497/gate-cse-2008-question-78"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2015 | Set 1 | Question: 49</strong></div><p>Let a<br/>represent the number of bit strings of length n containing two consecutive<br/>s. What is the recurrence<br/>relation for<br/>?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2015 | Set 3 | Question: 39</strong></div><p>Consider the following recursive C function.<br/>void<br/>get<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><<br/>1<br/>)<br/>return<br/>;<br/>get<br/>(<br/>n<br/>-<br/>1<br/>);<br/>get<br/>(<br/>n<br/>-<br/>3<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>If<br/>function is being called in<br/>then how many times will the<br/>function be invoked before returning<br/>to the<br/>?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2016 | Set 2 | Question: 39</strong></div><p>The given diagram shows the ﬂowchart for a recursive function<br/>. Assume that all statements, except for<br/>the recursive calls, have<br/>time complexity. If the worst case time complexity of this function is<br/>,<br/>then the least possible value (accurate up to two decimal positions) of<br/>is ________.<br/>Flow chart for Recursive Function<br/>.<br/>algorithms<br/>time-complexity<br/>recurrence-relation</p></div>",
+      "options": [],
+      "correctAnswer": "2.32 : 2.33",
+      "discussUrl": "https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2017 | Set 2 | Question: 30</strong></div><p>Consider the recurrence function<br/>Then<br/>in terms of<br/>notation is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2020 | Question: 2</strong></div><p>For parameters<br/>and<br/>, both of which are<br/>,<br/>, and<br/>. Then<br/>is<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333229/gate-cse-2020-question-2"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2021 | Set 1 | Question: 30</strong></div><p>Consider the following recurrence relation.<br/>Which one of the following options is correct?<br/>algorithms<br/>recurrence-relation<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357421/gate-cse-2021-set-1-question-30"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2021 | Set 2 | Question: 39</strong></div><p>For constants<br/>and<br/>, consider the following recurrence defined on the non-negative integers:<br/>Which one of the following options is correct about the recurrence<br/>?<br/>A<br/>.<br/>If<br/>is<br/>, then<br/>is<br/>B<br/>.<br/>If<br/>is<br/>, then<br/>is<br/>C<br/>.<br/>If<br/>is<br/>for some<br/>, then<br/>is<br/>D<br/>.<br/>If<br/>is<br/>, then<br/>is<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333229/gate-cse-2020-question-2"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2024 | Set 1 | Question: 32</strong></div><p>Consider the following recurrence relation:<br/>Which one of the following options is CORRECT?<br/>algorithms<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333229/gate-cse-2020-question-2"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2025 | Set 1 | Question: 10</strong></div><p>Consider the following recurrence relation:<br/>Which ONE of the following options is CORRECT?<br/>algorithms<br/>time-complexity<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460070/gate-cse-2025-set-1-question-10"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2026 | Set 2 | Question: 15</strong></div><p>Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity<br/>?<br/>algorithms<br/>recurrence-relation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/460070/gate-cse-2025-set-1-question-10"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE IT 2004 | Question: 57</strong></div><p>Consider a list of recursive algorithms and a list of recurrence relations as shown below. Each recurrence<br/>relation corresponds to exactly one algorithm and is used to derive the time complexity of the algorithm.<br/>Which of the following is the correct match between the algorithms and their recurrence relations?<br/>algorithms<br/>recurrence-relation<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3700/gate-it-2004-question-57"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE IT 2005 | Question: 51</strong></div><p>Let<br/>be a function defined by the recurrence<br/>for<br/>and<br/>Which of the following statements is<br/>TRUE<br/>?<br/>algorithms<br/>recurrence-relation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3812/gate-it-2005-question-51"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE IT 2008 | Question: 44</strong></div><p>When<br/>for some<br/>, the recurrence relation<br/>,<br/>evaluates to :</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3354/gate-it-2008-question-44"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 1995 | Question: 2.9</strong></div><p>A language with string manipulation facilities uses the following operations<br/>head<br/>(<br/>s<br/>)<br/>:<br/>first character<br/>of<br/>a<br/>string<br/>tail<br/>(<br/>s<br/>)<br/>:<br/>all but exclude the first character<br/>of<br/>a<br/>string<br/>concat<br/>(<br/>s1<br/>,<br/>s2<br/>):<br/>s1s2<br/>For the string \"<br/>\" what will be the output of<br/>concat<br/>(<br/>head<br/>(<br/>s<br/>),<br/>head<br/>(<br/>tail<br/>(<br/>tail<br/>(<br/>s<br/>))))<br/>algorithms<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2004"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2007 | Question: 44</strong></div><p>In the following C function, let<br/>.<br/>int<br/>gcd<br/>(<br/>n<br/>,<br/>m<br/>)<br/>{<br/>if<br/>(<br/>n<br/>%<br/>m<br/>==<br/>0<br/>)<br/>return<br/>m<br/>;<br/>n<br/>=<br/>n<br/>%<br/>m<br/>;<br/>return<br/>gcd<br/>(<br/>m<br/>,<br/>n<br/>);<br/>}<br/>How many recursive calls are made by this function?<br/>algorithms<br/>recursion<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1242/gate-cse-2007-question-44"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2018 | Question: 45</strong></div><p>Consider the following program written in pseudo-code. Assume that<br/>and<br/>are integers.<br/>Count<br/>(<br/>x<br/>,<br/>y<br/>)<br/>{<br/>if<br/>(<br/>y<br/>!=<br/>1<br/>)<br/>{<br/>if<br/>(<br/>x<br/>!=<br/>1<br/>)<br/>{<br/>print<br/>(<br/>\"*\"<br/>);<br/>Count<br/>(<br/>x<br/>/<br/>2<br/>,<br/>y<br/>);<br/>}<br/>else<br/>{<br/>y<br/>=<br/>y<br/>-<br/>1<br/>;<br/>Count<br/>(<br/>1024<br/>,<br/>y<br/>);<br/>}<br/>}<br/>}<br/>The number of times that the<br/>statement is executed by the call<br/>is _____<br/>algorithms<br/>recursion</p></div>",
+      "options": [],
+      "correctAnswer": "10230",
+      "discussUrl": "https://gateoverflow.in/204120/gate-cse-2018-question-45"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2021 | Set 2 | Question: 49</strong></div><p>Consider the following<br/>program<br/>#include<br/><stdio.h><br/>int<br/>foo<br/>(<br/>int<br/>x<br/>,<br/>int<br/>y<br/>,<br/>int<br/>q<br/>)<br/>{<br/>if<br/>((<br/>x<br/><=<br/>0<br/>)<br/>&&<br/>(<br/>y<br/><=<br/>0<br/>))<br/>return<br/>q<br/>;<br/>if<br/>(<br/>x<br/><=<br/>0<br/>)<br/>return<br/>foo<br/>(<br/>x<br/>,<br/>y<br/>-<br/>q<br/>,<br/>q<br/>);<br/>if<br/>(<br/>y<br/><=<br/>0<br/>)<br/>return<br/>foo<br/>(<br/>x<br/>-<br/>q<br/>,<br/>y<br/>,<br/>q<br/>);<br/>return<br/>foo<br/>(<br/>x<br/>,<br/>y<br/>-<br/>q<br/>,<br/>q<br/>)<br/>+<br/>foo<br/>(<br/>x<br/>-<br/>q<br/>,<br/>y<br/>,<br/>q<br/>);<br/>}<br/>int<br/>main<br/>(<br/>)<br/>{<br/>int<br/>r<br/>=<br/>foo<br/>(<br/>15<br/>,<br/>15<br/>,<br/>10<br/>);<br/>printf<br/>(“%<br/>d<br/>”,<br/>r<br/>);<br/>return<br/>0<br/>;<br/>}<br/>The output of the program upon execution is _________<br/>algorithms<br/>recursion<br/>output</p></div>",
+      "options": [],
+      "correctAnswer": "60 : 60",
+      "discussUrl": "https://gateoverflow.in/357488/gate-cse-2021-set-2-question-49"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2026 | Set 1 | Question: 51</strong></div><p>Consider the recursive functions represented by the following code segment:<br/>int<br/>bar<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>1<br/>)<br/>return<br/>0<br/>;<br/>else<br/>return<br/>1<br/>+<br/>bar<br/>(<br/>n<br/>/<br/>2<br/>);<br/>}<br/>int<br/>foo<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>1<br/>)<br/>return<br/>1<br/>;<br/>else<br/>return<br/>1<br/>+<br/>foo<br/>(<br/>bar<br/>(<br/>n<br/>));<br/>}<br/>The smallest positive integer n for which<br/>returns<br/>is<br/>. (answer in integer)<br/>Note: Ignore syntax errors (if any) in the function.<br/>algorithms<br/>recursion<br/>Searching<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [],
+      "correctAnswer": "65536 : 65536",
+      "discussUrl": "https://gateoverflow.in/357488/gate-cse-2021-set-2-question-49"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 1996 | Question: 18</strong></div><p>Consider the following program that attempts to locate an element<br/>in an array<br/>using binary search.<br/>Assume<br/>. The program is erroneous. Under what conditions does the program fail?<br/>var<br/>i<br/>,<br/>j<br/>,<br/>k<br/>:<br/>integer<br/>;<br/>x<br/>:<br/>integer<br/>;<br/>a<br/>:<br/>array<br/>;<br/>[<br/>1.<br/>.<br/>N<br/>]<br/>of<br/>integer<br/>;<br/>begin<br/>i<br/>:=<br/>1<br/>;<br/>j<br/>:=<br/>n<br/>;<br/>repeat<br/>k<br/>:(<br/>i<br/>+<br/>j<br/>)<br/>div<br/>2<br/>;<br/>if<br/>a<br/>[<br/>k<br/>]<br/><<br/>x<br/>then<br/>i<br/>:=<br/>k<br/>else<br/>j<br/>:=<br/>k<br/>until<br/>(<br/>a<br/>[<br/>k<br/>]<br/>=<br/>x<br/>)<br/>or<br/>(<br/>i<br/>>=<br/>j<br/>);<br/>if<br/>(<br/>a<br/>[<br/>k<br/>]<br/>=<br/>x<br/>)<br/>then<br/>writeln<br/>(<br/>'x is in the array'<br/>)<br/>else<br/>writeln<br/>(<br/>'x is not in the array'<br/>)<br/>end<br/>;<br/>algorithms<br/>searching<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2770/gate-cse-1996-question-18"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 1996 | Question: 2.13,</strong></div><p>ISRO2016-28<br/>The average number of key comparisons required for a successful search for sequential search on<br/>items<br/>is<br/>algorithms<br/>easy<br/>isro2016<br/>searching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2002 | Question: 2.10</strong></div><p>Consider the following algorithm for searching for a given number<br/>in an unsorted array<br/>having<br/>distinct values:<br/>1<br/>.<br/>Choose an<br/>at random from<br/>2<br/>.<br/>If<br/>, then Stop else Goto 1;<br/>Assuming that<br/>is present in<br/>, what is the expected number of comparisons made by the algorithm before it<br/>terminates?<br/>searching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2008 | Question: 84</strong></div><p>Consider the following C program that attempts to locate an element<br/>in an array<br/>using binary search.<br/>The program is erroneous.<br/>f<br/>(<br/>int<br/>Y<br/>[<br/>10<br/>]<br/>,<br/>int<br/>x<br/>)<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>;<br/>i<br/>=<br/>0<br/>;<br/>j<br/>=<br/>9<br/>;<br/>do<br/>{<br/>k<br/>=<br/>(<br/>i<br/>+<br/>j<br/>)<br/>/<br/>2<br/>;<br/>if<br/>(<br/>Y<br/>[<br/>k<br/>]<br/><<br/>x<br/>)<br/>i<br/>=<br/>k<br/>;<br/>else<br/>j<br/>=<br/>k<br/>;<br/>}<br/>while<br/>(<br/>Y<br/>[<br/>k<br/>]<br/>!=<br/>x<br/>)<br/>&&<br/>(<br/>i<br/><<br/>j<br/>))<br/>;<br/>if<br/>(<br/>Y<br/>[<br/>k<br/>]<br/>==<br/>x<br/>)<br/>printf<br/>(<br/>\" x is in the array \"<br/>)<br/>;<br/>else<br/>printf<br/>(<br/>\" x is not in the array \"<br/>)<br/>;<br/>}<br/>On which of the following contents of<br/>and<br/>does the program fail?<br/>A<br/>.<br/>is<br/>and<br/>B<br/>.<br/>is<br/>and<br/>C<br/>.<br/>is<br/>and<br/>D<br/>.<br/>is<br/>and<br/>and<br/>is even<br/>algorithms<br/>searching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/840/gate-cse-2002-question-2-10"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2008 | Question: 85</strong></div><p>Consider the following C program that attempts to locate an element<br/>in an array<br/>using binary search.<br/>The program is erroneous.<br/>f<br/>(<br/>int<br/>Y<br/>[<br/>10<br/>]<br/>,<br/>int<br/>x<br/>)<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>;<br/>i<br/>=<br/>0<br/>;<br/>j<br/>=<br/>9<br/>;<br/>do<br/>{<br/>k<br/>=<br/>(<br/>i<br/>+<br/>j<br/>)<br/>/<br/>2<br/>;<br/>if<br/>(<br/>Y<br/>[<br/>k<br/>]<br/><<br/>x<br/>)<br/>i<br/>=<br/>k<br/>;<br/>else<br/>j<br/>=<br/>k<br/>;<br/>}<br/>while<br/>(<br/>Y<br/>[<br/>k<br/>]<br/>!=<br/>x<br/>)<br/>&&<br/>(<br/>i<br/><<br/>j<br/>))<br/>;<br/>if<br/>(<br/>Y<br/>[<br/>k<br/>]<br/>==<br/>x<br/>)<br/>printf<br/>(<br/>\" x is in the array \"<br/>)<br/>;<br/>else<br/>printf<br/>(<br/>\" x is not in the array \"<br/>)<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/394/gate-cse-2008-question-84"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2017 | Set 1 | Question: 48</strong></div><p>Let<br/>be an array of<br/>numbers consisting of a sequence of<br/>'s followed by a sequence of<br/>'s. The<br/>problem is to ﬁnd the smallest index<br/>such that<br/>is<br/>by probing the minimum number of locations in<br/>.<br/>The<br/>worst case<br/>number of probes performed by an<br/>optimal<br/>algorithm is ____________.<br/>algorithms<br/>searching</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2025 | Set 2 | Question: 19</strong></div><p>Which of the following statements regarding Breadth First Search (BFS) and Depth First Search (DFS) on<br/>an undirected simple graph<br/>is/are TRUE?<br/>A<br/>.<br/>A DFS tree of<br/>is a Shortest Path tree of<br/>.<br/>B<br/>.<br/>Every non-tree edge of<br/>with respect to a DFS tree is a forward/back edge.<br/>C<br/>.<br/>If<br/>is a non-tree edge of<br/>with respect to a BFS tree, then the distances from the source vertex<br/>to<br/>and<br/>in the BFS tree are within<br/>of each other.<br/>D<br/>.<br/>Both BFS and DFS can be used to find the connected components of<br/>.<br/>algorithms<br/>searching<br/>breadth-first-search<br/>depth-first-search<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48"
+    }
+  ]
+}

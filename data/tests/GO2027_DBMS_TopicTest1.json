@@ -1,0 +1,409 @@
+{
+  "id": "GO2027_DBMS_TopicTest1",
+  "fileName": "GO2027_DBMS_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Databases | Normalization & Transactions",
+  "subject": "Databases (DBMS)",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 15,
+  "totalMarks": 25,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Relational Algebra</strong></div>\n<p>Let $R(A, B)$ and $S(B, C)$ be two relations. Which of the following relational algebra expressions is equivalent to the natural join $R \\bowtie S$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Natural join is defined as Cartesian product followed by equality selection on common attributes ($\\sigma_{R.B=S.B}$) and projection of distinct attribute names ($\\pi_{A, R.B, C}$).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$\\pi_{A, R.B, C}(\\sigma_{R.B = S.B}(R \\times S))$</span>",
+          "textHtml": "<span>$\\pi_{A, R.B, C}(\\sigma_{R.B = S.B}(R \\times S))$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\sigma_{R.B = S.B}(\\pi_{A, B}(R) \\cup \\pi_{B, C}(S))$</span>",
+          "textHtml": "<span>$\\sigma_{R.B = S.B}(\\pi_{A, B}(R) \\cup \\pi_{B, C}(S))$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$\\pi_{A, B, C}(R \\cup S)$</span>",
+          "textHtml": "<span>$\\pi_{A, B, C}(R \\cup S)$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$R \\times S$</span>",
+          "textHtml": "<span>$R \\times S$</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Candidate Keys",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Candidate Keys</strong></div>\n<p>A relation schema $R(A, B, C, D)$ has the functional dependencies $F = \\{ AB \\to C, C \\to D, D \\to A \\}$. How many candidate keys does $R$ have?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Notice that $B$ never appears on the RHS of any FD, so $B$ must be in every candidate key.<br/>- $(AB)^+ = \\{A, B, C, D\\} \\implies AB$ is a candidate key.<br/>- Since $D \\to A$, replace $A$ with $D$: $(DB)^+ = \\{D, B, A, C\\} = \\{A, B, C, D\\} \\implies DB$ is a candidate key.<br/>- Since $C \\to D$, replace $D$ with $C$: $(CB)^+ = \\{C, B, D, A\\} = \\{A, B, C, D\\} \\implies CB$ is a candidate key.<br/>Total candidate keys $= 3$ ($AB, CB, DB$).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Normalization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Normalization</strong></div>\n<p>Which of the following statements is/are <strong>TRUE</strong> regarding database normal forms?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are TRUE:</b> BCNF is strictly stronger than 3NF; binary relations are trivially BCNF; 3NF synthesis algorithm guarantees both lossless join and dependency preservation.<br/><b>D is FALSE:</b> BCNF decompositions cannot always preserve all functional dependencies (classic counterexample: $AB \\to C, C \\to B$).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Every relation in BCNF is also in 3NF.</span>",
+          "textHtml": "<span>Every relation in BCNF is also in 3NF.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Any relation with exactly two attributes is always in BCNF.</span>",
+          "textHtml": "<span>Any relation with exactly two attributes is always in BCNF.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Lossless-join and dependency-preserving decomposition into 3NF is always achievable.</span>",
+          "textHtml": "<span>Lossless-join and dependency-preserving decomposition into 3NF is always achievable.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Lossless-join and dependency-preserving decomposition into BCNF is always achievable.</span>",
+          "textHtml": "<span>Lossless-join and dependency-preserving decomposition into BCNF is always achievable.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transactions",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Transactions</strong></div>\n<p>A schedule generated under the <strong>Strict Two-Phase Locking (Strict 2PL)</strong> protocol is guaranteed to be:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Strict 2PL holds all exclusive locks until commit/abort. This guarantees conflict serializability and ensures no other transaction can read uncommitted data, making schedules strict and cascadeless. It does NOT prevent deadlocks.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Conflict serializable and recoverable, but not necessarily free from cascading aborts</span>",
+          "textHtml": "<span>Conflict serializable and recoverable, but not necessarily free from cascading aborts</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Conflict serializable and strictly cascadeless (strict)</span>",
+          "textHtml": "<span>Conflict serializable and strictly cascadeless (strict)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Deadlock-free</span>",
+          "textHtml": "<span>Deadlock-free</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>View serializable but not conflict serializable</span>",
+          "textHtml": "<span>View serializable but not conflict serializable</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL Aggregation",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | SQL Aggregation</strong></div>\n<p>Table $R$ contains 4 rows and table $S$ contains 5 rows. No column is NULL. What is the number of rows in the result of the query:<br/><pre><code>SELECT * FROM R CROSS JOIN S;</code></pre></p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    A cross join produces the Cartesian product. Total rows $= |R| \\times |S| = 4 \\times 5 = 20$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "20",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Indexing",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Indexing</strong></div>\n<p>A B+ tree index is built on a table with 1,000,000 records. Block size = 4096 bytes. Key size = 10 bytes, Block pointer = 6 bytes. What is the maximum number of keys an internal index node can store?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For internal node with $p$ block pointers and $p-1$ keys:<br/>$p \\times 6 + (p - 1) \\times 10 \\le 4096 \\implies 16p - 10 \\le 4096 \\implies 16p \\le 4106 \\implies p \\le 256.625 \\implies p = 256$.<br/>Maximum number of keys $= p - 1 = 256 - 1 = 255$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "255",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Concurrency Control",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Concurrency Control</strong></div>\n<p>Consider schedule $S$: $r_1(X); r_2(Y); w_1(Y); r_3(X); w_2(X); w_3(Y); c_1; c_2; c_3$. What is the topological order of transactions in $S$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Conflicts:<br/>- $r_1(X)$ and $w_2(X) \\implies T_1 \\to T_2$<br/>- $r_2(Y)$ and $w_1(Y) \\implies T_2 \\to T_1$<br/>Cycle between $T_1$ and $T_2$. Hence $S$ is not conflict serializable, and no topological order exists.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$T_1 \\to T_2 \\to T_3$</span>",
+          "textHtml": "<span>$T_1 \\to T_2 \\to T_3$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$T_2 \\to T_1 \\to T_3$</span>",
+          "textHtml": "<span>$T_2 \\to T_1 \\to T_3$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>No topological order exists because $S$ contains a conflict cycle</span>",
+          "textHtml": "<span>No topological order exists because $S$ contains a conflict cycle</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$T_3 \\to T_1 \\to T_2$</span>",
+          "textHtml": "<span>$T_3 \\to T_1 \\to T_2$</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Relational Calculus & Algebra",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Relational Calculus & Algebra</strong></div>\n<p>Let $R(A, B)$ and $S(B)$ be relations. Which of the following queries correctly expresses the relational division $R \\div S$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are standard definitions of Relational Division.</b> D is invalid because $A$ and $B$ are distinct attributes with potentially incompatible domains.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Find all $A$ values that are associated with EVERY $B$ value in $S$</span>",
+          "textHtml": "<span>Find all $A$ values that are associated with EVERY $B$ value in $S$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\pi_A(R) - \\pi_A((\\pi_A(R) \\times S) - R)$</span>",
+          "textHtml": "<span>$\\pi_A(R) - \\pi_A((\\pi_A(R) \\times S) - R)$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$\\{ t[A] \\mid \\forall s \\in S (\\exists r \\in R (r[A] = t[A] \\land r[B] = s[B])) \\}$</span>",
+          "textHtml": "<span>$\\{ t[A] \\mid \\forall s \\in S (\\exists r \\in R (r[A] = t[A] \\land r[B] = s[B])) \\}$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$\\pi_A(R) \\cap \\pi_B(S)$</span>",
+          "textHtml": "<span>$\\pi_A(R) \\cap \\pi_B(S)$</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Decomposition",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Decomposition</strong></div>\n<p>Relation $R(A, B, C, D, E)$ with FDs $F = \\{ A \\to B, B \\to C, C \\to D, D \\to E \\}$ is decomposed into $R_1(A, B, C)$ and $R_2(C, D, E)$. How many attributes are present in the intersection $R_1 \\cap R_2$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    $R_1 \\cap R_2 = \\{A, B, C\\} \\cap \\{C, D, E\\} = \\{C\\}$. Exactly 1 attribute ($C$).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "SQL Subqueries",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | SQL Subqueries</strong></div>\n<p>Consider schemas `Prof(pid, dept)` and `Course(cid, pid)`. The query:<br/><pre><code>SELECT P.pid FROM Prof P WHERE NOT EXISTS (\n    SELECT C.cid FROM Course C WHERE C.pid = P.pid\n);</code></pre>retrieves all professors who:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    `NOT EXISTS` checks whether the inner subquery returns an empty set. For a given professor `P.pid`, the subquery finds all courses taught by `P.pid`. If empty, the professor teaches no courses.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Teach all courses</span>",
+          "textHtml": "<span>Teach all courses</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Teach no courses</span>",
+          "textHtml": "<span>Teach no courses</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Teach at least one course</span>",
+          "textHtml": "<span>Teach at least one course</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Belong to a department with no courses</span>",
+          "textHtml": "<span>Belong to a department with no courses</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "ER Modeling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | ER Modeling</strong></div>\n<p>An ER diagram consists of two entity sets $E_1$ and $E_2$ connected by a Many-to-Many relationship $R$. $E_1$ has 3 simple attributes (one primary key), $E_2$ has 4 simple attributes (one primary key), and $R$ has 2 descriptive attributes. What is the minimum number of relational tables required to represent this diagram in a relational database?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    A Many-to-Many relationship cannot be merged into either entity table without introducing multi-valued redundancy. It requires: 1 table for $E_1$, 1 table for $E_2$, and 1 table for the relationship $R$ containing $(PK_1, PK_2, \\text{descriptive attributes})$. Total $= 3$ tables.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recovery System",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Recovery System</strong></div>\n<p>Which of the following statements is/are <strong>TRUE</strong> regarding the Write-Ahead Logging (WAL) protocol and checkpoints?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are standard WAL invariants.</b><br/><b>D is FALSE:</b> A 'steal' policy allows active uncommitted transactions to write dirty pages to disk, meaning UN-DO operations are strictly required to roll back uncommitted changes after a crash.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Before a dirty page in memory is written to disk, the corresponding log record must be flushed to stable storage.</span>",
+          "textHtml": "<span>Before a dirty page in memory is written to disk, the corresponding log record must be flushed to stable storage.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>At transaction commit, all log records up to the commit record must be written to stable storage before reporting success.</span>",
+          "textHtml": "<span>At transaction commit, all log records up to the commit record must be written to stable storage before reporting success.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Checkpoints reduce recovery time by bounding how far back in the log the recovery manager needs to scan.</span>",
+          "textHtml": "<span>Checkpoints reduce recovery time by bounding how far back in the log the recovery manager needs to scan.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>In steal/no-force buffer management, undo operations are never required during crash recovery.</span>",
+          "textHtml": "<span>In steal/no-force buffer management, undo operations are never required during crash recovery.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Functional Dependencies",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Functional Dependencies</strong></div>\n<p>Given relation $R(A, B, C)$ and FDs $F = \\{ A \\to B, B \\to C, A \\to C, AB \\to C \\}$. What is the number of functional dependencies in the canonical (minimal) cover of $F$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    1. RHS is already single attribute.<br/>2. In $AB \\to C$, since $A \\to B$, $B$ is extraneous ($A^+ = \\{A, B, C\\}$). $AB \\to C$ simplifies to $A \\to C$.<br/>3. Now $F = \\{ A \\to B, B \\to C, A \\to C \\}$. In $A \\to C$, with $A \\to B$ and $B \\to C$, $A \\to C$ is transitive and redundant.<br/>Minimal cover is $\\{ A \\to B, B \\to C \\}$, which contains exactly 2 FDs.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Indexing",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Indexing</strong></div>\n<p>Which of the following statements regarding database indexes is <strong>CORRECT</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    A clustered index defines the physical ordering of records in a table file; since physical records can only be ordered in one way, there can be at most ONE clustered index per table.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>A table can have multiple clustered indexes</span>",
+          "textHtml": "<span>A table can have multiple clustered indexes</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>A clustered index determines the physical storage order of rows in the table</span>",
+          "textHtml": "<span>A clustered index determines the physical storage order of rows in the table</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Secondary indexes are always dense and can never be sparse</span>",
+          "textHtml": "<span>Secondary indexes are always dense and can never be sparse</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>B-Tree index leaf nodes can never contain pointers to data records</span>",
+          "textHtml": "<span>B-Tree index leaf nodes can never contain pointers to data records</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Transactions",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Transactions</strong></div>\n<p>In Thomas' Write Rule (a modification of timestamp ordering), if transaction $T_i$ with timestamp $TS(T_i) = 15$ attempts to write $w_i(X)$, and the current write-timestamp of $X$ is $W\\text{-timestamp}(X) = 20$, and read-timestamp is $R\\text{-timestamp}(X) = 10$, what action is taken?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Under Thomas' Write Rule, if $TS(T_i) < W\\text{-timestamp}(X)$ and $TS(T_i) \\ge R\\text{-timestamp}(X)$, the value $T_i$ wants to write has already been overwritten by a younger transaction. Instead of aborting $T_i$, Thomas' rule safely ignores (discards) the obsolete write, preserving view serializability.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "id": "PYQ_Theory_of_Computation_TOC_P5",
+  "fileName": "PYQ_Theory_of_Computation_TOC_P5.json",
+  "title": "GATE Official PYQs | Theory of Computation (TOC) Part 5",
+  "subject": "Theory of Computation (TOC)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 1998 | Question: 2.5</strong></div><p>Let<br/>be the set of all binary strings whose last two symbols are the same. The number of states in the<br/>minimal state deterministic finite state automaton accepting<br/>is<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2280/gate-cse-1997-question-20"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 1998 | Question: 4</strong></div><p>Design a deterministic ﬁnite state automaton (using minimum number of states) that recognizes the following<br/>language:<br/>interpreted as binary number (ignoring the leading zeros) is divisible by five<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1677/gate-cse-1998-question-2-5"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 1999 | Question: 1.4</strong></div><p>Consider the regular expression<br/>times. The minimum state ﬁnite automaton that<br/>recognizes the language represented by this regular expression contains<br/>theory-of-computation<br/>finite-automata<br/>easy<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2280/gate-cse-1997-question-20"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2001 | Question: 1.6</strong></div><p>Given an arbitrary non-deterministic ﬁnite automaton (NFA) with<br/>states, the maximum number of states in<br/>an equivalent minimized DFA at least<br/>finite-automata<br/>theory-of-computation<br/>easy<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/699/gate-cse-2001-question-1-6"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2001 | Question: 2.5</strong></div><p>Consider a DFA over<br/>accepting all strings which have number of a's divisible by<br/>and number<br/>of<br/>'s divisible by<br/>. What is the minimum number of states that the DFA will have?<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/699/gate-cse-2001-question-1-6"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2002 | Question: 2.13</strong></div><p>The smallest finite automaton which accepts the language<br/>length of<br/>is divisible by<br/>has<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/699/gate-cse-2001-question-1-6"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2006 | Question: 34</strong></div><p>Consider the regular language<br/>The minimum number of  states in any DFA<br/>accepting this languages is:<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1291/gate-cse-2006-question-34"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2007 | Question: 29</strong></div><p>A minimum state deterministic finite automaton accepting the language<br/>number of<br/>s and<br/>s in<br/>are divisible by<br/>and<br/>, respectively<br/>has<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1291/gate-cse-2006-question-34"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2007 | Question: 75</strong></div><p>Consider the following Finite State Automaton:<br/>The minimum state automaton equivalent to the above FSA has the following number of states:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1227/gate-cse-2007-question-29"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2010 | Question: 41</strong></div><p>Let<br/>be any string of length<br/>in<br/>. Let<br/>be the set of all substrings of<br/>. What is the minimum<br/>number of states in non-deterministic finite automation that accepts<br/>?<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2342/gate-cse-2010-question-41"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2011 | Question: 42</strong></div><p>Definition of a language<br/>with alphabet<br/>is given as following.<br/>What is the minimum number of states needed in a DFA to recognize<br/>?<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2342/gate-cse-2010-question-41"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2011 | Question: 45</strong></div><p>A deterministic finite automaton (<br/>)<br/>with alphabet<br/>is given below.<br/>Which of the following finite state machines is a valid minimal<br/>which accepts the same languages as<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2144/gate-cse-2011-question-42"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2015 | Set 1 | Question: 52</strong></div><p>Consider the DFAs<br/>and<br/>given above. The number of states in a minimal DFA that accept the language<br/>is_____________.<br/>theory-of-computation<br/>finite-automata<br/>easy<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2015 | Set 2 | Question: 53</strong></div><p>The number of states in the minimal deterministic ﬁnite automaton corresponding to the regular expression<br/>is _____.<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2015 | Set 3 | Question: 18</strong></div><p>Let<br/>be the language represented by the regular expression<br/>where<br/>. What is the<br/>minimum number of states in a DFA that recognizes<br/>(complement of<br/>)?<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2016 | Set 2 | Question: 16</strong></div><p>The number of states in the minimum sized DFA that accepts the language deﬁned by the regular<br/>expression.<br/>is ________.<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2017 | Set 1 | Question: 22</strong></div><p>Consider the language<br/>given by the regular expression<br/>over the alphabet<br/>. The<br/>smallest number of states needed in a deterministic ﬁnite-state automaton (DFA) accepting<br/>is<br/>___________ .<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2017 | Set 2 | Question: 25</strong></div><p>The minimum possible number of states of a deterministic ﬁnite automaton that accepts the regular<br/>language<br/>= {<br/>|<br/>,<br/>} is ______________ .<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2018 | Question: 6</strong></div><p>Let<br/>be an NFA with<br/>states. Let<br/>be the number of states of a minimal DFA which is equivalent to<br/>.<br/>Which one of the following is necessarily true?<br/>theory-of-computation<br/>minimal-state-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204080/gate-cse-2018-question-6"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2019 | Question: 48</strong></div><p>Let<br/>be the set of all bijections from<br/>to<br/>, where<br/>denotes the identity function, i.e.<br/>. Let<br/>denote composition on functions. For a string<br/>, let<br/>. Consider the language<br/>. The minimum number of states in<br/>any DFA accepting<br/>is _______<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata<br/>difficult</p></div>",
+      "options": [],
+      "correctAnswer": "120",
+      "discussUrl": "https://gateoverflow.in/302800/gate-cse-2019-question-48"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE CSE 2023 | Question: 53</strong></div><p>Consider the language<br/>over the alphabet<br/>, given below:<br/>The minimum number of states in a Deterministic Finite-State Automaton<br/>for<br/>is ____________.<br/>theory-of-computation<br/>minimal-state-automata</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/399258/gate-cse-2023-question-53"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimal State Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimal State Automata: GATE IT 2008 | Question: 6</strong></div><p>Let<br/>be an NFA with<br/>states and let<br/>be the minimized DFA with m states recogniz<br/>ing the same<br/>language. Which of the following in NECESSARILY true?<br/>theory-of-computation<br/>finite-automata<br/>minimal-state-automata<br/>Non Determinism<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204080/gate-cse-2018-question-6"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE CSE 1992 | Question: 02,xx</strong></div><p>In which of the cases stated below is the following statement true?<br/>\"For every non-deterministic machine<br/>there exists an equivalent deterministic machine<br/>recognizing<br/>the same language\".<br/>A<br/>.<br/>is non-deterministic finite automaton.<br/>B<br/>.<br/>is non-deterministic PDA.<br/>C<br/>.<br/>is a non-deterministic Turing machine.<br/>D<br/>.<br/>For no machines<br/>and<br/>,  the above statement true.<br/>theory-of-computation<br/>easy<br/>non-determinism<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/302800/gate-cse-2019-question-48"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE CSE 1994 | Question: 1.16</strong></div><p>Which of the following conversions is not possible (algorithmically)?<br/>A<br/>.<br/>Regular grammar to context free grammar<br/>B<br/>.<br/>Non-deterministic FSA to deterministic FSA<br/>C<br/>.<br/>Non-deterministic PDA to deterministic PDA<br/>D<br/>.<br/>Non-deterministic Turing machine to deterministic Turing machine<br/>theory-of-computation<br/>easy<br/>non-determinism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2459/gate-cse-1994-question-1-16"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE CSE 1998 | Question: 1.11</strong></div><p>Regarding the power of recognition of languages, which of the following statements is false?<br/>A<br/>.<br/>The non-deterministic finite-state automata are equivalent to deterministic finite-state automata.<br/>B<br/>.<br/>Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.<br/>C<br/>.<br/>Non-deterministic Turing machines are equivalent to deterministic Turing machines.<br/>D<br/>.<br/>Multi-tape Turing machines are available are equivalent to Single-tape Turing machines.<br/>theory-of-computation<br/>easy<br/>non-determinism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2459/gate-cse-1994-question-1-16"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE CSE 2005 | Question: 54</strong></div><p>Let<br/>and<br/>denote the classes of languages accepted by non-deterministic ﬁnite automata and non-<br/>deterministic push-down automata, respectively. Let<br/>and<br/>denote the classes of languages accepted<br/>by deterministic ﬁnite automata and deterministic push-down automata respectively. Which one of the following is<br/>TRUE?<br/>theory-of-computation<br/>easy<br/>non-determinism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1377/gate-cse-2005-question-54"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE CSE 2011 | Question: 8</strong></div><p>Which of the following pairs have<br/>DIFFERENT<br/>expressive power?<br/>A<br/>.<br/>Deterministic finite automata (DFA) and Non-deterministic finite automata (NFA)<br/>B<br/>.<br/>Deterministic push down automata (DPDA) and Non-deterministic push down automata (NPDA)<br/>C<br/>.<br/>Deterministic single tape Turing machine and Non-deterministic single tape Turing machine<br/>D<br/>.<br/>Single tape Turing machine and multi-tape Turing machine<br/>theory-of-computation<br/>easy<br/>non-determinism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1648/gate-cse-1998-question-1-11"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Non Determinism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Non Determinism: GATE IT 2004 | Question: 9</strong></div><p>Which one of the following statements is FALSE?<br/>A<br/>.<br/>There exist context-free languages such that all the context-free grammars generating them are ambiguous<br/>B<br/>.<br/>An unambiguous context-free grammar always has a unique parse tree for each string of the language<br/>generated by it<br/>C<br/>.<br/>Both deterministic and non-deterministic pushdown automata always accept the same set of languages<br/>D<br/>.<br/>A finite set of string from some alphabet is always a regular language<br/>theory-of-computation<br/>easy<br/>non-determinism</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2459/gate-cse-1994-question-1-16"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Number of States",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number of States: GATE CSE 2025 | Set 2 | Question: 50</strong></div><p>L e t<br/>. For<br/>, let<br/>be the product of symbols in<br/>modulo 7. We take<br/>, where<br/>is the null string.<br/>For example,<br/>.<br/>Define<br/>.<br/>The number of states in a minimum state DFA for<br/>is __________ . (Answer in integer)<br/>theory-of-computation<br/>finite-automata<br/>number-of-states</p></div>",
+      "options": [],
+      "correctAnswer": "6:6",
+      "discussUrl": "https://gateoverflow.in/460843/gate-cse-2025-set-2-question-50"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number of States",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number of States: GATE CSE 2026 | Set 1 | Question: 16</strong></div><p>Let<br/>be a nondeterministic finite automaton (NFA) with<br/>states over a finite alphabet.<br/>Which of the following options CANNOT be the number of states in the minimal deterministic ﬁnite automaton<br/>(DFA) that is equivalent to<br/>?<br/>theory-of-computation<br/>finite-automata<br/>number-of-states<br/>multiple-selects<br/>Pumping Lemma<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523064/gate-cse-2026-set-1-question-16"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pumping Lemma",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pumping Lemma: GATE CSE 2019 | Question: 15</strong></div><p>For<br/>, let us consider the regular language<br/>. Which<br/>one of the following can be a pumping length (the constant guaranteed by the pumping lemma) for<br/>?<br/>theory-of-computation<br/>pumping-lemma</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302833/gate-cse-2019-question-15"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pumping Lemma",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pumping Lemma: GATE IT 2005 | Question: 40</strong></div><p>A language<br/>satisﬁes the Pumping Lemma for regular languages, and also the Pumping Lemma for<br/>context-free languages. Which of the following statements about<br/>is TRUE?<br/>A<br/>.<br/>is necessarily a regular language.<br/>B<br/>.<br/>is necessarily a context-free language, but not necessarily a regular language.<br/>C<br/>.<br/>is necessarily a non-regular language.<br/>D<br/>.<br/>None of the above<br/>theory-of-computation<br/>pumping-lemma<br/>easy<br/>Pushdown Automata<br/>(15)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3787/gate-it-2005-question-40"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 1996 | Question: 13</strong></div><p>Let<br/>be a pushdown automaton accepting by empty stack for<br/>the language which is the set of all nonempty even palindromes over the set<br/>. Below is an incomplete</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2765/gate-cse-1996-question-13"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 1997 | Question: 6.6</strong></div><p>Which of the following languages over<br/>is accepted by a deterministic pushdown automata?<br/>Note:<br/>is the string obtained by reversing<br/>.<br/>theory-of-computation<br/>pushdown-automata<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2262/gate-cse-1997-question-6-6"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 1998 | Question: 13</strong></div><p>Let<br/>be a Pushdown automation where<br/>is given by<br/>a<br/>.<br/>What is the language accepted by this PDA by empty stack?<br/>b<br/>.<br/>Describe informally the working of the PDA<br/>theory-of-computation<br/>pushdown-automata<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1727/gate-cse-1998-question-13"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 1999 | Question: 1.6</strong></div><p>Let<br/>be the set of all languages accepted by a PDA by ﬁnal state and<br/>the set of all languages<br/>accepted by empty stack. Which of the following is true?<br/>theory-of-computation<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2262/gate-cse-1997-question-6-6"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2000 | Question: 8</strong></div><p>A push down automation (pda) is given in the following extended notation of finite state diagram:<br/>The nodes denote the states while the edges denote the moves of the pda. The edge labels are of the form<br/>,<br/>where<br/>is the input symbol read and<br/>are the stack contents before and after the move. For example the edge<br/>labeled<br/>denotes the move from state<br/>to<br/>in which the input symbol<br/>is read and pushed to the stack.<br/>A<br/>.<br/>Introduce two edges with appropriate labels in the above diagram so that the resulting pda accepts the<br/>language<br/>, by empty stack.<br/>B<br/>.<br/>Describe a non-deterministic pda with three states in the above notation that accept the language<br/>by empty stack<br/>theory-of-computation<br/>descriptive<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/679/gate-cse-2000-question-8"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2001 | Question: 6</strong></div><p>Give a deterministic PDA for the language<br/>over the alphabet<br/>. Specify<br/>the acceptance state.<br/>theory-of-computation<br/>pushdown-automata<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/679/gate-cse-2000-question-8"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2009 | Question: 16, ISRO2017-12</strong></div><p>Which one of the following is FALSE?<br/>A<br/>.<br/>There is a unique minimal DFA for every regular language<br/>B<br/>.<br/>Every NFA can be converted to an equivalent PDA.<br/>C<br/>.<br/>Complement of every context-free language is recursive.<br/>D<br/>.<br/>Every nondeterministic PDA can be converted to an equivalent deterministic PDA.<br/>theory-of-computation<br/>easy<br/>isro2017<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1308/gate-cse-2009-question-16-isro2017-12"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2015 | Set 1 | Question: 51</strong></div><p>Consider the NPDA<br/>, where (as per usual convention)<br/>is the set of states,<br/>is the input alphabet,<br/>is the stack alphabet,<br/>is the<br/>state transition function<br/>is the initial state,<br/>is the initial stack symbol, and<br/>is the set of accepting states. The<br/>state transition is as follows:<br/>Which one of the following sequences must follow the string<br/>so that the overall string is accepted by the</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/747/gate-cse-2001-question-6"
+    }
+  ]
+}

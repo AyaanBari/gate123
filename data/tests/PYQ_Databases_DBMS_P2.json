@@ -1,0 +1,1435 @@
+{
+  "id": "PYQ_Databases_DBMS_P2",
+  "fileName": "PYQ_Databases_DBMS_P2.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 2",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2007 | Question: 64</strong></div><p>Consider the following schedules involving two transactions. Which one of the following statements is<br/>TRUE<br/>?<br/>A<br/>.<br/>Both<br/>and<br/>are conflict serializable.<br/>B<br/>.<br/>is conflict serializable and<br/>is not conflict serializable.<br/>C<br/>.<br/>is not conflict serializable and<br/>is conflict serializable.<br/>D<br/>.<br/>Both<br/>and<br/>are not conflict serializable.<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1262/gate-cse-2007-question-64"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2009 | Question: 43</strong></div><p>Consider two transactions<br/>and<br/>, and four schedules<br/>,  of<br/>and<br/>as given below:<br/>Which of the above schedules are conflict-serializable?<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1329/gate-cse-2009-question-43"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2014 | Set 1 | Question: 29</strong></div><p>Consider the following four schedules due to three transactions (indicated by the subscript)<br/>using<br/>read<br/>and<br/>write<br/>on a data item x, denoted by<br/>and<br/>respectively. Which one of them is conﬂict<br/>serializable?<br/>A<br/>.<br/>;<br/>;<br/>;<br/>;<br/>;<br/>B<br/>.<br/>;<br/>;<br/>;<br/>;<br/>;<br/>C<br/>.<br/>;<br/>;<br/>;<br/>;<br/>;<br/>D<br/>.<br/>;<br/>;<br/>;<br/>;<br/>;<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1329/gate-cse-2009-question-43"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2014 | Set 2 | Question: 29</strong></div><p>Consider the following schedule<br/>S<br/>of transactions<br/>Which one of the following statements is CORRECT?<br/>A<br/>.<br/>S<br/>is conflict-serializable but not recoverable<br/>B<br/>.<br/>S<br/>is not conflict-serializable but is recoverable<br/>C<br/>.<br/>S<br/>is both conflict-serializable and recoverable<br/>D<br/>.<br/>S<br/>is neither conflict-serializable not is it recoverable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1329/gate-cse-2009-question-43"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2014 | Set 3 | Question: 29</strong></div><p>Consider the transactions<br/>and the schedules<br/>given below.<br/>Which one of the following statements about the schedules is<br/>TRUE<br/>?<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2063/gate-cse-2014-set-3-question-29"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2017 | Set 2 | Question: 44</strong></div><p>Two transactions<br/>and<br/>are given as<br/>where<br/>denotes a<br/>operation by transaction<br/>on a variable<br/>and<br/>denotes a<br/>operation<br/>by transaction<br/>on a variable<br/>. The total number of conﬂict serializable schedules that can be formed by<br/>and<br/>is ______<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [],
+      "correctAnswer": "54",
+      "discussUrl": "https://gateoverflow.in/2063/gate-cse-2014-set-3-question-29"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2020 | Question: 37</strong></div><p>Consider a schedule of transactions<br/>and<br/>:<br/>Here, RX stands for “Read(X)” and WX stands for “Write(X)”. Which one of the following schedules is conﬂict<br/>equivalent to the above schedule?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333194/gate-cse-2020-question-37"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2021 | Set 1 | Question: 32</strong></div><p>Let<br/>and<br/>denote read and write operations respectively on a data item<br/>by a transaction<br/>.<br/>Consider the following two schedules.<br/>Which one of the following options is correct?<br/>A<br/>.<br/>is conflict serializable, and<br/>is not conflict serializable<br/>B<br/>.<br/>is not conflict serializable, and<br/>is conflict serializable<br/>C<br/>.<br/>Both<br/>and<br/>are conflict serializable<br/>D<br/>.<br/>Niether<br/>nor<br/>is conflict serializable<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2021 | Set 2 | Question: 32</strong></div><p>Let<br/>be the following schedule of operations of three transactions<br/>,<br/>and<br/>in a relational database<br/>system:<br/>Consider the statements<br/>and<br/>below:<br/>:<br/>is conflict-serializable.<br/>: If<br/>commits before<br/>finishes, then<br/>is recoverable.<br/>Which one of the following choices is correct?<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2022 | Question: 29</strong></div><p>L e t<br/>and<br/>denote read and write operations on a data element<br/>by a transaction<br/>respectively. Consider the schedule<br/>with four transactions.<br/>Which one of the following serial schedules is conflict equivalent to<br/>databases<br/>transaction-and-concurrency<br/>conflict-serializable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371907/gate-cse-2022-question-29"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2024 | Set 1 | Question: 36</strong></div><p>Consider the following read-write schedule<br/>over three transactions<br/>, and<br/>, where the subscripts in<br/>the schedule indicate transaction IDs:<br/>Which of the following transaction schedules is/are conflict equivalent to<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Conflict Serializable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Serializable: GATE CSE 2025 | Set 2 | Question: 43</strong></div><p>Consider the database transactions T1 and T2 , and data items X and Y . Which of the schedule(s) is/are<br/>conflict serializable?<br/>A<br/>.<br/>R1(X), W2(X), W1(Y), W2(Y), R1(X), W1(X), COMMIT(T2), COMMIT(T1)<br/>B<br/>.<br/>W2(X), R1(X), W2(Y), W1(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1)<br/>C<br/>.<br/>R1(X), W1(Y), W2(X), W2(Y), R1(X), W1(X), COMMIT(T1), COMMIT(T2)<br/>D<br/>.<br/>W2(X), R1(X), W1(Y), W2(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1)<br/>databases<br/>conflict-serializable<br/>multiple-selects<br/>Database Design<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460850/gate-cse-2025-set-2-question-43"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Design: GATE CSE 1994 | Question: 3.11</strong></div><p>State True or False with reason<br/>Logical data independence is easier to achieve than physical data independence.<br/>databases<br/>database-design<br/>true-false<br/>Database Normalization<br/>(56)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/460850/gate-cse-2025-set-2-question-43"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1987 | Question: 2n</strong></div><p>State whether the following statements are TRUE or FALSE:<br/>A relation<br/>with schema<br/>satisﬁes the function dependency<br/>, The tuples<br/>and<br/>can both<br/>be in<br/>simultaneously.<br/>databases<br/>database-normalization<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/460850/gate-cse-2025-set-2-question-43"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1988 | Question: 12i</strong></div><p>What are the three axioms of functional dependency for the relational databases given by Armstrong.<br/>descriptive<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94398/gate-cse-1988-question-12i"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1988 | Question: 12iia</strong></div><p>Using Armstrong’s axioms of functional dependency derive the following rules:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94398/gate-cse-1988-question-12i"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1988 | Question: 12iib</strong></div><p>Using Armstrong’s axioms of functional dependency derive the following rules:<br/>(Note:<br/>denotes<br/>is functionally dependent on<br/>,<br/>denotes<br/>is subset of<br/>, and<br/>means derives).<br/>descriptive<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1988 | Question: 12iic</strong></div><p>Using Armstrong’s axioms of functional dependency derive the following rules:<br/>(Note:<br/>denotes<br/>is functionally dependent on<br/>,<br/>denotes<br/>is subset of<br/>, and<br/>means derives).<br/>descriptive<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1990 | Question: 2-iv</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>database-normalization<br/>databases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1990 | Question: 3-ii</strong></div><p>Indicate which of the following statements are true:<br/>A relational database which is in<br/>NF may still have undesirable data redundancy because there may exist:<br/>A<br/>.<br/>Transitive functional dependencies<br/>B<br/>.<br/>Non-trivial functional dependencies involving prime attributes on the right-side.<br/>C<br/>.<br/>Non-trivial functional dependencies involving prime attributes only on the left-side.<br/>D<br/>.<br/>Non-trivial functional dependencies involving only prime attributes.<br/>databases<br/>database-normalization<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/83977/gate-cse-1990-question-2-iv"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1994 | Question: 3.6</strong></div><p>State True or False with reason<br/>There is always a decomposition into Boyce-Codd normal form (BCNF) that is lossless and dependency<br/>preserving.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1995 | Question: 26</strong></div><p>Consider the relation scheme<br/>with the following functional dependencies:<br/>A<br/>.<br/>Show that the scheme<br/>is in<br/>but not in<br/>.<br/>B<br/>.<br/>Determine the minimal keys of relation<br/>.<br/>databases<br/>database-normalization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2665/gate-cse-1995-question-26"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1997 | Question: 6.9</strong></div><p>For a database relation<br/>, where the domains<br/>include only atomic values, only the<br/>following functional dependencies and those that can be inferred from them hold<br/>This relation is<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2665/gate-cse-1995-question-26"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1998 | Question: 1.34</strong></div><p>Which normal form is considered adequate for normal relational database design?<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2665/gate-cse-1995-question-26"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1998 | Question: 26</strong></div><p>Consider the following database relations containing the attributes<br/>Book_id<br/>Subject_Category_of_book<br/>Name_of_Author<br/>Nationality_of_Author<br/>With Book_id as the primary key.<br/>a<br/>.<br/>What is the highest normal form satisfied by this relation?<br/>b<br/>.<br/>Suppose the attributes Book_title and Author_address are added to the relation, and the primary key is changed<br/>to {Name_of_Author, Book_title}, what will be the highest normal form satisfied by the relation?<br/>databases<br/>database-normalization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2665/gate-cse-1995-question-26"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1999 | Question: 1.24</strong></div><p>L e t<br/>be a relation scheme with the following dependencies</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2665/gate-cse-1995-question-26"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 1999 | Question: 2.7, UGCNET-June2014-III: 25</strong></div><p>Consider the schema<br/>and the dependencies<br/>and<br/>. Let<br/>be a decomposition such that<br/>. The decomposition is<br/>databases<br/>database-normalization<br/>ugcnetjune2014iii</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2000 | Question: 2.24</strong></div><p>Given the following relation instance.<br/>Which of the following functional dependencies are satisfied by the instance?<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2001 | Question: 2.23</strong></div><p>is a relation. Which of the following does not have a lossless join, dependency preserving<br/>decomposition?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2002 | Question: 1.19</strong></div><p>Relation<br/>with an associated set of functional dependencies,<br/>, is decomposed into<br/>. The<br/>redundancy (arising out of functional dependencies) in the resulting set of relations is<br/>A<br/>.<br/>Zero<br/>B<br/>.<br/>More than zero but less than that of an equivalent<br/>decomposition<br/>C<br/>.<br/>Proportional to the size of<br/>D<br/>.<br/>Indeterminate<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2002 | Question: 16</strong></div><p>For relation<br/>R = (L, M, N, O, P),<br/>the following dependencies hold:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/824/gate-cse-2002-question-1-19"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2002 | Question: 2.24</strong></div><p>Relation<br/>is decomposed using a set of functional dependencies,<br/>, and relation<br/>is decomposed using<br/>another set of functional dependencies,<br/>. One decomposition is deﬁnitely<br/>, the other is deﬁnitely<br/>, but it is not known which is which. To make a guaranteed identiﬁcation, which one of the following tests<br/>should be used on the decompositions? (Assume that the closures of<br/>and<br/>are available).<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/854/gate-cse-2002-question-2-24"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2002 | Question: 2.25</strong></div><p>From the following instance of a relation schema<br/>, we can conclude that:<br/>A<br/>.<br/>functionally determines<br/>and<br/>functionally determines<br/>B<br/>.<br/>functionally determines<br/>and<br/>does not functionally determine<br/>C<br/>.<br/>does not functionally determine<br/>D<br/>.<br/>does not functionally determine<br/>and<br/>does not functionally determine<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/854/gate-cse-2002-question-2-24"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2003 | Question: 85</strong></div><p>Consider the following functional dependencies in a database.<br/>The relation (Roll_number, Name, Date_of_birth, Age) is<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/854/gate-cse-2002-question-2-24"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2004 | Question: 50</strong></div><p>The relation scheme<br/>has the following<br/>functional dependencies:<br/>name, courseNo,<br/>grade<br/>rollNo, courseNo<br/>grade<br/>name<br/>rollNo<br/>rollNo<br/>name<br/>The highest normal form of this relation scheme is<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1046/gate-cse-2004-question-50"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2005 | Question: 29, UGCNET-June2015-III: 9</strong></div><p>Which one of the following statements about normal forms is<br/>A<br/>.<br/>is stricter than<br/>B<br/>.<br/>Lossless, dependency-preserving decomposition into<br/>is always possible<br/>C<br/>.<br/>Lossless, dependency-preserving decomposition into<br/>is always possible<br/>D<br/>.<br/>Any relation with two attributes is in<br/>databases<br/>database-normalization<br/>easy<br/>ugcnetcse-june2015-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1365/gate-cse-2005-question-29-ugcnet-june2015-iii-9"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2006 | Question: 70</strong></div><p>The following functional dependencies are given:<br/>Which one of the following options is false?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1848/gate-cse-2006-question-70"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2007 | Question: 62,</strong></div><p>UGCNET-June2014-II: 47<br/>Which one of the following statements is<br/>?<br/>A<br/>.<br/>Any relation with two attributes is in<br/>B<br/>.<br/>A relation in which every key has only one attribute is in<br/>C<br/>.<br/>A prime attribute can be transitively dependent on a key in a<br/>relation<br/>D<br/>.<br/>A prime attribute can be transitively dependent on a key in a<br/>relation<br/>databases<br/>database-normalization<br/>ugcnetcse-june2014-paper2</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2008 | Question: 69</strong></div><p>Consider the following relational schemes for a library database:<br/>Book (Title, Author, Catalog_no, Publisher, Year, Price)<br/>Collection(Title, Author, Catalog_no)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/492/gate-cse-2008-question-69"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2012 | Question: 2</strong></div><p>Which of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>Every relation in<br/>is also in<br/>B<br/>.<br/>A relation<br/>is in<br/>if every non-prime attribute of<br/>is fully functionally dependent on every key of<br/>C<br/>.<br/>Every relation in<br/>is also in<br/>D<br/>.<br/>No relation can be in both<br/>and<br/>databases<br/>easy<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/34/gate-cse-2012-question-2"
+    }
+  ]
+}

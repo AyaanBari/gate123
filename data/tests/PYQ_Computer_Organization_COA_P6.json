@@ -1,0 +1,1141 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P6",
+  "fileName": "PYQ_Computer_Organization_COA_P6.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 6",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 1999 | Question: 13</strong></div><p>An instruction pipeline consists of<br/>stages – Fetch<br/>, Decode ﬁeld<br/>, Execute<br/>and Result Write<br/>. The<br/>instructions in a certain instruction sequence need these stages for the diﬀerent number of clock<br/>cycles as shown by the table below</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/1512/gate-cse-1999-question-13"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2000 | Question: 1.8</strong></div><p>Comparing the time T1 taken for a single instruction on a pipelined CPU with time T2 taken on a non-<br/>pipelined but identical CPU, we can say that<br/>pipelining<br/>co-and-architecture<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/631/gate-cse-2000-question-1-8"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2000 | Question: 12</strong></div><p>An instruction pipeline has ﬁve stages where each stage take 2 nanoseconds and all instruction use all ﬁve<br/>stages. Branch instructions are not overlapped. i.e., the instruction after the branch is not fetched till the<br/>branch instruction is completed. Under ideal conditions,<br/>A<br/>.<br/>Calculate the average instruction execution time assuming that 20% of all instructions executed are branch<br/>instruction. Ignore the fact that some branch instructions may be conditional.<br/>B<br/>.<br/>If a branch instruction is a conditional branch instruction, the branch need not be taken. If the branch is not<br/>taken, the following instructions can be overlapped. When 80% of all branch instructions are conditional<br/>branch instructions, and 50% of the conditional branch instructions are such that the branch is taken, calculate<br/>the average instruction execution time.<br/>co-and-architecture<br/>pipelining<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/631/gate-cse-2000-question-1-8"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2001 | Question: 12</strong></div><p>Consider a<br/>stage pipeline - IF (Instruction Fetch), ID (Instruction Decode and register read), EX<br/>(Execute), MEM (memory), and WB (Write Back). All (memory or register) reads take place in the second<br/>phase of a clock cycle and all writes occur in the ﬁrst phase. Consider the execution of the following instruction<br/>sequence:<br/>A<br/>.<br/>Show all data dependencies between the four instructions.<br/>B<br/>.<br/>Identify the data hazards.<br/>C<br/>.<br/>Can all hazards be avoided by forwarding in this case.<br/>co-and-architecture<br/>pipelining<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/683/gate-cse-2000-question-12"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2002 | Question: 2.6, ISRO2008-19</strong></div><p>The performance of a pipelined processor suffers if:<br/>A<br/>.<br/>the pipeline stages have different delays<br/>B<br/>.<br/>consecutive instructions are dependent on each other<br/>C<br/>.<br/>the pipeline stages share hardware resources<br/>D<br/>.<br/>All of the above</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/631/gate-cse-2000-question-1-8"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2003 | Question: 10, ISRO-DEC2017-41</strong></div><p>For a pipelined CPU with a single ALU, consider the following situations<br/>I<br/>.<br/>The<br/>instruction uses the result of the<br/>instruction as an operand<br/>II<br/>.<br/>The execution of a conditional jump instruction<br/>III<br/>.<br/>The<br/>and<br/>instructions require the ALU at the same time.<br/>Which of the above can cause a hazard<br/>co-and-architecture<br/>pipelining<br/>isrodec2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/901/gate-cse-2003-question-10-isro-dec2017-41"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2004 | Question: 69</strong></div><p>A 4-stage pipeline has the stage delays as<br/>,<br/>,<br/>and<br/>, respectively. Registers<br/>that are used between the stages have a delay of<br/>each. Assuming constant clocking rate,<br/>the total time taken to process<br/>data items on this pipeline will be:<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1063/gate-cse-2004-question-69"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2006 | Question: 42</strong></div><p>A CPU has a ﬁve-stage pipeline and runs at<br/>GHz frequency. Instruction fetch happens in the ﬁrst stage of<br/>the pipeline. A conditional branch instruction computes the target address and evaluates the condition in the<br/>third stage of the pipeline. The processor stops fetching new instructions following a conditional branch until the<br/>branch outcome is known. A program executes<br/>instructions out of which<br/>are conditional branches. If each<br/>instruction takes one cycle to complete on average, the total execution time of the program is:<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1818/gate-cse-2006-question-42"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2007 | Question: 37, ISRO2009-37</strong></div><p>Consider a pipelined processor with the following four stages:<br/>IF: Instruction Fetch<br/>ID: Instruction Decode and Operand Fetch<br/>EX: Execute<br/>WB: Write Back<br/>The IF, ID and WB stages take one clock cycle each to complete the operation. The number of clock cycles for the<br/>EX stage depends on the instruction. The ADD and SUB instructions need<br/>clock cycle and the MUL instruction<br/>needs<br/>clock cycles in the EX stage. Operand forwarding is used in the pipelined processor. What is the number of<br/>clock cycles taken to complete the following sequence of instructions?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1235/gate-cse-2007-question-37-isro2009-37"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2008 | Question: 76</strong></div><p>Delayed branching can help in the handling of control hazards<br/>For all delayed conditional branch instructions, irrespective of whether the condition evaluates to true or<br/>false,<br/>A<br/>.<br/>The instruction following the conditional branch instruction in memory is executed<br/>B<br/>.<br/>The first instruction in the fall through path is executed<br/>C<br/>.<br/>The first instruction in the taken path is executed<br/>D<br/>.<br/>The branch takes longer to execute than any other instruction<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/496/gate-cse-2008-question-76"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2008 | Question: 77</strong></div><p>Delayed branching can help in the handling of control hazards<br/>The following code is to run on a pipelined processor with one branch delay slot:<br/>I1: ADD<br/>I2: Sub<br/>I3: ADD<br/>I4: STORE Memory<br/>BRANCH to Label if<br/>Which of the instructions I1, I2, I3 or I4 can legitimately occupy the delay slot without any program modification?<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/496/gate-cse-2008-question-76"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2009 | Question: 28</strong></div><p>Consider a<br/>stage pipeline processor. The number of cycles needed by the four instructions<br/>in stages<br/>is shown below:<br/>What is the number of cycles needed to execute the following loop?<br/>For (i=1 to 2) {I1; I2; I3; I4;}<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1314/gate-cse-2009-question-28"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2010 | Question: 33</strong></div><p>A<br/>stage pipelined processor has Instruction Fetch (IF), Instruction Decode (ID), Operand Fetch (OF),<br/>Perform Operation (PO) and Write Operand (WO) stages. The IF, ID, OF and WO stages take<br/>clock cycle</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2207/gate-cse-2010-question-33"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2011 | Question: 41</strong></div><p>Consider an instruction pipeline with four stages<br/>each with combinational circuit only.<br/>The pipeline registers are required between each stage and at the end of the last stage. Delays for the<br/>stages and for the pipeline registers are as given in the figure.<br/>What is the approximate speed up of the pipeline in steady state under ideal conditions when compared to the<br/>corresponding non-pipeline implementation?<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2143/gate-cse-2011-question-41"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2012 | Question: 20,</strong></div><p>ISRO2016-23<br/>Register renaming is done in pipelined processors:<br/>A<br/>.<br/>as an alternative to register allocation at compile time<br/>B<br/>.<br/>for efficient access to function parameters and local variables<br/>C<br/>.<br/>to handle certain kinds of hazards<br/>D<br/>.<br/>as part of address translation<br/>co-and-architecture<br/>pipelining<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2143/gate-cse-2011-question-41"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2013 | Question: 45</strong></div><p>Consider an instruction pipeline with five stages without any branch prediction:<br/>Fetch Instruction (FI), Decode Instruction (DI), Fetch Operand (FO), Execute Instruction (EI) and Write<br/>Operand (WO). The stage delays for FI, DI, FO, EI and WO are<br/>respectively.<br/>There are intermediate storage buﬀers after each stage and the delay of each buﬀer is<br/>A program consisting<br/>o f<br/>instructions<br/>is executed in this pipelined processor. Instruction<br/>is the only branch<br/>instruction and its branch target is<br/>If the branch is taken during the execution of this program, the time (in ns)<br/>needed to complete the program is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/330/gate-cse-2013-question-45"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2014 | Set 3 | Question: 43</strong></div><p>An instruction pipeline has ﬁve stages, namely, instruction fetch (IF), instruction decode and register fetch<br/>(ID/RF), instruction execution (EX), memory access (MEM), and register writeback (WB) with stage latencies<br/>ns,<br/>ns,<br/>ns,<br/>ns, and<br/>ns, respectively (ns stands for nanoseconds). To gain in terms of frequency, the<br/>designers have decided to split the ID/RF stage into three stages (ID, RF1, RF2) each of latency<br/>ns. Also,<br/>the EX stage is split into two stages (EX1, EX2) each of latency<br/>ns. The new design has a total of eight pipeline<br/>stages. A program has<br/>branch instructions which execute in the EX stage and produce the next instruction<br/>pointer at the end of the EX stage in the old design and at the end of the EX2 stage in the new design. The IF stage<br/>stalls after fetching a branch instruction until the next instruction pointer is computed. All instructions other than the<br/>branch instruction have an average CPI of one in both the designs. The execution times of this program on the old<br/>and the new design are<br/>and<br/>nanoseconds, respectively. The value of<br/>is __________.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "1.50 :",
+      "discussUrl": "https://gateoverflow.in/2077/gate-cse-2014-set-3-question-43"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2014 | Set 3 | Question: 9</strong></div><p>Consider the following processors (ns stands for nanoseconds). Assume that the pipeline registers have<br/>zero latency.<br/>Four-stage pipeline with stage latencies<br/>.<br/>Four-stage pipeline with stage latencies<br/>.<br/>Five-stage pipeline with stage latencies<br/>.<br/>Five-stage pipeline with stage latencies<br/>.<br/>Which processor has the highest peak clock frequency?<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2077/gate-cse-2014-set-3-question-43"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2015 | Set 1 | Question: 38</strong></div><p>Consider a non-pipelined processor with a clock rate of<br/>gigahertz and average cycles per instruction of<br/>four. The same processor is upgraded to a pipelined processor with ﬁve stages; but due to the internal<br/>pipeline delay, the clock speed is reduced to<br/>gigahertz. Assume that there are no stalls in the pipeline. The<br/>speedup achieved in this pipelined processor is_______________.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "3.2",
+      "discussUrl": "https://gateoverflow.in/2077/gate-cse-2014-set-3-question-43"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2015 | Set 2 | Question: 44</strong></div><p>Consider the sequence of machine instruction given below:<br/>In  the above sequence,<br/>to<br/>are general purpose registers. In the instructions shown, the ﬁrst register shows<br/>the result of the operation performed on the second and the third registers. This sequence of instructions is to be<br/>executed in a pipelined instruction processor with the following<br/>stages:<br/>Instruction Fetch and Decode<br/>,<br/>Operand Fetch<br/>,<br/>Perform Operation<br/>and<br/>Write back the result<br/>. The<br/>,<br/>and<br/>stages take<br/>clock cycle each for any instruction. The<br/>stage takes<br/>clock cycle for ADD and SUB<br/>instruction,<br/>clock cycles for MUL instruction and<br/>clock cycles for DIV instruction. The pipelined processor uses</p></div>",
+      "options": [],
+      "correctAnswer": "13",
+      "discussUrl": "https://gateoverflow.in/2077/gate-cse-2014-set-3-question-43"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2015 | Set 3 | Question: 51</strong></div><p>Consider the following reservation table for a pipeline having three stages<br/>.<br/>The minimum average latency (MAL) is ______<br/>co-and-architecture<br/>pipelining<br/>difficult</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2016 | Set 1 | Question: 32</strong></div><p>The stage delays in a<br/>-stage pipeline are<br/>and<br/>picoseconds. The ﬁrst stage (with delay<br/>picoseconds) is replaced with a functionality equivalent design involving two stages with respective<br/>delays<br/>and<br/>picoseconds. The throughput increase of the pipeline is ___________ percent.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "33.0 :",
+      "discussUrl": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2016 | Set 2 | Question: 33</strong></div><p>Consider a<br/>(gigahertz) processor with a three stage pipeline and stage latencies<br/>and<br/>such<br/>that<br/>. If the longest pipeline stage is split into two pipeline stages of equal latency , the<br/>new frequency is __________<br/>, ignoring delays in the pipeline registers.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2017 | Set 1 | Question: 50</strong></div><p>Instruction execution in a processor is divided into<br/>stages,<br/>Instruction Fetch<br/>( I F ) ,<br/>Instruction<br/>Decode<br/>(ID),<br/>Operand fetch<br/>(OF),<br/>Execute<br/>(EX), and<br/>Write Back<br/>(WB). These stages take<br/>5, 4, 20, 10<br/>and<br/>3<br/>nanoseconds (ns)<br/>respectively. A pipelined implementation of the processor requires buﬀering between each pair<br/>of consecutive stages with a delay of<br/>2 ns<br/>. Two pipelined implementation of the processor are contemplated:<br/>i<br/>.<br/>a naive pipeline implementation (NP) with<br/>stages and<br/>ii<br/>.<br/>an eﬃcient pipeline (EP) where the OF stage is divided into stages<br/>and<br/>with execution times of<br/>12<br/>ns<br/>and<br/>8 ns<br/>respectively.<br/>The speedup (correct to two decimal places) achieved by EP over NP in executing<br/>independent instructions with<br/>no hazards is _________ .<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "1.50 :",
+      "discussUrl": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2018 | Question: 50</strong></div><p>The instruction pipeline of a RISC processor has the following stages: Instruction Fetch<br/>, Instruction<br/>Decode<br/>, Operand Fetch<br/>, Perform Operation<br/>and Writeback<br/>, The<br/>,<br/>,<br/>and<br/>stages take<br/>clock cycle each for every instruction. Consider a sequence of<br/>instructions. In the<br/>stage,<br/>instructions take<br/>clock cycles each,<br/>instructions take<br/>clock cycles each, and the remaining<br/>instructions take<br/>clock cycle each. Assume that there are no data hazards and no control hazards.<br/>The number of clock cycles required for completion of execution of the sequence of instruction is _____.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "219",
+      "discussUrl": "https://gateoverflow.in/204125/gate-cse-2018-question-50"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2020 | Question: 43</strong></div><p>Consider a non-pipelined processor operating at<br/>GHz. It takes<br/>clock cycles to complete an instruction.<br/>You are going to make a<br/>- stage pipeline out of this processor. Overheads associated with pipelining force<br/>you to operate the pipelined processor at<br/>GHz. In a given program, assume that<br/>are memory instructions,<br/>are ALU instructions and the rest are branch instructions.<br/>of the memory instructions cause stalls of<br/>clock cycles each due to cache misses and<br/>of the branch instructions cause stalls of<br/>cycles each. Assume<br/>that there are no stalls associated with the execution of ALU instructions. For this program, the speedup achieved<br/>by the pipelined processor over the non-pipelined processor (round off to<br/>decimal places) is_____________.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "2.15:2.18",
+      "discussUrl": "https://gateoverflow.in/333188/gate-cse-2020-question-43"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2021 | Set 1 | Question: 53</strong></div><p>A ﬁve-stage pipeline has stage delays of<br/>and<br/>nanoseconds. The registers that are<br/>used between the pipeline stages have a delay of<br/>nanoseconds each.<br/>The total time to execute<br/>independent instructions on this pipeline, assuming there are no pipeline stalls, is<br/>_______ nanoseconds.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "17160 :",
+      "discussUrl": "https://gateoverflow.in/204125/gate-cse-2018-question-50"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2021 | Set 2 | Question: 53</strong></div><p>Consider a pipelined processor with<br/>stages,<br/>,<br/>,<br/>,<br/>, and<br/>. Each stage of the pipeline, except the<br/>stage, takes one cycle. Assume that the<br/>stage merely decodes the instruction and the register read is<br/>performed in the<br/>stage. The<br/>stage takes one cycle for<br/>instruction and two cycles for<br/>instruction.<br/>Ignore pipeline register latencies.<br/>Consider the following sequence of<br/>instructions:<br/>Assume that every<br/>instruction is data-dependent on the<br/>instruction just before it and every<br/>instruction (except the ﬁrst<br/>) is data-dependent on the<br/>instruction just before it. The<br/>deﬁned as<br/>follows.<br/>The<br/>achieved in executing the given instruction sequence on the pipelined processor (rounded to<br/>decimal places) is _____________<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "1.87 : 1.88",
+      "discussUrl": "https://gateoverflow.in/204125/gate-cse-2018-question-50"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2023 | Question: 23</strong></div><p>Consider a<br/>-stage pipelined processor having a delay of<br/>(nanoseconds),<br/>, and<br/>for the<br/>ﬁrst, second, and the third stages, respectively. Assume that there is no other delay and the processor does<br/>not suffer from any pipeline hazards. Also assume that one instruction is fetched every cycle.<br/>The total execution time for executing<br/>instructions on this processor is _____________<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "2040",
+      "discussUrl": "https://gateoverflow.in/399288/gate-cse-2023-question-23"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2024 | Set 1 | Question: 20</strong></div><p>Consider a<br/>-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX),<br/>Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about<br/>forwarding<br/>is/are CORRECT?<br/>A<br/>.<br/>In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on<br/>to the destination stage of a later instruction<br/>B<br/>.<br/>In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next<br/>instruction<br/>C<br/>.<br/>Forwarding cannot prevent all pipeline stalls<br/>D<br/>.<br/>Forwarding does not require any extra hardware to retrieve the data from the pipeline stages<br/>multiple-selects<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/399288/gate-cse-2023-question-23"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2024 | Set 2 | Question: 21</strong></div><p>​​​​​<br/>An instruction format has the following structure:<br/>Instruction Number:<br/>Opcode destination reg, source reg-<br/>, source reg-<br/>Consider the following sequence of instructions to be executed in a pipelined processor:<br/>Which of the following statements is/are TRUE?<br/>A<br/>.<br/>There is a RAW dependency on<br/>between<br/>and<br/>B<br/>.<br/>There is a WAR dependency on<br/>between<br/>and<br/>C<br/>.<br/>There is a RAW dependency on<br/>between<br/>and<br/>D<br/>.<br/>There is a WAW dependency on<br/>between<br/>and<br/>co-and-architecture<br/>multiple-selects<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399288/gate-cse-2023-question-23"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2024 | Set 2 | Question: 48</strong></div><p>A non-pipelined instruction execution unit operating at<br/>takes an average of<br/>cycles to execute an<br/>instruction of a program<br/>. The unit is then redesigned to operate on a<br/>-stage pipeline at<br/>. Assume<br/>that the ideal throughput of the pipelined unit is<br/>instruction per cycle. In the execution of program<br/>,<br/>instructions incur an average of<br/>cycles stall due to data hazards and<br/>instructions incur an average of<br/>cycles stall due to control hazards. The speedup (rounded oﬀ to one decimal place) obtained by the pipelined<br/>design over the non-pipelined design is ____________.<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/399288/gate-cse-2023-question-23"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE CSE 2025 | Set 2 | Question: 46</strong></div><p>A<br/>-stage instruction pipeline has stage delays of<br/>, and<br/>, respectively, in<br/>nanoseconds. The delay of an inter-stage latch is<br/>nanoseconds. Assume that there are no pipeline stalls<br/>due to branches and other hazards. The time taken to process<br/>instructions in microseconds is __________.<br/>(rounded off to two decimal places)<br/>co-and-architecture<br/>pipelining<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "260.20:261.20",
+      "discussUrl": "https://gateoverflow.in/460847/gate-cse-2025-set-2-question-46"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2004 | Question: 47</strong></div><p>Consider a pipeline processor with<br/>stages<br/>to<br/>. We want to execute the following loop:<br/>for<br/>(<br/>i<br/>=<br/>1<br/>;<br/>i<br/><<br/>=<br/>1000<br/>;<br/>i<br/>++)<br/>{<br/>I1<br/>,<br/>I2<br/>,<br/>I3<br/>,<br/>I4<br/>}<br/>where the time taken (in ns) by instructions<br/>to<br/>for stages<br/>to<br/>are given below:<br/>The output of<br/>for<br/>will be available after<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460847/gate-cse-2025-set-2-question-46"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2005 | Question: 44</strong></div><p>We have two designs<br/>and<br/>for a synchronous pipeline processor.<br/>has<br/>pipeline stages with<br/>execution times of<br/>nsec,<br/>nsec,<br/>nsec,<br/>nsec and<br/>nsec while the design<br/>has<br/>pipeline stages<br/>each with<br/>nsec execution time How much time can be saved using design<br/>over design<br/>for executing<br/>instructions?<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3805/gate-it-2005-question-44"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2006 | Question: 78</strong></div><p>A pipelined processor uses a<br/>stage instruction pipeline with the following stages: Instruction fetch (IF),<br/>Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load<br/>and store operations are carried out in the EX stage. The sequence of instructions corresponding to the statement<br/>is given below. The values of variables<br/>and<br/>are available in the<br/>registers<br/>and<br/>respectively, before the execution of the instruction sequence.<br/>The number of Read-After-Write (RAW) dependencies, Write-After-Read( WAR) dependencies, and Write-After-<br/>Write (WAW) dependencies in the sequence of instructions are, respectively,</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3622/gate-it-2006-question-78"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2006 | Question: 79</strong></div><p>A pipelined processor uses a 4-stage instruction pipeline with the following stages: Instruction fetch (IF),<br/>Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load<br/>and store operations are carried out in the EX stage. The sequence of instructions corresponding to the statement<br/>is given below. The values of variables<br/>and<br/>are available in the<br/>registers<br/>and<br/>respectively, before the execution of the instruction sequence.<br/>The IF, ID and WB stages take 1 clock cycle each. The EX stage takes<br/>clock cycle each for the ADD, SUB and<br/>STORE operations, and<br/>clock cycles each for MUL and DIV operations. Operand forwarding from the EX stage to<br/>the ID stage is used. The number of clock cycles required to complete the sequence of instructions is<br/>co-and-architecture<br/>pipelining</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3623/gate-it-2006-question-79"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2007 | Question: 6, ISRO2011-25</strong></div><p>A processor takes<br/>cycles to complete an instruction I. The corresponding pipelined processor uses<br/>stages with the execution times of<br/>and<br/>cycles respectively. What is the asymptotic speedup<br/>assuming that a very large number of instructions are to be executed?<br/>co-and-architecture<br/>pipelining<br/>isro2011</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3623/gate-it-2006-question-79"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pipelining",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pipelining: GATE IT 2008 | Question: 40</strong></div><p>A non pipelined single cycle processor operating at<br/>is converted into a synchro<br/>nous pipelined<br/>processor with ﬁve stages requiring<br/>and<br/>, respectively. The<br/>delay of the latches is<br/>. The speedup of the pipeline processor for a large number of instructions is:<br/>co-and-architecture<br/>pipelining<br/>Runtime Environment<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3350/gate-it-2008-question-40"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2001 | Question: 1.10, UGCNET-Dec2012-III: 36</strong></div><p>Suppose a processor does not have any stack pointer registers, which of the following statements is true?<br/>A<br/>.<br/>It cannot have subroutine call instruction<br/>B<br/>.<br/>It cannot have nested subroutines call<br/>C<br/>.<br/>Interrupts are not possible<br/>D<br/>.<br/>All subroutine calls and interrupts are possible<br/>co-and-architecture<br/>ugcnetcse-dec2012-paper3<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/3623/gate-it-2006-question-79"
+    }
+  ]
+}

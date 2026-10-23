@@ -1,0 +1,1183 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P2",
+  "fileName": "PYQ_Computer_Organization_COA_P2.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 2",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2006 | Question: 75</strong></div><p>Consider two cache organizations. First one is<br/>-way set associative with<br/>block size, the<br/>second is of same size but direct mapped. The size of an address is<br/>in  both cases . A<br/>-to-</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1851/gate-cse-2006-question-74"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2006 | Question: 80</strong></div><p>A CPU has a<br/>direct mapped cache with<br/>byte-block size. Suppose A is two dimensional array of<br/>size<br/>with elements that occupy<br/>-bytes each. Consider the following two C code segments,<br/>and<br/>.<br/>P1:<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>512<br/>;<br/>i<br/>++)<br/>{<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>512<br/>;<br/>j<br/>++)<br/>{<br/>x<br/>+=<br/>A<br/>[<br/>i<br/>]<br/>[<br/>j<br/>];<br/>}<br/>}<br/>P2:<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>512<br/>;<br/>i<br/>++)<br/>{<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>512<br/>;<br/>j<br/>++)<br/>{<br/>x<br/>+=<br/>A<br/>[<br/>j<br/>]<br/>[<br/>i<br/>];<br/>}<br/>}<br/>and<br/>are executed independently with the same initial state, namely, the array<br/>is not in the cache and<br/>,<br/>,<br/>are in registers.  Let the number of cache misses experienced by<br/>be<br/>and that for<br/>be<br/>.<br/>The value of<br/>is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1854/gate-cse-2006-question-80"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2006 | Question: 81</strong></div><p>A<br/>CPU<br/>has a<br/>direct mapped cache with<br/>byte-block size. Suppose<br/>is two dimensional array of<br/>size<br/>with elements that occupy<br/>each. Consider the following two<br/>code segments,<br/>and<br/>.<br/>:<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>512<br/>;<br/>i<br/>++)<br/>{<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>512<br/>;<br/>j<br/>++)<br/>{<br/>x<br/>+=<br/>A<br/>[<br/>i<br/>]<br/>[<br/>j<br/>];<br/>}<br/>}<br/>P2:<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>512<br/>;<br/>i<br/>++)<br/>{<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>512<br/>;<br/>j<br/>++)<br/>{<br/>x<br/>+=<br/>A<br/>[<br/>j<br/>]<br/>[<br/>i<br/>];<br/>}<br/>}<br/>and<br/>are executed independently with the same initial state, namely, the array<br/>is not in the cache and<br/>,<br/>,</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1854/gate-cse-2006-question-80"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2007 | Question: 10</strong></div><p>Consider a<br/>-way set associative cache consisting of<br/>lines with a line size of<br/>words. The<br/>CPU<br/>generates a<br/>address of a word in main memory. The number of bits in the TAG, LINE and WORD<br/>fields are respectively:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1208/gate-cse-2007-question-10"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2007 | Question: 80</strong></div><p>Consider a machine with a byte addressable main memory of<br/>bytes. Assume that a direct mapped data<br/>cache consisting of<br/>lines of<br/>bytes each is used in the system. A<br/>two-dimensional array of<br/>bytes is stored in the main memory starting from memory location<br/>. Assume that the data cache is initially<br/>empty. The complete array is accessed twice. Assume that the contents of the data cache do not change in<br/>between the two accesses.<br/>How many data misses will occur in total?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1208/gate-cse-2007-question-10"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2007 | Question: 81</strong></div><p>Consider a machine with a byte addressable main memory of<br/>bytes. Assume that a direct mapped data<br/>cache consisting of<br/>lines of<br/>bytes each is used in the system. A<br/>x<br/>two-dimensional array of<br/>bytes is stored in the main memory starting from memory location<br/>. Assume that the data cache is initially<br/>empty. The complete array is accessed twice. Assume that the contents of the data cache do not change in<br/>between the two accesses.<br/>Which of the following lines of the data cache will be replaced by new blocks in accessing the array for the second<br/>time?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1208/gate-cse-2007-question-10"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2008 | Question: 35</strong></div><p>For inclusion to hold between two cache levels<br/>and<br/>in a multi-level cache hierarchy, which of the<br/>following are necessary?<br/>I<br/>.<br/>must be write-through cache<br/>II<br/>.<br/>must be a write-through cache<br/>III<br/>.<br/>The associativity of<br/>must be greater than that of<br/>IV<br/>.<br/>The<br/>cache must be at least as large as the<br/>cache<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43511/gate-cse-2007-question-81"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2008 | Question: 71</strong></div><p>Consider a machine with a<br/>-way set associative data cache of size<br/>and block size<br/>. The<br/>cache is managed using<br/>virtual addresses and the page size is<br/>. A program to be run on this<br/>machine begins as follows:<br/>double<br/>ARR<br/>[<br/>1024<br/>][<br/>1024<br/>];<br/>int<br/>i<br/>,<br/>j<br/>;<br/>/*Initialize array ARR to 0.0 */<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>1024<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>1024<br/>;<br/>j<br/>++)<br/>ARR<br/>[<br/>i<br/>][<br/>j<br/>]<br/>=<br/>0.0<br/>;<br/>The size of double is<br/>. Array<br/>is located in memory starting at the beginning of virtual page<br/>and stored in row major order. The cache is initially empty and no pre-fetching is done. The only data memory<br/>references made by the program are those to array<br/>.<br/>The total size of the tags in the cache directory is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/494/gate-cse-2008-question-71"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2008 | Question: 72</strong></div><p>Consider a machine with a<br/>-way set associative data cache of size<br/>Kbytes and block size<br/>bytes. The<br/>cache is managed using<br/>bit virtual addresses and the page size is<br/>Kbytes. A program to be run on this<br/>machine begins as follows:<br/>double<br/>ARR<br/>[<br/>1024<br/>][<br/>1024<br/>];<br/>int<br/>i<br/>,<br/>j<br/>;<br/>/*Initialize array ARR to 0.0 */<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>1024<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>1024<br/>;<br/>j<br/>++)<br/>ARR<br/>[<br/>i<br/>][<br/>j<br/>]<br/>=<br/>0.0<br/>;<br/>The size of double is<br/>bytes. Array<br/>is located in memory starting at the beginning of virtual page<br/>and stored in row major order. The cache is initially empty and no pre-fetching is done. The only data memory<br/>references made by the program are those to array<br/>.<br/>Which of the following array elements have the same cache index as<br/>?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/494/gate-cse-2008-question-71"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2008 | Question: 73</strong></div><p>Consider a machine with a<br/>-way set associative data cache of size<br/>Kbytes and block size<br/>bytes. The<br/>cache is managed using<br/>bit virtual addresses and the page size is<br/>Kbytes. A program to be run on this<br/>machine begins as follows:<br/>double<br/>ARR<br/>[<br/>1024<br/>][<br/>1024<br/>];<br/>int<br/>i<br/>,<br/>j<br/>;<br/>/*Initialize array ARR to 0.0 */<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>1024<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>1024<br/>;<br/>j<br/>++)<br/>ARR<br/>[<br/>i<br/>][<br/>j<br/>]<br/>=<br/>0.0<br/>;<br/>The size of double is<br/>bytes. Array<br/>is located in memory starting at the beginning of virtual page<br/>and stored in row major order. The cache is initially empty and no pre-fetching is done. The only data memory<br/>references made by the program are those to array<br/>.<br/>The cache hit ratio for this initialization loop is:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/494/gate-cse-2008-question-71"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2009 | Question: 29</strong></div><p>Consider a<br/>-way set associative cache (initially empty) with total<br/>cache blocks. The main memory<br/>consists of<br/>blocks and the request for memory blocks are in the following order:<br/>Which one of the following memory block will NOT be in cache if LRU replacement policy is used?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1315/gate-cse-2009-question-29"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2010 | Question: 48</strong></div><p>A computer system has an<br/>cache, an<br/>cache, and a main memory unit connected as shown below.<br/>The block size in<br/>cache is<br/>words. The block size in<br/>cache is<br/>words. The memory access times<br/>are<br/>nanoseconds,<br/>nanoseconds and<br/>nanoseconds for<br/>cache,<br/>cache and the main memory unit<br/>respectively.<br/>When there is a miss in<br/>cache and a hit in<br/>cache, a block is transferred from<br/>cache to<br/>cache. What<br/>is the time taken for this transfer?<br/>co-and-architecture<br/>cache-memory<br/>barc2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2352/gate-cse-2010-question-48"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2010 | Question: 49</strong></div><p>A computer system has an<br/>cache, an<br/>cache, and a main memory unit connected as shown below.<br/>The block size in<br/>cache is<br/>words. The block size in<br/>cache is<br/>words. The memory access times<br/>are<br/>nanoseconds,<br/>nanoseconds and<br/>nanoseconds for<br/>cache,<br/>cache and the main memory unit<br/>respectively.<br/>When there is a miss in both<br/>cache and<br/>cache, ﬁrst a block is transferred from main memory to<br/>cache,<br/>and then a block is transferred from<br/>cache to<br/>cache. What is the total time taken for these transfers?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2352/gate-cse-2010-question-48"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2011 | Question: 43</strong></div><p>A n<br/>direct-mapped write-back cache is organized as multiple blocks, each size of<br/>. The<br/>processor generates<br/>addresses. The cache controller contains the tag information for each cache<br/>block comprising of the following.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/43329/gate-cse-2010-question-49"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2012 | Question: 54</strong></div><p>A computer has a<br/>, 4-way set associative, write back data cache with block size of<br/>.<br/>The processor sends<br/>addresses to the cache controller. Each cache tag directory entry contains, in<br/>addition to address tag,<br/>valid bits,<br/>modified bit and<br/>replacement bit.<br/>The number of bits in the tag field of an address is<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2192/gate-cse-2012-question-54"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2012 | Question: 55</strong></div><p>A computer has a<br/>-<br/>, 4-way set associative, write back data cache with block size of<br/>.<br/>The processor sends<br/>addresses to the cache controller. Each cache tag directory entry contains, in<br/>addition to address tag,<br/>valid bits,<br/>modified bit and<br/>replacement bit.<br/>The size of the cache tag directory is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2192/gate-cse-2012-question-54"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2013 | Question: 20</strong></div><p>In a<br/>-way set associative cache, the cache is divided into<br/>sets, each of which consists of<br/>lines. The<br/>lines of a set are placed in sequence one after another. The lines in set<br/>are sequenced before the lines in<br/>set<br/>. The main memory blocks are numbered 0 onwards. The main memory block numbered<br/>must be<br/>mapped to any one of the cache lines from<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2192/gate-cse-2012-question-54"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2014 | Set 1 | Question: 44</strong></div><p>An access sequence of cache block addresses is of length<br/>and contains n unique block addresses. The<br/>number of unique block addresses between two consecutive accesses to the same block address is<br/>bounded above by<br/>. What is the miss ratio if the access sequence is passed through a cache of associativity<br/>exercising least-recently-used replacement policy?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2192/gate-cse-2012-question-54"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2014 | Set 2 | Question: 43</strong></div><p>In designing a computer's cache system, the cache block (or cache line) size is an important parameter.<br/>Which one of the following statements is correct in this context?<br/>A<br/>.<br/>A smaller block size implies better spatial locality<br/>B<br/>.<br/>A smaller block size implies a smaller cache tag and hence lower cache tag overhead<br/>C<br/>.<br/>A smaller block size implies a larger cache tag and hence lower cache hit time<br/>D<br/>.<br/>A smaller block size incurs a lower cache miss penalty<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2014 | Set 2 | Question: 44</strong></div><p>If the associativity of a processor cache is doubled while keeping the capacity and block size unchanged,<br/>which one of the following is guaranteed to be NOT affected?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2014 | Set 2 | Question: 9</strong></div><p>A<br/>-way set-associative cache memory unit with a capacity of<br/>KB is built using a block size of<br/>words.<br/>The word length is<br/>bits. The size of the physical address space is<br/>GB. The number of bits for the TAG<br/>field is ____<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "20",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2014 | Set 3 | Question: 44</strong></div><p>The memory access time is<br/>nanosecond for a read operation with a hit in cache,<br/>nanoseconds for a read<br/>operation with a miss in cache,<br/>nanoseconds for a write operation with a hit in cache and<br/>nanoseconds<br/>for a write operation with a miss in cache. Execution of a sequence of instructions involves<br/>instruction fetch<br/>operations,<br/>memory operand read operations and<br/>memory operand write operations. The cache hit-ratio is<br/>. The average memory access time (in nanoseconds) in executing the sequence of instructions is ______.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "1.68",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2015 | Set 2 | Question: 24</strong></div><p>Assume that for a certain processor, a read request takes<br/>on a cache miss and<br/>on a cache hit. Suppose while running a program, it was observed that<br/>of the<br/>processor's read requests result in a cache hit. The average read access time in nanoseconds is ______.<br/>co-and-architecture<br/>cache-memory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "14",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2015 | Set 3 | Question: 14</strong></div><p>Consider a machine with a byte addressable main memory of<br/>bytes, block size of<br/>bytes and a direct<br/>mapped cache having<br/>cache lines. Let the addresses of two consecutive bytes in main memory be<br/>and<br/>. What are the tag and cache line addresses ( in hex) for main memory address<br/>?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2009/gate-cse-2014-set-2-question-43"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2016 | Set 2 | Question: 32</strong></div><p>The width of the physical address on a machine is<br/>bits. The width of the tag ﬁeld in a<br/>KB<br/>-way set<br/>associative cache is ________ bits.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "24",
+      "discussUrl": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2016 | Set 2 | Question: 50</strong></div><p>A ﬁle system uses an in-memory cache to cache disk blocks. The miss rate of the cache is shown in the<br/>ﬁgure. The latency to read a block from the cache is<br/>ms and to read a block from the disk is<br/>ms.<br/>Assume that the cost of checking whether a block exists in the cache is negligible. Available cache sizes are in<br/>multiples of<br/>MB.<br/>The smallest cache size required to ensure an average read latency of less than<br/>ms is _________ MB.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "30",
+      "discussUrl": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2017 | Set 1 | Question: 25</strong></div><p>Consider a two-level cache hierarchy with<br/>and<br/>caches. An application incurs<br/>memory accesses<br/>per instruction on average. For this application, the miss rate of<br/>cache is<br/>; the<br/>cache experiences,<br/>on average,<br/>misses per<br/>instructions. The miss rate of<br/>expressed correct to two decimal places is<br/>________.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "0.05",
+      "discussUrl": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2017 | Set 1 | Question: 54</strong></div><p>A cache memory unit with capacity of<br/>words and block size of<br/>words is to be designed. If it is designed<br/>as a direct mapped cache, the length of the<br/>ﬁeld is<br/>bits. If the cache unit is now designed as a<br/>-<br/>way set-associative cache, the length of the<br/>field is ____________ bits.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "14",
+      "discussUrl": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2017 | Set 2 | Question: 29</strong></div><p>In a two-level cache system, the access times of<br/>and<br/>caches are<br/>and<br/>clock cycles, respectively.<br/>The miss penalty from the<br/>cache to main memory is<br/>clock cycles. The miss rate of<br/>cache is twice<br/>that of<br/>. The average memory access time (AMAT) of this cache system is<br/>cycles. The miss rates of<br/>and<br/>respectively are<br/>cache-memory<br/>co-and-architecture</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2017 | Set 2 | Question: 45</strong></div><p>The read access times and the hit ratios for different caches in a memory hierarchy are as given below:<br/>The read access time of main memory in<br/>. Assume that the caches use the referred-word-ﬁrst<br/>read policy and the write-back policy. Assume that all the caches are direct mapped caches. Assume that the dirty<br/>bit is always<br/>for all the blocks in the caches. In execution of a program,<br/>of memory reads are for instruction<br/>fetch and<br/>are for memory operand fetch. The average read access time in nanoseconds (up to<br/>decimal<br/>places) is _________<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "4.7 : 4.8",
+      "discussUrl": "https://gateoverflow.in/118597/gate-cse-2017-set-2-question-45"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2017 | Set 2 | Question: 53</strong></div><p>Consider a machine with a byte addressable main memory of<br/>bytes divided into blocks of size<br/>bytes.<br/>Assume that a direct mapped cache having<br/>cache lines is used with this machine. The size of the tag<br/>field in bits is _______<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "18",
+      "discussUrl": "https://gateoverflow.in/118597/gate-cse-2017-set-2-question-45"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2018 | Question: 34</strong></div><p>The size of the physical address space of a processor is<br/>bytes. The word length is<br/>bytes. The<br/>capacity of cache memory is<br/>bytes. The size of each cache block is<br/>words. For a<br/>-way set-<br/>associative cache memory, the length (in number of bits) of the tag field is<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204108/gate-cse-2018-question-34"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2019 | Question: 1</strong></div><p>A certain processor uses a fully associative cache of size<br/>kB, The cache block size is<br/>bytes. Assume<br/>that the main memory is byte addressable and uses a<br/>-bit address. How many bits are required for the<br/>Tag<br/>and the<br/>Index<br/>fields respectively in the addresses generated by the processor?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118597/gate-cse-2017-set-2-question-45"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2019 | Question: 45</strong></div><p>A certain processor deploys a single-level cache. The cache block size is<br/>words and the word size is<br/>bytes. The memory system uses a<br/>-MHz clock. To service a cache miss, the memory controller ﬁrst takes<br/>cycle to accept the starting address of the block, it then takes<br/>cycles to fetch all the eight words of the block,<br/>and ﬁnally transmits the words of the requested block at the rate of<br/>word per cycle. The maximum bandwidth for<br/>the memory system when the program running on the processor issues a series of read operations is  ______<br/>bytes/sec.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "160",
+      "discussUrl": "https://gateoverflow.in/118597/gate-cse-2017-set-2-question-45"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2020 | Question: 21</strong></div><p>A direct mapped cache memory of<br/>MB has a block size of<br/>bytes. The cache has an access time of<br/>ns and a hit rate of<br/>. During a cache miss, it takes<br/>0 ns to bring the ﬁrst word of a block from the main<br/>memory, while each subsequent word takes<br/>ns. The word size is<br/>bits. The average memory access time in ns<br/>(round off to<br/>decimal place) is______.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "13.3:13.3;13.5:13.5",
+      "discussUrl": "https://gateoverflow.in/333210/gate-cse-2020-question-21"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2020 | Question: 30</strong></div><p>A computer system with a word length of<br/>bits has a<br/>MB byte- addressable main memory and a<br/>KB,<br/>-way set associative cache memory with a block size of<br/>bytes. Consider the following four physical<br/>addresses represented in hexadecimal notation.<br/>,<br/>,<br/>,<br/>Which one of the following is TRUE?<br/>A<br/>.<br/>and<br/>are mapped to different cache sets.<br/>B<br/>.<br/>and<br/>are mapped to the same cache set.<br/>C<br/>.<br/>and<br/>are mapped to the same cache set.<br/>D<br/>.<br/>and<br/>are mapped to the same cache set.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333210/gate-cse-2020-question-21"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2021 | Set 1 | Question: 22</strong></div><p>Consider a computer system with a byte-addressable primary memory of size<br/>bytes. Assume the<br/>computer system has a direct-mapped cache of size<br/>(<br/>=<br/>bytes), and each cache block is of<br/>size<br/>bytes.<br/>The size of the tag field is __________ bits.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "17 : 17",
+      "discussUrl": "https://gateoverflow.in/333210/gate-cse-2020-question-21"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2021 | Set 2 | Question: 19</strong></div><p>Consider a set-associative cache of size<br/>bytes<br/>with cache block size of<br/>bytes.<br/>Assume that the cache is byte-addressable and a<br/>-bit address is used for accessing the cache. If the<br/>width of the tag field is<br/>bits, the associativity of the cache is _________<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "2 : 2",
+      "discussUrl": "https://gateoverflow.in/333210/gate-cse-2020-question-21"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2021 | Set 2 | Question: 27</strong></div><p>Assume a two-level inclusive cache hierarchy,<br/>and<br/>, where<br/>is the larger of the two. Consider the<br/>following statements.<br/>: Read misses in a write through<br/>cache do not result in writebacks of dirty lines to the<br/>: Write allocate policy<br/>must<br/>be used in conjunction with write through caches and no-write allocate policy is<br/>used with writeback caches.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333210/gate-cse-2020-question-21"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2022 | Question: 14</strong></div><p>Let<br/>and<br/>be two set associative cache organizations that use<br/>algorithm for cache block<br/>replacement.<br/>is a write back cache and<br/>is a write through cache. Which of the following<br/>statements is/are<br/>A<br/>.<br/>Each cache block in<br/>and<br/>has a dirty bit.<br/>B<br/>.<br/>Every write hit in<br/>leads to a data transfer from cache to main memory.<br/>C<br/>.<br/>Eviction of a block from<br/>will not lead to data transfer from cache to main memory.<br/>D<br/>.<br/>A read miss in<br/>will never lead to eviction of a dirty block from<br/>co-and-architecture<br/>cache-memory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/371922/gate-cse-2022-question-14"
+    }
+  ]
+}

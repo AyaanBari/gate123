@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Operating_Systems_P8",
+  "fileName": "PYQ_Operating_Systems_P8.json",
+  "title": "GATE Official PYQs | Operating Systems Part 8",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2020 | Question: 34</strong></div><p>Each of a set of<br/>processes executes the following code using two semaphores<br/>and<br/>initialized to<br/>and<br/>, respectively. Assume that<br/>is a shared variable initialized to<br/>and not used in CODE SECTION P.<br/>wait<br/>(<br/>a<br/>);<br/>count<br/>=<br/>count<br/>+<br/>1<br/>;<br/>if<br/>(<br/>count<br/>==<br/>n<br/>)<br/>signal<br/>(<br/>b<br/>);<br/>signal<br/>(<br/>a<br/>);<br/>wait<br/>(<br/>b<br/>)<br/>;<br/>signal<br/>(<br/>b<br/>);<br/>What does the code achieve?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333197/gate-cse-2020-question-34"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2021 | Set 1 | Question: 46</strong></div><p>Consider the following pseudocode, where<br/>is a semaphore initialized to<br/>in line<br/>and<br/>is a<br/>shared variable initialized to<br/>in line<br/>. Assume that the increment operation in line<br/>is<br/>atomic.<br/>1.<br/>int<br/>counter<br/>=<br/>0<br/>;<br/>2.<br/>Semaphore<br/>S<br/>=<br/>init<br/>(<br/>5<br/>);<br/>3.<br/>void<br/>parop<br/>(<br/>void<br/>)<br/>4.<br/>{<br/>5.<br/>wait<br/>(<br/>S<br/>);<br/>6.<br/>wait<br/>(<br/>S<br/>);<br/>7.<br/>counter<br/>++;<br/>8.<br/>signal<br/>(<br/>S<br/>);<br/>9.<br/>signal<br/>(<br/>S<br/>);<br/>10.<br/>}<br/>If five threads execute the function<br/>concurrently, which of the following program behavior(s) is/are possible?<br/>A<br/>.<br/>The value of<br/>is<br/>after all the threads successfully complete the execution of<br/>B<br/>.<br/>The value of<br/>is<br/>after all the threads successfully complete the execution of<br/>C<br/>.<br/>The value of<br/>is<br/>after all the threads successfully complete the execution of<br/>D<br/>.<br/>There is a deadlock involving all the threads<br/>multiple-selects<br/>operating-system<br/>process-synchronization<br/>semaphore</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/357405/gate-cse-2021-set-1-question-46"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2022 | Question: 9</strong></div><p>Consider the following threads,<br/>and<br/>executing on a single processor, synchronized using three<br/>binary semaphore variables,<br/>and<br/>operated upon using standard<br/>and<br/>The<br/>threads can be context switched in any order and at any time.<br/>Which initialization of the semaphores would print the sequence<br/>operating-system<br/>process-synchronization<br/>semaphore</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371927/gate-cse-2022-question-9"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2023 | Question: 28</strong></div><p>Consider the two functions<br/>and<br/>shown below.<br/>incr<br/>(){<br/>decr<br/>(){<br/>wait<br/>(<br/>s<br/>);<br/>wait<br/>(<br/>s<br/>);<br/>X<br/>=<br/>X<br/>+<br/>1<br/>;<br/>X<br/>=<br/>X<br/>-<br/>1<br/>;<br/>signal<br/>(<br/>s<br/>);<br/>signal<br/>(<br/>s<br/>);<br/>}<br/>}</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399283/gate-cse-2023-question-28"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2026 | Set 2 | Question: 41</strong></div><p>Consider three processes<br/>, and<br/>running identical code, as shown in the pseudocode below.<br/>and<br/>are two binary semaphores initialized to<br/>and<br/>, respectively.<br/>is a shared variable initialized to<br/>.<br/>Each line in the pseudocode is executed atomically.<br/>Pseudocode<br/>of<br/>P1<br/>,<br/>P2<br/>,<br/>and<br/>P3<br/>Wait<br/>(<br/>A<br/>);<br/>Print<br/>(*);<br/>X<br/>=<br/>X<br/>+<br/>1<br/>;<br/>If<br/>(<br/>X<br/>==<br/>2<br/>)<br/>{<br/>Print<br/>(<br/>$<br/>);<br/>Signal<br/>(<br/>B<br/>);<br/>}<br/>Signal<br/>(<br/>A<br/>);<br/>Wait<br/>(<br/>B<br/>);<br/>Print<br/>(#);<br/>Signal<br/>(<br/>B<br/>);<br/>Assume that any of the three processes can start to execute ﬁrst and context switching can happen between these<br/>processes at any arbitrary time and in any arbitrary order.<br/>Which of the following patterns is/are possible to be generated as an outcome of the execution of these three<br/>processes?<br/>operating-system<br/>semaphore<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/523105/gate-cse-2026-set-2-question-41"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE IT 2006 | Question: 57</strong></div><p>The wait and signal operations of a monitor are implemented using semaphores as follows. In the following,<br/>is a condition variable,<br/>mutex is a semaphore initialized to<br/>,<br/>_sem is a semaphore initialized to<br/>,<br/>_count is the number of processes waiting on semaphore<br/>_sem, initially<br/>,<br/>next is a semaphore initialized to<br/>,<br/>next_count is the number of processes waiting on semaphore next, initially<br/>.<br/>The body of each procedure that is visible outside the monitor is replaced with the following:<br/>P<br/>(<br/>mutex<br/>);<br/>...<br/>body<br/>of<br/>procedure<br/>...<br/>if<br/>(<br/>next_count<br/>><br/>0<br/>)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3601/gate-it-2006-question-57"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Srtf",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Srtf: GATE CSE 2025 | Set 2 | Question: 16</strong></div><p>Processes<br/>arrive in that order at times<br/>, and 8 milliseconds respectively, and have<br/>execution times of<br/>, and 9 milliseconds respectively. Shortest Remaining Time First (SRTF)<br/>algorithm is used as the CPU scheduling policy. Ignore context switching times.<br/>Which ONE of the following correctly gives the average turnaround time of the four processes in milliseconds?<br/>operating-system<br/>srtf<br/>process-scheduling<br/>average-turnaround-time<br/>System Calls<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460819/gate-cse-2025-set-2-question-16"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "System Calls",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System Calls: GATE CSE 2021 | Set 1 | Question: 14</strong></div><p>Which of the following standard<br/>library functions will<br/>always<br/>invoke a system call when executed from a<br/>single-threaded process in a<br/>operating system?<br/>multiple-selects<br/>operating-system<br/>system-calls<br/>Threads<br/>(10)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/460819/gate-cse-2025-set-2-question-16"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2004 | Question: 11</strong></div><p>Consider the following statements with respect to user-level threads and kernel-supported threads<br/>I<br/>.<br/>context switch is faster with kernel-supported threads<br/>II<br/>.<br/>for user-level threads, a system call can block the entire process<br/>III<br/>.<br/>Kernel supported threads can be scheduled independently<br/>IV<br/>.<br/>User level threads are transparent to the kernel<br/>Which of the above statements are true?<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1008/gate-cse-2004-question-11"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2007 | Question: 17</strong></div><p>Consider the following statements about user level threads and kernel level threads. Which one of the<br/>following statements is FALSE?<br/>A<br/>.<br/>Context switch time is longer for kernel level threads than for user level threads.<br/>B<br/>.<br/>User level threads do not need any hardware support.<br/>C<br/>.<br/>Related kernel level threads can be scheduled on different processors in a multi-processor system.<br/>D<br/>.<br/>Blocking one kernel level thread blocks all related threads.<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1215/gate-cse-2007-question-17"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2011 | Question: 16, UGCNET-June2013-III: 65</strong></div><p>A thread is usually deﬁned as a \"light weight process\" because an Operating System (OS) maintains smaller<br/>data structure for a thread than for a process. In relation to this, which of the following statement is TRUE?<br/>A<br/>.<br/>On per- thread basis , the OS maintains only CPU register state .<br/>B<br/>.<br/>The OS does not maintain a separate stack for each thread .<br/>C<br/>.<br/>On per- thread basis , the OS does not maintain virtual memory state .<br/>D<br/>.<br/>On per- thread basis , the OS maintains only scheduling and accounting information .<br/>operating-system<br/>threads<br/>ugcnetcse-june2013-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2118/gate-cse-2011-question-16-ugcnet-june2013-iii-65"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2014 | Set 1 | Question: 20</strong></div><p>Which one of the following is<br/>FALSE<br/>?<br/>A<br/>.<br/>User level threads are not scheduled by the kernel.<br/>B<br/>.<br/>When a user level thread is blocked, all other threads of its process are blocked.<br/>C<br/>.<br/>Context switching between user level threads is faster than context switching between kernel level threads.<br/>D<br/>.<br/>Kernel level threads cannot share the code segment.<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1008/gate-cse-2004-question-11"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2017 | Set 1 | Question: 18</strong></div><p>Threads of a process share</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1008/gate-cse-2004-question-11"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2017 | Set 2 | Question: 07</strong></div><p>Which of the following is/are shared by all the threads in a process?<br/>I<br/>.<br/>Program counter<br/>II<br/>.<br/>Stack<br/>III<br/>.<br/>Address space<br/>IV<br/>.<br/>Registers<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2021 | Set 2 | Question: 42</strong></div><p>Consider the following multi-threaded code segment (in a mix of C and pseudo-code), invoked by two<br/>processes<br/>and<br/>, and each of the processes spawns two threads<br/>and<br/>:<br/>int<br/>x<br/>=<br/>0<br/>;<br/>// global<br/>Lock<br/>L1<br/>;<br/>// global<br/>main<br/>()<br/>{<br/>create a thread to execute foo<br/>();<br/>// Thread T1<br/>create a thread to execute foo<br/>();<br/>// Thread T2<br/>wait<br/>for<br/>the two threads to finish execution<br/>;<br/>print<br/>(<br/>x<br/>);}<br/>foo<br/>()<br/>{<br/>int<br/>y<br/>=<br/>0<br/>;<br/>Acquire<br/>L1<br/>;<br/>x<br/>=<br/>x<br/>+<br/>1<br/>;<br/>y<br/>=<br/>y<br/>+<br/>1<br/>;<br/>Release<br/>L1<br/>;<br/>print<br/>(<br/>y<br/>);}<br/>Which of the following statement(s) is/are correct?<br/>A<br/>.<br/>Both<br/>and<br/>will print the value of<br/>as<br/>B<br/>.<br/>At least of<br/>and<br/>will print the value of<br/>as<br/>C<br/>.<br/>At least one of the threads will print the value of<br/>as<br/>D<br/>.<br/>Both<br/>and<br/>, in both the processes, will print the value of<br/>as<br/>multiple-selects<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2024 | Set 1 | Question: 14</strong></div><p>Which of the following statements about threads is/are TRUE?<br/>A<br/>.<br/>Threads can only be implemented in kernel space<br/>B<br/>.<br/>Each thread has its own file descriptor table for open files<br/>C<br/>.<br/>All the threads belonging to a process share a common stack<br/>D<br/>.<br/>Threads belonging to a process are by default not protected from each other<br/>multiple-selects<br/>operating-system<br/>threads</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE CSE 2024 | Set 1 | Question: 30</strong></div><p>Consider the following two threads<br/>and<br/>that update two shared variables<br/>and<br/>. Assume that<br/>initially<br/>. Though context switching between threads can happen at any time, each statement of<br/>or<br/>is executed atomically without interruption.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Threads",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Threads: GATE IT 2004 | Question: 14</strong></div><p>Which one of the following is NOT shared by the threads of the same process ?<br/>operating-system<br/>easy<br/>threads<br/>Translation Lookaside Buffer<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3655/gate-it-2004-question-14"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Translation Lookaside Buffer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Translation Lookaside Buffer: GATE CSE 2022 | Question: 28</strong></div><p>Which one of the following statements is<br/>A<br/>.<br/>The<br/>performs an associative search in parallel on all its valid entries using page number of incoming<br/>virtual address.<br/>B<br/>.<br/>If the virtual address of a word given by<br/>has a<br/>hit, but the subsequent search for the word results in<br/>a cache miss, then the word will always be present in the main memory.<br/>C<br/>.<br/>The memory access time using a given inverted page table is always same for all incoming virtual addresses.<br/>D<br/>.<br/>In a system that uses hashed page tables, if two distinct virtual addresses<br/>and<br/>map to the same value<br/>while hashing, then the memory access time of these addresses will not be the same.<br/>operating-system<br/>memory-management<br/>translation-lookaside-buffer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371908/gate-cse-2022-question-28"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Translation Lookaside Buffer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Translation Lookaside Buffer: GATE CSE 2026 | Set 2 | Question: 44</strong></div><p>A system has a Translation Lookaside Buﬀer (TLB) that has a reach of<br/>MB. TLB reach is deﬁned as the<br/>total amount of physical memory that can be accessed through the TLB entries. The paging system uses<br/>pages of size<br/>KB. The virtual address space is<br/>GB and physical address space is<br/>GB. If each TLB entry<br/>stores a<br/>-bit process id, page number, frame number, and a<br/>-bit control ﬁeld, then the size of the TLB (in bytes) is<br/>. (answer in integer)<br/>Note:<br/>operating-system<br/>translation-lookaside-buffer<br/>paging<br/>Virtual Memory<br/>(43)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(6Q)</p></div>",
+      "options": [],
+      "correctAnswer": "1536",
+      "discussUrl": "https://gateoverflow.in/3655/gate-it-2004-question-14"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1989 | Question: 2-iv</strong></div><p>Match the pairs in the following:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3655/gate-it-2004-question-14"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1990 | Question: 1-v</strong></div><p>Under paged memory management scheme, simple lock and key memory protection arrangement may still<br/>be required if the _________ processors do not have address mapping hardware.<br/>operating-system<br/>virtual-memory<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/83833/gate-cse-1990-question-1-v"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1990 | Question: 7-b</strong></div><p>In a two-level virtual memory, the memory access time for main memory,<br/>sec, and the memory<br/>access time for the secondary memory,<br/>sec. What must be the hit ratio,<br/>such that the access<br/>efficiency is within<br/>percent of its maximum value?<br/>descriptive<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "99.99",
+      "discussUrl": "https://gateoverflow.in/83833/gate-cse-1990-question-1-v"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1991 | Question: 03-xi</strong></div><p>Indicate all the false statements from the statements given below:<br/>A<br/>.<br/>The amount of virtual memory available is limited by the availability of the secondary memory<br/>B<br/>.<br/>Any implementation of a critical section requires the use of an indivisible machine- instruction ,such as test-and-<br/>set.<br/>C<br/>.<br/>The use of monitors ensure that no dead-locks will be caused .<br/>D<br/>.<br/>The LRU page-replacement policy may cause thrashing for some type of programs.<br/>E<br/>.<br/>The best fit techniques for memory allocation ensures that memory will never be fragmented.<br/>operating-system<br/>virtual-memory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;E",
+      "discussUrl": "https://gateoverflow.in/525/gate-cse-1991-question-03-xi"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1994 | Question: 1.21</strong></div><p>Which one of the following statements is true?<br/>A<br/>.<br/>Macro definitions cannot appear within other macro definitions in assembly language programs<br/>B<br/>.<br/>Overlaying is used to run a program which is longer than the address space of a computer<br/>C<br/>.<br/>Virtual memory can be used to accommodate a program which is longer than the address space of a computer<br/>D<br/>.<br/>It is not possible to write interrupt service routines in a high level language<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/83833/gate-cse-1990-question-1-v"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1995 | Question: 1.7</strong></div><p>In a paged segmented scheme of memory management, the segment table itself must have a page table<br/>because<br/>A<br/>.<br/>The segment table is often too large to fit in one page<br/>B<br/>.<br/>Each segment is spread over a number of pages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/83833/gate-cse-1990-question-1-v"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1995 | Question: 2.16</strong></div><p>In a virtual memory system the address space speciﬁed by the address lines of the CPU must be _____<br/>than the physical memory size and ____ than the secondary storage size.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2628/gate-cse-1995-question-2-16"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1996 | Question: 7</strong></div><p>A demand paged virtual memory system uses<br/>bit virtual address, page size of<br/>bytes, and has<br/>Kbyte of main memory.<br/>page replacement is implemented using the list, whose current status (page<br/>number is decimal) is<br/>For each hexadecimal address in the address sequence given below,<br/>indicate<br/>i<br/>.<br/>the new status of the list<br/>ii<br/>.<br/>page faults, if any, and<br/>iii<br/>.<br/>page replacements, if any.<br/>operating-system<br/>virtual-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2759/gate-cse-1996-question-7"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1998 | Question: 2.18, UGCNET-June2012-III: 48</strong></div><p>If an instruction takes<br/>microseconds and a page fault takes an additional<br/>microseconds, the eﬀective<br/>instruction time if on the average a page fault occurs every<br/>instruction is:<br/>operating-system<br/>virtual-memory<br/>easy<br/>ugcnetcse-june2012-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2628/gate-cse-1995-question-2-16"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1999 | Question: 19</strong></div><p>A certain computer system has the segmented paging architecture for virtual memory. The memory is byte<br/>addressable. Both virtual and physical address spaces contain<br/>bytes each. The virtual address space is<br/>divided into<br/>non-overlapping equal size segments. The memory management unit (MMU) has a hardware<br/>segment table, each entry of which contains the physical address of the page table for the segment. Page tables<br/>are stored in the main memory and consists of<br/>byte page table entries.<br/>a<br/>.<br/>What is the minimum page size in bytes so that the page table for a segment requires at most one page to store<br/>it? Assume that the page size can only be a power of<br/>.<br/>b<br/>.<br/>Now suppose that the pages size is<br/>bytes. It is proposed to provide a TLB (Transaction look-aside buﬀer)<br/>for speeding up address translation. The proposed TLB will be capable of storing page table entries for</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2628/gate-cse-1995-question-2-16"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1999 | Question: 2.10</strong></div><p>A multi-user, multi-processing operating system cannot be implemented on hardware that does not support<br/>A<br/>.<br/>Address translation<br/>B<br/>.<br/>DMA for disk transfer<br/>C<br/>.<br/>At least two modes of CPU execution (privileged and non-privileged)<br/>D<br/>.<br/>Demand paging<br/>operating-system<br/>virtual-memory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 1999 | Question: 2.11</strong></div><p>Which of the following is/are advantage(s) of virtual memory?<br/>A<br/>.<br/>Faster access to memory on an average.<br/>B<br/>.<br/>Processes can be given protected address spaces.<br/>C<br/>.<br/>Linker can assign addresses independent of where the program will be loaded in physical memory.<br/>D<br/>.<br/>Program larger than the physical memory size can be run.<br/>operating-system<br/>virtual-memory<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2000 | Question: 2.22</strong></div><p>Suppose the time to service a page fault is on the average<br/>milliseconds, while a memory access takes<br/>microsecond. Then a<br/>hit ratio results in average memory access time of<br/>operating-system<br/>easy<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2001 | Question: 1.20</strong></div><p>Where does the swap space reside?<br/>operating-system<br/>easy<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2001 | Question: 1.8</strong></div><p>Which of the following statements is false?<br/>A<br/>.<br/>Virtual memory implements the translation of a program's address space into physical memory address space<br/>B<br/>.<br/>Virtual memory allows each program to exceed the size of the primary memory<br/>C<br/>.<br/>Virtual memory increases the degree of multiprogramming<br/>D<br/>.<br/>Virtual memory reduces the context switching overhead</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2001 | Question: 2.21</strong></div><p>Consider a machine with<br/>MB physical memory and a<br/>-bit virtual address space. If the page size is<br/>KB, what is the approximate size of the page table?<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/739/gate-cse-2001-question-2-21"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2002 | Question: 19</strong></div><p>A computer uses<br/>virtual address, and<br/>physical address. The physical memory is byte<br/>addressable, and the page size is<br/>It is decided to use two level page tables to translate from<br/>virtual address to physical address. Equal number of bits should be used for indexing ﬁrst level and second level<br/>page table, and the size of each table entry is<br/>bytes.<br/>A<br/>.<br/>Give a diagram showing how a virtual address would be translated to a physical address.<br/>B<br/>.<br/>What is the number of page table entries that can be contained in each page?<br/>C<br/>.<br/>How many bits are available for storing protection and other information in each page table entry?<br/>operating-system<br/>virtual-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/872/gate-cse-2002-question-19"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2003 | Question: 26</strong></div><p>In a system with<br/>virtual addresses and<br/>page size, use of one-level page tables for virtual to<br/>physical address translation is not practical because of<br/>A<br/>.<br/>the large amount of internal fragmentation<br/>B<br/>.<br/>the large amount of external fragmentation<br/>C<br/>.<br/>the large memory overhead in maintaining page tables<br/>D<br/>.<br/>the large computation overhead in the translation process<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/916/gate-cse-2003-question-26"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2003 | Question: 78</strong></div><p>A processor uses<br/>page tables for virtual to physical address translation. Page tables for both<br/>levels are stored in the main memory. Virtual and physical addresses are both<br/>bits wide. The memory is<br/>byte addressable. For virtual to physical address translation, the<br/>most signiﬁcant bits of the virtual address are<br/>used as index into the ﬁrst level page table while the next<br/>bits are used as index into the second level page<br/>table. The<br/>least signiﬁcant bits of the virtual address are used as oﬀset within the page. Assume that the page<br/>table entries in both levels of page tables are<br/>bytes wide. Further, the processor has a translation look-aside<br/>buﬀer (TLB), with a hit rate of<br/>. The TLB caches recently used virtual page numbers and the corresponding<br/>physical page numbers. The processor also has a physically addressed cache with a hit rate of<br/>. Main memory<br/>access time is<br/>ns, cache access time is<br/>ns, and TLB access time is also<br/>ns.<br/>Assuming that no page faults occur, the average time taken to access a virtual address is approximately (to the<br/>nearest<br/>ns)<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/916/gate-cse-2003-question-26"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2003 | Question: 79</strong></div><p>A processor uses<br/>page tables for virtual to physical address translation. Page tables for both levels<br/>are stored in the main memory. Virtual and physical addresses are both<br/>bits wide. The memory is byte<br/>addressable. For virtual to physical address translation, the<br/>most signiﬁcant bits of the virtual address are used<br/>as index into the ﬁrst level page table while the next<br/>bits are used as index into the second level page table. The<br/>least signiﬁcant bits of the virtual address are used as oﬀset within the page. Assume that the page table entries<br/>in both levels of page tables are<br/>bytes wide. Further, the processor has a translation look-aside buﬀer (TLB), with<br/>a hit rate of<br/>. The TLB caches recently used virtual page numbers and the corresponding physical page<br/>numbers. The processor also has a physically addressed cache with a hit rate of<br/>. Main memory access time<br/>is<br/>ns, cache access time is<br/>ns, and TLB access time is also<br/>ns.<br/>Suppose a process has only the following pages in its virtual address space: two contiguous code pages starting at<br/>virtual address<br/>, two contiguous data pages starting at virtual address<br/>, and a stack<br/>page starting at virtual address<br/>. The amount of memory required for storing the page tables of<br/>this process is<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43578/gate-cse-2003-question-79"
+    }
+  ]
+}

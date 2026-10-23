@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P1",
+  "fileName": "PYQ_Discrete_Mathematics_P1.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 1",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE CSE 1999 | Question: 1.3</strong></div><p>The number of binary strings of<br/>zeros and<br/>ones in which no two ones are adjacent is<br/>counting<br/>balls-in-bins</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1457/gate-cse-1999-question-1-3"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE CSE 2000 | Question: 5</strong></div><p>A multiset is an unordered collection of elements where elements may repeat any number of times. The size<br/>of a multiset is the number of elements in it, counting repetitions.<br/>a<br/>.<br/>What is the number of multisets of size<br/>that can be constructed from n distinct elements so that at least one<br/>element occurs exactly twice?<br/>b<br/>.<br/>How many multisets can be constructed from n distinct elements?<br/>descriptive<br/>counting<br/>balls-in-bins</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/676/gate-cse-2000-question-5"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE CSE 2002 | Question: 13</strong></div><p>a<br/>.<br/>In how many ways can a given positive integer<br/>be expressed as the sum of<br/>positive integers (which are<br/>not necessarily distinct). For example, for<br/>, the number of ways is<br/>, i.e.,<br/>. Give only the<br/>answer without any explanation.<br/>b<br/>.<br/>In how many ways can a given positive integer<br/>be expressed as the sum of<br/>positive integers (which are<br/>not necessarily distinct). For example, for<br/>, the number of ways is<br/>, i.e.,<br/>and<br/>. Give only the answer without explanation.<br/>c<br/>.<br/>In how many ways can a given positive integer<br/>be expressed as the sum of<br/>positive integers (which are<br/>not necessarily distinct). Give only the answer without explanation.<br/>descriptive<br/>balls-in-bins</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/866/gate-cse-2002-question-13"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE CSE 2003 | Question: 34</strong></div><p>identical balls are to be placed in<br/>distinct bags. You are given that<br/>, where<br/>is a natural<br/>number<br/>. In how many ways can the balls be placed in the bags if each bag must contain at least<br/>balls?<br/>balls-in-bins</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/924/gate-cse-2003-question-34"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE CSE 2022 | Question: 22</strong></div><p>The number of arrangements of six identical balls in three identical bins is _____________ .<br/>balls-in-bins</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/371914/gate-cse-2022-question-22"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Balls In Bins",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Balls In Bins: GATE IT 2004 | Question: 35</strong></div><p>In how many ways can we distribute<br/>distinct balls,<br/>in<br/>distinct cells,<br/>such that Ball<br/>is not in cell<br/>,<br/>and each cell contains exactly one ball?<br/>balls-in-bins<br/>(18)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3678/gate-it-2004-question-35"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 1990 | Question: 3-ix</strong></div><p>The number of ways in which<br/>and<br/>can be arranged in a row is:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 1991 | Question: 16,a</strong></div><p>Find the number of binary strings<br/>of length<br/>with an equal number of<br/>and<br/>and the property that<br/>every prefix of<br/>has at least as many<br/>as<br/>descriptive<br/>catalan-number</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/543/gate-cse-1991-question-16-a"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 1998 | Question: 1.23</strong></div><p>How many sub strings of different lengths (non-zero) can be formed from a character string of length<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 1999 | Question: 2.2</strong></div><p>Two girls have picked<br/>roses,<br/>sunﬂowers and<br/>daﬀodils. What is the number of ways they can divide<br/>the flowers among themselves?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1660/gate-cse-1998-question-1-23"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2001 | Question: 2.1</strong></div><p>How many<br/>-digit even numbers have all<br/>digits distinct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2003 | Question: 4</strong></div><p>Let<br/>be a sequence of<br/>distinct integers sorted in ascending order. How many distinct pairs of sequences,<br/>and<br/>are there such that<br/>i<br/>.<br/>each is sorted in ascending order,<br/>ii<br/>.<br/>has<br/>and<br/>has<br/>elements, and<br/>iii<br/>.<br/>the result of merging<br/>and<br/>gives</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2003 | Question: 5</strong></div><p>couples are invited to a party with the condition that every husband should be accompanied by his wife.<br/>However, a wife need not be accompanied by her husband. The number of diﬀerent gatherings possible at<br/>the party is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/543/gate-cse-1991-question-16-a"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2004 | Question: 75</strong></div><p>Mala has the colouring book in which each English letter is drawn two times. She wants to paint each of<br/>these<br/>prints with one of<br/>colours, such that the colour pairs used to colour any two letters are diﬀerent.<br/>Both prints of a letter can also be coloured with the same colour. What is the minimum value of<br/>that satisﬁes this<br/>requirement?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1069/gate-cse-2004-question-75"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2007 | Question: 84</strong></div><p>Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up<br/>or one unit right, i.e., if it is at<br/>then it can move to either<br/>or<br/>.<br/>How many distinct paths are there for the robot to reach the point<br/>starting from the initial position<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1275/gate-cse-2007-question-84"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2007 | Question: 85</strong></div><p>Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up<br/>or one unit right, i.e., if it is at<br/>then it can move to either<br/>or<br/>.<br/>Suppose that the robot is not allowed to traverse the line segment from<br/>to<br/>. With this constraint, how<br/>many distinct paths are there for the robot to reach<br/>starting from<br/>?<br/>discrete-mathematics</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1275/gate-cse-2007-question-84"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2014 | Set 1 | Question: 49</strong></div><p>A pennant is a sequence of numbers, each number being<br/>or<br/>. An<br/>pennant is a sequence of numbers<br/>with sum equal to<br/>. For example,<br/>is a<br/>pennant. The set of all possible<br/>pennants is<br/>, the<br/>set of all possible<br/>pennants is<br/>and the set of all<br/>pennants is<br/>. Note that the<br/>pennant<br/>is not the same as the pennant<br/>. The number of<br/>pennants is________</p></div>",
+      "options": [],
+      "correctAnswer": "89",
+      "discussUrl": "https://gateoverflow.in/1069/gate-cse-2004-question-75"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2015 | Set 3 | Question: 5</strong></div><p>The number of<br/>digit numbers having their digits in non-decreasing order (from left to right) constructed by<br/>using the digits belonging to the set<br/>is ________.</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/1069/gate-cse-2004-question-75"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2019 | Question: 5</strong></div><p>Let<br/>Let<br/>. Consider the following two statements on<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1069/gate-cse-2004-question-75"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2020 | Question: 42</strong></div><p>The number of permutations of the characters in LILAC so that no character appears in its original position, if<br/>the two L’s are indistinguishable, is ______.</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/333189/gate-cse-2020-question-42"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2025 | Set 1 | Question: 20</strong></div><p>Let<br/>be the set of all ternary strings deﬁned over the alphabet<br/>. Consider all strings in<br/>that<br/>contain at least one occurrence of two consecutive symbols, that is,<br/>,<br/>or<br/>. The number of<br/>such strings of length<br/>that are possible is __________. (Answer in integer).</p></div>",
+      "options": [],
+      "correctAnswer": "195:195",
+      "discussUrl": "https://gateoverflow.in/333189/gate-cse-2020-question-42"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2026 | Set 1 | Question: 2</strong></div><p>Consider<br/>matrices with their elements from<br/>. The number of such matrices with even number of<br/>s in every row and every column is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333189/gate-cse-2020-question-42"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE IT 2005 | Question: 46</strong></div><p>A line<br/>in a circuit is said to have a<br/>fault if the line permanently has a logic value<br/>.<br/>Similarly a line<br/>in a circuit is said to have a<br/>fault if the line permanently has a logic value<br/>. A circuit is said to have a multiple<br/>fault if one or more lines have stuck at faults. The total number of<br/>distinct multiple<br/>faults possible in a circuit with<br/>lines is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460060/gate-cse-2025-set-1-question-20"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE IT 2008 | Question: 25</strong></div><p>In how many ways can<br/>blue balls and<br/>red balls be distributed in<br/>distinct boxes?<br/>A.<br/>B.<br/>C.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460060/gate-cse-2025-set-1-question-20"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 1990 | Question: 3-iii</strong></div><p>The number of rooted binary trees with<br/>nodes is,<br/>A<br/>.<br/>Equal to the number of ways of multiplying<br/>matrices.<br/>B<br/>.<br/>Equal to the number of ways of arranging<br/>out of<br/>distinct elements.<br/>C<br/>.<br/>Equal to<br/>.<br/>D<br/>.<br/>Equal to<br/>.<br/>catalan-number<br/>multiple-selects<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/84060/gate-cse-1990-question-3-iii"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 1991 | Question: 02-iv</strong></div><p>Match the pairs in the following questions by writing the corresponding letters only.<br/>match-the-following<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/514/gate-cse-1991-question-02-iv"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 1994 | Question: 1.15</strong></div><p>The number of substrings (of all lengths inclusive) that can be formed from a character string of length<br/>is<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/84060/gate-cse-1990-question-3-iii"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2021 | Set 1 | Question: 19</strong></div><p>There are<br/>jobs with distinct diﬃculty levels, and<br/>computers with distinct processing speeds. Each job is<br/>assigned to a computer such that:<br/>The fastest computer gets the toughest job and the slowest computer gets the easiest job.<br/>Every computer gets at least one job.<br/>The number of ways in which this can be done is ___________.<br/>counting</p></div>",
+      "options": [],
+      "correctAnswer": "65 : 65",
+      "discussUrl": "https://gateoverflow.in/84060/gate-cse-1990-question-3-iii"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2021 | Set 2 | Question: 50</strong></div><p>Let<br/>be a set consisting of<br/>elements. The number of tuples of the form<br/>such that<br/>and<br/>are<br/>subsets of<br/>, and<br/>is ___________<br/>counting</p></div>",
+      "options": [],
+      "correctAnswer": "59049 : 59049",
+      "discussUrl": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2023 | Question: 38</strong></div><p>Let<br/>where<br/>is a large positive integer greater than<br/>Let<br/>be a positive integer<br/>less than<br/>. Let<br/>be subsets of<br/>with<br/>and<br/>. We say that a permutation of<br/>separates<br/>from<br/>if one of the following is true.<br/>All members of<br/>appear in the permutation before any of the members of<br/>.<br/>All members of<br/>appear in the permutation before any of the members of<br/>.<br/>How many permutations of<br/>separate<br/>from<br/>counting<br/>Generating Functions<br/>(6)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/399273/gate-cse-2023-question-38"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 1987 | Question: 10b</strong></div><p>What is the generating function<br/>for the sequence of Fibonacci numbers?<br/>generating-functions<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82451/gate-cse-1987-question-10b"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 2005 | Question: 50</strong></div><p>Let<br/>, where<br/>. What is<br/>?<br/>generating-functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 2016 | Set 1 | Question: 26</strong></div><p>The coefficient of<br/>in<br/>is ___________.<br/>generating-functions</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 2017 | Set 2 | Question: 47</strong></div><p>If the ordinary generating function of a sequence<br/>is<br/>, then<br/>is equal to<br/>___________ .<br/>generating-functions</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 2018 | Question: 1</strong></div><p>Which one of the following is a closed form expression for the generating function of the sequence<br/>,<br/>where<br/>?<br/>generating-functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204075/gate-cse-2018-question-1"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Generating Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Generating Functions: GATE CSE 2022 | Question: 26</strong></div><p>Which one of the following is the closed form for the generating function of the sequence<br/>deﬁned<br/>below?<br/>generating-functions<br/>Modular Arithmetic<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371910/gate-cse-2022-question-26"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Modular Arithmetic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Modular Arithmetic: GATE CSE 2016 | Set 2 | Question: 29</strong></div><p>The value of the expression<br/>in the range<br/>to<br/>, is ________.<br/>modular-arithmetic</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/204075/gate-cse-2018-question-1"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Modular Arithmetic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Modular Arithmetic: GATE CSE 2019 | Question: 21</strong></div><p>The value of<br/>is _____<br/>modular-arithmetic<br/>Pigeonhole Principle<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/302827/gate-cse-2019-question-21"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pigeonhole Principle",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pigeonhole Principle: GATE CSE 2000 | Question: 1.1</strong></div><p>The minimum number of cards to be dealt from an arbitrarily shuﬄed deck of<br/>cards to guarantee that<br/>three cards are from same suit is<br/>easy<br/>pigeonhole-principle</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204075/gate-cse-2018-question-1"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pigeonhole Principle",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pigeonhole Principle: GATE CSE 2005 | Question: 44</strong></div><p>What is the minimum number of ordered pairs of non-negative numbers that should be chosen to ensure<br/>that there are two pairs<br/>and<br/>in the chosen set such that,<br/>and<br/>set-theory&algebra<br/>pigeonhole-principle<br/>Recurrence Relation<br/>(7)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1170/gate-cse-2005-question-44"
+    }
+  ]
+}

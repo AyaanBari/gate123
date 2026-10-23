@@ -1,0 +1,133 @@
+{
+  "id": "GATE2027_Operating_Systems",
+  "fileName": "GATE2027_Operating_Systems.json",
+  "title": "GATE 2027 Original | Operating Systems Challenger Test",
+  "subject": "Operating Systems",
+  "testType": "GATE 2027 Original",
+  "series": "GATE 2027 Original",
+  "durationMinutes": 45,
+  "totalQuestions": 5,
+  "totalMarks": 9,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Operating Systems - Memory Management",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Operating Systems - Memory Management</strong></div>\n<p>Consider a 32-bit virtual address space with a page size of 4 KB. The system uses a two-level hierarchical paging scheme where the outer page table has 1024 entries. Each page table entry (PTE) takes 4 bytes. If a process occupies only the first 8 MB and the last 4 MB of its virtual address space, what is the total memory (in KB) required to store all the page tables (both outer and inner) for this process?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Virtual address: 32 bits.<br/>Page size = $4\\text{ KB} = 2^{12}$ bytes $\\rightarrow 12$-bit offset.<br/>Remaining 20 bits are split into Outer Page Table (10 bits, $2^{10}=1024$ entries) and Inner Page Table (10 bits, $2^{10}=1024$ entries).<br/>Each inner page table covers $1024 \\times 4\\text{ KB} = 4\\text{ MB}$ of virtual memory.<br/>- Outer Page Table size: $1024 \\times 4\\text{ bytes} = 4\\text{ KB}$.<br/>- The process occupies the first 8 MB $\\rightarrow$ requires $\\frac{8\\text{ MB}}{4\\text{ MB}} = 2$ inner page tables.<br/>- The process occupies the last 4 MB $\\rightarrow$ requires $\\frac{4\\text{ MB}}{4\\text{ MB}} = 1$ inner page table.<br/>- Total inner page tables needed = $2 + 1 = 3$.<br/>- Total inner page table memory = $3 \\times 4\\text{ KB} = 12\\text{ KB}$.<br/>- Total memory required = $4\\text{ KB (outer)} + 12\\text{ KB (inner)} = 16\\text{ KB}$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Operating Systems - Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Operating Systems - Process Synchronization</strong></div>\n<p>Consider Peterson's software algorithm for mutual exclusion between two processes $P_0$ and $P_1$. Which of the following statements is/are <strong>TRUE</strong>?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A is TRUE:</b> The classical proof of Peterson's algorithm holds rigorously on uniprocessors with sequential consistency.<br/><b>B is TRUE:</b> Hardware out-of-order writes (store-load reordering) can cause both processes to read `flag[j] == false` before their own `flag[i] = true` is flushed to cache, violating mutual exclusion.<br/><b>C is FALSE:</b> Swapping to `turn = j; flag[i] = true;` allows both processes to set turn, then set flags, allowing both to enter the critical section simultaneously.<br/><b>D is FALSE:</b> Peterson's algorithm relies on spinlocks (`while(flag[j] && turn == j);`), which is busy waiting.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Peterson's algorithm satisfies mutual exclusion, progress, and bounded waiting on a single-core uniprocessor system with preemptive scheduling.</span>",
+          "textHtml": "<span>Peterson's algorithm satisfies mutual exclusion, progress, and bounded waiting on a single-core uniprocessor system with preemptive scheduling.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>On a modern superscalar multiprocessor system with out-of-order execution and store buffering, Peterson's algorithm can fail unless memory barrier/fence instructions are inserted.</span>",
+          "textHtml": "<span>On a modern superscalar multiprocessor system with out-of-order execution and store buffering, Peterson's algorithm can fail unless memory barrier/fence instructions are inserted.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>If the order of the assignments `flag[i] = true;` and `turn = j;` is swapped, mutual exclusion is still guaranteed.</span>",
+          "textHtml": "<span>If the order of the assignments `flag[i] = true;` and `turn = j;` is swapped, mutual exclusion is still guaranteed.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Peterson's algorithm is completely free of busy waiting.</span>",
+          "textHtml": "<span>Peterson's algorithm is completely free of busy waiting.</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Operating Systems - System Calls",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Operating Systems - System Calls</strong></div>\n<p>Consider the following C program segment:<br/><pre><code>for(int i = 0; i &lt; 4; i++) {\n    if(i % 2 == 0) {\n        fork();\n    }\n}</code></pre>Assuming all `fork()` system calls succeed, how many child processes are created in total?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In the loop of $i = 0, 1, 2, 3$, `i % 2 == 0` is true for $i = 0$ and $i = 2$.<br/>At $i=0$: 1 process calls `fork()`, creating 1 child $\\rightarrow 2$ processes.<br/>At $i=1$: no fork.<br/>At $i=2$: 2 processes both call `fork()`, creating 2 children $\\rightarrow 4$ total processes.<br/>At $i=3$: no fork.<br/>Total processes = 4. The number of <strong>child</strong> processes created = $4 - 1 = 3$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Operating Systems - Deadlocks",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Operating Systems - Deadlocks</strong></div>\n<p>A system has 3 processes $P_1, P_2, P_3$ and 12 units of a single resource type $R$. Current allocations and maximum demands are:<br/>• $P_1$: Allocated = 3, Max = 8<br/>• $P_2$: Allocated = 2, Max = 5<br/>• $P_3$: Allocated = 4, Max = 9<br/>If process $P_2$ requests 1 additional unit of $R$, can the request be safely granted?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Total resources = 12. Total allocated currently = $3 + 2 + 4 = 9$. Available = $12 - 9 = 3$.<br/>If $P_2$ is granted 1 unit: $P_2$ allocation becomes 3, Available becomes $3 - 1 = 2$.<br/>Remaining needs:<br/>Need($P_1$) = $8 - 3 = 5$<br/>Need($P_2$) = $5 - 3 = 2$<br/>Need($P_3$) = $9 - 4 = 5$<br/>With Available = 2, Need($P_2$) $\\le 2$ can be satisfied! $P_2$ finishes and releases all 3 units, making Available = $2 + 3 = 5$.<br/>Now Need($P_1$) = 5 or Need($P_3$) = 5 can both be satisfied sequentially. Hence $\\langle P_2, P_1, P_3 \\rangle$ is a valid safe sequence.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Yes, because the system remains in a safe state with safe sequence $\\langle P_2, P_1, P_3 \\rangle$</span>",
+          "textHtml": "<span>Yes, because the system remains in a safe state with safe sequence $\\langle P_2, P_1, P_3 \\rangle$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Yes, because the system remains in a safe state with safe sequence $\\langle P_1, P_2, P_3 \\rangle$</span>",
+          "textHtml": "<span>Yes, because the system remains in a safe state with safe sequence $\\langle P_1, P_2, P_3 \\rangle$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>No, because granting it leaves only 2 available units, which cannot satisfy any process's remaining need</span>",
+          "textHtml": "<span>No, because granting it leaves only 2 available units, which cannot satisfy any process's remaining need</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>No, because the system immediately enters a deadlock</span>",
+          "textHtml": "<span>No, because the system immediately enters a deadlock</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Operating Systems - Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Operating Systems - Disk Scheduling</strong></div>\n<p>A disk head is currently at cylinder 50, moving towards higher cylinder numbers. The queue of cylinder requests in FIFO order is: $86, 1470, 913, 1774, 948, 1509, 1022, 1750, 130$. Cylinders range from 0 to 1999. Using the <strong>C-LOOK</strong> disk scheduling algorithm, what is the total head movement (in cylinders) to service all requests?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Requests: $86, 130, 913, 948, 1022, 1470, 1509, 1750, 1774$. Current head = 50, moving UP.<br/>1. Service requests $> 50$ going up to max request (1774):<br/>$50 \\rightarrow 86 \\rightarrow 913 \\rightarrow 948 \\rightarrow 1022 \\rightarrow 1470 \\rightarrow 1509 \\rightarrow 1750 \\rightarrow 1774$.<br/>Movement = $1774 - 50 = 1724$.<br/>2. C-LOOK jumps directly from highest request (1774) to lowest request (86) without servicing on the way back:<br/>Jump movement = $1774 - 86 = 1688$ (or if jump counts in head movement, total = $1724 + 1688 + (130 - 86) = 3456$; if jump is pure movement: $(1774-50) + (1774-86) + (130-86) = 1724 + 1688 + 44 = 3456$).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "3313",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "id": "PYQ_Computer_Networks_P2",
+  "fileName": "PYQ_Computer_Networks_P2.json",
+  "title": "GATE Official PYQs | Computer Networks Part 2",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 49,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2024 | Set 2 | Question: 44</strong></div><p>Consider a<br/>connection operating at a point of time with the congestion window of size<br/>(Maximum Segment Size), when a timeout occurs due to packet loss. Assuming that all the segments<br/>transmitted in the next two<br/>(Round Trip Time) are acknowledged correctly, the congestion window size (<br/>in<br/>) during the third<br/>will be __________.<br/>computer-networks<br/>tcp<br/>congestion-control</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/1794/gate-cse-2014-set-1-question-27"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2026 | Set 1 | Question: 34</strong></div><p>A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of<br/>segments. The TCP congestion control mechanism's slow-start threshold is set to<br/>segments.<br/>Assume that the round-trip time is ﬁxed at<br/>millisecond. Assume that the sender always has data to send, the<br/>segments are numbered from<br/>, and no segment is lost. Let<br/>denote the time (in milliseconds) at which the<br/>transmission of segment number<br/>starts.<br/>Which one of the following options is correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1794/gate-cse-2014-set-1-question-27"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2026 | Set 2 | Question: 48</strong></div><p>Consider a new TCP connection between a sender and a receiver. The receiver advertised window is<br/>constant at<br/>KB, the maximum segment size (MSS) is<br/>KB, and the slow start threshold for TCP<br/>congestion control is<br/>KB. Assume that there are no timeouts or duplicate acknowledgements. The number of<br/>rounds of transmission required for the congestion control algorithm of the TCP connection to reach the congestion<br/>avoidance phase is<br/>. (answer in integer)<br/>Note:<br/>computer-networks<br/>congestion-control<br/>tcp</p></div>",
+      "options": [],
+      "correctAnswer": "4:4",
+      "discussUrl": "https://gateoverflow.in/523098/gate-cse-2026-set-2-question-48"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE IT 2005 | Question: 73</strong></div><p>On a TCP connection, current congestion window size is Congestion Window =<br/>KB. The window size<br/>advertised by the receiver is Advertise Window =<br/>KB. The last byte sent by the sender is LastByteSent =<br/>and the last byte acknowledged by the receiver is LastByteAcked =<br/>. The current window size at the<br/>sender is:<br/>computer-networks<br/>congestion-control<br/>Data Communication<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3836/gate-it-2005-question-73"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Data Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Communication: GATE CSE 2026 | Set 2 | Question: 55</strong></div><p>It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless<br/>link of length<br/>kilometers. Assume that the link bandwidth is<br/>bits per second and that the<br/>propagation delay in the link is<br/>nanoseconds per meter. Every transmitted data byte is assigned a unique<br/>sequence number.<br/>Let<br/>be the minimum number of bits needed for the sequence number field in the protocol header such that<br/>i<br/>.<br/>the sequence numbers do not wrap around before<br/>seconds, and<br/>ii<br/>.<br/>the maximum utilization of the link is achieved.<br/>The value of<br/>is<br/>. (answer in integer)<br/>computer-networks<br/>data-communication<br/>Distance Vector Routing<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(15Q)</p></div>",
+      "options": [],
+      "correctAnswer": "30:30",
+      "discussUrl": "https://gateoverflow.in/523098/gate-cse-2026-set-2-question-48"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2010 | Question: 54</strong></div><p>Consider a network with<br/>routers<br/>to<br/>connected with links having weights as shown in the following<br/>diagram.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2362/gate-cse-2010-question-54"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2010 | Question: 55</strong></div><p>Consider a network with<br/>routers<br/>to<br/>connected with links having weights as shown in the following<br/>diagram.<br/>Suppose the weights of all unused links are changed to<br/>and the distance vector algorithm is used again until all<br/>routing tables stabilize. How many links will now remain unused?<br/>computer-networks<br/>routing<br/>distance-vector-routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43326/gate-cse-2010-question-55"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2011 | Question: 52</strong></div><p>Consider a network with five nodes,<br/>to<br/>, as shown as below.<br/>The network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors<br/>at different nodes are as follows.<br/>N1<br/>:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2160/gate-cse-2011-question-52"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2011 | Question: 53</strong></div><p>Consider a network with five nodes,<br/>to<br/>, as shown as below.<br/>The network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors<br/>at different nodes are as follows.<br/>N1<br/>:<br/>N2<br/>:<br/>N3<br/>:<br/>N4<br/>:<br/>N5<br/>:<br/>Each distance vector is the distance of the best known path at that instance to nodes,<br/>to<br/>, where the<br/>distance to itself is<br/>. Also, all links are symmetric and the cost is identical in both directions. In each round, all<br/>nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance<br/>vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that<br/>entry in their distance vectors.<br/>The cost of link<br/>reduces to<br/>(in both directions). After the next round of updates, the link<br/>goes down.<br/>will reﬂect this change immediately in its distance vector as cost,<br/>. After the<br/>NEXT ROUND<br/>of<br/>update, what will be the cost to<br/>in the distance vector of<br/>?<br/>computer-networks<br/>routing<br/>distance-vector-routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43317/gate-cse-2011-question-53"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2021 | Set 2 | Question: 45</strong></div><p>Consider a computer network using the distance vector routing algorithm in its network layer. The partial<br/>topology of the network is shown below.<br/>The objective is to ﬁnd the shortest-cost path from the router<br/>to routers<br/>and<br/>. Assume that<br/>does not<br/>initially know the shortest routes to<br/>and<br/>. Assume that<br/>has three neighbouring routers denoted as<br/>,<br/>and<br/>. During one iteration,<br/>measures its distance to its neighbours<br/>,<br/>, and<br/>as<br/>,<br/>and<br/>, respectively. Router<br/>gets routing vectors from its neighbours that indicate that the distance to router<br/>from routers<br/>,<br/>and<br/>are<br/>,<br/>and<br/>, respectively. The routing vector also indicates that the distance to router<br/>from routers<br/>,<br/>and<br/>are<br/>,<br/>and<br/>respectively. Which of the following statement(s) is/are correct with respect to the new routing table<br/>o<br/>, after updation during this iteration?<br/>A<br/>.<br/>The distance from<br/>to<br/>will be stored as<br/>B<br/>.<br/>The distance from<br/>to<br/>will be stored as<br/>C<br/>.<br/>The next hop router for a packet from<br/>to<br/>is<br/>D<br/>.<br/>The next hop router for a packet from<br/>to<br/>is<br/>multiple-selects<br/>computer-networks<br/>distance-vector-routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE CSE 2022 | Question: 47</strong></div><p>Consider a network with three routers<br/>shown in the figure below. All the links have cost of unity.<br/>The routers exchange distance vector routing information and have converged on the routing tables, after which the<br/>link<br/>fails. Assume that<br/>and<br/>send out routing updates at random times, each at the same average rate.<br/>The probability of a routing loop formation<br/>(rounded oﬀ to one decimal place)<br/>between<br/>and<br/>leading to count-<br/>to-infinity problem, is _______________.<br/>computer-networks<br/>routing<br/>distance-vector-routing</p></div>",
+      "options": [],
+      "correctAnswer": "0.5",
+      "discussUrl": "https://gateoverflow.in/371889/gate-cse-2022-question-47"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE IT 2005 | Question: 29</strong></div><p>Count to infinity is a problem associated with:<br/>computer-networks<br/>routing<br/>distance-vector-routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3775/gate-it-2005-question-29"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Distance Vector Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Distance Vector Routing: GATE IT 2007 | Question: 60</strong></div><p>For the network given in the ﬁgure below, the routing tables of the four nodes<br/>,<br/>,<br/>and<br/>are shown.<br/>Suppose that<br/>has estimated its delay to its neighbors,<br/>,<br/>,<br/>and<br/>as<br/>,<br/>,<br/>and<br/>msecs<br/>respectively and updates its routing table using distance vector routing technique.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3504/gate-it-2007-question-60"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE CSE 1992 | Question: 01,ii</strong></div><p>Consider a<br/>-bit error detection and<br/>-bit error correction hamming code for<br/>-bit data. The extra parity bits<br/>required would be _____ and the<br/>-bit error detection is possible because the code has a minimum distance<br/>of _______.<br/>computer-networks<br/>error-detection<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "3 : 4",
+      "discussUrl": "https://gateoverflow.in/546/gate-cse-1992-question-01-ii"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE CSE 1995 | Question: 1.12</strong></div><p>What is the distance of the following code<br/>,<br/>,<br/>,<br/>,<br/>?<br/>computer-networks<br/>error-detection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/546/gate-cse-1992-question-01-ii"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE CSE 2009 | Question: 48</strong></div><p>Let<br/>be the generator polynomial used for CRC checking. What is the condition that should be satisﬁed<br/>by<br/>to detect odd number of bits in error?<br/>A<br/>.<br/>contains more than two terms<br/>B<br/>.<br/>does not divide<br/>, for any<br/>not exceeding the frame length<br/>C<br/>.<br/>is a factor of<br/>D<br/>.<br/>has an odd number of terms.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1334/gate-cse-2009-question-48"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE CSE 2017 | Set 2 | Question: 34</strong></div><p>Consider the binary code that consists of only four valid codewords as given below:<br/>Let the minimum Hamming distance of the code<br/>and the maximum number of erroneous bits that can be<br/>corrected by the code be<br/>. Then the values of<br/>and<br/>are<br/>computer-networks<br/>error-detection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118376/gate-cse-2017-set-2-question-34"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE IT 2005 | Question: 74</strong></div><p>In a communication network, a packet of length<br/>bits takes link<br/>with a probability of<br/>or link<br/>with a<br/>probability of<br/>. Link<br/>and<br/>have bit error probability of<br/>and<br/>respectively. The probability that the<br/>packet will be received without error via either<br/>or<br/>is<br/>computer-networks<br/>error-detection<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3837/gate-it-2005-question-74"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE IT 2007 | Question: 43</strong></div><p>An error correcting code has the following code words:<br/>. What is the maximum number of bit errors that<br/>can be corrected?<br/>computer-networks<br/>error-detection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3478/gate-it-2007-question-43"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Error Detection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Error Detection: GATE IT 2008 | Question: 66</strong></div><p>Data transmitted on a link uses the following<br/>parity scheme for error detection:<br/>Each sequence of<br/>bits is arranged in a<br/>matrix (rows<br/>through<br/>, and columns<br/>through<br/>)<br/>and is padded with a column<br/>and row<br/>of parity bits computed using the Even parity scheme. Each bit of<br/>column<br/>(respectively, row<br/>) gives the parity of the corresponding row (respectively, column). These<br/>bits are<br/>transmitted over the data link.<br/>The table shows data received by a receiver and has<br/>corrupted bits. What is the mini<br/>​<br/>mum possible value of<br/>?<br/>computer-networks<br/>error-detection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3380/gate-it-2008-question-66"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2004 | Question: 54</strong></div><p>and<br/>are the only two stations on an Ethernet. Each has a steady queue of frames to send. Both<br/>and<br/>attempt to transmit a frame, collide, and<br/>wins the ﬁrst backoﬀ race. At the end of this successful<br/>transmission by<br/>, both<br/>and<br/>attempt to transmit and collide. The probability that<br/>wins the second backoﬀ<br/>race is:<br/>computer-networks<br/>ethernet<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1050/gate-cse-2004-question-54"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2013 | Question: 36</strong></div><p>Determine the maximum length of the cable (in km) for transmitting data at a rate of<br/>Mbps in an<br/>Ethernet LAN with frames of size<br/>bits. Assume the signal speed in the cable to be<br/>km/s.<br/>computer-networks<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1547/gate-cse-2013-question-36"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2016 | Set 2 | Question: 24</strong></div><p>In an Ethernet local area network, which one of the following statements is<br/>TRUE<br/>?<br/>A<br/>.<br/>A station stops to sense the channel once it starts transmitting a frame.<br/>B<br/>.<br/>The purpose of the jamming signal is to pad the frames that are smaller than the minimum frame size.<br/>C<br/>.<br/>A station continues to transmit the packet even after the collision is detected.<br/>D<br/>.<br/>The exponential back off mechanism reduces the probability of collision on retransmissions.<br/>computer-networks<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/87074/gate1987-2-i"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2022 | Question: 12</strong></div><p>Consider an enterprise network with two Ethernet segments, a web server and a ﬁrewall, connected via<br/>three routers as shown below.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371924/gate-cse-2022-question-12"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2024 | Set 2 | Question: 13</strong></div><p>Node<br/>has a<br/>connection open to node<br/>. The packets from<br/>to<br/>go through an intermediate<br/>router<br/>. Ethernet switch<br/>is the ﬁrst switch on the network path between<br/>and<br/>. Consider a packet sent<br/>from<br/>to<br/>over this connection.<br/>Which of the following statements is/are TRUE about the destination<br/>and<br/>addresses on this packet at the<br/>time it leaves<br/>?<br/>A<br/>.<br/>The destination<br/>address is the<br/>address of<br/>B<br/>.<br/>The destination<br/>address is the<br/>address of<br/>C<br/>.<br/>The destination<br/>address is the<br/>address of<br/>D<br/>.<br/>The destination<br/>address is the<br/>address of<br/>computer-networks<br/>multiple-selects<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422884/gate-cse-2024-set-2-question-13"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE CSE 2024 | Set 2 | Question: 45</strong></div><p>Consider an Ethernet segment with a transmission speed of<br/>and a maximum segment length of<br/>meters. If the speed of propagation of the signal in the medium is<br/>, then the<br/>minimum frame size (<br/>in bits<br/>) required for collision detection is ___________.<br/>computer-networks<br/>ethernet</p></div>",
+      "options": [],
+      "correctAnswer": "500",
+      "discussUrl": "https://gateoverflow.in/422884/gate-cse-2024-set-2-question-13"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ethernet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ethernet: GATE IT 2006 | Question: 19</strong></div><p>Which of the following statements is TRUE?<br/>A<br/>.<br/>Both Ethernet frame and IP packet include checksum fields<br/>B<br/>.<br/>Ethernet frame includes a checksum field and IP packet includes a CRC field<br/>C<br/>.<br/>Ethernet frame includes a CRC field and IP packet includes a checksum field<br/>D<br/>.<br/>Both Ethernet frame and IP packet include CRC fields<br/>computer-networks<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3558/gate-it-2006-question-19"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fragmentation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fragmentation: GATE CSE 2004 | Question: 56</strong></div><p>Consider three IP networks<br/>and<br/>. Host<br/>in network<br/>sends messages each containing<br/>bytes of application data to a host<br/>in network<br/>. The<br/>layer preﬁxes<br/>byte header to the<br/>message.<br/>This passes through an intermediate network<br/>.The maximum packet size, including<br/>byte IP header, in each<br/>network is:<br/>A:<br/>B:<br/>C:<br/>The network<br/>and<br/>are connected through a<br/>Mbps link, while<br/>and<br/>are connected by a<br/>Kbps link (bps = bits per second).<br/>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the<br/>layer at the destination for one application message, in the best case? Consider only data packets.<br/>computer-networks<br/>ip-addressing<br/>fragmentation<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1052/gate-cse-2004-question-56"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fragmentation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fragmentation: GATE CSE 2004 | Question: 57</strong></div><p>Consider three IP networks<br/>and<br/>. Host<br/>in network<br/>sends messages each containing<br/>of application data to a host<br/>in network<br/>. The TCP layer preﬁxes<br/>byte header to the<br/>message. This passes through an intermediate network<br/>. The maximum packet size, including<br/>byte IP header,<br/>in each network, is:<br/>The network<br/>and<br/>are connected through a<br/>link, while<br/>and<br/>are connected by a<br/>link<br/>(bps = bits per second).<br/>What is the rate at which application data is transferred to host<br/>? Ignore errors, acknowledgments, and other<br/>overheads.<br/>computer-networks<br/>ip-addressing<br/>fragmentation<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1052/gate-cse-2004-question-56"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fragmentation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fragmentation: GATE CSE 2013 | Question: 37</strong></div><p>In an IPv4 datagram, the<br/>bit is<br/>, the value of<br/>is<br/>, the value of total length is<br/>and the<br/>fragment oﬀset value is<br/>. The position of the datagram, the sequence numbers of the ﬁrst and the last<br/>bytes of the payload, respectively are:<br/>computer-networks<br/>ip-addressing<br/>fragmentation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1548/gate-cse-2013-question-37"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Fragmentation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fragmentation: GATE CSE 2025 | Set 1 | Question: 47</strong></div><p>Suppose a message of size<br/>bytes is transmitted from a source to a destination using IPv4 protocol<br/>via two routers as shown in the ﬁgure. Each router has a deﬁned maximum transmission unit (MTU) as<br/>shown in the ﬁgure, including IP header. The number of fragments that will be delivered to the destination is<br/>_________. (Answer in integer)<br/>computer-networks<br/>ip-addressing<br/>fragmentation</p></div>",
+      "options": [],
+      "correctAnswer": "7:7",
+      "discussUrl": "https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fragmentation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fragmentation: GATE CSE 2025 | Set 2 | Question: 13</strong></div><p>Consider a network that uses Ethernet and<br/>. Assume that<br/>headers do not use any options ﬁeld.<br/>Each Ethernet frame can carry a maximum of<br/>bytes in its data ﬁeld. A UDP segment is transmitted.<br/>The payload (data) in the UDPO segment is<br/>bytes.<br/>Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the<br/>last fragment including<br/>header?<br/>computer-networks<br/>fragmentation<br/>ip-addressing<br/>Hamming Code<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hamming Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hamming Code: GATE CSE 1994 | Question: 9</strong></div><p>Following<br/>bit single error correcting hamming coded message is received.<br/>Determine if the message is correct (assuming that at most<br/>bit could be corrupted). If the message contains an<br/>error find the bit which is erroneous and gives correct message.<br/>computer-networks<br/>error-detection<br/>hamming-code<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2505/gate-cse-1994-question-9"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hamming Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hamming Code: GATE CSE 2021 | Set 1 | Question: 29</strong></div><p>Assume that a<br/>-bit Hamming codeword consisting of<br/>-bit data and<br/>check bits is<br/>, where the data bits and the check bits are given in the following tables:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2003 | Question: 27</strong></div><p>Which of the following assertions is FALSE about the Internet Protocol (IP)?<br/>A<br/>.<br/>It is possible for a computer to have multiple IP addresses<br/>B<br/>.<br/>IP packets from the same source to the same destination can take different routes in the network<br/>C<br/>.<br/>IP ensures that a packet is discarded if it is unable to reach its destination within a given number of hops<br/>D<br/>.<br/>The packet source cannot set the route of an outgoing packets; the route is determined only by the routing<br/>tables in the routers on the way<br/>computer-networks<br/>ip-addressing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/917/gate-cse-2003-question-27"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2012 | Question: 23</strong></div><p>In the IPv4 addressing format, the number of networks allowed under Class<br/>addresses is:<br/>computer-networks<br/>ip-addressing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1606/gate-cse-2012-question-23"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2017 | Set 2 | Question: 20</strong></div><p>The maximum number of<br/>router addresses that can be listed in the record route (RR) option ﬁeld of an<br/>header is______.<br/>computer-networks<br/>ip-addressing</p></div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in/test/2095"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2018 | Question: 54</strong></div><p>Consider an IP packet with a length of<br/>that includes a<br/>header and a<br/>TCP header. The packet is forwarded to an<br/>router that supports a Maximum Transmission Unit (MTU)<br/>of<br/>. Assume that the length of the IP header in all the outgoing fragments of this packet is<br/>.<br/>Assume that the fragmentation offset value stored in the first fragment is<br/>.<br/>The fragmentation offset value stored in the third fragment is ________.<br/>computer-networks<br/>ip-addressing</p></div>",
+      "options": [],
+      "correctAnswer": "144",
+      "discussUrl": "https://gateoverflow.in/204129/gate-cse-2018-question-54"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2023 | Question: 42</strong></div><p>Suppose in a web browser, you click on the<br/>. The browser cache is empty. The<br/>for this<br/>is not cached in your local host, so a<br/>lookup is triggered (by the local<br/>server deployed on your local host) over the<br/>-tier<br/>hierarchy in an iterative mode. No resource records are<br/>cached anywhere across all<br/>servers.<br/>Let<br/>denote the round trip time between your local host and<br/>servers in the<br/>hierarchy. The round<br/>trip time between the local host and the web server hosting<br/>is also equal to<br/>. The<br/>ﬁle associated with the<br/>is small enough to have negligible transmission time and negligible rendering time by</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/118427/gate-cse-2017-set-2-question-20"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2024 | Set 2 | Question: 28</strong></div><p>Which one of the following<br/>preﬁxes exactly represents the range of<br/>addresses<br/>to<br/>?<br/>computer-networks<br/>ip-addressing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422869/gate-cse-2024-set-2-question-28"
+    }
+  ]
+}

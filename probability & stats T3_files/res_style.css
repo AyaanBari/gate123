@@ -1,0 +1,414 @@
+/*Results Page CSS*/
+
+body {
+    background: url("../images/exam_pencil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	font-size: 17px;
+}
+
+.res_content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+a{
+	text-decoration:none;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.res_section {
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.exam_name a {
+	color: inherit;
+}
+h2 {
+    padding: 10px;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
+
+.res_section h2 {
+    margin-top: 2rem;
+}
+
+.res_question {
+    background-color: #ffffff;
+    border-bottom: 2px solid #E0E6F8;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    margin: 2rem 1rem;
+    overflow: hidden;
+}
+
+.res_qs_meta {
+    padding: 8px;
+    background-color: #b0b6bc;
+}
+
+.res_question_text {
+    padding: 5px 1rem;
+}
+
+.res_question_text img {
+    max-width: 100%;
+    height: auto;
+}
+
+.res_solution {
+    margin: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #dadce0;
+}
+
+span.res_qs_top_meta, span.res_qs_bottom_meta  {
+    padding: 4px;
+    background-color: rgb(102, 174, 232);
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+
+span.res_qs_num {
+    background: #FD9881;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius: 1000px;
+    border: 2px solid #C78282;
+    padding: 10px 4px;
+}
+
+.header_img
+{
+	text-align: center;
+    background: white;
+	border-radius: 6px;
+}
+
+.header_img_src
+{
+	height:80px;
+}
+
+
+.user_solution, .correct_solution {
+    background-color: #e8ebf0 !important;
+    color: #000 !important;
+}
+.res_status_correct {
+    background-color: #B0E671 !important;
+}
+.res_status_incorrect {
+    background-color: #FD9881 !important;
+}
+
+.res_status_not_attempted {
+    background-color: #5F6177 !important;
+}
+
+.res_status_marksToAll {
+    background-color: #3dcb99 !important;
+}
+
+.res-col {
+    display: inline-table;
+    width: 30%;
+    padding: 1rem;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    margin: 1rem;
+	margin: 2rem 1rem;
+}
+
+.res-col p {
+    display: inline-block;
+    min-width: 140px;
+    margin: 2px;
+}
+
+.exam_table_item {
+    display: table;
+	width: 100%;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2ed;
+}
+
+.exam_table_item:first-child {
+    padding-top: 0;
+}
+
+.exam_table_item:last-child {
+    border-bottom: none;
+}
+
+.exam_duration:last-child {
+    padding-bottom: 0;
+}
+
+.exam_table_item p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p.exam_qs_title {
+    font-weight: bold;
+	text-align: left;
+}
+
+p.res_num {
+    color: #3d5bef;
+    font-weight: bold;
+    text-align: right;
+    width: 35%;
+}
+
+.exam_num_item {
+    display: block;
+    width: 4rem;
+    margin-left: auto;
+    color: #2c2c2c;
+    font-size: 2rem;
+    line-height: normal;
+    text-align: center;
+}
+
+.exam_table_item:not(.exam_duration) .exam_result_header {
+    font-size: .8125rem;
+    /* color: #7F97AA; */
+    display: block;
+    margin-top: -3px;
+    width: 4rem;
+    margin-left: auto;
+    text-align: center;
+}
+
+.exam_summary {
+    /* background-color: #ffffff; */
+    /* background-color: #3dcb99; */
+    background-color: #3d5bef;
+    margin: auto;
+	text-align: center;
+}
+
+.exam_name {
+    background-color: #fff;
+}
+
+.exam_summary h2 {
+    color: #000;
+    width: 70%;
+    /* text-align: left; */
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: inherit;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.footer {
+    border-top: 1px solid #dadce0;
+    margin: 1rem 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer p
+{
+	margin:0;
+}
+
+#exam_result_section_choice {
+    padding: 1rem;
+    background-color: #dae2e9;
+    border-bottom: 3px dashed #4db94d;
+    text-align: center;
+}
+
+.exam_result_section_choice_span {
+    background-color: #3d5bef !important;
+    color: #fff !important;
+	text-transform: uppercase;
+    font-size: .6875rem !important;
+    padding: 0.6rem 1rem !important;
+    cursor: pointer;
+    -webkit-transition: box-shadow .18s ease;
+    transition: box-shadow .18s ease;
+}
+
+.exam_result_section_choice_span:hover {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.badge {
+    padding: 0.3rem 0.5rem !important;
+    line-height: normal;
+	margin-bottom: 4px;
+}
+
+.res_solution .badge {
+    margin-bottom: 4px;
+}
+
+.res_status {
+    color: #fff;
+}
+
+a.badge {
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    background-color: #3d5bef;
+}
+
+#num_questions_subject_pie_plot {
+    display: block;
+    margin:auto;
+}
+
+#marks_subject_pie_plot {
+    display: block;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+#exam_result_section_stats {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}   
+
+#correct_vs_num_questions_stacked_bar_plot {
+    margin: auto;
+}
+
+#correct_vs_total_marks_stacked_bar_plot {
+    margin: auto;
+}
+
+.jqplot-target {
+    transform: scale(0.5) translate(-53%, -50%);
+    height: 401px !important;
+}
+
+
+.stat_section {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #a1d0f6;
+    border-radius: 5px;
+    border-bottom: 5px solid #a1d0f6;
+    border-top: 5px solid #a1d0f6;
+}
+
+/* Autogenerated code :p */
+
+#results_print_button {
+
+    position: fixed;
+	top: 6rem;
+    left: 10px;
+
+    -moz-box-shadow:inset 0px 0px 0px 0px #3dc21b;
+    -webkit-box-shadow:inset 0px 0px 0px 0px #3dc21b;
+    box-shadow:inset 0px 0px 0px 0px #3dc21b;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+    background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+    background-color:#44c767;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #2f6627;
+}
+
+#results_print_button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+    background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+    background-color:#5cbf2a;
+}
+
+.feedback_section {
+	margin: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    min-height: 5rem;
+}
+
+@media (max-width:540px) {
+	
+	.res_content {
+		width: 100%;
+		margin-top: 1rem;
+	}
+	#results_print_button {
+		top: 0;
+		right: 0;
+		left: initial !important;
+		z-index: 1;
+	}
+	
+	.exam_summary h2 {
+		width: 95%;
+		font-size: inherit;
+	}
+	.res-col {
+		margin: 0.5rem auto;
+		width: 95%;
+		max-width: 380px;
+	}
+	.res-col p {
+		min-width: 125px;
+	}
+	.stat_section {
+		overflow: auto;
+	}
+	
+	.feedback_section {
+		font-size: 1rem;
+		font-weight: bold;
+		margin: 3rem 0;
+	}
+	
+}

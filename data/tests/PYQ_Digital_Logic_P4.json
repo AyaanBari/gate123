@@ -1,0 +1,1351 @@
+{
+  "id": "PYQ_Digital_Logic_P4",
+  "fileName": "PYQ_Digital_Logic_P4.json",
+  "title": "GATE Official PYQs | Digital Logic Part 4",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 1990 | Question: 5-c</strong></div><p>For the synchronous counter shown in Fig<br/>write the truth table of<br/>, and<br/>after each pulse,<br/>starting from<br/>and determine the counting sequence and also the modulus of the<br/>counter.<br/>descriptive<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82452/gate-cse-1987-question-10c"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 1991 | Question: 5-c</strong></div><p>Find the maximum clock frequency at which the counter in the ﬁgure below can be operated. Assume that<br/>the propagation delay through each ﬂip ﬂop and each AND gate is<br/>. Also, assume that the setup time<br/>for the<br/>inputs of the flip flops is negligible.<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter</p></div>",
+      "options": [],
+      "correctAnswer": "33.33",
+      "discussUrl": "https://gateoverflow.in/82452/gate-cse-1987-question-10c"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 1994 | Question: 2-1</strong></div><p>The number of flip-flops required to construct a binary modulo<br/>counter is __________<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2468/gate-cse-1994-question-2-1"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2002 | Question: 8</strong></div><p>Consider the following circuit.<br/>and<br/>are three bit binary numbers input to the circuit.<br/>The output is<br/>. R0, R1 and R2 are registers with loading clock shown. The registers are<br/>loaded with their input data with the falling edge of a clock pulse (signal CLOCK shown) and appears as shown.<br/>The bits of input number A, B and the full adders are as shown in the circuit. Assume Clock period is greater than<br/>the settling time of all circuits.<br/>a. For 8 clock pulses on the CLOCK terminal and the inputs<br/>as shown, obtain the output<br/>(sequence of<br/>values of<br/>Assume initial contents of<br/>and<br/>as all zeros.<br/>b. What does the circuit implement?<br/>digital-logic<br/>descriptive<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2468/gate-cse-1994-question-2-1"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2011 | Question: 15</strong></div><p>The minimum number of<br/>flip-flops needed to design a mod-258 counter is<br/>digital-logic<br/>easy<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2117/gate-cse-2011-question-15"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2014 | Set 2 | Question: 7</strong></div><p>Let<br/>. A circuit is built by giving the output of an<br/>-bit binary counter as input to an<br/>bit<br/>decoder. This circuit is equivalent to a<br/>digital-logic<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2468/gate-cse-1994-question-2-1"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2015 | Set 1 | Question: 20</strong></div><p>Consider a<br/>-bit Johnson counter with an initial value of<br/>The counting sequence of this counter is<br/>digital-logic<br/>digital-counter<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8219/gate-cse-2015-set-1-question-20"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2015 | Set 2 | Question: 7</strong></div><p>The minimum number of<br/>ﬂip-ﬂops required to construct a synchronous counter with the count sequence<br/>is _______.<br/>digital-logic<br/>digital-counter</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8219/gate-cse-2015-set-1-question-20"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2016 | Set 1 | Question: 8</strong></div><p>We want to design a synchronous counter that counts the sequence<br/>and then<br/>repeats. The minimum number of<br/>flip-flops required to implement this counter is _____________.<br/>digital-logic<br/>digital-counter<br/>flip-flop</p></div>",
+      "options": [],
+      "correctAnswer": "3:4",
+      "discussUrl": "https://gateoverflow.in/8219/gate-cse-2015-set-1-question-20"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2017 | Set 2 | Question: 42</strong></div><p>The next state table of a<br/>bit saturating up-counter is given below.<br/>The counter is built as a synchronous sequential circuit using<br/>flip-flops. The expressions for<br/>and<br/>are<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8219/gate-cse-2015-set-1-question-20"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2021 | Set 1 | Question: 28</strong></div><p>Consider a<br/>-bit counter, designed using<br/>flip-flops, as shown below:<br/>Assuming the initial state of the counter given by<br/>as<br/>, what are the next three states?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8219/gate-cse-2015-set-1-question-20"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2023 | Question: 33</strong></div><p>Consider a sequential digital circuit consisting of<br/>ﬂip-ﬂops and<br/>ﬂip-ﬂops as shown in the ﬁgure.<br/>is the clock input to the circuit. At the beginning,<br/>and<br/>have values<br/>and<br/>respectively.<br/>Which one of the given values of<br/>can<br/>be obtained with this digital circuit?<br/>digital-logic<br/>flip-flop<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399278/gate-cse-2023-question-33"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 2026 | Set 1 | Question: 27</strong></div><p>Consider a<br/>-bit saturating up/down counter that performs the saturating up count when the input<br/>is<br/>,<br/>and the saturating down count when<br/>is<br/>. The Next State table of the counter is as shown. The counter is<br/>built as a synchronous sequential circuit using D flip-flops.<br/>Input<br/>Cureent State<br/>Next State<br/>Which one of the following options corresponds to the expressions for the inputs of the D flip-flops,<br/>and<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>digital-counter<br/>sequential-circuit<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399278/gate-cse-2023-question-33"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE IT 2005 | Question: 11</strong></div><p>How many pulses are needed to change the contents of a<br/>-bit up counter from<br/>to<br/>(rightmost bit is the LSB)?<br/>digital-logic<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3756/gate-it-2005-question-11"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE IT 2008 | Question: 37</strong></div><p>Consider the following state diagram and its realization by a JK flip flop<br/>The combinational circuit generates J and K in terms of x, y and Q.<br/>The Boolean expressions for J and K are :<br/>digital-logic<br/>boolean-algebra<br/>digital-counter<br/>Digital Counter: GATE1992-04-c<br/>Design a<br/>-bit counter using D-ﬂip ﬂops such that not more than one ﬂip-ﬂop changes state between any two<br/>consecutive states.<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter<br/>descriptive<br/>Dual Function<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3347/gate-it-2008-question-37"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dual Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dual Function: GATE CSE 2014 | Set 2 | Question: 6</strong></div><p>The dual of a Boolean function<br/>, written as<br/>is the same expression as that of<br/>with<br/>and<br/>swapped.<br/>is said to be self-dual if<br/>. The number of self-dual functions with<br/>Boolean variables is<br/>digital-logic<br/>dual-function<br/>boolean-algebra<br/>Finite State Machines<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3347/gate-it-2008-question-37"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Finite State Machines",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Finite State Machines: GATE CSE 1994 | Question: 3.3</strong></div><p>State True or False with one line explanation<br/>A FSM (Finite State Machine) can be designed to add two integers of any arbitrary length (arbitrary number of<br/>digits).<br/>digital-logic<br/>true-false<br/>finite-state-machines</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3347/gate-it-2008-question-37"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Finite State Machines",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Finite State Machines: GATE CSE 1995 | Question: 2.23</strong></div><p>A finite state machine with the following state table has a single input<br/>and a single out<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/3347/gate-it-2008-question-37"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Finite State Machines",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Finite State Machines: GATE CSE 1996 | Question: 2.23</strong></div><p>Consider the following state table for a sequential machine. The number of states in the minimized machine<br/>will be<br/>digital-logic<br/>finite-state-machines</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2752/gate-cse-1996-question-2-23"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Finite State Machines",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Finite State Machines: GATE CSE 2009 | Question: 27</strong></div><p>Given the following state table of an FSM with two states<br/>and<br/>,one input and one output.<br/>If the initial state is<br/>what is the minimum length of  an input string which will take the machine to the<br/>state<br/>with<br/>.<br/>digital-logic<br/>finite-state-machines<br/>Fixed Point Representation<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2752/gate-cse-1996-question-2-23"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fixed Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fixed Point Representation: GATE CSE 2017 | Set 1 | Question: 7</strong></div><p>The<br/>n<br/>-bit ﬁxed-point representation of an unsigned real number<br/>uses<br/>bits for the fraction part. Let<br/>. The range of decimal values for<br/>in this representation is<br/>digital-logic<br/>number-representation<br/>fixed-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2752/gate-cse-1996-question-2-23"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Fixed Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fixed Point Representation: GATE CSE 2018 | Question: 33</strong></div><p>Consider the unsigned 8-bit fixed point binary number representation, below,<br/>where the position of the primary point is between<br/>and<br/>. Assume<br/>is the most signiﬁcant bit. Some of the<br/>decimal numbers listed below<br/>cannot<br/>be represented<br/>exactly<br/>in the above representation:<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>iv<br/>.<br/>Which one of the following statements is true?<br/>A<br/>.<br/>None of<br/>can be exactly represented<br/>B<br/>.<br/>Only<br/>cannot be exactly represented<br/>C<br/>.<br/>Only<br/>and<br/>cannot be exactly represented<br/>D<br/>.<br/>Only<br/>and<br/>cannot be exactly represented<br/>digital-logic<br/>number-representation<br/>fixed-point-representation<br/>Flip Flop<br/>(7)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204107/gate-cse-2018-question-33"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2001 | Question: 11</strong></div><p>A sequential circuit takes an input stream of<br/>and<br/>and produces an output stream of<br/>and<br/>Initially it replicates the input on its output until two consecutive<br/>are encountered on the input. From then<br/>onward, it produces an output stream, which is the bit-wise complement of input stream until it encounters two<br/>consecutive 1's, whereupon the process repeats. An example input and output stream is shown below.<br/>master-slave flip-flops are to be used to design the circuit.<br/>a<br/>.<br/>Give the state transition diagram<br/>b<br/>.<br/>Give the minimized sum-of-product expression for<br/>and<br/>inputs of one of its state flip-flops<br/>digital-logic<br/>descriptive<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/752/gate-cse-2001-question-11"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2004 | Question: 18, ISRO2007-31</strong></div><p>In an<br/>latch made by cross-coupling two NAND gates, if both<br/>and<br/>inputs are set to<br/>, then it will<br/>result in<br/>digital-logic<br/>easy<br/>isro2007<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204107/gate-cse-2018-question-33"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2015 | Set 1 | Question: 37</strong></div><p>A positive edge-triggered<br/>ﬂip-ﬂop is connected to a positive edge-triggered<br/>ﬂip-ﬂop as follows. The</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204107/gate-cse-2018-question-33"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2017 | Set 1 | Question: 33</strong></div><p>Consider a combination of<br/>and<br/>ﬂip-ﬂops connected as shown below. The output of the<br/>ﬂip-ﬂop is<br/>connected to the input of the<br/>ﬂip-ﬂop and the output of the<br/>ﬂip-ﬂop is connected to the input of the<br/>flip-flop.<br/>Initially, both<br/>and<br/>are set to<br/>(before the<br/>clock cycle). The outputs<br/>A<br/>.<br/>after the<br/>cycle are<br/>and after the<br/>cycle are<br/>respectively.<br/>B<br/>.<br/>after the<br/>cycle are<br/>and after the<br/>cycle are<br/>respectively.<br/>C<br/>.<br/>after the<br/>cycle are<br/>and after the<br/>cycle are<br/>respectively.<br/>D<br/>.<br/>after the<br/>cycle are<br/>and after the<br/>cycle are<br/>respectively.<br/>digital-logic<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118315/gate-cse-2017-set-1-question-33"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2018 | Question: 22</strong></div><p>Consider the sequential circuit shown in the ﬁgure,  where both ﬂip-ﬂops used are positive edge-triggered<br/>flip-flops.<br/>The number of states in the state transition diagram of this circuit that have a transition back to the same state on<br/>some value of \"in\" is ____<br/>digital-logic<br/>flip-flop</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/204096/gate-cse-2018-question-22"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE CSE 2025 | Set 1 | Question: 50</strong></div><p>Consider the given sequential circuit designed using D-Flip-ﬂops. The circuit is initialized with some value<br/>(initial state). The number of distinct states the circuit will go through before returning back to the initial state<br/>is ___________. (Answer in integer)</p></div>",
+      "options": [],
+      "correctAnswer": "7:8",
+      "discussUrl": "https://gateoverflow.in/118315/gate-cse-2017-set-1-question-33"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Flip Flop",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Flip Flop: GATE IT 2007 | Question: 7</strong></div><p>Which of the following input sequences for a cross-coupled<br/>ﬂip-ﬂop realized with two<br/>gates<br/>may lead to an oscillation?<br/>digital-logic<br/>flip-flop<br/>Floating Point Representation<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3440/gate-it-2007-question-7"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 1987 | Question: 1-vii</strong></div><p>The exponent of a floating-point number is represented in excess-<br/>code so that:<br/>digital-logic<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2181"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 1989 | Question: 1-vi</strong></div><p>Consider an excess -<br/>representation for ﬂoating point numbers with<br/>BCD digit mantissa and<br/>BCD digit<br/>exponent in normalised form. The minimum and maximum positive numbers that can be represented are<br/>__________ and _____________ respectively.<br/>descriptive<br/>digital-logic<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2181"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 1990 | Question: 1-iv-a</strong></div><p>A<br/>-bit ﬂoating-point number is represented by a<br/>-bit signed exponent, and a<br/>-bit fractional mantissa.<br/>The base of the scale factor is<br/>The range of the exponent is ___________<br/>digital-logic<br/>number-representation<br/>floating-point-representation<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2181"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 1990 | Question: 1-iv-b</strong></div><p>A<br/>-bit ﬂoating-point number is represented by a<br/>-bit signed exponent, and a<br/>-bit fractional mantissa.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2181"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 1997 | Question: 72</strong></div><p>Following floating point number format is given<br/>is a fraction represented by a<br/>mantissa (includes sign bit) in sign magnitude form,<br/>is a<br/>exponent (includes sign hit) in sign magnitude form and<br/>is a ﬂoating point number. Let<br/>in decimal and<br/>in decimal<br/>a<br/>.<br/>Represent<br/>and<br/>as floating point numbers in the above format.<br/>b<br/>.<br/>Show the steps involved in floating point addition of<br/>and<br/>c<br/>.<br/>What is the percentage error (up to one position beyond decimal point) in the addition operation in (b)?<br/>digital-logic<br/>floating-point-representation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/19702/gate-cse-1997-question-72"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 2003 | Question: 43</strong></div><p>The following is a scheme for floating point number representation using<br/>bits.<br/>Let<br/>and<br/>be the numbers represented in binary in the sign, exponent, and mantissa ﬁelds respectively. Then<br/>the floating point number represented is:<br/>What is the maximum difference between two successive real numbers representable in this system?<br/>digital-logic<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/934/gate-cse-2003-question-43"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 2005 | Question: 85-a</strong></div><p>Consider the following floating-point format.<br/>Mantissa is a pure fraction in sign-magnitude form.<br/>The decimal number<br/>has the following hexadecimal representation (without normalization and<br/>rounding off):<br/>digital-logic<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1407/gate-cse-2005-question-85-a"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Floating Point Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Floating Point Representation: GATE CSE 2005 | Question: 85-b</strong></div><p>Consider the following floating-point format.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1407/gate-cse-2005-question-85-a"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 1989 | Question: 4-iii</strong></div><p>Show that {NOR} is a functionally complete set of Boolean operations.<br/>descriptive<br/>digital-logic<br/>functional-completeness</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87883/gate-cse-1989-question-4-iii"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 1992 | Question: 02-ii</strong></div><p>All digital circuits can be realized using only<br/>digital-logic<br/>digital-circuits<br/>multiple-selects<br/>functional-completeness<br/>combinational-circuit</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/556/gate-cse-1992-question-02-ii"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 1993 | Question: 9</strong></div><p>Assume that only half adders are available in your laboratory. Show that any binary function can be<br/>implemented using half adders only.<br/>digital-logic<br/>combinational-circuit<br/>adder<br/>descriptive<br/>functional-completeness</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87883/gate-cse-1989-question-4-iii"
+    }
+  ]
+}

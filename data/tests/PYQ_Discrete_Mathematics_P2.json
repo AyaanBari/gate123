@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P2",
+  "fileName": "PYQ_Discrete_Mathematics_P2.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 2",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 1996 | Question: 9</strong></div><p>The Fibonacci sequence<br/>is defined by the following recurrence:<br/>Prove by induction that every third element of the sequence is even.<br/>recurrence-relation<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2761/gate-cse-1996-question-9"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2016 | Set 1 | Question: 2</strong></div><p>Let<br/>be the number of<br/>-bit strings that do<br/>NOT<br/>contain two consecutive<br/>. Which one of the following is<br/>the recurrence relation for<br/>?<br/>recurrence-relation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2761/gate-cse-1996-question-9"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2016 | Set 1 | Question: 27</strong></div><p>Consider the recurrence relation<br/>. Let<br/>. The value of<br/>is<br/>__________.<br/>recurrence-relation</p></div>",
+      "options": [],
+      "correctAnswer": "197.9 : 198.1",
+      "discussUrl": "https://gateoverflow.in/2761/gate-cse-1996-question-9"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2022 | Question: 41</strong></div><p>Consider the following recurrence:<br/>Then, which of the following statements is/are<br/>recurrence-relation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/371895/gate-cse-2022-question-41"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE CSE 2023 | Question: 5</strong></div><p>The Lucas sequence<br/>is defined by the recurrence relation:<br/>with<br/>and<br/>.<br/>Which one of the options given is TRUE?<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371895/gate-cse-2022-question-41"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE IT 2004 | Question: 34</strong></div><p>Let<br/>... be harmonic numbers. Then, for<br/>,<br/>can be expressed as<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3677/gate-it-2004-question-34"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recurrence Relation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recurrence Relation: GATE IT 2007 | Question: 76</strong></div><p>Consider the sequence<br/>defined by the recurrence relation<br/>, where<br/>.<br/>Suppose there exists a<br/>non-empty, open<br/>interval<br/>such that for all<br/>satisfying<br/>, the<br/>sequence converges to a limit. The sequence converges to the value?<br/>recurrence-relation<br/>Summation<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3528/gate-it-2007-question-76"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Summation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Summation: GATE CSE 1989 | Question: 4-i</strong></div><p>How many substrings (of all lengths inclusive) can be formed from a character string of length<br/>? Assume all<br/>characters to be distinct, prove your answer.<br/>descriptive<br/>proof<br/>counting<br/>summation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3677/gate-it-2004-question-34"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Summation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Summation: GATE CSE 1994 | Question: 15</strong></div><p>Use the patterns given to prove that<br/>A<br/>.<br/>(You are not permitted to employ induction)<br/>B<br/>.<br/>Use the result obtained in (A) to prove that<br/>proof<br/>summation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2511/gate-cse-1994-question-15"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Summation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Summation: GATE CSE 2008 | Question: 24</strong></div><p>Let<br/>and<br/>, where<br/>is a positive integer. Then<br/>easy<br/>summation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422/gate-cse-2008-question-24"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Summation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Summation: GATE CSE 2015 | Set 1 | Question: 26</strong></div><p>= ______.<br/>summation<br/>1.1.1<br/>D<br/>1.1.2<br/>N/A<br/>1.1.3<br/>N/A<br/>1.1.4<br/>B<br/>1.1.5<br/>7<br/>1.1.6<br/>A<br/>1.2.1<br/>A<br/>1.2.2<br/>N/A<br/>1.2.3<br/>D<br/>1.2.4<br/>D<br/>1.2.5<br/>B<br/>1.2.6<br/>C<br/>1.2.7<br/>B<br/>1.2.8<br/>C<br/>1.2.9<br/>A<br/>1.2.10<br/>D<br/>1.2.11<br/>89<br/>1.2.12<br/>15<br/>1.2.13<br/>C<br/>1.2.14<br/>12<br/>1.2.15<br/>195:195<br/>1.2.16<br/>A<br/>1.2.17<br/>B<br/>1.2.18<br/>A<br/>1.3.1<br/>A;C<br/>1.3.2<br/>N/A<br/>1.3.3<br/>D<br/>1.3.4<br/>65 : 65<br/>1.3.5<br/>59049 : 59049<br/>1.3.6<br/>D<br/>1.4.1<br/>N/A<br/>1.4.2<br/>B<br/>1.4.3<br/>10<br/>1.4.4<br/>15<br/>1.4.5<br/>D<br/>1.4.6<br/>A<br/>1.5.1<br/>4<br/>1.5.2<br/>2<br/>1.6.1<br/>C<br/>1.6.2<br/>C<br/>1.7.1<br/>N/A<br/>1.7.2<br/>B<br/>1.7.3<br/>197.9 : 198.1<br/>1.7.4<br/>A;B;C<br/>1.7.5<br/>A<br/>1.7.6<br/>B<br/>1.7.7<br/>B<br/>1.8.1<br/>N/A<br/>1.8.2<br/>N/A<br/>1.8.3<br/>A<br/>1.8.4<br/>0.99</p></div>",
+      "options": [],
+      "correctAnswer": "0.99",
+      "discussUrl": "https://gateoverflow.in/8248/gate-cse-2015-set-1-question-26"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2001 | Question: 2.15</strong></div><p>How many undirected graphs (not necessarily connected) can be constructed out of a given set<br/>of<br/>vertices?<br/>graph-theory<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/733/gate-cse-2001-question-2-15"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2004 | Question: 79</strong></div><p>How many graphs on<br/>labeled vertices exist which have at least<br/>edges ?<br/>graph-theory<br/>counting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1073/gate-cse-2004-question-79"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Counting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Counting: GATE CSE 2012 | Question: 38</strong></div><p>Let<br/>be a complete undirected graph on<br/>vertices. If vertices of<br/>are labeled, then the number of distinct<br/>cycles of length<br/>in<br/>is equal to<br/>graph-theory<br/>marks-to-all<br/>counting<br/>Degree of Graph<br/>(13)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/473/gate-cse-2012-question-38"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 1987 | Question: 9c</strong></div><p>Show that the number of odd-degree vertices in a finite graph is even.<br/>graph-theory<br/>degree-of-graph<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82438/gate-cse-1987-question-9c"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 1991 | Question: 16-b</strong></div><p>Show that all vertices in an undirected ﬁnite graph cannot have distinct degrees, if the graph has at least two<br/>vertices.<br/>graph-theory<br/>degree-of-graph<br/>descriptive<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/26647/gate-cse-1991-question-16-b"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 1995 | Question: 24</strong></div><p>Prove that in finite graph, the number of vertices of odd degree is always even.<br/>graph-theory<br/>degree-of-graph<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82438/gate-cse-1987-question-9c"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2003 | Question: 40</strong></div><p>A graph<br/>satisﬁes<br/>. The min-degree of<br/>is deﬁned as<br/>.<br/>Therefore, min-degree of<br/>cannot be<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/931/gate-cse-2003-question-40"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2006 | Question: 71</strong></div><p>The<br/>vertices of a graph<br/>corresponds to all subsets of a set of size<br/>, for<br/>.  Two vertices of<br/>are<br/>adjacent if and only if the corresponding sets intersect in exactly two elements.<br/>The number of vertices of degree zero in<br/>is:<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1850/gate-cse-2006-question-71"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2006 | Question: 72</strong></div><p>The<br/>vertices of a graph<br/>corresponds to all subsets of a set of size<br/>, for<br/>. Two vertices of<br/>are<br/>adjacent if and only if the corresponding sets intersect in exactly two elements.<br/>The maximum degree of a vertex in<br/>is:<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1850/gate-cse-2006-question-71"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2009 | Question: 3</strong></div><p>Which one of the following is<br/>TRUE<br/>for any simple connected undirected graph with more than<br/>vertices?<br/>A<br/>.<br/>No two vertices have the same degree.<br/>B<br/>.<br/>At least two vertices have the same degree.<br/>C<br/>.<br/>At least three vertices have the same degree.<br/>D<br/>.<br/>All vertices have the same degree.<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/82438/gate-cse-1987-question-9c"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2010 | Question: 1</strong></div><p>Let<br/>be a graph. Deﬁne<br/>, where<br/>is the number of vertices of degree<br/>in<br/>If<br/>and<br/>are two different trees with<br/>, then<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2010 | Question: 28</strong></div><p>The degree sequence of a simple graph is the sequence of the degrees of the nodes in the graph in<br/>decreasing order. Which of the following sequences can not be the degree sequence of any graph?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2013 | Question: 25</strong></div><p>Which of the following statements is/are TRUE for undirected graphs?<br/>P: Number of odd degree vertices is even.<br/>Q: Sum of degrees of all vertices is even.<br/>graph-theory<br/>easy<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1536/gate-cse-2013-question-25"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2014 | Set 1 | Question: 52</strong></div><p>An ordered<br/>tuple<br/>with<br/>is called<br/>graphic<br/>if there exists a simple<br/>undirected graph with<br/>vertices having degrees<br/>respectively. Which one of the following<br/>-<br/>tuples is NOT graphic?<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2017 | Set 2 | Question: 23</strong></div><p>is an undirected graph with<br/>vertices and<br/>edges such that each vertex of<br/>has degree at least<br/>.<br/>Then the maximum possible value of<br/>is _________ .<br/>graph-theory<br/>degree-of-graph</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Degree of Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Degree of Graph: GATE CSE 2026 | Set 1 | Question: 37</strong></div><p>Let<br/>be a simple, undirected graph. A vertex cover of<br/>is a subset<br/>such that for every<br/>or<br/>. Let the size of the smallest vertex cover in<br/>be<br/>. Let<br/>be any vertex<br/>cover of size<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2026 | Set 1 | Question: 45</strong></div><p>An undirected, unweighted, simple graph<br/>is said to be<br/>-colorable if there exists a function<br/>such that for every<br/>.<br/>Which of the following statements about<br/>-colorable graphs is/are true?<br/>A<br/>.<br/>If<br/>is<br/>-colorable, then<br/>may contain cycles of odd length<br/>B<br/>.<br/>If<br/>is<br/>-colorable, then<br/>may contain cycles of even length<br/>C<br/>.<br/>An optimal algorithm for testing whether<br/>is<br/>-colorable runs in time<br/>, if<br/>is represented as an<br/>adjacency list<br/>D<br/>.<br/>An optimal algorithm for testing whether<br/>is<br/>-colorable runs in time<br/>, if<br/>is represented as an<br/>adjacency list<br/>graph-theory<br/>graph-algorithms<br/>multiple-selects<br/>Graph Coloring<br/>(11)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/523035/gate-cse-2026-set-1-question-45"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2002 | Question: 1.4</strong></div><p>The minimum number of colours required to colour the vertices of a cycle with<br/>nodes in such a way that no<br/>two adjacent nodes have the same colour is<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523035/gate-cse-2026-set-1-question-45"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2004 | Question: 77</strong></div><p>The minimum number of colours required to colour the following graph, such that no two adjacent vertices<br/>are assigned the same color, is<br/>graph-theory<br/>graph-coloring<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1071/gate-cse-2004-question-77"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2009 | Question: 2</strong></div><p>What is the chromatic number of an<br/>vertex simple connected graph which does not contain any odd length<br/>cycle? Assume<br/>.<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/796/gate-cse-2009-question-2"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2016 | Set 2 | Question: 03</strong></div><p>The minimum number of colours that is sufficient to vertex-colour any planar graph is ________.<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/796/gate-cse-2009-question-2"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2018 | Question: 18</strong></div><p>The chromatic number of the following graph is _____<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/204092/gate-cse-2018-question-18"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2020 | Question: 52</strong></div><p>Graph<br/>is obtained by adding vertex<br/>to<br/>and making<br/>adjacent to every vertex of<br/>. The<br/>minimum number of colours required to edge-colour<br/>is _______<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/333179/gate-cse-2020-question-52"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2023 | Question: 45</strong></div><p>Let<br/>be a simple, ﬁnite, undirected graph with vertex set<br/>. Let<br/>denote the maximum<br/>degree of<br/>and let<br/>denote the set of all possible colors. Color the vertices of<br/>using the<br/>following greedy strategy: for<br/>: no neighbour of<br/>is colored<br/>Which of the following statements is/are<br/>A<br/>.<br/>This procedure results in a proper vertex coloring of<br/>.<br/>B<br/>.<br/>The number of colors used is at most<br/>.<br/>C<br/>.<br/>The number of colors used is at most<br/>.<br/>D<br/>.<br/>The number of colors used is equal to the chromatic number of<br/>.<br/>graph-theory<br/>graph-coloring<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/399266/gate-cse-2023-question-45"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2024 | Set 1 | Question: 41</strong></div><p>The chromatic number of a graph is the minimum number of colours used in a<br/>proper<br/>colouring of the graph.<br/>Let<br/>be any graph with<br/>vertices and chromatic number<br/>. Which of the following statements is/are always<br/>TRUE?<br/>A<br/>.<br/>contains a complete subgraph with<br/>vertices</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/39553/gate-cse-2016-set-2-question-03"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE CSE 2024 | Set 2 | Question: 50</strong></div><p>The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph.<br/>The chromatic number of the following graph is __________.<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/422847/gate-cse-2024-set-2-question-50"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE IT 2006 | Question: 25</strong></div><p>Consider the undirected graph<br/>deﬁned as follows. The vertices of<br/>are bit strings of length<br/>. We have<br/>an edge between vertex<br/>and vertex<br/>if and only if<br/>and<br/>diﬀer in exactly one bit position (in other words,<br/>can be obtained from<br/>by flipping a single bit). The ratio of the chromatic number of<br/>to the diameter of<br/>is,<br/>graph-theory<br/>graph-coloring</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3564/gate-it-2006-question-25"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Coloring",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Coloring: GATE IT 2008 | Question: 3</strong></div><p>What is the chromatic number of the following graph?<br/>graph-theory<br/>graph-coloring<br/>easy<br/>Graph Connectivity<br/>(40)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3564/gate-it-2006-question-25"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Connectivity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Connectivity: GATE CSE 1987 | Question: 9d</strong></div><p></p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82442/gate-cse-1987-question-9d"
+    }
+  ]
+}

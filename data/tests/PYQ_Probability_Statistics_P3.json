@@ -1,0 +1,967 @@
+{
+  "id": "PYQ_Probability_Statistics_P3",
+  "fileName": "PYQ_Probability_Statistics_P3.json",
+  "title": "GATE Official PYQs | Probability & Statistics Part 3",
+  "subject": "Probability & Statistics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 34,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2026 | Set 1 | Question: 1</strong></div><p>An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the<br/>urn, and this ball together with another ball of the same color is put back in the urn. The probability that there<br/>are equal number of red and blue balls after two steps is<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460058/gate-cse-2025-set-1-question-22"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE DA 2025 | Question: 35</strong></div><p>A random experiment consists of throwing<br/>fair dice, each die having six faces numbered<br/>to<br/>. An<br/>event<br/>represents the set of all outcomes where at least one of the dice shows a<br/>. Then,<br/>gateda-2025<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460058/gate-cse-2025-set-1-question-22"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE DA 2026 | Question: 10</strong></div><p>Suppose that a computer program provides a non-negative and integer-valued random solution to the<br/>equation<br/>.<br/>Which of the following is the probability that all of<br/>in the provided solution are positive?<br/>gateda-2026<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE DA 2026 | Question: 9</strong></div><p>Let<br/>be a randomly chosen non-empty subset of<br/>.<br/>Which of the following is the probability that the product of all the elements of<br/>is even?<br/>gateda-2026<br/>probability<br/>Probability: GATE DS&AI 2024 | Question: 48<br/>Consider two events<br/>and<br/>. Let<br/>denote the complement of the event<br/>. The probability associated with<br/>different events are given as follows:<br/>Then,<br/>is<br/>(rounded off to two decimal places).</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE IT 2004 | Question: 1</strong></div><p>In a population of<br/>families,<br/>of the families have three children,<br/>of the families have two children<br/>and the remaining families have one child. What is the probability that a randomly picked child belongs to a<br/>family with two children?<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/413620/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-7"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE IT 2005 | Question: 1</strong></div><p>A bag contains<br/>blue marbles,<br/>green marbles and<br/>red marbles. A marble is drawn from the bag, its<br/>colour recorded and it is put back in the bag. This process is repeated<br/>times. The probability that no two of<br/>the marbles drawn have the same colour is<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/413620/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-7"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE IT 2008 | Question: 2</strong></div><p>A sample space has two events<br/>and<br/>such that probabilities<br/>. What is<br/>?<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/413620/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-7"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE IT 2008 | Question: 23</strong></div><p>What is the probability that in a randomly chosen group of<br/>people at least three people have the same<br/>birthday?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3224/gate-it-2008-question-2"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability Density Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability Density Function: GATE CSE 2003 | Question: 60, ISRO2007-45</strong></div><p>A program consists of two modules executed sequentially. Let<br/>and<br/>respectively denote the<br/>probability density functions of time taken to execute the two modules. The probability density function of the<br/>overall time taken to execute the program is given by<br/>probability<br/>isro2007<br/>probability-density-function<br/>Probability Distribution<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Probability Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability Distribution: GATE CSE 2025 | Set 1 | Question: 48</strong></div><p>Consider a probability distribution given by the density function<br/>.<br/>The probability that<br/>lies between<br/>and<br/>, i.e.,<br/>is _________. (rounded oﬀ to three decimal<br/>places)<br/>probability<br/>probability-distribution<br/>Random Variable<br/>(10)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(11Q)</p></div>",
+      "options": [],
+      "correctAnswer": "0.300:0.302",
+      "discussUrl": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE CSE 2005 | Question: 12, ISRO2009-64</strong></div><p>L e t<br/>be the continuous probability density function of a random variable<br/>, the probability that<br/>, is :<br/>probability<br/>random-variable<br/>easy<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1162/gate-cse-2005-question-12-isro2009-64"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE CSE 2011 | Question: 33</strong></div><p>Consider a ﬁnite sequence of random values<br/>. Let<br/>be the mean and<br/>be the<br/>standard deviation of<br/>. Let another ﬁnite sequence<br/>of equal length be derived from this as<br/>, where<br/>and<br/>are positive constants. Let<br/>be the mean and<br/>be the standard deviation of this<br/>sequence.<br/>Which one of the following statements is<br/>INCORRECT<br/>?<br/>A<br/>.<br/>Index position of mode of<br/>in<br/>is the same as the index position of mode of<br/>in<br/>B<br/>.<br/>Index position of median of<br/>in<br/>is the same as the index position of median of<br/>in<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2135/gate-cse-2011-question-33"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE CSE 2012 | Question: 21</strong></div><p>Consider a random variable<br/>that takes values<br/>and<br/>with probability<br/>each. The values of the<br/>cumulative distribution function<br/>at<br/>and<br/>are<br/>probability<br/>random-variable<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1577/gate-cse-2012-question-21"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE CSE 2015 | Set 3 | Question: 37</strong></div><p>Suppose<br/>for<br/>are independent and identically distributed random variables whose probability<br/>mass functions are<br/>. Deﬁne another random variable<br/>, where<br/>denotes XOR. Then<br/>______.<br/>probability<br/>random-variable</p></div>",
+      "options": [],
+      "correctAnswer": "0.75",
+      "discussUrl": "https://gateoverflow.in/8496/gate-cse-2015-set-3-question-37"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE CSE 2026 | Set 2 | Question: 4</strong></div><p>The probability density function<br/>of a random variable<br/>which takes real values is<br/>Which one of the following statements is correct about the random variable<br/>?<br/>probability<br/>random-variable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1577/gate-cse-2012-question-21"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE DA 2025 | Question: 29</strong></div><p>​​​​​<br/>Consider the cumulative distribution function (CDF) of a random variable<br/>:<br/>The value of<br/>is<br/>gateda-2025<br/>probability<br/>random-variable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460993/gate-da-2025-question-29"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE DA 2025 | Question: 9</strong></div><p>​​​​<br/>Let<br/>be a continuous random variable whose cumulative distribution function<br/>, for some<br/>, is<br/>given as follows:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8496/gate-cse-2015-set-3-question-37"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Random Variable",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Random Variable: GATE DA 2026 | Question: 44</strong></div><p>Let<br/>be a discrete valued random variable with cumulative distribution function<br/>.<br/>Which of the following statements is/are correct?<br/>gateda-2026<br/>random-variable<br/>probability<br/>multiple-selects<br/>Random Variable: GATE DS&AI 2024 | Question: 1<br/>​​​​<br/>Consider the following statements:<br/>i<br/>.<br/>The mean and variance of a Poisson random variable are equal.<br/>ii<br/>.<br/>For a standard normal random variable, the mean is zero and the variance is one.<br/>Which<br/>ONE<br/>of the following options is<br/>correct<br/>?<br/>gate-ds-ai-2024<br/>probability<br/>random-variable<br/>Random Variable: GATE DS&AI 2024 | Question: 55<br/>Two fair coins are tossed independently.<br/>is a random variable that takes a value of<br/>if both tosses are<br/>heads and<br/>otherwise.<br/>is a random variable that takes a value of<br/>if at least one of the tosses is heads<br/>and<br/>otherwise.<br/>The value of the covariance of<br/>and<br/>is<br/>(rounded off to three decimal places).<br/>gate-ds-ai-2024<br/>probability<br/>random-variable<br/>Square Invariant<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/523170/gate-da-2026-question-44"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Square Invariant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Square Invariant: GATE CSE 2025 | Set 2 | Question: 54</strong></div><p>A quadratic polynomial<br/>over complex numbers is said to be square invariant if<br/>. Suppose from the set of all square invariant quadratic polynomials<br/>we choose one at random.<br/>The probability that the roots of the chosen polynomial are equal is __________. (rounded off to one decimal place)<br/>probability<br/>square-invariant</p></div>",
+      "options": [],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523170/gate-da-2026-question-44"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Statistics",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statistics: GATE CSE 2021 | Set 2 | Question: 22</strong></div><p>For a given biased coin, the probability that the outcome of a toss is a head is<br/>. This coin is tossed<br/>times. Let<br/>denote the random variable whose value is the number of times that head appeared in<br/>these<br/>tosses. The standard deviation of<br/>(rounded to<br/>decimal place) is _________<br/>probability<br/>random-variable<br/>statistics</p></div>",
+      "options": [],
+      "correctAnswer": "15.00 :",
+      "discussUrl": "https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Statistics",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statistics: GATE CSE 2024 | Set 2 | Question: 34</strong></div><p>Let<br/>and<br/>be random variables, not necessarily independent, that take real values in the interval<br/>. Let<br/>and let the mean values of<br/>be<br/>, respectively. Which one of the following statements is<br/>TRUE?<br/>probability<br/>random-variable<br/>statistics</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Statistics",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statistics: GATE DA 2026 | Question: 52</strong></div><p>For a given data set<br/>, where<br/>, it is known that<br/>Let us denote<br/>The value of<br/>is<br/>. (Answer in<br/>integer<br/>)<br/>gateda-2026<br/>statistics<br/>Uniform Distribution<br/>(11)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(3Q)</p></div>",
+      "options": [],
+      "correctAnswer": "10:10",
+      "discussUrl": "https://gateoverflow.in/523162/gate-da-2026-question-52"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 1998 | Question: 3a</strong></div><p>Two friends agree to meet at a park with the following conditions. Each will reach the park between 4:00 pm<br/>and 5:00 pm and will see if the other has already arrived. If not, they will wait for 10 minutes or the end of the<br/>hour whichever is earlier and leave. What is the probability that the two will not meet?<br/>probability<br/>uniform-distribution</p></div>",
+      "options": [],
+      "correctAnswer": "0.69:0.70",
+      "discussUrl": "https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2004 | Question: 78</strong></div><p>Two<br/>bit binary strings,<br/>and<br/>are chosen randomly with uniform probability. The probability that the<br/>Hamming distance between these strings (the number of bit positions where the two strings differ) is equal to<br/>is<br/>probability<br/>uniform-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1072/gate-cse-2004-question-78"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2004 | Question: 80</strong></div><p>A point is randomly selected with uniform probability in the<br/>plane within the rectangle with corners at<br/>and<br/>If<br/>is the length of the position vector of the point, the expected value of<br/>is<br/>probability<br/>uniform-distribution<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1074/gate-cse-2004-question-80"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2007 | Question: 24</strong></div><p>Suppose we uniformly and randomly select a permutation from the<br/>permutations of<br/>What<br/>is the probability that<br/>appears at an earlier position than any other even number in the selected<br/>permutation?<br/>probability<br/>easy<br/>uniform-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1222/gate-cse-2007-question-24"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2014 | Set 1 | Question: 2</strong></div><p>Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of<br/>the shorter stick is ________ .<br/>probability<br/>uniform-distribution<br/>expectation</p></div>",
+      "options": [],
+      "correctAnswer": "0.24 : 0.27",
+      "discussUrl": "https://gateoverflow.in/1074/gate-cse-2004-question-80"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2019 | Question: 47</strong></div><p>Suppose<br/>is distributed uniformly in the open interval<br/>. The probability that the polynomial<br/>has only real roots is (rounded off to<br/>decimal place) _______<br/>engineering-mathematics<br/>probability<br/>uniform-distribution</p></div>",
+      "options": [],
+      "correctAnswer": "0.8",
+      "discussUrl": "https://gateoverflow.in/302801/gate-cse-2019-question-47"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2020 | Question: 45</strong></div><p>For<br/>, let<br/>be a non-zero vector. Suppose that<br/>is chosen uniformly at random from<br/>. Then, the probability that<br/>is an odd number is______________<br/>probability<br/>uniform-distribution</p></div>",
+      "options": [],
+      "correctAnswer": "0.5",
+      "discussUrl": "https://gateoverflow.in/333186/gate-cse-2020-question-45"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2024 | Set 1 | Question: 4</strong></div><p>Consider a permutation sampled uniformly at random from the set of all permutations of<br/>for<br/>some<br/>. Let<br/>be the event that<br/>occurs before<br/>in the permutation, and<br/>the event that<br/>occurs<br/>before<br/>. Which one of the following statements is TRUE?<br/>probability<br/>uniform-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1074/gate-cse-2004-question-80"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE CSE 2025 | Set 2 | Question: 55</strong></div><p>The unit interval<br/>is divided at a point chosen uniformly distributed over<br/>in<br/>into two disjoint<br/>subintervals.</p></div>",
+      "options": [],
+      "correctAnswer": "0.70:0.80",
+      "discussUrl": "https://gateoverflow.in/1074/gate-cse-2004-question-80"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Uniform Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Uniform Distribution: GATE DA 2026 | Question: 53</strong></div><p>Let<br/>be a random variable that follows Uniform<br/>distribution. The conditional distribution of the<br/>random variable<br/>given<br/>is the Uniform(<br/>) distribution.<br/>The value of correlation<br/>is<br/>. (Answer in integer)<br/>gateda-2026<br/>probability<br/>random-variable<br/>uniform-distribution<br/>Uniform Distribution: GATE DS&AI 2024 | Question: 46<br/>Let<br/>be a random variable uniformly distributed in the interval<br/>and<br/>be a random variable uniformly<br/>distributed in the interval<br/>. If<br/>and<br/>are independent of each other, the probability<br/>is<br/>(rounded off to three decimal places).<br/>gate-ds-ai-2024<br/>random-variable<br/>probability<br/>uniform-distribution<br/>Variance<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [],
+      "correctAnswer": "0:0",
+      "discussUrl": "https://gateoverflow.in/523161/gate-da-2026-question-53"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Variance",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Variance: GATE DA 2025 | Question: 26</strong></div><p>Let<br/>, where<br/>is a normal random variable with mean<br/>and variance<br/>. The<br/>variance of<br/>is<br/>gateda-2025<br/>probability<br/>random-variable<br/>variance</p></div>",
+      "options": [],
+      "correctAnswer": "0.125",
+      "discussUrl": "https://gateoverflow.in/523161/gate-da-2026-question-53"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Variance",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Variance: GATE DA 2026 | Question: 34</strong></div><p>Let<br/>and<br/>be two independent random variables.<br/>follows<br/>distribution and<br/>follows<br/>distribution.<br/>Which of the following options is the variance of<br/>?<br/>gateda-2026<br/>probability<br/>random-variable<br/>normal-distribution<br/>variance<br/>7.1.1<br/>0.60 :<br/>0.61<br/>7.1.2<br/>0.04 : 0.04<br/>7.1.3<br/>0.25:0.25<br/>7.2.1<br/>C<br/>7.2.2<br/>0.125<br/>7.3.1<br/>A<br/>7.3.2<br/>0.08:0.12<br/>7.4.1<br/>C<br/>7.4.2<br/>D<br/>7.4.3<br/>A<br/>7.4.4<br/>A<br/>7.4.5<br/>A<br/>7.4.6<br/>C<br/>7.5.1<br/>A;B;C<br/>7.6.1<br/>D<br/>7.6.2<br/>N/A<br/>7.6.3<br/>D<br/>7.6.4<br/>A<br/>7.6.5<br/>C<br/>7.6.6<br/>B<br/>7.6.7<br/>A<br/>7.6.8<br/>B<br/>7.6.9<br/>0.55<br/>7.6.10<br/>A<br/>7.6.11<br/>0.375</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523161/gate-da-2026-question-53"
+    }
+  ]
+}

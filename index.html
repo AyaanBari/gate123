@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GATE CS Exam Portal | 271 Tests & 11,214+ Questions (80 Full Mocks, GO Series & GATE PYQs)</title>
+  <meta name="description" content="Comprehensive interactive GATE Computer Science test series featuring 80 Full-Length Mock Tests (65 Qs each), 85 GO Classes test papers, and 98 official GATE PYQ subject papers with full CBT interface, instant evaluation, virtual calculator, and GateOverflow discussions.">
+
+  <!-- Google Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- App Stylesheet -->
+  <link rel="stylesheet" href="styles/app.css">
+
+  <!-- MathJax Configuration & Loader -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true
+      },
+      "HTML-CSS": { linebreaks: { automatic: true }, availableFonts: ["TeX"] },
+      SVG: { linebreaks: { automatic: true } }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML" onerror="this.src='./AIMT2_files/MathJax.js.download?config=TeX-AMS-MML_HTMLorMML'"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="brand-section" id="brand-header">
+      <div class="brand-icon">⚡</div>
+      <div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span class="brand-title">GATE CS CBT System</span>
+          <span class="brand-tag" id="brand-tag-count">271 Tests • 11,214+ Qs</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header-nav">
+      <button class="nav-btn active" id="nav-dashboard">
+        <span>📚 Tests Library</span>
+      </button>
+      <button class="nav-btn" id="nav-analytics">
+        <span>📈 Performance</span>
+      </button>
+      <button class="nav-btn" id="nav-history">
+        <span>📊 History</span>
+      </button>
+      <button class="nav-btn" id="nav-saved">
+        <span>⭐ Bookmarks</span>
+      </button>
+      <button class="nav-btn" id="nav-admin" style="display: none;">
+        <span>⚙️ Admin</span>
+      </button>
+      <button class="nav-btn" id="btn-unlock-code" style="color: #fde68a;">
+        <span>🔑 Unlock Code</span>
+      </button>
+      <button class="nav-btn" id="btn-user-auth">
+        <span id="user-display-name">👤 Sign In</span>
+      </button>
+      <button class="nav-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
+        <span id="theme-toggle-icon">☀️</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Viewport -->
+  <main class="main-viewport">
+
+    <!-- ====================================================================
+         VIEW 1: DASHBOARD / TEST CATALOG
+         ==================================================================== -->
+    <section id="view-dashboard" class="dashboard-container">
+      
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h1>GATE CS Exam Practice & Comprehensive Test Series</h1>
+          <p>
+            The ultimate GATE CS preparation platform with <strong>271 tests</strong> and <strong>11,214+ verified questions</strong>. Featuring <strong>80 Full-Length All India Mock Tests</strong> (each with <strong>65 questions, 100 marks, 180 mins</strong> covering all GATE subjects), the <strong>GO Classes Test Series</strong>, and the <strong>Official GATE PYQ Library</strong> (Volumes 1, 2, and 3) in realistic timed CBT Exam Mode or self-paced Practice Mode with instant step-by-step solutions.
+          </p>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <div class="stat-value" id="dash-stat-tests">271</div>
+            <div class="stat-label">Tests Available</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value" id="dash-stat-qs">11,214</div>
+            <div class="stat-label">Total Questions</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value" id="dash-stat-attempted">0</div>
+            <div class="stat-label">Tests Attempted</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value" id="dash-stat-best">--</div>
+            <div class="stat-label">Best Score %</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Series Tabs Selector -->
+      <div class="series-tabs-container">
+        <div class="series-tabs">
+          <button class="series-tab-btn active" data-series="All" id="tab-series-all">
+            <span>🌟 All Tests</span>
+            <span class="series-tab-count" id="count-series-all">271</span>
+          </button>
+          <button class="series-tab-btn" data-series="GATE 2027 Generated Mock Series" id="tab-series-mock80">
+            <span>🎯 80 Full Mocks (65 Qs / 100M)</span>
+            <span class="series-tab-count" id="count-series-mock80">80</span>
+          </button>
+          <button class="series-tab-btn" data-series="GO Test Series" id="tab-series-go">
+            <span>🎓 GO Classes Test Series</span>
+            <span class="series-tab-count" id="count-series-go">85</span>
+          </button>
+          <button class="series-tab-btn" data-series="GATE PYQs" id="tab-series-pyq">
+            <span>🏛️ Official GATE PYQs (Vol 1–3)</span>
+            <span class="series-tab-count" id="count-series-pyq">98</span>
+          </button>
+          <button class="series-tab-btn" data-series="GATE 2027 Original" id="tab-series-original">
+            <span>🔥 Challenger Series</span>
+            <span class="series-tab-count" id="count-series-original">8</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls & Search -->
+      <div class="controls-bar">
+        <div class="search-and-sort">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="test-search-input" class="search-input" placeholder="Search test name, subject, or topic (e.g. Algorithms, DBMS, Operating Systems, AIMT)...">
+          </div>
+
+          <select id="test-sort-select" class="filter-select">
+            <option value="default">Sort: Default Order</option>
+            <option value="questions-desc">Sort: Most Questions</option>
+            <option value="duration-desc">Sort: Longest Duration</option>
+            <option value="name-asc">Sort: Name (A-Z)</option>
+          </select>
+        </div>
+
+        <!-- Subject Filter Pills -->
+        <div class="subject-pills" id="subject-pills-container">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Tests Cards Grid -->
+      <div class="tests-grid" id="tests-grid-container">
+        <!-- Dynamically rendered test cards -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 2: CBT EXAM INTERFACE
+         ==================================================================== -->
+    <section id="view-exam" class="exam-viewport hidden">
+      
+      <!-- Top Exam Bar -->
+      <div class="exam-top-bar">
+        <div class="exam-info-section">
+          <div>
+            <div class="exam-current-title" id="exam-title-text">Exam Title</div>
+            <span class="brand-tag" id="exam-mode-badge" style="font-size: 0.7rem;">CBT Exam Mode</span>
+          </div>
+
+          <!-- Section Switcher Tabs -->
+          <div class="section-tabs-container" id="section-tabs-container">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Timer -->
+        <div class="exam-timer-box" id="exam-timer-box">
+          <span style="font-size: 1.1rem;">⏳</span>
+          <span class="timer-digits" id="timer-digits">00:00:00</span>
+        </div>
+
+        <!-- Tools -->
+        <div class="exam-top-actions">
+          <button class="tool-btn" id="btn-calculator" title="TCS iON Scientific Calculator">
+            <span>🧮 Calculator</span>
+          </button>
+          <button class="tool-btn" id="btn-qpaper" title="Question Paper Overview">
+            <span>📄 Question Paper</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Exam Split Area -->
+      <div class="exam-body-split">
+        
+        <!-- Left: Question Workspace -->
+        <div class="question-workspace">
+          
+          <!-- Question Meta Header -->
+          <div class="question-meta-bar">
+            <div class="q-number-badge" id="q-number-display">Question 1</div>
+            <div class="q-badge-group">
+              <span class="q-type-badge q-type-mcq" id="q-type-display">Multiple Choice Type</span>
+              <span class="q-marks-badge" id="q-marks-display">+1 / -0.33</span>
+            </div>
+          </div>
+
+          <!-- Question Body & Options Container -->
+          <div class="question-content-container">
+            <div class="question-prompt" id="q-prompt-container">
+              <!-- Prompt HTML -->
+            </div>
+
+            <div id="q-options-container">
+              <!-- Options List or NAT Input -->
+            </div>
+
+            <!-- Practice Mode Instant Feedback Box -->
+            <div id="practice-feedback-container" class="hidden">
+              <!-- Practice answers toggle -->
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="exam-bottom-bar">
+            <div class="action-group">
+              <button class="btn-cbt btn-warning" id="btn-mark-review">Mark for Review & Next</button>
+              <button class="btn-cbt btn-secondary" id="btn-clear-resp">Clear Response</button>
+            </div>
+
+            <div class="action-group">
+              <button class="btn-cbt btn-secondary" id="btn-prev-q">Previous</button>
+              <button class="btn-cbt btn-primary" id="btn-save-next">Save & Next</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Question Palette -->
+        <div class="question-palette-panel">
+          
+          <!-- Candidate Mock Header -->
+          <div class="palette-profile">
+            <div class="candidate-avatar">👨‍🎓</div>
+            <div class="candidate-details">
+              <span class="candidate-name">GATE Aspirant</span>
+              <span class="candidate-roll" id="cand-test-id">CS-2025</span>
+            </div>
+          </div>
+
+          <!-- Color Legend -->
+          <div class="palette-legend">
+            <div class="legend-item">
+              <div class="legend-badge badge-answered" id="legend-count-answered">0</div>
+              <span>Answered</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-badge badge-not-answered" id="legend-count-not-answered">0</div>
+              <span>Not Answered</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-badge badge-not-visited" id="legend-count-not-visited">0</div>
+              <span>Not Visited</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-badge badge-marked" id="legend-count-marked">0</div>
+              <span>Marked for Review</span>
+            </div>
+            <div class="legend-item" style="grid-column: span 2;">
+              <div class="legend-badge badge-marked-answered" id="legend-count-marked-answered">0</div>
+              <span>Answered & Marked for Review</span>
+            </div>
+          </div>
+
+          <!-- Question Grid -->
+          <div class="palette-grid-container">
+            <div class="palette-section-title">Question Palette:</div>
+            <div class="palette-grid" id="palette-grid-container">
+              <!-- Grid buttons rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="palette-footer">
+            <button class="btn-submit-exam" id="btn-submit-exam">
+              <span>Submit Test</span>
+              <span>➔</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ====================================================================
+         VIEW 3: RESULTS & SCORECARD
+         ==================================================================== -->
+    <section id="view-results" class="results-container hidden">
+      
+      <!-- Results Hero Card -->
+      <div class="results-hero-card">
+        <div class="results-header-row">
+          <div class="results-title-group">
+            <span class="brand-tag">Test Report & Analysis</span>
+            <h1 id="res-test-title">Exam Results</h1>
+            <p id="res-test-date">Completed just now</p>
+          </div>
+
+          <div class="results-cta-buttons">
+            <button class="btn-start-test" onclick="app.switchView('dashboard')">
+              <span>📚 Tests Library</span>
+            </button>
+            <button class="btn-practice" onclick="window.print()">
+              <span>🖨️ Print Scorecard</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Score Overview Grid -->
+        <div class="score-overview-grid">
+          <div class="score-card highlight">
+            <span class="score-card-label">Net Score</span>
+            <span class="score-card-val" id="res-score-display">0 / 100</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card-label">Accuracy</span>
+            <span class="score-card-val" id="res-accuracy-display">0%</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card-label">Questions Attempted</span>
+            <span class="score-card-val" id="res-attempted-display">0 / 65</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card-label">Time Taken</span>
+            <span class="score-card-val" id="res-time-display">0m</span>
+          </div>
+        </div>
+
+        <!-- Breakdown counters -->
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+          <div style="color: var(--gate-green); font-weight: 700;">
+            ✅ Correct: <span id="res-count-correct">0</span>
+          </div>
+          <div style="color: var(--gate-red); font-weight: 700;">
+            ❌ Incorrect: <span id="res-count-incorrect">0</span>
+          </div>
+          <div style="color: var(--text-muted); font-weight: 700;">
+            ⚪ Unattempted: <span id="res-count-unattempted">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Solutions Explorer -->
+      <div>
+        <h2 style="font-size: 1.3rem; margin-bottom: 1rem; text-align: left;">Detailed Question-by-Question Solutions</h2>
+        
+        <!-- Filter Tabs -->
+        <div class="solution-filter-bar">
+          <button class="filter-tab active" data-filter="all">All Questions</button>
+          <button class="filter-tab" data-filter="correct">Correct</button>
+          <button class="filter-tab" data-filter="incorrect">Incorrect</button>
+          <button class="filter-tab" data-filter="unattempted">Unattempted</button>
+          <button class="filter-tab" data-filter="marked">Marked for Review</button>
+        </div>
+
+        <!-- Solution Cards List -->
+        <div class="solution-list" id="solution-list-container" style="margin-top: 1.25rem;">
+          <!-- Dynamically populated solution cards -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====================================================================
+         VIEW 4: TEST HISTORY
+         ==================================================================== -->
+    <section id="view-history" class="results-container hidden">
+      <div style="margin-bottom: 1.5rem;">
+        <span class="brand-tag">Progress Tracking</span>
+        <h1 style="font-size: 1.8rem; font-weight: 800; margin-top: 0.25rem;">Past Test Attempts</h1>
+        <p style="color: var(--text-secondary);">Review your past scores, re-test papers, or inspect solutions.</p>
+      </div>
+
+      <div id="history-list-container">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 5: BOOKMARKED QUESTIONS
+         ==================================================================== -->
+    <section id="view-saved" class="results-container hidden">
+      <div style="margin-bottom: 1.5rem;">
+        <span class="brand-tag">Revision Vault</span>
+        <h1 style="font-size: 1.8rem; font-weight: 800; margin-top: 0.25rem;">Bookmarked Questions</h1>
+        <p style="color: var(--text-secondary);">Challenging and key concept questions saved across your tests.</p>
+      </div>
+
+      <div id="saved-list-container">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 6: PERFORMANCE ANALYZER
+         ==================================================================== -->
+    <section id="view-analytics" class="analytics-container hidden">
+      <!-- Header Banner with student greeting & cumulative stats -->
+      <div class="analytics-header-banner">
+        <div>
+          <span class="brand-tag">Student Intelligence Diagnostic</span>
+          <h1 id="analytics-user-heading" style="font-size: 1.8rem; font-weight: 800; margin-top: 0.25rem;">Candidate Performance Diagnostic</h1>
+          <p style="color: var(--text-secondary);" id="analytics-user-sub">Detailed breakdown of accuracy, test attempts, strengths, and areas to improve.</p>
+        </div>
+        <div id="analytics-access-status-pill">
+          <!-- Rendered by JS: Full Access or Free Tier -->
+        </div>
+      </div>
+
+      <!-- Analytics Key Metrics Grid -->
+      <div class="analytics-stats-grid">
+        <div class="analytics-stat-card">
+          <span class="analytics-stat-lbl">Tests Attempted</span>
+          <span class="analytics-stat-val" id="ana-stat-tests">0</span>
+        </div>
+        <div class="analytics-stat-card">
+          <span class="analytics-stat-lbl">Average Score %</span>
+          <span class="analytics-stat-val" id="ana-stat-avg">0%</span>
+        </div>
+        <div class="analytics-stat-card">
+          <span class="analytics-stat-lbl">Average Accuracy</span>
+          <span class="analytics-stat-val" id="ana-stat-acc">0%</span>
+        </div>
+        <div class="analytics-stat-card">
+          <span class="analytics-stat-lbl">Strongest Subject</span>
+          <span class="analytics-stat-val" style="font-size: 1.25rem; color: #6ee7b7;" id="ana-stat-strong">--</span>
+        </div>
+        <div class="analytics-stat-card">
+          <span class="analytics-stat-lbl">Area Needing Practice</span>
+          <span class="analytics-stat-val" style="font-size: 1.25rem; color: #fca5a5;" id="ana-stat-weak">--</span>
+        </div>
+      </div>
+
+      <!-- Subject Mastery Matrix -->
+      <div>
+        <h2 style="font-size: 1.3rem; margin-bottom: 1rem;">Subject-Wise Mastery Breakdown</h2>
+        <div class="subject-mastery-grid" id="analytics-subject-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Diagnostic Insights -->
+      <div class="contact-admin-box" id="analytics-insight-box">
+        <div style="font-weight: 700; margin-bottom: 0.35rem; font-size: 1rem; color: #fff;">💡 AI Preparation Recommendation:</div>
+        <div id="analytics-insight-text">Complete full mock tests and subject tests to generate your personalized learning recommendations and syllabus mastery breakdown.</div>
+      </div>
+
+      <!-- Attempt History Analysis -->
+      <div>
+        <h2 style="font-size: 1.3rem; margin-bottom: 1rem;">Recent Test Performances</h2>
+        <div class="admin-table-wrapper">
+          <table class="admin-users-table">
+            <thead>
+              <tr>
+                <th>Test Name</th>
+                <th>Series</th>
+                <th>Date</th>
+                <th>Score</th>
+                <th>Accuracy</th>
+                <th>Time Spent</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="analytics-attempts-tbody">
+              <!-- Populated by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 7: ADMIN PANEL
+         ==================================================================== -->
+    <section id="view-admin" class="admin-container hidden">
+      <div class="analytics-header-banner" style="border-left: 4px solid var(--accent-primary);">
+        <div>
+          <span class="brand-tag">Administrator Dashboard</span>
+          <h1 style="font-size: 1.8rem; font-weight: 800; margin-top: 0.25rem;">Portal Administration & Access Control</h1>
+          <p style="color: var(--text-secondary);">Manage student accounts, grant/revoke test series access, and review platform grading metrics.</p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+          <span class="brand-tag" style="background: rgba(99,102,241,0.2); color: #c7d2fe;">Secure Admin Session</span>
+          <button class="btn-cbt btn-secondary" onclick="app.refreshAdminData()">🔄 Refresh</button>
+        </div>
+      </div>
+
+      <!-- Admin Sub-Navigation Tabs -->
+      <div class="admin-tab-bar" style="display: flex; gap: 0.5rem; border-bottom: 2px solid var(--border-subtle); padding-bottom: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+        <button class="filter-tab active" id="tab-btn-admin-users" onclick="app.switchAdminTab('users')">👥 User Accounts & Access</button>
+        <button class="filter-tab" id="tab-btn-admin-telemetry" onclick="app.switchAdminTab('telemetry')">📊 Live Telemetry & Stuck Questions</button>
+        <button class="filter-tab" id="tab-btn-admin-audit" onclick="app.switchAdminTab('audit')">🌐 Login Activity & IP Audit</button>
+      </div>
+
+      <!-- TAB 1: USERS & ACCESS -->
+      <div id="admin-sec-users">
+        <!-- Admin KPI Cards -->
+        <div class="analytics-stats-grid" style="margin-bottom: 1.5rem;">
+          <div class="analytics-stat-card">
+            <span class="analytics-stat-lbl">Registered Students</span>
+            <span class="analytics-stat-val" id="admin-stat-users">1</span>
+          </div>
+          <div class="analytics-stat-card">
+            <span class="analytics-stat-lbl">Total Test Attempts</span>
+            <span class="analytics-stat-val" id="admin-stat-attempts">0</span>
+          </div>
+          <div class="analytics-stat-card">
+            <span class="analytics-stat-lbl">Full Access Unlocked</span>
+            <span class="analytics-stat-val" id="admin-stat-unlocked" style="color: #6ee7b7;">1</span>
+          </div>
+          <div class="analytics-stat-card">
+            <span class="analytics-stat-lbl">Access Code System</span>
+            <span class="analytics-stat-val" style="font-size: 1.2rem; color: #6ee7b7;">Active & Encrypted</span>
+          </div>
+        </div>
+
+        <!-- Support & Access Instructions -->
+        <div class="contact-admin-box" style="margin-bottom: 1.5rem;">
+          <div style="font-weight: 700; margin-bottom: 0.25rem; color: #fff;">🔑 Access Grant Policy:</div>
+          <div>Students contact you at <span class="contact-email-badge">musicfusion123456@gmail.com</span> for code <strong style="color: #fde68a;">12G3A4T8WE</strong>. You can also directly toggle their Full Access to "Granted" in the table below. GATE PYQs remain free for everyone.</div>
+        </div>
+
+        <!-- Users Management Table -->
+        <div>
+          <h2 style="font-size: 1.3rem; margin-bottom: 1rem;">User Accounts & Access Control</h2>
+          <div class="admin-table-wrapper">
+            <table class="admin-users-table">
+              <thead>
+                <tr>
+                  <th>User / Email</th>
+                  <th>Role</th>
+                  <th>Joined</th>
+                  <th>Tests Taken</th>
+                  <th>Avg Score</th>
+                  <th>Full Access Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="admin-users-tbody">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: TELEMETRY & STUCK QUESTIONS -->
+      <div id="admin-sec-telemetry" class="hidden">
+        <!-- Telemetry KPI Cards -->
+        <div class="analytics-stats-grid" style="margin-bottom: 1.5rem;">
+          <div class="analytics-stat-card" style="border-left: 3px solid #10b981;">
+            <span class="analytics-stat-lbl">Active Students (Last 24h)</span>
+            <span class="analytics-stat-val" id="tel-stat-active-24h" style="color: #6ee7b7;">0</span>
+          </div>
+          <div class="analytics-stat-card" style="border-left: 3px solid #6366f1;">
+            <span class="analytics-stat-lbl">Active Students (7 Days)</span>
+            <span class="analytics-stat-val" id="tel-stat-active-7d" style="color: #c7d2fe;">0</span>
+          </div>
+          <div class="analytics-stat-card" style="border-left: 3px solid #f59e0b;">
+            <span class="analytics-stat-lbl">Avg Session Duration</span>
+            <span class="analytics-stat-val" id="tel-stat-avg-session" style="color: #fde68a;">0m</span>
+          </div>
+          <div class="analytics-stat-card" style="border-left: 3px solid #ec4899;">
+            <span class="analytics-stat-lbl">Total Sessions Recorded</span>
+            <span class="analytics-stat-val" id="tel-stat-total-sessions" style="color: #fbcfe8;">0</span>
+          </div>
+        </div>
+
+        <!-- Hardest & Stuck Questions Section -->
+        <div style="margin-bottom: 2rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+            <div>
+              <h2 style="font-size: 1.3rem; margin-bottom: 0.25rem; color: #fff;">🔥 High-Friction & Stuck Questions</h2>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Identifies questions with low accuracy, prolonged time spent (>180s), or high answer-flip counts.</p>
+            </div>
+            <span class="brand-tag" style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; border-color: rgba(239,68,68,0.3);">Real-time Telemetry</span>
+          </div>
+          <div class="admin-table-wrapper">
+            <table class="admin-users-table">
+              <thead>
+                <tr>
+                  <th>Question & Test</th>
+                  <th>Subject & Type</th>
+                  <th style="text-align: center;">Seen / Attempted</th>
+                  <th style="text-align: center;">Avg Time Spent</th>
+                  <th style="text-align: center;">Answer Changes</th>
+                  <th style="text-align: center;">Marked Review</th>
+                  <th style="text-align: center;">Accuracy</th>
+                </tr>
+              </thead>
+              <tbody id="tel-hardest-tbody">
+                <tr><td colspan="7" style="text-align:center; padding: 2rem; color: var(--text-muted);">Loading telemetry questions...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Student Struggle Radar & Subject Difficulty Grid -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+          <div>
+            <h2 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: #fff;">⚠️ Student Struggle & Difficulty Radar</h2>
+            <div class="admin-table-wrapper">
+              <table class="admin-users-table">
+                <thead>
+                  <tr>
+                    <th>Student Email</th>
+                    <th style="text-align: center;">Total Qs</th>
+                    <th style="text-align: center;">Avg Sec/Q</th>
+                    <th style="text-align: center;">Answer Flips</th>
+                    <th style="text-align: center;">Accuracy</th>
+                  </tr>
+                </thead>
+                <tbody id="tel-struggle-tbody">
+                  <tr><td colspan="5" style="text-align:center; padding: 1.5rem; color: var(--text-muted);">No student test sessions yet.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h2 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: #fff;">📚 Global Subject Difficulty Heatmap</h2>
+            <div class="admin-table-wrapper">
+              <table class="admin-users-table">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th style="text-align: center;">Total Qs</th>
+                    <th style="text-align: center;">Avg Time</th>
+                    <th style="text-align: center;">Times Marked</th>
+                    <th style="text-align: center;">Accuracy</th>
+                  </tr>
+                </thead>
+                <tbody id="tel-subject-tbody">
+                  <tr><td colspan="5" style="text-align:center; padding: 1.5rem; color: var(--text-muted);">No subject data yet.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: AUDIT & DEVICE LOGS -->
+      <div id="admin-sec-audit" class="hidden">
+        <div style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.3rem; margin-bottom: 0.25rem; color: #fff;">🌐 Student Activity, IP & Device Audit Log</h2>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Logs every authentication, code redemption, and session event with IP address and hardware fingerprint.</p>
+        </div>
+
+        <!-- Audit Table -->
+        <div class="admin-table-wrapper" style="margin-bottom: 2rem;">
+          <table class="admin-users-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>User / Email</th>
+                <th>Event</th>
+                <th>IP Address</th>
+                <th>Platform / OS</th>
+                <th>Screen Res</th>
+                <th>Timezone / Info</th>
+              </tr>
+            </thead>
+            <tbody id="tel-audit-tbody">
+              <tr><td colspan="7" style="text-align:center; padding: 2rem; color: var(--text-muted);">Loading audit logs...</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Platform & Behavior Summary Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+          <div class="contact-admin-box" style="background: var(--bg-card); border-color: var(--border-subtle);">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 0.75rem;">💻 Student Platforms & Operating Systems:</div>
+            <div id="tel-platforms-container" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span style="color: var(--text-muted); font-size: 0.85rem;">No platform telemetry collected yet.</span>
+            </div>
+          </div>
+
+          <div class="contact-admin-box" style="background: var(--bg-card); border-color: var(--border-subtle);">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 0.75rem;">🧮 Behavioral Interactions Tracked:</div>
+            <div id="tel-behaviors-container" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span style="color: var(--text-muted); font-size: 0.85rem;">No behavioral events logged yet.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       MODAL 1: SUBMIT CONFIRMATION
+       ====================================================================== -->
+  <div class="modal-overlay hidden" id="modal-submit">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Exam Summary Confirmation</h3>
+        <button class="modal-close-btn" id="modal-submit-cancel">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p style="color: var(--text-secondary); font-size: 0.95rem;">
+          Are you sure you want to submit the exam? Once submitted, your score and evaluation will be generated.
+        </p>
+
+        <table class="submit-stats-table">
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Count</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Questions</td>
+              <td id="submit-stat-total" style="font-weight: 700;">65</td>
+            </tr>
+            <tr style="color: var(--gate-green);">
+              <td>Answered</td>
+              <td id="submit-stat-answered" style="font-weight: 700;">0</td>
+            </tr>
+            <tr style="color: var(--gate-red);">
+              <td>Not Answered</td>
+              <td id="submit-stat-not-answered" style="font-weight: 700;">0</td>
+            </tr>
+            <tr style="color: var(--gate-purple);">
+              <td>Marked for Review</td>
+              <td id="submit-stat-marked" style="font-weight: 700;">0</td>
+            </tr>
+            <tr style="color: var(--gate-gray);">
+              <td>Not Visited</td>
+              <td id="submit-stat-not-visited" style="font-weight: 700;">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-cbt btn-secondary" onclick="app.hideSubmitModal()">Cancel / Back to Test</button>
+        <button class="btn-cbt btn-primary" id="modal-submit-confirm">Yes, Submit Final Test</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 2: QUESTION PAPER OVERVIEW
+       ====================================================================== -->
+  <div class="modal-overlay hidden" id="modal-qpaper">
+    <div class="modal-content" style="max-width: 850px; max-height: 85vh;">
+      <div class="modal-header">
+        <h3>Question Paper Overview</h3>
+        <button class="modal-close-btn" id="modal-qpaper-close">&times;</button>
+      </div>
+
+      <div class="modal-body" id="qpaper-modal-body">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-cbt btn-secondary" onclick="app.hideQuestionPaperModal()">Close Overview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 3: TCS iON GATE VIRTUAL SCIENTIFIC CALCULATOR
+       ====================================================================== -->
+  <div class="calc-floating-modal hidden" id="gate-calc-modal">
+    <div class="calc-header">
+      <span class="calc-title">GATE Calculator (TCS iON)</span>
+      <button class="calc-close-btn" onclick="gateCalculator.hide()">&times;</button>
+    </div>
+
+    <div class="calc-screen">
+      <div class="calc-exp" id="calc-display-exp"></div>
+      <div class="calc-val" id="calc-display-val">0</div>
+    </div>
+
+    <div class="calc-body">
+      <!-- Row 1: Memory & Modes -->
+      <button class="calc-btn op-btn" id="calc-rad-deg-btn" onclick="gateCalculator.toggleAngle()">Deg</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.memClear()">MC</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.memRecall()">MR</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.memStore()">MS</button>
+      <button class="calc-btn clear-btn" onclick="gateCalculator.clearEntry()">CE</button>
+
+      <!-- Row 2 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('sin')">sin</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('cos')">cos</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('tan')">tan</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('ln')">ln</button>
+      <button class="calc-btn clear-btn" onclick="gateCalculator.clearAll()">C</button>
+
+      <!-- Row 3 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('asin')">asin</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('acos')">acos</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('atan')">atan</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('log10')">log₁₀</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.backspace()">⌫</button>
+
+      <!-- Row 4 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('sinh')">sinh</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('cosh')">cosh</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('tanh')">tanh</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('log2')">log₂</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyOp('/')">÷</button>
+
+      <!-- Row 5 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('sqrt')">√x</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(7)">7</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(8)">8</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(9)">9</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyOp('*')">×</button>
+
+      <!-- Row 6 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('sqr')">x²</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(4)">4</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(5)">5</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(6)">6</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyOp('-')">−</button>
+
+      <!-- Row 7 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyOp('^')">xʸ</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(1)">1</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(2)">2</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(3)">3</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyOp('+')">+</button>
+
+      <!-- Row 8 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyConstant('pi')">π</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.toggleSign()">±</button>
+      <button class="calc-btn num-btn" onclick="gateCalculator.inputDigit(0)">0</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.inputDot()">.</button>
+      <button class="calc-btn accent-btn" onclick="gateCalculator.calculate()">=</button>
+
+      <!-- Row 9 -->
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyConstant('e')">e</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('fact')">n!</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyUnary('inv')">1/x</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyParen('(')">(</button>
+      <button class="calc-btn op-btn" onclick="gateCalculator.applyParen(')')">)</button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 4: USER AUTHENTICATION (LOGIN & REGISTRATION)
+       ====================================================================== -->
+  <div class="modal-overlay hidden" id="modal-auth">
+    <div class="modal-content" style="max-width: 440px; padding: 0; overflow: hidden;">
+      <div style="display: flex; border-bottom: 1px solid var(--border-subtle); background: var(--bg-secondary);">
+        <button class="auth-tab-btn active" id="auth-tab-login" onclick="app.setAuthTab('login')">Sign In</button>
+        <button class="auth-tab-btn" id="auth-tab-register" onclick="app.setAuthTab('register')">Create Account</button>
+        <button class="modal-close-btn" style="margin-left: auto; padding: 0.5rem 1rem;" onclick="app.hideAuthModal()">&times;</button>
+      </div>
+
+      <div class="auth-form-body">
+        <div id="auth-alert" class="auth-alert"></div>
+
+        <div class="form-group" id="auth-group-name" style="display: none;">
+          <label for="auth-input-name">Your Full Name</label>
+          <input type="text" id="auth-input-name" class="form-input" placeholder="e.g. Rahul Sharma">
+        </div>
+
+        <div class="form-group">
+          <label for="auth-input-email">Email Address</label>
+          <input type="email" id="auth-input-email" class="form-input" placeholder="student@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="auth-input-password">Password</label>
+          <input type="password" id="auth-input-password" class="form-input" placeholder="••••••••">
+        </div>
+
+        <button class="btn-cbt btn-primary" id="btn-auth-submit" style="width: 100%; padding: 0.85rem; font-weight: 700;" onclick="app.handleAuthSubmit()">
+          Sign In
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 5: ACCESS CODE UNLOCK
+       ====================================================================== -->
+  <div class="modal-overlay hidden" id="modal-unlock">
+    <div class="modal-content unlock-modal-card" style="padding: 2rem;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="font-size: 2rem;">🔐</span>
+          <div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin: 0;">Unlock Full Exam Series</h3>
+            <span class="lock-pill" style="margin-top: 0.25rem;">Access Code Required</span>
+          </div>
+        </div>
+        <button class="modal-close-btn" onclick="app.hideUnlockModal()">&times;</button>
+      </div>
+
+      <div style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.5; margin-bottom: 1.25rem;">
+        Official <strong>GATE PYQs (98 Papers)</strong> are completely <strong>FREE</strong> for all aspirants! To unlock access to the <strong>80 Full-Length Mocks (65 Qs each)</strong>, <strong>GO Classes Series</strong>, and <strong>Challenger Series</strong>, please enter your user access code below.
+      </div>
+
+      <!-- Account linked status indicator -->
+      <div id="unlock-user-status" style="font-size: 0.85rem; margin-bottom: 0.75rem; color: var(--text-muted); background: var(--bg-secondary); padding: 0.5rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+        Redeeming for: <span id="unlock-user-email" style="font-weight: 700; color: var(--text-primary);">Not Signed In</span>
+      </div>
+
+      <div id="unlock-alert" class="auth-alert" style="margin-bottom: 1rem;"></div>
+
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <label for="unlock-code-input">Access Code</label>
+        <input type="text" id="unlock-code-input" class="form-input" placeholder="Enter your access code" style="font-family: var(--font-mono); font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.12em; text-align: center; font-weight: 700;">
+      </div>
+
+      <button class="btn-cbt btn-primary" style="width: 100%; padding: 0.85rem; font-weight: 700; margin-bottom: 1.5rem;" onclick="app.handleCodeUnlock()">
+        🚀 Verify & Unlock Full Access
+      </button>
+
+      <!-- Prominent Admin Contact Notice -->
+      <div class="contact-admin-box">
+        <div style="font-weight: 700; margin-bottom: 0.35rem; color: #fff;">
+          📩 Need an Access Code?
+        </div>
+        <div>
+          For anyone who wants to access the full test series, please contact the administrator directly at:
+        </div>
+        <div style="margin: 0.6rem 0;">
+          <a href="mailto:musicfusion123456@gmail.com?subject=GATE%20Exam%20Portal%20Access%20Code%20Request" class="contact-email-badge" style="text-decoration: none; font-size: 0.95rem; font-weight: 700; padding: 4px 10px;">
+            ✉️ musicfusion123456@gmail.com
+          </a>
+        </div>
+        <div style="font-size: 0.8rem; color: #a5b4fc;">
+          Send an email with subject <em>"GATE Exam Portal Access Code Request"</em> to obtain your personalized user code.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/calculator.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

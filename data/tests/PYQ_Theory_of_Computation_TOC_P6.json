@@ -1,0 +1,1435 @@
+{
+  "id": "PYQ_Theory_of_Computation_TOC_P6",
+  "fileName": "PYQ_Theory_of_Computation_TOC_P6.json",
+  "title": "GATE Official PYQs | Theory of Computation (TOC) Part 6",
+  "subject": "Theory of Computation (TOC)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2016 | Set 1 | Question: 43</strong></div><p>Consider the transition diagram of a PDA given below with input alphabet<br/>and stack alphabet<br/>.<br/>is the initial stack symbol. Let<br/>denote the language accepted by the PDA<br/>Which one of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>and is not accepted by any finite automata<br/>B<br/>.<br/>and is not accepted by any deterministic PDA<br/>C<br/>.<br/>is not accepted by any Turing machine that halts on every input<br/>D<br/>.<br/>and is deterministic context-free<br/>theory-of-computation<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39732/gate-cse-2016-set-1-question-43"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2021 | Set 1 | Question: 51</strong></div><p>In a  pushdown automaton<br/>, a transition of the form,<br/>where<br/>,<br/>, and<br/>, represents<br/>Consider the following pushdown automaton over the input alphabet<br/>and stack alphabet<br/>.<br/>The number of strings of length<br/>accepted by the above pushdown automaton is ___________<br/>theory-of-computation<br/>pushdown-automata</p></div>",
+      "options": [],
+      "correctAnswer": "50 : 50",
+      "discussUrl": "https://gateoverflow.in/39732/gate-cse-2016-set-1-question-43"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE CSE 2023 | Question: 30</strong></div><p>Consider the pushdown automaton<br/>below, which runs on the input alphabet<br/>, has stack<br/>alphabet<br/>, and has three states<br/>, with<br/>being the start state. A transition from state<br/>to<br/>state<br/>, labelled<br/>, where<br/>is an input symbol or<br/>is a stack symbol, and<br/>is a string of stack symbols,<br/>represents the fact that in state<br/>, the<br/>can read<br/>from the input, with<br/>on the top of its stack, pop<br/>from<br/>the stack, push in the string<br/>on the stack, and go to state<br/>. In the initial conﬁguration, the stack has only the<br/>symbol<br/>in it. The<br/>accepts by empty stack.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399281/gate-cse-2023-question-30"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE IT 2004 | Question: 40</strong></div><p>Let<br/>be a pushdown automaton, where<br/>and<br/>.<br/>Which one of the following strings is not a member of<br/>?<br/>theory-of-computation<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3683/gate-it-2004-question-40"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE IT 2005 | Question: 38</strong></div><p>Let<br/>be a non-deterministic push-down automaton (NPDA) with exactly one state,<br/>, and exactly one<br/>symbol,<br/>, in its stack alphabet. State<br/>is both the starting as well as the accepting state of the PDA. The<br/>stack is initialized with one<br/>before the start of the operation of the PDA. Let the input alphabet of the PDA be<br/>.<br/>Let<br/>be the language accepted by the PDA by reading a string and reaching its accepting state. Let<br/>be<br/>the language accepted by the PDA by reading a string and emptying its stack.<br/>Which of the following statements is TRUE?<br/>A<br/>.<br/>is necessarily<br/>but<br/>is not necessarily<br/>.<br/>B<br/>.<br/>is necessarily<br/>but<br/>is not necessarily<br/>.<br/>C<br/>.<br/>Both<br/>and<br/>are necessarily<br/>.<br/>D<br/>.<br/>Neither<br/>nor<br/>are necessarily<br/>theory-of-computation<br/>pushdown-automata</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3785/gate-it-2005-question-38"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE IT 2006 | Question: 31</strong></div><p>Which of the following languages is accepted by a non-deterministic pushdown automaton (PDA) but NOT<br/>by a deterministic PDA?<br/>Г<br/>Г</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3570/gate-it-2006-question-31"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pushdown Automata: GATE IT 2006 | Question: 33</strong></div><p>Consider the pushdown automaton (PDA) below which runs over the input alphabet<br/>. It has the<br/>stack alphabet<br/>where<br/>is the bottom-of-stack marker. The set of states of the PDA is<br/>where<br/>is the start state and<br/>is the ﬁnal state. The PDA accepts by ﬁnal state. The transitions of the PDA given<br/>below are depicted in a standard manner. For example, the transition<br/>means that if the PDA<br/>is in state<br/>and the symbol on the top of the stack is<br/>, then it can read b from the input and move to state<br/>after<br/>popping the top of stack and pushing the symbols<br/>and<br/>(in that order) on the stack.<br/>The language accepted by the PDA is<br/>theory-of-computation<br/>pushdown-automata<br/>Recursive and Recursively Enumerable Languages<br/>(16)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3572/gate-it-2006-question-33"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 1990 | Question: 3-vi</strong></div><p>Recursive languages are:<br/>theory-of-computation<br/>turing-machine<br/>recursive-and-recursively-enumerable-languages<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/3572/gate-it-2006-question-33"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2003 | Question: 13</strong></div><p>Nobody knows yet if<br/>. Consider the language<br/>defined as follows.<br/>Which of the following statements is true?<br/>A<br/>.<br/>is recursive<br/>B<br/>.<br/>is recursively enumerable but not recursive<br/>C<br/>.<br/>is not recursively enumerable<br/>D<br/>.<br/>Whether<br/>is recursively enumerable or not will be known after we find out if<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/904/gate-cse-2003-question-13"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2003 | Question: 15</strong></div><p>If the strings of a language<br/>can be eﬀectively enumerated in lexicographic (i.e., alphabetic) order, which of<br/>the following statements is true?<br/>A<br/>.<br/>is necessarily finite<br/>B<br/>.<br/>is regular but not necessarily finite<br/>C<br/>.<br/>is context free but not necessarily regular<br/>D<br/>.<br/>is recursive but not necessarily context-free<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/120/gate-cse-2003-question-15"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2003 | Question: 54</strong></div><p>Define languages<br/>and<br/>as follows :<br/>Here<br/>is a triplet, whose first component<br/>is an encoding of a Turing<br/>Machine, second component<br/>is a string, and third component<br/>is a bit.<br/>Let<br/>. Which of the following is true?<br/>A<br/>.<br/>is recursively enumerable, but<br/>is not<br/>B<br/>.<br/>is recursively enumerable, but<br/>is not<br/>C<br/>.<br/>Both<br/>and<br/>are recursive<br/>D<br/>.<br/>Neither<br/>nor<br/>is recursively enumerable<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/120/gate-cse-2003-question-15"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2004 | Question: 89</strong></div><p>is a recursively enumerable language over<br/>. An algorithm<br/>eﬀectively enumerates its words as<br/>Deﬁne another language<br/>over<br/>as<br/>. Here # is<br/>new symbol. Consider the following assertions.<br/>is recursive implies<br/>is recursive<br/>is recursive implies<br/>is recursive<br/>Which of the following statements is true?<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1083/gate-cse-2004-question-89"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2005 | Question: 56</strong></div><p>Let<br/>be a recursive language, and let<br/>be a recursively enumerable but not a recursive language.<br/>Which one of the following is TRUE?<br/>A<br/>.<br/>' is recursive and<br/>' is recursively enumerable<br/>B<br/>.<br/>' is recursive and<br/>' is not recursively enumerable<br/>C<br/>.<br/>' and<br/>' are recursively enumerable<br/>D<br/>.<br/>' is recursively enumerable and<br/>' is recursive<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1379/gate-cse-2005-question-56"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2008 | Question: 13,</strong></div><p>ISRO2016-36<br/>If<br/>and<br/>are recursively enumerable then<br/>is<br/>theory-of-computation<br/>easy<br/>isro2016<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/411/gate-cse-2008-question-13-isro2016-36"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2008 | Question: 48</strong></div><p>Which of the following statements is false?<br/>A<br/>.<br/>Every NFA can be converted to an equivalent DFA<br/>B<br/>.<br/>Every non-deterministic Turing machine can be converted to an equivalent deterministic Turing machine<br/>C<br/>.<br/>Every regular language is also a context-free language<br/>D<br/>.<br/>Every subset of a recursively enumerable set is recursive<br/>theory-of-computation<br/>easy<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/411/gate-cse-2008-question-13-isro2016-36"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2010 | Question: 17</strong></div><p>Let<br/>be the recursive language. Let<br/>and<br/>be languages that are recursively enumerable but not<br/>recursive. Which of the following statements is not necessarily true?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages<br/>decidability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2190/gate-cse-2010-question-17"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2014 | Set 1 | Question: 35</strong></div><p>Let<br/>be a language and<br/>be its complement. Which one of the following is<br/>NOT<br/>a viable possibility?<br/>A<br/>.<br/>Neither<br/>nor<br/>is recursively enumerable<br/>.<br/>B<br/>.<br/>One of<br/>and<br/>is r.e. but not recursive; the other is not r.e.<br/>C<br/>.<br/>Both<br/>and<br/>are r.e. but not recursive.<br/>D<br/>.<br/>Both<br/>and<br/>are recursive.<br/>theory-of-computation<br/>easy<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/411/gate-cse-2008-question-13-isro2016-36"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2014 | Set 2 | Question: 16</strong></div><p>Let<br/>denotes that language<br/>is mapping reducible (also known as many-to-one reducible) to<br/>language<br/>. Which one of the following is FALSE?<br/>A<br/>.<br/>If<br/>and<br/>is recursive then<br/>is recursive.<br/>B<br/>.<br/>If<br/>and<br/>is undecidable then<br/>is undecidable.<br/>C<br/>.<br/>If<br/>and<br/>is recursively enumerable then<br/>is recursively enumerable.<br/>D<br/>.<br/>If<br/>and<br/>is not recursively enumerable then<br/>is not recursively enumerable.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/411/gate-cse-2008-question-13-isro2016-36"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2014 | Set 2 | Question: 35</strong></div><p>Let<br/>be the encoding of a Turing machine as a string over<br/>. Let<br/>Then<br/>is:<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1994/gate-cse-2014-set-2-question-35"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2015 | Set 1 | Question: 3</strong></div><p>For any two languages<br/>and<br/>such that<br/>is context-free and<br/>is recursively enumerable but not<br/>recursive, which of the following is/are necessarily true?<br/>I<br/>.<br/>( Complement of<br/>) is recursive<br/>II<br/>.<br/>( Complement of<br/>) is recursive<br/>III<br/>.<br/>is context-free<br/>IV<br/>.<br/>∪<br/>is recursively enumerable<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1994/gate-cse-2014-set-2-question-35"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2016 | Set 2 | Question: 44</strong></div><p>Consider the following languages.<br/>,<br/>and<br/>,<br/>where for each Turing machine<br/>denotes a specific encoding of<br/>. Which one of the following is TRUE?<br/>A<br/>.<br/>is recursive and<br/>are not recursive<br/>B<br/>.<br/>is recursive and<br/>are not recursive<br/>C<br/>.<br/>are recursive and<br/>is not recursive<br/>D<br/>.<br/>are recursive<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1994/gate-cse-2014-set-2-question-35"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2021 | Set 1 | Question: 12</strong></div><p>Let<br/>denote an encoding of an automaton<br/>. Suppose that<br/>. Which of the following<br/>languages is/are<br/>recursive?<br/>A<br/>.<br/>is a<br/>such that<br/>B<br/>.<br/>is a<br/>such that<br/>C<br/>.<br/>is a<br/>such that<br/>D<br/>.<br/>is a<br/>such that</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1994/gate-cse-2014-set-2-question-35"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Recursive and Recursively Enumerable Languages",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursive and Recursively Enumerable Languages: GATE CSE 2021 | Set 1 | Question: 39</strong></div><p>For a Turing machine<br/>,<br/>denotes an encoding of<br/>. Consider the following two languages.<br/>Which one of the following options is correct?<br/>theory-of-computation<br/>recursive-and-recursively-enumerable-languages<br/>decidability<br/>easy<br/>Reduction<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357412/gate-cse-2021-set-1-question-39"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Reduction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Reduction: GATE CSE 2005 | Question: 45</strong></div><p>Consider three decision problems<br/>,<br/>and<br/>. It is known that<br/>is decidable and<br/>is undecidable.<br/>Which one of the following is TRUE?<br/>A<br/>.<br/>is decidable if<br/>is reducible to<br/>B<br/>.<br/>is undecidable if<br/>is reducible to<br/>C<br/>.<br/>is undecidable if<br/>is reducible to<br/>D<br/>.<br/>is decidable if<br/>is reducible to<br/>'s complement<br/>theory-of-computation<br/>decidability<br/>reduction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1375/gate-cse-2005-question-45"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Reduction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Reduction: GATE CSE 2016 | Set 1 | Question: 44</strong></div><p>Let<br/>be a recursive language and<br/>be a recursively enumerable but not recursive language. Let<br/>and<br/>be two languages such that<br/>reduces to<br/>, and<br/>reduces to<br/>(reduction means the standard many-<br/>one reduction). Which one of the following statements is TRUE?<br/>A<br/>.<br/>can be recursively enumerable and<br/>is recursive.<br/>B<br/>.<br/>can be recursive and<br/>is recursively enumerable.<br/>C<br/>.<br/>is not recursively enumerable and<br/>is recursive.<br/>D<br/>.<br/>is not recursively enumerable and<br/>is not recursive.<br/>theory-of-computation<br/>easy<br/>recursive-and-recursively-enumerable-languages<br/>reduction<br/>Regular Expression<br/>(29)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357412/gate-cse-2021-set-1-question-39"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1987 | Question: 10d</strong></div><p>Give a regular expression over the alphabet<br/>to denote the set of proper non-null substrings of the<br/>string<br/>.<br/>theory-of-computation<br/>regular-expression<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/82455/gate-cse-1987-question-10d"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1991 | Question: 03,xiii</strong></div><p>Let<br/>be three regular expressions. Which one of the following is true?<br/>theory-of-computation<br/>regular-expression<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/527/gate-cse-1991-question-03-xiii"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1992 | Question: 02,xvii</strong></div><p>Which of the following regular expression identities is/are TRUE?<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/575/gate-cse-1992-question-02-xvii"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1994 | Question: 2.10</strong></div><p>The regular expression for the language recognized by the finite state automaton of figure is ________<br/>theory-of-computation<br/>finite-automata<br/>regular-expression<br/>easy<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/527/gate-cse-1991-question-03-xiii"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1995 | Question: 1.9 , ISRO2017-13</strong></div><p>In some programming language, an identiﬁer is permitted to be a letter followed by any number of letters or<br/>digits. If<br/>and<br/>denote the sets of letters and digits respectively, which of the following expressions<br/>defines an identifier?<br/>theory-of-computation<br/>regular-expression<br/>easy<br/>isro2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/527/gate-cse-1991-question-03-xiii"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1996 | Question: 1.8</strong></div><p>Which two of the following four regular expressions are equivalent? (<br/>is the empty string).<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>iv<br/>.<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/527/gate-cse-1991-question-03-xiii"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1997 | Question: 6.4</strong></div><p>Which one of the following regular expressions over<br/>denotes the set of all strings not containing<br/>as substring?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2477/gate-cse-1994-question-2-10"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1998 | Question: 1.12</strong></div><p>The string<br/>does not belong to the set represented by<br/>theory-of-computation<br/>regular-expression<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/1649/gate-cse-1998-question-1-12"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1998 | Question: 1.9</strong></div><p>If the regular set<br/>is represented by<br/>and the regular set<br/>is represented by<br/>, which of the following is true?<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1649/gate-cse-1998-question-1-12"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 1998 | Question: 3b</strong></div><p>Give a regular expression for the set of binary strings where every<br/>is immediately followed by exactly<br/>'s<br/>and preceded by at least<br/>’s  (<br/>is a fixed integer)<br/>theory-of-computation<br/>regular-expression<br/>easy<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1649/gate-cse-1998-question-1-12"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2000 | Question: 1.4</strong></div><p>L e t<br/>and<br/>be languages over<br/>represented by the regular expressions<br/>and<br/>, respectively. Which of the following is true?<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1649/gate-cse-1998-question-1-12"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2003 | Question: 14</strong></div><p>The regular expression<br/>denotes the same set as<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/905/gate-cse-2003-question-14"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2009 | Question: 15</strong></div><p>Which one of the following languages over the alphabet<br/>is described by the regular expression:<br/>?<br/>A<br/>.<br/>The set of all strings containing the substring<br/>B<br/>.<br/>The set of all strings containing at most two<br/>'s<br/>C<br/>.<br/>The set of all strings containing at least two<br/>'s<br/>D<br/>.<br/>The set of all strings that begin and end with either<br/>or<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1307/gate-cse-2009-question-15"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2010 | Question: 39</strong></div><p>Let<br/>. i.e.,<br/>is the set of all the bit strings with even<br/>numbers of<br/>s. Which one of the regular expressions below represents<br/>?<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2014 | Set 1 | Question: 36</strong></div><p>Which of the regular expressions given below represent the following DFA?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>theory-of-computation<br/>regular-expression<br/>finite-automata<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "id": "GO2027_TOC_TopicTest1",
+  "fileName": "GO2027_TOC_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Theory of Computation | Automata & Grammars",
+  "subject": "Theory of Computation (TOC)",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 15,
+  "totalMarks": 25,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expressions",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Regular Expressions</strong></div>\n<p>Which of the following regular expressions represents the language of all binary strings over $\\{0, 1\\}$ where every 0 is immediately followed by at least two 1s?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Any sequence of 1s can appear anywhere ($(1)^*$). When a 0 appears, it must be followed by at least two 1s, which can be followed by any number of additional 1s ($011 1^*$). Kleene star of $(1 + 0111^*)^*$ or $(1 + 0111^*)^*$ covers all valid strings including $\\epsilon$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$(1 + 011)^* $</span>",
+          "textHtml": "<span>$(1 + 011)^* $</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$(1^* 011)^* $</span>",
+          "textHtml": "<span>$(1^* 011)^* $</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$(1 + 0111^*)^* $</span>",
+          "textHtml": "<span>$(1 + 0111^*)^* $</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$1^* (011 1^*)^* $</span>",
+          "textHtml": "<span>$1^* (011 1^*)^* $</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "DFA Minimization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | DFA Minimization</strong></div>\n<p>What is the minimum number of states in a DFA accepting the set of all binary strings over $\\{0, 1\\}$ ending with the substring `101`?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    To recognize a string ending with a specific pattern of length $k$, a minimal DFA requires $k+1$ states for the prefixes $\\{\\epsilon, 1, 10, 101\\}$. Here $k = 3 \\implies 3 + 1 = 4$ states.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Grammars and Ambiguity",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Grammars and Ambiguity</strong></div>\n<p>Which of the following Context-Free Grammars is/are <strong>AMBIGUOUS</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A:</b> String $aaa$ has two distinct leftmost derivations ($S(SS) \\to a(SS) \\to a(aa)$ vs $(SS)S$).<br/><b>B:</b> Generates $a^n b^n$ with unique derivation (unambiguous).<br/><b>C:</b> $\\epsilon$ can be derived via $A$ or $B$ (two derivation trees).<br/><b>D:</b> Classic ambiguous arithmetic grammar ($id + id \\times id$).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$S \\to SS \\mid a$</span>",
+          "textHtml": "<span>$S \\to SS \\mid a$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$S \\to aSb \\mid \\epsilon$</span>",
+          "textHtml": "<span>$S \\to aSb \\mid \\epsilon$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$S \\to A \\mid B, \\; A \\to aAb \\mid \\epsilon, \\; B \\to aBb \\mid \\epsilon$</span>",
+          "textHtml": "<span>$S \\to A \\mid B, \\; A \\to aAb \\mid \\epsilon, \\; B \\to aBb \\mid \\epsilon$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$E \\to E + E \\mid E \\times E \\mid id$</span>",
+          "textHtml": "<span>$E \\to E + E \\mid E \\times E \\mid id$</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Pushdown Automata",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Pushdown Automata</strong></div>\n<p>Which of the following languages can be accepted by a <strong>Deterministic Pushdown Automaton (DPDA)</strong> by empty stack?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    $\\{a^n b^n\\}$ has the prefix property if marked or can be accepted by empty stack. $\\{ww^R\\}$ requires non-determinism to guess the midpoint, so it cannot be accepted by a DPDA.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$\\{ a^n b^n \\mid n \\ge 1 \\}$</span>",
+          "textHtml": "<span>$\\{ a^n b^n \\mid n \\ge 1 \\}$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\{ w w^R \\mid w \\in \\{a, b\\}^* \\}$</span>",
+          "textHtml": "<span>$\\{ w w^R \\mid w \\in \\{a, b\\}^* \\}$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$\\{ a^n b^m c^n \\mid n, m \\ge 1 \\}$</span>",
+          "textHtml": "<span>$\\{ a^n b^m c^n \\mid n, m \\ge 1 \\}$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>All Context-Free Languages</span>",
+          "textHtml": "<span>All Context-Free Languages</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Chomsky Normal Form",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Chomsky Normal Form</strong></div>\n<p>In Chomsky Normal Form (CNF), if a string $w$ of length $|w| = 15$ is derived from the start symbol, what is the exact number of derivation steps used?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In CNF, every production is of the form $A \\to BC$ or $A \\to a$. Deriving a string of length $n$ requires exactly $n-1$ binary rule applications ($A \\to BC$) followed by $n$ terminal rule applications ($A \\to a$). Total steps $= (n - 1) + n = 2n - 1 = 2(15) - 1 = 29$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "29",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Decidability",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Decidability</strong></div>\n<p>Which of the following decision problems is/are <strong>DECIDABLE</strong> for Regular Languages?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    All major decision problems (emptiness, equivalence, universality/totality, subset, finiteness) are decidable for regular languages using DFA equivalence, product automata, and cycle detection.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Emptiness problem ($L = \\emptyset$)</span>",
+          "textHtml": "<span>Emptiness problem ($L = \\emptyset$)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Equivalence problem ($L_1 = L_2$)</span>",
+          "textHtml": "<span>Equivalence problem ($L_1 = L_2$)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Totality problem ($L = \\Sigma^*$)</span>",
+          "textHtml": "<span>Totality problem ($L = \\Sigma^*$)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Finiteness problem (Is $L$ finite?)</span>",
+          "textHtml": "<span>Finiteness problem (Is $L$ finite?)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Turing Machines",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Turing Machines</strong></div>\n<p>Let $L$ be a language such that both $L$ and its complement $\\overline{L}$ are Recursively Enumerable (RE). Which of the following is true?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    By Post's Theorem, a language $L$ is Recursive (decidable) if and only if both $L$ and $\\overline{L}$ are Recursively Enumerable (Turing-recognizable).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$L$ must be Context-Sensitive</span>",
+          "textHtml": "<span>$L$ must be Context-Sensitive</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$L$ must be Recursive (Decidable)</span>",
+          "textHtml": "<span>$L$ must be Recursive (Decidable)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$L$ may be undecidable</span>",
+          "textHtml": "<span>$L$ may be undecidable</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$\\overline{L}$ is not Turing-recognizable</span>",
+          "textHtml": "<span>$\\overline{L}$ is not Turing-recognizable</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pumping Lemma",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Pumping Lemma</strong></div>\n<p>For the regular language $L = (01)^+$, what is the smallest valid pumping length $p$ satisfying the Pumping Lemma for Regular Languages?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For any string $w \\in L$ with $|w| \\ge 2$, say $w = 01$, we can choose $x = \\epsilon, y = 01, z = \\epsilon$. Then $y = 01$ can be pumped: $x y^i z = (01)^i \\in L$ for all $i \\ge 0$. The minimum pumping length is 2.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Closure Properties",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Closure Properties</strong></div>\n<p>The family of Context-Free Languages is <strong>NOT</strong> closed under which of the following operations?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Context-Free Languages are closed under Union, Concatenation, Kleene Star, Homomorphism, and Reversal. They are NOT closed under Intersection, Complement, or Set Difference.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Intersection</span>",
+          "textHtml": "<span>Intersection</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Complement</span>",
+          "textHtml": "<span>Complement</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Set Difference</span>",
+          "textHtml": "<span>Set Difference</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Reversal</span>",
+          "textHtml": "<span>Reversal</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Turing Machines",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Turing Machines</strong></div>\n<p>The Halting Problem of Turing Machines is:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    $H_{\\text{TM}} = \\{\\langle M, w \\rangle \\mid M \\text{ halts on } w\\}$ can be simulated by a Universal Turing Machine (so it is RE / Turing-recognizable), but it is undecidable (not Recursive).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Recursively Enumerable but not Recursive</span>",
+          "textHtml": "<span>Recursively Enumerable but not Recursive</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Neither Recursively Enumerable nor co-RE</span>",
+          "textHtml": "<span>Neither Recursively Enumerable nor co-RE</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Recursive and P-complete</span>",
+          "textHtml": "<span>Recursive and P-complete</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Co-Recursively Enumerable but not RE</span>",
+          "textHtml": "<span>Co-Recursively Enumerable but not RE</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Myhill-Nerode",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Myhill-Nerode</strong></div>\n<p>How many equivalence classes does the Myhill-Nerode relation partition $\\{0, 1\\}^*$ into for the language $L = \\{ w \\in \\{0, 1\\}^* \\mid |w| \\text{ is even} \\}$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    The language partitions all strings into two equivalence classes: strings of even length, and strings of odd length. Thus exactly 2 equivalence classes.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Linear Bounded Automata",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Linear Bounded Automata</strong></div>\n<p>Which class of languages in the Chomsky hierarchy is accepted by <strong>Non-deterministic Linear Bounded Automata (LBA)</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Context-Sensitive Languages (Type 1) are precisely the languages accepted by Non-deterministic Linear Bounded Automata (LBA).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Regular Languages (Type 3)</span>",
+          "textHtml": "<span>Regular Languages (Type 3)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Context-Free Languages (Type 2)</span>",
+          "textHtml": "<span>Context-Free Languages (Type 2)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Context-Sensitive Languages (Type 1)</span>",
+          "textHtml": "<span>Context-Sensitive Languages (Type 1)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Recursively Enumerable Languages (Type 0)</span>",
+          "textHtml": "<span>Recursively Enumerable Languages (Type 0)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Grammar Transformations",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Grammar Transformations</strong></div>\n<p>Consider the left-recursive rule $A \\to A\\alpha \\mid \\beta$ (where $\\beta$ does not begin with $A$). Replacing this rule with $A \\to \\beta A'$ and $A' \\to \\alpha A' \\mid \\epsilon$:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are TRUE.</b><br/><b>D is FALSE:</b> Eliminating left recursion does not necessarily resolve inherent ambiguity or other sources of ambiguity in the grammar.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Preserves the language generated by the non-terminal $A$</span>",
+          "textHtml": "<span>Preserves the language generated by the non-terminal $A$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Converts direct left recursion into right recursion</span>",
+          "textHtml": "<span>Converts direct left recursion into right recursion</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Allows the grammar to be parsed by top-down recursive descent parsers</span>",
+          "textHtml": "<span>Allows the grammar to be parsed by top-down recursive descent parsers</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Always eliminates all ambiguity in the grammar</span>",
+          "textHtml": "<span>Always eliminates all ambiguity in the grammar</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "NFA to DFA",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | NFA to DFA</strong></div>\n<p>An NFA has 5 states. What is the maximum number of states in an equivalent minimal DFA in the worst case?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    By the subset construction (powerset construction), an NFA with $n$ states can have at most $2^n$ distinct states in the equivalent DFA. For $n = 5$, $2^5 = 32$ states.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "32",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Post Correspondence Problem",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Post Correspondence Problem</strong></div>\n<p>The Post Correspondence Problem (PCP) is known to be:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Post Correspondence Problem (PCP) was proved undecidable by Emil Post by reduction from the halting problem of Turing machines.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Decidable for alphabet size 2</span>",
+          "textHtml": "<span>Decidable for alphabet size 2</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Undecidable in general</span>",
+          "textHtml": "<span>Undecidable in general</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Solvable in polynomial time</span>",
+          "textHtml": "<span>Solvable in polynomial time</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Equivalent to 2-SAT</span>",
+          "textHtml": "<span>Equivalent to 2-SAT</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

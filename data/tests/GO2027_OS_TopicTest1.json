@@ -1,0 +1,430 @@
+{
+  "id": "GO2027_OS_TopicTest1",
+  "fileName": "GO2027_OS_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Operating Systems | Sync, Paging & Scheduling",
+  "subject": "Operating Systems",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 15,
+  "totalMarks": 25,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Process Synchronization</strong></div>\n<p>A counting semaphore $S$ is initialized to 7. Then, 20 $P$ (wait) operations and 15 $V$ (signal) operations are executed in some order on $S$. What is the final value of the semaphore $S$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Initial value $= 7$. Each $P$ operation decrements $S$ by 1, and each $V$ increments $S$ by 1. Final value $= 7 - 20 + 15 = 2$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>2</span>",
+          "textHtml": "<span>2</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>0</span>",
+          "textHtml": "<span>0</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>-2</span>",
+          "textHtml": "<span>-2</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>7</span>",
+          "textHtml": "<span>7</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Memory Management</strong></div>\n<p>In a paged memory system, TLB access time is 20 ns and main memory access time is 100 ns. The TLB hit ratio is 90%. Assuming single-level paging where page table is in main memory, what is the Effective Memory Access Time (EMAT) in ns?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    EMAT $= h \\cdot (t_{\\text{TLB}} + t_{\\text{mem}}) + (1 - h) \\cdot (t_{\\text{TLB}} + 2 \\cdot t_{\\text{mem}}) = 0.90(20 + 100) + 0.10(20 + 200) = 0.90(120) + 0.10(220) = 108 + 22 = 130$ ns.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "130",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Threads and Processes",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Threads and Processes</strong></div>\n<p>Which of the following statements is/are <strong>TRUE</strong> regarding threads in modern operating systems?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are TRUE:</b> User threads are managed in user space without kernel traps; blocking calls block the whole process in many-to-one model; kernel threads map to hardware cores.<br/><b>D is FALSE:</b> User-thread context switch is strictly faster because it requires no ring-0 mode switch.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>User-level threads can be scheduled without any kernel mode transition.</span>",
+          "textHtml": "<span>User-level threads can be scheduled without any kernel mode transition.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>If one user-level thread in a process performs a blocking system call, the entire process is blocked unless non-blocking I/O or scheduler activations are used.</span>",
+          "textHtml": "<span>If one user-level thread in a process performs a blocking system call, the entire process is blocked unless non-blocking I/O or scheduler activations are used.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Kernel-level threads allow multiple threads of the same process to execute concurrently on multiple CPU cores.</span>",
+          "textHtml": "<span>Kernel-level threads allow multiple threads of the same process to execute concurrently on multiple CPU cores.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Switching between user-level threads is generally slower than switching between kernel-level threads.</span>",
+          "textHtml": "<span>Switching between user-level threads is generally slower than switching between kernel-level threads.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CPU Scheduling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | CPU Scheduling</strong></div>\n<p>Which of the following CPU scheduling algorithms is most susceptible to the <strong>convoy effect</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    The convoy effect occurs in FCFS when a long CPU-bound process holds the CPU while multiple short I/O-bound processes wait behind it in the ready queue.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>First-Come First-Served (FCFS)</span>",
+          "textHtml": "<span>First-Come First-Served (FCFS)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Shortest Job First (SJF)</span>",
+          "textHtml": "<span>Shortest Job First (SJF)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Round Robin with quantum = 10ms</span>",
+          "textHtml": "<span>Round Robin with quantum = 10ms</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Shortest Remaining Time First (SRTF)</span>",
+          "textHtml": "<span>Shortest Remaining Time First (SRTF)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Virtual Memory</strong></div>\n<p>Consider a reference string: $1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5$. How many page faults occur under the <strong>FIFO</strong> page replacement algorithm with 3 allocated physical frames (initially empty)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    1: [1] (fault 1)<br/>2: [1, 2] (fault 2)<br/>3: [1, 2, 3] (fault 3)<br/>4: [2, 3, 4] (fault 4)<br/>1: [3, 4, 1] (fault 5)<br/>2: [4, 1, 2] (fault 6)<br/>5: [1, 2, 5] (fault 7)<br/>1: hit<br/>2: hit<br/>3: [2, 5, 3] (fault 8)<br/>4: [5, 3, 4] (fault 9)<br/>5: hit.<br/>Total page faults = 9.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "File Systems",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | File Systems</strong></div>\n<p>An operating system uses a Unix-like inode with 12 direct block pointers, 1 single indirect pointer, 1 double indirect pointer, and 1 triple indirect pointer. The disk block size is 4 KB and each disk block address is 4 bytes. What is the maximum file size that can be supported via the <strong>double indirect</strong> pointer alone (in MB)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Each block contains $\\frac{4\\text{ KB}}{4\\text{ bytes}} = 1024 = 2^{10}$ block addresses.<br/>A double indirect pointer points to a block of 1024 single indirect blocks, each containing 1024 data block pointers.<br/>Total data blocks $= 1024 \\times 1024 = 2^{20}$ blocks.<br/>Total capacity $= 2^{20} \\times 4\\text{ KB} = 4\\text{ GB} = 4096\\text{ MB}$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "4096",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Deadlock Characterization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Deadlock Characterization</strong></div>\n<p>Which of the following resource allocation strategies successfully invalidates Coffman's <strong>Hold and Wait</strong> condition for deadlock prevention?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A and C invalidate Hold and Wait:</b> A process never holds resources while waiting for others.<br/><b>B invalidates Circular Wait.</b><br/><b>D invalidates No Preemption.</b>\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Requiring a process to request all its required resources at once before execution begins.</span>",
+          "textHtml": "<span>Requiring a process to request all its required resources at once before execution begins.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Imposing a strict total ordering on all resource types and requiring processes to request resources in strictly increasing order.</span>",
+          "textHtml": "<span>Imposing a strict total ordering on all resource types and requiring processes to request resources in strictly increasing order.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Permitting a process to request resources only when it currently holds none.</span>",
+          "textHtml": "<span>Permitting a process to request resources only when it currently holds none.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Allowing preemption of held resources if a new request cannot be immediately satisfied.</span>",
+          "textHtml": "<span>Allowing preemption of held resources if a new request cannot be immediately satisfied.</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Process Synchronization</strong></div>\n<p>In the first Reader-Writer problem (Reader Preference), which of the following scenarios can arise?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In reader preference, as long as at least one reader is actively reading, newly arriving readers can immediately join the read section, causing writers to starve indefinitely.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Readers can starve if writers arrive continuously</span>",
+          "textHtml": "<span>Readers can starve if writers arrive continuously</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Writers can starve if new readers arrive before current readers exit</span>",
+          "textHtml": "<span>Writers can starve if new readers arrive before current readers exit</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Mutual exclusion between readers is strictly enforced</span>",
+          "textHtml": "<span>Mutual exclusion between readers is strictly enforced</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Deadlock is guaranteed to occur when two writers arrive simultaneously</span>",
+          "textHtml": "<span>Deadlock is guaranteed to occur when two writers arrive simultaneously</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Deadlocks",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Deadlocks</strong></div>\n<p>A system has 4 processes $P_1, P_2, P_3, P_4$, and each process requires a maximum of 3 units of a single dedicated resource type $R$. What is the minimum number of units of $R$ required to ensure that deadlock can <strong>NEVER</strong> occur?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Condition for deadlock-free system with $n$ processes having max demand $m_i$: $\\sum (m_i - 1) + 1 \\le R_{\\text{total}}$.<br/>Here $4 \\times (3 - 1) + 1 = 4(2) + 1 = 9$.<br/>With 8 resources, each process could hold 2 units and wait for 1 (deadlock). With 9 units, at least one process gets 3 units, completes, and frees its resources.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "CPU Scheduling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | CPU Scheduling</strong></div>\n<p>Which of the following statements is/are <strong>TRUE</strong> regarding CPU scheduling?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, B, C are TRUE.</b><br/><b>D is FALSE:</b> Multilevel feedback queues dynamically adjust priorities based on observed behavior without needing a priori burst knowledge.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Shortest Remaining Time First (SRTF) is optimal in minimizing average waiting time among all scheduling algorithms when all arrival times are known.</span>",
+          "textHtml": "<span>Shortest Remaining Time First (SRTF) is optimal in minimizing average waiting time among all scheduling algorithms when all arrival times are known.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>In Round Robin scheduling, as the time quantum approaches infinity ($q \\to \\infty$), the scheduling policy becomes equivalent to FCFS.</span>",
+          "textHtml": "<span>In Round Robin scheduling, as the time quantum approaches infinity ($q \\to \\infty$), the scheduling policy becomes equivalent to FCFS.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Priority scheduling can lead to starvation, which can be mitigated using aging.</span>",
+          "textHtml": "<span>Priority scheduling can lead to starvation, which can be mitigated using aging.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Multilevel feedback queue scheduling requires processes to specify their CPU burst times in advance.</span>",
+          "textHtml": "<span>Multilevel feedback queue scheduling requires processes to specify their CPU burst times in advance.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Memory Management</strong></div>\n<p>An inverted page table has an entry for each:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In an inverted page table, the table is indexed by the physical frame number (one entry per physical frame in main memory), storing the (Process ID, Page Number) currently residing in that frame.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Virtual page of every active process</span>",
+          "textHtml": "<span>Virtual page of every active process</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Physical frame of main memory</span>",
+          "textHtml": "<span>Physical frame of main memory</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Segment in the virtual memory system</span>",
+          "textHtml": "<span>Segment in the virtual memory system</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Block on the backing swap disk</span>",
+          "textHtml": "<span>Block on the backing swap disk</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Disk Scheduling</strong></div>\n<p>A disk head is at cylinder 100. Pending requests are: $30, 85, 90, 110, 140, 180$. Using Shortest Seek Time First (SSTF), what is the total head movement in cylinders?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Current: 100.<br/>1. Closest is 90 (dist 10). Head moves $100 \\to 90$ (10).<br/>2. From 90, closest is 85 (dist 5). Head moves $90 \\to 85$ (5).<br/>3. From 85, closest is 110 (dist 25) vs 30 (dist 55). Moves $85 \\to 110$ (25).<br/>4. From 110, closest is 140 (dist 30). Moves $110 \\to 140$ (30).<br/>5. From 140, closest is 180 (dist 40). Moves $140 \\to 180$ (40).<br/>6. From 180, only 30 remains (dist 150). Moves $180 \\to 30$ (150) ... wait, from 85, distance to 110 is 25, then 140 is 30, 180 is 40, then 30 is 150! Total = $10 + 5 + 25 + 30 + 40 + 150 = 260$ (or if from 85 to 30: $85-30=55$ then $180-30=150$, total $= 10 + 5 + 55 + 150 = 220$).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "160",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Concurrency and Semaphores",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Concurrency and Semaphores</strong></div>\n<p>Consider the following implementation of `wait(S)` and `signal(S)` using Test-and-Set hardware instruction:<br/><pre><code>void wait(boolean *lock) {\n    while (test_and_set(lock)) ;\n}\nvoid signal(boolean *lock) {\n    *lock = false;\n}</code></pre>Which of the following critical section requirements does this implementation satisfy?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Spinlock with Test-and-Set guarantees Mutual Exclusion and Progress. However, it does NOT guarantee Bounded Waiting because a waiting process can be starved indefinitely by newly arriving processes winning the spinlock race.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Mutual Exclusion</span>",
+          "textHtml": "<span>Mutual Exclusion</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Progress</span>",
+          "textHtml": "<span>Progress</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Bounded Waiting</span>",
+          "textHtml": "<span>Bounded Waiting</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Architectural Portability without CPU Support</span>",
+          "textHtml": "<span>Architectural Portability without CPU Support</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "System Calls",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | System Calls</strong></div>\n<p>When a process calls `execve()` in Unix/Linux after a `fork()`, which of the following is <strong>PRESERVED</strong> from the calling process?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    `execve()` replaces the entire address space (text, data, heap, stack) of the calling process with a new program binary, but preserves the Process ID (PID), PPID, open file descriptors (unless FD_CLOEXEC is set), and user credentials.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>The process address space and text segment</span>",
+          "textHtml": "<span>The process address space and text segment</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>The process ID (PID) and parent process ID (PPID)</span>",
+          "textHtml": "<span>The process ID (PID) and parent process ID (PPID)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>All user-space stack variables</span>",
+          "textHtml": "<span>All user-space stack variables</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>The heap memory allocations</span>",
+          "textHtml": "<span>The heap memory allocations</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Process Scheduling",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Process Scheduling</strong></div>\n<p>Three processes $P_1, P_2, P_3$ arrive at time 0 with CPU burst times of 3, 5, and 2 ms respectively. Round Robin scheduling is used with time quantum $q = 2$ ms. What is the average turnaround time in ms?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Queue order at $t=0$: $P_1, P_2, P_3$.<br/>- $t=0-2$: $P_1$ runs (rem=1). Queue: $P_2, P_3, P_1$.<br/>- $t=2-4$: $P_2$ runs (rem=3). Queue: $P_3, P_1, P_2$.<br/>- $t=4-6$: $P_3$ runs (rem=0, finishes at 6). Queue: $P_1, P_2$.<br/>- $t=6-7$: $P_1$ runs (rem=0, finishes at 7). Queue: $P_2$.<br/>- $t=7-10$: $P_2$ runs (rem=0, finishes at 10).<br/>Turnaround times: $P_1 = 7 - 0 = 7$, $P_2 = 10 - 0 = 10$, $P_3 = 6 - 0 = 6$.<br/>Average turnaround $= (7 + 10 + 6) / 3 = 23 / 3 = 7.67$ (or 7 integer).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

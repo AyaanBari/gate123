@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P6",
+  "fileName": "PYQ_Discrete_Mathematics_P6.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 6",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2006 | Question: 27</strong></div><p>Consider the following propositional statements:<br/>Which one of the following is true?<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/990/gate-cse-2006-question-27"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2008 | Question: 31</strong></div><p>and<br/>are two propositions. Which of the following logical expressions are equivalent?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/442/gate-cse-2008-question-31"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2009 | Question: 24</strong></div><p>The binary operation<br/>is defined as follows<br/>Which one of the following is equivalent to<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/801/gate-cse-2009-question-24"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2014 | Set 1 | Question: 53</strong></div><p>Which one of the following propositional logic formulas is TRUE when exactly two of<br/>and<br/>are TRUE?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1933/gate-cse-2014-set-1-question-53"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2014 | Set 2 | Question: 53</strong></div><p>Which one of the following Boolean expressions is NOT a tautology?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1933/gate-cse-2014-set-1-question-53"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2014 | Set 3 | Question: 1</strong></div><p>Consider the following statements:<br/>P: Good mobile phones are not cheap<br/>Q: Cheap mobile phones are not good<br/>L: P implies Q<br/>M: Q implies P<br/>N: P is equivalent to Q<br/>Which one of the following about L, M, and N is CORRECT?<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1933/gate-cse-2014-set-1-question-53"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>4<br/>Which one of the following is NOT equivalent to<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>easy<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1933/gate-cse-2014-set-1-question-53"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2016 | Set 1 | Question: 1</strong></div><p>Let<br/>represents the following propositions.<br/>is a composite number.<br/>is a perfect square.<br/>is a prime number.<br/>The integer<br/>which satisfies<br/>is ____________.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [],
+      "correctAnswer": "11",
+      "discussUrl": "https://gateoverflow.in/39663/gate-cse-2016-set-1-question-1"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2016 | Set 2 | Question: 01</strong></div><p>Consider the following expressions:<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>iv<br/>.<br/>v<br/>.<br/>The number of expressions given above that are logically implied by<br/>is ___________.<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/39663/gate-cse-2016-set-1-question-1"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2017 | Set 1 | Question: 01</strong></div><p>The statement<br/>is logically equivalent to which of the statements below?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>mathematical-logic<br/>propositional-logic<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39663/gate-cse-2016-set-1-question-1"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2017 | Set 1 | Question: 29</strong></div><p>Let<br/>,<br/>and<br/>be propositions and the expression<br/>be a contradiction. Then, the expression<br/>is<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39663/gate-cse-2016-set-1-question-1"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2017 | Set 2 | Question: 11</strong></div><p>Let<br/>denote the statements ”<br/>It is raining<br/>”, “<br/>It is cold<br/>”, and “<br/>It is pleasant<br/>”<br/>,<br/>respectively. Then the<br/>statement “<br/>It is not raining and it is pleasant, and it is not pleasant only if it is raining and it is cold<br/>” is<br/>represented by<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39663/gate-cse-2016-set-1-question-1"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2021 | Set 1 | Question: 7</strong></div><p>Let<br/>and<br/>be two propositions. Consider the following two formulae in propositional logic.<br/>Which one of the following choices is correct?<br/>A<br/>.<br/>Both<br/>and<br/>are tautologies.<br/>B<br/>.<br/>is a tautology but<br/>is not a tautology<br/>C<br/>.<br/>is not a tautology but<br/>is a tautology<br/>D<br/>.<br/>Neither<br/>nor<br/>is a tautology<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2021 | Set 2 | Question: 15</strong></div><p>Choose the correct choice(s) regarding the following proportional logic assertion<br/>:<br/>A<br/>.<br/>is neither a tautology nor a contradiction<br/>B<br/>.<br/>is a tautology<br/>C<br/>.<br/>is a contradiction<br/>D<br/>.<br/>The antecedent of<br/>is logically equivalent to the consequent of<br/>multiple-selects<br/>mathematical-logic<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE CSE 2024 | Set 2 | Question: 2</strong></div><p>​​​​<br/>Let<br/>and<br/>be the following propositions:<br/>: Fail grade can be given.<br/>: Student scores more than<br/>marks.<br/>Consider the statement: \"<br/>Fail grade cannot be given when student scores more than<br/>marks.<br/>\"<br/>Which one of the following is the CORRECT representation of the above statement in propositional logic?<br/>mathematical-logic<br/>propositional-logic<br/>Propositional Logic: GATE DS&AI 2024 | Question: 19<br/>​​​​​​<br/>Let<br/>and<br/>be two propositions. Which of the following statements is a tautology /are tautologies?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>gate-ds-ai-2024<br/>mathematical-logic<br/>propositional-logic<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Propositional Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Propositional Logic: GATE IT 2004 | Question: 31</strong></div><p>Let<br/>and<br/>be four primitive statements. Consider the following arguments:<br/>Which of the above arguments are valid?<br/>mathematical-logic<br/>propositional-logic<br/>3.1.1<br/>N/A<br/>3.1.2<br/>N/A<br/>3.1.3<br/>A<br/>3.1.4<br/>D<br/>3.1.5<br/>D<br/>3.1.6<br/>D<br/>3.1.7<br/>B<br/>3.1.8<br/>D<br/>3.1.9<br/>D<br/>3.1.10<br/>X<br/>3.1.11<br/>D<br/>3.1.12<br/>B<br/>3.1.13<br/>B<br/>3.1.14<br/>A<br/>3.1.15<br/>C<br/>3.1.16<br/>D<br/>3.1.17<br/>X<br/>3.1.18<br/>D<br/>3.1.19<br/>D<br/>3.1.20<br/>C<br/>3.1.21<br/>D<br/>3.1.22<br/>B<br/>3.1.23<br/>A<br/>3.1.24<br/>C<br/>3.1.25<br/>C<br/>3.1.26<br/>B;C<br/>3.1.27<br/>B;D<br/>3.1.28<br/>A<br/>3.1.29<br/>A<br/>3.1.30<br/>C<br/>3.1.31<br/>B<br/>3.1.32<br/>B<br/>3.1.33<br/>A<br/>3.1.34<br/>C<br/>3.1.35<br/>D<br/>3.2.1<br/>B<br/>3.2.2<br/>C<br/>3.2.3<br/>A<br/>3.3.1<br/>N/A<br/>3.3.2<br/>N/A<br/>3.3.3<br/>A;B;C<br/>3.3.4<br/>A<br/>3.3.5<br/>B<br/>3.3.6<br/>B<br/>3.3.7<br/>N/A<br/>3.3.8<br/>N/A<br/>3.3.9<br/>B<br/>3.3.10<br/>True<br/>3.3.11<br/>N/A<br/>3.3.12<br/>D<br/>3.3.13<br/>D<br/>3.3.14<br/>C<br/>3.3.15<br/>A<br/>3.3.16<br/>N/A<br/>3.3.17<br/>A<br/>3.3.18<br/>A<br/>3.3.19<br/>A<br/>3.3.20<br/>N/A<br/>3.3.21<br/>B<br/>3.3.22<br/>A<br/>3.3.23<br/>B<br/>3.3.24<br/>D<br/>3.3.25<br/>B<br/>3.3.26<br/>B<br/>3.3.27<br/>B<br/>3.3.28<br/>B<br/>3.3.29<br/>D<br/>3.3.30<br/>C<br/>3.3.31<br/>11<br/>3.3.32<br/>4<br/>3.3.33<br/>D<br/>3.3.34<br/>D<br/>3.3.35<br/>A<br/>3.3.36<br/>B<br/>3.3.37<br/>B;D<br/>3.3.38<br/>A<br/>3.3.39<br/>B;C;D<br/>3.3.40<br/>C</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3674/gate-it-2004-question-31"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 1989 | Question: 1-v</strong></div><p>The number of possible commutative binary operations that can be deﬁned on a set of<br/>elements (for a<br/>given<br/>) is ___________.<br/>descriptive<br/>set-theory&algebra<br/>binary-operation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87051/gate-cse-1989-question-1-v"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 1994 | Question: 2.2</strong></div><p>On the set<br/>of non-negative integers, the binary operation ______ is associative and non-commutative.<br/>set-theory&algebra<br/>group-theory<br/>binary-operation<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2469/gate-cse-1994-question-2-2"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 2003 | Question: 38</strong></div><p>Consider the set<br/>with binary operators<br/>and<br/>defined as follows:<br/>For example,<br/>and<br/>.<br/>Given the following set of equations:<br/>The number of solution(s) (i.e., pair(s)<br/>that satisfy the equations) is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/929/gate-cse-2003-question-38"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 2006 | Question: 28</strong></div><p>A logical binary relation<br/>, is defined as follows:<br/>Let<br/>be the unary negation (NOT) operator, with higher precedence then<br/>.<br/>Which one of the following is equivalent to<br/>?<br/>set-theory&algebra<br/>binary-operation<br/>propositional-logic<br/>mathematical-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/991/gate-cse-2006-question-28"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 2013 | Question: 1</strong></div><p>A binary operation<br/>on a set of integers is deﬁned as<br/>. Which one of the following<br/>statements is<br/>TRUE<br/>about<br/>?<br/>set-theory&algebra<br/>easy<br/>binary-operation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/991/gate-cse-2006-question-28"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 2015 | Set 1 | Question: 28</strong></div><p>The binary operator<br/>is defined by the following truth table.<br/>Which one of the following is true about the binary operator<br/>?<br/>set-theory&algebra<br/>easy<br/>binary-operation<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/991/gate-cse-2006-question-28"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE CSE 2015 | Set 3 | Question: 2</strong></div><p>Let<br/>be the binary operator defined as<br/>where<br/>and<br/>are Boolean variables.<br/>Consider the following two statements.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/991/gate-cse-2006-question-28"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Operation: GATE IT 2006 | Question: 2</strong></div><p>For the set<br/>of natural numbers and a binary operation<br/>an element<br/>is called an<br/>identity for<br/>if<br/>for all<br/>Which of the following binary operations have an<br/>identity?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>set-theory&algebra<br/>easy<br/>binary-operation<br/>Countable Uncountable Set<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3539/gate-it-2006-question-2"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Countable Uncountable Set",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Countable Uncountable Set: GATE CSE 1994 | Question: 3.9</strong></div><p>Every subset of a countable set is countable.<br/>State whether the above statement is true or false with reason.<br/>set-theory&algebra<br/>set-theory<br/>countable-uncountable-set<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/3539/gate-it-2006-question-2"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Countable Uncountable Set",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Countable Uncountable Set: GATE CSE 2018 | Question: 27</strong></div><p>Let<br/>be the set of natural numbers. Consider the following sets,<br/>Set of Rational numbers (positive and negative)<br/>Set of functions from<br/>to<br/>Set of functions from<br/>to<br/>Set of finite subsets of<br/>Which of the above sets are countable?<br/>set-theory&algebra<br/>countable-uncountable-set<br/>Functions<br/>(30)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204101/gate-cse-2018-question-27"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1987 | Question: 9b</strong></div><p>How many one-to-one functions are there from a set<br/>with<br/>elements onto itself?<br/>set-theory&algebra<br/>functions<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3539/gate-it-2006-question-2"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1988 | Question: 13ii</strong></div><p>If the set<br/>has a finite number of elements, prove that if<br/>maps<br/>onto<br/>, then<br/>is one-to-one.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94634/gate-cse-1988-question-13ii"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1989 | Question: 13c</strong></div><p>Find the number of single valued functions from set<br/>to another set<br/>given that the cardinalities of the<br/>sets<br/>and<br/>are<br/>and<br/>respectively.<br/>descriptive<br/>functions<br/>set-theory&algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93178/gate-cse-1989-question-13c"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1993 | Question: 8.6</strong></div><p>Let<br/>and<br/>be sets with cardinalities<br/>and<br/>respectively. The number of one-one mappings from<br/>to<br/>, when<br/>, is<br/>set-theory&algebra<br/>functions<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/93178/gate-cse-1989-question-13c"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1996 | Question: 1.3</strong></div><p>Suppose<br/>and<br/>are sets and<br/>are their respective cardinality. It is given that there are exactly<br/>functions from<br/>to<br/>. From this one can conclude that<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93178/gate-cse-1989-question-13c"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1996 | Question: 2.1</strong></div><p>L e t<br/>denote the set of real numbers. Let<br/>be a bijective function deﬁned by<br/>. The inverse function of<br/>is given by<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/93178/gate-cse-1989-question-13c"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1997 | Question: 13</strong></div><p>Let<br/>be the set of one-to-one functions from the set<br/>to the set<br/>where<br/>.<br/>a<br/>.<br/>How many functions are members of<br/>?<br/>b<br/>.<br/>How many functions<br/>in<br/>satisfy the property<br/>for some<br/>?<br/>c<br/>.<br/>How many functions<br/>in<br/>satisfy the property<br/>for all<br/>?<br/>set-theory&algebra<br/>functions<br/>descriptive<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93178/gate-cse-1989-question-13c"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 1998 | Question: 1.8</strong></div><p>The number of functions from an<br/>element set to an<br/>element set is<br/>set-theory&algebra<br/>functions<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1645/gate-cse-1998-question-1-8"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2001 | Question: 2.3</strong></div><p>Let<br/>a function, and let E and F be subsets of<br/>. Consider the following statements about<br/>images.<br/>Which of the following is true about S1 and S2?<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/721/gate-cse-2001-question-2-3"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2001 | Question: 4</strong></div><p>Consider the function<br/>so that<br/>, where<br/>is<br/>the set of natural numbers.<br/>a<br/>.<br/>Prove that the function<br/>is an injection (one-one).<br/>b<br/>.<br/>Prove that it is also a Surjection (onto)<br/>functions<br/>set-theory&algebra<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1645/gate-cse-1998-question-1-8"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2003 | Question: 37</strong></div><p>Let<br/>be an injective (one-to-one) function. Define<br/>as:<br/>, for all subsets<br/>of<br/>.<br/>Deﬁne<br/>as:<br/>, for all subsets<br/>of<br/>. Which of the following<br/>statements is always true?<br/>set-theory&algebra<br/>functions<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/927/gate-cse-2003-question-37"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2003 | Question: 39</strong></div><p>Let<br/>be an alphabet. We define an encoding scheme as follows:<br/>.<br/>Let<br/>denote the i-th prime number<br/>.<br/>For a non-empty string<br/>, where each<br/>, define<br/>.<br/>For a non-empty sequence<br/>of stings from<br/>, define<br/>Which of the following numbers is the encoding,<br/>, of a non-empty sequence of strings?<br/>set-theory&algebra<br/>functions<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/927/gate-cse-2003-question-37"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2005 | Question: 43</strong></div><p>Let<br/>and<br/>be two functions and let<br/>. Given that<br/>is an onto function which<br/>one of the following is TRUE?<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1168/gate-cse-2005-question-43"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2006 | Question: 2</strong></div><p>Let<br/>be sets of sizes<br/>and<br/>respectively. Let<br/>and<br/>be the set of all subsets of<br/>. The number of functions from<br/>to<br/>is<br/>set-theory&algebra<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1168/gate-cse-2005-question-43"
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Computer_Networks_P1",
+  "fileName": "PYQ_Computer_Networks_P1.json",
+  "title": "GATE Official PYQs | Computer Networks Part 1",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2008 | Question: 14, ISRO2016-74</strong></div><p>What is the maximum size of data that the application layer can pass on to the TCP layer below?<br/>easy<br/>computer-networks<br/>application-layer-protocols<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/412/gate-cse-2008-question-14-isro2016-74"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2011 | Question: 4</strong></div><p>Consider the different activities related to email.<br/>Send an email from mail client to mail server<br/>Download an email from mailbox server to a mail client<br/>Checking email in a web browser<br/>Which is the application level protocol used in each activity?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>computer-networks<br/>application-layer-protocols<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/412/gate-cse-2008-question-14-isro2016-74"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2012 | Question: 10</strong></div><p>The protocol data unit (PDU) for the application layer in the Internet stack is:<br/>computer-networks<br/>application-layer-protocols<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2106/gate-cse-2011-question-4"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2016 | Set 1 | Question: 25</strong></div><p>Which of the following is/are example(s) of stateful application layer protocol?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/412/gate-cse-2008-question-14-isro2016-74"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2019 | Question: 16</strong></div><p>Which of the following protocol pairs can be used to send and retrieve e-mails (in that order)?<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302832/gate-cse-2019-question-16"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2020 | Question: 25</strong></div><p>Assume that you have made a request for a web page through your web browser to a web server. Initially<br/>the browser cache is empty. Further, the browser is conﬁgured to send<br/>requests in non-persistent<br/>mode. The web page contains text and ﬁve very small images.The minimum number of<br/>connections required<br/>to display the web page completely in your browser is__________.<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/333206/gate-cse-2020-question-25"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2022 | Question: 25</strong></div><p>Consider the resolution of the domain name<br/>by a<br/>resolver. Assume that no resource<br/>records are cached anywhere across the<br/>servers and that iterative query mechanism is used in the<br/>resolution. The number of<br/>query-response pairs involved in completely resolving the domain name is<br/>________________.<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/333206/gate-cse-2020-question-25"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2026 | Set 1 | Question: 9</strong></div><p>Which of the following statements is/are true with respect to the interaction of a web browser with a web<br/>server using HTTP<br/>?<br/>A<br/>.<br/>HTTP<br/>facilitates downloading multiple objects of the same webpage over the same TCP connection, if the<br/>objects are stored in the same server<br/>B<br/>.<br/>HTTP<br/>facilitates downloading multiple objects of the same webpage over the same TCP connection, even if<br/>they are stored in different servers<br/>C<br/>.<br/>HTTP<br/>facilitates sending a request for downloading one object without waiting for a previously requested<br/>object to be downloaded completely<br/>D<br/>.<br/>HTTP<br/>facilitates downloading multiple webpages on the same server to be downloaded over a single TCP<br/>connection<br/>computer-networks<br/>application-layer-protocols<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/302832/gate-cse-2019-question-16"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE CSE 2026 | Set 2 | Question: 12</strong></div><p>Which one of the following protocols may need to broadcast some of its messages?<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302832/gate-cse-2019-question-16"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE IT 2005 | Question: 25</strong></div><p>Consider the three commands : PROMPT, HEAD and RCPT.<br/>Which of the following options indicate a correct association of these commands with protocols where these<br/>are used?<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3770/gate-it-2005-question-25"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE IT 2005 | Question: 77</strong></div><p>Assume that \"host1.mydomain.dom\" has an IP address of<br/>. Which of the following options<br/>would be most appropriate as a subsequence of steps in performing the reverse lookup of<br/>?<br/>In the following options \"NS\" is an abbreviation of \"nameserver\".<br/>A<br/>.<br/>Query a NS for the root domain and then NS for the \"dom\" domains<br/>B<br/>.<br/>Directly query a NS for \"dom\" and then a NS for \"mydomain.dom\" domains<br/>C<br/>.<br/>Query a NS for in-addr.arpa and then a NS for<br/>in-addr.arpa domains<br/>D<br/>.<br/>Directly query a NS for<br/>in-addr.arpa and then a NS for<br/>in-addr.arpa domains<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3770/gate-it-2005-question-25"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE IT 2006 | Question: 18</strong></div><p>and<br/>, respectively, are commands from the protocols:<br/>computer-networks<br/>application-layer-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3557/gate-it-2006-question-18"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Application Layer Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Application Layer Protocols: GATE IT 2008 | Question: 20</strong></div><p>Provide the best matching between the entries in the two columns given in the table below:<br/>computer-networks<br/>application-layer-protocols<br/>Arp<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3770/gate-it-2005-question-25"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Arp",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Arp: GATE CSE 2025 | Set 2 | Question: 6</strong></div><p>​​​​​<br/>Consider the following statements:<br/>i<br/>.<br/>Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware<br/>(link-layer) address.<br/>ii<br/>.<br/>A single TCP segment from a sender<br/>to a receiver<br/>cannot carry both data from<br/>to<br/>and<br/>acknowledgement for a segment from<br/>to<br/>Which one of the following is CORRECT?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3770/gate-it-2005-question-25"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bit Stuffing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bit Stuffing: GATE CSE 2014 | Set 3 | Question: 24</strong></div><p>A bit-stuﬃng based framing protocol uses an<br/>delimiter pattern of<br/>If the output bit-string<br/>after stuffing is<br/>then the input bit-string is:<br/>computer-networks<br/>error-detection<br/>bit-stuffing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2058/gate-cse-2014-set-3-question-24"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bit Stuffing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bit Stuffing: GATE IT 2004 | Question: 80</strong></div><p>In a data link protocol, the frame delimiter ﬂag is given by<br/>. Assuming that bit stuﬃng is employed, the<br/>transmitter sends the data sequence<br/>as:<br/>computer-networks<br/>network-flow<br/>bit-stuffing<br/>Bridges<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3724/gate-it-2004-question-80"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bridges",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bridges: GATE CSE 2004 | Question: 16</strong></div><p>Which of the following is NOT true with respect to a transparent bridge and a router?<br/>A<br/>.<br/>Both bridge and router selectively forward data packets<br/>B<br/>.<br/>A bridge uses IP addresses while a router uses MAC addresses<br/>C<br/>.<br/>A bridge builds up its routing table by inspecting incoming packets<br/>D<br/>.<br/>A router can connect between a LAN and a WAN<br/>computer-networks<br/>bridges</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3724/gate-it-2004-question-80"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bridges",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bridges: GATE CSE 2006 | Question: 82</strong></div><p>Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In<br/>order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning<br/>tree. First, the root bridge is identiﬁed as the bridge with the least serial number. Next, the root sends out (one or<br/>more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge.<br/>Each bridge identiﬁes a port (the root port) through which it will forward frames to the root bridge. Port conﬂicts are<br/>always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges<br/>forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root<br/>get preference and between such bridges, the one with the lowest serial number is preferred.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1855/gate-cse-2006-question-82"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bridges",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bridges: GATE CSE 2006 | Question: 83</strong></div><p>Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In<br/>order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning<br/>tree. First, the root bridge is identiﬁed as the bridge with the least serial number. Next, the root sends out (one or<br/>more) data<br/>units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge.<br/>Each bridge identiﬁes a port (the root port) through which it will forward frames to the root bridge. Port conﬂicts are<br/>always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges<br/>forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root<br/>get preference and between such bridges, the one with the lowest serial number is preferred.<br/>Consider the spanning tree<br/>for the given connection of LANs by bridges, that represents the<br/>depth ﬁrst traversal of the spanning tree of bridges. Let host<br/>send out a broadcast ping packet. Which of the<br/>following options represents the correct forwarding table on<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/79790/gate-cse-2006-question-83"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CRC Polynomial",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CRC Polynomial: GATE CSE 2007 | Question: 68, ISRO2016-73</strong></div><p>The message<br/>is to be transmitted using the CRC polynomial<br/>to protect it from errors. The<br/>message that should be transmitted is:<br/>computer-networks<br/>error-detection<br/>crc-polynomial<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1266/gate-cse-2007-question-68-isro2016-73"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CRC Polynomial",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CRC Polynomial: GATE CSE 2017 | Set 1 | Question: 32</strong></div><p>A computer network uses polynomials over<br/>for error checking with<br/>bits as information bits and<br/>uses<br/>as the generator polynomial to generate the check bits. In this network, the message<br/>is transmitted as:<br/>computer-networks<br/>crc-polynomial</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2103"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CRC Polynomial",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CRC Polynomial: GATE CSE 2021 | Set 2 | Question: 34</strong></div><p>Consider the cyclic redundancy check<br/>based error detecting scheme having the generator<br/>polynomial<br/>. Suppose the message<br/>is to be transmitted. Check<br/>bits<br/>are appended at the end of the message by the transmitter using the above<br/>scheme. The<br/>transmitted bit string is denoted by<br/>. The value of the checkbit sequence<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2103"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "CRC Polynomial",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CRC Polynomial: GATE CSE 2026 | Set 2 | Question: 33</strong></div><p>Consider the transmission of data bits<br/>over a link that uses Cyclic Redundancy Check (CRC)<br/>code for error detection. If the generator bit pattern is given to be<br/>, which one of the following options<br/>shows the remainder bit pattern appended to the data bits before transmission?<br/>computer-networks<br/>crc-polynomial<br/>error-detection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523113/gate-cse-2026-set-2-question-33"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CRC Polynomial",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CRC Polynomial: GATE IT 2005 | Question: 78</strong></div><p>Consider the following message<br/>. The cyclic redundancy check (CRC) for this message<br/>using the divisor polynomial<br/>is :<br/>computer-networks<br/>crc-polynomial<br/>CSMA CD<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3842/gate-it-2005-question-78"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE CSE 2015 | Set 3 | Question: 6</strong></div><p>Consider a CSMA/CD network that transmits data at a rate of<br/>per second) over a<br/>(kilometre) cable with no repeaters. If the minimum frame size required for this network is<br/>What is the signal speed<br/>in the cable?<br/>computer-networks<br/>congestion-control<br/>csma-cd</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523113/gate-cse-2026-set-2-question-33"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE CSE 2016 | Set 2 | Question: 53</strong></div><p>A network has a data transmission bandwidth of<br/>bits per second. It uses<br/>CSMA/CD<br/>in the<br/>MAC<br/>layer. The maximum signal propagation time from one node to another node is<br/>microseconds.<br/>The minimum size of a frame in the network is __________ bytes.<br/>computer-networks<br/>csma-cd</p></div>",
+      "options": [],
+      "correctAnswer": "200",
+      "discussUrl": "https://gateoverflow.in/523113/gate-cse-2026-set-2-question-33"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE CSE 2018 | Question: 55</strong></div><p>Consider a simple communication system where multiple nodes are connected by a shared broadcast<br/>medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium<br/>access protocol. A node that receives a packet to transmit will carrier-sense the medium for<br/>units of time. If the<br/>node does not detect any other transmission, it starts transmitting its packet in the next time unit. If the node detects<br/>another transmission, it waits until this other transmission ﬁnishes, and then begins to carrier-sense for<br/>time units<br/>again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a<br/>collision occurs. All transmissions last for<br/>units of time. Assume that the transmission signal travels at the speed<br/>of<br/>meters per unit time in the medium.<br/>Assume that the system has two nodes<br/>and<br/>, located at a distance<br/>meters from each other.<br/>start<br/>transmitting a packet at time<br/>after successfully completing its carrier-sense phase. Node<br/>has a packet to</p></div>",
+      "options": [],
+      "correctAnswer": "50",
+      "discussUrl": "https://gateoverflow.in/204130/gate-cse-2018-question-55"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE IT 2005 | Question: 27</strong></div><p>Which of the following statements is TRUE about CSMA/CD:<br/>A<br/>.<br/>IEEE<br/>wireless LAN runs CSMA/CD protocol<br/>B<br/>.<br/>Ethernet is not based on CSMA/CD protocol<br/>C<br/>.<br/>CSMA/CD is not suitable for a high propagation delay network like satellite network<br/>D<br/>.<br/>There is no contention in a CSMA/CD network<br/>computer-networks<br/>congestion-control<br/>csma-cd</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3773/gate-it-2005-question-27"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE IT 2005 | Question: 71</strong></div><p>A network with CSMA/CD protocol in the MAC layer is running at<br/>over a<br/>cable with no<br/>repeaters. The signal speed in the cable is<br/>. The minimum frame size for this network should<br/>be:<br/>computer-networks<br/>congestion-control<br/>csma-cd</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3773/gate-it-2005-question-27"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CSMA CD",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CSMA CD: GATE IT 2008 | Question: 65</strong></div><p>The minimum frame size required for a CSMA/CD based computer network running at<br/>on a<br/>cable with a link speed of<br/>is:<br/>computer-networks<br/>csma-cd<br/>Channel Utilization<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3376/gate-it-2008-question-65"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Channel Utilization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Channel Utilization: GATE CSE 2025 | Set 2 | Question: 26</strong></div><p>Suppose we are transmitting frames between two nodes using Stop-and-Wait protocol. The frame size is<br/>bits. The transmission rate of the channel is<br/>bps (bits/second) and the propagation delay<br/>between the two nodes is<br/>milliseconds. Assume that the processing times at the source and destination are<br/>negligible. Also, assume that the size of the acknowledgement packet is negligible. Which ONE of the following<br/>most accurately gives the channel utilization for the above scenario in percentage?<br/>computer-networks<br/>stop-and-wait<br/>channel-utilization<br/>Communication<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3773/gate-it-2005-question-27"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Communication: GATE CSE 2012 | Question: 44</strong></div><p>Consider a source computer<br/>transmitting a ﬁle of size<br/>bits to a destination computer<br/>over a</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2153/gate-cse-2012-question-44"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Communication: GATE CSE 2022 | Question: 49</strong></div><p>Consider a<br/>link between an earth station (sender) and a satellite (receiver) at an altitude of<br/>The signal propagates at a speed of<br/>The time taken<br/>for the receiver to completely receive a packet of<br/>transmitted by the sender is _______________.<br/>computer-networks<br/>communication</p></div>",
+      "options": [],
+      "correctAnswer": "7.07:7.09",
+      "discussUrl": "https://gateoverflow.in/371887/gate-cse-2022-question-49"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Communication: GATE IT 2007 | Question: 62</strong></div><p>Let us consider a statistical time division multiplexing of packets. The number of sources is<br/>. In a time unit,<br/>a source transmits a packet of<br/>bits. The number of sources sending data for the ﬁrst<br/>time units is<br/>respectively. The output capacity of multiplexer is<br/>bits per<br/>time unit. Then the average number of backlogged of packets per time unit during the given period is<br/>computer-networks<br/>communication</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3506/gate-it-2007-question-62"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Communication: GATE IT 2007 | Question: 64</strong></div><p>A broadcast channel has<br/>nodes and total capacity of<br/>Mbps. It uses polling for medium access. Once a<br/>node ﬁnishes transmission, there is a polling delay of<br/>μ<br/>s to poll the next node. Whenever a node is<br/>polled, it is allowed to transmit a maximum of<br/>bytes. The maximum throughput of the broadcast channel is:<br/>computer-networks<br/>communication<br/>Congestion Control<br/>(9)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(14Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3506/gate-it-2007-question-62"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2008 | Question: 56</strong></div><p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:<br/>computer-networks<br/>congestion-control</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/479/gate-cse-2008-question-56"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2012 | Question: 45</strong></div><p>Consider an instance of TCP’s Additive Increase Multiplicative Decrease (AIMD) algorithm where the<br/>window size at the start of the slow start phase is<br/>MSS and the threshold at the start of the ﬁrst<br/>transmission is<br/>MSS. Assume that a timeout occurs during the fifth transmission. Find the congestion window size<br/>at the end of the tenth transmission.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2156/gate-cse-2012-question-45"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2014 | Set 1 | Question: 27</strong></div><p>Let the size of congestion window of a TCP connection be<br/>KB when a timeout occurs. The round trip time<br/>of the connection is<br/>msec and the maximum segment size used is<br/>KB. The time taken<br/>(in msec)<br/>by<br/>the TCP connection to get back to<br/>KB congestion window is _________.<br/>computer-networks<br/>tcp<br/>congestion-control</p></div>",
+      "options": [],
+      "correctAnswer": "1100",
+      "discussUrl": "https://gateoverflow.in/1794/gate-cse-2014-set-1-question-27"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2018 | Question: 14</strong></div><p>Consider the following statements regarding the slow start phase of the TCP congestion control algorithm.<br/>Note that<br/>cwnd<br/>stands for the TCP congestion window and MSS window denotes the Maximum Segments<br/>Size:<br/>i<br/>.<br/>The<br/>cwnd<br/>increases by<br/>MSS on every successful acknowledgment<br/>ii<br/>.<br/>The<br/>cwnd<br/>approximately doubles on every successful acknowledgment<br/>iii<br/>.<br/>The<br/>cwnd<br/>increases by<br/>MSS every round trip time<br/>iv<br/>.<br/>The<br/>cwnd<br/>approximately doubles every round trip time<br/>Which one of the following is correct?<br/>computer-networks<br/>tcp<br/>congestion-control</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1794/gate-cse-2014-set-1-question-27"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Congestion Control",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Congestion Control: GATE CSE 2020 | Question: 55</strong></div><p>Consider a<br/>connection between a client and a server with the following speciﬁcations; the round trip<br/>time is<br/>ms, the size of the receiver advertised window is<br/>KB, slow-start threshold at the client is<br/>KB,<br/>and the maximum segment size is<br/>KB. The connection is established at time<br/>. Assume that there are no<br/>timeouts and errors during transmission. Then the size of the congestion window (in<br/>) at time<br/>ms after all<br/>acknowledgements are processed is _______<br/>computer-networks<br/>tcp<br/>congestion-control</p></div>",
+      "options": [],
+      "correctAnswer": "44",
+      "discussUrl": "https://gateoverflow.in/333176/gate-cse-2020-question-55"
+    }
+  ]
+}

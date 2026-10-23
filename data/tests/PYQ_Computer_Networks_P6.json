@@ -1,0 +1,832 @@
+{
+  "id": "PYQ_Computer_Networks_P6",
+  "fileName": "PYQ_Computer_Networks_P6.json",
+  "title": "GATE Official PYQs | Computer Networks Part 6",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 25,
+  "totalMarks": 28,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2015 | Set 2 | Question: 34</strong></div><p>Assume that the bandwidth for a<br/>connection  is<br/>bits/sec. Let<br/>be the value of RTT in<br/>milliseconds (rounded oﬀ to the nearest integer) after which the<br/>window scale option is needed. Let<br/>be the maximum possible window size with window scale option. Then the values of<br/>and<br/>are<br/>computer-networks<br/>difficult<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2077"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2015 | Set 3 | Question: 22</strong></div><p>Consider the following statements.<br/>I<br/>.<br/>TCP connections are full duplex</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1333/gate-cse-2009-question-47"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2016 | Set 2 | Question: 25</strong></div><p>Identify the correct sequence in which the following packets are transmitted on the network by a host when a<br/>browser requests a webpage from a remote server, assuming that the host has just been restarted.<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2017 | Set 1 | Question: 14</strong></div><p>Consider a TCP client and a TCP server running on two diﬀerent machines. After completing data transfer,<br/>the TCP client calls close to terminate the connection and a FIN segment is sent to the TCP server. Server-<br/>side TCP responds by sending an ACK, which is received by the client-side TCP. As per the TCP connection state<br/>diagram<br/>, in which state does the client-side TCP connection wait for the FIN from the server-side<br/>TCP?<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2021 | Set 1 | Question: 44</strong></div><p>A<br/>server application is programmed to listen on port number<br/>on host<br/>. A<br/>client is connected<br/>to the<br/>server over the network.<br/>Consider that while the<br/>connection was active, the server machine<br/>crashed and rebooted. Assume that the<br/>client does not use the<br/>keepalive timer. Which of the following behaviors is/are possible?<br/>A<br/>.<br/>If the client was waiting to receive a packet, it may wait indefinitely<br/>B<br/>.<br/>The<br/>server application on<br/>can listen on<br/>after reboot<br/>C<br/>.<br/>If the client sends a packet after the server reboot, it will receive a<br/>segment<br/>D<br/>.<br/>If the client sends a packet after the server reboot, it will receive a<br/>segment<br/>multiple-selects<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2021 | Set 1 | Question: 45</strong></div><p>Consider two hosts<br/>and<br/>connected through a router<br/>. The maximum transfer unit<br/>value of the<br/>link between<br/>and<br/>is<br/>bytes, and between<br/>and<br/>is<br/>bytes.<br/>A<br/>segment of size<br/>bytes was transferred from<br/>to<br/>through<br/>, with<br/>identiﬁcation value as<br/>Assume that the<br/>header size is<br/>bytes. Further, the packet is allowed to be fragmented, i.e.,<br/>flag in the<br/>header is<br/>set by<br/>.<br/>Which of the following statements is/are correct?<br/>A<br/>.<br/>Two fragments are created at<br/>and the<br/>datagram size carrying the second fragment is<br/>bytes.<br/>B<br/>.<br/>If the second fragment is lost,<br/>will resend the fragment with the<br/>identification value<br/>C<br/>.<br/>If the second fragment is lost,<br/>is required to resend the whole<br/>segment.<br/>D<br/>.<br/>destination port can be determined by analysing<br/>the second fragment.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2021 | Set 2 | Question: 7</strong></div><p>Consider the three-way handshake mechanism followed during<br/>connection establishment between<br/>hosts<br/>and<br/>. Let<br/>and<br/>be two random<br/>-bit starting sequence numbers chosen by<br/>and<br/>respectively. Suppose<br/>sends a<br/>connection request message to<br/>with a<br/>segment having<br/>bit<br/>,<br/>number<br/>, and<br/>bit<br/>. Suppose<br/>accepts the connection request. Which one of the<br/>following choices represents the information present in the<br/>segment header that is sent by<br/>to<br/>?<br/>A<br/>.<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>B<br/>.<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>C<br/>.<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>D<br/>.<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>,<br/>number<br/>,<br/>bit<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2022 | Question: 50</strong></div><p>Consider the data transfer using<br/>over a<br/>link. Assuming that the maximum segment lifetime<br/>is set to<br/>the minimum number of bits required for the sequence number ﬁeld of the<br/>header, to prevent the sequence number space from wrapping around during the<br/>is<br/>________________.<br/>computer-networks<br/>tcp</p></div>",
+      "options": [],
+      "correctAnswer": "33",
+      "discussUrl": "https://gateoverflow.in/371886/gate-cse-2022-question-50"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2023 | Question: 40</strong></div><p>Suppose you are asked to design a new reliable byte-stream transport protocol like<br/>This protocol,<br/>named<br/>, runs over a<br/>network with Round Trip Time of<br/>milliseconds and the<br/>maximum segment lifetime of<br/>minutes.<br/>Which of the following is/are valid lengths of the<br/>Sequence Number<br/>field in the<br/>header?<br/>computer-networks<br/>tcp<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/399271/gate-cse-2023-question-40"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2024 | Set 1 | Question: 19</strong></div><p>​<br/>client<br/>successfully establishes a connection to<br/>server<br/>. Let<br/>denote the sequence<br/>number in the<br/>sent from<br/>to<br/>. Let<br/>denote the acknowledgement number in the SYN ACK from<br/>to<br/>. Which of the following statements is/are CORRECT?<br/>A<br/>.<br/>The sequence number<br/>is chosen randomly by<br/>B<br/>.<br/>The sequence number<br/>is always<br/>for a new connection<br/>C<br/>.<br/>The acknowledgement number<br/>is equal to<br/>D<br/>.<br/>The acknowledgement number<br/>is equal to<br/>multiple-selects<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2025 | Set 1 | Question: 12</strong></div><p>Consider the<br/>-way handshaking protocol for TCP connection establishment. Let the three packets<br/>exchanged during the connection establishment be denoted as<br/>, and<br/>, in order. Which of the<br/>following option(s) is/are TRUE with respect to TCP header flags that are set in the packets?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2026 | Set 1 | Question: 8</strong></div><p>With respect to a TCP connection between a client and a server, which one of the following statements is<br/>true?<br/>A<br/>.<br/>The client and server use a two-way handshake mechanism before the start of data transmission<br/>B<br/>.<br/>The server cannot initiate closing of the connection before the client initiates closing of the connection<br/>C<br/>.<br/>The TCP connection is half-duplex<br/>D<br/>.<br/>The client and server can initiate closing of the connection at the same time<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523072/gate-cse-2026-set-1-question-8"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE IT 2004 | Question: 23</strong></div><p>Which one of the following statements is FALSE?<br/>A<br/>.<br/>TCP guarantees a minimum communication rate<br/>B<br/>.<br/>TCP ensures in-order delivery<br/>C<br/>.<br/>TCP reacts to congestion by reducing sender window size<br/>D<br/>.<br/>TCP employs retransmission to compensate for packet loss<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523072/gate-cse-2026-set-1-question-8"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE IT 2004 | Question: 28</strong></div><p>In TCP, a unique sequence number is assigned to each<br/>computer-networks<br/>tcp<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3664/gate-it-2004-question-23"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE IT 2007 | Question: 13</strong></div><p>Consider the following statements about the timeout value used in TCP.<br/>i<br/>.<br/>The timeout value is set to the RTT (Round Trip Time) measured during TCP connection establishment for the<br/>entire duration of the connection.<br/>ii<br/>.<br/>Appropriate RTT estimation algorithm is used to set the timeout value of a TCP connection.<br/>iii<br/>.<br/>Timeout value is set to twice the propagation delay from the sender to the receiver.<br/>Which of the following choices hold?<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3446/gate-it-2007-question-13"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE IT 2007 | Question: 14</strong></div><p>Consider a<br/>connection in a state where there are no outstanding<br/>s. The sender sends two<br/>segments back to back. The sequence numbers of the ﬁrst and second segments are<br/>and<br/>respectively. The ﬁrst segment was lost, but the second segment was received correctly by the receiver. Let<br/>be</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3446/gate-it-2007-question-13"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE IT 2008 | Question: 69</strong></div><p>The three way handshake for<br/>connection establishment is shown below.<br/>Which of the following statements are TRUE?<br/>Loss of<br/>from the server will not establish a connection<br/>Loss of<br/>from the client cannot establish the connection<br/>The server moves<br/>in the state machine<br/>on no packet loss<br/>The server moves<br/>in the state machine on no packet loss<br/>computer-networks<br/>tcp<br/>Token Bucket<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3383/gate-it-2008-question-69"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Token Bucket",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Token Bucket: GATE CSE 2008 | Question: 58</strong></div><p>A computer on a<br/>network is regulated by a token bucket. The token bucket is ﬁlled at a rate of<br/>. It is initially ﬁlled to capacity with<br/>. What is the maximum duration for which the<br/>computer can transmit at the full<br/>?<br/>computer-networks<br/>token-bucket</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3383/gate-it-2008-question-69"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Token Bucket",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Token Bucket: GATE CSE 2016 | Set 1 | Question: 54</strong></div><p>For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a<br/>capacity of<br/>and the maximum output rate is<br/>per<br/>. Tokens arrive at a rate<br/>to sustain output at a rate of<br/>per<br/>. The token bucket is currently full and the machine needs<br/>to send<br/>of data. The minimum time required to transmit the data is _____________<br/>.<br/>computer-networks<br/>token-bucket<br/>UDP<br/>(4)</p></div>",
+      "options": [],
+      "correctAnswer": "1.10:1.19",
+      "discussUrl": "https://gateoverflow.in/481/gate-cse-2008-question-58"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "UDP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>UDP: GATE CSE 2005 | Question: 23</strong></div><p>Packets of the same session may be routed through different paths in:<br/>computer-networks<br/>tcp<br/>udp<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1359/gate-cse-2005-question-23"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "UDP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>UDP: GATE CSE 2013 | Question: 12</strong></div><p>The transport layer protocols used for real time multimedia, file transfer,<br/>and email, respectively are<br/>computer-networks<br/>tcp<br/>udp<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1421/gate-cse-2013-question-12"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "UDP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>UDP: GATE CSE 2017 | Set 2 | Question: 18</strong></div><p>Consider socket API on a Linux machine that supports connected UDP sockets. A connected UDP socket is<br/>a UDP socket on which connect function has already been called. Which of the following statements is/are<br/>CORRECT?<br/>I<br/>.<br/>A connected UDP socket can be used to communicate with multiple peers simultaneously.<br/>II<br/>.<br/>A process can successfully call connect function again for an already connected UDP socket.<br/>computer-networks<br/>udp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1359/gate-cse-2005-question-23"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "UDP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>UDP: GATE IT 2006 | Question: 69</strong></div><p>A program on machine<br/>attempts to open a<br/>connection to port<br/>on a machine<br/>, and a<br/>connection to port<br/>on machine<br/>. However, there are no applications listening at the corresponding<br/>ports on<br/>and<br/>. An<br/>Port Unreachable error will be generated by<br/>computer-networks<br/>tcp<br/>udp<br/>Wrap Around Time<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3613/gate-it-2006-question-69"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Wrap Around Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Wrap Around Time: GATE CSE 2014 | Set 3 | Question: 27</strong></div><p>Every host in an<br/>network has a<br/>resolution real-time clock with battery backup. Each host<br/>needs to generate up to<br/>unique identiﬁers per second. Assume that each host has a globally unique<br/>address. Design a<br/>globally unique ID for this purpose. After what period (in seconds) will the identiﬁers<br/>generated by a host wrap around?<br/>computer-networks<br/>ip-addressing<br/>wrap-around-time</p></div>",
+      "options": [],
+      "correctAnswer": "256",
+      "discussUrl": "https://gateoverflow.in/1359/gate-cse-2005-question-23"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Wrap Around Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Wrap Around Time: GATE CSE 2018 | Question: 25</strong></div><p>Consider a long-lived<br/>session with an end-to-end bandwidth of<br/>bits-per-second<br/>The<br/>session starts with a sequence number of<br/>. The minimum time (in seconds, rounded to the closet<br/>integer) before this sequence number can be used again is _________.<br/>computer-networks<br/>tcp<br/>wrap-around-time</p></div>",
+      "options": [],
+      "correctAnswer": "34 : 35",
+      "discussUrl": "https://gateoverflow.in/204099/gate-cse-2018-question-25"
+    }
+  ]
+}

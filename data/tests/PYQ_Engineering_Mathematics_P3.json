@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Engineering_Mathematics_P3",
+  "fileName": "PYQ_Engineering_Mathematics_P3.json",
+  "title": "GATE Official PYQs | Engineering Mathematics Part 3",
+  "subject": "Engineering Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 47,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2010 | Question: 29</strong></div><p>Consider the following matrix<br/>If the eigenvalues of A are<br/>and<br/>, then<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1155/gate-cse-2010-question-29"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2011 | Question: 40</strong></div><p>Consider the matrix as given below.<br/>Which one of the following options provides the<br/>CORRECT<br/>values of the eigenvalues of the matrix?<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2142/gate-cse-2011-question-40"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2012 | Question: 11</strong></div><p>Let A be the<br/>matrix with elements<br/>and<br/>. Then the eigenvalues of<br/>the matrix<br/>are<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2142/gate-cse-2011-question-40"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2014 | Set 1 | Question: 5</strong></div><p>The value of the dot product of the eigenvectors corresponding to any pair of diﬀerent eigenvalues of a<br/>symmetric positive definite matrix is ___________<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/2142/gate-cse-2011-question-40"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2014 | Set 2 | Question: 47</strong></div><p>The product of the non-zero eigenvalues of the matrix is ____<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/2142/gate-cse-2011-question-40"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2014 | Set 3 | Question: 4</strong></div><p>Which one of the following statements is TRUE about every<br/>matrix with only real eigenvalues?<br/>A<br/>.<br/>If the trace of the matrix is positive and the determinant of the matrix is negative, at least one of its eigenvalues<br/>is negative.<br/>B<br/>.<br/>If the trace of the matrix is positive, all its eigenvalues are positive.<br/>C<br/>.<br/>If the determinant of the matrix is positive, all its eigenvalues are positive.<br/>D<br/>.<br/>If the product of the trace and determinant of the matrix is positive, all its eigenvalues are positive.<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2142/gate-cse-2011-question-40"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2015 | Set 1 | Question: 36</strong></div><p>Consider the following<br/>matrix<br/>where two elements are unknown and are marked by<br/>and<br/>. The<br/>eigenvalues of this matrix are<br/>and<br/>What are the  values of<br/>and<br/>?<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2015 | Set 2 | Question: 5</strong></div><p>The larger of the two eigenvalues of the matrix<br/>is _______.<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2015 | Set 3 | Question: 15</strong></div><p>In the given matrix<br/>, one of the eigenvalues is<br/>The eigenvectors corresponding to the<br/>eigenvalue<br/>are<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2016 | Set 1 | Question: 05</strong></div><p>Two eigenvalues of a<br/>real matrix<br/>are<br/>and<br/>. The determinant of<br/>is _______<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2016 | Set 2 | Question: 06</strong></div><p>Suppose that the eigenvalues of matrix<br/>are<br/>. The determinant of<br/>is _________.<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "0.125",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2017 | Set 1 | Question: 31</strong></div><p>Let<br/>be<br/>real valued square symmetric matrix of rank<br/>with<br/>Consider the<br/>following statements.<br/>I<br/>.<br/>One eigenvalue must be in<br/>II<br/>.<br/>The eigenvalue with the largest magnitude must be strictly greater than<br/>Which of the above statements about eigenvalues of<br/>is/are necessarily CORRECT?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8285/gate-cse-2015-set-1-question-36"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2017 | Set 2 | Question: 52</strong></div><p>If the characteristic polynomial of a<br/>matrix<br/>over<br/>(the set of real numbers) is<br/>, and one eigenvalue of<br/>is<br/>then the largest among the absolute values<br/>of the eigenvalues of<br/>is _______<br/>engineering-mathematics<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/118618/gate-cse-2017-set-2-question-52"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2018 | Question: 17</strong></div><p>Consider a matrix<br/>where<br/>. Note that<br/>denotes the transpose of<br/>. The<br/>largest eigenvalue of<br/>is ____<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/118618/gate-cse-2017-set-2-question-52"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2018 | Question: 26</strong></div><p>Consider a matrix P whose only eigenvectors are the multiples of<br/>.<br/>Consider the following statements.<br/>I<br/>.<br/>P does not have an inverse<br/>II<br/>.<br/>P has a repeated eigenvalue<br/>III<br/>.<br/>P cannot be diagonalized<br/>Which one of the following options is correct?<br/>linear-algebra<br/>matrix<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204091/gate-cse-2018-question-17"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2019 | Question: 44</strong></div><p>Consider the following matrix:<br/>The absolute value of the product of Eigen values of<br/>is _______<br/>engineering-mathematics<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/302804/gate-cse-2019-question-44"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2021 | Set 1 | Question: 52</strong></div><p>Consider the following matrix.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "3 : 3",
+      "discussUrl": "https://gateoverflow.in/118618/gate-cse-2017-set-2-question-52"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2022 | Question: 43</strong></div><p>​​​​​<br/>Which of the following is/are the eigenvector(s) for the matrix given below?<br/>linear-algebra<br/>eigen-value<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/371893/gate-cse-2022-question-43"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2023 | Question: 20</strong></div><p>Let<br/>be the adjacency matrix of the graph with vertices<br/>Let<br/>, and<br/>be the five eigenvalues of<br/>. Note that these eigenvalues need not be distinct.<br/>The value of<br/>____________<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/371893/gate-cse-2022-question-43"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2024 | Set 1 | Question: 2</strong></div><p>The product of all eigenvalues of the matrix<br/>is<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371893/gate-cse-2022-question-43"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2025 | Set 1 | Question: 31</strong></div><p>Let<br/>be a<br/>matrix as given.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371893/gate-cse-2022-question-43"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE DA 2025 | Question: 18</strong></div><p>Let<br/>, where<br/>is the<br/>identity matrix and<br/>. Which of the following<br/>options is/are correct?<br/>gateda-2025<br/>linear-algebra<br/>matrix<br/>eigen-value<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/461004/gate-da-2025-question-18"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE DA 2026 | Question: 36</strong></div><p>Let<br/>be the eigenvalues of the matrix<br/>, where<br/>is in radians.<br/>Which one of the following options lists all the possible values of<br/>satisfying<br/>?<br/>gateda-2026<br/>linear-algebra<br/>matrix<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523179/gate-da-2026-question-36"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE DA 2026 | Question: 55</strong></div><p>Let<br/>be a matrix, where<br/>and<br/>is the identity matrix of<br/>order<br/>.<br/>The value of<br/>, where<br/>, is<br/>. (Answer in<br/>integer<br/>)<br/>gateda-2026<br/>linear-algebra<br/>eigen-value<br/>Eigen Value: GATE DS&AI 2024 | Question: 3<br/>​​​​<br/>Consider the matrix<br/>.<br/>Which ONE of the following statements is TRUE?<br/>A<br/>.<br/>The eigenvalues of<br/>are non-negative and real.<br/>B<br/>.<br/>The eigenvalues of<br/>are complex conjugate pairs.<br/>C<br/>.<br/>One eigenvalue of<br/>is positive and real, and another eigenvalue of<br/>is zero.<br/>D<br/>.<br/>One eigenvalue of<br/>is non-negative and real, and another eigenvalue of<br/>is negative and real.<br/>gate-ds-ai-2024<br/>eigen-value<br/>linear-algebra</p></div>",
+      "options": [],
+      "correctAnswer": "1:1",
+      "discussUrl": "https://gateoverflow.in/523179/gate-da-2026-question-36"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE IT 2006 | Question: 26</strong></div><p>What are the eigenvalues of the matrix<br/>given below<br/>linear-algebra<br/>eigen-value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3565/gate-it-2006-question-26"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE IT 2007 | Question: 2</strong></div><p>Let<br/>be the matrix<br/>. What is the maximum value of<br/>where the maximum is taken over all<br/>that are the unit eigenvectors of<br/>linear-algebra<br/>eigen-value<br/>Gaussian Elimination<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/413610/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-17"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Gaussian Elimination",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Gaussian Elimination: GATE DA 2025 | Question: 2</strong></div><p>The number of additions and multiplications involved in performing Gaussian elimination on any<br/>upper<br/>triangular matrix is of the order<br/>gateda-2025<br/>linear-algebra<br/>matrix<br/>gaussian-elimination<br/>Lu Decomposition<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/413610/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-17"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Lu Decomposition",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lu Decomposition: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>8<br/>In the LU decomposition of the matrix<br/>, if the diagonal elements of<br/>are both<br/>, then the lower<br/>diagonal entry<br/>of<br/>is_________________.<br/>linear-algebra<br/>lu-decomposition</p></div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/413610/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-17"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Lu Decomposition",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lu Decomposition: GATE CSE 2022 | Question: 35</strong></div><p>Consider solving the following system of simultaneous equations using<br/>decomposition.<br/>where<br/>and<br/>are denoted as<br/>Which one of the following is the correct combination of values for<br/>and<br/>linear-algebra<br/>lu-decomposition<br/>matrix<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371901/gate-cse-2022-question-35"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Lu Decomposition",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lu Decomposition: GATE CSE 2025 | Set 2 | Question: 34</strong></div><p>Consider a system of linear equations<br/>where<br/>and<br/>. Suppose<br/>has an LU<br/>decomposition,<br/>, where<br/>Which of the following statement(s) is/are TRUE?<br/>A<br/>.<br/>The system<br/>can be solved by first solving<br/>and then<br/>.<br/>B<br/>.<br/>If<br/>is invertible, then both<br/>and<br/>are invertible.<br/>C<br/>.<br/>If<br/>is singular, then at least one of the diagonal elements of<br/>is zero.<br/>D<br/>.<br/>If<br/>is symmetric, then both<br/>and<br/>are symmetric.<br/>linear-algebra<br/>system-of-equations<br/>matrix<br/>lu-decomposition<br/>multiple-selects<br/>Matrix<br/>(24)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/371901/gate-cse-2022-question-35"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1987 | Question: 1-xxiii</strong></div><p>A square matrix is singular whenever<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371901/gate-cse-2022-question-35"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1988 | Question: 16i</strong></div><p>Assume that the matrix<br/>given below, has factorization of the form<br/>, where<br/>is lower-triangular<br/>with all diagonal elements equal to<br/>is upper-triangular, and<br/>is a permutation matrix. For</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94644/gate-cse-1988-question-16i"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1993 | Question: 02.7</strong></div><p>I f<br/>the matrix<br/>, calculated by the use of Cayley-Hamilton theorem or<br/>otherwise, is _______<br/>linear-algebra<br/>matrix<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/611/gate-cse-1993-question-02-7"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1994 | Question: 1.2</strong></div><p>Let<br/>and<br/>be real symmetric matrices of size<br/>. Then which one of the following is true?<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/611/gate-cse-1993-question-02-7"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1994 | Question: 3.12</strong></div><p>Find the inverse of the matrix<br/>linear-algebra<br/>matrix<br/>easy<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/611/gate-cse-1993-question-02-7"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1996 | Question: 10</strong></div><p>L e t<br/>be two matrices such that<br/>. Let<br/>and<br/>. Express the elements of<br/>in terms of the elements of<br/>.<br/>linear-algebra<br/>matrix<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2762/gate-cse-1996-question-10"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1996 | Question: 2.6</strong></div><p>The matrices<br/>and<br/>commute under multiplication<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/611/gate-cse-1993-question-02-7"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1997 | Question: 4.2</strong></div><p>Let<br/>be an<br/>-rowed square matrix and<br/>be the matrix obtained by interchanging the ﬁrst and<br/>second rows of the<br/>-rowed Identity matrix. Then<br/>is such that its first<br/>linear-algebra<br/>easy<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2243/gate-cse-1997-question-4-2"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 1998 | Question: 2.2</strong></div><p>Consider the following determinant<br/>Which of the following is a factor of<br/>?<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2243/gate-cse-1997-question-4-2"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2001 | Question: 1.1</strong></div><p>Consider the following statements:<br/>S1: The sum of two singular<br/>matrices may be non-singular<br/>S2: The sum of two<br/>non-singular matrices may be singular<br/>Which one of the following statements is correct?<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2243/gate-cse-1997-question-4-2"
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "id": "PYQ_Operating_Systems_P2",
+  "fileName": "PYQ_Operating_Systems_P2.json",
+  "title": "GATE Official PYQs | Operating Systems Part 2",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2024 | Set 2 | Question: 43</strong></div><p>Consider a disk with the following speciﬁcations: rotation speed of<br/>RPM, average seek time of<br/>milliseconds,<br/>sectors/track,<br/>-byte sectors. A ﬁle has content stored in<br/>sectors located<br/>randomly on the disk. Assuming average rotational latency, the total time (in seconds, rounded oﬀ to<br/>decimal<br/>places) to read the entire file from the disk is<br/>operating-system<br/>disk</p></div>",
+      "options": [],
+      "correctAnswer": "30.06",
+      "discussUrl": "https://gateoverflow.in/8251/gate-cse-2015-set-2-question-49"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE IT 2005 | Question: 63</strong></div><p>In a computer system, four ﬁles of size<br/>bytes,<br/>bytes,<br/>bytes and<br/>bytes need to be<br/>stored. For storing these ﬁles on disk, we can use either<br/>byte disk blocks or<br/>byte disk blocks (but<br/>can't mix block sizes). For each block used to store a ﬁle,<br/>bytes of bookkeeping information also needs to be<br/>stored on the disk. Thus, the total space used to store a ﬁle is the sum of the space taken to store the ﬁle and the<br/>space taken to store the book keeping information for the blocks allocated for storing the ﬁle. A disk block can store<br/>either bookkeeping information for a file or data from a file, but not both.<br/>What is the total space required for storing the ﬁles using<br/>byte disk blocks and<br/>byte disk blocks<br/>respectively?<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3824/gate-it-2005-question-63"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE IT 2005 | Question: 81-a</strong></div><p>A disk has<br/>equidistant tracks. The diameters of the innermost and outermost tracks are<br/>cm and<br/>cm<br/>respectively. The innermost track has a storage capacity of<br/>MB.<br/>What is the total amount of data that can be stored on the disk if it is used with a drive that rotates it with<br/>I<br/>.<br/>Constant Linear Velocity<br/>II<br/>.<br/>Constant Angular Velocity?<br/>operating-system<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3824/gate-it-2005-question-63"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE IT 2005 | Question: 81-b</strong></div><p>A disk has<br/>equidistant tracks. The diameters of the innermost and outermost tracks are<br/>cm and<br/>cm<br/>respectively. The innermost track has a storage capacity of<br/>MB.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3824/gate-it-2005-question-63"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE IT 2007 | Question: 44, ISRO2015-34</strong></div><p>A hard disk system has the following parameters :<br/>Number of tracks<br/>Number of sectors/track<br/>Number of bytes /sector<br/>Time taken by the head to move from one track to adjacent track<br/>Rotation speed<br/>.<br/>What is the average time taken for transferring<br/>bytes from the disk ?<br/>operating-system<br/>disk<br/>isro2015<br/>Disk Scheduling<br/>(16)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(14Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 1989 | Question: 4-xii</strong></div><p>Disk requests come to disk driver for cylinders<br/>and<br/>, in that order at a time when the<br/>disk drive is reading from cylinder<br/>. The seek time is<br/>msec per cylinder. Compute the total seek time if<br/>the disk arm scheduling algorithm is.<br/>A<br/>.<br/>First come first served.<br/>B<br/>.<br/>Closest cylinder next.<br/>descriptive<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 1990 | Question: 9b</strong></div><p>Assuming the current disk cylinder to be<br/>and the sequence for the cylinders to be<br/>and<br/>find the sequence of servicing using<br/>1<br/>.<br/>Shortest seek time first (SSTF) and<br/>2<br/>.<br/>Elevator disk scheduling policies.<br/>descriptive<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 1995 | Question: 20</strong></div><p>The head of a moving head disk with<br/>tracks numbered<br/>to<br/>is currently serving a request at track<br/>.<br/>If the queue of requests kept in FIFO order is<br/>which of the two disk scheduling algorithms FCFS (First Come First Served) and SSTF (Shortest Seek Time First)<br/>will require less head movement? Find the head movement for each of the algorithms.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 1997 | Question: 3.6</strong></div><p>The correct matching for the following pairs is:<br/>operating-system<br/>disk-scheduling<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2237/gate-cse-1997-question-3-6"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 1999 | Question: 1.10</strong></div><p>Which of the following disk scheduling strategies is likely to give the best throughput?<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2237/gate-cse-1997-question-3-6"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2001 | Question: 20</strong></div><p>Consider a disk with the<br/>tracks numbered from<br/>to<br/>rotating at<br/>rpm. The number of sectors per<br/>track is<br/>and the time to move the head between two successive tracks is<br/>millisecond.<br/>A<br/>.<br/>Consider a set of disk requests to read data from tracks<br/>and<br/>. Assuming that the elevator<br/>algorithm is used to schedule disk requests, and the head is initially at track<br/>moving up (towards larger track<br/>numbers), what is the total seek time for servicing the requests?<br/>B<br/>.<br/>Consider an initial set of<br/>arbitrary disk requests and assume that no new disk requests arrive while<br/>servicing these requests. If the head is initially at track<br/>and the elevator algorithm is used to schedule disk<br/>requests, what is the worse case time to complete all the requests?<br/>operating-system<br/>disk<br/>disk-scheduling<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/761/gate-cse-2001-question-20"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2004 | Question: 12</strong></div><p>Consider an operating system capable of loading and executing a single sequential user process at a time.<br/>The disk head scheduling algorithm used is First Come First Served (FCFS). If FCFS is replaced by<br/>Shortest Seek Time First (SSTF), claimed by the vendor to give<br/>better benchmark results, what is the<br/>expected improvement in the I/O performance of user programs?<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1009/gate-cse-2004-question-12"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2009 | Question: 31</strong></div><p>Consider a disk system with<br/>cylinders. The requests to access the cylinders occur in following<br/>sequence:<br/>Assuming that the head is currently at cylinder<br/>, what is the time taken to satisfy all requests if it takes<br/>to<br/>move from one cylinder to adjacent one and shortest seek time first policy is used?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1317/gate-cse-2009-question-31"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2014 | Set 1 | Question: 19</strong></div><p>Suppose a disk has<br/>cylinders, numbered from<br/>to<br/>. At some time the disk arm is at cylinder<br/>,<br/>and there is a queue of disk access requests for cylinders<br/>and<br/>. If<br/>Shortest-Seek Time First (SSTF) is being used for scheduling the disk access, the request for cylinder<br/>is<br/>serviced after servicing ____________ number of requests.<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/1786/gate-cse-2014-set-1-question-19"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2015 | Set 1 | Question: 30</strong></div><p>Suppose the following disk request sequence (track numbers) for a disk with<br/>tracks is given:<br/>Assume that the initial position of the R/W head is on track<br/>. The additional distance that will be traversed by the<br/>R/W head when the Shortest Seek Time First (SSTF) algorithm is used compared to the SCAN (Elevator) algorithm<br/>(assuming that SCAN algorithm moves towards<br/>when it starts execution) is________________tracks.<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/1786/gate-cse-2014-set-1-question-19"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2016 | Set 1 | Question: 48</strong></div><p>Cylinder a disk queue with requests for<br/>to blocks on cylinders<br/>The C-<br/>LOOK scheduling algorithm is used. The head is initially at cylinder number<br/>, moving towards larger<br/>cylinder numbers on its servicing pass. The cylinders are numbered from<br/>to<br/>. The total head movement (in<br/>number of cylinders) incurred while servicing these requests is__________.<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "346",
+      "discussUrl": "https://gateoverflow.in/1786/gate-cse-2014-set-1-question-19"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2018 | Question: 53</strong></div><p>Consider a storage disk with<br/>platters (numbered as<br/>and<br/>) ,<br/>cylinders (numbered as<br/>), and<br/>sectors per track (numbered as<br/>). The following<br/>disk requests of the<br/>form [sector number, cylinder number, platter number] are received by the disk controller at the same time:<br/>Currently head is positioned at sector number<br/>of cylinder<br/>, and is moving towards higher cylinder numbers.<br/>The average power dissipation in moving the head over<br/>cylinders is<br/>milliwatts and for reversing the<br/>direction of the head movement once is<br/>milliwatts. Power dissipation associated with rotational latency and<br/>switching of head between different platters is negligible.<br/>The total power consumption in milliwatts to satisfy all of the above disk requests using the Shortest Seek Time<br/>First disk scheduling algorithm is _____<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [],
+      "correctAnswer": "85",
+      "discussUrl": "https://gateoverflow.in/204128/gate-cse-2018-question-53"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE CSE 2020 | Question: 35</strong></div><p>Consider the following ﬁve disk access requests of the form (request id, cylinder number) that are present in<br/>the disk scheduler queue at a given time.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333196/gate-cse-2020-question-35"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE IT 2004 | Question: 62</strong></div><p>A disk has<br/>tracks (numbered<br/>through<br/>). At a given time, it was servicing the request of reading<br/>data from track<br/>, and at the previous request, service was for track<br/>. The pending requests (in order of<br/>their arrival) are for track numbers.<br/>How many times will the head change its direction for the disk scheduling policies SSTF(Shortest Seek Time First)<br/>and FCFS (First Come First Serve)?<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3705/gate-it-2004-question-62"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE IT 2007 | Question: 82</strong></div><p>The head of a hard disk serves requests following the shortest seek time ﬁrst<br/>policy. The head is<br/>initially positioned at track number<br/>.<br/>Which of the request sets will cause the head to change its direction after servicing every request assuming that the<br/>head does not change direction if there is a tie in<br/>and all the requests arrive before the servicing starts?<br/>operating-system<br/>disk-scheduling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3534/gate-it-2007-question-82"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Disk Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk Scheduling: GATE IT 2007 | Question: 83</strong></div><p>The head of a hard disk serves requests following the shortest seek time first (SSTF) policy.<br/>What is the maximum cardinality of the request set, so that the head changes its direction after servicing<br/>every request if the total number of tracks are<br/>and the head can start from any track?<br/>operating-system<br/>disk-scheduling<br/>File System<br/>(7)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3534/gate-it-2007-question-82"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2002 | Question: 2.22</strong></div><p>In the index allocation scheme of blocks to a file, the maximum possible size of the file depends on<br/>A<br/>.<br/>the size of the blocks, and the size of the address of the blocks.<br/>B<br/>.<br/>the number of blocks used for the index, and the size of the blocks.<br/>C<br/>.<br/>the size of the blocks, the number of blocks used for the index, and the size of the address of the blocks.<br/>D<br/>.<br/>None of the above</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3705/gate-it-2004-question-62"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2008 | Question: 20</strong></div><p>The data blocks of a very large file in the Unix file system are allocated using<br/>file-system<br/>operating-system</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/418/gate-cse-2008-question-20"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2017 | Set 2 | Question: 08</strong></div><p>In a ﬁle allocation system, which of the following allocation scheme(s) can be used if no external<br/>fragmentation is allowed?<br/>1<br/>.<br/>Contiguous<br/>2<br/>.<br/>Linked<br/>3<br/>.<br/>Indexed<br/>operating-system<br/>file-system</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/418/gate-cse-2008-question-20"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2019 | Question: 42</strong></div><p>The index node (inode) of a Unix -like ﬁle system has<br/>direct, one single-indirect and one double-indirect<br/>pointers. The disk block size is<br/>kB, and the disk block address is<br/>-bits long. The maximum possible ﬁle<br/>size is (rounded off to<br/>decimal place) ____ GB<br/>operating-system<br/>file-system</p></div>",
+      "options": [],
+      "correctAnswer": "4.0 : 4.1",
+      "discussUrl": "https://gateoverflow.in/302806/gate-cse-2019-question-42"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2021 | Set 1 | Question: 15</strong></div><p>Consider a linear list based directory implementation in a ﬁle system. Each directory is a list of nodes, where<br/>each node contains the ﬁle name along with the ﬁle metadata, such as the list of pointers to the data blocks.<br/>Consider a given directory<br/>.<br/>Which of the following operations will necessarily require a full scan of<br/>for successful completion?<br/>multiple-selects<br/>operating-system<br/>file-system</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/418/gate-cse-2008-question-20"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE CSE 2022 | Question: 53</strong></div><p>Consider two ﬁles systems<br/>and<br/>, that use contiguous allocation and linked allocation, respectively. A ﬁle<br/>of size<br/>blocks is already stored in<br/>and also in<br/>. Now, consider inserting a new block in the middle of<br/>the ﬁle (between<br/>and<br/>block), whose data is already available in the memory. Assume that there are<br/>enough free blocks at the end of the ﬁle and that the ﬁle control blocks are already in memory. Let the number of<br/>disk accesses required to insert a block in the middle of the ﬁle in<br/>and<br/>are<br/>and<br/>, respectively, then the<br/>value of<br/>is__________________.<br/>operating-system<br/>file-system</p></div>",
+      "options": [],
+      "correctAnswer": "153",
+      "discussUrl": "https://gateoverflow.in/371883/gate-cse-2022-question-53"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "File System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>File System: GATE IT 2004 | Question: 67</strong></div><p>In a particular Unix OS, each data block is of size<br/>bytes, each node has<br/>direct data block</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3710/gate-it-2004-question-67"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2005 | Question: 72</strong></div><p>Consider<br/>the following code fragment<br/>:<br/>if<br/>(<br/>fork<br/>()<br/>==<br/>0<br/>)<br/>{<br/>a<br/>=<br/>a<br/>+<br/>5<br/>;<br/>printf<br/>(<br/>\"%d, %p n\"<br/>,<br/>a<br/>,<br/>&<br/>a<br/>);<br/>}<br/>else<br/>{<br/>a<br/>=<br/>a<br/>-<br/>5<br/>;<br/>printf<br/>(<br/>\"%d, %p n\"<br/>,<br/>a<br/>,&<br/>a<br/>);<br/>}<br/>Let<br/>be the values printed by the parent process and<br/>be the values printed by the child process. Which one<br/>of the following is<br/>TRUE<br/>?<br/>operating-system<br/>fork-system-call</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/765/gate-cse-2005-question-72"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2008 | Question: 66</strong></div><p>A process executes the following code<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>fork<br/>();<br/>The total number of child processes created is<br/>operating-system<br/>fork-system-call</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/489/gate-cse-2008-question-66"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2012 | Question: 8</strong></div><p>A process executes the code<br/>fork<br/>();<br/>fork<br/>();<br/>fork<br/>();<br/>The total number of child processes created is<br/>operating-system<br/>easy<br/>fork-system-call</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/489/gate-cse-2008-question-66"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2019 | Question: 17</strong></div><p>The following C program is executed on a Unix/Linux system :<br/>#include<br/><unistd.h><br/>int<br/>main<br/>()</p></div>",
+      "options": [],
+      "correctAnswer": "31",
+      "discussUrl": "https://gateoverflow.in/302831/gate-cse-2019-question-17"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2023 | Question: 13</strong></div><p>Which one or more of the following options guarantee that a computer system will transition from user mode<br/>to kernel mode?<br/>operating-system<br/>fork-system-call<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/399299/gate-cse-2023-question-13"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2024 | Set 1 | Question: 47</strong></div><p>Consider the following code snippet using the fork () and wait () system calls. Assume that the code<br/>compiles and runs correctly, and that the system calls run successfully without any errors.<br/>int<br/>x<br/>=<br/>3<br/>;<br/>while<br/>(<br/>x<br/>><br/>0<br/>){<br/>fork<br/>();<br/>printf<br/>(<br/>\"hello\"<br/>);<br/>wait<br/>(<br/>NULL<br/>)<br/>;<br/>X<br/>--<br/>;<br/>}<br/>The total number of times the printf statement is executed is __________.<br/>operating-system<br/>fork-system-call</p></div>",
+      "options": [],
+      "correctAnswer": "14",
+      "discussUrl": "https://gateoverflow.in/399299/gate-cse-2023-question-13"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE CSE 2026 | Set 1 | Question: 53</strong></div><p>Consider the following program snippet. Assume that the program compiles and runs successfully. Further,<br/>assume that the fork() system call is always successful in creating a process.<br/>int<br/>main<br/>()<br/>{<br/>int<br/>i<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>3<br/>;<br/>i<br/>++)<br/>{<br/>if<br/>(<br/>fork<br/>()<br/>==<br/>0<br/>)<br/>{<br/>continue<br/>;<br/>}<br/>break<br/>;<br/>}<br/>printf<br/>(<br/>\"Hello!\"<br/>);<br/>return<br/>0<br/>;<br/>}<br/>The total number of times that the printf statement gets executed is<br/>. (answer in integer)<br/>operating-system<br/>fork-system-call</p></div>",
+      "options": [],
+      "correctAnswer": "4 : 4",
+      "discussUrl": "https://gateoverflow.in/399299/gate-cse-2023-question-13"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Fork System Call",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fork System Call: GATE IT 2004 | Question: 64</strong></div><p>A process executes the following segment of code :<br/>for<br/>(<br/>i<br/>=<br/>1<br/>;<br/>i<br/><=<br/>n<br/>;<br/>i<br/>++)<br/>fork<br/>();<br/>The number of new processes created is<br/>operating-system<br/>fork-system-call<br/>easy<br/>IO Handling<br/>(7)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3707/gate-it-2004-question-64"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1996 | Question: 1.20, ISRO2008-56</strong></div><p>Which of the following is an example of spooled device?<br/>A<br/>.<br/>A line printer used to print the output of a number of jobs<br/>B<br/>.<br/>A terminal used to enter input data to a running program<br/>C<br/>.<br/>A secondary storage device in a virtual memory system<br/>D<br/>.<br/>A graphic display device<br/>operating-system<br/>io-handling<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3707/gate-it-2004-question-64"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1998 | Question: 1.29</strong></div><p>Which of the following is an example of a spooled device?<br/>A<br/>.<br/>The terminal used to enter the input data for the C program being executed<br/>B<br/>.<br/>An output device used to print the output of a number of jobs<br/>C<br/>.<br/>The secondary memory device in a virtual storage system<br/>D<br/>.<br/>The swapping area on a disk used by the swapper<br/>operating-system<br/>io-handling<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2724/gate-cse-1996-question-1-20-isro2008-56"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 2005 | Question: 19</strong></div><p>Which one of the following is true for a CPU having a single interrupt request line and a single interrupt<br/>grant line?<br/>A<br/>.<br/>Neither vectored interrupt nor multiple interrupting devices are possible<br/>B<br/>.<br/>Vectored interrupts are not possible but multiple interrupting devices are  possible<br/>C<br/>.<br/>Vectored interrupts and multiple interrupting devices are both possible<br/>D<br/>.<br/>Vectored interrupts are possible but multiple interrupting devices are not possible<br/>operating-system<br/>io-handling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2724/gate-cse-1996-question-1-20-isro2008-56"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 2005 | Question: 20</strong></div><p>Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs<br/>having explicit I/O instructions, such I/O protection is ensured by having the I/O instruction privileged. In a</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3707/gate-it-2004-question-64"
+    }
+  ]
+}

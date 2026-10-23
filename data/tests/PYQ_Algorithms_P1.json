@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Algorithms_P1",
+  "fileName": "PYQ_Algorithms_P1.json",
+  "title": "GATE Official PYQs | Algorithms Part 1",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 1992 | Question: 8</strong></div><p>Let<br/>be a Depth First Tree of a undirected graph<br/>. An array<br/>indexed by the vertices of<br/>is given.<br/>is the parent of vertex<br/>, in<br/>. Parent of the root is the root itself.<br/>Give a method for ﬁnding and printing the cycle formed if the edge<br/>of<br/>not in<br/>(i.e.,<br/>) is now<br/>added to<br/>.<br/>Time taken by your method must be proportional to the length of the cycle.<br/>Describe the algorithm in a PASCAL<br/>– like language. Assume that the variables have been suitably declared.<br/>algorithms<br/>descriptive<br/>algorithm-design</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1998"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 1994 | Question: 7</strong></div><p>An array<br/>contains<br/>integers in locations<br/>. It is required to shift the elements of<br/>the array cyclically to the left by<br/>places, where<br/>. An incomplete algorithm for doing this in<br/>linear time, without using another array is given below. Complete the algorithm by ﬁlling in the blanks. Assume all<br/>variables are suitably declared.<br/>min<br/>:=<br/>n<br/>;<br/>i<br/>=<br/>0<br/>;<br/>while<br/>_____<br/>do<br/>begin<br/>temp<br/>:=<br/>A<br/>[<br/>i<br/>];<br/>j<br/>:=<br/>i<br/>;<br/>while<br/>____<br/>do<br/>begin<br/>A<br/>[<br/>j<br/>]:=<br/>____<br/>;<br/>j<br/>:=(<br/>j<br/>+<br/>K<br/>)<br/>mod n<br/>;<br/>if<br/>j<br/><<br/>min<br/>then<br/>min<br/>:=<br/>j<br/>;<br/>end<br/>;<br/>A<br/>[(<br/>n<br/>+<br/>i<br/>-<br/>K<br/>)<br/>mod n<br/>]:=<br/>____<br/>;<br/>i<br/>:=<br/>______<br/>;<br/>end<br/>;<br/>algorithms<br/>algorithm-design<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/587/gate-cse-1992-question-8"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2006 | Question: 17</strong></div><p>An element in an array<br/>is called a leader if it is greater than all elements to the right of it in<br/>. The best<br/>algorithm to find all leaders in an array<br/>A<br/>.<br/>solves it in linear time using a left to right pass of the array<br/>B<br/>.<br/>solves it in linear time using a right to left pass of the array<br/>C<br/>.<br/>solves it using divide and conquer in time<br/>D<br/>.<br/>solves it in time<br/>algorithms<br/>algorithm-design</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/978/gate-cse-2006-question-17"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2006 | Question: 54</strong></div><p>Given two arrays of numbers<br/>and<br/>where each number is<br/>or<br/>, the fastest algorithm<br/>to ﬁnd the largest span<br/>such that<br/>or report that there is<br/>not such span,</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/978/gate-cse-2006-question-17"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2014 | Set 1 | Question: 37</strong></div><p>There are<br/>bags labeled<br/>to<br/>. All the coins in a given bag have the same weight. Some bags have coins<br/>of weight<br/>gm, others have coins of weight<br/>gm. I pick<br/>coins respectively from bags<br/>to<br/>Their total weight comes out to<br/>gm. Then the product of the labels of the bags having<br/>gm coins is ___.<br/>algorithms<br/>algorithm-design</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/1915/gate-cse-2014-set-1-question-37"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2019 | Question: 25</strong></div><p>Consider a sequence of<br/>elements:<br/>. The<br/>sequence sum<br/>. Determine the maximum of<br/>, where<br/>. (Divide<br/>and conquer approach may be used.)<br/>Answer: ___________<br/>algorithms<br/>algorithm-design</p></div>",
+      "options": [],
+      "correctAnswer": "29",
+      "discussUrl": "https://gateoverflow.in/302823/gate-cse-2019-question-25"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2021 | Set 1 | Question: 40</strong></div><p>Define<br/>to be the maximum amount earned by cutting a rod of length<br/>meters into one or more pieces of<br/>integer length and selling them. For<br/>, let<br/>denote the selling price of a rod whose length is<br/>meters.<br/>Consider the array of prices:<br/>Which of the following statements is/are correct about<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>is achieved by three different solutions<br/>D<br/>.<br/>cannot be achieved by a solution consisting of three pieces<br/>multiple-selects<br/>algorithms<br/>algorithm-design</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/1915/gate-cse-2014-set-1-question-37"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design: GATE CSE 2024 | Set 2 | Question: 32</strong></div><p>Consider an array<br/>that contains<br/>positive integers. A subarray of<br/>is deﬁned to be a sequence of array<br/>locations with consecutive indices.<br/>The<br/>code snippet given below has been written to compute the length of the longest subarray of<br/>that contains<br/>at most two distinct integers. The code has two missing expressions labelled<br/>and<br/>.<br/>int<br/>first<br/>=<br/>0<br/>,<br/>second<br/>=<br/>0<br/>,<br/>len1<br/>=<br/>0<br/>,<br/>len2<br/>=<br/>0<br/>,<br/>maxlen<br/>=<br/>0<br/>;<br/>for<br/>(<br/>int<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>if<br/>(<br/>X<br/>[<br/>i<br/>]<br/>==<br/>first<br/>)<br/>{<br/>len2<br/>++;<br/>len1<br/>++;<br/>}<br/>else<br/>if<br/>(<br/>X<br/>[<br/>i<br/>]<br/>==<br/>second<br/>)<br/>{<br/>len2<br/>++;<br/>len1<br/>=<br/>(<br/>P<br/>)<br/>;<br/>second<br/>=<br/>first<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1915/gate-cse-2014-set-1-question-37"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1990 | Question: 12b</strong></div><p>Consider the following problem. Given<br/>positive integers<br/>it is required to partition them in to<br/>two parts<br/>and<br/>such that,<br/>is minimised<br/>Consider a greedy algorithm for solving this problem. The numbers are ordered so that<br/>and at<br/>step,<br/>is placed in that part whose sum in smaller at that step. Give an example with<br/>for which the<br/>solution produced by the greedy algorithm is not optimal.<br/>descriptive<br/>algorithms<br/>algorithm-design-techniques</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/86146/gate-cse-1990-question-12b"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1990 | Question: 2-vii</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>algorithms<br/>algorithm-design-techniques<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/86146/gate-cse-1990-question-12b"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1994 | Question: 1.19, ISRO2016-31</strong></div><p>Algorithm design technique used in quicksort algorithm is?<br/>algorithms<br/>algorithm-design-techniques<br/>quick-sort<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/86146/gate-cse-1990-question-12b"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1995 | Question: 1.5</strong></div><p>Merge sort uses:<br/>algorithms<br/>sorting<br/>easy<br/>algorithm-design-techniques<br/>merge-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2592/gate-cse-1995-question-1-5"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1997 | Question: 1.5</strong></div><p>The correct matching for the following pairs is<br/>algorithms<br/>algorithm-design-techniques<br/>easy<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2592/gate-cse-1995-question-1-5"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 1998 | Question: 1.21, ISRO2008-16</strong></div><p>Which one of the following algorithm design techniques is used in ﬁnding all pairs of shortest distances in a<br/>graph?<br/>algorithms<br/>algorithm-design-techniques<br/>easy<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2592/gate-cse-1995-question-1-5"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 2015 | Set 1 | Question: 6</strong></div><p>Match the following:<br/>algorithms<br/>match-the-following<br/>algorithm-design-techniques</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2592/gate-cse-1995-question-1-5"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 2015 | Set 2 | Question: 36</strong></div><p>Given below are some algorithms, and some algorithm design paradigms.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2592/gate-cse-1995-question-1-5"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithm Design Techniques",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Algorithm Design Techniques: GATE CSE 2017 | Set 1 | Question: 05</strong></div><p>Consider the following table:<br/>Match the algorithms to the design paradigms they are based on.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>algorithm-design-techniques<br/>easy<br/>match-the-following<br/>Asymptotic Notations<br/>(22)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118707/gate-cse-2017-set-1-question-05"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 1994 | Question: 1.23</strong></div><p>Consider the following two functions:<br/>Which of the following is true?<br/>algorithms<br/>asymptotic-notations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/118707/gate-cse-2017-set-1-question-05"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 1996 | Question: 1.11</strong></div><p>Which of the following is false?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118707/gate-cse-2017-set-1-question-05"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 1999 | Question: 2.21</strong></div><p>If<br/>, give the correct matching for the following pairs:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/118707/gate-cse-2017-set-1-question-05"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2000 | Question: 2.17</strong></div><p>Consider the following functions<br/>Which of the following is true?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/664/gate-cse-2000-question-2-17"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2001 | Question: 1.16</strong></div><p>L e t<br/>and<br/>be two positive functions of<br/>. Which of the following<br/>statements is correct?<br/>algorithms<br/>asymptotic-notations<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/664/gate-cse-2000-question-2-17"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2003 | Question: 20</strong></div><p>Consider the following three claims:<br/>I<br/>.<br/>where<br/>and<br/>are constants<br/>II<br/>.<br/>III<br/>.<br/>Which of the following claims are correct?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/664/gate-cse-2000-question-2-17"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2004 | Question: 29</strong></div><p>The tightest lower bound on the number of comparisons, in the worst case, for comparison-based sorting is<br/>of the order of<br/>algorithms<br/>sorting<br/>asymptotic-notations<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1026/gate-cse-2004-question-29"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2005 | Question: 37</strong></div><p>Suppose<br/>,<br/>Which one of the following is FALSE?<br/>algorithms<br/>asymptotic-notations<br/>recurrence-relation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1373/gate-cse-2005-question-37"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2008 | Question: 39</strong></div><p>Consider the following functions:<br/>Which of the following statements about the asymptotic behavior of<br/>,<br/>and<br/>is true?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/450/gate-cse-2008-question-39"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2011 | Question: 37</strong></div><p>Which of the given options provides the increasing order of asymptotic complexity of functions<br/>and<br/>?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1373/gate-cse-2005-question-37"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2012 | Question: 18</strong></div><p>Let<br/>and<br/>denote respectively, the worst case and average case running time of an algorithm<br/>executed on an input of size<br/>.  Which of the following is<br/>ALWAYS TRUE<br/>?<br/>algorithms<br/>easy<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/50/gate-cse-2012-question-18"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2015 | Set 3 | Question: 4</strong></div><p>Consider the equality<br/>and the following choices for<br/>:<br/>I<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1373/gate-cse-2005-question-37"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2015 | Set 3 | Question: 42</strong></div><p>Let<br/>and<br/>, where<br/>is a positive integer. Which of the following statements is/are<br/>correct?<br/>I<br/>.<br/>II<br/>.<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8501/gate-cse-2015-set-3-question-42"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2017 | Set 1 | Question: 04</strong></div><p>Consider the following functions from positive integers to real numbers:<br/>,<br/>,<br/>,<br/>,<br/>.<br/>The CORRECT arrangement of the above functions in increasing order of asymptotic complexity is:<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8501/gate-cse-2015-set-3-question-42"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2021 | Set 1 | Question: 3</strong></div><p>Consider the following three functions.<br/>Which one of the following options arranges the functions in the increasing order of asymptotic growth rate?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8501/gate-cse-2015-set-3-question-42"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2022 | Question: 1</strong></div><p>Which one of the following statements is<br/>for all positive functions<br/>A<br/>.<br/>when<br/>is a polynomial<br/>B<br/>.<br/>C<br/>.<br/>when<br/>is an exponential function<br/>D<br/>.<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8501/gate-cse-2015-set-3-question-42"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2023 | Question: 19</strong></div><p>Let<br/>and<br/>be functions of natural numbers given by<br/>and<br/>Which of the following<br/>statements is/are<br/>algorithms<br/>asymptotic-notations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/399292/gate-cse-2023-question-19"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2023 | Question: 44</strong></div><p>Consider functions<br/>and<br/>expressed in pseudocode as follows:<br/>Function_1<br/>while<br/>n<br/>><br/>1<br/>do<br/>for<br/>i<br/>=<br/>1<br/>to n<br/>do<br/>x<br/>=<br/>x<br/>+<br/>1<br/>;<br/>end<br/>for<br/>n<br/>=<br/>⌊<br/>n<br/>/<br/>2<br/>⌋<br/>;<br/>end<br/>while<br/>Function_2<br/>for<br/>i<br/>=<br/>1<br/>to<br/>100<br/>*<br/>n<br/>do<br/>x<br/>=<br/>x<br/>+<br/>1<br/>;<br/>end<br/>for<br/>Let<br/>and<br/>denote the number of times the statement<br/>is executed in<br/>and<br/>respectively.<br/>Which of the following statements is/are<br/>algorithms<br/>asymptotic-notations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/399292/gate-cse-2023-question-19"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2024 | Set 2 | Question: 5</strong></div><p>​​​​​<br/>Let<br/>be the recurrence relation defined as follows:<br/>Which one of the following statements is TRUE?<br/>algorithms<br/>recurrence-relation<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399292/gate-cse-2023-question-19"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE CSE 2026 | Set 2 | Question: 14</strong></div><p>Consider the following functions, where<br/>is a positive integer.<br/>Which one of the following options lists the functions in increasing order of asymptotic growth rate?<br/>Note: Assume the base of log to be<br/>.<br/>A<br/>.<br/>B<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399292/gate-cse-2023-question-19"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE IT 2004 | Question: 55</strong></div><p>Let<br/>,<br/>and<br/>be functions defined for positive integers such that<br/>,<br/>,<br/>, and<br/>.<br/>Which one of the following statements is FALSE?<br/>algorithms<br/>asymptotic-notations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3698/gate-it-2004-question-55"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Notations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Asymptotic Notations: GATE IT 2008 | Question: 10</strong></div><p>Arrange the following functions in increasing asymptotic order:<br/>a<br/>.<br/>b<br/>.<br/>c<br/>.<br/>d<br/>.<br/>e<br/>.<br/>algorithms<br/>asymptotic-notations<br/>Bellman Ford<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3270/gate-it-2008-question-10"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bellman Ford",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bellman Ford: GATE CSE 2009 | Question: 13</strong></div><p>Which of the following statement(s) is/are correct regarding Bellman-Ford shortest path algorithm?<br/>P:<br/>Always finds a negative weighted cycle, if one exists.<br/>Q:<br/>Finds whether any negative weighted cycle is reachable from the source.<br/>algorithms<br/>graph-algorithms<br/>bellman-ford</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1305/gate-cse-2009-question-13"
+    }
+  ]
+}

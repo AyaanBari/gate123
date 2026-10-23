@@ -1,0 +1,1351 @@
+{
+  "id": "PYQ_Computer_Networks_P5",
+  "fileName": "PYQ_Computer_Networks_P5.json",
+  "title": "GATE Official PYQs | Computer Networks Part 5",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE IT 2004 | Question: 81</strong></div><p>In a sliding window<br/>scheme, the transmitter's window size is<br/>and the receiver's window size is<br/>.<br/>The minimum number of distinct sequence numbers required to ensure correct operation of the<br/>scheme is<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE IT 2004 | Question: 83</strong></div><p>A<br/>satellite link has a propagation delay of<br/>. The transmitter employs the \"go back<br/>\"<br/>scheme with<br/>set to<br/>. Assuming that each frame is<br/>long, what is the maximum data rate<br/>possible?<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3725/gate-it-2004-question-81"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE IT 2004 | Question: 88</strong></div><p>Suppose that the maximum transmit window size for a TCP connection is<br/>. Each packet<br/>consists of<br/>. At some point in time, the connection is in slow-start phase with a current transmit<br/>window of<br/>. Subsequently, the transmitter receives two acknowledgments. Assume that no packets are<br/>lost and there are no time-outs. What is the maximum possible value of the current transmit window?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3725/gate-it-2004-question-81"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE IT 2006 | Question: 64</strong></div><p>Suppose that it takes<br/>unit of time to transmit a packet (of ﬁxed size) on a communication link. The link<br/>layer uses a window ﬂow control protocol with a window size of<br/>packets. Each packet causes an ack or a<br/>nak to be generated by the receiver, and ack/nak transmission times are negligible. Further, the round trip time on<br/>the link is equal to<br/>units. Consider time<br/>. If only acks have been received till time i(no naks), then the<br/>goodput evaluated at the transmitter at time i(in packets per unit time) is<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3608/gate-it-2006-question-64"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE IT 2008 | Question: 64</strong></div><p>A<br/>satellite link connects two ground stations. The altitude of the satellite is<br/>and speed<br/>of the signal is<br/>What should be the packet size for a channel utilization of<br/>for a satellite<br/>link using go-back-<br/>sliding window proto<br/>col? Assume that the acknowledgment packets are negligible in size<br/>and that there are no errors during communication.<br/>computer-networks<br/>sliding-window<br/>Slotted Aloha<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3608/gate-it-2006-question-64"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Slotted Aloha",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Slotted Aloha: GATE CSE 2015 | Set 1 | Question: 29</strong></div><p>Consider a LAN with four nodes<br/>and<br/>. Time is divided into ﬁxed-size slots, and a node can<br/>begin its transmission only at the beginning of a slot. A collision is said to have occurred if more than one<br/>node transmits in the same slot. The probabilities of generation of a frame in a time slot by<br/>and<br/>are<br/>and<br/>respectively. The probability of sending a frame in the ﬁrst slot without any collision by any of<br/>these four stations is__________________.<br/>computer-networks<br/>slotted-aloha<br/>Sockets<br/>(4)</p></div>",
+      "options": [],
+      "correctAnswer": "0.4404",
+      "discussUrl": "https://gateoverflow.in/8253/gate-cse-2015-set-1-question-29"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sockets",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sockets: GATE CSE 2008 | Question: 17</strong></div><p>Which of the following system calls results in the sending of SYN packets?<br/>computer-networks<br/>sockets</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3375/gate-it-2008-question-64"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sockets",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sockets: GATE CSE 2008 | Question: 59</strong></div><p>A client process P needs to make a TCP connection to a server process S. Consider the following situation:<br/>the server process S executes a<br/>, a<br/>and a<br/>system call in that order, following which<br/>it is preempted. Subsequently, the client process P executes a<br/>system call followed by<br/>system<br/>call to connect to the server process S. The server process has not executed any<br/>system call. Which one</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3375/gate-it-2008-question-64"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sockets",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sockets: GATE CSE 2014 | Set 2 | Question: 24</strong></div><p>Which of the following socket API functions converts an unconnected active TCP socket into a passive<br/>socket?<br/>computer-networks<br/>sockets<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1982/gate-cse-2014-set-2-question-24"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sockets",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sockets: GATE CSE 2015 | Set 2 | Question: 20</strong></div><p>Identify the correct order in which a server process must invoke the function calls accept, bind, listen, and<br/>recv according to UNIX socket API.<br/>computer-networks<br/>sockets<br/>easy<br/>Stop and Wait<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(13Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1982/gate-cse-2014-set-2-question-24"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE CSE 2015 | Set 1 | Question: 53</strong></div><p>Suppose that the stop-and-wait protocol is used on a link with a bit rate of<br/>per second and<br/>propagation delay. Assume that the transmission time for the acknowledgment and the<br/>processing time at nodes are negligible. Then the minimum frame size in bytes to achieve a link utilization of at<br/>least<br/>is_________________.<br/>computer-networks<br/>stop-and-wait</p></div>",
+      "options": [],
+      "correctAnswer": "320",
+      "discussUrl": "https://gateoverflow.in/1982/gate-cse-2014-set-2-question-24"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE CSE 2016 | Set 1 | Question: 55</strong></div><p>A sender uses the Stop-and-Wait<br/>protocol for reliable transmission of frames. Frames are of size<br/>bytes and the transmission rate at the sender is<br/>Size of an<br/>acknowledgment is<br/>bytes and the transmission rate at the receiver is<br/>The one-way propagation delay<br/>is<br/>milliseconds.<br/>Assuming no frame is lost, the sender throughput is ________ bytes/ second.<br/>computer-networks<br/>stop-and-wait</p></div>",
+      "options": [],
+      "correctAnswer": "2500",
+      "discussUrl": "https://gateoverflow.in/1982/gate-cse-2014-set-2-question-24"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE CSE 2017 | Set 1 | Question: 45</strong></div><p>The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br/>Bit rate of the transmission channel<br/>Mbps.<br/>Propagation delay from sender to receiver<br/>ms.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "86.5 : 89.5",
+      "discussUrl": "https://gateoverflow.in/1982/gate-cse-2014-set-2-question-24"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE CSE 2023 | Question: 7</strong></div><p>Suppose two hosts are connected by a point-to-point link and they are conﬁgured to use<br/>protocol for reliable data transfer. Identify in which one of the following scenarios, the utilization of the link is<br/>the lowest.<br/>A<br/>.<br/>Longer link length and lower transmission rate<br/>B<br/>.<br/>Longer link length and higher transmission rate<br/>C<br/>.<br/>Shorter link length and lower transmission rate<br/>D<br/>.<br/>Shorter link length and higher transmission rate<br/>computer-networks<br/>stop-and-wait</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399305/gate-cse-2023-question-7"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE IT 2005 | Question: 72</strong></div><p>A channel has a bit rate of<br/>and one-way propagation delay of<br/>. The channel uses stop and<br/>wait protocol. The transmission time of the acknowledgment frame is negligible. To get a channel eﬃciency<br/>of at least<br/>, the minimum frame size should be<br/>computer-networks<br/>stop-and-wait</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3835/gate-it-2005-question-72"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stop and Wait",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Stop and Wait: GATE IT 2006 | Question: 68</strong></div><p>On a wireless link, the probability of packet error is<br/>. A stop-and-wait protocol is used to transfer data<br/>across the link. The channel condition is assumed to be independent of transmission to transmission. What<br/>is the average number of transmission attempts required to transfer<br/>packets?<br/>computer-networks<br/>sliding-window<br/>stop-and-wait<br/>Subnetting<br/>(21)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(13Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3612/gate-it-2006-question-68"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2003 | Question: 82, ISRO2009-1</strong></div><p>The subnet mask for a particular network is<br/>Which of the following pairs of<br/>addresses<br/>could belong to this network?<br/>computer-networks<br/>subnetting<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3612/gate-it-2006-question-68"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2004 | Question: 55</strong></div><p>The routing table of a router  is shown below:<br/>On which interface will the router forward packets addressed to destinations<br/>and<br/>respectively?<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1051/gate-cse-2004-question-55"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2005 | Question: 27</strong></div><p>An organization has a class<br/>network and wishes to form subnets for<br/>departments. The subnet mask<br/>would be:<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1363/gate-cse-2005-question-27"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2006 | Question: 45</strong></div><p>Two computers<br/>and<br/>are conﬁgured as follows.<br/>has IP address<br/>and netmask<br/>.<br/>has IP address<br/>and netmask<br/>. Which one of the<br/>following statements is true?<br/>A<br/>.<br/>and<br/>both assume they are on the same network<br/>B<br/>.<br/>assumes<br/>is on same network, but<br/>assumes<br/>is on a different network<br/>C<br/>.<br/>assumes<br/>is on same network, but<br/>assumes<br/>is on a different network<br/>D<br/>.<br/>and<br/>both assume they are on different networks.<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1821/gate-cse-2006-question-45"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2007 | Question: 67, ISRO2016-72</strong></div><p>The address of a class<br/>host is to be split into subnets with a<br/>subnet number. What is the maximum<br/>number of subnets and the maximum number of hosts in each subnet?<br/>computer-networks<br/>subnetting<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1265/gate-cse-2007-question-67-isro2016-72"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2008 | Question: 57</strong></div><p>If a class<br/>network on the Internet has a subnet mask of<br/>, what is the maximum number of<br/>hosts per subnet?<br/>computer-networks<br/>subnetting<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/480/gate-cse-2008-question-57"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2010 | Question: 47</strong></div><p>Suppose computers<br/>and<br/>have<br/>addresses<br/>and<br/>respectively and they<br/>both use same netmask<br/>. Which of the values of<br/>given below should not be used if<br/>and<br/>should<br/>belong to the same network?<br/>computer-networks<br/>subnetting<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2349/gate-cse-2010-question-47"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2012 | Question: 34, ISRO-DEC2017-32</strong></div><p>An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it:<br/>. The ISP wants to give half of this chunk of addresses to Organization<br/>, and a quarter<br/>to Organization<br/>, while retaining the remaining with itself. Which of the following is a valid allocation of addresses<br/>to<br/>and<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>computer-networks<br/>subnetting<br/>isrodec2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2349/gate-cse-2010-question-47"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2015 | Set 2 | Question: 41</strong></div><p>Consider the following routing table at an IP router:<br/>For each IP address in Group I Identify the correct choice of the next hop from Group II using the entries from the<br/>routing table above.<br/>computer-networks<br/>subnetting<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2349/gate-cse-2010-question-47"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2015 | Set 3 | Question: 38</strong></div><p>In the network<br/>, the<br/>octet (in decimal) of the last<br/>address of the network which<br/>can be assigned to a host is _______.<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [],
+      "correctAnswer": "158",
+      "discussUrl": "https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2019 | Question: 28</strong></div><p>Consider three machines M, N, and P with IP addresses<br/>, and<br/>respectively. The subnet mask is set to<br/>for all the three machines. Which one of the<br/>following is true?<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302820/gate-cse-2019-question-28"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2020 | Question: 38</strong></div><p>An organization requires a range of IP address to assign one to each of its<br/>computers. The<br/>organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves<br/>the requests from the available IP address space<br/>. The ISP wants to assign an address space to<br/>the organization which will minimize the number of routing entries in the ISP’s router using route aggregation.<br/>Which of the following address spaces are potential candidates from which the ISP can allot any one of the<br/>organization?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2022 | Question: 45</strong></div><p>Consider routing table of an organization’s router shown below:<br/>Which of the following preﬁxes in<br/>notation can be collectively used to correctly aggregate all of the subnets<br/>in the routing table?<br/>computer-networks<br/>subnetting<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/371891/gate-cse-2022-question-45"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2023 | Question: 55</strong></div><p>The forwarding table of a router is shown below.<br/>A packet addressed to a destination address<br/>arrives at the router. It will be forwarded to the<br/>interface with<br/>__________.<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/399256/gate-cse-2023-question-55"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE CSE 2025 | Set 1 | Question: 30</strong></div><p>A packet with the destination<br/>address<br/>arrives at a router whose routing table is shown.<br/>Which interface will the packet be forwarded to?<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460050/gate-cse-2025-set-1-question-30"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2004 | Question: 26</strong></div><p>A subnet has been assigned a subnet mask of<br/>. What is the maximum number of hosts<br/>that can belong to this subnet?<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3667/gate-it-2004-question-26"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2005 | Question: 76</strong></div><p>A company has a class<br/>network address of<br/>. It wishes to have three subnets, one with<br/>hosts and two with<br/>hosts each. Which one of the following options represents a feasible set of<br/>subnet address/subnet mask pairs?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3839/gate-it-2005-question-76"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2006 | Question: 63, ISRO2015-57</strong></div><p>A router uses the following routing table:<br/>Packet bearing a destination address<br/>arrives at the router. On which interface will it be forwarded?<br/>computer-networks<br/>subnetting<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2006 | Question: 70</strong></div><p>A subnetted Class<br/>network has the following broadcast address:<br/>Its subnet mask<br/>A<br/>.<br/>is necessarily<br/>B<br/>.<br/>is necessarily<br/>C<br/>.<br/>is necessarily<br/>D<br/>.<br/>could be any one of<br/>,<br/>,<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2008 | Question: 84</strong></div><p>Host<br/>has IP address<br/>and is connected through two routers<br/>and<br/>to an<br/>other host<br/>with IP address<br/>. Router<br/>has IP addresses<br/>and<br/>.<br/>has<br/>IP addresses<br/>and<br/>. The netmask used in the network is<br/>.<br/>Given the information above, how many distinct subnets are guaranteed to already exist in the network?<br/>computer-networks<br/>subnetting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3408/gate-it-2008-question-84"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Subnetting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Subnetting: GATE IT 2008 | Question: 85</strong></div><p>Host<br/>has<br/>address<br/>and is connected through two routers<br/>and<br/>to an<br/>other host<br/>with<br/>address<br/>. Router<br/>has<br/>addresses<br/>and<br/>.<br/>has<br/>addresses<br/>and<br/>. The netmask used in the network is<br/>.<br/>Which<br/>address should<br/>configure its gateway as?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3408/gate-it-2008-question-84"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2009 | Question: 47</strong></div><p>While opening a<br/>connection, the initial sequence number is to be derived using a time-of-day (ToD)<br/>clock that keeps running even when the host is down. The low order<br/>bits of the counter of the ToD clock<br/>is to be used for the initial sequence numbers. The clock counter increments once per milliseconds. The maximum<br/>packet lifetime is given to be<br/>s.<br/>Which one of the choices given below is closest to the minimum permissible rate at which sequence numbers used<br/>for packets of a connection can increase?<br/>computer-networks<br/>tcp<br/>difficult<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1333/gate-cse-2009-question-47"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2012 | Question: 22</strong></div><p>Which of the following transport layer protocols is used to support electronic mail?<br/>computer-networks<br/>tcp<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1605/gate-cse-2012-question-22"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "TCP",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>TCP: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>9<br/>Suppose two hosts use a TCP connection to transfer a large ﬁle. Which of the following statements is/are<br/>FALSE with respect to the TCP connection?<br/>I<br/>.<br/>If the sequence number of a segment is<br/>then the sequence number of the subsequent segment is always<br/>II<br/>.<br/>If the estimated round trip time at any given point of time is<br/>sec, the value of the retransmission timeout is<br/>always set to greater than or equal to<br/>sec.<br/>III<br/>.<br/>The size of the advertised window never changes during the course of the TCP connection.<br/>IV<br/>.<br/>The number of unacknowledged bytes at the sender is always less than or equal to the advertised window.<br/>computer-networks<br/>tcp</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1333/gate-cse-2009-question-47"
+    }
+  ]
+}

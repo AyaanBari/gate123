@@ -1,0 +1,211 @@
+{
+  "id": "PYQ_Engineering_Mathematics_P5",
+  "fileName": "PYQ_Engineering_Mathematics_P5.json",
+  "title": "GATE Official PYQs | Engineering Mathematics Part 5",
+  "subject": "Engineering Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 6,
+  "totalMarks": 8,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE CSE 1995 | Question: 2.13</strong></div><p>A unit vector perpendicular to both the vectors<br/>and<br/>is:<br/>linear-algebra<br/>vector-space</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2625/gate-cse-1995-question-2-13"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE CSE 2007 | Question: 27</strong></div><p>Consider the set of (column) vectors defined by<br/>.Which of the following is TRUE?<br/>A<br/>.<br/>is a basis for the subspace<br/>.<br/>B<br/>.<br/>is a linearly independent set, but it does not span<br/>and therefore is not a basis of<br/>.<br/>C<br/>.<br/>is not a subspace of<br/>.<br/>D<br/>.<br/>None of the above<br/>linear-algebra<br/>vector-space</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1225/gate-cse-2007-question-27"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE CSE 2014 | Set 3 | Question: 5</strong></div><p>If<br/>and<br/>are<br/>-dimensional subspaces of a<br/>-dimensional vector space<br/>, then the smallest possible<br/>dimension of<br/>is _____.<br/>linear-algebra<br/>vector-space</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/test/1795"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE CSE 2017 | Set 1 | Question: 30</strong></div><p>Let<br/>and<br/>be two vectors in<br/>whose Euclidean norms satisfy<br/>. What is the value of<br/>such<br/>that<br/>bisects the angle between<br/>and<br/>?<br/>linear-algebra<br/>vector-space</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1794"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE DA 2025 | Question: 28</strong></div><p>Let<br/>be a set of linearly independent vectors in<br/>. Let the<br/>-th element of matrix<br/>be given by<br/>. Which one of the following statements is correct?<br/>gateda-2025<br/>linear-algebra<br/>vector-space<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460994/gate-da-2025-question-28"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Vector Space",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Vector Space: GATE DA 2026 | Question: 12</strong></div><p>Consider a set<br/>. Let<br/>be another set which is a subspace<br/>of<br/>with dimension two.<br/>Which of the following gives the area of<br/>?<br/>gateda-2026<br/>linear-algebra<br/>vector-space<br/>Vector Space: GATE DS&AI 2024 | Question: 39<br/>​​​​​<br/>Let<br/>be the set of real numbers,<br/>be a subspace of<br/>and<br/>be the matrix corresponding to the<br/>projection on to the subspace<br/>.<br/>Which of the following statements is/are TRUE?<br/>A<br/>.<br/>If<br/>is a<br/>-dimensional subspace of<br/>, then the null space of<br/>is a<br/>-dimensional subspace.<br/>B<br/>.<br/>If<br/>is a<br/>-dimensional subspace of<br/>, then the null space of<br/>is a<br/>-dimensional subspace.<br/>C<br/>.<br/>D<br/>.<br/>gate-ds-ai-2024<br/>linear-algebra<br/>vector-space<br/>multiple-selects<br/>6.1.1<br/>A<br/>6.2.1<br/>B<br/>6.2.2<br/>A<br/>6.2.3<br/>A<br/>6.2.4<br/>0<br/>6.2.5<br/>D<br/>6.2.6<br/>B<br/>6.2.7<br/>A;B<br/>6.2.8<br/>A<br/>6.2.9<br/>48:48<br/>6.2.10<br/>0<br/>6.2.11<br/>D<br/>6.2.12<br/>A<br/>6.3.1<br/>B;D<br/>6.3.2<br/>N/A<br/>6.3.3<br/>B<br/>6.3.4<br/>C<br/>6.3.5<br/>A<br/>6.3.6<br/>D<br/>6.3.7<br/>A<br/>6.3.8<br/>D<br/>6.3.9<br/>0<br/>6.3.10<br/>6<br/>6.3.11<br/>A<br/>6.3.12<br/>D<br/>6.3.13<br/>6<br/>6.3.14<br/>B<br/>6.3.15<br/>15<br/>6.3.16<br/>0.125<br/>6.3.17<br/>B<br/>6.3.18<br/>5<br/>6.3.19<br/>3<br/>6.3.20<br/>D<br/>6.3.21<br/>12<br/>6.3.22<br/>3 : 3<br/>6.3.23<br/>A;C;D<br/>6.3.24<br/>2<br/>6.3.25<br/>B<br/>6.3.26<br/>D<br/>6.3.27<br/>A;B<br/>6.3.28<br/>C<br/>6.3.29<br/>1:1<br/>6.3.30<br/>B<br/>6.3.31<br/>B<br/>6.3.32<br/>A<br/>6.3.33<br/>B<br/>6.4.1<br/>B<br/>6.5.1<br/>5<br/>6.5.2<br/>D<br/>6.5.3<br/>A;B;C<br/>6.6.1<br/>C<br/>6.6.2<br/>N/A<br/>6.6.3<br/>N/A<br/>6.6.4<br/>D<br/>6.6.5<br/>N/A<br/>6.6.6<br/>N/A<br/>6.6.7<br/>A<br/>6.6.8<br/>C<br/>6.6.9<br/>B<br/>6.6.10<br/>A<br/>6.6.11<br/>C<br/>6.6.12<br/>B<br/>6.6.13<br/>D<br/>6.6.14<br/>D<br/>6.6.15<br/>0<br/>6.6.16<br/>C<br/>6.6.17<br/>C<br/>6.6.18<br/>B;D<br/>6.6.19<br/>D<br/>6.6.20<br/>A;D<br/>6.6.21<br/>B<br/>6.6.22<br/>A;D<br/>6.6.23<br/>B<br/>6.6.24<br/>D<br/>6.7.1<br/>A<br/>6.8.1<br/>B;D<br/>6.8.2<br/>A;B<br/>6.9.1<br/>C<br/>6.9.2<br/>A<br/>6.9.3<br/>A<br/>6.9.4<br/>C<br/>6.9.5<br/>2<br/>6.9.6<br/>C<br/>6.9.7<br/>4 : 4<br/>6.10.1<br/>55<br/>6.11.1<br/>TBA<br/>6.11.2<br/>TBA<br/>6.12.1<br/>A;C<br/>6.13.1<br/>C<br/>6.13.2<br/>B<br/>6.13.3<br/>N/A<br/>6.13.4<br/>B<br/>6.13.5<br/>C<br/>6.13.6<br/>B<br/>6.13.7<br/>X</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523203/gate-da-2026-question-12"
+    }
+  ]
+}

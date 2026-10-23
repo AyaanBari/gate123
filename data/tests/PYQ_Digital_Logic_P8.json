@@ -1,0 +1,1048 @@
+{
+  "id": "PYQ_Digital_Logic_P8",
+  "fileName": "PYQ_Digital_Logic_P8.json",
+  "title": "GATE Official PYQs | Digital Logic Part 8",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 31,
+  "totalMarks": 32,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2021 | Set 1 | Question: 6</strong></div><p>Let the representation of a number in base<br/>be<br/>. What is the hexadecimal representation of the<br/>number?<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118337/gate-cse-2017-set-2-question-1"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2021 | Set 2 | Question: 18</strong></div><p>If<br/>and<br/>are two decimal digits and<br/>, the decimal value of<br/>is ___________<br/>digital-logic<br/>number-representation<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "3 : 3",
+      "discussUrl": "https://gateoverflow.in/118337/gate-cse-2017-set-2-question-1"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2022 | Question: 8</strong></div><p>Let<br/>and<br/>be two<br/>registers that store numbers in<br/>complement form. For the operation<br/>which one of the following values of<br/>and<br/>gives an arithmetic overflow?<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2023 | Question: 22</strong></div><p>A particular number is written as<br/>in radix-<br/>representation. The same number in radix-<br/>representation<br/>is _____________.<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [],
+      "correctAnswer": "110",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2024 | Set 1 | Question: 3</strong></div><p>Consider a system that uses<br/>bits for representing signed integers in<br/>'s complement format. In this<br/>system, two integers<br/>and<br/>are represented as<br/>=<br/>and<br/>=<br/>. Which one of the following<br/>operations will result in either an arithmetic overflow or an arithmetic underflow?<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2024 | Set 2 | Question: 39</strong></div><p>Which of the following is/are EQUAL to<br/>in radix -<br/>(<br/>i.e<br/>., base -<br/>) notation?<br/>digital-logic<br/>number-representation<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2025 | Set 1 | Question: 15</strong></div><p>The number<br/>can be represented as<br/>in<br/>-bit<br/>'s complement representation. Which of the following<br/>is/are CORRECT<br/>'s complement representation(s) of<br/>?<br/>digital-logic<br/>number-representation<br/>multiple-selects<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2026 | Set 1 | Question: 12</strong></div><p>Consider the<br/>-bit signed integers<br/>and<br/>represented using the sign-magnitude form. The binary<br/>representations of<br/>and<br/>are as follows:<br/>Which of the following operations to compute<br/>result(s) in an arithmetic overflow?<br/>digital-logic<br/>number-representation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/371928/gate-cse-2022-question-8"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 2026 | Set 2 | Question: 18</strong></div><p>In a system, numbers are represented using<br/>-bit two's complement form. Consider four numbers<br/>and<br/>in the system. Which of the following operations<br/>will result in arithmetic overflow?<br/>digital-logic<br/>number-representation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523128/gate-cse-2026-set-2-question-18"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2004 | Question: 42</strong></div><p>Using a<br/>complement arithmetic, which of the following additions will result in an overflow?<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3685/gate-it-2004-question-42"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2004 | Question: 43</strong></div><p>The number<br/>is equivalent to<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3685/gate-it-2004-question-42"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2005 | Question: 47</strong></div><p>evaluates to<br/>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3808/gate-it-2005-question-47"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2006 | Question: 7, ISRO2009-41</strong></div><p>The addition of<br/>, two's complement, binary numbers<br/>and<br/>results in<br/>digital-logic<br/>number-representation<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3808/gate-it-2005-question-47"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2007 | Question: 42</strong></div><p>digital-logic<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3685/gate-it-2004-question-42"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE IT 2008 | Question: 15</strong></div><p>A processor that has the carry, overﬂow and sign ﬂag bits as part of its program status word (PSW) performs<br/>addition of the following two<br/>complement numbers<br/>and<br/>. After the execution of this</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3275/gate-it-2008-question-15"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number System: GATE CSE 1988 | Question: 2-vi</strong></div><p>Define the value of<br/>in the following:<br/>digital-logic<br/>number-representation<br/>descriptive<br/>number-system<br/>Prime Implicants<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/91687/gate-cse-1988-question-2-vi"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Prime Implicants",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prime Implicants: GATE CSE 1997 | Question: 5.1</strong></div><p>Let<br/>be a switching function. Which one of the following is valid?<br/>digital-logic<br/>k-map<br/>prime-implicants</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1105"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Prime Implicants",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prime Implicants: GATE CSE 2004 | Question: 59</strong></div><p>Which are the essential prime implicants of the following Boolean function?<br/>digital-logic<br/>prime-implicants<br/>ROM<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1054/gate-cse-2004-question-59"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ROM",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ROM: GATE CSE 1993 | Question: 6.6</strong></div><p>A ROM is used to store the Truth table for binary multiple units that will multiply two<br/>-bit numbers. The size<br/>of the ROM (number of words<br/>number of bits) that is required to accommodate the Truth table is<br/>. Write the values of<br/>and<br/>.<br/>digital-logic<br/>rom<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91687/gate-cse-1988-question-2-vi"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ROM",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ROM: GATE CSE 1996 | Question: 1.21</strong></div><p>A ROM is used to store the table for multiplication of two<br/>-bit unsigned integers. The size of ROM required<br/>is<br/>digital-logic<br/>rom</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1105"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ROM",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ROM: GATE CSE 2012 | Question: 19</strong></div><p>The amount of ROM needed to implement a<br/>multiplier is<br/>digital-logic<br/>rom</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/51/gate-cse-2012-question-19"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ROM",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ROM: GATE IT 2004 | Question: 10</strong></div><p>What is the minimum size of ROM required to store the complete truth table of an<br/>multiplier?<br/>digital-logic<br/>rom<br/>Reduction<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3651/gate-it-2004-question-10"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Reduction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Reduction: GATE CSE 2026 | Set 1 | Question: 11</strong></div><p>Consider the following Boolean expression of a function<br/>:<br/>Which of the following expressions is/are equivalent to<br/>?<br/>digital-logic<br/>boolean-algebra<br/>reduction<br/>multiple-selects<br/>Ripple Counter Operation<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/51/gate-cse-2012-question-19"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Ripple Counter Operation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ripple Counter Operation: GATE CSE 2025 | Set 2 | Question: 24</strong></div><p>In a<br/>-bit ripple counter, if the period of the waveform at the last ﬂip-ﬂop is<br/>microseconds, then the<br/>frequency of the ripple counter in kHz is _________. (Answer in integer)<br/>digital-logic<br/>ripple-counter-operation<br/>Shift Registers<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "250:250",
+      "discussUrl": "https://gateoverflow.in/51/gate-cse-2012-question-19"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shift Registers",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shift Registers: GATE CSE 1987 | Question: 13-a</strong></div><p>The below ﬁgure shows four<br/>-type ﬂip-ﬂops connected as a shift register using a<br/>gate. The initial<br/>state and three subsequent states for three clock pulses are also given.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/82607/gate-cse-1987-question-13-a"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shift Registers",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shift Registers: GATE CSE 1991 | Question: 06,a</strong></div><p>Using<br/>ﬂip-ﬂop gates, design a parallel-in/serial-out shift register that shifts data from left to right with the<br/>following input lines:<br/>i<br/>.<br/>Clock<br/>ii<br/>.<br/>Three parallel data inputs<br/>iii<br/>.<br/>Serial input<br/>iv<br/>.<br/>Control input<br/>.<br/>digital-logic<br/>difficult<br/>sequential-circuit<br/>flip-flop<br/>shift-registers<br/>descriptive<br/>Static Hazard<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/532/gate-cse-1991-question-06-a"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Static Hazard",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Static Hazard: GATE CSE 2006 | Question: 38</strong></div><p>Consider a Boolean function<br/>. Suppose that exactly one of its inputs is allowed to change at a<br/>time. If the function happens to be true for two input vectors<br/>and<br/>, we would like the function to remain true as the input changes from<br/>to<br/>(<br/>and<br/>diﬀer<br/>in exactly one bit position) without becoming false momentarily. Let<br/>. Which of the following cube covers of<br/>will ensure that the required<br/>property is satisfied?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>min-sum-of-products-form<br/>difficult<br/>static-hazard<br/>Synchronous Asynchronous Circuits<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1814/gate-cse-2006-question-38"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synchronous Asynchronous Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synchronous Asynchronous Circuits: GATE CSE 1991 | Question: 03-ii</strong></div><p>Advantage of synchronous sequential circuits over asynchronous ones is:<br/>digital-logic<br/>sequential-circuit<br/>synchronous-asynchronous-circuits<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/532/gate-cse-1991-question-06-a"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synchronous Asynchronous Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synchronous Asynchronous Circuits: GATE CSE 1998 | Question: 16</strong></div><p>Design a synchronous counter to go through the following states:<br/>digital-logic<br/>descriptive<br/>synchronous-asynchronous-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1730/gate-cse-1998-question-16"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synchronous Asynchronous Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synchronous Asynchronous Circuits: GATE CSE 2001 | Question: 2.12</strong></div><p>Consider the circuit given below with initial state<br/>. The state of the circuit is given by<br/>the value<br/>Which one of the following is correct state sequence of the circuit?<br/>digital-logic<br/>synchronous-asynchronous-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/730/gate-cse-2001-question-2-12"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synchronous Asynchronous Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synchronous Asynchronous Circuits: GATE CSE 2003 | Question: 44</strong></div><p>A<br/>,<br/>synchronous sequential circuit behaves as follows:<br/>Let<br/>denote the number of<br/>and<br/>respectively in initial<br/>bits of the input<br/>. The circuit outputs<br/>until one of the following conditions holds.<br/>. In this case, the output at the k-th and all subsequent clock ticks is<br/>.<br/>. In this case, the output at the<br/>k<br/>-th and all subsequent clock ticks is<br/>.<br/>What is the minimum number of states required in the state transition graph of the above circuit?<br/>digital-logic<br/>synchronous-asynchronous-circuits<br/>4.1.1<br/>N/A<br/>4.1.2<br/>N/A<br/>4.1.3<br/>B<br/>4.1.4<br/>B<br/>4.1.5<br/>A<br/>4.1.6<br/>B<br/>4.1.7<br/>19.2<br/>4.1.8<br/>B<br/>4.1.9<br/>-1<br/>4.2.1<br/>B<br/>4.2.2<br/>C<br/>4.3.1<br/>C<br/>4.4.1<br/>D<br/>4.4.2<br/>C<br/>4.4.3<br/>N/A<br/>4.4.4<br/>N/A<br/>4.4.5<br/>N/A<br/>4.4.6<br/>D<br/>4.4.7<br/>N/A<br/>4.4.8<br/>A<br/>4.4.9<br/>B<br/>4.4.10<br/>D<br/>4.4.11<br/>C<br/>4.4.12<br/>D<br/>4.4.13<br/>C<br/>4.4.14<br/>C<br/>4.4.15<br/>D<br/>4.4.16<br/>D<br/>4.4.17<br/>D<br/>4.4.18<br/>A<br/>4.4.19<br/>A<br/>4.4.20<br/>D<br/>4.4.21<br/>D<br/>4.4.22<br/>1<br/>4.4.23<br/>A<br/>4.4.24<br/>C<br/>4.4.25<br/>C<br/>4.4.26<br/>D<br/>4.4.27<br/>B<br/>4.4.28<br/>B;C;D<br/>4.4.29<br/>B;C<br/>4.4.30<br/>B;D<br/>4.4.31<br/>B;C;D<br/>4.4.32<br/>B<br/>4.4.33<br/>B<br/>4.4.34<br/>C<br/>4.5.1<br/>N/A<br/>4.5.2<br/>A<br/>4.5.3<br/>B<br/>4.5.4<br/>13:13</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/935/gate-cse-2003-question-44"
+    }
+  ]
+}

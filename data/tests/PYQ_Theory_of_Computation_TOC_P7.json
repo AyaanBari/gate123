@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Theory_of_Computation_TOC_P7",
+  "fileName": "PYQ_Theory_of_Computation_TOC_P7.json",
+  "title": "GATE Official PYQs | Theory of Computation (TOC) Part 7",
+  "subject": "Theory of Computation (TOC)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2014 | Set 3 | Question: 15</strong></div><p>The length of the shortest string NOT in the language (over<br/>of the following regular expression<br/>is _______.<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2016 | Set 1 | Question: 18</strong></div><p>Which one of the following regular expressions represents the language:<br/>the set of all binary strings having<br/>two consecutive<br/>'s and two consecutive<br/>'s<br/>?<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2020 | Question: 7</strong></div><p>Which one of the following regular expressions represents the set of all binary strings with an odd number of<br/>s?<br/>regular-expression<br/>theory-of-computation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/39647/gate-cse-2016-set-1-question-18"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2021 | Set 2 | Question: 47</strong></div><p>Which of the following regular expressions represent(s) the set of all binary numbers that are divisible by</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2022 | Question: 2</strong></div><p>Which one of the following regular expressions correctly represents the language of the ﬁnite automaton<br/>given below?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>finite-automata<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371934/gate-cse-2022-question-2"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2023 | Question: 4</strong></div><p>Consider the Deterministic Finite-state Automaton (<br/>)<br/>shown below. The<br/>runs on the alphabet<br/>, and has the set of states<br/>, with<br/>being the start state and<br/>being the only final state.<br/>Which one of the following regular expressions correctly describes the language accepted by<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371934/gate-cse-2022-question-2"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2023 | Question: 9</strong></div><p>Consider the following deﬁnition of a lexical token<br/>for an identiﬁer in a programming language, using<br/>extended regular expressions:<br/>Which one of the following Non-deterministic Finite-state Automata with<br/>-transitions accepts the set of valid<br/>identifiers? (A double-circle denotes a final state)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371934/gate-cse-2022-question-2"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2024 | Set 1 | Question: 51</strong></div><p>Consider the following two regular expressions over the alphabet<br/>:<br/>The total number of strings of length less than or equal to<br/>, which are neither in<br/>nor in<br/>, is ________.<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [],
+      "correctAnswer": "44",
+      "discussUrl": "https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE CSE 2024 | Set 2 | Question: 52</strong></div><p>L e t<br/>be the language represented by the regular expression<br/>and<br/>, where<br/>denotes the length of string<br/>. The number of strings in<br/>which are also in<br/>is _________.<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [],
+      "correctAnswer": "15",
+      "discussUrl": "https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE IT 2004 | Question: 7</strong></div><p>Which one of the following regular expressions is NOT equivalent to the regular expression<br/>?<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE IT 2005 | Question: 5</strong></div><p>Which of the following statements is TRUE about the regular expression<br/>?<br/>A<br/>.<br/>It represents a finite set of finite strings.<br/>B<br/>.<br/>It represents an infinite set of finite strings.<br/>C<br/>.<br/>It represents a finite set of infinite strings.<br/>D<br/>.<br/>It represents an infinite set of infinite strings.<br/>theory-of-computation<br/>regular-expression<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE IT 2006 | Question: 5</strong></div><p>Which regular expression best describes the language accepted by the non-deterministic automaton below?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE IT 2007 | Question: 73</strong></div><p>Consider the regular expression<br/>Which one of the regular expressions given below deﬁnes the same language as deﬁned by the regular<br/>expression<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>regular-expression</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3525/gate-it-2007-question-73"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Expression",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Expression: GATE IT 2008 | Question: 5</strong></div><p>Which of the following regular expressions describes the language over<br/>consisting of strings that<br/>contain exactly two<br/>'s?<br/>theory-of-computation<br/>regular-expression<br/>easy<br/>Regular Grammar<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3525/gate-it-2007-question-73"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Grammar: GATE CSE 1990 | Question: 15a</strong></div><p>Is the language generated by the grammar<br/>regular? If so, give a regular expression for it, else prove<br/>otherwise<br/>G:<br/>descriptive<br/>theory-of-computation<br/>regular-language<br/>regular-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/86864/gate-cse-1990-question-15a"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Grammar: GATE CSE 2015 | Set 2 | Question: 35</strong></div><p>Consider the alphabet<br/>, the null/empty string<br/>and the set of strings<br/>generated by the corresponding non-terminals of a regular grammar.<br/>are related as<br/>follows.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3525/gate-it-2007-question-73"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Grammar: GATE IT 2006 | Question: 29</strong></div><p>Consider the regular grammar below<br/>The Myhill-Nerode equivalence classes for the language generated by the grammar are<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>regular-grammar<br/>Regular Language<br/>(35)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3568/gate-it-2006-question-29"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1987 | Question: 2h</strong></div><p>State whether the following statements are TRUE or FALSE:<br/>Regularity is preserved under the operation of string reversal.<br/>theory-of-computation<br/>regular-language<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/3568/gate-it-2006-question-29"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1987 | Question: 2i</strong></div><p>State whether the following statements are TRUE or FALSE:<br/>All subsets of regular sets are regular.<br/>theory-of-computation<br/>regular-language<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/3568/gate-it-2006-question-29"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1990 | Question: 3-viii</strong></div><p>Let<br/>and<br/>be regular sets defined over the alphabet<br/>Then:<br/>theory-of-computation<br/>regular-language<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/3568/gate-it-2006-question-29"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1991 | Question: 03,xiv</strong></div><p>Which of the following is the strongest correct statement about a ﬁnite language over some ﬁnite alphabet<br/>theory-of-computation<br/>easy<br/>regular-language<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/528/gate-cse-1991-question-03-xiv"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1995 | Question: 2.24</strong></div><p>Let<br/>and<br/>then the languages<br/>and<br/>are respectively<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2637/gate-cse-1995-question-2-24"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1996 | Question: 1.10</strong></div><p>Let<br/>where<br/>. Which of the following is true?<br/>a<br/>.<br/>is regular<br/>b<br/>.<br/>is regular<br/>c<br/>.<br/>is regular<br/>d<br/>.<br/>is regular<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2637/gate-cse-1995-question-2-24"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1998 | Question: 2.6</strong></div><p>Which of the following statements is false?<br/>a<br/>.<br/>Every finite subset of a non-regular set is regular<br/>b<br/>.<br/>Every subset of a regular set is regular<br/>c<br/>.<br/>Every finite subset of a regular set is regular<br/>d<br/>.<br/>The intersection of two regular sets is regular<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2637/gate-cse-1995-question-2-24"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 1999 | Question: 6</strong></div><p>A<br/>.<br/>Given that<br/>is regular and<br/>is regular, does it follow that<br/>is necessarily regular? Justify your answer.<br/>B<br/>.<br/>Given two finite automata<br/>, outline an algorithm to decide if<br/>. (note: strict subset)<br/>theory-of-computation<br/>regular-language<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2637/gate-cse-1995-question-2-24"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2000 | Question: 2.8</strong></div><p>What can be said about a regular language<br/>over<br/>whose minimal ﬁnite state automaton has two<br/>states?<br/>A<br/>.<br/>must be<br/>B<br/>.<br/>must be<br/>C<br/>.<br/>must be<br/>D<br/>.<br/>Either<br/>must be<br/>, or<br/>must be<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/2637/gate-cse-1995-question-2-24"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2001 | Question: 1.4</strong></div><p>Consider the following two statements:<br/>is a regular language<br/>is a regular language<br/>Which of the following statement is correct?<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/697/gate-cse-2001-question-1-4"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2001 | Question: 2.6</strong></div><p>Consider the following languages:<br/>Which of the languages are regular?<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/697/gate-cse-2001-question-1-4"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2007 | Question: 31</strong></div><p>Which of the following languages is regular?<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1229/gate-cse-2007-question-31"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2007 | Question: 7</strong></div><p>Which of the following is TRUE?<br/>A<br/>.<br/>Every subset of a regular set is regular<br/>B<br/>.<br/>Every finite subset of a non-regular set is regular<br/>C<br/>.<br/>The union of two non-regular sets is not regular<br/>D<br/>.<br/>Infinite union of finite sets is regular<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/697/gate-cse-2001-question-1-4"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2008 | Question: 53</strong></div><p>Which of the following are regular sets?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/476/gate-cse-2008-question-53"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2011 | Question: 24</strong></div><p>Let<br/>be a regular language and<br/>be a context-free language such that<br/>. (For example, let<br/>be<br/>the language represented by the regular expression<br/>and<br/>be<br/>. Then which of the<br/>following is<br/>ALWAYS<br/>regular?<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3429/gate-cse-2011-question-24"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2012 | Question: 25</strong></div><p>Given the language<br/>, which of the following strings are in<br/>?<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1609/gate-cse-2012-question-25"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2013 | Question: 8</strong></div><p>Consider the languages<br/>and<br/>. Which one of the following represents<br/>?<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1417/gate-cse-2013-question-8"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2014 | Set 1 | Question: 15</strong></div><p>Which one of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>The language<br/>is regular.<br/>B<br/>.<br/>The language<br/>is regular.<br/>C<br/>.<br/>The language<br/>=<br/>is regular.<br/>D<br/>.<br/>The language<br/>is regular.<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3429/gate-cse-2011-question-24"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2014 | Set 2 | Question: 15</strong></div><p>If<br/>and<br/>, consider<br/>I<br/>.<br/>is a regular language<br/>II<br/>.<br/>Which one of the following is CORRECT?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3429/gate-cse-2011-question-24"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2014 | Set 2 | Question: 36</strong></div><p>L e t<br/>. Let<br/>. Which one of the<br/>following is TRUE?<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1995/gate-cse-2014-set-2-question-36"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2015 | Set 2 | Question: 51</strong></div><p>Which of the following is/are regular languages?<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1995/gate-cse-2014-set-2-question-36"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2016 | Set 2 | Question: 17</strong></div><p>Language<br/>is defined by the grammar:<br/>Language<br/>is defined by the grammar:<br/>Consider the following statements:<br/>P:<br/>is regular<br/>Q:<br/>is regular<br/>Which one of the following is<br/>TRUE<br/>?<br/>theory-of-computation<br/>easy<br/>regular-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1995/gate-cse-2014-set-2-question-36"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Regular Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Regular Language: GATE CSE 2018 | Question: 52</strong></div><p>Given a language<br/>, define<br/>as follows:<br/>The order of a language<br/>is deﬁned as the smallest<br/>such that<br/>. Consider the language<br/>over<br/>alphabet<br/>accepted by the following automaton.<br/>The order of<br/>is ________.<br/>theory-of-computation<br/>regular-language</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/204127/gate-cse-2018-question-52"
+    }
+  ]
+}

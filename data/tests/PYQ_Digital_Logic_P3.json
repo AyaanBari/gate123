@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Digital_Logic_P3",
+  "fileName": "PYQ_Digital_Logic_P3.json",
+  "title": "GATE Official PYQs | Digital Logic Part 3",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1999 | Question: 2.8</strong></div><p>Consider the circuit shown below. In a certain steady state, the line<br/>is at<br/>. What are the possible values<br/>of<br/>and<br/>in this state?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1486/gate-cse-1999-question-2-8"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2000 | Question: 2.12</strong></div><p>The following arrangement of master-slave flip flops<br/>has the initial state of<br/>as<br/>(respectively). After three clock cycles the output state<br/>is (respectively),<br/>digital-logic<br/>circuit-output<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1486/gate-cse-1999-question-2-8"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2001 | Question: 2.8</strong></div><p>Consider the following circuit with initial state<br/>. The D Flip-ﬂops are positive edged triggered<br/>and have set up times 20 nanosecond and hold times<br/>Consider the following timing diagrams of X and C. The clock period of<br/>nanosecond. Which one is the<br/>correct plot of Y?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1486/gate-cse-1999-question-2-8"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2002 | Question: 2.2</strong></div><p>Consider the following multiplexer where<br/>are four data input lines selected by two address<br/>line combinations<br/>respectively and<br/>is the output of the multiplexor. EN is the<br/>Enable input.<br/>The function<br/>implemented by the above circuit is<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/832/gate-cse-2002-question-2-2"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2004 | Question: 61</strong></div><p>Consider the partial implementation of a<br/>counter using<br/>ﬂip-ﬂops following the sequence<br/>as shown below.<br/>To complete the circuit, the input<br/>should be<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1056/gate-cse-2004-question-61"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2005 | Question: 15</strong></div><p>Consider the following circuit.<br/>Which one of the following is TRUE?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1351/gate-cse-2005-question-15"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2005 | Question: 62</strong></div><p>Consider the following circuit involving a positive edge triggered D FF.<br/>Consider the following timing diagram. Let<br/>represents the logic level on the line<br/>in the<br/>-th clock period.<br/>Let<br/>represent the complement of<br/>. The correct output sequence on<br/>over the clock periods<br/>through<br/>is:<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1351/gate-cse-2005-question-15"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2005 | Question: 64</strong></div><p>Consider the following circuit:<br/>The ﬂip-ﬂops are positive edge triggered<br/>s. Each state is designated as a two-bit string<br/>. Let the initial<br/>state be<br/>The state transition sequence is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1351/gate-cse-2005-question-15"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2006 | Question: 35</strong></div><p>Consider the circuit above. Which one of the following options correctly represents<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1292/gate-cse-2006-question-35"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2006 | Question: 37</strong></div><p>Consider the circuit in the diagram. The<br/>operator represents Ex-OR. The D ﬂip-ﬂops are initialized to<br/>zeroes (cleared).<br/>The following data:<br/>is supplied to the “data” terminal in nine clock cycles. After that the values of<br/>are:<br/>digital-logic<br/>circuit-output<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1292/gate-cse-2006-question-35"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2006 | Question: 8</strong></div><p>You are given a free running clock with a duty cycle of<br/>and a digital waveform<br/>which changes only at<br/>the negative edge of the clock. Which one of the following circuits (using clocked D ﬂip-ﬂops) will delay the<br/>phase of<br/>by<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1292/gate-cse-2006-question-35"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2007 | Question: 36</strong></div><p>The control signal functions of a<br/>-<br/>binary counter are given below (where<br/>is “don’t care”):<br/>The counter is connected as follows:<br/>Assume that the counter and gate delays are negligible. If the counter starts at<br/>then it cycles through the<br/>following sequence:<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1234/gate-cse-2007-question-36"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2010 | Question: 31</strong></div><p>What is the boolean expression for the output<br/>of the combinational logic circuit of NOR gates given below?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2205/gate-cse-2010-question-31"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2010 | Question: 32</strong></div><p>In the sequential circuit shown below, if the initial value of the output<br/>is<br/>. What are the next four<br/>values of<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2205/gate-cse-2010-question-31"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2010 | Question: 9</strong></div><p>The Boolean expression of the output<br/>of the multiplexer shown below is<br/>digital-logic<br/>circuit-output<br/>easy<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2182/gate-cse-2010-question-9"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2011 | Question: 50</strong></div><p>Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration.<br/>If at some instance prior to the occurrence of the clock edge,<br/>and<br/>have a value<br/>,<br/>and<br/>respectively,<br/>what shall be the value of<br/>after the clock edge?<br/>digital-logic<br/>circuit-output<br/>flip-flop</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2157/gate-cse-2011-question-50"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2011 | Question: 51</strong></div><p>Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2157/gate-cse-2011-question-50"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2014 | Set 3 | Question: 45</strong></div><p>The above synchronous sequential circuit built using JK ﬂip-ﬂops is initialized with<br/>. The state<br/>sequence for this circuit for the next<br/>clock cycles is<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2079/gate-cse-2014-set-3-question-45"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 2025 | Set 2 | Question: 21</strong></div><p>​<br/>Consider the following logic circuit diagram.<br/>Which is/are the CORRECT option(s) for the output function<br/>?<br/>digital-logic<br/>circuit-output<br/>multiple-selects<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/2079/gate-cse-2014-set-3-question-45"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2005 | Question: 10</strong></div><p>A two-way switch has three terminals<br/>and<br/>In ON position (logic value<br/>),<br/>is connected to<br/>and in<br/>OFF position,<br/>is connected to<br/>. Two of these two-way switches<br/>and<br/>are connected to a bulb as<br/>shown below.<br/>Which of the following expressions, if true, will always result in the lighting of the bulb ?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3755/gate-it-2005-question-10"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2005 | Question: 43</strong></div><p>Which of the following input sequences will always generate a<br/>at the output<br/>at the end of the third cycle?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/3755/gate-it-2005-question-10"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2006 | Question: 36</strong></div><p>The majority function is a Boolean function<br/>that takes the value<br/>whenever a majority of the<br/>variables<br/>are<br/>In the circuit diagram for the majority function shown below, the logic gates for the<br/>boxes labeled<br/>and<br/>are, respectively,</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3575/gate-it-2006-question-36"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2007 | Question: 38</strong></div><p>The following expression was to be realized using<br/>-input AND and OR gates. However, during the<br/>fabrication all<br/>-input AND gates were mistakenly substituted by<br/>-input NAND gates.<br/>What is the function finally realized ?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3471/gate-it-2007-question-38"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2007 | Question: 40</strong></div><p>What is the final value stored in the linear feedback shift register if the input is<br/>?<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3471/gate-it-2007-question-38"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE IT 2007 | Question: 45</strong></div><p>The line<br/>in the following figure is permanently connected to the ground.<br/>Which of the following inputs<br/>will detect the fault ?<br/>digital-logic<br/>circuit-output<br/>Combinational Circuit<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3471/gate-it-2007-question-38"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinational Circuit",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinational Circuit: GATE CSE 2022 | Question: 30</strong></div><p>Consider a digital display system<br/>shown in the ﬁgure that displays the contents  of register<br/>A<br/>code word is used to load a word in<br/>either from<br/>or from<br/>is a<br/>word memory<br/>segment and<br/>is a<br/>word register ﬁle. Based on the value of mode bit<br/>selects an input word to load in<br/>and<br/>interface with the corresponding bits in the code word to choose the addressed word. Which one of the<br/>following represents the functionality of<br/>and</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371906/gate-cse-2022-question-30"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Combinational Circuit",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinational Circuit: GATE CSE 2024 | Set 1 | Question: 18</strong></div><p>Consider the circuit shown below where the gates may have propagation delays. Assume that all signal<br/>transitions occur instantaneously and that wires have no delays. Which of the following statements about the<br/>circuit is/are CORRECT?<br/>A<br/>.<br/>With no propagation delays, the output<br/>is always logic Zero<br/>B<br/>.<br/>With no propagation delays, the output<br/>is always logic One<br/>C<br/>.<br/>With propagation delays, the output<br/>can have a transient logic One after<br/>transitions from logic Zero to logic<br/>One<br/>D<br/>.<br/>With propagation delays, the output<br/>can have a transient logic Zero after<br/>transitions from logic One to logic<br/>Zero<br/>multiple-selects<br/>digital-logic<br/>combinational-circuit<br/>Conjunctive Normal Form<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conjunctive Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conjunctive Normal Form: GATE CSE 2007 | Question: 48</strong></div><p>Which of the following is TRUE about formulae in Conjunctive Normal Form?<br/>A<br/>.<br/>For any formula, there is a truth assignment for which at least half the clauses evaluate to true.<br/>B<br/>.<br/>For any formula, there is a truth assignment for which all the clauses evaluate to true.<br/>C<br/>.<br/>There is a formula such that for each truth assignment, at most one-fourth of the clauses evaluate to true.<br/>D<br/>.<br/>None of the above.<br/>digital-logic<br/>conjunctive-normal-form<br/>canonical-normal-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1246/gate-cse-2007-question-48"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Decoder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Decoder: GATE CSE 2007 | Question: 8, ISRO2011-31</strong></div><p>How many<br/>-to-<br/>line decoders with an enable input are needed to construct a<br/>-to-<br/>line decoder without<br/>using any other logic gates?<br/>digital-logic<br/>isro2011<br/>decoder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1206/gate-cse-2007-question-8-isro2011-31"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Decoder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Decoder: GATE CSE 2020 | Question: 20</strong></div><p>If there are<br/>input lines and<br/>output lines for a decoder that is used to uniquely address a byte<br/>addressable<br/>KB RAM, then the minimum value of<br/>is ________ .<br/>digital-logic<br/>decoder</p></div>",
+      "options": [],
+      "correctAnswer": "1034",
+      "discussUrl": "https://gateoverflow.in/test/2202"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Decoder",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Decoder: GATE IT 2008 | Question: 9</strong></div><p>What Boolean function does the circuit below realize?<br/>digital-logic<br/>circuit-output<br/>decoder<br/>Digital Circuits<br/>(7)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3269/gate-it-2008-question-9"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 1996 | Question: 5</strong></div><p>A logic network has two data inputs<br/>and<br/>, and two control inputs<br/>and<br/>. It implements the function<br/>according to the following table.<br/>Implement the circuit using one<br/>to<br/>Multiplexer, one<br/>input Exclusive OR gate, one<br/>input AND gate, one<br/>input OR gate and one Inverter.<br/>digital-logic<br/>digital-circuits<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2757/gate-cse-1996-question-5"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2002 | Question: 7</strong></div><p>A<br/>.<br/>Express the function<br/>with only one complement operation and one or more AND/OR<br/>operations. Draw the logic circuit implementing the expression obtained, using a single NOT gate and one or<br/>more AND/OR gates.<br/>B<br/>.<br/>Transform the following logic circuit (without expressing  its switching function) into an equivalent logic circuit<br/>that employs only<br/>NAND gates each with<br/>-inputs.<br/>digital-logic<br/>descriptive<br/>digital-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/860/gate-cse-2002-question-7"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2003 | Question: 47</strong></div><p>Consider the following circuit composed of XOR gates and non-inverting buffers.<br/>The non-inverting buﬀers have delays<br/>and<br/>as shown in the ﬁgure. Both XOR gates and all<br/>wires have zero delays. Assume that all gate inputs, outputs, and wires are stable at logic level<br/>at time<br/>. If the<br/>following waveform is applied at input<br/>, how many transition(s) (change of logic levels) occur(s) at<br/>during the<br/>interval from<br/>to<br/>ns?<br/>digital-logic<br/>digital-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/29098/gate-cse-2003-question-47"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2011 | Question: 13</strong></div><p>Which one of the following circuits is<br/>NOT<br/>equivalent to a<br/>-input<br/>(exclusive<br/>) gate?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2115/gate-cse-2011-question-13"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2013 | Question: 5</strong></div><p>In the following truth table,<br/>if and only if the input is valid.<br/>What function does the truth table represent?<br/>digital-logic<br/>digital-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1414/gate-cse-2013-question-5"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2014 | Set 3 | Question: 8</strong></div><p>Consider the following combinational function block involving four Boolean variables<br/>where<br/>are inputs and<br/>is the output.<br/>f<br/>(<br/>x<br/>,<br/>a<br/>,<br/>b<br/>,<br/>y<br/>)<br/>{<br/>if<br/>(<br/>x<br/>is<br/>1<br/>)<br/>y<br/>=<br/>a<br/>;<br/>else<br/>y<br/>=<br/>b<br/>;<br/>}<br/>Which one of the following digital logic blocks is the most suitable for implementing this function?<br/>digital-logic<br/>easy<br/>digital-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1414/gate-cse-2013-question-5"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Digital Circuits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Circuits: GATE CSE 2026 | Set 2 | Question: 49</strong></div><p>Consider the digital circuit shown below with two input lines<br/>and<br/>, two select lines<br/>and<br/>, and an<br/>output line<br/>. The blocks<br/>and<br/>represent active high<br/>decoder and<br/>-to-<br/>multiplexer, respectively.<br/>Out of<br/>possible input combinations, the number of combinations that produce<br/>is<br/>(answer in<br/>integer)<br/>Note: One input combination is an instance of [<br/>].<br/>digital-logic<br/>digital-circuits<br/>Digital Counter<br/>(18)</p></div>",
+      "options": [],
+      "correctAnswer": "6:6",
+      "discussUrl": "https://gateoverflow.in/1414/gate-cse-2013-question-5"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 1987 | Question: 1-III</strong></div><p>The above circuit produces the output sequence:<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2171"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Counter",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Counter: GATE CSE 1987 | Question: 10c</strong></div><p>Give a minimal DFA that performs as a<br/>'s counter, i.e. outputs a<br/>each time the number of<br/>'s in the input sequence is a multiple of<br/>.<br/>digital-logic<br/>digital-counter<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80034/gate-cse-1987-question-1-iii"
+    }
+  ]
+}

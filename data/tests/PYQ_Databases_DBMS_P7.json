@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Databases_DBMS_P7",
+  "fileName": "PYQ_Databases_DBMS_P7.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 7",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2015 | Set 1 | Question: 27</strong></div><p>Consider the following relation:<br/>Consider the following SQL query.<br/>SELECT S<br/>.<br/>Student_Name<br/>,<br/>Sum<br/>(<br/>P<br/>.<br/>Marks<br/>)<br/>FROM<br/>Student<br/>S<br/>,<br/>Performance<br/>P<br/>WHERE S<br/>.<br/>Roll_No<br/>=<br/>P<br/>.<br/>Roll_No<br/>GROUP BY S<br/>.<br/>STUDENT_Name<br/>The numbers of rows that will be returned by the SQL query is_________________.<br/>databases<br/>sql</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/8225/gate-cse-2015-set-1-question-27"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2015 | Set 3 | Question: 3</strong></div><p>Consider the following relation<br/>Cinema(<br/>)<br/>Which of the following options will be needed at the end of the SQL query<br/>SELECT P1<br/>.<br/>address<br/>FROM<br/>Cinema<br/>P1<br/>such that it always finds the addresses of theaters with maximum capacity?<br/>A<br/>.<br/>WHERE P1<br/>.<br/>capacity<br/>>=<br/>All<br/>(<br/>select<br/>P2<br/>.<br/>capacity<br/>from<br/>Cinema<br/>P2<br/>)<br/>B<br/>.<br/>WHERE P1<br/>.<br/>capacity<br/>>=<br/>Any<br/>(<br/>select<br/>P2<br/>.<br/>capacity<br/>from<br/>Cinema<br/>P2<br/>)<br/>C<br/>.<br/>WHERE P1<br/>.<br/>capacity<br/>><br/>All<br/>(<br/>select<br/>max<br/>(<br/>P2<br/>.<br/>capacity<br/>)<br/>from<br/>Cinema<br/>P2<br/>)<br/>D<br/>.<br/>WHERE P1<br/>.<br/>capacity<br/>><br/>Any<br/>(<br/>select<br/>max<br/>(<br/>P2<br/>.<br/>capacity<br/>)<br/>from<br/>Cinema<br/>P2<br/>)<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8225/gate-cse-2015-set-1-question-27"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2016 | Set 2 | Question: 52</strong></div><p>Consider the following database table named water_schemes:<br/>The number of tuples returned by the following SQL query is _________.<br/>with<br/>total<br/>(<br/>name<br/>,<br/>capacity<br/>)<br/>as<br/>select<br/>district_name<br/>,<br/>sum<br/>(<br/>capacity<br/>)<br/>from<br/>water_schemes<br/>group<br/>by<br/>district_name<br/>with<br/>total_avg<br/>(<br/>capacity<br/>)<br/>as<br/>select<br/>avg<br/>(<br/>capacity<br/>)<br/>from<br/>total<br/>select<br/>name<br/>from<br/>total<br/>,<br/>total_avg<br/>where<br/>total<br/>.<br/>capacity<br/>≥<br/>total_avg<br/>.<br/>capacity<br/>databases<br/>sql</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/39604/gate-cse-2016-set-2-question-52"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2017 | Set 1 | Question: 23</strong></div><p>Consider a database that has the relation schema EMP (EmpId, EmpName, and DeptName). An instance of<br/>the schema EMP and a SQL query on it are given below:<br/>SELECT AVG<br/>(<br/>EC<br/>.<br/>Num<br/>)<br/>FROM EC<br/>WHERE<br/>(<br/>DeptName<br/>,<br/>Num<br/>)<br/>IN<br/>(<br/>SELECT<br/>DeptName<br/>,<br/>COUNT<br/>(<br/>EmpId<br/>)<br/>AS<br/>EC<br/>(<br/>DeptName<br/>,<br/>Num<br/>)<br/>FROM EMP<br/>GROUP BY<br/>DeptName<br/>)<br/>The output of executing the SQL query is _____________ .</p></div>",
+      "options": [],
+      "correctAnswer": "2.6",
+      "discussUrl": "https://gateoverflow.in/39604/gate-cse-2016-set-2-question-52"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2017 | Set 2 | Question: 46</strong></div><p>Consider the following database table named<br/>.<br/>Consider the following SQL query:<br/>SELECT ta<br/>.<br/>player FROM top_scorer AS ta<br/>WHERE ta<br/>.<br/>goals<br/>><br/>ALL<br/>(<br/>SELECT tb<br/>.<br/>goals<br/>FROM top_scorer AS tb<br/>WHERE tb<br/>.<br/>country<br/>=<br/>'Spain'<br/>)<br/>AND ta<br/>.<br/>goals<br/>><br/>ANY<br/>(<br/>SELECT tc<br/>.<br/>goals<br/>FROM top_scorer AS tc<br/>WHERE tc<br/>.<br/>country<br/>=<br/>'Germany'<br/>)<br/>The number of tuples returned by the above SQL query is ______<br/>databases<br/>sql</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/118391/gate-cse-2017-set-2-question-46"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2018 | Question: 12</strong></div><p>Consider the following two tables and four queries in SQL.<br/>Book (isbn, bname), Stock(isbn, copies)<br/>Query 1:<br/>SELECT B<br/>.<br/>isbn<br/>,<br/>S<br/>.<br/>copies FROM<br/>Book<br/>B INNER JOIN<br/>Stock<br/>S ON B<br/>.<br/>isbn<br/>=<br/>S<br/>.<br/>isbn<br/>;<br/>Query 2:<br/>SELECT B<br/>.<br/>isbn<br/>,<br/>S<br/>.<br/>copies FROM<br/>Book<br/>B LEFT OUTER JOIN<br/>Stock<br/>S ON B<br/>.<br/>isbn<br/>=<br/>S<br/>.<br/>isbn<br/>;<br/>Query 3:<br/>SELECT B<br/>.<br/>isbn<br/>,<br/>S<br/>,<br/>copies FROM<br/>Book<br/>B RIGHT OUTER JOIN<br/>Stock<br/>S ON B<br/>.<br/>isbn<br/>=<br/>S<br/>.<br/>isbn<br/>Query 4:<br/>SELECT B<br/>.<br/>isbn<br/>,<br/>S<br/>.<br/>copies FROM<br/>Book<br/>B FULL OUTER JOIN<br/>Stock<br/>S ON B<br/>.<br/>isbn<br/>=<br/>S<br/>.<br/>isbn<br/>Which one of the queries above is certain to have an output that is a superset of the outputs of the other three<br/>queries?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204086/gate-cse-2018-question-12"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2019 | Question: 51</strong></div><p>A relational database contains two tables Student and Performance as shown below:<br/>The primary key of the Student table is Roll_no. For the performance table, the columns Roll_no. and Subject_code<br/>together form the primary key. Consider the SQL query given below:<br/>SELECT S<br/>.<br/>Student_name<br/>,<br/>sum<br/>(<br/>P<br/>.<br/>Marks<br/>)<br/>FROM<br/>Student<br/>S<br/>,<br/>Performance<br/>P<br/>WHERE P<br/>.<br/>Marks<br/>><br/>84<br/>GROUP BY S<br/>.<br/>Student_name<br/>;<br/>The number of rows returned by the above SQL query is ________<br/>databases<br/>sql</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/302797/gate-cse-2019-question-51"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2020 | Question: 13</strong></div><p>Consider a relational database containing the following schemas.<br/>The primary key of each table is indicated by underlining the constituent fields.<br/>SELECT s<br/>.<br/>sno<br/>,<br/>s<br/>.<br/>sname<br/>FROM<br/>Suppliers<br/>s<br/>,<br/>Catalogue<br/>c<br/>WHERE s<br/>.<br/>sno<br/>=<br/>c<br/>.<br/>sno AND<br/>cost<br/>><br/>(<br/>SELECT AVG<br/>(<br/>cost<br/>)<br/>FROM<br/>Catalogue<br/>WHERE pno<br/>=<br/>‘<br/>P4<br/>’<br/>GROUP BY pno<br/>)<br/>;<br/>The number of rows returned by the above SQL query is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333218/gate-cse-2020-question-13"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2021 | Set 1 | Question: 23</strong></div><p>A relation<br/>in a relational database has<br/>tuples. The attribute<br/>has integer values ranging from<br/>to<br/>, and the attribute<br/>has integer values ranging from<br/>to<br/>. Assume that the attributes<br/>and<br/>are<br/>independently distributed.<br/>The estimated number of tuples in the output of<br/>is ____________.<br/>databases<br/>sql</p></div>",
+      "options": [],
+      "correctAnswer": "819 : 820 ; 205 : 205",
+      "discussUrl": "https://gateoverflow.in/357428/gate-cse-2021-set-1-question-23"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2021 | Set 2 | Question: 31</strong></div><p>The relation scheme given below is used to store information about the employees of a company, where<br/>is the key and<br/>indicates the department to which the employee is assigned. Each employee is<br/>assigned to exactly one department.<br/>Consider the following<br/>query:<br/>select<br/>deptId<br/>,<br/>count<br/>(*)<br/>from<br/>emp<br/>where<br/>gender<br/>=<br/>“<br/>female<br/>”<br/>and<br/>salary<br/>><br/>(<br/>select<br/>avg<br/>(<br/>salary<br/>)<br/>from<br/>emp<br/>)<br/>group<br/>by<br/>deptId<br/>;<br/>The above query gives, for each department in the company, the number of female employees whose salary is<br/>greater than the average salary of<br/>databases<br/>sql<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357428/gate-cse-2021-set-1-question-23"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2022 | Question: 46</strong></div><p>Consider the relational database with the following four schemas and their respective instances.<br/>Student(sNo, sName, dNo) Dept(dNo, dName)<br/>Course(cNo, cName, dNo) Register(sNo, cNo)</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/371890/gate-cse-2022-question-46"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2023 | Question: 51</strong></div><p>Consider the following table named<br/>in a relational database. The primary key of this table is<br/>The<br/>query below is executed on this database.<br/>SELECT<br/>*<br/>FROM<br/>Student<br/>WHERE gender<br/>=<br/>'F'<br/>AND<br/>marks<br/>><br/>65<br/>;<br/>The number of rows returned by the query is ___________.<br/>databases<br/>sql<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/399260/gate-cse-2023-question-51"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2025 | Set 1 | Question: 45</strong></div><p>Consider the following database tables of a sports league.<br/>player<br/>(<br/>pid<br/>,<br/>pname<br/>,<br/>age<br/>)<br/>team<br/>(<br/>tid<br/>,<br/>tname<br/>,<br/>city<br/>,<br/>cid<br/>)<br/>coach<br/>(<br/>cid<br/>,<br/>cname<br/>)<br/>members<br/>(<br/>pid<br/>,<br/>tid<br/>)<br/>An instance of the table and an SQL query are given.<br/>SELECT MIN<br/>(<br/>P<br/>.<br/>age<br/>)<br/>FROM player P<br/>WHERE P<br/>.<br/>pid IN<br/>(<br/>SELECT M<br/>.<br/>pid<br/>FROM team T<br/>,<br/>coach C<br/>,<br/>members M<br/>WHERE C<br/>.<br/>cname<br/>=<br/>'Mark'<br/>AND T<br/>.<br/>cid<br/>=<br/>C<br/>.<br/>cid<br/>AND M<br/>.<br/>tid<br/>=<br/>T<br/>.<br/>tid<br/>)<br/>The value returned by the given SQL query is _________. (Answer in integer)</p></div>",
+      "options": [],
+      "correctAnswer": "26:26",
+      "discussUrl": "https://gateoverflow.in/399260/gate-cse-2023-question-51"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2025 | Set 2 | Question: 44</strong></div><p>Consider the following relational schema:<br/>Students (<br/>name: string, age: integer, cgpa: real)<br/>Courses (<br/>cname: string, credits: integer)<br/>Enrolled (<br/>grade: string)<br/>Which of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in<br/>course number (i.e., courseno)<br/>?<br/>A<br/>.<br/>SELECT S<br/>.<br/>name<br/>FROM<br/>Students<br/>S<br/>WHERE EXISTS<br/>(<br/>SELECT<br/>*<br/>FROM<br/>Enrolled<br/>E<br/>WHERE E<br/>.<br/>courseno<br/>=<br/>1470<br/>AND E<br/>.<br/>rollno<br/>=<br/>S<br/>.<br/>rollno<br/>);<br/>B<br/>.<br/>SELECT S<br/>.<br/>name<br/>FROM<br/>Students<br/>S<br/>WHERE SIZEOF<br/>(<br/>SELECT<br/>*<br/>FROM<br/>Enrolled<br/>E<br/>WHERE E<br/>.<br/>courseno<br/>=<br/>1470<br/>AND E<br/>.<br/>rollno<br/>=<br/>S<br/>.<br/>rollno<br/>)<br/>><br/>0<br/>;<br/>C<br/>.<br/>SELECT S<br/>.<br/>name<br/>FROM<br/>Students<br/>S<br/>WHERE<br/>0<br/><<br/>(<br/>SELECT COUNT<br/>(*)<br/>FROM<br/>Enrolled<br/>E<br/>WHERE E<br/>.<br/>courseno<br/>=<br/>1470<br/>AND E<br/>.<br/>rollno<br/>=<br/>S<br/>.<br/>rollno<br/>);<br/>D<br/>.<br/>SELECT S<br/>.<br/>name<br/>FROM<br/>Students<br/>S NATURAL JOIN<br/>Enrolled<br/>E<br/>WHERE E<br/>.<br/>courseno<br/>=<br/>1470<br/>;<br/>databases<br/>sql<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/460849/gate-cse-2025-set-2-question-44"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE DA 2025 | Question: 23</strong></div><p>On a relation named<br/>of a bank:<br/>the following SQL query is executed.<br/>SELECT L1<br/>.<br/>loan_number<br/>FROM<br/>Loan<br/>L1<br/>WHERE L1<br/>.<br/>amount<br/>><br/>(<br/>SELECT MAX<br/>(<br/>L2<br/>.<br/>amount<br/>)<br/>FROM<br/>Loan<br/>L2<br/>WHERE L2<br/>.<br/>branch_name<br/>=<br/>'SR Nagar'<br/>);<br/>The number of rows returned by the query is __________ (Answer in integer).</p></div>",
+      "options": [],
+      "correctAnswer": "3:3",
+      "discussUrl": "https://gateoverflow.in/460849/gate-cse-2025-set-2-question-44"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2004 | Question: 74</strong></div><p>A relational database contains two tables student and department in which student table has columns<br/>roll_no, name and dept_id and department table has columns dept_id and dept_name. The following insert<br/>statements were executed successfully to populate the empty tables:<br/>Insert<br/>into<br/>department values<br/>(<br/>1<br/>,<br/>'Mathematics'<br/>)<br/>Insert<br/>into<br/>department values<br/>(<br/>2<br/>,<br/>'Physics'<br/>)<br/>Insert<br/>into<br/>student values<br/>(<br/>l<br/>,<br/>'Navin'<br/>,<br/>1<br/>)<br/>Insert<br/>into<br/>student values<br/>(<br/>2<br/>,<br/>'Mukesh'<br/>,<br/>2<br/>)<br/>Insert<br/>into<br/>student values<br/>(<br/>3<br/>,<br/>'Gita'<br/>,<br/>1<br/>)<br/>How many rows and columns will be retrieved by the following SQL statement?<br/>Select<br/>*<br/>from<br/>student<br/>,<br/>department<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3718/gate-it-2004-question-74"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2004 | Question: 76</strong></div><p>A table T1 in a relational database has the following rows and columns:<br/>The following sequence of SQL statements was successfully executed on table T1.<br/>Update<br/>T1<br/>set<br/>marks<br/>=<br/>marks<br/>+<br/>5<br/>Select<br/>avg<br/>(<br/>marks<br/>)<br/>from<br/>T1<br/>What is the output of the select statement?<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3718/gate-it-2004-question-74"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2004 | Question: 78</strong></div><p>Consider two tables in a relational database with columns and rows as follows:<br/>Roll_no is the primary key of the Student table, Dept_id is the primary key of the Department table and<br/>Student.Dept_id is a foreign key from Department.Dept_id<br/>What will happen if we try to execute the following two SQL statements?<br/>i<br/>.<br/>update Student set Dept_id = Null where Roll_on = 1<br/>ii<br/>.<br/>update Department set Dept_id = Null where Dept_id = 1</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3718/gate-it-2004-question-74"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2005 | Question: 69</strong></div><p>In an inventory management system implemented at a trading corporation, there are several tables<br/>designed to hold all the information. Amongst these, the following two tables hold information on which items<br/>are supplied by which suppliers, and which warehouse keeps which items along with the stock-level of these items.<br/>Supply = (supplierid, itemcode)<br/>Inventory = (itemcode, warehouse, stocklevel)<br/>For a specific information required by the management, following SQL query has been written<br/>Select<br/>distinct STMP<br/>.<br/>supplierid<br/>From<br/>Supply<br/>as<br/>STMP<br/>Where<br/>not<br/>unique<br/>(<br/>Select<br/>ITMP<br/>.<br/>supplierid<br/>From<br/>Inventory<br/>,<br/>Supply<br/>as<br/>ITMP<br/>Where<br/>STMP<br/>.<br/>supplierid<br/>=<br/>ITMP<br/>.<br/>supplierid<br/>And<br/>ITMP<br/>.<br/>itemcode<br/>=<br/>Inventory<br/>.<br/>itemcode<br/>And<br/>Inventory<br/>.<br/>warehouse<br/>=<br/>'Nagpur'<br/>);<br/>For the warehouse at Nagpur, this query will find all suppliers who<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3832/gate-it-2005-question-69"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2006 | Question: 84</strong></div><p>Consider a database with three relation instances shown below. The primary keys for the Drivers and Cars<br/>relation are<br/>did<br/>and<br/>cid<br/>respectively and the records are stored in ascending order of these primary keys as<br/>given in the tables. No indexing is available in the database.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3640/gate-it-2006-question-84"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2006 | Question: 85</strong></div><p>Consider a database with three relation instances shown below. The primary keys for the Drivers and Cars<br/>relation are<br/>did<br/>and<br/>cid<br/>respectively and the records are stored in ascending order of these primary keys as<br/>given in the tables. No indexing is available in the database.<br/>select<br/>D<br/>.<br/>dname<br/>from<br/>Drivers<br/>D<br/>where<br/>D<br/>.<br/>did<br/>in<br/>(<br/>select<br/>R<br/>.<br/>did</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3641/gate-it-2006-question-85"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE IT 2008 | Question: 74</strong></div><p>Consider the following relational schema:<br/>What does the following SQL query output?<br/>SELECT sch<br/>-<br/>name<br/>,<br/>COUNT<br/>(*)<br/>FROM<br/>School<br/>C<br/>,<br/>Enrolment<br/>E<br/>,<br/>ExamResult<br/>R<br/>WHERE E<br/>.<br/>school<br/>-<br/>id<br/>=<br/>C<br/>.<br/>school<br/>-<br/>id<br/>AND<br/>E<br/>.<br/>examname<br/>=<br/>R<br/>.<br/>examname AND E<br/>.<br/>erollno<br/>=<br/>R<br/>.<br/>erollno<br/>AND<br/>R<br/>.<br/>marks<br/>=<br/>100<br/>AND E<br/>.<br/>school<br/>-<br/>id IN<br/>(<br/>SELECT school<br/>-<br/>id<br/>FROM student<br/>GROUP BY school<br/>-<br/>id<br/>HAVING COUNT<br/>(*)<br/>><br/>200<br/>)<br/>GROUP<br/>By<br/>school<br/>-<br/>id<br/>A<br/>.<br/>for each school with more than<br/>students appearing in exams, the name of the school and the number of<br/>scored by its students<br/>B<br/>.<br/>for each school with more than<br/>students in it, the name of the school and the number of<br/>scored by its<br/>students<br/>C<br/>.<br/>for each school with more than<br/>students in it, the name of the school and the number of its students scoring<br/>in at least one exam<br/>D<br/>.<br/>nothing; the query has a syntax error<br/>databases<br/>sql<br/>Safe Query<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3388/gate-it-2008-question-74"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Safe Query",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Safe Query: GATE CSE 2017 | Set 1 | Question: 41</strong></div><p>Consider a database that has the relation schemas EMP(EmpId, EmpName, DeptId), and DEPT(DeptName,<br/>DeptId). Note that the DeptId can be permitted to be NULL in the relation EMP. Consider the following<br/>queries on the database expressed in tuple relational calculus.<br/>I<br/>.<br/>{<br/>|<br/>u<br/>EMP(t[EmpName] = u[EmpName]<br/>v<br/>DEPT(t[DeptId]<br/>v[DeptId]))}<br/>II<br/>.<br/>{<br/>|<br/>u<br/>EMP(t[EmpName] = u[EmpName]<br/>v<br/>DEPT(t[DeptId]<br/>v[DeptId]))}<br/>III<br/>.<br/>{<br/>|<br/>u<br/>EMP(t[EmpName] = u[EmpName]<br/>v<br/>DEPT(t[DeptId]<br/>v[DeptId]))}<br/>Which of the above queries are safe?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118324/gate-cse-2017-set-1-question-41"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Super Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Super Key: GATE CSE 2026 | Set 1 | Question: 55</strong></div><p>Consider a relational database schema with a relation<br/>. If<br/>and<br/>are the only<br/>two candidate keys of the relation<br/>, then the number of superkeys of relation<br/>is<br/>.  (answer in<br/>integer)<br/>databases<br/>super-key<br/>Timestamp Ordering<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "6 : 6",
+      "discussUrl": "https://gateoverflow.in/523025/gate-cse-2026-set-1-question-55"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Timestamp Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Timestamp Ordering: GATE CSE 2017 | Set 1 | Question: 42</strong></div><p>In a database system, unique timestamps are assigned to each transaction using Lamport's logical clock.<br/>Let<br/>and<br/>be the timestamps of transactions<br/>and<br/>respectively. Besides,<br/>holds a<br/>lock on the resource<br/>and<br/>has requested a conﬂicting lock on the same resource<br/>The following algorithm is<br/>used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same<br/>timestamp.<br/>if<br/>then<br/>is killed<br/>else<br/>waits.<br/>Assume any transaction that is not killed terminates eventually. Which of the following is TRUE about the database<br/>system that uses the above algorithm to prevent deadlocks?<br/>A<br/>.<br/>The database system is both deadlock-free and starvation-free.<br/>B<br/>.<br/>The database system is deadlock-free, but not starvation-free.<br/>C<br/>.<br/>The database system is starvation-free, but not deadlock-free.<br/>D<br/>.<br/>The database system is neither deadlock-free nor starvation-free.<br/>databases<br/>timestamp-ordering<br/>transaction-and-concurrency<br/>Transaction and Concurrency<br/>(27)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523025/gate-cse-2026-set-1-question-55"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CS Practice : Transaction Concurrency Control (DBMS)</strong></div><p>We have a table Orders with a specific predicate range query<br/>Q<br/>:<br/>SELECT<br/>*<br/>FROM<br/>Orders<br/>WHERE<br/>Value<br/>><br/>1000<br/>Transaction<br/>executes<br/>and gets 5 rows.<br/>Transaction<br/>inserts a new row with Value = 1500 and Commits.<br/>Transaction<br/>executes<br/>again.<br/>Under which Isolation Level is it<br/>guaranteed<br/>that<br/>will still see exactly 5 rows (i.e., prevent the Phantom Read)?<br/>transaction-and-concurrency<br/>databases<br/>gate-preparation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "TBA",
+      "discussUrl": "https://gateoverflow.in/118325/gate-cse-2017-set-1-question-42"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 1999 | Question: 2.6</strong></div><p>For the schedule given below, which of the following is correct:<br/>A<br/>.<br/>This schedule is serializable and can occur in a scheme using 2PL protocol<br/>B<br/>.<br/>This schedule is serializable but cannot occur in a scheme using 2PL protocol<br/>C<br/>.<br/>This schedule is not serializable but can occur in a scheme using 2PL protocol<br/>D<br/>.<br/>This schedule is not serializable and cannot occur in a scheme using 2PL protocol<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1484/gate-cse-1999-question-2-6"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2003 | Question: 29, ISRO2009-73</strong></div><p>Which of the following scenarios may lead to an irrecoverable error in a database system?<br/>A<br/>.<br/>A transaction writes a data item after it is read by an uncommitted transaction<br/>B<br/>.<br/>A transaction reads a data item after it is read by an uncommitted transaction<br/>C<br/>.<br/>A transaction reads a data item after it is written by a committed transaction<br/>D<br/>.<br/>A transaction reads a data item after it is written by an uncommitted transaction<br/>databases<br/>transaction-and-concurrency<br/>easy<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2003 | Question: 87</strong></div><p>Consider three data items<br/>and<br/>and the following execution schedule of transactions<br/>a n d<br/>In the diagram,<br/>and<br/>denote the actions reading and writing the data item<br/>respectively.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2006 | Question: 20, ISRO2015-17</strong></div><p>Consider the following log sequence of two transactions on a bank account, with initial balance<br/>that<br/>transfer<br/>to a mortgage payment and then apply a<br/>interest.<br/>1<br/>.<br/>T1 start<br/>2<br/>.<br/>T1 B old<br/>new<br/>3<br/>.<br/>T1 M old<br/>new<br/>4<br/>.<br/>T1 commit<br/>5<br/>.<br/>T2 start<br/>6<br/>.<br/>T2 B old<br/>new<br/>7<br/>.<br/>T2 commit<br/>Suppose the database system crashes just before log record<br/>is written. When  the system is restarted, which one<br/>statement is true of the recovery procedure?<br/>A<br/>.<br/>We must redo log record<br/>to set B to<br/>B<br/>.<br/>We must undo log record<br/>to set B to<br/>and then redo log records<br/>and<br/>C<br/>.<br/>We need not redo log records<br/>and<br/>because transaction T1 has committed<br/>D<br/>.<br/>We can apply redo and undo operations in arbitrary order because they are idempotent<br/>databases<br/>transaction-and-concurrency<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2010 | Question: 20</strong></div><p>Which of the following concurrency control protocols ensure both conﬂict serializability and freedom from<br/>deadlock?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2010 | Question: 42</strong></div><p>Consider the following schedule for transactions<br/>and<br/>Which one of the schedules below is the correct serialization of the above?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2343/gate-cse-2010-question-42"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2012 | Question: 27</strong></div><p>Consider the following transactions with data items<br/>and<br/>initialized to zero:<br/>Any non-serial interleaving of<br/>T1<br/>and<br/>T2<br/>for concurrent execution leads to<br/>A<br/>.<br/>a serializable schedule<br/>B<br/>.<br/>a schedule that is not conflict serializable<br/>C<br/>.<br/>a conflict serializable schedule<br/>D<br/>.<br/>a schedule for which a precedence graph cannot be drawn<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1612/gate-cse-2012-question-27"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2015 | Set 2 | Question: 1</strong></div><p>Consider the following transaction involving two bank accounts<br/>and<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2343/gate-cse-2010-question-42"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2015 | Set 2 | Question: 46</strong></div><p>Consider a simple checkpointing protocol and the following set of operations in the log.<br/>(start, T4); (write, T4, y, 2, 3); (start, T1); (commit, T4); (write, T1, z, 5, 7);<br/>(checkpoint);<br/>(start, T2); (write, T2, x, 1, 9); (commit, T2); (start, T3); (write, T3, z, 7, 2);<br/>If a crash happens now and the system tries to recover using both undo and redo operations, what are the contents<br/>of the undo list and the redo list?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2015 | Set 3 | Question: 29</strong></div><p>Consider the partial Schedule<br/>involving two transactions<br/>and<br/>. Only the<br/>and the<br/>operations have been shown. The<br/>operation on data item<br/>is denoted by<br/>and<br/>operation on data item<br/>is denoted by<br/>.<br/>Suppose that the transaction<br/>fails immediately after time instance 9. Which of the following statements is<br/>correct?<br/>A<br/>.<br/>must be aborted and then both<br/>and<br/>must be re-started to ensure transaction atomicity<br/>B<br/>.<br/>Schedule<br/>is non-recoverable and cannot ensure transaction atomicity<br/>C<br/>.<br/>Only<br/>must be aborted and then re-started to ensure transaction atomicity<br/>D<br/>.<br/>Schedule<br/>is recoverable and can ensure transaction atomicity and nothing else needs to be done<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2016 | Set 1 | Question: 22</strong></div><p>Which one of the following is NOT a part of the ACID properties of database transactions?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2016 | Set 1 | Question: 51</strong></div><p>Consider the following two phase locking protocol. Suppose a transaction<br/>accesses (for read or write<br/>operations), a certain set of objects<br/>. This is done in the following manner:<br/>.<br/>acquires exclusive locks to<br/>in increasing order of their addresses.<br/>. The required operations are performed .<br/>. All locks are released<br/>This protocol will<br/>A<br/>.<br/>guarantee serializability and  deadlock-freedom<br/>B<br/>.<br/>guarantee neither serializability nor deadlock-freedom<br/>C<br/>.<br/>guarantee serializability but not deadlock-freedom<br/>D<br/>.<br/>guarantee deadlock-freedom but not serializability.<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2016 | Set 2 | Question: 22</strong></div><p>Suppose a database schedule<br/>involves transactions<br/>. Construct the precedence graph of<br/>with vertices representing the transactions and edges representing the conﬂicts. If<br/>is serializable, which<br/>one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Transaction and Concurrency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Transaction and Concurrency: GATE CSE 2016 | Set 2 | Question: 51</strong></div><p>Consider the following database schedule with two transactions<br/>and<br/>.<br/>Where<br/>denotes a read operation by transaction<br/>on a variable<br/>,<br/>denotes a write operation by<br/>on a variable<br/>and<br/>denotes an abort by transaction<br/>.<br/>Which one of the following statements about the above schedule is<br/>TRUE<br/>?<br/>databases<br/>transaction-and-concurrency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51"
+    }
+  ]
+}

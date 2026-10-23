@@ -1,0 +1,655 @@
+{
+  "id": "PYQ_Operating_Systems_P9",
+  "fileName": "PYQ_Operating_Systems_P9.json",
+  "title": "GATE Official PYQs | Operating Systems Part 9",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 23,
+  "totalMarks": 28,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2006 | Question: 62, ISRO2016-50</strong></div><p>A CPU generates<br/>-bit virtual addresses. The page size is<br/>KB. The processor has a translation look-<br/>aside buﬀer (TLB) which can hold a total of<br/>page table entries and is<br/>-way set associative. The<br/>minimum size of the TLB tag is:<br/>operating-system<br/>virtual-memory<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1840/gate-cse-2006-question-62-isro2016-50"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2006 | Question: 63, UGCNET-June2012-III: 45</strong></div><p>A computer system supports<br/>-bit virtual addresses as well as<br/>-bit physical addresses. Since the virtual<br/>address space is of the same size as the physical address space, the operating system designers decide to<br/>get rid of the virtual memory entirely. Which one of the following is true?<br/>A<br/>.<br/>Efficient implementation of multi-user support is no longer possible<br/>B<br/>.<br/>The processor cache organization can be made more efficient now<br/>C<br/>.<br/>Hardware support for memory management is no longer needed<br/>D<br/>.<br/>CPU scheduling can be made more efficient now<br/>operating-system<br/>virtual-memory<br/>ugcnetcse-june2012-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1840/gate-cse-2006-question-62-isro2016-50"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2008 | Question: 67</strong></div><p>A processor uses<br/>bit physical address and<br/>bit virtual addresses, with a page frame size of<br/>Kbytes.<br/>Each page table entry is of size<br/>bytes. A three level page table is used for virtual to physical address<br/>translation, where the virtual address is used as follows:<br/>Bits<br/>are used to index into the first level page table.<br/>Bits<br/>are used to index into the 2nd level page table.<br/>Bits<br/>are used to index into the 3rd level page table.<br/>Bits<br/>are used as offset within the page.<br/>The number of bits required for addressing the next level page table(or page frame) in the page table entry of the<br/>first, second and third level page tables are respectively<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/490/gate-cse-2008-question-67"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2009 | Question: 10</strong></div><p>The essential content(s) in each entry of a page table is / are<br/>operating-system<br/>virtual-memory<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1302/gate-cse-2009-question-10"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2009 | Question: 34</strong></div><p>A multilevel page table is preferred in comparison to a single level page table for translating virtual address<br/>to physical address because<br/>A<br/>.<br/>It reduces the memory access time to read or write a memory location.<br/>B<br/>.<br/>It helps to reduce the size of page table needed to implement the virtual address space of a process<br/>C<br/>.<br/>It is required by the translation lookaside buffer.<br/>D<br/>.<br/>It helps to reduce the number of page faults in page replacement algorithms.<br/>operating-system<br/>virtual-memory<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1302/gate-cse-2009-question-10"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2011 | Question: 20, UGCNET-June2013-II: 48</strong></div><p>Let the page fault service time be<br/>milliseconds(ms) in a computer with average memory access time<br/>being<br/>nanoseconds (ns). If one page fault is generated every<br/>memory accesses, what is the eﬀective<br/>access time for memory?<br/>operating-system<br/>virtual-memory<br/>ugcnetcse-june2013-paper2</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1302/gate-cse-2009-question-10"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2013 | Question: 52</strong></div><p>A computer uses<br/>virtual address,<br/>physical address, and a three–level paged page table<br/>organization. The page table base register stores the base address of the ﬁrst-level table<br/>, which<br/>occupies exactly one page. Each entry of<br/>stores the base address of a page of the second-level table<br/>.<br/>Each entry of<br/>stores the base address of a page of the third-level table<br/>Each entry of<br/>stores a page<br/>table entry<br/>The<br/>is<br/>bits in size. The processor used in the computer has a<br/>way set<br/>associative virtually indexed physically tagged cache. The cache block size is<br/>bytes.<br/>What is the size of a page in<br/>in this computer?<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2122/gate-cse-2011-question-20-ugcnet-june2013-ii-48"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2013 | Question: 53</strong></div><p>A computer uses<br/>virtual address,<br/>physical address, and a three–level paged page table<br/>organization. The page table base register stores the base address of the ﬁrst-level table<br/>which<br/>occupies exactly one page. Each entry of<br/>stores the base address of a page of the second-level table<br/>Each entry of<br/>stores the base address of a page of the third-level table<br/>Each entry of<br/>stores a page<br/>table entry<br/>The<br/>is<br/>in size. The processor used in the computer has a<br/>way set<br/>associative virtually indexed physically tagged cache. The cache block size is<br/>bytes.<br/>What is the minimum number of page colours needed to guarantee that no two synonyms map to diﬀerent sets in</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2122/gate-cse-2011-question-20-ugcnet-june2013-ii-48"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2014 | Set 3 | Question: 33</strong></div><p>Consider a paging hardware with a<br/>. Assume that the entire page table and all the pages are in the<br/>physical memory. It takes<br/>milliseconds to search the<br/>and<br/>milliseconds to access the physical<br/>memory. If the<br/>hit ratio is<br/>, the effective memory access time (in milliseconds) is _________.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "122",
+      "discussUrl": "https://gateoverflow.in/2067/gate-cse-2014-set-3-question-33"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>2<br/>Consider a system with byte-addressable memory,<br/>logical addresses,<br/>page size and<br/>page table entries of<br/>each. The size of the page table in the system in<br/>is___________.<br/>operating-system<br/>virtual-memory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/2067/gate-cse-2014-set-3-question-33"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2015 | Set 2 | Question: 25</strong></div><p>A computer system implements a<br/>virtual address, page size of<br/>, and a<br/>translation look-aside buﬀer<br/>organized into<br/>sets each having<br/>ways. Assume that the<br/>tag<br/>does not store any process id. The minimum length of the<br/>tag in bits is ______.<br/>operating-system<br/>virtual-memory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "22",
+      "discussUrl": "https://gateoverflow.in/2067/gate-cse-2014-set-3-question-33"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2015 | Set 2 | Question: 47</strong></div><p>A computer system implements<br/>pages and a<br/>physical address space. Each page table<br/>entry contains a valid bit, a dirty bit, three permission bits, and the translation. If the maximum size of the<br/>page table of a process is<br/>, the length of the virtual address supported by the system is _______<br/>bits.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "36",
+      "discussUrl": "https://gateoverflow.in/2067/gate-cse-2014-set-3-question-33"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2016 | Set 1 | Question: 47</strong></div><p>Consider a computer system with<br/>-bit virtual addressing and page size of sixteen kilobytes. If the<br/>computer system has a one-level page table per process and each page table entry requires<br/>bits, then<br/>the size of the per-process page table is __________ megabytes.<br/>operating-system<br/>virtual-memory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "384",
+      "discussUrl": "https://gateoverflow.in/2067/gate-cse-2014-set-3-question-33"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2018 | Question: 10</strong></div><p>Consider a process executing on an operating system that uses demand paging. The average time for a<br/>memory access in the system is<br/>units if the corresponding memory page is available in memory, and<br/>units if the memory access causes a page fault. It has been experimentally measured that the average time taken<br/>for a memory access in the process is<br/>units.<br/>Which one of the following is the correct expression for the page fault rate experienced by the process.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204084/gate-cse-2018-question-10"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2019 | Question: 33</strong></div><p>Assume that in a certain computer, the virtual addresses are<br/>bits long and the physical addresses are<br/>bits long. The memory is word addressible. The page size is<br/>kB and the word size is<br/>bytes. The<br/>Translation Look-aside Buﬀer (TLB) in the address translation path has<br/>valid entries. At most how many<br/>distinct virtual addresses can be translated without any TLB miss?<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302815/gate-cse-2019-question-33"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2020 | Question: 53</strong></div><p>Consider a paging system that uses<br/>-level page table residing in main memory and a<br/>for address<br/>translation. Each main memory access takes<br/>ns and<br/>lookup takes<br/>ns. Each page transfer<br/>to/from the disk takes<br/>ns. Assume that the<br/>hit ratio is<br/>, page fault rate is<br/>. Assume that for<br/>of the total page faults, a dirty page has to be written back to disk before the required page is read from disk.<br/>update time is negligible. The average memory access time in ns (round oﬀ to<br/>decimal places) is<br/>___________<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "155:156",
+      "discussUrl": "https://gateoverflow.in/333178/gate-cse-2020-question-53"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2023 | Question: 48</strong></div><p>Consider a computer system with<br/>-bit virtual addressing using multi-level tree-structured page tables with<br/>levels for virtual to physical address translation. The page size is<br/>and a page<br/>table entry at any of the levels occupies<br/>bytes.<br/>The value of<br/>is ______________.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/399263/gate-cse-2023-question-48"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2024 | Set 1 | Question: 52</strong></div><p>Consider a memory management system that uses a page size of<br/>. Assume that both the physical and<br/>virtual addresses start from<br/>. Assume that the pages<br/>, and<br/>are stored in the page frames<br/>,<br/>and<br/>, respectively. The physical address<br/>(in decimal format)<br/>corresponding to the virtual address<br/>(in decimal<br/>format)<br/>is ___________.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "6596",
+      "discussUrl": "https://gateoverflow.in/302815/gate-cse-2019-question-33"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2024 | Set 2 | Question: 14</strong></div><p>Which of the following tasks is/are the responsibility/responsibilities of the memory management unit<br/>in a system with paging-based memory management?<br/>A<br/>.<br/>Allocate a new page table for a newly created process<br/>B<br/>.<br/>Translate a virtual address to a physical address using the page table<br/>C<br/>.<br/>Raise a trap when a virtual address is not found in the page table<br/>D<br/>.<br/>Raise a trap when a process tries to write to a page marked with read-only permission in the page table<br/>operating-system<br/>multiple-selects<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/302815/gate-cse-2019-question-33"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE CSE 2024 | Set 2 | Question: 54</strong></div><p>Consider a<br/>-bit system with<br/>page size and page table entries of size<br/>bytes each. Assume<br/>bytes. The OS uses a<br/>-level page table for memory management, with the page table<br/>containing an outer page directory and an inner page table. The<br/>allocates a page for the outer page directory<br/>upon process creation. The<br/>uses demand paging when allocating memory for the inner page table, i.e., a page<br/>of the inner page table is allocated only if it contains at least one valid page table entry.<br/>An active process in this system accesses<br/>unique pages during its execution, and none of the pages are<br/>swapped out to disk. After it completes the page accesses, let<br/>denote the minimum and<br/>denote the maximum<br/>number of pages across the two levels of the page table of the process.<br/>The value of<br/>is ___________.<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [],
+      "correctAnswer": "1028",
+      "discussUrl": "https://gateoverflow.in/422843/gate-cse-2024-set-2-question-54"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE IT 2004 | Question: 66</strong></div><p>In a virtual memory system, size of the virtual address is<br/>-bit, size of the physical address is<br/>-bit, page<br/>size is<br/>Kbyte and size of each page table entry is<br/>-bit. The main memory is byte addressable. Which<br/>one of the following is the maximum number of bits that can be used for storing protection and other information in<br/>each page table entry?<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3709/gate-it-2004-question-66"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE IT 2008 | Question: 16</strong></div><p>A paging scheme uses a Translation Look-aside Buﬀer (TLB). A TLB-access takes<br/>ns and the main<br/>memory access takes<br/>ns. What is the eﬀective access time(in ns) if the TLB hit ratio is<br/>and there is<br/>no page-fault?<br/>operating-system<br/>virtual-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3276/gate-it-2008-question-16"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Virtual Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Virtual Memory: GATE IT 2008 | Question: 56</strong></div><p>Match the following ﬂag bits used in the context of virtual memory management on the left side with the<br/>different purposes on the right side of the table below.<br/>operating-system<br/>virtual-memory<br/>easy<br/>match-the-following<br/>5.1.1<br/>A<br/>5.1.2<br/>A;C<br/>5.2.1<br/>3:3<br/>5.3.1<br/>C<br/>5.3.2<br/>B<br/>5.3.3<br/>C<br/>5.3.4<br/>A;B<br/>5.4.1<br/>800<br/>5.5.1<br/>2<br/>5.5.2<br/>A;B;C</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3276/gate-it-2008-question-16"
+    }
+  ]
+}

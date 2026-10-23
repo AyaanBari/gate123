@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Compiler_Design_P1",
+  "fileName": "PYQ_Compiler_Design_P1.json",
+  "title": "GATE Official PYQs | Compiler Design Part 1",
+  "subject": "Compiler Design",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Abstract Syntax Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Abstract Syntax Tree: GATE CSE 2015 | Set 2 | Question: 14</strong></div><p>In the context of abstract-syntax-tree (AST) and control-ﬂow-graph (CFG), which one of the following is<br/>TRUE?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8084/gate-cse-2015-set-2-question-14"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Ambiguous Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ambiguous Grammar: GATE CSE 1987 | Question: 1-xii</strong></div><p>A context-free grammar is ambiguous if:<br/>A<br/>.<br/>The grammar contains useless non-terminals.<br/>B<br/>.<br/>It produces more than one parse tree for some sentence.<br/>C<br/>.<br/>Some production has two non terminals side by side on the right-hand side.<br/>D<br/>.<br/>None of the above.<br/>compiler-design<br/>parsing<br/>ambiguous-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/80291/gate-cse-1987-question-1-xii"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Ambiguous Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Ambiguous Grammar: GATE CSE 2026 | Set 2 | Question: 19</strong></div><p>Which of the following grammars is/are ambiguous?<br/>compiler-design<br/>ambiguous-grammar<br/>multiple-selects<br/>Assembler<br/>(9)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/80291/gate-cse-1987-question-1-xii"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1992 | Question: 01,viii</strong></div><p>The purpose of instruction location counter in an assembler is _______<br/>compiler-design<br/>assembler<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/553/gate-cse-1992-question-01-viii"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1992 | Question: 03,ii</strong></div><p>Mention the pass number for each of the following activities that occur in a two pass assembler:<br/>compiler-design<br/>assembler<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "TBA",
+      "discussUrl": "https://gateoverflow.in/553/gate-cse-1992-question-01-viii"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1992 | Question: 3,i</strong></div><p>Write short answers to the following:<br/>i<br/>.<br/>Which of the following macros can put a macro assembler into an infinite loop?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523127/gate-cse-2026-set-2-question-19"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1993 | Question: 7.6</strong></div><p>A simple two-pass assembler does the following in the first pass:<br/>A<br/>.<br/>It allocates space for the literals.<br/>B<br/>.<br/>It computes the total length of the program.<br/>C<br/>.<br/>It builds the symbol table for the symbols and their values.<br/>D<br/>.<br/>It generates code for all the load and store register instructions.<br/>E<br/>.<br/>None of the above.<br/>compiler-design<br/>assembler<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/2294/gate-cse-1993-question-7-6"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1994 | Question: 17a</strong></div><p>State whether the following statements are True or False with reasons for your answer:<br/>Coroutine is just another name for a subroutine.<br/>compiler-design<br/>assembler<br/>true-false<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/2513/gate-cse-1994-question-17a"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1994 | Question: 17b</strong></div><p>State whether the following statements are True or False with reasons for your answer:<br/>A two pass assembler uses its machine opcode table in the first pass of assembly.<br/>compiler-design<br/>assembler<br/>true-false<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2513/gate-cse-1994-question-17a"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1994 | Question: 18a</strong></div><p>State whether the following statements are True or False with reasons for your answer<br/>A subroutine cannot always be used to replace a macro in an assembly language program.<br/>compiler-design<br/>assembler<br/>true-false<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/2513/gate-cse-1994-question-17a"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1994 | Question: 18b</strong></div><p>State whether the following statements are True or False with reasons for your answer<br/>A symbol declared as ‘external’ in an assembly language program is assigned an address outside the program by<br/>the assembler itself.<br/>compiler-design<br/>assembler<br/>true-false<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/2513/gate-cse-1994-question-17a"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Assembler",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Assembler: GATE CSE 1996 | Question: 1.17</strong></div><p>The pass numbers for each of the following activities<br/>i<br/>.<br/>object code generation<br/>ii<br/>.<br/>literals added to literal table<br/>iii<br/>.<br/>listing printed<br/>iv<br/>.<br/>address resolution of local symbols that occur in a two pass assembler<br/>respectively are<br/>compiler-design<br/>assembler<br/>Backpatching<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2721/gate-cse-1996-question-1-17"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Backpatching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Backpatching: GATE CSE 2025 | Set 2 | Question: 11</strong></div><p>Consider the following statements about the use of backpatching in a compiler for intermediate code<br/>generation:<br/>I<br/>.<br/>Backpatching can be used to generate code for Boolean expression in one pass.<br/>II<br/>.<br/>Backpatching can be used to generate code for flow-of-control statements in one pass.<br/>Which ONE of the folloeing options is CORRECT?<br/>compiler-design<br/>backpatching<br/>intermediate-code<br/>Basic Blocks<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2721/gate-cse-1996-question-1-17"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Basic Blocks",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Basic Blocks: GATE CSE 2025 | Set 1 | Question: 42</strong></div><p>Refer to the given<br/>-address code sequence. This code sequence is split into basic blocks. The number of<br/>basic blocks is ________. (Answer in integer)<br/>1001<br/>:<br/>i<br/>=<br/>1<br/>1002<br/>:<br/>j<br/>=<br/>1<br/>1003<br/>:<br/>t1<br/>=<br/>10<br/>*<br/>i<br/>1004<br/>:<br/>t2<br/>=<br/>t1<br/>+<br/>j<br/>1005<br/>:<br/>t3<br/>=<br/>8<br/>*<br/>t2<br/>1006<br/>:<br/>t4<br/>=<br/>t3<br/>-<br/>88<br/>1007<br/>:<br/>a<br/>[<br/>t4<br/>]<br/>=<br/>0.0<br/>1008<br/>:<br/>j<br/>=<br/>j<br/>+<br/>1<br/>1009<br/>:<br/>if<br/>j<br/><=<br/>10<br/>goto<br/>1003<br/>1010<br/>:<br/>i<br/>=<br/>i<br/>+<br/>1<br/>1011<br/>:<br/>if<br/>i<br/><=<br/>10<br/>goto<br/>1002<br/>1012<br/>:<br/>i<br/>=<br/>1<br/>1013<br/>:<br/>t5<br/>=<br/>i<br/>-<br/>1<br/>1014<br/>:<br/>t6<br/>=<br/>88<br/>*<br/>t5<br/>1015<br/>:<br/>a<br/>[<br/>t6<br/>]<br/>=<br/>1.0<br/>1016<br/>:<br/>i<br/>=<br/>i<br/>+<br/>1<br/>1017<br/>:<br/>if<br/>i<br/><=<br/>10<br/>goto<br/>1013<br/>compiler-design<br/>three-address-code<br/>basic-blocks<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "6:6",
+      "discussUrl": "https://gateoverflow.in/2721/gate-cse-1996-question-1-17"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Basic Blocks",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Basic Blocks: GATE CSE 2026 | Set 2 | Question: 35</strong></div><p>Consider the control flow graph given below.<br/>Which one of the following options is the set of live variables at the exit point of each basic block?<br/>A<br/>.<br/>B<br/>.<br/>:<br/>,<br/>:<br/>d, e<br/>,<br/>:<br/>a, c, f<br/>,<br/>:<br/>C<br/>.<br/>D<br/>.<br/>compiler-design<br/>basic-blocks<br/>Code Optimization<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(13Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523111/gate-cse-2026-set-2-question-35"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2006 | Question: 55</strong></div><p>Consider these two functions and two statements S1 and S2 about them.<br/>int<br/>work1<br/>(<br/>int<br/>*<br/>a<br/>,<br/>int<br/>i<br/>,<br/>int<br/>j<br/>)<br/>{<br/>int<br/>x<br/>=<br/>a<br/>[<br/>i<br/>+<br/>2<br/>];<br/>a<br/>[<br/>j<br/>]<br/>=<br/>x<br/>+<br/>1<br/>;<br/>return<br/>a<br/>[<br/>i<br/>+<br/>2<br/>]<br/>-<br/>3<br/>;<br/>}<br/>int<br/>work2<br/>(<br/>int<br/>*<br/>a<br/>,<br/>int<br/>i<br/>,<br/>int<br/>j<br/>)<br/>{<br/>int<br/>t1<br/>=<br/>i<br/>+<br/>2<br/>;<br/>int<br/>t2<br/>=<br/>a<br/>[<br/>t1<br/>];<br/>a<br/>[<br/>j<br/>]<br/>=<br/>t2<br/>+<br/>1<br/>;<br/>return<br/>t2<br/>-<br/>3<br/>;<br/>}<br/>S1: The transformation form<br/>work1<br/>to<br/>work2<br/>is valid, i.e., for any program state and input arguments,<br/>work2<br/>will<br/>compute the same output and have the same effect on program state as<br/>work1<br/>S2: All the transformations applied to<br/>work1<br/>to get<br/>work2<br/>will always improve the performance (i.e reduce CPU<br/>time) of<br/>work2<br/>compared to<br/>work1<br/>compiler-design<br/>code-optimization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1833/gate-cse-2006-question-55"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2006 | Question: 60</strong></div><p>Consider the following C code segment.<br/>for<br/>(<br/>i<br/>=<br/>0<br/>,<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>n<br/>;<br/>j<br/>++)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1833/gate-cse-2006-question-55"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2008 | Question: 12</strong></div><p>Some code optimizations are carried out on the intermediate code because<br/>A<br/>.<br/>They enhance the portability of the compiler to the target processor<br/>B<br/>.<br/>Program analysis is more accurate on intermediate code than on machine code<br/>C<br/>.<br/>The information from dataflow analysis cannot otherwise be used for optimization<br/>D<br/>.<br/>The information from the front end cannot otherwise be used for optimization<br/>code-optimization<br/>compiler-design</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/410/gate-cse-2008-question-12"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2014 | Set 1 | Question: 17</strong></div><p>Which one of the following is<br/>FALSE<br/>?<br/>A<br/>.<br/>A basic block is a sequence of instructions where control enters the sequence at the beginning and exits at the<br/>end.<br/>B<br/>.<br/>Available expression analysis can be used for common subexpression elimination.<br/>C<br/>.<br/>Live variable analysis can be used for dead code elimination.<br/>D<br/>.<br/>is an example of common subexpression elimination.<br/>compiler-design<br/>code-optimization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/410/gate-cse-2008-question-12"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2014 | Set 3 | Question: 11</strong></div><p>The minimum number of arithmetic operations required to evaluate the polynomial<br/>for a given value of<br/>, using only one temporary variable is ______.<br/>compiler-design<br/>code-optimization</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/1784/gate-cse-2014-set-1-question-17"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2021 | Set 2 | Question: 30</strong></div><p>​​​​​​<br/>Consider the following<br/>code segment:<br/>z<br/>=<br/>x<br/>+<br/>3<br/>+<br/>y<br/>-><br/>f1<br/>+<br/>y<br/>-><br/>f2<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>200<br/>;<br/>i<br/>=<br/>i<br/>+<br/>2<br/>)<br/>{<br/>if<br/>(<br/>z<br/>><br/>i<br/>)<br/>{<br/>p<br/>=<br/>p<br/>+<br/>x<br/>+<br/>3<br/>;<br/>q<br/>=<br/>q<br/>+<br/>y<br/>-><br/>f1<br/>;<br/>}<br/>else<br/>{</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/410/gate-cse-2008-question-12"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2025 | Set 1 | Question: 3</strong></div><p>Which ONE of the following techniques used in compiler code optimization uses live variable analysis?<br/>compiler-design<br/>code-optimization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460077/gate-cse-2025-set-1-question-3"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Code Optimization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Code Optimization: GATE CSE 2026 | Set 1 | Question: 32</strong></div><p>Consider the control flow graph shown in the figure.<br/>Which one of the following options correctly lists the set of redundant expressions (common subexpressions) in the<br/>basic blocks B<br/>and B<br/>?<br/>Note: All the variables are integers.<br/>A<br/>.<br/>B4:<br/>B5:<br/>B<br/>.<br/>B4:<br/>B5:<br/>C<br/>.<br/>B4:<br/>B5:<br/>D<br/>.<br/>B4:<br/>B5:<br/>compiler-design<br/>code-optimization<br/>Compilation Phases<br/>(13)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460077/gate-cse-2025-set-1-question-3"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 1987 | Question: 1-xi</strong></div><p>In a compiler the module that checks every character of the source text is called:<br/>compiler-design<br/>compilation-phases<br/>lexical-analysis</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/80282/gate-cse-1987-question-1-xi"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 1990 | Question: 2-ix</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>compiler-design<br/>compilation-phases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80282/gate-cse-1987-question-1-xi"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2005 | Question: 61</strong></div><p>Consider line number<br/>of the following C-program.<br/>int<br/>main<br/>()<br/>{<br/>/*Line 1 */<br/>int<br/>I<br/>,<br/>N<br/>;<br/>/*Line 2 */<br/>fro<br/>(<br/>I<br/>=<br/>0<br/>,<br/>I<br/><<br/>N<br/>,<br/>I<br/>++);<br/>/*Line 3 */<br/>}<br/>Identify the compiler’s response about this line while creating the object-module:<br/>compiler-design<br/>compilation-phases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/4066/gate-cse-2005-question-61"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2009 | Question: 17</strong></div><p>Match all items in Group 1 with the correct options from those given in Group 2.<br/>compiler-design<br/>easy<br/>compilation-phases<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1309/gate-cse-2009-question-17"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2015 | Set 2 | Question: 19</strong></div><p>Match the following:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/80282/gate-cse-1987-question-1-xi"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2016 | Set 2 | Question: 19</strong></div><p>Match the following:<br/>compiler-design<br/>easy<br/>match-the-following<br/>compilation-phases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39548/gate-cse-2016-set-2-question-19"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2017 | Set 2 | Question: 05</strong></div><p>Match the following according to input (from the left column) to the compiler phase (in the right column) that<br/>processes it:<br/>compiler-design<br/>match-the-following<br/>compilation-phases<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39548/gate-cse-2016-set-2-question-19"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2018 | Question: 8</strong></div><p>Which one of the following statements is FALSE?<br/>A<br/>.<br/>Context-free grammar can be used to specify both lexical and syntax rules<br/>B<br/>.<br/>Type checking is done before parsing<br/>C<br/>.<br/>High-level language programs can be translated to different Intermediate Representations<br/>D<br/>.<br/>Arguments to a function can be passed using the program stack<br/>compiler-design<br/>easy<br/>compilation-phases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39548/gate-cse-2016-set-2-question-19"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2020 | Question: 9</strong></div><p>Consider the following statements.<br/>I<br/>.<br/>Symbol table is accessed only during lexical analysis and syntax analysis.<br/>II<br/>.<br/>Compilers for programming languages that support recursion necessarily need heap storage for memory<br/>allocation in the run-time environment.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39548/gate-cse-2016-set-2-question-19"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2021 | Set 2 | Question: 3</strong></div><p>Consider the following<br/>program:<br/>int<br/>main<br/>()<br/>{<br/>Integer<br/>x<br/>;<br/>return<br/>0<br/>;<br/>}<br/>Which one of the following phases in a seven-phase<br/>compiler will throw an error?<br/>compilation-phases<br/>compiler-design</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2023 | Question: 1</strong></div><p>Consider the following statements regarding the front-end and back-end of a compiler.<br/>S1:<br/>The front-end includes phases that are independent of the target hardware.<br/>S2:<br/>The back-end includes phases that are specific to the target hardware.<br/>S3:<br/>The back-end includes phases that are specific to the programming language used in the source code.<br/>Identify the CORRECT option.<br/>compiler-design<br/>compilation-phases</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2024 | Set 2 | Question: 11</strong></div><p>​​​<br/>Consider the following two sets:<br/>Which one of the following options is the CORRECT match from<br/>Set<br/>to Set<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>compiler-design<br/>compilation-phases<br/>match-the-following<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Compilation Phases",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compilation Phases: GATE CSE 2026 | Set 1 | Question: 17</strong></div><p>Consider the following C statements:<br/>char<br/>*<br/>str1<br/>=<br/>\"Hello;    /* Statement S1 */<br/>char *str2 = \"<br/>Hello<br/>;<br/>\";  /* Statement S2 */<br/>int *str3 = \"<br/>Hello<br/>\";    /* Statement S3 */<br/>Which of the following options is/are correct?<br/>A<br/>.<br/>and<br/>have syntactic errors<br/>B<br/>.<br/>has a lexical error and<br/>has a syntactic error<br/>C<br/>.<br/>has a lexical error and<br/>has a semantic error<br/>D<br/>.<br/>has a syntactic error and<br/>has a semantic error<br/>compiler-design<br/>multiple-selects<br/>compilation-phases<br/>Compiler tokenization<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523063/gate-cse-2026-set-1-question-17"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Compiler tokenization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Compiler tokenization: GATE CSE 2026 | Set 2 | Question: 25</strong></div><p>A lexical analyzer uses the following token definitions<br/>For the string given below,<br/>the number of tokens (excluding ws) that will be produced by the lexical analyzer is<br/>. (answer in integer)<br/>compiler-design<br/>compiler-tokenization<br/>Directed Acyclic Graph<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "13:13",
+      "discussUrl": "https://gateoverflow.in/523063/gate-cse-2026-set-1-question-17"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Directed Acyclic Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Directed Acyclic Graph: GATE CSE 2014 | Set 3 | Question: 34</strong></div><p>Consider the basic block given below.<br/>a<br/>=<br/>b<br/>+<br/>c<br/>c<br/>=<br/>a<br/>+<br/>d<br/>d<br/>=<br/>b<br/>+<br/>c<br/>e<br/>=<br/>d<br/>-<br/>b<br/>a<br/>=<br/>e<br/>+<br/>b<br/>The minimum number of nodes and edges present in the DAG representation of the above basic block respectively<br/>are<br/>compiler-design<br/>code-optimization<br/>directed-acyclic-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523063/gate-cse-2026-set-1-question-17"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Directed Acyclic Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Directed Acyclic Graph: GATE CSE 2021 | Set 1 | Question: 50</strong></div><p>Consider the following<br/>code segment:<br/>a<br/>=<br/>b<br/>+<br/>c<br/>;<br/>e<br/>=<br/>a<br/>+<br/>1<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "6 : 6",
+      "discussUrl": "https://gateoverflow.in/523063/gate-cse-2026-set-1-question-17"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expression Evaluation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expression Evaluation: GATE CSE 2002 | Question: 2.19</strong></div><p>To evaluate an expression without any embedded function calls<br/>A<br/>.<br/>One stack is enough<br/>B<br/>.<br/>Two stacks are needed<br/>C<br/>.<br/>As many stacks as the height of the expression tree are needed<br/>D<br/>.<br/>A Turing machine is needed in the general case<br/>compiler-design<br/>expression-evaluation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/849/gate-cse-2002-question-2-19"
+    }
+  ]
+}

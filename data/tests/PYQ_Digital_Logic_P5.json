@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Digital_Logic_P5",
+  "fileName": "PYQ_Digital_Logic_P5.json",
+  "title": "GATE Official PYQs | Digital Logic Part 5",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 1998 | Question: 5</strong></div><p>The implication gate, shown below has two inputs (<br/>; the output is 1 except when<br/>using only four implication gates.<br/>Show that the implication gate is functionally complete.<br/>digital-logic<br/>functional-completeness<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/556/gate-cse-1992-question-02-ii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 1999 | Question: 2.9</strong></div><p>Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/test/2178"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE CSE 2015 | Set 1 | Question: 39</strong></div><p>Consider the operations<br/>and<br/>Which one of the following is correct?<br/>A<br/>.<br/>Both<br/>and<br/>are functionally complete<br/>B<br/>.<br/>Only<br/>is functionally complete<br/>C<br/>.<br/>Only<br/>is functionally complete<br/>D<br/>.<br/>Neither<br/>nor<br/>is functionally complete<br/>boolean-algebra<br/>difficult<br/>functional-completeness</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8294/gate-cse-2015-set-1-question-39"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functional Completeness",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functional Completeness: GATE IT 2008 | Question: 1</strong></div><p>A set of Boolean connectives is functionally complete if all Boolean functions can be synthesized using<br/>those. Which of the following sets of connectives is NOT functionally complete?<br/>digital-logic<br/>easy<br/>functional-completeness<br/>IEEE Representation<br/>(14)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8294/gate-cse-2015-set-1-question-39"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2008 | Question: 4</strong></div><p>In the IEEE floating point representation the hexadecimal value<br/>corresponds to<br/>digital-logic<br/>floating-point-representation<br/>ieee-representation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8294/gate-cse-2015-set-1-question-39"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2012 | Question: 7</strong></div><p>The decimal value<br/>in IEEE single precision floating point representation has<br/>A<br/>.<br/>fraction bits of<br/>and exponent value of<br/>B<br/>.<br/>fraction bits of<br/>and exponent value of<br/>C<br/>.<br/>fraction bits of<br/>and exponent value of<br/>D<br/>.<br/>no exact representation<br/>digital-logic<br/>number-representation<br/>ieee-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/2197"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2014 | Set 2 | Question: 45</strong></div><p>The value of a<br/>type variable is represented using the single-precision<br/>ﬂoating point format of<br/>standard that uses<br/>for sign,<br/>for biased exponent and<br/>for the mantissa. A<br/>type variable<br/>is assigned the decimal value of<br/>. The representation of<br/>in hexadecimal notation is<br/>digital-logic<br/>number-representation<br/>ieee-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2011/gate-cse-2014-set-2-question-45"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2017 | Set 2 | Question: 12</strong></div><p>Given the following binary number in<br/>-bit (single precision)<br/>format :<br/>The decimal value closest to this floating-point number is :<br/>digital-logic<br/>ieee-representation<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2011/gate-cse-2014-set-2-question-45"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2020 | Question: 29</strong></div><p>Consider three registers<br/>,<br/>, and<br/>that store numbers in<br/>single precision ﬂoating point<br/>format. Assume that<br/>and<br/>contain the values (in hexadecimal notation)<br/>and<br/>respectively.<br/>If<br/>, what is the value stored in<br/>?<br/>digital-logic<br/>ieee-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333202/gate-cse-2020-question-29"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2021 | Set 1 | Question: 24</strong></div><p>Consider the following representation of a number in<br/>single-precision ﬂoating point format with a<br/>bias of<br/>.<br/>Here<br/>and<br/>denote the sign, exponent, and fraction components of the floating point representation.<br/>The decimal value corresponding to the above representation (rounded to<br/>decimal places) is ____________.<br/>digital-logic<br/>number-representation<br/>ieee-representation<br/>floating-point-representation</p></div>",
+      "options": [],
+      "correctAnswer": "-7.75",
+      "discussUrl": "https://gateoverflow.in/2011/gate-cse-2014-set-2-question-45"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2021 | Set 2 | Question: 4</strong></div><p>The format of the single-precision ﬂoating point representation of a real number as per the<br/>standard is as follows:<br/>Which one of the following choices is correct with respect to the<br/>smallest<br/>normalized positive number represented<br/>using the standard?<br/>A<br/>.<br/>exponent<br/>and mantissa<br/>B<br/>.<br/>exponent<br/>and mantissa<br/>C<br/>.<br/>exponent<br/>and mantissa</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2011/gate-cse-2014-set-2-question-45"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2022 | Question: 31</strong></div><p>Consider three ﬂoating point numbers<br/>and<br/>stored in registers<br/>and<br/>respectively as per<br/>single precision ﬂoating point format. The<br/>content stored in these registers<br/>are as follows.<br/>Which one of the following is<br/>digital-logic<br/>ieee-representation<br/>number-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371905/gate-cse-2022-question-31"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2023 | Question: 35</strong></div><p>Consider the<br/>single precision floating point numbers<br/>and<br/>Which one of the following corresponds to the product of these numbers<br/>represented in the<br/>single precision format?<br/>digital-logic<br/>number-representation<br/>ieee-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399276/gate-cse-2023-question-35"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2024 | Set 2 | Question: 4</strong></div><p>​​<br/>The format of a single-precision floating-point number as per the<br/>standard is:<br/>Choose the largest floating-point number among the following options.<br/>A.<br/>B.<br/>C.<br/>D.<br/>digital-logic<br/>number-representation<br/>ieee-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/371905/gate-cse-2022-question-31"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2025 | Set 2 | Question: 39</strong></div><p>Three ﬂoating point numbers<br/>, and<br/>are stored in three registers<br/>, and<br/>, respectively in<br/>single precision format as given below in hexadecimal:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/371905/gate-cse-2022-question-31"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2026 | Set 1 | Question: 26</strong></div><p>Consider the real valued variables<br/>and<br/>represented using the IEEE<br/>singleprecision ﬂoating-<br/>point format. The binary representations of<br/>and<br/>in hexadecimal notation are as follows:<br/>Let<br/>.<br/>Which one of the following is the binary representation of<br/>, in hexadecimal notation?<br/>digital-logic<br/>ieee-representation<br/>floating-point-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523054/gate-cse-2026-set-1-question-26"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE CSE 2026 | Set 2 | Question: 24</strong></div><p>The<br/>-bit<br/>single precision representation of a number is<br/>. The number in decimal<br/>representation is<br/>. (rounded off to two decimal places)<br/>digital-logic<br/>ieee-representation</p></div>",
+      "options": [],
+      "correctAnswer": "-60.25:-60.25",
+      "discussUrl": "https://gateoverflow.in/523054/gate-cse-2026-set-1-question-26"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IEEE Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IEEE Representation: GATE IT 2008 | Question: 7</strong></div><p>The following bit pattern represents a floating point number in IEEE<br/>single precision format<br/>The value of the number in decimal form is<br/>digital-logic<br/>ieee-representation<br/>number-representation<br/>floating-point-representation<br/>K Map<br/>(17)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(5Q)<br/>Weekly Quiz 1<br/>(15Q)<br/>Weekly Quiz 2<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3267/gate-it-2008-question-7"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1987 | Question: 16-a</strong></div><p>A Boolean function<br/>is to be realized only by<br/>gates. Its<br/>-map is given below:<br/>The realization is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/82698/gate-cse-1987-question-16-a"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1988 | Question: 3a-b</strong></div><p>The Karnaugh map of a function of<br/>is shown on the left hand side of the above figure.<br/>The reduced form of the same map is shown on the right hand side, in which the variable<br/>is entered in the map<br/>itself. Discuss,<br/>a<br/>.<br/>The methodology by which the reduced map has been derived and<br/>b<br/>.<br/>the rules (or steps) by which the boolean function can be derived from the entries in the reduced map.<br/>descriptive<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94358/gate-cse-1988-question-3a-b"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1992 | Question: 01-i</strong></div><p>The Boolean function in sum of products form where K-map is given below (figure) is _______<br/>digital-logic<br/>k-map<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/545/gate-cse-1992-question-01-i"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1995 | Question: 15-b</strong></div><p>What is the equivalent minimal Boolean expression (in sum of products form) for the Karnaugh map given<br/>below?<br/>digital-logic<br/>boolean-algebra<br/>k-map<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/203837/gate-cse-1995-question-15-b"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1996 | Question: 2.24</strong></div><p>What is the equivalent Boolean expression in product-of-sums form for the Karnaugh map given in Fig<br/>digital-logic<br/>k-map<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2753/gate-cse-1996-question-2-24"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1998 | Question: 2.7</strong></div><p>The function represented by the Karnaugh map given below is<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2753/gate-cse-1996-question-2-24"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 1999 | Question: 1.8</strong></div><p>Which of the following functions implements the Karnaugh map shown below?<br/>digital-logic<br/>k-map<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2753/gate-cse-1996-question-2-24"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2000 | Question: 2.11</strong></div><p>Which functions does NOT implement the Karnaugh map given below?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2753/gate-cse-1996-question-2-24"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2001 | Question: 1.11</strong></div><p>Given the following karnaugh map, which one of the following represents the minimal Sum-Of-Products of<br/>the map?<br/>k-map<br/>digital-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/704/gate-cse-2001-question-1-11"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2002 | Question: 1.12</strong></div><p>Minimum sum of product expression for<br/>shown in Karnaugh-map below<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/704/gate-cse-2001-question-1-11"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2003 | Question: 45</strong></div><p>The literal count of a Boolean expression is the sum of the number of times each literal appears in the<br/>expression. For example, the literal count of<br/>is<br/>What are the minimum possible literal counts<br/>of the product-of-sum and sum-of-product representations respectively of the function given by the following<br/>Karnaugh map? Here,<br/>denotes \"don't care\"<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/936/gate-cse-2003-question-45"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2008 | Question: 5</strong></div><p>In the Karnaugh map shown below,<br/>denotes a don’t care term. What is the minimal form of the function<br/>represented by the Karnaugh map?<br/>digital-logic<br/>k-map<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/403/gate-cse-2008-question-5"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2012 | Question: 30</strong></div><p>What is the minimal form of the Karnaugh map shown below? Assume that<br/>denotes a don’t care term<br/>digital-logic<br/>k-map<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1615/gate-cse-2012-question-30"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE CSE 2025 | Set 2 | Question: 33</strong></div><p>​​​​<br/>Given the following Karnaugh Map for a Boolean function<br/>:<br/>Which one or more of the following Boolean expression(s) represent(s)<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>k-map<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/403/gate-cse-2008-question-5"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE IT 2006 | Question: 35</strong></div><p>The boolean function for a combinational circuit with four inputs is represented by the following Karnaugh<br/>map.<br/>Which of the product terms given below is an essential prime implicant of the function?<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3574/gate-it-2006-question-35"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE IT 2007 | Question: 78</strong></div><p>Consider the following expression<br/>Which of the following Karnaugh Maps correctly represents the expression?<br/>digital-logic<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3530/gate-it-2007-question-78"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "K Map",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>K Map: GATE IT 2007 | Question: 79</strong></div><p>Consider the following expression<br/>Which of the following expressions does not correspond to the Karnaugh Map obtained for the given expression?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>k-map<br/>Little Endian Big Endian<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3530/gate-it-2007-question-78"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Little Endian Big Endian",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Little Endian Big Endian: GATE CSE 2021 | Set 2 | Question: 44</strong></div><p>If the numerical value of a<br/>-byte unsigned integer on a little endian computer is<br/>more than that on a big<br/>endian computer, which of the following choices represent(s) the unsigned integer on a little endian<br/>computer?</p></div>",
+      "options": [],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/3574/gate-it-2006-question-35"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 1995 | Question: 2.2</strong></div><p>The capacity of a memory unit is deﬁned by the number of words multiplied by the number of bits/word. How<br/>many separate address and data lines are needed for a memory of<br/>?<br/>digital-logic<br/>memory-interfacing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2199"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2009 | Question: 7, ISRO2015-3</strong></div><p>How many<br/>RAM chips are needed to provide a memory capacity of<br/>bytes?<br/>digital-logic<br/>memory-interfacing<br/>easy<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1299/gate-cse-2009-question-7-isro2015-3"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2010 | Question: 7</strong></div><p>The main memory unit with a capacity of<br/>is built using<br/>DRAM chips. Each DRAM<br/>chip has<br/>rows of cells with<br/>cells in each row. The time taken for a single refresh operation is<br/>. The time required to perform one refresh operation on all the cells in the memory unit is<br/>digital-logic<br/>memory-interfacing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1299/gate-cse-2009-question-7-isro2015-3"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2013 | Question: 46</strong></div><p>A RAM chip has a capacity of 1024 words of 8 bits each (1K × 8). The number of 2 × 4 decoders with enable<br/>line needed to construct a 16K × 16 RAM from 1K × 8 RAM is<br/>(A) 4      (B) 5      (C) 6      (D) 7<br/>digital-logic<br/>memory-interfacing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1555/gate-cse-2013-question-46"
+    }
+  ]
+}

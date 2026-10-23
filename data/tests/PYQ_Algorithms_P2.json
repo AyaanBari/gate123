@@ -1,0 +1,1267 @@
+{
+  "id": "PYQ_Algorithms_P2",
+  "fileName": "PYQ_Algorithms_P2.json",
+  "title": "GATE Official PYQs | Algorithms Part 2",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 49,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bellman Ford",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bellman Ford: GATE CSE 2013 | Question: 19</strong></div><p>What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete graph of n<br/>vertices?<br/>algorithms<br/>graph-algorithms<br/>bellman-ford<br/>Binary Heap<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1441/gate-cse-2013-question-19"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2026 | Set 1 | Question: 13</strong></div><p>Let<br/>be an odd number greater than<br/>. Consider a binary minheap with<br/>elements stored in an array<br/>whose index starts from<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/3270/gate-it-2008-question-10"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search: GATE CSE 2021 | Set 2 | Question: 8</strong></div><p>What is the worst-case number of arithmetic operations performed by recursive binary search on a sorted<br/>array of size<br/>?<br/>algorithms<br/>binary-search<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/2014"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search: GATE DA 2025 | Question: 17</strong></div><p>For which of the following inputs does binary search take time<br/>in the worst case?<br/>A<br/>.<br/>An array of<br/>integers in any order<br/>B<br/>.<br/>A linked list of<br/>integers in any order<br/>C<br/>.<br/>An array of<br/>integers in increasing order<br/>D<br/>.<br/>A linked list of<br/>integers in increasing order<br/>gateda-2025<br/>algorithms<br/>binary-search<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461005/gate-da-2025-question-17"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Binary Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search: GATE DA 2026 | Question: 21</strong></div><p>Let A be a sorted array containing<br/>distinct integers. You perform a recursive binary search on<br/>to ﬁnd<br/>an element<br/>. Suppose each comparison checks whether the middle element computed during the current<br/>recursive step is equal to, less than, or greater than<br/>.<br/>The maximum number of comparisons that may have to be performed if<br/>is not an element of<br/>is<br/>. (Answer<br/>in integer)<br/>gateda-2026<br/>algorithms<br/>binary-search<br/>Binary Search: GATE DS&AI 2024 | Question: 30<br/>Let<br/>denote the maximum number of comparisons made while searching for an entry in a sorted array<br/>of size<br/>using binary search.<br/>Which ONE of the following options is TRUE?<br/>gate-ds-ai-2024<br/>algorithms<br/>binary-search<br/>Binary Search Tree<br/>(3)</p></div>",
+      "options": [],
+      "correctAnswer": "10:10",
+      "discussUrl": "https://gateoverflow.in/357532/gate-cse-2021-set-2-question-8"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Search Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search Tree: GATE CSE 2026 | Set 1 | Question: 30</strong></div><p>Let<br/>be the set of all integers from<br/>to<br/>. Consider any order of insertion of the elements of<br/>into a<br/>binary search tree that creates a complete binary tree.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2014"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Binary Search Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search Tree: GATE CSE 2026 | Set 1 | Question: 52</strong></div><p>The following sequence corresponds to the preorder traversal of a binary search tree<br/>:<br/>The position of the element<br/>in the postorder traversal of<br/>is<br/>. (answer in integer)<br/>Note: The position begins with<br/>.<br/>binary-search-tree<br/>algorithms</p></div>",
+      "options": [],
+      "correctAnswer": "7 : 7",
+      "discussUrl": "https://gateoverflow.in/523028/gate-cse-2026-set-1-question-52"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Binary Search Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Search Tree: GATE CSE 2026 | Set 2 | Question: 39</strong></div><p>Consider a binary search tree (BST) with<br/>leaf nodes<br/>. Given any node<br/>, the key present in the<br/>node is denoted as<br/>. All the keys present in the given BST are distinct. The keys belong to the set of<br/>real numbers.<br/>For a node<br/>, let<br/>denote the node that is its inorder successor. If a node<br/>does not have an inorder<br/>successor, then<br/>is<br/>. As there are no duplicates, if<br/>is not<br/>, then<br/>.<br/>Corresponding to every leaf node<br/>that has a non-NULL<br/>, a new key<br/>with the following property is to<br/>be inserted into the BST.<br/>Let<br/>represent the list of all such new keys to be inserted into the BST.<br/>Which of the following statements is/are true?<br/>A<br/>.<br/>cannot have any duplicates<br/>B<br/>.<br/>will have at least one element<br/>C<br/>.<br/>After inserting all keys from<br/>, the height of the BST can increase at most by one<br/>D<br/>.<br/>Number of nodes in the BST will double after inserting all keys from<br/>algorithms<br/>binary-search-tree<br/>multiple-selects<br/>Binary Tree<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/523028/gate-cse-2026-set-1-question-52"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2026 | Set 1 | Question: 23</strong></div><p>The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The<br/>maximum possible height of a full binary tree with<br/>nodes is<br/>.(answer in integer)<br/>algorithms<br/>binary-tree<br/>Breadth First Search<br/>(3)</p></div>",
+      "options": [],
+      "correctAnswer": "11 : 11",
+      "discussUrl": "https://gateoverflow.in/523028/gate-cse-2026-set-1-question-52"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Breadth First Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Breadth First Search: GATE CSE 2025 | Set 1 | Question: 33</strong></div><p>Let<br/>be an undirected and unweighted graph with<br/>vertices. Let<br/>denote the number of<br/>edges in a shortest path between vertices<br/>and<br/>in<br/>. Let the maximum value of<br/>such<br/>that<br/>, be<br/>. Let<br/>be any breadth-ﬁrst-search tree of<br/>. Which ONE of the given options is CORRECT for<br/>every such graph<br/>?<br/>algorithms<br/>breadth-first-search<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460047/gate-cse-2025-set-1-question-33"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Breadth First Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Breadth First Search: GATE DA 2026 | Question: 30</strong></div><p>Consider a directed graph<br/>, where<br/>is the ﬁnite set of vertices and<br/>is the set of directed<br/>edges between the vertices.<br/>may contain cycles but there is no self-loop. Further,<br/>may not be strongly<br/>connected.<br/>Let<br/>be the graph obtained by reversing the directions of all the edges in<br/>without changing the set of vertices.<br/>Assume that Breadth First Search (BFS) or Depth First Search (DFS) from any given vertex<br/>of a graph visits only<br/>the reachable vertices from<br/>in that graph.<br/>Which of the following statements must always be true, regardless of the structure of<br/>A<br/>.<br/>If<br/>is a reachable vertex in the BFS of<br/>from<br/>, then<br/>is also a reachable vertex in the DFS of<br/>from<br/>.<br/>B<br/>.<br/>In<br/>, the BFS traversal from<br/>will visit exactly the same set of vertices as the DFS from<br/>in<br/>.<br/>C<br/>.<br/>The order of vertices visited in the BFS of<br/>from<br/>is the reverse of the order of vertices visited in the DFS of<br/>from<br/>.<br/>D<br/>.<br/>If<br/>is a reachable vertex in the DFS of<br/>from<br/>, then<br/>is also a reachable vertex in the BFS of<br/>from<br/>.<br/>gateda-2026<br/>algorithms<br/>graph-algorithms<br/>breadth-first-search<br/>depth-first-search<br/>Breadth First Search: GATE DS&AI 2024 | Question: 34<br/>Consider a state space where the start state is number<br/>. The successor function for the state numbered<br/>returns two states numbered<br/>and<br/>. Assume that the states in the unexpanded state list are<br/>expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded<br/>state list.<br/>Which ONE of the following statements about breadth-ﬁrst search (BFS) and depth-ﬁrst search (DFS) is true, when<br/>reaching the goal state number<br/>?<br/>A<br/>.<br/>BFS expands more states than DFS.<br/>B<br/>.<br/>DFS expands more states than BFS.<br/>C<br/>.<br/>Both BFS and DFS expand equal number of states.<br/>D<br/>.<br/>Both BFS and DFS do not reach the goal state number<br/>.<br/>gate-ds-ai-2024<br/>algorithms<br/>breadth-first-search<br/>depth-first-search<br/>Bubble Sort<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523185/gate-da-2026-question-30"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bubble Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bubble Sort: GATE CSE 1995 | Question: 12</strong></div><p>Consider the following sequence of numbers:<br/>Use Bubble sort to arrange the sequence in ascending order. Give the sequence at the end of each of the ﬁrst ﬁve<br/>passes.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2648/gate-cse-1995-question-12"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Computer Science",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Computer Science: GATE CS Practice : The \"Master Theorem\" (Algorithms)</strong></div><p>Consider the following recurrence relation describing the running time of an algorithm:<br/>What is the asymptotic tight bound<br/>?<br/>algorithms<br/>master-theorem<br/>recurrence-relation<br/>computer-science<br/>gate-preparation<br/>Depth First Search<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "TBA",
+      "discussUrl": "https://gateoverflow.in/505833/gate-cs-practice-the-master-theorem-algorithms"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Depth First Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Depth First Search: GATE CSE 2026 | Set 1 | Question: 40</strong></div><p>Consider the following pseudocode for depth-ﬁrst search (DFS) algorithm which takes a directed graph<br/>as input, where<br/>and<br/>are the discovery time and ﬁnishing time, respectively, of the vertex<br/>.<br/>Suppose that the input directed graph<br/>is a directed acyclic graph (DAG).<br/>For an edge<br/>, which of the following options will NEVER be correct?<br/>algorithms<br/>depth-first-search<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/test/2017"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Depth First Search",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Depth First Search: GATE DA 2025 | Question: 55</strong></div><p>Consider a directed graph<br/>, where<br/>and<br/>,<br/>for all<br/>. Suppose the adjacency list of each vertex is in decreasing order of vertex number, and<br/>depth-ﬁrst search<br/>is performed at vertex<br/>. The number of vertices that will be discovered after vertex<br/>is<br/>____________ (Answer in integer)<br/>gateda-2025<br/>algorithms<br/>depth-first-search<br/>Dijkstras Algorithm<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)</p></div>",
+      "options": [],
+      "correctAnswer": "75:75",
+      "discussUrl": "https://gateoverflow.in/460967/gate-da-2025-question-55"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dijkstras Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dijkstras Algorithm: GATE CSE 1996 | Question: 17</strong></div><p>Let<br/>be the directed, weighted graph shown in below figure<br/>We are interested in the shortest paths from<br/>.<br/>a<br/>.<br/>Output the sequence of vertices identiﬁed by the Dijkstra’s algorithm for single source shortest path when the<br/>algorithm is started at node<br/>b<br/>.<br/>Write down sequence of vertices in the shortest path from<br/>to<br/>c<br/>.<br/>What is the cost of the shortest path from<br/>to<br/>?<br/>algorithms<br/>graph-algorithms<br/>dijkstras-algorithm<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2769/gate-cse-1996-question-17"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dijkstras Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dijkstras Algorithm: GATE CSE 2004 | Question: 44</strong></div><p>Suppose we run Dijkstra’s single source shortest path algorithm on the following edge-weighted directed<br/>graph with vertex<br/>as the source.<br/>In what order do the nodes get included into the set of vertices for which the shortest path distances are finalized?<br/>algorithms<br/>graph-algorithms<br/>dijkstras-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1041/gate-cse-2004-question-44"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dijkstras Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dijkstras Algorithm: GATE CSE 2005 | Question: 38</strong></div><p>Let<br/>be an undirected graph with positive edge weights. Dijkstra’s single source shortest path<br/>algorithm can be implemented using the binary heap data structure with time complexity:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1374/gate-cse-2005-question-38"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dijkstras Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dijkstras Algorithm: GATE CSE 2006 | Question: 12</strong></div><p>To implement Dijkstra’s shortest path algorithm on unweighted graphs so that it runs in linear time, the data<br/>structure to be used is:<br/>algorithms<br/>graph-algorithms<br/>easy<br/>dijkstras-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/891/gate-cse-2006-question-12"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dijkstras Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dijkstras Algorithm: GATE CSE 2008 | Question: 45</strong></div><p>Dijkstra's single source shortest path algorithm when run from vertex<br/>in the above graph, computes the correct<br/>shortest path distance to<br/>algorithms<br/>graph-algorithms<br/>dijkstras-algorithm<br/>Directed Acyclic Graph<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/457/gate-cse-2008-question-45"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Directed Acyclic Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Directed Acyclic Graph: GATE CSE 2021 | Set 2 | Question: 55</strong></div><p>In a directed acyclic graph with a source vertex<br/>, the<br/>of a directed path is deﬁned to be the<br/>product of the weights of the edges on the path. Further, for a vertex<br/>other than<br/>, the quality-score of<br/>is<br/>deﬁned to be the maximum among the quality-scores of all the paths from<br/>to<br/>. The quality-score of<br/>is assumed<br/>to be<br/>.<br/>The sum of the quality-scores of all vertices on the graph shown above is _______<br/>algorithms<br/>graph-algorithms<br/>directed-acyclic-graph</p></div>",
+      "options": [],
+      "correctAnswer": "929 : 929",
+      "discussUrl": "https://gateoverflow.in/891/gate-cse-2006-question-12"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Directed Acyclic Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Directed Acyclic Graph: GATE CSE 2026 | Set 2 | Question: 27</strong></div><p>Let<br/>be a weighted directed acyclic graph with<br/>edges and<br/>vertices. Given<br/>and a source vertex<br/>in<br/>, which one of the following options gives the worst case time complexity of the fastest algorithm to ﬁnd the<br/>lengths of shortest paths from<br/>to all vertices that are reachable from<br/>in</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/891/gate-cse-2006-question-12"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Double Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Double Hashing: GATE CSE 2020 | Question: 23</strong></div><p>Consider a double hashing scheme in which the primary hash function is<br/>, and the<br/>secondary hash function is<br/>. Assume that the table size is<br/>. Then the address<br/>returned by probe<br/>in the probe sequence (assume that the probe sequence begins at probe<br/>) for key value<br/>is_____________.<br/>algorithms<br/>hashing<br/>double-hashing</p></div>",
+      "options": [],
+      "correctAnswer": "13",
+      "discussUrl": "https://gateoverflow.in/333208/gate-cse-2020-question-23"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Double Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Double Hashing: GATE CSE 2025 | Set 1 | Question: 55</strong></div><p>In a double hashing scheme,<br/>and<br/>are the auxiliary hash<br/>functions. The size<br/>of the hash table is<br/>. The hash function for the<br/>-th probe in the open address table<br/>is<br/>. The following keys are inserted in the given order:<br/>.<br/>The slot at which key<br/>gets stored is ___________ . (Answer in integer)<br/>algorithms<br/>hashing<br/>double-hashing<br/>easy<br/>Dynamic Programming<br/>(10)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(13Q)</p></div>",
+      "options": [],
+      "correctAnswer": "10:10",
+      "discussUrl": "https://gateoverflow.in/460025/gate-cse-2025-set-1-question-55"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2008 | Question: 80</strong></div><p>The subset-sum problem is deﬁned as follows. Given a set of<br/>positive integers,<br/>, and positive integer<br/>, is there a subset of<br/>whose elements sum to<br/>? A<br/>dynamic program for solving this problem uses a<br/>Boolean array,<br/>, with<br/>rows and<br/>columns.<br/>, is TRUE, if and only if there is a subset of<br/>whose<br/>elements sum to<br/>.<br/>Which of the following is valid for<br/>, and<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>difficult<br/>dynamic-programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/498/gate-cse-2008-question-80"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2008 | Question: 81</strong></div><p>The subset-sum problem is deﬁned as follows. Given a set of<br/>positive integers,<br/>, and positive integer<br/>, is there a subset of<br/>whose elements sum to<br/>? A<br/>dynamic program for solving this problem uses a<br/>Boolean array,<br/>, with<br/>rows and<br/>columns.<br/>, is TRUE, if and only if there is a subset of<br/>whose<br/>elements sum to<br/>.<br/>Which entry of the array<br/>, if TRUE, implies that there is a subset whose elements sum to<br/>?<br/>algorithms<br/>dynamic-programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/498/gate-cse-2008-question-80"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2009 | Question: 53</strong></div><p>A sub-sequence of a given sequence is just the given sequence with some elements (possibly none or all)<br/>left out. We are given two sequences<br/>and<br/>of lengths<br/>and<br/>, respectively with indexes of<br/>and<br/>starting from<br/>.<br/>We wish to ﬁnd the length of the longest common sub-sequence (LCS) of<br/>and<br/>as<br/>, where an<br/>incomplete recursive deﬁnition for the function<br/>to compute the length of the LCS of<br/>and<br/>is given<br/>below:<br/>l(i,j)  = 0, if either i = 0 or j = 0<br/>= expr1, if i,j > 0 and X[i-1] = Y[j-1]<br/>= expr2, if i,j > 0 and X[i-1] ≠ Y[j-1]<br/>Which one of the following options is correct?<br/>algorithms<br/>dynamic-programming<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1338/gate-cse-2009-question-53"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2009 | Question: 54</strong></div><p>A sub-sequence of a given sequence is just the given sequence with some elements (possibly none or all)<br/>left out. We are given two sequences<br/>and<br/>of lengths<br/>and<br/>, respectively with indexes of<br/>and<br/>starting from<br/>.<br/>We wish to ﬁnd the length of the longest common sub-sequence (LCS) of<br/>and<br/>as<br/>, where an<br/>incomplete recursive deﬁnition for the function<br/>to compute the length of the LCS of<br/>and<br/>is given<br/>below:<br/>l(i,j)  = 0, if either i = 0 or j = 0<br/>= expr1, if i,j > 0  and  X[i-1] = Y[j-1]<br/>= expr2, if i,j > 0  and  X[i-1] ≠ Y[j-1]<br/>The value of<br/>could be obtained by dynamic programming based on the correct recursive deﬁnition of<br/>of the form given above, using an array<br/>, where<br/>and<br/>, such that<br/>.<br/>Which one of the following statements would be TRUE regarding the dynamic programming solution for the<br/>recursive definition of<br/>?<br/>A<br/>.<br/>All elements of<br/>should be initialized to 0 for the values of<br/>to be properly computed.<br/>B<br/>.<br/>The values of<br/>may be computed in a row major order or column major order of<br/>.<br/>C<br/>.<br/>The values of<br/>cannot be computed in either row major order or column major order of<br/>.<br/>D<br/>.<br/>needs to be computed before<br/>if either<br/>or<br/>.<br/>algorithms<br/>dynamic-programming<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1338/gate-cse-2009-question-53"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2010 | Question: 34</strong></div><p>The weight of a sequence<br/>of real numbers is deﬁned as<br/>.<br/>A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order<br/>of the remaining elements the same. Let<br/>denote the maximum possible weight of a subsequence of<br/>and<br/>the maximum possible weight of a subsequence of<br/>. Then<br/>is equal to<br/>algorithms<br/>dynamic-programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43476/gate-cse-2009-question-54"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2011 | Question: 25</strong></div><p>An algorithm to ﬁnd the length of the longest monotonically increasing sequence of numbers in an array<br/>is given below.<br/>Let<br/>, denote the length of the longest monotonically increasing sequence starting at index<br/>in the array.<br/>Initialize<br/>.<br/>For all<br/>such that<br/>Finally, the length of the longest monotonically increasing sequence is<br/>Which of the following statements is<br/>TRUE<br/>?<br/>A<br/>.<br/>The algorithm uses dynamic programming paradigm<br/>B<br/>.<br/>The algorithm has a linear complexity and uses branch and bound paradigm<br/>C<br/>.<br/>The algorithm has a non-linear polynomial complexity and uses branch and bound paradigm<br/>D<br/>.<br/>The algorithm uses divide and conquer paradigm<br/>algorithms<br/>easy<br/>dynamic-programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2127/gate-cse-2011-question-25"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2014 | Set 2 | Question: 37</strong></div><p>Consider two strings<br/>=<br/>\"qpqrr\"<br/>and<br/>=<br/>\"pqprqrp\"<br/>. Let<br/>be the length of the longest common<br/>subsequence<br/>(not necessarily contiguous)<br/>between<br/>and<br/>and let<br/>be the number of such longest<br/>common subsequences between<br/>and<br/>. Then<br/>___.<br/>algorithms<br/>dynamic-programming</p></div>",
+      "options": [],
+      "correctAnswer": "34",
+      "discussUrl": "https://gateoverflow.in/2127/gate-cse-2011-question-25"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2014 | Set 3 | Question: 37</strong></div><p>Suppose you want to move from<br/>to<br/>on the number line. In each step, you either move right by a unit<br/>distance or you take a<br/>shortcut<br/>. A shortcut is simply a pre-speciﬁed pair of integers<br/>. Given a<br/>shortcut<br/>, if you are at position<br/>on the number line, you may directly move to<br/>. Suppose<br/>denotes the<br/>smallest number of steps needed to move from<br/>to<br/>. Suppose further that there is at most<br/>shortcut involving<br/>any number, and in particular, from<br/>there is a shortcut to<br/>. Let<br/>and<br/>be such that<br/>. Then the value of the product<br/>is _____.<br/>algorithms<br/>dynamic-programming</p></div>",
+      "options": [],
+      "correctAnswer": "150",
+      "discussUrl": "https://gateoverflow.in/1996/gate-cse-2014-set-2-question-37"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2016 | Set 2 | Question: 14</strong></div><p>The Floyd-Warshall algorithm for all-pair shortest paths computation is based on<br/>A<br/>.<br/>Greedy paradigm.<br/>B<br/>.<br/>Divide-and-conquer paradigm.<br/>C<br/>.<br/>Dynamic Programming paradigm.<br/>D<br/>.<br/>Neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm.<br/>algorithms<br/>dynamic-programming<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2127/gate-cse-2011-question-25"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Dynamic Programming: GATE CSE 2026 | Set 2 | Question: 29</strong></div><p>Consider a table<br/>, where the elements<br/>, represent the cost of the optimal solutions of<br/>diﬀerent subproblems of a problem that is being solved using a dynamic programming algorithm. The<br/>recursive formulation to compute the table entries is as follows:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2127/gate-cse-2011-question-25"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 1994 | Question: 1.22</strong></div><p>Which of the following statements is false?<br/>A<br/>.<br/>Optimal binary search tree construction can be performed efficiently using dynamic programming<br/>B<br/>.<br/>Breadth-first search cannot be used to find connected components of a graph<br/>C<br/>.<br/>Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.<br/>D<br/>.<br/>Depth-first search can be used to find connected components of a graph<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1989"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2003 | Question: 70</strong></div><p>Let<br/>be a directed graph with<br/>vertices. A path from<br/>to<br/>in<br/>is a sequence of vertices (<br/>) such that<br/>for all<br/>in<br/>through<br/>. A simple path is a path in which no<br/>vertex appears more than once.<br/>Let<br/>be an<br/>array initialized as follows:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/957/gate-cse-2003-question-70"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2005 | Question: 82a</strong></div><p>Let<br/>and<br/>be two vertices in a undirected graph<br/>having distinct positive edge weights. Let<br/>be a partition of<br/>such that<br/>and<br/>. Consider the edge<br/>having the minimum  weight<br/>amongst all those edges that have one vertex in<br/>and one vertex in<br/>.<br/>The edge<br/>must definitely belong to:<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1404/gate-cse-2005-question-82a"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2005 | Question: 82b</strong></div><p>Let<br/>and<br/>be two vertices in a undirected graph<br/>having distinct positive edge weights. Let<br/>be a partition of<br/>such that<br/>and<br/>. Consider the edge<br/>having the minimum  weight<br/>amongst all those edges that have one vertex in<br/>and one vertex in<br/>.<br/>Let the weight of an edge<br/>denote the congestion on that edge. The congestion on a path is deﬁned to be the<br/>maximum of the congestions on the edges of the path. We wish to ﬁnd the path from<br/>to<br/>having minimum<br/>congestion. Which of the following paths is always such a path of minimum congestion?<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1404/gate-cse-2005-question-82a"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2016 | Set 2 | Question: 41</strong></div><p>In an adjacency list representation of an undirected simple graph<br/>, each edge<br/>has two<br/>adjacency list entries:<br/>in the adjacency list of<br/>, and<br/>in the adjacency list of<br/>. These are called twins<br/>of each other. A twin pointer is a pointer from an adjacency list entry to its twin. If<br/>and<br/>, and the<br/>memory size is not a constraint, what is the time complexity of the most eﬃcient algorithm to set the twin pointer in<br/>each entry in each adjacency list?<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1404/gate-cse-2005-question-82a"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Algorithms: GATE CSE 2017 | Set 1 | Question: 26</strong></div><p>Let<br/>be<br/>connected, undirected, edge-weighted graph. The weights of the edges in<br/>are<br/>positive and distinct. Consider the following statements:<br/>I<br/>.<br/>Minimum Spanning Tree of<br/>is always unique.<br/>II<br/>.<br/>Shortest path between any two vertices of<br/>is always unique.<br/>Which of the above statements is/are necessarily true?<br/>algorithms<br/>graph-algorithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118306/gate-cse-2017-set-1-question-26"
+    }
+  ]
+}

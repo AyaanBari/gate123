@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P4",
+  "fileName": "PYQ_Discrete_Mathematics_P4.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 4",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Isomorphism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Isomorphism: GATE CSE 2014 | Set 2 | Question: 51</strong></div><p>A cycle on<br/>vertices is isomorphic to its complement. The value of<br/>is _____.<br/>graph-theory<br/>graph-isomorphism</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/3458/gate-it-2007-question-25"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Isomorphism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Isomorphism: GATE CSE 2015 | Set 2 | Question: 28</strong></div><p>A graph is self-complementary if it is isomorphic to its complement. For all self-complementary graphs on<br/>vertices,<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3458/gate-it-2007-question-25"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Isomorphism",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Isomorphism: GATE CSE 2022 | Question: 40</strong></div><p>The following simple undirected graph is referred to as the Peterson graph.<br/>Which of the following statements is/are<br/>A<br/>.<br/>The chromatic number of the graph is<br/>B<br/>.<br/>The graph has a Hamiltonian path.<br/>C<br/>.<br/>The following graph is isomorphic to the Peterson graph.<br/>D<br/>.<br/>The size of the largest independent set of the given graph is<br/>(A subset of vertices of a graph form an<br/>independent set if no two vertices of the subset are adjacent.)<br/>graph-theory<br/>graph-isomorphism<br/>multiple-selects<br/>Graph Matching<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/371896/gate-cse-2022-question-40"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Matching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Matching: GATE CSE 2003 | Question: 36</strong></div><p>How many perfect matching are there in a complete graph of<br/>vertices?<br/>graph-theory<br/>graph-matching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/926/gate-cse-2003-question-36"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Matching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Matching: GATE CSE 2026 | Set 1 | Question: 47</strong></div><p>Let<br/>be an undirected graph, which is a path on<br/>vertices. The number of matchings in<br/>is<br/>.<br/>(answer in integer)<br/>graph-theory<br/>graph-matching<br/>Graph Planarity<br/>(13)</p></div>",
+      "options": [],
+      "correctAnswer": "34 : 34",
+      "discussUrl": "https://gateoverflow.in/371896/gate-cse-2022-question-40"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 1987 | Question: 2e</strong></div><p>State whether the following statement is TRUE or FALSE:<br/>There is a linear-time algorithm for testing the planarity of finite graphs.<br/>graph-theory<br/>graph-planarity<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "TBA",
+      "discussUrl": "https://gateoverflow.in/371896/gate-cse-2022-question-40"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 1989 | Question: 3-vi</strong></div><p>Which of the following graphs is/are planar?<br/>graph-theory<br/>graph-planarity<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87129/gate-cse-1989-question-3-vi"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 1990 | Question: 3-xi</strong></div><p>A graph is planar if and only if,<br/>A<br/>.<br/>It does not contain a subgraph homeomorphic to<br/>and<br/>.<br/>B<br/>.<br/>It does not contain a subgraph isomorphic to<br/>and<br/>.<br/>C<br/>.<br/>It does not contain a subgraph isomorphic to<br/>or<br/>D<br/>.<br/>It does not contain a subgraph homeomorphic to<br/>or<br/>.<br/>graph-theory<br/>graph-planarity<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/87129/gate-cse-1989-question-3-vi"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 1992 | Question: 01,x</strong></div><p>Maximum number of edges in a planar graph with<br/>vertices is _____<br/>graph-theory<br/>graph-planarity<br/>easy<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/554/gate-cse-1992-question-01-x"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 1992 | Question: 02,viii</strong></div><p>A non-planar graph with minimum number of vertices has<br/>graph-theory<br/>graph-planarity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/554/gate-cse-1992-question-01-x"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2005 | Question: 10</strong></div><p>Let<br/>be a simple connected planar graph with<br/>vertices and<br/>edges. Then, the number of faces in the<br/>planar embedding of the graph is:<br/>graph-theory<br/>graph-planarity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1159/gate-cse-2005-question-10"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2005 | Question: 47</strong></div><p>Which one of the following graphs is NOT planar?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1159/gate-cse-2005-question-10"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2008 | Question: 23</strong></div><p>Which of the following statements is true for every planar graph on<br/>vertices?<br/>graph-theory<br/>graph-planarity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/421/gate-cse-2008-question-23"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2011 | Question: 17</strong></div><p>K4 and Q3 are graphs with the following structures.<br/>Which one of the following statements is<br/>TRUE<br/>in relation to these graphs?<br/>graph-theory<br/>graph-planarity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2119/gate-cse-2011-question-17"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2012 | Question: 17</strong></div><p>Let<br/>be a simple undirected planar graph on<br/>vertices with<br/>edges. If<br/>is a connected graph, then the<br/>number of<br/>bounded<br/>faces in any embedding of<br/>on the plane is equal to<br/>graph-theory<br/>graph-planarity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2119/gate-cse-2011-question-17"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2014 | Set 3 | Question: 52</strong></div><p>Let<br/>denote the minimum degree of a vertex in a graph. For all planar graphs on<br/>vertices with<br/>,<br/>which one of the following is<br/>TRUE<br/>?<br/>A<br/>.<br/>In any planar embedding, the number of faces is at least</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/421/gate-cse-2008-question-23"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2015 | Set 1 | Question: 54</strong></div><p>Let G be a connected planar graph with<br/>vertices. If the number of edges on each face is three, then the<br/>number of edges in G is_______________.<br/>graph-theory<br/>graph-connectivity<br/>graph-planarity</p></div>",
+      "options": [],
+      "correctAnswer": "24",
+      "discussUrl": "https://gateoverflow.in/8364/gate-cse-2015-set-1-question-54"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Graph Planarity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Graph Planarity: GATE CSE 2021 | Set 1 | Question: 16</strong></div><p>In an undirected connected planar graph<br/>, there are eight vertices and ﬁve faces. The number of edges in<br/>is _________.<br/>graph-theory<br/>graph-planarity<br/>easy<br/>Jaccard Coefficient<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "11 : 11",
+      "discussUrl": "https://gateoverflow.in/8364/gate-cse-2015-set-1-question-54"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Jaccard Coefficient",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Jaccard Coefficient: GATE CSE 2026 | Set 2 | Question: 26</strong></div><p>Consider a complete graph<br/>with<br/>vertices (<br/>). Note that multiple spanning trees can be<br/>constructed over<br/>. Each of these spanning trees is represented as a set of edges. The Jaccard<br/>coeﬃcient between any two sets is deﬁned as the ratio of the size of the intersection of the two sets to the size of<br/>the union of the two sets.<br/>Which one of the following options gives the lowest possible value for the Jaccard coeﬃcient between any two<br/>spanning trees of<br/>?<br/>graph-theory<br/>jaccard-coefficient<br/>2.1.1<br/>D<br/>2.1.2<br/>D<br/>2.1.3<br/>X<br/>2.2.1<br/>N/A<br/>2.2.2<br/>N/A<br/>2.2.3<br/>N/A<br/>2.2.4<br/>D<br/>2.2.5<br/>C<br/>2.2.6<br/>C<br/>2.2.7<br/>B<br/>2.2.8<br/>C<br/>2.2.9<br/>D<br/>2.2.10<br/>C<br/>2.2.11<br/>C<br/>2.2.12<br/>16<br/>2.2.13<br/>A<br/>2.3.1<br/>B;C<br/>2.4.1<br/>D<br/>2.4.2<br/>C<br/>2.4.3<br/>A<br/>2.4.4<br/>4<br/>2.4.5<br/>3<br/>2.4.6<br/>7<br/>2.4.7<br/>A;B<br/>2.4.8<br/>B;C<br/>2.4.9<br/>2<br/>2.4.10<br/>C<br/>2.4.11<br/>B<br/>2.5.1<br/>N/A<br/>2.5.2<br/>N/A<br/>2.5.3<br/>N/A<br/>2.5.4<br/>N/A<br/>2.5.5<br/>N/A<br/>2.5.6<br/>C;D<br/>2.5.7<br/>C<br/>2.5.8<br/>N/A<br/>2.5.9<br/>N/A<br/>2.5.10<br/>B<br/>2.5.11<br/>D<br/>2.5.12<br/>N/A<br/>2.5.13<br/>B<br/>2.5.14<br/>C<br/>2.5.15<br/>B<br/>2.5.16<br/>A<br/>2.5.17<br/>B<br/>2.5.18<br/>C<br/>2.5.19<br/>D<br/>2.5.20<br/>A<br/>2.5.21<br/>506<br/>2.5.22<br/>36<br/>2.5.23<br/>C<br/>2.5.24<br/>B<br/>2.5.25<br/>C;D<br/>2.5.26<br/>C<br/>2.5.27<br/>A<br/>2.5.28<br/>36<br/>2.5.29<br/>D<br/>2.5.30<br/>A<br/>2.5.31<br/>16<br/>2.5.32<br/>D<br/>2.5.33<br/>B<br/>2.5.34<br/>D<br/>2.5.35<br/>A<br/>2.5.36<br/>B<br/>2.5.37<br/>D</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8364/gate-cse-2015-set-1-question-54"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 1989 | Question: 14a</strong></div><p>Symbolize the expression \"Every mother loves her children\" in predicate logic.<br/>descriptive<br/>first-order-logic<br/>mathematical-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/93179/gate-cse-1989-question-14a"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 1991 | Question: 15,b</strong></div><p>Consider the following first order formula:<br/>Does it have finite models?<br/>Is it satisfiable? If so, give a countable model for it.<br/>mathematical-logic<br/>first-order-logic<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/26748/gate-cse-1991-question-15-b"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 1992 | Question: 92,xv</strong></div><p>Which of the following predicate calculus statements is/are valid?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/256/gate-cse-1992-question-92-xv"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2003 | Question: 32</strong></div><p>Which of the following is a valid ﬁrst order formula? (Here<br/>and<br/>are ﬁrst order formulae with<br/>as their<br/>only free variable)<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/922/gate-cse-2003-question-32"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2003 | Question: 33</strong></div><p>Consider the following formula and its two interpretations<br/>and<br/>.<br/>: Domain: the set of natural numbers</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/922/gate-cse-2003-question-32"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2004 | Question: 23, ISRO2007-32</strong></div><p>Identify the correct translation into logical notation of the following assertion.<br/>Some boys in the class are taller than all the girls<br/>Note:<br/>is true if<br/>is taller than<br/>.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>easy<br/>isro2007<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1020/gate-cse-2004-question-23-isro2007-32"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2005 | Question: 41</strong></div><p>What is the first order predicate calculus statement equivalent to the following?<br/>\"Every teacher is liked by some student\"<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1166/gate-cse-2005-question-41"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2006 | Question: 26</strong></div><p>Which one of the ﬁrst order predicate calculus statements given below correctly expresses the following<br/>English statement?<br/>Tigers and lions attack if they are hungry or threatened.<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic<br/>tricky</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/989/gate-cse-2006-question-26"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2007 | Question: 22</strong></div><p>Let<br/>be a predicate which denotes that<br/>is a graph. Let<br/>be a predicate which<br/>denotes that<br/>is connected. Which of the following ﬁrst order logic sentences<br/>DOES NOT<br/>represent the<br/>statement:<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1220/gate-cse-2007-question-22"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2008 | Question: 30</strong></div><p>Let<br/>and<br/>be two predicates such that<br/>means<br/>is a ﬁnite state automaton and<br/>means<br/>that<br/>is a pushdown automaton. Let<br/>be another predicate such that<br/>means<br/>and<br/>are equivalent. Which of the following first order logic statements represent the following?<br/>Each finite state automaton has an equivalent pushdown automaton<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>easy<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/441/gate-cse-2008-question-30"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2009 | Question: 23</strong></div><p>Which one of the following is the most appropriate logical formula to represent the statement?<br/>\"Gold and silver ornaments are precious\".<br/>The following notations are used:<br/>is a gold ornament<br/>is a silver ornament<br/>is precious<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/800/gate-cse-2009-question-23"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2009 | Question: 26</strong></div><p>Consider the following well-formed formulae:<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>Which of the above are equivalent?<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/800/gate-cse-2009-question-23"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2010 | Question: 30</strong></div><p>Suppose the predicate<br/>is used to represent the statement that person<br/>can fool person<br/>at time<br/>.<br/>Which one of the statements below expresses best the meaning of the formula,<br/>A<br/>.<br/>Everyone can fool some person at some time<br/>B<br/>.<br/>No one can fool everyone all the time<br/>C<br/>.<br/>Everyone cannot fool some person all the time<br/>D<br/>.<br/>No one can fool some person at some time<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1156/gate-cse-2010-question-30"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2011 | Question: 30</strong></div><p>Which one of the following options is CORRECT given three positive integers<br/>and<br/>, and a predicate<br/>A<br/>.<br/>being true means that<br/>is a prime number<br/>B<br/>.<br/>being true means that<br/>is a number other than<br/>C<br/>.<br/>is always true irrespective of the value of<br/>D<br/>.<br/>being true means that<br/>has exactly two factors other than<br/>and<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1156/gate-cse-2010-question-30"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2012 | Question: 13</strong></div><p>What is the correct translation of the following statement into mathematical logic?<br/>“Some real numbers are rational”<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2132/gate-cse-2011-question-30"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2013 | Question: 27</strong></div><p>What is the logical translation of the following statement?<br/>\"None of my friends are perfect.\"<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1538/gate-cse-2013-question-27"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2013 | Question: 47</strong></div><p>Which one of the following is<br/>NOT<br/>logically equivalent to<br/>?<br/>mathematical-logic<br/>marks-to-all<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/1538/gate-cse-2013-question-27"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2014 | Set 1 | Question: 1</strong></div><p>Consider the statement<br/>\"Not all that glitters is gold”<br/>Predicate glitters<br/>is true if<br/>glitters and predicate gold<br/>is true if<br/>is gold.  Which one of the following logical<br/>formulae represents the above statement?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/769/gate-cse-2014-set-1-question-1"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2014 | Set 3 | Question: 53</strong></div><p>The CORRECT formula for the sentence, \"not all Rainy days are Cold\" is<br/>mathematical-logic<br/>easy<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/769/gate-cse-2014-set-1-question-1"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2015 | Set 2 | Question: 55</strong></div><p>Which one of the following  well-formed formulae is a tautology?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/769/gate-cse-2014-set-1-question-1"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "First Order Logic",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>First Order Logic: GATE CSE 2016 | Set 2 | Question: 27</strong></div><p>Which one of the following well-formed formulae in predicate calculus is<br/>NOT<br/>valid ?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>mathematical-logic<br/>first-order-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/769/gate-cse-2014-set-1-question-1"
+    }
+  ]
+}

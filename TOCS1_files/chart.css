@@ -1,0 +1,43 @@
+ section{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(241, 240, 231, 0.911);
+  border: 1px solid olivedrab;
+  }
+  .Questions{
+  width: 25%;
+  height: 400px;
+  margin-left: 80px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid red;
+  float: left;
+  }
+  #q1 #q2{
+    background-color: #AED6F1 ;
+  }
+  .Marks{
+  width: 25%;
+  height: 400px;
+  margin-left: 80px;
+  padding: 10px;
+  float: left;
+  background-color: #ffffff;
+  border: 2px solid orange;
+  }
+  #m1 #m2{
+    background-color: #AED6F1 ;
+  }
+  .Time{
+  width: 25%;
+  height: 400px;
+  margin-left: 80px;
+  padding: 10px;
+  float: left;
+  background-color:#ffffff;
+  border: 1px solid orchid;
+  }
+  #t1 #t2{
+    background-color: #AED6F1 ;
+  }
+  

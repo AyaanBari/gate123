@@ -1,0 +1,1330 @@
+{
+  "id": "PYQ_Computer_Networks_P3",
+  "fileName": "PYQ_Computer_Networks_P3.json",
+  "title": "GATE Official PYQs | Computer Networks Part 3",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2025 | Set 2 | Question: 8</strong></div><p>A machine receives an<br/>datagram. The protocol ﬁeld of the<br/>header has the protocol number of a<br/>protocol<br/>.<br/>Which ONE of the following is NOT a possible candidate for<br/>?<br/>computer-networks<br/>ip-addressing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/422869/gate-cse-2024-set-2-question-28"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Addressing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Addressing: GATE CSE 2026 | Set 2 | Question: 23</strong></div><p>If an IP network uses a subnet mask of<br/>, the maximum number of IP addresses that can be<br/>assigned to network interfaces is<br/>. (answer in integer)<br/>computer-networks<br/>ip-addressing<br/>IP Packet<br/>(12)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(3Q)</p></div>",
+      "options": [],
+      "correctAnswer": "4094",
+      "discussUrl": "https://gateoverflow.in/422869/gate-cse-2024-set-2-question-28"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2006 | Question: 5</strong></div><p>For which one of the following reasons does internet protocol(IP) use the time-to-live(TTL) ﬁeld in IP<br/>datagram header?<br/>A<br/>.<br/>Ensure packets reach destination within that time<br/>B<br/>.<br/>Discard packets that reach later than that time<br/>C<br/>.<br/>Prevent packets from looping indefinitely<br/>D<br/>.<br/>Limit the time for which a packet gets queued in intermediate routers<br/>computer-networks<br/>ip-addressing<br/>ip-packet<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460827/gate-cse-2025-set-2-question-8"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2010 | Question: 15. PGEE 2018</strong></div><p>One of the header ﬁelds in an IP datagram is the Time-to-Live (TTL) ﬁeld. Which of the following statements<br/>best explains the need for this field?<br/>computer-networks<br/>ip-packet<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2014 | Set 3 | Question: 25</strong></div><p>Host A (on TCP/IP v4 network A) sends an IP datagram D to host B (also on TCP/IP v4 network B). Assume<br/>that no error occurred during the transmission of D. When D reaches B, which of the following IP header<br/>field(s) may be different from that of the original datagram D?<br/>i<br/>.<br/>TTL<br/>ii<br/>.<br/>Checksum<br/>iii<br/>.<br/>Fragment Offset<br/>computer-networks<br/>ip-packet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2059/gate-cse-2014-set-3-question-25"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2014 | Set 3 | Question: 28</strong></div><p>An<br/>router with a<br/>of<br/>bytes has received an<br/>packet of<br/>size<br/>with an<br/>header of length<br/>. The values of the relevant ﬁelds in the header of the<br/>third<br/>fragment generated by the router for this packet are:<br/>A<br/>.<br/>:<br/>Datagram Length:<br/>Offset<br/>B<br/>.<br/>:<br/>Datagram Length<br/>Offset<br/>C<br/>.<br/>:<br/>Datagram Length<br/>Offset<br/>D<br/>.<br/>:<br/>Datagram Length<br/>Offset<br/>computer-networks<br/>fragmentation<br/>ip-packet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2059/gate-cse-2014-set-3-question-25"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2015 | Set 1 | Question: 22</strong></div><p>Which of the following fields of an IP header is NOT modified by a typical IP router?<br/>computer-networks<br/>ip-packet<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2015 | Set 2 | Question: 52</strong></div><p>sends a<br/>datagram containing<br/>of user data to<br/>over an<br/>Ethernet frames may carry data up to<br/>Size of<br/>header is<br/>and size of<br/>header is<br/>There is no option ﬁeld in<br/>header. How many total number of<br/>fragments will be transmitted and what will be the contents of offset field in the last fragment?<br/>computer-networks<br/>fragmentation<br/>ip-packet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2016 | Set 1 | Question: 53</strong></div><p>An IP datagram of size<br/>arrives at a router. The router has to forward this packet on a link whose<br/>MTU (maximum transmission unit) is<br/>. Assume that the size of the IP header is<br/>The number of fragments that the IP datagram will be divided into for transmission is________.<br/>computer-networks<br/>fragmentation<br/>ip-packet</p></div>",
+      "options": [],
+      "correctAnswer": "13",
+      "discussUrl": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2024 | Set 1 | Question: 21</strong></div><p>Which of the following ﬁelds is/are modiﬁed in the<br/>header of a packet going out of a network address<br/>translation<br/>device from an internal network to an external network?<br/>multiple-selects<br/>computer-networks<br/>ip-packet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2024 | Set 1 | Question: 55</strong></div><p>Consider sending an<br/>datagram of size<br/>bytes (including<br/>bytes of<br/>header) from a sender to a<br/>receiver over a path of two links with a router between them. The ﬁrst link (sender to router) has an<br/>(Maximum Transmission Unit) size of<br/>bytes, while the second link (router to receiver) has an<br/>size of<br/>bytes. The number of fragments that would be delivered at the receiver is ____________.<br/>computer-networks<br/>ip-packet<br/>fragmentation</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2024 | Set 2 | Question: 18</strong></div><p>​​​​​<br/>Which of the following statements about<br/>fragmentation is/are TRUE?<br/>A<br/>.<br/>The fragmentation of an<br/>datagram is performed<br/>only<br/>at the source of the datagram<br/>B<br/>.<br/>The fragmentation of an<br/>datagram is performed at any<br/>router which ﬁnds that the size of the datagram<br/>to be transmitted exceeds the<br/>C<br/>.<br/>The reassembly of fragments is performed<br/>only<br/>at the destination of the datagram<br/>D<br/>.<br/>The reassembly of fragments is performed at all intermediate routers along the path from the source to the<br/>destination<br/>computer-networks<br/>multiple-selects<br/>ip-packet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE CSE 2024 | Set 2 | Question: 22</strong></div><p>Which of the following ﬁelds of an<br/>header is/are<br/>always<br/>modiﬁed by any router before it forwards the<br/>packet?<br/>computer-networks<br/>multiple-selects<br/>ip-packet<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IP Packet",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IP Packet: GATE IT 2004 | Question: 86</strong></div><p>In the TCP/IP protocol suite, which one of the following is NOT part of the IP header?<br/>computer-networks<br/>ip-packet<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3730/gate-it-2004-question-86"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Icmp",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Icmp: GATE IT 2005 | Question: 26</strong></div><p>Traceroute reports a possible route that is taken by packets moving from some host<br/>to some other host<br/>. Which of the following options represents the technique used by traceroute to identify these hosts:<br/>A<br/>.<br/>By progressively querying routers about the next router on the path to<br/>using<br/>packets, starting with the<br/>first router<br/>B<br/>.<br/>By requiring each router to append the address to the<br/>packet as it is forwarded to<br/>. The list of all<br/>routers en-route to<br/>is returned by<br/>in an<br/>reply packet<br/>C<br/>.<br/>By ensuring that an<br/>reply packet is returned to<br/>by each router en-route to<br/>in the ascending order of<br/>their hop distance from<br/>D<br/>.<br/>By locally computing the shortest path from<br/>to<br/>computer-networks<br/>icmp<br/>application-layer-protocols<br/>LAN Technologies<br/>(7)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3772/gate-it-2005-question-26"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE CSE 2003 | Question: 83</strong></div><p>A<br/>long broadcast LAN has<br/>bps bandwidth and uses CSMA/CD. The signal travels along the wire<br/>at<br/>m/s. What is the minimum packet size that can be used on this network?<br/>computer-networks<br/>lan-technologies</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/966/gate-cse-2003-question-83"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE CSE 2007 | Question: 65</strong></div><p>There are<br/>stations in slotted LAN. Each station attempts to transmit with a probability<br/>in each time slot.<br/>What is the probability that<br/>ONLY<br/>one station transmits in a given time slot?<br/>computer-networks<br/>lan-technologies<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1263/gate-cse-2007-question-65"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE CSE 2014 | Set 2 | Question: 25</strong></div><p>In the diagram shown below,<br/>is an Ethernet LAN and<br/>is a Token-Ring LAN. An<br/>packet originates<br/>from sender<br/>and traverses to<br/>, as shown. The links within each<br/>and across the two<br/>s, are all<br/>point-to-point optical links. The initial value of the<br/>ﬁeld is<br/>. The maximum possible value of the<br/>ﬁeld<br/>when<br/>receives the datagram is _______.<br/>computer-networks<br/>lan-technologies<br/>ethernet</p></div>",
+      "options": [],
+      "correctAnswer": "26",
+      "discussUrl": "https://gateoverflow.in/3772/gate-it-2005-question-26"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE CSE 2019 | Question: 49</strong></div><p>Consider that<br/>machines need to be connected in a LAN using<br/>-port Ethernet switches. Assume that<br/>these switches do not have any separate uplink ports. The minimum number of switches needed is ______<br/>computer-networks<br/>lan-technologies</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/302799/gate-cse-2019-question-49"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE IT 2004 | Question: 27</strong></div><p>A host is connected to a Department network which is part of a University network. The University network,<br/>in turn, is part of the Internet. The largest network in which the Ethernet address of the host is unique is<br/>computer-networks<br/>lan-technologies<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302799/gate-cse-2019-question-49"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE IT 2005 | Question: 28</strong></div><p>Which of the following statements is FALSE regarding a bridge?<br/>computer-networks<br/>lan-technologies</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3774/gate-it-2005-question-28"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "LAN Technologies",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>LAN Technologies: GATE IT 2006 | Question: 66</strong></div><p>A router has two full-duplex Ethernet interfaces each operating at<br/>. Ethernet frames are at least<br/>long (including the Preamble and the Inter-Packet-Gap). The maximum packet processing time at<br/>the router for wirespeed forwarding to be possible is (in micro<br/>​<br/>seconds)<br/>computer-networks<br/>lan-technologies<br/>ethernet<br/>MAC Protocol<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3668/gate-it-2004-question-27"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "MAC Protocol",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>MAC Protocol: GATE CSE 2005 | Question: 74</strong></div><p>Suppose the round trip propagation delay for a<br/>Ethernet having<br/>jamming signal is<br/>.<br/>The minimum frame size is:<br/>computer-networks<br/>mac-protocol<br/>ethernet</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3774/gate-it-2005-question-28"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "MAC Protocol",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>MAC Protocol: GATE CSE 2015 | Set 2 | Question: 8</strong></div><p>A link has transmission speed of<br/>bits/sec. It uses data packets of size<br/>each. Assume that<br/>the acknowledgment has negligible transmission delay and that its propagation delay is the same as the<br/>data propagation delay. Also, assume that the processing delays at nodes are negligible. The eﬃciency of the stop-<br/>and-wait protocol in this setup is exactly<br/>. The value of the one way propagation delay (in milliseconds)<br/>is_____.<br/>computer-networks<br/>mac-protocol<br/>stop-and-wait</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/302799/gate-cse-2019-question-49"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "MAC Protocol",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>MAC Protocol: GATE IT 2004 | Question: 85</strong></div><p>Consider a simpliﬁed time slotted MAC protocol, where each host always has data to send and transmits<br/>with probability<br/>=<br/>in every slot. There is no backoﬀ and one frame can be transmitted in one slot. If<br/>more than one host transmits in the same slot, then the transmissions are unsuccessful due to collision. What is the<br/>maximum number of hosts which this protocol can support if each host has to be provided a minimum throughput of<br/>frames per time slot?<br/>computer-networks<br/>congestion-control<br/>mac-protocol</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3729/gate-it-2004-question-85"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "MAC Protocol",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>MAC Protocol: GATE IT 2005 | Question: 75</strong></div><p>In a TDM medium access control bus LAN, each station is assigned one time slot per cycle for transmission.<br/>Assume that the length of each time slot is the time to transmit<br/>plus the end-to-end propagation<br/>delay. Assume a propagation speed of<br/>. The length of the LAN is<br/>with a bandwidth of<br/>. The maximum number of stations that can be allowed in the LAN so that the throughput of each station can<br/>be<br/>is<br/>computer-networks<br/>mac-protocol<br/>Network Flow<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3838/gate-it-2005-question-75"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Flow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Flow: GATE CSE 1992 | Question: 01,v</strong></div><p>A simple and reliable data transfer can be accomplished by using the 'handshake protocol'. It accomplishes<br/>reliable data transfer because for every data item sent by the transmitter _______.<br/>computer-networks<br/>network-flow<br/>easy<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/550/gate-cse-1992-question-01-v"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Flow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Flow: GATE CSE 2017 | Set 2 | Question: 35</strong></div><p>Consider two hosts<br/>and<br/>, connected by a single direct link of rate<br/>. The distance between<br/>the two hosts is<br/>and the propagation speed along the link is<br/>. Host<br/>sends a<br/>ﬁle of<br/>as one large message to host<br/>continuously. Let the transmission and propagation delays<br/>be<br/>and<br/>respectively. Then the value of<br/>and<br/>are<br/>computer-networks<br/>network-flow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3729/gate-it-2004-question-85"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Flow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Flow: GATE IT 2004 | Question: 87</strong></div><p>A TCP message consisting of<br/>is passed to IP for delivery across two networks. The ﬁrst<br/>network can carry a maximum payload of<br/>per frame and the second network can carry a<br/>maximum payload of<br/>per frame, excluding network overhead. Assume that IP overhead per packet is<br/>. What is the total IP overhead in the second network for this transmission?<br/>computer-networks<br/>network-flow</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3729/gate-it-2004-question-85"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Flow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Flow: GATE IT 2006 | Question: 67</strong></div><p>A link of capacity<br/>is carrying traﬃc from a number of sources. Each source generates an on-oﬀ<br/>traﬃc stream; when the source is on, the rate of traﬃc is<br/>, and when the source is oﬀ, the rate of<br/>traﬃc is zero. The duty cycle, which is the ratio of on-time to oﬀ-time, is<br/>. When there is no buﬀer at the link,<br/>the minimum number of sources that can be multiplexed on the link so that link capacity is not wasted and no data<br/>loss occurs is<br/>. Assuming that all sources are synchronized and that the link is provided with a large buﬀer, the<br/>maximum number of sources that can be multiplexed so that no data loss occurs is<br/>. The values of<br/>and<br/>are, respectively,<br/>computer-networks<br/>network-flow<br/>Network Layer<br/>(6)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3611/gate-it-2006-question-67"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2003 | Question: 28</strong></div><p>Which of the following functionality<br/>must<br/>be implemented by a transport protocol over and above the network<br/>protocol?<br/>computer-networks<br/>network-layer<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/918/gate-cse-2003-question-28"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2004 | Question: 15</strong></div><p>Choose the best matching between<br/>and<br/>computer-networks<br/>network-layer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1012/gate-cse-2004-question-15"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2013 | Question: 14</strong></div><p>Assume that source S and destination D are connected through two intermediate routers labeled R.<br/>Determine how many times each packet has to visit the network layer and the data link layer during a<br/>transmission from S to D.<br/>A<br/>.<br/>Network layer –<br/>times and Data link layer –<br/>times<br/>B<br/>.<br/>Network layer –<br/>times and Data link layer –<br/>times<br/>C<br/>.<br/>Network layer –<br/>times and Data link layer –<br/>times<br/>D<br/>.<br/>Network layer –<br/>times and Data link layer –<br/>times<br/>computer-networks<br/>network-layer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1436/gate-cse-2013-question-14"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2014 | Set 3 | Question: 23</strong></div><p>In the following pairs of OSI protocol layer/sub-layer and its functionality, the<br/>INCORRECT<br/>pair is<br/>computer-networks<br/>network-layer<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2057/gate-cse-2014-set-3-question-23"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2018 | Question: 13</strong></div><p>Match the following:<br/>computer-networks<br/>network-layer<br/>match-the-following<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204087/gate-cse-2018-question-13"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Network Layer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Layer: GATE CSE 2026 | Set 1 | Question: 46</strong></div><p>An ISP having an address block<br/>assigns a block of<br/>IP addresses to a client, using the<br/>classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can<br/>be assigned by the ISP?<br/>computer-networks<br/>network-layer<br/>multiple-selects<br/>Network Protocols<br/>(11)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/2057/gate-cse-2014-set-3-question-23"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2005 | Question: 24</strong></div><p>The address resolution protocol (ARP) is used for:<br/>A<br/>.<br/>Finding the IP address from the DNS<br/>B<br/>.<br/>Finding the IP address of the default gateway<br/>C<br/>.<br/>Finding the IP address that corresponds to a MAC address<br/>D<br/>.<br/>Finding the MAC address that corresponds to an IP address<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1360/gate-cse-2005-question-24"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2007 | Question: 20</strong></div><p>Which one of the following uses UDP as the transport protocol?<br/>computer-networks<br/>network-protocols<br/>application-layer-protocols<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2057/gate-cse-2014-set-3-question-23"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2007 | Question: 70</strong></div><p>Match the following:<br/>computer-networks<br/>network-layer<br/>network-protocols<br/>easy<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1268/gate-cse-2007-question-70"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>7<br/>In one of the pairs of protocols given below , both the protocols can use multiple<br/>connections between<br/>the same client and the server. Which one is that?<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1268/gate-cse-2007-question-70"
+    }
+  ]
+}

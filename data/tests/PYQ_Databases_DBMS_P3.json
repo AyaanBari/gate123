@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Databases_DBMS_P3",
+  "fileName": "PYQ_Databases_DBMS_P3.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 3",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 48,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2013 | Question: 54</strong></div><p>Relation<br/>has eight attributes<br/>. Fields of<br/>contain only atomic values.<br/>is a set of functional dependencies<br/>so that<br/>is<br/>exactly the set of<br/>that hold for<br/>.<br/>How many candidate keys does the relation<br/>have?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1558/gate-cse-2013-question-54"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2013 | Question: 55</strong></div><p>Relation<br/>has eight attributes<br/>. Fields of<br/>contain only atomic values.<br/>is a set of functional dependencies<br/>so that<br/>is<br/>exactly the set of<br/>that hold for<br/>.<br/>The relation<br/>is<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1558/gate-cse-2013-question-54"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2014 | Set 1 | Question: 21</strong></div><p>Consider the relation scheme<br/>and the set of functional<br/>dependencies<br/>on<br/>. What is the key for<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/34/gate-cse-2012-question-2"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2014 | Set 1 | Question: 30</strong></div><p>Given the following two statements:<br/>S1:<br/>Every table with two single-valued attributes is in<br/>and<br/>S2:<br/>is a minimal cover for the set of functional dependencies<br/>.<br/>Which one of the following is<br/>CORRECT<br/>?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1797/gate-cse-2014-set-1-question-30"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2015 | Set 3 | Question: 20</strong></div><p>Consider the relation<br/>with the following set of functional dependencies<br/>Which of the following is the trivial functional dependency in<br/>, where<br/>is closure to F?<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1797/gate-cse-2014-set-1-question-30"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2016 | Set 1 | Question: 21</strong></div><p>Which of the following is NOT a superkey in a relational schema with attributes<br/>and primary<br/>key<br/>?<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1797/gate-cse-2014-set-1-question-30"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2016 | Set 1 | Question: 23</strong></div><p>A database of research articles in a journal uses the following schema.<br/>The primary key is '<br/>and the following functional dependencies exist in the schema.<br/>The database is redesigned to use the following schemas<br/>Which is the weakest normal form that the new database satisfies, but the old one does not?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1797/gate-cse-2014-set-1-question-30"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2017 | Set 1 | Question: 16</strong></div><p>The following functional dependencies hold true for the relational schema<br/>:<br/>Which of the following is irreducible equivalent for this set of functional dependencies?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118296/gate-cse-2017-set-1-question-16"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2018 | Question: 42</strong></div><p>Consider the following four relational schemas. For each schema , all non-trivial functional dependencies are<br/>listed, The<br/>bolded<br/>attributes are the respective primary keys.<br/>Registration(<br/>rollno<br/>, courses)<br/>Field ‘courses’ is a set-valued attribute containing the set of courses a student has registered for.<br/>Non-trivial functional dependency<br/>rollno<br/>courses<br/>Registration (<br/>rollno, coursid<br/>, email)<br/>Non-trivial functional dependencies:<br/>rollno, courseid<br/>email<br/>email<br/>rollno<br/>Registration (<br/>rollno, courseid<br/>, marks, grade)<br/>Non-trivial functional dependencies:<br/>rollno, courseid,<br/>marks, grade<br/>marks<br/>grade<br/>Registration (<br/>rollno, courseid<br/>, credit)<br/>Non-trivial functional dependencies:<br/>rollno, courseid<br/>credit<br/>courseid<br/>credit<br/>Which one of the relational schemas above is in<br/>but not in<br/>?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204116/gate-cse-2018-question-42"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2019 | Question: 32</strong></div><p>Let the set of functional dependencies<br/>hold on a relation schema<br/>.<br/>is not in BCNF. Suppose<br/>is decomposed into two schemas<br/>and<br/>, where<br/>and<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302816/gate-cse-2019-question-32"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2020 | Question: 36</strong></div><p>Consider a relational table<br/>that is in<br/>, but not in BCNF. Which one of the following statements is<br/>TRUE?<br/>A<br/>.<br/>has a nontrivial functional dependency<br/>, where<br/>is not a superkey and<br/>is a prime attribute.<br/>B<br/>.<br/>has a nontrivial functional dependency<br/>, where<br/>is not a superkey and<br/>is a non-prime attribute<br/>and<br/>is not a proper subset of any key.<br/>C<br/>.<br/>has a nontrivial functional dependency<br/>, where<br/>is not a superkey and<br/>is a non-prime attribute<br/>and<br/>is a proper subset of some key<br/>D<br/>.<br/>A cell in<br/>holds a set instead of an atomic value.<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333195/gate-cse-2020-question-36"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2021 | Set 1 | Question: 33</strong></div><p>Consider the relation<br/>with the following functional dependencies.<br/>Consider the decomposition of the relation<br/>into the constituent relations according to the following two<br/>decomposition schemes.<br/>Which one of the following options is correct?<br/>A<br/>.<br/>is a lossless decomposition, but<br/>is a lossy decomposition<br/>B<br/>.<br/>is a lossy decomposition, but<br/>is a lossless decomposition<br/>C<br/>.<br/>Both<br/>and<br/>are lossless decompositions<br/>D<br/>.<br/>Both<br/>and<br/>are lossy decompositions<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333195/gate-cse-2020-question-36"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2021 | Set 2 | Question: 40</strong></div><p>Suppose the following functional dependencies hold on a relation<br/>with attributes<br/>, and<br/>:<br/>Which of the following functional dependencies can be inferred from the above functional dependencies?<br/>multiple-selects<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/333195/gate-cse-2020-question-36"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2022 | Question: 21</strong></div><p>Consider a relation<br/>with the following three functional dependencies.<br/>The number of superkeys in the relation<br/>is ______________ .<br/>databases<br/>database-normalization</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/371915/gate-cse-2022-question-21"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2022 | Question: 4</strong></div><p>In a relational data model, which one of the following statements is<br/>A<br/>.<br/>A relation with only two attributes is always in<br/>B<br/>.<br/>If all attributes of a relation are prime attributes, then the relation is in<br/>C<br/>.<br/>Every relation has at least one non-prime attribute.<br/>D<br/>.<br/>decompositions preserve functional dependencies.<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371915/gate-cse-2022-question-21"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2024 | Set 1 | Question: 12</strong></div><p>Which of the following statements about a relation<br/>in first normal form<br/>is/are TRUE?<br/>A<br/>.<br/>can have a multi-attribute key<br/>B<br/>.<br/>cannot have a foreign key<br/>C<br/>.<br/>cannot have a composite attribute<br/>D<br/>.<br/>cannot have more than one candidate key<br/>multiple-selects<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/371915/gate-cse-2022-question-21"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2024 | Set 1 | Question: 34</strong></div><p>The symbol<br/>indicates functional dependency in the context of a relational database. Which of the<br/>following options is/are TRUE?<br/>A<br/>.<br/>implies<br/>B<br/>.<br/>implies<br/>C<br/>.<br/>and<br/>implies<br/>D<br/>.<br/>and<br/>implies<br/>multiple-selects<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/371915/gate-cse-2022-question-21"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2024 | Set 2 | Question: 46</strong></div><p>A functional dependency<br/>is termed as a useful functional dependency if and only if it satisﬁes<br/>all the following three conditions:<br/>is not the empty set.<br/>is not the empty set.<br/>Intersection of<br/>and<br/>is the empty set.<br/>For a relation<br/>with<br/>attributes, the total number of possible useful functional dependencies is __________.<br/>databases<br/>database-normalization</p></div>",
+      "options": [],
+      "correctAnswer": "50",
+      "discussUrl": "https://gateoverflow.in/371915/gate-cse-2022-question-21"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2025 | Set 2 | Question: 36</strong></div><p>​​​​<br/>Consider the following relational schema along with all the functional dependencies that hold on them.<br/>Which of the following statement(s) is/are TRUE?<br/>databases<br/>database-normalization<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/460799/gate-cse-2025-set-2-question-36"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE CSE 2026 | Set 1 | Question: 21</strong></div><p>In the context of relational database normalization, which of the following statements is/are true?<br/>A<br/>.<br/>It is always possible to obtain a dependency-preserving<br/>NF decomposition of a relation<br/>B<br/>.<br/>It is always possible to obtain a dependency-preserving<br/>NF decomposition of a relation<br/>C<br/>.<br/>It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation<br/>D<br/>.<br/>It is not always possible to obtain a dependency-preserving<br/>NF decomposition of a relation<br/>databases<br/>database-normalization<br/>multiple-selects<br/>Database Normalization: GATE DS&AI 2024 | Question: 36<br/>​​​​​​<br/>Given the relational schema<br/>and the set of functional dependencies:<br/>Which of the following functional dependencies can be derived from the above set?<br/>gate-ds-ai-2024<br/>databases<br/>database-normalization<br/>multiple-selects<br/>Database Normalization: GATE Data Science and Artificial Intelligence<br/>2024 | Sample Paper | Question:<br/>26<br/>Given the following relation instances<br/>Which of the following conditions is/are<br/>TRUE<br/>?<br/>A<br/>.<br/>and</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/523059/gate-cse-2026-set-1-question-21"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2004 | Question: 75</strong></div><p>A relation<br/>is deﬁned with attributes empcode (unique), name, street, city, state and pincode. For<br/>any pincode, there is only one city and state. Also, for any given street, city and state, there is just one<br/>pincode. In normalization terms,<br/>is a relation in<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3719/gate-it-2004-question-75"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2005 | Question: 22</strong></div><p>A table has fields<br/>with the following functional dependencies<br/>In terms of Normalization, this table is in<br/>databases<br/>database-normalization<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3767/gate-it-2005-question-22"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2005 | Question: 70</strong></div><p>In a schema with attributes<br/>and<br/>following set of functional dependencies are given<br/>Which of the following functional dependencies is NOT implied by the above set?<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3767/gate-it-2005-question-22"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2006 | Question: 60</strong></div><p>Consider a relation R with five attributes<br/>and<br/>The following functional dependencies hold:<br/>and<br/>Which of the following is a candidate key for<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3604/gate-it-2006-question-60"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2008 | Question: 61</strong></div><p>Let<br/>be a relational schema with the following functional dependencies :<br/>,<br/>,<br/>and<br/>. The decomposition of<br/>into<br/>A<br/>.<br/>gives a lossless join, and is dependency preserving<br/>B<br/>.<br/>gives a lossless join, but is not dependency preserving<br/>C<br/>.<br/>does not give a lossless join, but is dependency preserving<br/>D<br/>.<br/>does not give a lossless join and is not dependency preserving<br/>databases<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3371/gate-it-2008-question-61"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Normalization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Normalization: GATE IT 2008 | Question: 62</strong></div><p>Let<br/>be a relational schema in which the following functional depen<br/>dencies are<br/>known to hold:<br/>and<br/>The relational schema<br/>is<br/>databases<br/>database-normalization<br/>Database Normalization: GATE2001-1.23, UGCNET-June2012-III: 18<br/>Consider a schema<br/>and functional dependencies<br/>and<br/>. Then the<br/>decomposition of R into<br/>and<br/>is<br/>A<br/>.<br/>dependency preserving and lossless join<br/>B<br/>.<br/>lossless join but not dependency preserving<br/>C<br/>.<br/>dependency preserving but not lossless join<br/>D<br/>.<br/>not dependency preserving and not lossless join<br/>databases<br/>ugcnetcse-june2012-paper3<br/>database-normalization<br/>Database Schema<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3371/gate-it-2008-question-61"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Database Schema",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Database Schema: GATE CSE 2026 | Set 2 | Question: 5</strong></div><p>In the context of DBMS, consider the two sets<br/>and<br/>given below.<br/>Which one of the following is the correct match from<br/>to<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>databases<br/>database-schema<br/>easy<br/>Decomposition<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3371/gate-it-2008-question-61"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Decomposition",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Decomposition: GATE DA 2025 | Question: 6</strong></div><p>If a relational decomposition is not dependency-preserving, which one of the following relational operators<br/>will be executed more frequently in order to maintain the dependencies?<br/>gateda-2025<br/>databases<br/>decomposition<br/>relational-algebra<br/>easy<br/>ER Diagram<br/>(12)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461016/gate-da-2025-question-6"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2005 | Question: 75</strong></div><p>Let<br/>and<br/>be two entities in an<br/>diagram with simple-valued attributes.<br/>and<br/>are two<br/>relationships between<br/>and<br/>, where<br/>is one-to-many and<br/>is many-to-many.<br/>and<br/>do not<br/>have any attributes of their own. What is the minimum number of tables required to represent this situation in the<br/>relational model?<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1398/gate-cse-2005-question-75"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2008 | Question: 82</strong></div><p>Consider the following<br/>diagram<br/>The minimum number of tables needed to represent<br/>,<br/>,<br/>,<br/>,<br/>is<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/390/gate-cse-2008-question-82"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2008 | Question: 83</strong></div><p>Consider the following<br/>diagram<br/>The minimum number of tables needed to represent<br/>,<br/>,<br/>,<br/>,<br/>is<br/>Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to<br/>represent<br/>,<br/>,<br/>,<br/>,<br/>?<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/390/gate-cse-2008-question-82"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2012 | Question: 14</strong></div><p>Given the basic ER and relational models, which of the following is<br/>INCORRECT<br/>?<br/>A<br/>.<br/>An attribute of an entity can have more than one value</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/46/gate-cse-2012-question-14"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2015 | Set 1 | Question: 41</strong></div><p>Consider an Entity-Relationship<br/>model in which entity sets<br/>and<br/>are connected by an<br/>relationship<br/>.<br/>and<br/>are connected by a<br/>(<br/>on the side of<br/>and<br/>on the side of<br/>)<br/>relationship<br/>.<br/>has two-singled attributes<br/>and<br/>of which<br/>is the key attribute.<br/>has two singled-valued attributes<br/>and<br/>of which<br/>is the key attribute.<br/>has two single-valued attributes<br/>and<br/>of which<br/>is the<br/>key attribute. The relationships do not have any attributes.<br/>If a relational model is derived from the above<br/>model, then the minimum number of relations that would be<br/>generated if all relation are in<br/>is________________.<br/>databases<br/>er-diagram</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/8309/gate-cse-2015-set-1-question-41"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2017 | Set 2 | Question: 17</strong></div><p>An ER model of a database consists of entity types<br/>and<br/>. These are connected by a relationship<br/>which does not have its own attribute. Under which one of the following conditions, can the relational table<br/>for R be merged with that of A?<br/>A<br/>.<br/>Relationship<br/>is one-to-many and the participation of<br/>in<br/>is total<br/>B<br/>.<br/>Relationship<br/>is one-to-many and the participation of<br/>in<br/>is partial<br/>C<br/>.<br/>Relationship<br/>is many-to-one and the participation of<br/>in<br/>is total<br/>D<br/>.<br/>Relationship<br/>is many-to-one and the participation of<br/>in<br/>is partial<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8309/gate-cse-2015-set-1-question-41"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2018 | Question: 11</strong></div><p>In an Entity-Relationship (ER) model, suppose<br/>is a many-to-one relationship from entity set E1 to entity<br/>set E2. Assume that E1 and E2 participate totally in<br/>and that the cardinality of E1 is greater than the<br/>cardinality of E2.<br/>Which one of the following is true about<br/>?<br/>A<br/>.<br/>Every entity in E1 is associated with exactly one entity in E2<br/>B<br/>.<br/>Some entity in E1 is associated with more than one entity in E2<br/>C<br/>.<br/>Every entity in E2 is associated with exactly one entity in E1<br/>D<br/>.<br/>Every entity in E2 is associated with at most one entity in E1<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118157/gate-cse-2017-set-2-question-17"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2020 | Question: 14</strong></div><p>Which one of the following is used to represent the supporting many-one relationships of a weak entity set in<br/>an entity-relationship diagram?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333217/gate-cse-2020-question-14"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2024 | Set 1 | Question: 10</strong></div><p>Let<br/>be the speciﬁcation: \"Instructors teach courses. Students register for courses. Courses are allocated<br/>classrooms. Instructors guide students.\" Which one of the following<br/>diagrams CORRECTLY represents<br/>?<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/422832/gate-cse-2024-set-1-question-10"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE CSE 2024 | Set 2 | Question: 10</strong></div><p>In the context of owner and weak entity sets in the<br/>(Entity-Relationship) data model, which one of the<br/>following statements is TRUE?<br/>A<br/>.<br/>The weak entity set MUST have total participation in the identifying relationship<br/>B<br/>.<br/>The owner entity set MUST have total participation in the identifying relationship<br/>C<br/>.<br/>Both weak and owner entity sets MUST have total participation in the identifying relationship<br/>D<br/>.<br/>Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship<br/>databases<br/>er-diagram</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422832/gate-cse-2024-set-1-question-10"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE IT 2004 | Question: 73</strong></div><p>Consider the following entity relationship diagram<br/>, where two entities<br/>and<br/>have a relation<br/>of cardinality 1:m.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3717/gate-it-2004-question-73"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "ER Diagram",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>ER Diagram: GATE IT 2005 | Question: 21</strong></div><p>Consider the entities 'hotel room', and 'person' with a many to many relationship 'lodging' as shown below:<br/>If we wish to store information about the rent payment to be made by person (s) occupying diﬀerent hotel rooms,<br/>then this information should appear as an attribute of<br/>databases<br/>er-diagram<br/>easy<br/>Functional Dependency<br/>(3)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3766/gate-it-2005-question-21"
+    }
+  ]
+}

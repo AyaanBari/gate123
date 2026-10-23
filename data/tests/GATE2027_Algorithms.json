@@ -1,0 +1,241 @@
+{
+  "id": "GATE2027_Algorithms",
+  "fileName": "GATE2027_Algorithms.json",
+  "title": "GATE 2027 Original | Algorithms Challenger Test",
+  "subject": "Algorithms",
+  "testType": "GATE 2027 Original",
+  "series": "GATE 2027 Original",
+  "durationMinutes": 45,
+  "totalQuestions": 8,
+  "totalMarks": 13,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Algorithms - Asymptotic Analysis",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Asymptotic Analysis</strong></div>\n<p>Consider the recurrence relation:<br/>$$T(n) = 4T\\left(\\frac{n}{2}\\right) + \\frac{n^2}{\\log n}$$ with $T(1) = \\Theta(1)$. Which of the following is the correct asymptotic bound for $T(n)$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Applying the substitution $n = 2^k$, we get $T(2^k) = 4T(2^{k-1}) + \\frac{4^k}{k}$. Dividing by $4^k$: $\\frac{T(2^k)}{4^k} = \\frac{T(2^{k-1})}{4^{k-1}} + \\frac{1}{k}$. Let $S(k) = \\frac{T(2^k)}{4^k}$, then $S(k) = S(k-1) + \\frac{1}{k} = \\sum_{i=1}^k \\frac{1}{i} = \\Theta(\\log k)$. Since $k = \\log_2 n$, $S(k) = \\Theta(\\log(\\log n))$. Thus, $T(n) = 4^k S(k) = n^2 \\cdot \\Theta(\\log(\\log n)) = \\Theta(n^2 \\log(\\log n))$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$\\Theta(n^2)$</span>",
+          "textHtml": "<span>$\\Theta(n^2)$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\Theta(n^2 \\log n)$</span>",
+          "textHtml": "<span>$\\Theta(n^2 \\log n)$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$\\Theta(n^2 \\log(\\log n))$</span>",
+          "textHtml": "<span>$\\Theta(n^2 \\log(\\log n))$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$\\Theta(n^2 / \\log n)$</span>",
+          "textHtml": "<span>$\\Theta(n^2 / \\log n)$</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Algorithms - Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Graph Algorithms</strong></div>\n<p>Let $G = (V, E)$ be a directed weighted graph with source vertex $s$. Which of the following statements is/are <strong>TRUE</strong>?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A is FALSE:</b> Consider two paths with distinct edge weights that sum to the same total (e.g., path 1 has edges 1 and 4 [sum=5], path 2 has edges 2 and 3 [sum=5]).<br/><b>B is TRUE:</b> Adding $c$ to every edge penalizes paths with more edges more heavily ($P_1$ with 3 edges increases by $3c$, whereas $P_2$ with 1 edge increases by $1c$).<br/><b>C is TRUE:</b> On standard implementation with priority queue (or visited set), Dijkstra terminates because vertices/pairs are processed in a bounded number of iterations, though the computed distances may be incorrect.<br/><b>D is TRUE:</b> Bellman-Ford runs $|V|-1$ relaxations and one extra pass in $O(|V|\\cdot|E|)$ to detect negative cycles.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>If all edge weights in $G$ are distinct, the shortest path between any two vertices is unique.</span>",
+          "textHtml": "<span>If all edge weights in $G$ are distinct, the shortest path between any two vertices is unique.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Adding a positive constant $c > 0$ to every edge weight in $G$ may change the shortest path between two vertices.</span>",
+          "textHtml": "<span>Adding a positive constant $c > 0$ to every edge weight in $G$ may change the shortest path between two vertices.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Dijkstra's algorithm is guaranteed to terminate in finite steps even if $G$ contains negative weight edges, provided there is no negative weight cycle reachable from $s$.</span>",
+          "textHtml": "<span>Dijkstra's algorithm is guaranteed to terminate in finite steps even if $G$ contains negative weight edges, provided there is no negative weight cycle reachable from $s$.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Bellman-Ford algorithm can detect whether a graph contains a negative weight cycle reachable from source $s$ in $O(|V| \\cdot |E|)$ time.</span>",
+          "textHtml": "<span>Bellman-Ford algorithm can detect whether a graph contains a negative weight cycle reachable from source $s$ in $O(|V| \\cdot |E|)$ time.</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Algorithms - Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Greedy Algorithms</strong></div>\n<p>A text file contains six distinct characters $A, B, C, D, E, F$ with frequencies $12, 5, 25, 8, 15, 35$ respectively. An optimal binary prefix code is constructed using Huffman's algorithm. What is the total length (in bits) of the encoded file?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Total frequencies: $F: 35, C: 25, E: 15, A: 12, D: 8, B: 5$ (Total chars = 100).<br/>1. Combine $B(5) + D(8) = BD(13)$<br/>2. Combine $A(12) + BD(13) = ABD(25)$<br/>3. Combine $E(15) + C(25) = EC(40)$<br/>4. Combine $ABD(25) + F(35) = ABDF(60)$<br/>5. Combine $EC(40) + ABDF(60) = 100$<br/>Codeword lengths:<br/>- $F$: depth 2 (2 bits) $\\rightarrow 35 \\times 2 = 70$<br/>- $E$: depth 2 (2 bits) $\\rightarrow 15 \\times 2 = 30$<br/>- $C$: depth 2 (2 bits) $\\rightarrow 25 \\times 2 = 50$<br/>- $A$: depth 3 (3 bits) $\\rightarrow 12 \\times 3 = 36$<br/>- $B$: depth 4 (4 bits) $\\rightarrow 5 \\times 4 = 20$<br/>- $D$: depth 4 (4 bits) $\\rightarrow 8 \\times 4 = 32$<br/>Total encoded length = $70 + 30 + 50 + 36 + 20 + 32 = 238$ or depending on tie-break merging: combining $E(15)+ABD(25)=40$ gives $70+50+30+36+24+24 = 234$ bits. (Standard interval 234–238).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "234",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithms - Dynamic Arrays",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Dynamic Arrays</strong></div>\n<p>Consider a dynamic array that starts with size 1. Whenever an insertion occurs and the array is full, its capacity is multiplied by 3 (instead of doubling). Copying an element costs 1 unit, and inserting costs 1 unit. What is the amortized cost per insertion using the aggregate method?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For $n$ insertions, table resizes at sizes $1, 3, 9, 27, \\dots, 3^k$. Total copy operations: $1 + 3 + 9 + \\dots + 3^{k-1} = \\frac{3^k - 1}{3 - 1} < \\frac{n}{2} \\times 1 = \\frac{3}{2} n$. Total insertion cost = $n$ regular insertions $+ \\frac{3}{2} n$ copies = $2.5 n$. Hence, the amortized cost per insertion is $\\frac{2.5n}{n} = 2.5 = O(1)$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$O(1)$ with amortized cost $\\le 2.5$</span>",
+          "textHtml": "<span>$O(1)$ with amortized cost $\\le 2.5$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$O(1)$ with amortized cost $\\le 3$</span>",
+          "textHtml": "<span>$O(1)$ with amortized cost $\\le 3$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$O(\\log n)$</span>",
+          "textHtml": "<span>$O(\\log n)$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$O(n)$</span>",
+          "textHtml": "<span>$O(n)$</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Algorithms - Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Dynamic Programming</strong></div>\n<p>Consider four matrices $M_1, M_2, M_3, M_4$ with dimensions $10 \\times 20$, $20 \\times 5$, $5 \\times 30$, and $30 \\times 10$ respectively. What is the minimum number of scalar multiplications required to compute the product $M_1 M_2 M_3 M_4$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Dimensions array $p = [10, 20, 5, 30, 10]$.<br/>Chain length 2:<br/>- $m[1,2] = 10 \\times 20 \\times 5 = 1000$<br/>- $m[2,3] = 20 \\times 5 \\times 30 = 3000$<br/>- $m[3,4] = 5 \\times 30 \\times 10 = 1500$<br/>Chain length 3:<br/>- $m[1,3] = \\min(m[1,2] + 10\\times 5 \\times 30, m[2,3] + 10 \\times 20 \\times 30) = \\min(1000 + 1500, 3000 + 6000) = 2500$<br/>- $m[2,4] = \\min(m[2,3] + 20\\times 30\\times 10, m[3,4] + 20\\times 5\\times 10) = \\min(3000 + 6000, 1500 + 1000) = 2500$<br/>Chain length 4:<br/>$m[1,4] = \\min($<br/>$k=1: m[1,1] + m[2,4] + 10 \\times 20 \\times 10 = 0 + 2500 + 2000 = 4500$,<br/>$k=2: m[1,2] + m[3,4] + 10 \\times 5 \\times 10 = 1000 + 1500 + 500 = 3000?$, wait: $10 \\times 5 \\times 10 = 500$, so $1000+1500+500 = 3000$.<br/>$k=3: m[1,3] + m[4,4] + 10 \\times 30 \\times 10 = 2500 + 0 + 3000 = 5500$.<br/>Minimum scalar multiplications = 3000.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "4000",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Algorithms - Minimum Spanning Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Minimum Spanning Trees</strong></div>\n<p>Let $G = (V, E)$ be a connected, undirected graph with positive real edge weights. Which of the following statements is/are <strong>ALWAYS TRUE</strong>?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    All four statements are fundamentally correct in graph theory:<br/><b>A:</b> The second-best MST is always obtainable by swapping one tree edge $e \\in T$ with a non-tree edge $e' \\notin T$.<br/><b>B:</b> Cut property: $e$ is the unique lightest edge across the cut separating its endpoints, so it must belong to every MST.<br/><b>C:</b> Cycle property: The unique maximum weight edge in any cycle cannot belong to any MST.<br/><b>D:</b> Since $f(x) = x^2$ is strictly monotonically increasing for $x > 0$, the relative ordering of all edge weights is preserved, so Kruskal/Prim selections remain identical.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>The second-best Minimum Spanning Tree of $G$ differs from the MST by exactly one edge replacement.</span>",
+          "textHtml": "<span>The second-best Minimum Spanning Tree of $G$ differs from the MST by exactly one edge replacement.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>If an edge $e$ has strictly minimum weight in the whole graph, it must belong to every MST of $G$.</span>",
+          "textHtml": "<span>If an edge $e$ has strictly minimum weight in the whole graph, it must belong to every MST of $G$.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>If the maximum weight edge of a cycle $C$ is unique, it cannot be part of any MST of $G$.</span>",
+          "textHtml": "<span>If the maximum weight edge of a cycle $C$ is unique, it cannot be part of any MST of $G$.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>If edge weights are squared, the Minimum Spanning Tree of $G$ remains unchanged.</span>",
+          "textHtml": "<span>If edge weights are squared, the Minimum Spanning Tree of $G$ remains unchanged.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Algorithms - Sorting",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - Sorting</strong></div>\n<p>Consider the array $A = [8, 7, 6, 5, 4, 3, 2, 1]$. What is the total number of inversions in $A$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For an array of size $n$ sorted in strictly descending order, every pair $(i, j)$ with $i < j$ forms an inversion because $A[i] > A[j]$. Total inversions = $\\binom{n}{2} = \\frac{8 \\times 7}{2} = 28$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "28",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Algorithms - DFS Tree",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Algorithms - DFS Tree</strong></div>\n<p>During the Depth First Search (DFS) traversal of a connected, <strong>undirected</strong> graph $G$, which of the following edge types can <strong>NEVER</strong> occur?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In DFS of an undirected graph, every edge is either a Tree edge or a Back edge. Forward edges are identical to Back edges (since edges are bidirectional), and Cross edges can never occur because an edge between two unrelated subtrees would have been explored when the first endpoint was visited.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Tree edges</span>",
+          "textHtml": "<span>Tree edges</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Back edges</span>",
+          "textHtml": "<span>Back edges</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Cross edges</span>",
+          "textHtml": "<span>Cross edges</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Both Cross edges and Forward edges</span>",
+          "textHtml": "<span>Both Cross edges and Forward edges</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

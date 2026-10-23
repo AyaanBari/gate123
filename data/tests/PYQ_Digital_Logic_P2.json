@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Digital_Logic_P2",
+  "fileName": "PYQ_Digital_Logic_P2.json",
+  "title": "GATE Official PYQs | Digital Logic Part 2",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2024 | Set 2 | Question: 20</strong></div><p>​​​​<br/>For a Boolean variable<br/>, which of the following statements is/are FALSE?<br/>digital-logic<br/>boolean-algebra<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2025 | Set 1 | Question: 14</strong></div><p>Let<br/>be a<br/>-variable Boolean function that produces output as<br/>when at least two of the input variables<br/>are<br/>. Which of the following statement(s) is/are CORRECT, where<br/>are Boolean variables?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>AND<br/>D<br/>.<br/>digital-logic<br/>boolean-algebra<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2025 | Set 2 | Question: 40</strong></div><p>Which of the following Boolean algebraic equation(s) is/are CORRECT?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>boolean-algebra<br/>multiple-selects<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE CSE 2026 | Set 2 | Question: 6</strong></div><p>Which one of the following options is<br/>not<br/>a property of Boolean Algebra?<br/>Note:<br/>is OR operation,<br/>is AND operation, and<br/>is NOT operation<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523140/gate-cse-2026-set-2-question-6"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE IT 2004 | Question: 44</strong></div><p>The function<br/>is equivalent to<br/>digital-logic<br/>boolean-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3687/gate-it-2004-question-44"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Boolean Algebra",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Boolean Algebra: GATE IT 2005 | Question: 7</strong></div><p>Which of the following expressions is equivalent to<br/>digital-logic<br/>boolean-algebra<br/>Booths Algorithm<br/>(7)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3687/gate-it-2004-question-44"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE CSE 1990 | Question: 8b</strong></div><p>State the Booth's algorithm for multiplication of two numbers. Draw a block diagram for the implementation<br/>of the Booth's algorithm for determining the product of two<br/>-bit signed numbers.<br/>descriptive<br/>digital-logic<br/>booths-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3687/gate-it-2004-question-44"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE CSE 1996 | Question: 1.23</strong></div><p>Booth’s algorithm for integer multiplication gives worst performance when the multiplier pattern is<br/>digital-logic<br/>booths-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523140/gate-cse-2026-set-2-question-6"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE CSE 1999 | Question: 1.20</strong></div><p>Booth's coding in<br/>bits for the decimal number<br/>is:<br/>digital-logic<br/>number-representation<br/>booths-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523140/gate-cse-2026-set-2-question-6"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE CSE 2025 | Set 2 | Question: 22</strong></div><p>The following two signed<br/>'s complement numbers (multiplicand M and multiplier Q) are being multiplied using<br/>Booth's algorithm:<br/>M:<br/>and Q:<br/>The total number of addition and subtraction operations to be performed is_____________. (Answer in integer)<br/>digital-logic<br/>booths-algorithm</p></div>",
+      "options": [],
+      "correctAnswer": "13:13",
+      "discussUrl": "https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE IT 2005 | Question: 8</strong></div><p>Using Booth's Algorithm for multiplication, the multiplier<br/>will be recoded as<br/>digital-logic<br/>booths-algorithm</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE IT 2006 | Question: 38</strong></div><p>When multiplicand<br/>is multiplied by multiplier<br/>using bit-pair recoding in Booth's<br/>algorithm, partial products are generated according to the following table.<br/>The partial products for rows<br/>and<br/>are<br/>digital-logic<br/>booths-algorithm<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3577/gate-it-2006-question-38"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Booths Algorithm",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Booths Algorithm: GATE IT 2008 | Question: 42</strong></div><p>The two numbers given below are multiplied using the Booth's algorithm.<br/>Multiplicand :<br/>Multiplier:<br/>How many additions/Subtractions are required for the multiplication of the above two numbers?<br/>digital-logic<br/>booths-algorithm<br/>Canonical Normal Form<br/>(10)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3352/gate-it-2008-question-42"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 1988 | Question: 2-v</strong></div><p>Three switching functions<br/>and<br/>are expressed below as sum of minterms.<br/>Express the function<br/>realised by the circuit shown in the below ﬁgure as the sum of minterms (in decimal<br/>notation).<br/>descriptive<br/>digital-logic<br/>easy<br/>circuit-output<br/>canonical-normal-form<br/>digital-circuits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91685/gate-cse-1988-question-2-v"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2002 | Question: 2-1</strong></div><p>Consider the following logic circuit whose inputs are functions<br/>and output is<br/>Given that<br/>and<br/>is<br/>digital-logic<br/>canonical-normal-form<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91685/gate-cse-1988-question-2-v"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2008 | Question: 8</strong></div><p>Given<br/>,<br/>and<br/>in canonical sum of products form (in decimal) for the circuit<br/>then<br/>is<br/>digital-logic<br/>canonical-normal-form<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/91685/gate-cse-1988-question-2-v"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2010 | Question: 6</strong></div><p>The minterm expansion of<br/>is<br/>digital-logic<br/>canonical-normal-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2177/gate-cse-2010-question-6"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2015 | Set 3 | Question: 43</strong></div><p>The total number of prime implicants of the function<br/>is __________<br/>digital-logic<br/>canonical-normal-form</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8503/gate-cse-2015-set-3-question-43"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2015 | Set 3 | Question: 44</strong></div><p>Given the function<br/>, where<br/>is a function in three Boolean variables<br/>and<br/>and<br/>, consider the following statements.<br/>Which of the following is true?<br/>A<br/>.<br/>(S1)-False, (S2)-True, (S3)-True, (S4)-False<br/>B<br/>.<br/>(S1)-True, (S2)-False, (S3)-False, (S4)-True<br/>C<br/>.<br/>(S1)-False, (S2)-False, (S3)-True, (S4)-True<br/>D<br/>.<br/>(S1)-True, (S2)-True, (S3)-False, (S4)-False<br/>digital-logic<br/>canonical-normal-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8503/gate-cse-2015-set-3-question-43"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2019 | Question: 30</strong></div><p>Consider three<br/>-variable functions<br/>, and<br/>, which are expressed in sum-of-minterms as<br/>For the following circuit with one AND gate and one XOR gate the output function<br/>can be expressed as:<br/>digital-logic<br/>digital-circuits<br/>canonical-normal-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302818/gate-cse-2019-question-30"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2019 | Question: 50</strong></div><p>What is the minimum number of<br/>-input NOR gates required to implement a<br/>-variable function expressed<br/>in sum-of-minterms form as<br/>Assume that all the inputs and their<br/>complements are available. Answer: _______</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8503/gate-cse-2015-set-3-question-43"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2020 | Question: 28</strong></div><p>Consider the Boolean function<br/>.<br/>Which one of the following minterm lists represents the circuit given above?<br/>digital-logic<br/>canonical-normal-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333203/gate-cse-2020-question-28"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Canonical Normal Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Canonical Normal Form: GATE CSE 2024 | Set 2 | Question: 40</strong></div><p>Consider<br/>-variable functions<br/>expressed in sum-of-minterms form as given below.<br/>With respect to the circuit given above, which of the following options is/are CORRECT?<br/>digital-logic<br/>canonical-normal-form<br/>multiple-selects<br/>Carry Generator<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/333203/gate-cse-2020-question-28"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Carry Generator",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Carry Generator: GATE CSE 2006 | Question: 36</strong></div><p>Given two three bit numbers<br/>and<br/>and<br/>the carry in, the function that represents<br/>the c<br/>arry<br/>generate function when these two numbers are added is:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>carry-generator<br/>adder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1294/gate-cse-2006-question-36"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Carry Generator",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Carry Generator: GATE CSE 2007 | Question: 35</strong></div><p>In a look-ahead carry generator, the carry generate function<br/>and the carry propagate function<br/>for<br/>inputs<br/>and<br/>are given by:<br/>The expressions for the sum bit<br/>and the carry bit<br/>of the look ahead carry adder are given by:<br/>Consider a two-level logic implementation of the look-ahead carry generator. Assume that all<br/>and<br/>are<br/>available for the carry generator circuit and that the AND and OR gates can have any number of inputs. The<br/>number of AND gates and OR gates needed to implement the look-ahead carry generator for a<br/>-bit adder with<br/>and<br/>as  its outputs are respectively:<br/>digital-logic<br/>carry-generator<br/>adder<br/>Circuit Output<br/>(40)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1233/gate-cse-2007-question-35"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1987 | Question: 1-IV</strong></div><p>The output<br/>of the below multiplexer circuit can be represented by<br/>digital-logic<br/>combinational-circuit<br/>multiplexer<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1233/gate-cse-2007-question-35"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1989 | Question: 4-ix</strong></div><p>Explain the behaviour of the following logic circuit with level input<br/>and output<br/>.<br/>descriptive<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2184"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1990 | Question: 3-i</strong></div><p>Choose the correct alternatives (More than one may be correct).</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1233/gate-cse-2007-question-35"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1991 | Question: 5-a</strong></div><p>Analyse the circuit in Fig below and complete the following table<br/>digital-logic<br/>circuit-output<br/>sequential-circuit<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/531/gate-cse-1991-question-5-a"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1993 | Question: 19</strong></div><p>A control algorithm is implemented by the NAND – gate circuitry given in ﬁgure below, where<br/>and<br/>are<br/>state variable implemented by<br/>ﬂip-ﬂops, and<br/>is control input. Develop the state transition table for this<br/>controller.<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>circuit-output<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/531/gate-cse-1991-question-5-a"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1993 | Question: 6-3</strong></div><p>For the initial state of<br/>, the function performed by the arrangement of the<br/>flip-flops in figure is:<br/>digital-logic<br/>sequential-circuit<br/>flip-flop<br/>digital-counter<br/>circuit-output<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/17237/gate-cse-1993-question-6-3"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1993 | Question: 6.1</strong></div><p>Identify the logic function performed by the circuit shown in figure.<br/>digital-logic<br/>combinational-circuit<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/17237/gate-cse-1993-question-6-3"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1993 | Question: 6.2</strong></div><p>If the state machine described in figure should have a stable state, the restriction on the inputs is given by<br/>digital-logic<br/>circuit-output<br/>sequential-circuit</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/17237/gate-cse-1993-question-6-3"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1994 | Question: 1.8</strong></div><p>The logic expression for the output of the circuit shown in figure below is:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/17237/gate-cse-1993-question-6-3"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1994 | Question: 11</strong></div><p>Find the contents of the ﬂip-ﬂop<br/>and<br/>in the circuit of ﬁgure, after giving four clock pulses to the<br/>clock terminal. Assume<br/>initially.<br/>digital-logic<br/>sequential-circuit<br/>digital-counter<br/>circuit-output<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "011",
+      "discussUrl": "https://gateoverflow.in/2507/gate-cse-1994-question-11"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1996 | Question: 2.21</strong></div><p>Consider the circuit in below ﬁgure which has a four bit binary number<br/>as input and a ﬁve bit binary<br/>number,<br/>as output.<br/>digital-logic<br/>circuit-output</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2507/gate-cse-1994-question-11"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1996 | Question: 2.22</strong></div><p>Consider the circuit in figure.<br/>implements</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2507/gate-cse-1994-question-11"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1996 | Question: 24-a</strong></div><p>Consider the synchronous sequential circuit in the below figure<br/>Draw a state diagram, which is implemented by the circuit. Use the following names for the states corresponding to<br/>the values of flip-flops as given below.<br/>digital-logic<br/>circuit-output<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2776/gate-cse-1996-question-24-a"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1996 | Question: 24-b</strong></div><p>Consider the synchronous sequential circuit in the below figure<br/>Given that the initial state of the circuit is<br/>identify the set of states, which are not reachable.<br/>digital-logic<br/>circuit-output<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2776/gate-cse-1996-question-24-a"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circuit Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circuit Output: GATE CSE 1997 | Question: 5.5</strong></div><p>Consider a logic circuit shown in ﬁgure below. The functions<br/>(in canonical sum of products<br/>form in decimal notation) are :</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2256/gate-cse-1997-question-5-5"
+    }
+  ]
+}

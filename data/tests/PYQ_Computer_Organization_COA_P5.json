@@ -1,0 +1,1372 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P5",
+  "fileName": "PYQ_Computer_Organization_COA_P5.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 5",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2026 | Set 2 | Question: 8</strong></div><p>Consider the following two statements about interrupt handling mechanisms in a CPU.<br/>: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR)<br/>when compared to that in a vectored interrupt mechanism.<br/>: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of<br/>the interrupt.<br/>Which one of the following options is correct with respect to<br/>and<br/>co-and-architecture<br/>interrupts<br/>Machine Instruction<br/>(21)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460080/gate-cse-2025-set-1-question-1"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 1988 | Question: 9i</strong></div><p>The following program fragment was written in an assembly language for a single address computer with<br/>one accumulator register:<br/>LOAD B<br/>MULT C<br/>STORE T1<br/>ADD A<br/>STORE T2<br/>MULT T2<br/>ADD T1<br/>STORE Z<br/>Give the arithmetic expression implemented by the fragment.<br/>descriptive<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94384/gate-cse-1988-question-9i"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 1994 | Question: 12</strong></div><p>A<br/>.<br/>Assume that a CPU has only two registers<br/>and<br/>and that only the following instruction is available<br/>Using this XOR instruction, ﬁnd an instruction sequence in order to exchange the contents of the registers<br/>and<br/>B<br/>.<br/>The line p of the circuit shown in figure has stuck at<br/>fault. Determine an input test to detect the fault.<br/>co-and-architecture<br/>machine-instruction<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2508/gate-cse-1994-question-12"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 1999 | Question: 17</strong></div><p>Consider the following program fragment in the assembly language of a certain hypothetical processor. The<br/>processor has three general purpose registers<br/>and<br/>. The meanings of the instructions are shown<br/>by comments (starting with ;) after the instructions.<br/>X<br/>:<br/>CMP R1<br/>,<br/>0<br/>;<br/>Compare<br/>R1<br/>and<br/>0<br/>,<br/>set<br/>flags appropriately<br/>in<br/>status<br/>register<br/>JZ  Z<br/>;<br/>Jump<br/>if<br/>zero to target Z<br/>MOV R2<br/>,<br/>R1<br/>;<br/>Copy<br/>contents<br/>of<br/>R1 to R2<br/>SHR R1<br/>;<br/>Shift<br/>right R1<br/>by<br/>1<br/>bit<br/>SHL R1<br/>;<br/>Shift<br/>left R1<br/>by<br/>1<br/>bit<br/>CMP R2<br/>,<br/>R1<br/>;<br/>Compare<br/>R2<br/>and<br/>R1<br/>and<br/>set<br/>flag<br/>in<br/>status<br/>register<br/>JZ  Y<br/>;<br/>Jump<br/>if<br/>zero to target Y<br/>INC R3<br/>;<br/>Increment<br/>R3<br/>by<br/>1<br/>;<br/>Y<br/>:<br/>SHR R1<br/>;<br/>Shift<br/>right R1<br/>by<br/>1<br/>bit<br/>JMP X<br/>;<br/>Jump<br/>to target X<br/>Z<br/>:...<br/>A<br/>.<br/>Initially<br/>and<br/>contain the values<br/>,<br/>and<br/>respectively, what are the ﬁnal values of<br/>and<br/>when<br/>control reaches Z?<br/>B<br/>.<br/>In general, if<br/>and<br/>initially contain the values n, 0, and 0 respectively. What is the ﬁnal value of<br/>when control reaches<br/>?<br/>co-and-architecture<br/>machine-instruction<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1516/gate-cse-1999-question-17"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2003 | Question: 48</strong></div><p>Consider the following assembly language program for a hypothetical processor<br/>and<br/>are<br/>bit<br/>registers. The meanings of various instructions are shown as comments.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/938/gate-cse-2003-question-48"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2003 | Question: 49</strong></div><p>Consider the following assembly language program for a hypothetical processor<br/>and<br/>are<br/>bit<br/>registers. The meanings of various instructions are shown as comments.<br/>MOV B,<br/>#0<br/>;<br/>MOV C,<br/>#8<br/>;<br/>Z:<br/>CMP C,<br/>#0<br/>;<br/>compare C with 0<br/>JZ X<br/>;<br/>jump to X if zero flag is set<br/>SUB C, #1<br/>;<br/>RRC A, #1<br/>;<br/>right rotate A through carry by one bit. Thus:<br/>;<br/>If the initial values of A and the carry flag are<br/>and<br/>;<br/>respectively, their values after the execution of this<br/>;<br/>instruction will be<br/>and<br/>respectively.<br/>JC Y<br/>;<br/>jump to Y if carry flag is set<br/>JMP Z<br/>;<br/>jump to Z<br/>Y:<br/>ADD B, #1<br/>;<br/>JMP Z<br/>;<br/>jump to Z<br/>X:<br/>Which of the following instructions when inserted at location<br/>will ensure that the value of the register<br/>after<br/>program execution is as same as its initial value?<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43577/gate-cse-2003-question-49"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2004 | Question: 63</strong></div><p>Consider the following program segment for a hypothetical CPU having three user registers<br/>and<br/>Consider that the memory is byte addressable with size<br/>bits, and the program has been loaded starting from<br/>memory location<br/>(decimal). If an interrupt occurs while the CPU has been halted after executing the HALT<br/>instruction, the return address (in decimal) saved in the stack will be<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1058/gate-cse-2004-question-63"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2004 | Question: 64</strong></div><p>Consider the following program segment for a hypothetical CPU having three user registers<br/>and<br/>Let the clock cycles required for various operations be as follows:<br/>The total number of clock cycles required to execute the program is<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1058/gate-cse-2004-question-63"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2006 | Question: 09, ISRO2009-35</strong></div><p>A CPU has<br/>-<br/>instructions. A program starts at address<br/>(in decimal). Which one of the following is a<br/>legal program counter (all values in decimal)?<br/>co-and-architecture<br/>machine-instruction<br/>easy<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43570/gate-cse-2004-question-64"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2007 | Question: 54</strong></div><p>In a simplified computer the instructions are:<br/>The computer has only two registers, and OP is either ADD or SUB. Consider the following basic block:<br/>Assume that all operands are initially in memory. The ﬁnal value of the computation should be in memory. What is<br/>the minimum number of MOV instructions in the code generated for this basic block?<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1252/gate-cse-2007-question-54"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2007 | Question: 71</strong></div><p>Consider the following program segment. Here<br/>and<br/>are the general purpose registers.<br/>Assume that the content of memory location<br/>is<br/>and the content of the register<br/>is<br/>. The content of<br/>each of the memory locations from<br/>to<br/>is<br/>. The program is loaded from the memory location<br/>.<br/>All the numbers are in decimal.<br/>Assume that the memory is word addressable. The number of memory references for accessing the data in<br/>executing the program completely is<br/>co-and-architecture<br/>machine-instruction<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1252/gate-cse-2007-question-54"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2007 | Question: 72</strong></div><p>Consider the following program segment. Here<br/>and<br/>are the general purpose registers.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1252/gate-cse-2007-question-54"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2007 | Question: 73</strong></div><p>Consider the following program segment. Here<br/>and<br/>are the general purpose registers.<br/>Assume that the content of memory location<br/>is<br/>and the content of the register<br/>is<br/>The content of<br/>each of the memory locations from<br/>to<br/>is<br/>The program is loaded from the memory location<br/>All the numbers are in decimal.<br/>Assume that the memory is byte addressable and the word size is<br/>bits. If an interrupt occurs during the<br/>execution  of the instruction “INC R3”, what return address will be pushed on to the stack?<br/>co-and-architecture<br/>machine-instruction<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43516/gate-cse-2007-question-73"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2008 | Question: 34</strong></div><p>Which of the following must be true for the RFE (Return From Exception) instruction on a general purpose<br/>processor?<br/>I<br/>.<br/>It must be a trap instruction<br/>II<br/>.<br/>It must be a privileged instruction<br/>III<br/>.<br/>An exception cannot be allowed to occur during execution of an RFE instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/445/gate-cse-2008-question-34"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2015 | Set 2 | Question: 42</strong></div><p>Consider a processor with byte-addressable memory. Assume that all registers, including program counter<br/>(PC) and Program Status Word (PSW), are size of two bytes. A stack in the main memory is implemented<br/>from memory location<br/>and it grows upward. The stack pointer (SP) points to the top element of the stack.<br/>The current value of SP is<br/>. The CALL instruction is of two words, the ﬁrst word is the op-code and the<br/>second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented<br/>as follows:<br/>Store the current value of PC in the stack<br/>Store the value of PSW register in the stack<br/>Load the statring address of the subroutine in PC<br/>The content of PC just before the fetch of a CALL instruction is<br/>. After execution of the CALL instruction,<br/>the value of the stack pointer is:<br/>co-and-architecture<br/>machine-instruction<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8215/gate-cse-2015-set-2-question-42"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2016 | Set 2 | Question: 10</strong></div><p>A processor has<br/>distinct instruction and<br/>general purpose registers. A<br/>-bit instruction word has an<br/>opcode, two registers operands and an immediate operand. The number of bits available for the immediate<br/>operand field is_______.<br/>machine-instruction<br/>co-and-architecture<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/8215/gate-cse-2015-set-2-question-42"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2021 | Set 1 | Question: 55</strong></div><p>Consider the following instruction sequence where registers<br/>and<br/>are general purpose and<br/>denotes the content at the memory location<br/>Assume that the content of the memory location<br/>is<br/>, and the content of the register<br/>is<br/>. The<br/>content of each of the memory locations from<br/>to<br/>is<br/>. The instruction sequence starts from the<br/>memory location<br/>. All the numbers are in decimal format. Assume that the memory is byte addressable.<br/>After the execution of the program, the content of memory location<br/>is ____________<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [],
+      "correctAnswer": "50 : 50",
+      "discussUrl": "https://gateoverflow.in/8215/gate-cse-2015-set-2-question-42"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2023 | Question: 31</strong></div><p>Consider the given<br/>-code and its corresponding assembly code, with a few operands<br/>being<br/>unknown. Some useful information as well as the semantics of each unique assembly instruction is<br/>annotated as inline comments in the code. The memory is byte-addressable.<br/>//C-code<br/>int<br/>a<br/>[<br/>10<br/>],<br/>b<br/>[<br/>10<br/>],<br/>i<br/>;<br/>// int is 32 bit<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>10<br/>;<br/>i<br/>++)<br/>a<br/>[<br/>i<br/>]<br/>=<br/>b<br/>[<br/>i<br/>]<br/>*<br/>8<br/>;<br/>;<br/>assembly code<br/>(;<br/>indicates comments<br/>)<br/>;<br/>r1<br/>-<br/>r5 are<br/>32<br/>-<br/>bit integer registers<br/>;<br/>initialize r1<br/>=<br/>0<br/>,<br/>r2<br/>=<br/>10<br/>;<br/>initialize r3<br/>,<br/>r4<br/>with<br/>base<br/>address<br/>of<br/>a<br/>,<br/>b<br/>L01<br/>:<br/>jeq r1<br/>,<br/>r2<br/>,<br/>end<br/>;<br/>if<br/>(<br/>r1<br/>==<br/>r2<br/>)<br/>goto<br/>end<br/>L02<br/>:<br/>lw<br/>,<br/>r5<br/>,<br/>0<br/>(<br/>r4<br/>)<br/>;<br/>r5<br/><-<br/>Memory<br/>[<br/>r4<br/>+<br/>0<br/>]<br/>L03<br/>:<br/>shl<br/>,<br/>r5<br/>,<br/>r5<br/>,<br/>U1<br/>;<br/>r5<br/><-<br/>r5<br/><<<br/>U1<br/>L04<br/>:<br/>sw<br/>,<br/>r5<br/>,<br/>0<br/>(<br/>r3<br/>)<br/>;<br/>Memory<br/>[<br/>r3<br/>+<br/>0<br/>]<br/><-<br/>r5<br/>L05<br/>:<br/>add<br/>,<br/>r3<br/>,<br/>r3<br/>,<br/>U2<br/>;<br/>r3<br/><-<br/>r3<br/>+<br/>U2<br/>L06<br/>:<br/>add<br/>,<br/>r4<br/>,<br/>r4<br/>,<br/>U3<br/>L07<br/>:<br/>add<br/>,<br/>r1<br/>,<br/>r1<br/>,<br/>1<br/>L08<br/>:<br/>jmp U4<br/>;<br/>goto<br/>U4<br/>L09<br/>:<br/>end<br/>Which one of the following options is a<br/>replacement for operands in the position<br/>in the above assembly code?<br/>co-and-architecture<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399280/gate-cse-2023-question-31"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE CSE 2025 | Set 1 | Question: 27</strong></div><p>A processor has<br/>general-purpose registers and<br/>distinct instruction types. An instruction is encoded in<br/>-bits. What is the maximum number of bits that can be used to store the immediate operand for the given<br/>instruction?<br/>,<br/>/ /<br/>co-and-architecture<br/>machine-instruction<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399280/gate-cse-2023-question-31"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE IT 2004 | Question: 46</strong></div><p>If we use internal data forwarding to speed up the performance of a CPU (R1, R2 and R3 are registers and<br/>M[100] is a memory reference), then the sequence of operations<br/>R1 → M[100]<br/>M[100] → R2<br/>M[100] → R3<br/>can be replaced by<br/>co-and-architecture<br/>machine-instruction<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460053/gate-cse-2025-set-1-question-27"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE IT 2007 | Question: 41</strong></div><p>Following table indicates the latencies of operations between the instruction producing the result and</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3476/gate-it-2007-question-41"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Machine Instruction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Machine Instruction: GATE IT 2008 | Question: 38</strong></div><p>Assume that EA = (X)+ is the eﬀective address equal to the contents of location X, with X incremented by<br/>one word length after the eﬀective address is calculated; EA = −(X) is the eﬀective address equal to the<br/>contents of location X, with X decremented by one word length before the eﬀective address is calculated; EA = (X)−<br/>is the eﬀective address equal to the contents of location X, with X decremented by one word length after the<br/>eﬀective address is calculated. The format of the instruction is (opcode, source, destination), which means<br/>(destination ← source op destination). Using X as a stack pointer, which of the following instructions can pop the<br/>top two elements from the stack, perform the addition operation and push the result back to the stack.<br/>co-and-architecture<br/>machine-instruction<br/>Memory Interfacing<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3348/gate-it-2008-question-38"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 1990 | Question: 4-iv</strong></div><p>State whether the following statements are TRUE or FALSE with reason:<br/>Transferring data in blocks from the main memory to the cache memory enables an interleaved main memory unit<br/>to operate at its maximum speed.<br/>true-false<br/>co-and-architecture<br/>cache-memory<br/>memory-interfacing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "TBA",
+      "discussUrl": "https://gateoverflow.in/3348/gate-it-2008-question-38"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 1991 | Question: 01,ii</strong></div><p>In interleaved memory organization, consecutive words are stored in consecutive memory modules in<br/>_______ interleaving, whereas consecutive words are stored within the module in ________ interleaving.<br/>co-and-architecture<br/>memory-interfacing<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/499/gate-cse-1991-question-01-ii"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2006 | Question: 41</strong></div><p>A CPU has a cache with block size<br/>bytes. The main memory has<br/>banks, each bank being<br/>bytes wide.<br/>Consecutive<br/>− byte chunks are mapped on consecutive banks with wrap-around. All the<br/>banks can be<br/>accessed in parallel, but two accesses to the same bank must be serialized. A cache block access may involve<br/>multiple iterations of parallel bank accesses depending on the amount of data obtained by accessing all the<br/>banks in parallel. Each iteration requires decoding the bank numbers to be accessed in parallel and this takes<br/>.The latency of one bank access is<br/>ns. If<br/>and<br/>, the latency of retrieving a cache block starting<br/>at address zero from main memory is:<br/>co-and-architecture<br/>cache-memory<br/>memory-interfacing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1817/gate-cse-2006-question-41"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2016 | Set 1 | Question: 09</strong></div><p>A processor can support a maximum memory of<br/>, where the memory is word-addressable (a word<br/>consists of two bytes). The size of address bus of the processor is at least _________bits.<br/>co-and-architecture<br/>easy<br/>memory-interfacing</p></div>",
+      "options": [],
+      "correctAnswer": "31",
+      "discussUrl": "https://gateoverflow.in/1817/gate-cse-2006-question-41"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2018 | Question: 23</strong></div><p>A<br/>wide main memory unit with a capacity of<br/>is built using<br/>DRAM chips. The<br/>number of rows of memory cells in the DRAM chip is<br/>. The time taken to perform one refresh operation is<br/>. The refresh period is<br/>The percentage (rounded to the closest integer) of the<br/>time available for performing the memory read/write operations in the main memory unit is _________.<br/>co-and-architecture<br/>memory-interfacing</p></div>",
+      "options": [],
+      "correctAnswer": "59 : 60",
+      "discussUrl": "https://gateoverflow.in/204097/gate-cse-2018-question-23"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE CSE 2023 | Question: 32</strong></div><p>A<br/>kilobyte<br/>byte-addressable memory is realized using four<br/>memory blocks. Two input address<br/>lines<br/>are connected to the chip select<br/>port of these memory blocks through a decoder<br/>as shown in the ﬁgure. The remaining ten input address lines from<br/>are connected to the address port of<br/>these blocks. The chip select<br/>is active high.<br/>The input memory addresses<br/>in decimal, for the starting locations<br/>of each block<br/>(indicated as<br/>in the ﬁgure) are among the options given below. Which one of the following options<br/>is<br/>co-and-architecture<br/>memory-interfacing<br/>Microprogramming<br/>(12)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39632/gate-cse-2016-set-1-question-09"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 1987 | Question: 4a</strong></div><p>Find out the width of the control memory of a horizontal microprogrammed control unit, given the following<br/>specifications:<br/>control lines for the processor consisting of ALU and<br/>registers.<br/>Conditional branching facility by checking<br/>status bits.<br/>Provision to hold<br/>words in the control memory.<br/>co-and-architecture<br/>microprogramming<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/81359/gate-cse-1987-question-4a"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 1996 | Question: 2.25</strong></div><p>A micro program control unit is required to generate a total of<br/>control signals. Assume that during any<br/>micro instruction, at most two control signals are active. Minimum number of bits required in the control word<br/>to generate the required control signals will be:<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2754/gate-cse-1996-question-2-25"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 1997 | Question: 5.3</strong></div><p>A micro instruction is to be designed to specify:<br/>a<br/>.<br/>none or one of the three micro operations of one kind and<br/>b<br/>.<br/>none or upto six micro operations of another kind<br/>The minimum number of bits in the micro-instruction is:<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/81359/gate-cse-1987-question-4a"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 1999 | Question: 2.19</strong></div><p>Arrange the following configuration for CPU in decreasing order of operating speeds:<br/>Hard wired control, Vertical microprogramming, Horizontal microprogramming.<br/>A<br/>.<br/>Hard wired control, Vertical microprogramming, Horizontal microprogramming.<br/>B<br/>.<br/>Hard wired control, Horizontal microprogramming, Vertical microprogramming.<br/>C<br/>.<br/>Horizontal microprogramming, Vertical microprogramming, Hard wired control.<br/>D<br/>.<br/>Vertical microprogramming, Horizontal microprogramming, Hard wired control.<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/81359/gate-cse-1987-question-4a"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 2002 | Question: 2.7</strong></div><p>Horizontal microprogramming:<br/>A<br/>.<br/>does not require use of signal decoders<br/>B<br/>.<br/>results in larger sized microinstructions than vertical  microprogramming<br/>C<br/>.<br/>uses one bit for each control signal<br/>D<br/>.<br/>all of the above<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/81359/gate-cse-1987-question-4a"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 2004 | Question: 67</strong></div><p>The microinstructions stored in the control memory of a processor have a width of<br/>bits. Each<br/>microinstruction is divided into three ﬁelds: a micro-operation ﬁeld of<br/>bits, a next address ﬁeld<br/>and a<br/>MUX select field<br/>There are<br/>status bits in the input of the MUX.<br/>How many bits are there in the<br/>and<br/>fields, and what is the size of the control memory in number of words?<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1061/gate-cse-2004-question-67"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE CSE 2013 | Question: 28</strong></div><p>Consider the following sequence of micro-operations.<br/>MBR<br/>←<br/>PC<br/>MAR<br/>←<br/>X  PC<br/>←<br/>Y<br/>Memory<br/>←<br/>MBR<br/>Which one of the following is a possible operation performed by this sequence?<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1539/gate-cse-2013-question-28"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE IT 2004 | Question: 49</strong></div><p>A CPU has only three instructions<br/>and<br/>which use the following signals in time steps<br/>:<br/>: Ain, Bout, Cin<br/>: PCout, Bin<br/>: Zout, Ain<br/>: Bin, Cout<br/>: End<br/>: Cin, Bout, Din<br/>: Aout, Bin<br/>: Zout, Ain<br/>: Bin, Cout<br/>: End<br/>: Din, Aout<br/>: Ain, Bout<br/>: Zout, Ain<br/>: Dout, Ain<br/>: End<br/>Which of the following logic functions will generate the hardwired control for the signal Ain ?<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1061/gate-cse-2004-question-67"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE IT 2005 | Question: 45</strong></div><p>A hardwired CPU uses<br/>control signals<br/>to<br/>, in various time steps<br/>to<br/>, to implement<br/>instructions<br/>to<br/>as shown below:<br/>Which of the following pairs of expressions represent the circuit for generating control signals<br/>and<br/>respectively?<br/>indicates that the control signal should be generated in time step<br/>if the instruction being executed<br/>is<br/>or<br/>A<br/>.<br/>and<br/>B<br/>.<br/>and<br/>C<br/>.<br/>and<br/>D<br/>.<br/>and<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3806/gate-it-2005-question-45"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE IT 2005 | Question: 49</strong></div><p>An instruction set of a processor has<br/>signals which can be divided into<br/>groups of mutually exclusive<br/>signals as follows:<br/>Group<br/>signals, Group<br/>signals, Group<br/>signals, Group<br/>signals, Group<br/>signals.<br/>How many bits of the control words can be saved by using vertical microprogramming over horizontal<br/>microprogramming?<br/>co-and-architecture<br/>microprogramming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3806/gate-it-2005-question-45"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE IT 2006 | Question: 41</strong></div><p>The data path shown in the ﬁgure computes the number of<br/>in the<br/>input word corresponding to<br/>an unsigned even integer stored in the shift register.<br/>The unsigned counter, initially zero, is incremented if the most significant bit of the shift register is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3584/gate-it-2006-question-41"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Microprogramming",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Microprogramming: GATE IT 2008 | Question: 39</strong></div><p>Consider a CPU where all the instructions require<br/>clock cycles to complete execution. There are<br/>instructions in the instruction set. It is found that<br/>control signals are needed to be generated by the<br/>control unit. While designing the horizontal microprogrammed control unit, single address ﬁeld format is used for<br/>branch control logic. What is the minimum size of the control word and control address register?<br/>co-and-architecture<br/>microprogramming<br/>Pipelining<br/>(39)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3349/gate-it-2008-question-39"
+    }
+  ]
+}

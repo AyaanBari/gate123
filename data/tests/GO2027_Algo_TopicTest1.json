@@ -1,0 +1,430 @@
+{
+  "id": "GO2027_Algo_TopicTest1",
+  "fileName": "GO2027_Algo_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Algorithms | Asymptotics & Recurrences",
+  "subject": "Algorithms",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 15,
+  "totalMarks": 25,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Asymptotic Analysis",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Asymptotic Analysis</strong></div>\n<p>Consider the recurrence relation: $T(n) = 2T(n/2) + n / \\log_2 n$ for $n > 1$ with $T(1) = 1$. Which of the following statements is <strong>CORRECT</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Here $a=2, b=2, f(n)=n/\\log n$. $n^{\\log_b a} = n^1 = n$. The ratio $\\frac{n^{\\log_b a}}{f(n)} = \\log n$ is asymptotically positive but not polynomially larger ($n^\\epsilon$). Thus Master theorem Case 1 does not apply. By substitution $n=2^k$: $T(2^k) = 2T(2^{k-1}) + 2^k/k$. Dividing by $2^k$: $\\frac{T(2^k)}{2^k} = \\frac{T(2^{k-1})}{2^{k-1}} + \\frac{1}{k}$. Let $S(k) = \\frac{T(2^k)}{2^k}$, then $S(k) = \\sum_{i=1}^k 1/i = \\ln k = \\Theta(\\log k) = \\Theta(\\log(\\log n))$. Thus $T(n) = \\Theta(n \\log(\\log n))$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Master theorem can be applied and $T(n) = \\Theta(n)$</span>",
+          "textHtml": "<span>Master theorem can be applied and $T(n) = \\Theta(n)$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Master theorem cannot be directly applied, and $T(n) = \\Theta(n \\log(\\log n))$</span>",
+          "textHtml": "<span>Master theorem cannot be directly applied, and $T(n) = \\Theta(n \\log(\\log n))$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Master theorem can be applied and $T(n) = \\Theta(n \\log n)$</span>",
+          "textHtml": "<span>Master theorem can be applied and $T(n) = \\Theta(n \\log n)$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$T(n) = \\Theta(n^2)$</span>",
+          "textHtml": "<span>$T(n) = \\Theta(n^2)$</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Sorting</strong></div>\n<p>What is the minimum number of comparisons required to determine both the minimum and maximum elements in an unsorted array of size 100 using an optimal pairwise comparison algorithm?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For an array of $n$ elements, comparing elements in pairs takes $\\lfloor n/2 \\rfloor$ comparisons. The winners compete for maximum ($\\lceil n/2 \rceil - 1$ comparisons) and the losers compete for minimum ($\\lceil n/2 \rceil - 1$ comparisons). Total $= \\lceil 3n/2 \\rceil - 2$. For $n=100$: $3(100)/2 - 2 = 150 - 2 = 148$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "148",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Greedy Algorithms</strong></div>\n<p>Consider the Fractional Knapsack problem with items having values $v_i$ and weights $w_i$. Which of the following statements is/are <strong>TRUE</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A is TRUE:</b> Standard greedy algorithm on $v_i/w_i$ is optimal for fractional knapsack.<br/><b>B is FALSE:</b> 0/1 knapsack requires dynamic programming; greedy heuristic fails.<br/><b>C is TRUE:</b> Since every unit of weight yields identical value, any combination reaching full capacity achieves max value.<br/><b>D is TRUE:</b> Using median-of-medians $O(n)$ selection to find the pivot ratio and partitioning achieves $O(n)$ without full sorting.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Sorting items in decreasing order of value-to-weight ratio $v_i/w_i$ guarantees an optimal solution.</span>",
+          "textHtml": "<span>Sorting items in decreasing order of value-to-weight ratio $v_i/w_i$ guarantees an optimal solution.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>The greedy choice property always holds for the 0/1 Knapsack problem.</span>",
+          "textHtml": "<span>The greedy choice property always holds for the 0/1 Knapsack problem.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>If all items have the same value-to-weight ratio, any greedy selection that fills the knapsack is optimal.</span>",
+          "textHtml": "<span>If all items have the same value-to-weight ratio, any greedy selection that fills the knapsack is optimal.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Fractional knapsack can be solved in $O(n)$ time using a linear-time selection algorithm without fully sorting.</span>",
+          "textHtml": "<span>Fractional knapsack can be solved in $O(n)$ time using a linear-time selection algorithm without fully sorting.</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Graph Algorithms</strong></div>\n<p>Let $G = (V, E)$ be a directed graph. Which of the following conditions is both <strong>necessary and sufficient</strong> for $G$ to have a topological sorting?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    A topological sort exists if and only if the directed graph contains no directed cycles (i.e., it is a Directed Acyclic Graph, DAG). Strongly connected graphs with $>1$ vertices contain cycles and have no topological ordering.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$G$ is strongly connected</span>",
+          "textHtml": "<span>$G$ is strongly connected</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$G$ has a unique vertex with in-degree 0</span>",
+          "textHtml": "<span>$G$ has a unique vertex with in-degree 0</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$G$ contains no directed cycles (DAG)</span>",
+          "textHtml": "<span>$G$ contains no directed cycles (DAG)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$G$ is weakly connected</span>",
+          "textHtml": "<span>$G$ is weakly connected</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Divide and Conquer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Divide and Conquer</strong></div>\n<p>Standard matrix multiplication of two $2 \\times 2$ matrices requires 8 scalar multiplications. Strassen's algorithm reduces the number of scalar multiplications of $2 \\times 2$ block matrices to:</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Strassen's algorithm uses 7 multiplications instead of 8, leading to recurrence $T(n) = 7T(n/2) + O(n^2)$, giving complexity $O(n^{\\log_2 7}) \\approx O(n^{2.807})$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Dynamic Programming</strong></div>\n<p>Consider two sequences $X = \\langle A, B, C, B, D, A, B \\rangle$ and $Y = \\langle B, D, C, A, B, A \\rangle$. What is the length of the Longest Common Subsequence (LCS) of $X$ and $Y$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Common subsequences include $\\langle B, C, B, A \\rangle$, $\\langle B, D, A, B \\rangle$, and $\\langle B, C, A, B \\rangle$. Each has length 4. There is no common subsequence of length 5.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>3</span>",
+          "textHtml": "<span>3</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>4</span>",
+          "textHtml": "<span>4</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>5</span>",
+          "textHtml": "<span>5</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>6</span>",
+          "textHtml": "<span>6</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Graph Algorithms</strong></div>\n<p>Consider a directed graph $G = (V, E)$ with $|V| = 12$ and $|E| = 45$. In the worst-case, how many total edge relaxation operations are performed by the Bellman-Ford algorithm to compute single-source shortest paths (excluding negative cycle detection pass)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Bellman-Ford runs $|V|-1$ passes over all $|E|$ edges. Total edge relaxations $= (|V| - 1) \\times |E| = (12 - 1) \\times 45 = 11 \\times 45 = 495$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "495",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Minimum Spanning Tree</strong></div>\n<p>Let $G = (V, E)$ be a connected, weighted graph with distinct edge weights. Which of the following statements is/are <strong>TRUE</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A is TRUE:</b> Prim grows a single tree vertex by vertex.<br/><b>B is TRUE:</b> Kruskal picks lightest non-cycle edges anywhere in the graph, forming a forest.<br/><b>C is TRUE:</b> Sorting takes $O(|E| \\log |E|) = O(|E| \\log |V|)$, and union-find takes $O(|E| \\alpha(|V|))$.<br/><b>D is TRUE:</b> With distinct weights, the lightest edge is always chosen; the second lightest cannot create a cycle with only one edge, so it is always picked in Kruskal's second step.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Prim's algorithm always maintains a connected tree throughout its execution.</span>",
+          "textHtml": "<span>Prim's algorithm always maintains a connected tree throughout its execution.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Kruskal's algorithm may maintain an acyclic forest of disconnected components before completion.</span>",
+          "textHtml": "<span>Kruskal's algorithm may maintain an acyclic forest of disconnected components before completion.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Kruskal's algorithm with disjoint-set union by rank and path compression runs in $O(|E| \\log |V|)$ time.</span>",
+          "textHtml": "<span>Kruskal's algorithm with disjoint-set union by rank and path compression runs in $O(|E| \\log |V|)$ time.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>If an edge has the second smallest weight in the graph, it must belong to the MST.</span>",
+          "textHtml": "<span>If an edge has the second smallest weight in the graph, it must belong to the MST.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "NP-Completeness",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | NP-Completeness</strong></div>\n<p>Let $L_1, L_2$ be two decision problems. Suppose $L_1 \\le_P L_2$ (i.e. $L_1$ is polynomial-time reducible to $L_2$). Which of the following deductions is <strong>GUARANTEED TO BE VALID</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Reducibility $L_1 \\le_P L_2$ means $L_2$ is at least as hard as $L_1$. If the harder problem $L_2$ can be solved in polynomial time ($L_2 \\in P$), then the easier problem $L_1$ can also be solved in polynomial time by reducing it in poly-time to $L_2$ and solving it.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>If $L_1 \\in \\text{P}$, then $L_2 \\in \\text{P}$</span>",
+          "textHtml": "<span>If $L_1 \\in \\text{P}$, then $L_2 \\in \\text{P}$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>If $L_2$ is NP-complete, then $L_1$ must be NP-complete</span>",
+          "textHtml": "<span>If $L_2$ is NP-complete, then $L_1$ must be NP-complete</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>If $L_2 \\in \\text{P}$, then $L_1 \\in \\text{P}$</span>",
+          "textHtml": "<span>If $L_2 \\in \\text{P}$, then $L_1 \\in \\text{P}$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>If $L_1$ is undecidable, then $L_2$ must be in P</span>",
+          "textHtml": "<span>If $L_1$ is undecidable, then $L_2$ must be in P</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Divide and Conquer",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Divide and Conquer</strong></div>\n<p>Consider the recurrence relation $T(n) = 3T(n/3) + n$ with $T(1) = 2$. What is the exact value of $T(27)$?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    $T(1) = 2$.<br/>$T(3) = 3T(1) + 3 = 3(2) + 3 = 9$.<br/>$T(9) = 3T(3) + 9 = 3(9) + 9 = 36$.<br/>$T(27) = 3T(9) + 27 = 3(36) + 27 = 108 + 27 = 135$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "135",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Graph Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Graph Algorithms</strong></div>\n<p>In the Floyd-Warshall all-pairs shortest path algorithm on an $n$-vertex graph, what does entry $D^{(k)}[i][j]$ represent after the $k$-th iteration?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Floyd-Warshall is parameterized by the set of allowed intermediate vertices: $D^{(k)}[i][j] = \\min(D^{(k-1)}[i][j], D^{(k-1)}[i][k] + D^{(k-1)}[k][j])$, meaning intermediate vertices are strictly drawn from $\\{1, 2, \\dots, k\\}$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>The shortest path from $i$ to $j$ containing at most $k$ edges</span>",
+          "textHtml": "<span>The shortest path from $i$ to $j$ containing at most $k$ edges</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>The shortest path from $i$ to $j$ using only intermediate vertices from the set $\\{1, 2, \\dots, k\\}$</span>",
+          "textHtml": "<span>The shortest path from $i$ to $j$ using only intermediate vertices from the set $\\{1, 2, \\dots, k\\}$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>The shortest path from vertex $k$ to all other vertices</span>",
+          "textHtml": "<span>The shortest path from vertex $k$ to all other vertices</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>The length of the cycle passing through vertex $k$</span>",
+          "textHtml": "<span>The length of the cycle passing through vertex $k$</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Greedy Algorithms",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Greedy Algorithms</strong></div>\n<p>Consider 6 intervals with [start, end] times: $[1, 4], [3, 5], [0, 6], [5, 7], [3, 9], [5, 9], [6, 10], [8, 11]$. What is the maximum number of mutually compatible (non-overlapping) intervals that can be selected?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Greedy choice by earliest finish time:<br/>1. Pick $[1, 4]$ (finishes at 4).<br/>2. Compatible remaining: $[5, 7], [5, 9], [6, 10], [8, 11]$. Earliest finish is $[5, 7]$ (finishes at 7).<br/>3. Compatible remaining: $[8, 11]$. Pick $[8, 11]$.<br/>Total compatible intervals = 3 ($\\{[1,4], [5,7], [8,11]\\}$).\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Dynamic Programming",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Dynamic Programming</strong></div>\n<p>Which of the following problems exhibit <strong>optimal substructure</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A, C, D have optimal substructure:</b> Optimal solutions contain optimal sub-solutions.<br/><b>B DOES NOT:</b> Longest simple path does not have optimal substructure because subproblems share vertices and are not independent (finding longest simple path is NP-hard).\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Single-pair Shortest Path in a graph with non-negative edge weights</span>",
+          "textHtml": "<span>Single-pair Shortest Path in a graph with non-negative edge weights</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Longest Simple Path between two vertices in an unweighted directed graph</span>",
+          "textHtml": "<span>Longest Simple Path between two vertices in an unweighted directed graph</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Matrix Chain Multiplication</span>",
+          "textHtml": "<span>Matrix Chain Multiplication</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>0/1 Knapsack Problem</span>",
+          "textHtml": "<span>0/1 Knapsack Problem</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Sorting</strong></div>\n<p>For an array of $n = 63$ distinct elements, in the ideal best-case scenario where QuickSort always partitions arrays into two equal halves of size $(n-1)/2$, what is the total depth of the recursion tree (counting root as level 0)?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    At level 0: 63 elements.<br/>Level 1: 31 elements.<br/>Level 2: 15 elements.<br/>Level 3: 7 elements.<br/>Level 4: 3 elements.<br/>Level 5: 1 element.<br/>Tree depth (with root = level 0) $= \\log_2(63 + 1) - 1 = 6 - 1 = 5$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Algorithms - Backtracking",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Algorithms - Backtracking</strong></div>\n<p>In the 4-Queens problem solved using backtracking on a $4 \\times 4$ chessboard, how many distinct valid non-attacking configurations exist?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    The 4-Queens problem has exactly 2 distinct solutions: [2, 4, 1, 3] and [3, 1, 4, 2] (1-indexed column positions for rows 1 to 4), which are mirror reflections of each other.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>1</span>",
+          "textHtml": "<span>1</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>2</span>",
+          "textHtml": "<span>2</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>4</span>",
+          "textHtml": "<span>4</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>8</span>",
+          "textHtml": "<span>8</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

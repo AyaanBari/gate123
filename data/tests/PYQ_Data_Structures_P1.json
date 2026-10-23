@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Data_Structures_P1",
+  "fileName": "PYQ_Data_Structures_P1.json",
+  "title": "GATE Official PYQs | Data Structures Part 1",
+  "subject": "Data Structures",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 40,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE CSE 1988 | Question: 7ii</strong></div><p>Mark the balance factor of each node on the tree given in the below ﬁgure and state whether it is height-<br/>balanced.<br/>data-structures<br/>descriptive<br/>avl-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94367/gate-cse-1988-question-7ii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE CSE 1996 | Question: 1.14</strong></div><p>In the balanced binary tree in the below ﬁgure, how many nodes will become unbalanced when a node is<br/>inserted as a child of the node “g”?<br/>data-structures<br/>binary-tree<br/>avl-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/2133"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE CSE 1998 | Question: 21</strong></div><p>A<br/>.<br/>Derive a recurrence relation for the size of the smallest AVL tree with height<br/>.<br/>B<br/>.<br/>What is the size of the smallest AVL tree with height<br/>?<br/>data-structures<br/>avl-tree<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "Refer GO Discussion",
+      "discussUrl": "https://gateoverflow.in/test/2133"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE CSE 2009 | Question: 37,ISRO-DEC2017-55</strong></div><p>What is the maximum height of any AVL-tree with<br/>nodes? Assume that the height of a tree with a single<br/>node is<br/>.<br/>data-structures<br/>binary-search-tree<br/>isrodec2017<br/>avl-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1323/gate-cse-2009-question-37-isro-dec2017-55"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE CSE 2020 | Question: 6</strong></div><p>What is the worst case time complexity of inserting<br/>elements into an AVL-tree with<br/>elements initially?<br/>binary-tree<br/>avl-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333225/gate-cse-2020-question-6"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "AVL Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>AVL Tree: GATE IT 2008 | Question: 12</strong></div><p>Which of the following is TRUE?<br/>A<br/>.<br/>The cost of searching an AVL tree is<br/>but that of a binary search tree is<br/>B<br/>.<br/>The cost of searching an AVL tree is<br/>but that of a complete binary tree is<br/>C<br/>.<br/>The cost of searching a binary search tree is<br/>but that of an AVL tree is<br/>D<br/>.<br/>The cost of searching an AVL tree is<br/>but that of a binary search tree is<br/>data-structures<br/>binary-search-tree<br/>easy<br/>avl-tree<br/>Abstract Data Type<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3272/gate-it-2008-question-12"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Abstract Data Type",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Abstract Data Type: GATE CSE 2005 | Question: 2</strong></div><p>An Abstract Data Type (ADT) is:<br/>A<br/>.<br/>same as an abstract class<br/>B<br/>.<br/>a data type that cannot be instantiated<br/>C<br/>.<br/>a data type for which only the operations defined on it can be used, but none else<br/>D<br/>.<br/>all of the above<br/>data-structures<br/>abstract-data-type<br/>Array<br/>(13)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333225/gate-cse-2020-question-6"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 1993 | Question: 12</strong></div><p>The following Pascal program segments ﬁnds the largest number in a two-dimensional integer array<br/>using a single loop. Fill up the boxes to complete the program and write against<br/>in your answer book Assume that max is a variable to store the largest value and<br/>are the<br/>indices to the array.<br/>begin<br/>max<br/>:=|<br/>A<br/>|,<br/>i<br/>:=<br/>0<br/>,<br/>j<br/>:=<br/>0<br/>;<br/>while<br/>|<br/>B<br/>|<br/>do<br/>begin<br/>if<br/>A<br/>[<br/>i<br/>,<br/>j<br/>]><br/>max<br/>then<br/>max<br/>:=<br/>A<br/>[<br/>i<br/>,<br/>j<br/>];<br/>if<br/>|<br/>C<br/>|<br/>then<br/>j<br/>:=<br/>j<br/>+<br/>1<br/>;<br/>else<br/>begin<br/>j<br/>:=<br/>0<br/>;<br/>i<br/>:=|<br/>D<br/>|<br/>end<br/>end<br/>end<br/>data-structures<br/>array<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3272/gate-it-2008-question-12"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 1994 | Question: 1.11</strong></div><p>In a compact single dimensional array representation for lower triangular matrices (i.e all the elements above<br/>the diagonal are zero) of size<br/>, non-zero elements, (i.e elements of lower triangle) of each row are<br/>stored one after another, starting from the ﬁrst row, the index of the<br/>element of the lower triangular matrix in<br/>this new representation is:<br/>data-structures<br/>array</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2452/gate-cse-1994-question-1-11"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 1994 | Question: 25</strong></div><p>An array<br/>contains<br/>integers in non-decreasing order,<br/>. Describe, using<br/>Pascal like pseudo code, a linear time algorithm to ﬁnd<br/>such that<br/>given integer<br/>, if<br/>such<br/>exist.<br/>data-structures<br/>array<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2452/gate-cse-1994-question-1-11"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 1997 | Question: 17</strong></div><p>An array<br/>contains<br/>positive integers in the locations<br/>. The following program<br/>fragment prints the length of a shortest sequence of consecutive elements of<br/>,<br/>such that the sum of their values is<br/>, a given positive number. It prints ‘<br/>’ if no such sequence exists.<br/>Complete the program by ﬁlling in the boxes. In each case use the simplest possible expression. Write only the line<br/>number and the contents of the box.<br/>begin<br/>i<br/>:=<br/>1<br/>;<br/>j<br/>:=<br/>1<br/>;<br/>sum<br/>:=<br/>◻<br/>min<br/>:=<br/>n<br/>;<br/>finish<br/>:=<br/>false<br/>;<br/>while<br/>not<br/>finish<br/>do<br/>if<br/>◻<br/>then<br/>if<br/>j<br/>=<br/>n<br/>then<br/>finish<br/>:=<br/>true<br/>else<br/>begin<br/>j<br/>:=<br/>j<br/>+<br/>1<br/>;<br/>sum<br/>:=<br/>◻<br/>end<br/>else<br/>begin<br/>if<br/>(<br/>j<br/>-<br/>i<br/>)<br/><<br/>min<br/>then<br/>min<br/>:=<br/>j<br/>-<br/>i<br/>;<br/>sum<br/>:=<br/>sum<br/>–<br/>A<br/>[<br/>i<br/>];<br/>i<br/>:=<br/>i<br/>+<br/>1<br/>;<br/>end<br/>writeln<br/>(<br/>min<br/>+<br/>1<br/>);<br/>end<br/>.<br/>data-structures<br/>array<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2277/gate-cse-1997-question-17"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 1998 | Question: 2.14</strong></div><p>Let<br/>be a two dimensional array declared as follows:<br/>A<br/>:<br/>array<br/>[<br/>1<br/>….<br/>10<br/>]<br/>[<br/>1<br/>…..<br/>15<br/>]<br/>of<br/>integer<br/>;<br/>Assuming that each integer takes one memory location, the array is stored in row-major order and the ﬁrst element<br/>of the array is stored at location<br/>, what is the address of the element<br/>?<br/>data-structures<br/>array<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2452/gate-cse-1994-question-1-11"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2000 | Question: 1.2</strong></div><p>An<br/>array<br/>is defined as follows:<br/>for all<br/>The sum of the elements of the array<br/>is<br/>data-structures<br/>array<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/625/gate-cse-2000-question-1-2"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2000 | Question: 15</strong></div><p>Suppose you are given arrays<br/>and<br/>both uninitialized, that is, each location may<br/>contain an arbitrary value), and a variable count, initialized to<br/>. Consider the following procedures<br/>and<br/>:<br/>set<br/>(<br/>i<br/>)<br/>{<br/>count<br/>=<br/>count<br/>+<br/>1<br/>;<br/>q<br/>[<br/>count<br/>]<br/>=<br/>i<br/>;<br/>p<br/>[<br/>i<br/>]<br/>=<br/>count<br/>;<br/>}<br/>is_set<br/>(<br/>i<br/>)<br/>{<br/>if<br/>(<br/>p<br/>[<br/>i<br/>]<br/>≤<br/>0<br/>or<br/>p<br/>[<br/>i<br/>]<br/>><br/>count<br/>)<br/>return<br/>false<br/>;<br/>if<br/>(<br/>q<br/>[<br/>p<br/>[<br/>i<br/>]]<br/>≠<br/>i<br/>)<br/>return<br/>false<br/>;<br/>return<br/>true<br/>;<br/>}<br/>A<br/>.<br/>Suppose we make the following sequence of calls:<br/>;<br/>;<br/>;<br/>After these sequence of calls, what is the value of count, and what do<br/>and<br/>contain?<br/>B<br/>.<br/>Complete the following statement \"The ﬁrst count elements of __________contain values i such that set<br/>(_________________) has been called\".<br/>C<br/>.<br/>Show that if<br/>has not been called for some<br/>, then regardless of what<br/>contains,<br/>will return<br/>false.<br/>data-structures<br/>array<br/>easy<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/625/gate-cse-2000-question-1-2"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2005 | Question: 5</strong></div><p>A program<br/>reads in<br/>integers in the range<br/>representing the scores of<br/>students. It<br/>then prints the frequency of each score above<br/>. What would be the best way for<br/>to store the<br/>frequencies?<br/>data-structures<br/>array<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/625/gate-cse-2000-question-1-2"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2013 | Question: 50</strong></div><p>The procedure given below is required to ﬁnd and replace certain characters inside an input character string<br/>supplied in array<br/>. The characters to be replaced are supplied in array<br/>, while their respective<br/>replacement characters are supplied in array<br/>. Array<br/>has a ﬁxed length of ﬁve characters, while arrays<br/>and<br/>contain three characters each. However, the procedure is flawed.<br/>void<br/>find_and_replace<br/>(<br/>char<br/>*<br/>A<br/>,<br/>char<br/>*<br/>oldc<br/>,<br/>char<br/>*<br/>newc<br/>)<br/>{<br/>for<br/>(<br/>int<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>5<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>int<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>3<br/>;<br/>j<br/>++)<br/>if<br/>(<br/>A<br/>[<br/>i<br/>]<br/>==<br/>oldc<br/>[<br/>j<br/>])<br/>A<br/>[<br/>i<br/>]<br/>=<br/>newc<br/>[<br/>j<br/>];</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1557/gate-cse-2013-question-50"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2013 | Question: 51</strong></div><p>The procedure given below is required to ﬁnd and replace certain characters inside an input character string<br/>supplied in array<br/>. The characters to be replaced are supplied in array<br/>, while their respective<br/>replacement characters are supplied in array<br/>. Array<br/>has a ﬁxed length of ﬁve characters, while arrays<br/>and<br/>contain three characters each. However, the procedure is flawed.<br/>void<br/>find_and_replace<br/>(<br/>char<br/>*<br/>A<br/>,<br/>char<br/>*<br/>oldc<br/>,<br/>char<br/>*<br/>newc<br/>)<br/>{<br/>for<br/>(<br/>int<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>5<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>int<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>3<br/>;<br/>j<br/>++)<br/>if<br/>(<br/>A<br/>[<br/>i<br/>]<br/>==<br/>oldc<br/>[<br/>j<br/>])<br/>A<br/>[<br/>i<br/>]<br/>=<br/>newc<br/>[<br/>j<br/>];<br/>}<br/>The procedure is tested with the following four test cases.<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>If array<br/>is made to hold the string “<br/>”, which of the above four test cases will be successful in exposing the<br/>flaw in this procedure?<br/>data-structures<br/>array</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43291/gate-cse-2013-question-51"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2014 | Set 3 | Question: 42</strong></div><p>Consider the C function given below. Assume that the array<br/>contains<br/>elements, sorted in<br/>ascending order.<br/>int<br/>ProcessArray<br/>(<br/>int<br/>*<br/>listA<br/>,<br/>int<br/>x<br/>,<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>;<br/>i<br/>=<br/>0<br/>;<br/>j<br/>=<br/>n<br/>-<br/>1<br/>;<br/>do<br/>{<br/>k<br/>=<br/>(<br/>i<br/>+<br/>j<br/>)/<br/>2<br/>;<br/>if<br/>(<br/>x<br/><=<br/>listA<br/>[<br/>k<br/>])<br/>j<br/>=<br/>k<br/>-<br/>1<br/>;<br/>if<br/>(<br/>listA<br/>[<br/>k<br/>]<br/><=<br/>x<br/>)<br/>i<br/>=<br/>k<br/>+<br/>1<br/>;<br/>}<br/>while<br/>(<br/>i<br/><=<br/>j<br/>);<br/>if<br/>(<br/>listA<br/>[<br/>k<br/>]<br/>==<br/>x<br/>)<br/>return<br/>(<br/>k<br/>);<br/>else<br/>return<br/>-<br/>1<br/>;<br/>}<br/>Which one of the following statements about the function<br/>is<br/>CORRECT<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43291/gate-cse-2013-question-51"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2015 | Set 2 | Question: 31</strong></div><p>A Young tableau is a<br/>array of integers increasing from left to right and from top to bottom. Any unﬁlled<br/>entries are marked with<br/>, and hence there cannot be any entry to the right of, or below a<br/>. The following<br/>Young tableau consists of unique entries.<br/>When an element is removed from a Young tableau, other elements should be moved into its place so that the<br/>resulting table is still a Young tableau (unﬁlled entries may be ﬁlled with a<br/>). The minimum number of entries<br/>(other than<br/>) to be shifted, to remove<br/>from the given Young tableau is _____.<br/>databases<br/>array</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/8148/gate-cse-2015-set-2-question-31"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Array",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Array: GATE CSE 2021 | Set 1 | Question: 2</strong></div><p>Let<br/>be an array containing<br/>integers. Let<br/>be the lowest upper bound on the number of comparisons of<br/>the array elements, required to ﬁnd the minimum and maximum values in an arbitrary array of<br/>elements.<br/>Which one of the following choices is correct?<br/>data-structures<br/>array<br/>Binary Heap<br/>(30)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(2Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8148/gate-cse-2015-set-2-question-31"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 1990 | Question: 2-viii</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8148/gate-cse-2015-set-2-question-31"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 1996 | Question: 2.11</strong></div><p>The minimum number of interchanges needed to convert the array into a max-heap is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8148/gate-cse-2015-set-2-question-31"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 1999 | Question: 12</strong></div><p>A<br/>.<br/>In binary tree, a full node is defined to be a node with<br/>children. Use induction on the height of the binary tree to<br/>prove that the number of full nodes plus one is equal to the number of leaves.<br/>B<br/>.<br/>Draw the min-heap that results from insertion of the following elements in order into an initially empty min-heap:<br/>. Show the result after the deletion of the root of this heap.<br/>data-structures<br/>binary-heap<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1511/gate-cse-1999-question-12"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2001 | Question: 1.15</strong></div><p>Consider any array representation of an<br/>element binary heap where the elements are stored from index<br/>to index<br/>of the array. For the element stored at index<br/>of the array<br/>, the index of the parent is<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1511/gate-cse-1999-question-12"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2003 | Question: 23</strong></div><p>In a min-heap with<br/>elements with the smallest element at the root, the<br/>smallest element can be found<br/>in time<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1110/gate-cse-2003-question-23"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2004 | Question: 37</strong></div><p>The elements<br/>are inserted one by one in the given order into a maxHeap. The<br/>resultant maxHeap is<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1034/gate-cse-2004-question-37"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2005 | Question: 34</strong></div><p>A priority queue is implemented as a Max-Heap. Initially, it has<br/>elements. The level-order traversal of the<br/>heap is:<br/>. Two new elements<br/>and<br/>are inserted into the heap in that order. The level-order<br/>traversal of the heap after the insertion of the elements is:<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1370/gate-cse-2005-question-34"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2006 | Question: 10</strong></div><p>In a binary max heap containing<br/>numbers, the smallest element can be found in time<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/889/gate-cse-2006-question-10"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2006 | Question: 76</strong></div><p>Statement for Linked Answer Questions 76 & 77:<br/>A<br/>-ary max heap is like a binary max heap, but instead of<br/>children, nodes have<br/>children. A<br/>-ary heap can be<br/>represented by an array as follows: The root is stored in the ﬁrst location,<br/>, nodes in the next level, from left to<br/>right, is stored from<br/>to<br/>. The nodes from the second level of the tree from left to right are stored from<br/>location onward. An item<br/>can be inserted into a<br/>-ary heap containing<br/>items by placing<br/>in the location<br/>and pushing it up the tree to satisfy the heap property.<br/>Which one of the following is a valid sequence of elements in an array representing<br/>-ary max heap?<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/889/gate-cse-2006-question-10"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2006 | Question: 77</strong></div><p>Statement for Linked Answer Questions 76 & 77:<br/>A<br/>-ary max heap is like a binary max heap, but instead of<br/>children, nodes have<br/>children. A<br/>-ary heap can be<br/>represented by an array as follows: The root is stored in the ﬁrst location,<br/>, nodes in the next level, from left to<br/>right, is stored from<br/>to<br/>. The nodes from the second level of the tree from left to right are stored from<br/>location onward. An item<br/>can be inserted into a<br/>-ary heap containing<br/>items by placing<br/>in the location<br/>and pushing it up the tree to satisfy the heap property.<br/>76. Which one of the following is a valid sequence of elements in an array representing<br/>ary max heap?<br/>77. Suppose the elements<br/>and<br/>are inserted, in that order, into the valid<br/>-ary max heap found in the<br/>previous question, Q.76. Which one of the following is the sequence of items in the array representing the resultant<br/>heap?<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/889/gate-cse-2006-question-10"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2007 | Question: 47</strong></div><p>Consider the process of inserting an element into a<br/>, where the<br/>is represented by an<br/>array. Suppose we perform a binary search on the path from the new leaf to the root to ﬁnd the position for<br/>the newly inserted element, the number of comparisons performed is:<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1245/gate-cse-2007-question-47"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2009 | Question: 59</strong></div><p>Consider a binary max-heap implemented using an array.<br/>Which one of the following array represents a binary max-heap?<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1341/gate-cse-2009-question-59"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2009 | Question: 60</strong></div><p>Consider a binary max-heap implemented using an array.<br/>What is the content of the array after two delete operations on<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1341/gate-cse-2009-question-59"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2011 | Question: 23</strong></div><p>A max-heap is a heap where the value of each parent is greater than or equal to the value of its children.<br/>Which of the following is a max-heap?<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2125/gate-cse-2011-question-23"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2014 | Set 2 | Question: 12</strong></div><p>A priority queue is implemented as a Max-Heap. Initially, it has<br/>elements. The level-order traversal of the<br/>heap is:<br/>. Two new elements<br/>and<br/>are inserted into the heap in that order. The level-order<br/>traversal of the heap after the insertion of the elements is:<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1245/gate-cse-2007-question-47"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2015 | Set 1 | Question: 32</strong></div><p>Consider a max heap, represented by the array:<br/>.<br/>Now consider that a value<br/>is inserted into this heap. After insertion, the new heap is<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2015 | Set 2 | Question: 17</strong></div><p>Consider a complete binary tree where the left and right subtrees of the root are max-heaps. The lower<br/>bound for the number of operations to convert the tree to a heap is<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2015 | Set 3 | Question: 19</strong></div><p>Consider the following array of elements.<br/>The minimum number of interchanges needed to convert it into a max-heap is<br/>data-structures<br/>binary-heap<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2016 | Set 1 | Question: 37</strong></div><p>An operator delete<br/>for a binary heap data structure is to be designed to delete the item in the<br/>-th  node.<br/>Assume that the heap is implemented in an array and<br/>refers to the<br/>-th index of the array. If the heap tree<br/>has depth<br/>(number of edges on the path from the root to the farthest leaf ), then what is the time complexity to re-<br/>fix the heap efficiently after the removal of the element?<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Heap",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Heap: GATE CSE 2016 | Set 2 | Question: 34</strong></div><p>A complete binary min-heap is made by including each integer in<br/>exactly once. The depth of a<br/>node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth<br/>.<br/>The maximum depth at which integer<br/>can appear is _________.<br/>data-structures<br/>binary-heap</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32"
+    }
+  ]
+}

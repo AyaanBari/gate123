@@ -1,0 +1,1204 @@
+{
+  "id": "PYQ_Probability_Statistics_P2",
+  "fileName": "PYQ_Probability_Statistics_P2.json",
+  "title": "GATE Official PYQs | Probability & Statistics Part 2",
+  "subject": "Probability & Statistics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Exponential Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Exponential Distribution: GATE CSE 2021 | Set 1 | Question: 18</strong></div><p>The lifetime of a component of a certain type is a random variable whose probability density function is<br/>exponentially distributed with parameter<br/>. For a randomly picked component of this type, the probability that<br/>its lifetime exceeds the expected lifetime (rounded to<br/>decimal places) is ____________.<br/>probability<br/>random-variable<br/>exponential-distribution</p></div>",
+      "options": [],
+      "correctAnswer": "0.35 :",
+      "discussUrl": "https://gateoverflow.in/test/1821"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Exponential Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Exponential Distribution: GATE DA 2025 | Question: 11</strong></div><p>It is given that<br/>for an exponentially distributed random variable<br/>with<br/>,<br/>where<br/>denotes the expectation of<br/>. What is the value of<br/>? (ln denotes natural logarithm)<br/>gateda-2025<br/>probability<br/>exponential-distribution<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461011/gate-da-2025-question-11"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Exponential Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Exponential Distribution: GATE DA 2025 | Question: 31</strong></div><p>​​​​<br/>For<br/>, the floor function is denoted by<br/>and defined as follows<br/>where<br/>is an integer. Let<br/>, where<br/>is an exponentially distributed random variable with mean<br/>,<br/>where<br/>denotes natural logarithm. For any positive integer<br/>, one can write the probability of the event<br/>as<br/>follows<br/>The value of<br/>is<br/>gateda-2025<br/>probability<br/>random-variable<br/>exponential-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461011/gate-da-2025-question-11"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Exponential Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Exponential Distribution: GATE DA 2026 | Question: 24</strong></div><p>Let<br/>be an exponentially distributed random variable with mean<br/>. If<br/>, then the<br/>conditional probability<br/>is<br/>. (Rounded off to two decimal places)<br/>gateda-2026<br/>conditional-probability<br/>random-variable<br/>exponential-distribution<br/>Exponential Distribution: GATE DS&AI 2024 | Question: 47<br/>Let<br/>be a random variable exponentially distributed with parameter<br/>. The probability density function<br/>of<br/>is given by:</p></div>",
+      "options": [],
+      "correctAnswer": "0.34:0.36",
+      "discussUrl": "https://gateoverflow.in/523191/gate-da-2026-question-24"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Exponential Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Exponential Distribution: GATE IT 2004 | Question: 33</strong></div><p>Let<br/>and<br/>be two exponentially distributed and independent random variables with mean<br/>and<br/>,<br/>respectively. If<br/>= min<br/>, then the mean of<br/>is given by<br/>probability<br/>exponential-distribution<br/>random-variable<br/>Independent Events<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(13Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3676/gate-it-2004-question-33"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Independent Events",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Independent Events: GATE CSE 1994 | Question: 2.8</strong></div><p>Let<br/>and<br/>be independent events which occur with probabilities<br/>and<br/>respectively. The<br/>probability of occurrence of at least one of the event is _______<br/>probability<br/>independent-events</p></div>",
+      "options": [],
+      "correctAnswer": "0.93",
+      "discussUrl": "https://gateoverflow.in/3676/gate-it-2004-question-33"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Independent Events",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Independent Events: GATE CSE 1999 | Question: 2.1</strong></div><p>Consider two events<br/>and<br/>such that probability of<br/>,<br/>, probability of<br/>,<br/>,<br/>and probability of<br/>, and<br/>,<br/>. Which of the following statements is/are true?<br/>probability<br/>independent-events</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3676/gate-it-2004-question-33"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Independent Events",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Independent Events: GATE CSE 2000 | Question: 2.2</strong></div><p>and<br/>are events in a probability space satisfying the following constraints:<br/>=<br/>=<br/>and<br/>are independent<br/>The value of<br/>, the probability of the event<br/>,  is<br/>probability<br/>easy<br/>independent-events</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3676/gate-it-2004-question-33"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Independent Events",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Independent Events: GATE CSE 2023 | Question: 43</strong></div><p>Consider a random experiment where two fair coins are tossed. Let<br/>be the event that denotes<br/>on<br/>both the throws,<br/>be the event that denotes<br/>on the ﬁrst throw, and<br/>be the event that denotes<br/>on the second throw. Which of the following statements is/are<br/>probability<br/>independent-events<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/399268/gate-cse-2023-question-43"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Independent Events",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Independent Events: GATE DA 2025 | Question: 44</strong></div><p>Consider a coin-toss experiment where the probability of head showing up is<br/>. In the<br/>coin toss, let<br/>if head appears, and<br/>if tail appears. Consider<br/>where<br/>is the total number of independent coin tosses.<br/>Which of the following statements is/are correct?<br/>gateda-2025<br/>probability<br/>independent-events<br/>multiple-selects<br/>Independent Events: GATE DS&AI 2024 | Question: 2<br/>Three fair coins are tossed independently.<br/>is the event that two or more tosses result in heads.<br/>is the<br/>event that two or more tosses result in tails.<br/>What is the probability of the event<br/>?<br/>gate-ds-ai-2024<br/>probability<br/>independent-events<br/>Normal Distribution<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/460978/gate-da-2025-question-44"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Normal Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Normal Distribution: GATE CSE 2008 | Question: 29</strong></div><p>Let<br/>be a random variable following normal distribution with mean<br/>and variance<br/>. Let<br/>be another<br/>normal variable with mean<br/>and variance unknown. If<br/>, the standard deviation<br/>of<br/>is<br/>random-variable<br/>normal-distribution<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422960/gate-ds&ai-2024-question-2"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Normal Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Normal Distribution: GATE CSE 2017 Set-1 | Question:37</strong></div><p>Let X be a Gaussian random variable with mean 0 and variance<br/>σ<br/>2. Let Y = max(X, 0) where max(a,b) is the<br/>maximum of a and b. The median of Y is __________.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1816"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Normal Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Normal Distribution: GATE CSE 2017 | Set 1 | Question: 19</strong></div><p>Let<br/>be a Gaussian random variable with mean 0 and variance<br/>. Let<br/>=<br/>where<br/>is the maximum of<br/>and<br/>. The median of<br/>is ______________ .<br/>probability<br/>normal-distribution</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Normal Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Normal Distribution: GATE DA 2026 | Question: 18</strong></div><p>Suppose a random variable<br/>follows<br/>distribution with probability density function<br/>and cumulative distribution function<br/>. Another random variable<br/>follows<br/>distribution with<br/>probability density function<br/>and cumulative distribution function<br/>. Let<br/>be the positive real number for<br/>which<br/>.<br/>Which of the following statements is/are correct?<br/>gateda-2026<br/>probability<br/>random-variable<br/>normal-distribution<br/>multiple-selects<br/>Poisson Distribution<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Poisson Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Poisson Distribution: GATE CSE 1989 | Question: 4-viii</strong></div><p>is the probability of<br/>events occurring during a time interval<br/>. How will you express<br/>in<br/>terms of<br/>, if<br/>has stationary independent increments? (Note:<br/>is the probability density<br/>function).<br/>descriptive<br/>probability<br/>poisson-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/88156/gate-cse-1989-question-4-viii"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Poisson Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Poisson Distribution: GATE CSE 2013 | Question: 2</strong></div><p>Suppose<br/>is the number of cars per minute passing through a certain road junction between<br/>PM and<br/>PM, and<br/>has a Poisson distribution with mean<br/>. What is the probability of observing fewer than<br/>cars<br/>during any given minute in this interval?<br/>probability<br/>poisson-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Poisson Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Poisson Distribution: GATE CSE 2017 | Set 2 | Question: 48</strong></div><p>If a random variable<br/>has a Poisson distribution with mean<br/>, then the expectation<br/>equals<br/>___.<br/>expectation<br/>poisson-distribution<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "54",
+      "discussUrl": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Poisson Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Poisson Distribution: GATE DA 2026 | Question: 35</strong></div><p>Let</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523197/gate-da-2026-question-18"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Poisson Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Poisson Distribution: GATE IT 2007 | Question: 57</strong></div><p>In a multi-user operating system on an average,<br/>requests are made to use a particular resource per hour.<br/>The arrival of requests follows a Poisson distribution. The probability that either one, three or ﬁve requests<br/>are made in<br/>minutes is given by :<br/>probability<br/>poisson-distribution<br/>Probability<br/>(31)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3499/gate-it-2007-question-57"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1995 | Question: 1.18</strong></div><p>The probability that a number selected at random between<br/>and<br/>(both inclusive) will not contain the<br/>digit<br/>is:<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1809"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1995 | Question: 2.14</strong></div><p>A bag contains<br/>white balls and<br/>black balls. Two balls are drawn in succession. The probability that<br/>one of them is black and the other is white is:<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3499/gate-it-2007-question-57"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1996 | Question: 1.5</strong></div><p>Two dice are thrown simultaneously. The probability that at least one of them will have<br/>facing up is<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3499/gate-it-2007-question-57"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1996 | Question: 2.7</strong></div><p>The probability that top and bottom cards of a randomly shuffled deck are both aces is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3499/gate-it-2007-question-57"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1997 | Question: 1.1</strong></div><p>The probability that it will rain today is<br/>. The probability that it will rain tomorrow is<br/>. The probability<br/>that it will rain either today or tomorrow is<br/>. What is the probability that it will rain today and tomorrow?<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2217/gate-cse-1997-question-1-1"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 1998 | Question: 1.1</strong></div><p>A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes<br/>is<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2217/gate-cse-1997-question-1-1"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2001 | Question: 2.4</strong></div><p>Seven (distinct) car accidents occurred in a week. What is the probability that they all occurred on the same<br/>day?<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2217/gate-cse-1997-question-1-1"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2004 | Question: 25</strong></div><p>If a fair coin is tossed four times. What is the probability that two heads and two tails will result?<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1022/gate-cse-2004-question-25"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2010 | Question: 26</strong></div><p>Consider a company that assembles computers. The probability of a faulty assembly of any computer is<br/>.<br/>The company therefore subjects each computer to a testing process. This testing process gives the correct<br/>result for any computer with a probability of<br/>. What is the probability of a computer being declared faulty?<br/>probability<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1152/gate-cse-2010-question-26"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2010 | Question: 27</strong></div><p>What is the probability that divisor of<br/>is a multiple of<br/>?<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1152/gate-cse-2010-question-26"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2011 | Question: 34</strong></div><p>A deck of<br/>cards (each carrying a distinct number from<br/>to<br/>) is shuﬄed thoroughly. Two cards are then<br/>removed one at a time from the deck. What is the probability that the two cards are selected with the number<br/>on the first card being one higher than the number on the second card?<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2014 | Set 1 | Question: 48</strong></div><p>Four fair six-sided dice are rolled. The probability that the sum of the results being<br/>is<br/>. The value of<br/>is _______<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2014 | Set 2 | Question: 1</strong></div><p>The security system at an IT oﬃce is composed of<br/>computers of which exactly four are working. To<br/>check whether the system is functional, the oﬃcials inspect four of the computers picked at random (without<br/>replacement). The system is deemed functional if at least three of the four computers inspected are working. Let<br/>the probability that the system is deemed functional be denoted by<br/>Then<br/>_____________.<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "11.85 :",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2014 | Set 2 | Question: 48</strong></div><p>The probability that a given positive integer lying between<br/>and<br/>(both inclusive) is NOT divisible by<br/>,<br/>or<br/>is ______ .<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.259 :",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2014 | Set 3 | Question: 48</strong></div><p>Let<br/>be a sample space and two mutually exclusive events<br/>and<br/>be such that<br/>. If<br/>denotes the probability of the event, the maximum value of<br/>is_____.<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.25",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2016 | Set 1 | Question: 29</strong></div><p>Consider the following experiment.<br/>Step 1<br/>. Flip a fair coin twice.<br/>Step 2<br/>. If the outcomes are (TAILS, HEADS) then output<br/>and stop.<br/>Step 3<br/>. If the outcomes are either (HEADS, HEADS) or (HEADS, TAILS), then output<br/>and stop.<br/>Step 4<br/>. If the outcomes are (TAILS, TAILS), then go to Step<br/>The probability that the output of the experiment is<br/>is (up to two decimal places)<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.33 :",
+      "discussUrl": "https://gateoverflow.in/2136/gate-cse-2011-question-34"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2018 | Question: 15</strong></div><p>Two people,<br/>and<br/>, decide to independently roll two identical dice, each with<br/>faces, numbered<br/>to<br/>.<br/>The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie.<br/>Deﬁne a trial as a throw of the dice by<br/>and<br/>Assume that all<br/>numbers on each dice are equi-probable and<br/>that all trials are independent. The probability (rounded to<br/>decimal places) that one of them wins on the third trial<br/>is ____<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.0230 :",
+      "discussUrl": "https://gateoverflow.in/204089/gate-cse-2018-question-15"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2021 | Set 2 | Question: 33</strong></div><p>A bag has<br/>red balls and<br/>black balls. All balls are identical except for their colours. In a trial, a ball is<br/>randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another<br/>ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of<br/>four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the<br/>fourth trial?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204089/gate-cse-2018-question-15"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2024 | Set 1 | Question: 17</strong></div><p>Let<br/>and<br/>be two events in a probability space with<br/>, and<br/>.<br/>Which of the following statements is/are TRUE?<br/>A<br/>.<br/>The two events<br/>and<br/>are independent<br/>B<br/>.<br/>C<br/>.<br/>, where<br/>is the complement of the event<br/>D<br/>.<br/>, where<br/>and<br/>are the complements of the events<br/>and<br/>, respectively<br/>multiple-selects<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/204089/gate-cse-2018-question-15"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2024 | Set 2 | Question: 8</strong></div><p>When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers<br/>is<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204089/gate-cse-2018-question-15"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2025 | Set 1 | Question: 22</strong></div><p>A box contains<br/>coins:<br/>regular coins and<br/>fake coin. When a regular coin is tossed, the probability<br/>head<br/>and for a fake coin,<br/>head<br/>. You pick a coin at random and toss it twice, and get two<br/>heads. The probability that the coin you have chosen is the fake coin is __________. (rounded oﬀ to two decimal<br/>places)<br/>probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.49:0.51",
+      "discussUrl": "https://gateoverflow.in/460058/gate-cse-2025-set-1-question-22"
+    }
+  ]
+}

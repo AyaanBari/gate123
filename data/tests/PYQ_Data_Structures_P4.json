@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Data_Structures_P4",
+  "fileName": "PYQ_Data_Structures_P4.json",
+  "title": "GATE Official PYQs | Data Structures Part 4",
+  "subject": "Data Structures",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2015 | Set 1 | Question: 25</strong></div><p>The height of a tree is the length of the longest root-to-leaf path in it. The maximum and minimum number of<br/>nodes in a binary tree of height<br/>are<br/>data-structures<br/>binary-tree<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8223/gate-cse-2015-set-1-question-25"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2015 | Set 2 | Question: 10</strong></div><p>A binary tree T has<br/>leaves. The number of nodes in T having two children is ______.<br/>data-structures<br/>binary-tree<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "19",
+      "discussUrl": "https://gateoverflow.in/8223/gate-cse-2015-set-1-question-25"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2015 | Set 3 | Question: 25</strong></div><p>Consider a binary tree T that has<br/>leaf nodes. Then the number of nodes in T that have exactly two<br/>children are ______.<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [],
+      "correctAnswer": "199",
+      "discussUrl": "https://gateoverflow.in/8223/gate-cse-2015-set-1-question-25"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2016 | Set 2 | Question: 36</strong></div><p>Consider the following New-order strategy for traversing a binary tree:<br/>Visit the root;<br/>Visit the right subtree using New-order;<br/>Visit the left subtree using New-order;<br/>The New-order traversal of the expression tree corresponding to the reverse polish expression<br/>3<br/>4<br/>*<br/>5<br/>-<br/>2<br/>^<br/>6<br/>7<br/>*<br/>1<br/>+<br/>-<br/>is given by:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8223/gate-cse-2015-set-1-question-25"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2018 | Question: 20</strong></div><p>The postorder traversal of a binary tree is<br/>. The inorder traversal of the same tree is<br/>. The height of a tree is the length of the longest path from the root to any leaf. The<br/>height of the binary tree above is _____<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/8223/gate-cse-2015-set-1-question-25"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2019 | Question: 46</strong></div><p>Let<br/>be a full binary tree with<br/>leaves. (A full binary tree has every level full.) Suppose two leaves<br/>and<br/>of<br/>are chosen uniformly and independently at random. The expected value of the distance between<br/>and<br/>in<br/>(ie., the number of edges in the unique path between<br/>and<br/>) is (rounded oﬀ to<br/>decimal places)<br/>_________.</p></div>",
+      "options": [],
+      "correctAnswer": "4.25",
+      "discussUrl": "https://gateoverflow.in/302802/gate-cse-2019-question-46"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2021 | Set 2 | Question: 16</strong></div><p>Consider a complete binary tree with<br/>nodes. Let<br/>denote the set of ﬁrst<br/>elements obtained by<br/>performing Breadth-First Search<br/>starting from the root. Let<br/>denote the set of ﬁrst<br/>elements<br/>obtained by performing Depth-First Search<br/>starting from the root.<br/>The value of<br/>is _____________<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [],
+      "correctAnswer": "1 : 1",
+      "discussUrl": "https://gateoverflow.in/357524/gate-cse-2021-set-2-question-16"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2023 | Question: 37</strong></div><p>Consider the<br/>function<br/>and the binary tree shown.<br/>typedef<br/>struct<br/>node<br/>{<br/>int<br/>val<br/>;<br/>struct<br/>node<br/>*<br/>left<br/>,<br/>*<br/>right<br/>;<br/>}<br/>node<br/>;<br/>int<br/>foo<br/>(<br/>node<br/>*<br/>p<br/>)<br/>{<br/>int<br/>retval<br/>;<br/>if<br/>(<br/>p<br/>==<br/>NULL<br/>)<br/>return<br/>0<br/>;<br/>else<br/>{<br/>retval<br/>=<br/>p<br/>-><br/>val<br/>+<br/>foo<br/>(<br/>p<br/>-><br/>left<br/>)<br/>+<br/>foo<br/>(<br/>p<br/>-><br/>right<br/>);<br/>printf<br/>(<br/>\"%d \"<br/>,<br/>retval<br/>);<br/>return<br/>retval<br/>;<br/>}<br/>}<br/>When<br/>is called with a pointer to the root node of the given binary tree, what will it print?<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399274/gate-cse-2023-question-37"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE CSE 2025 | Set 2 | Question: 3</strong></div><p>Consider a binary tree<br/>in which every node has either zero or two children. Let<br/>be the number of<br/>nodes in<br/>.<br/>Which ONE of the following is the number of nodes in<br/>that have exactly two children?<br/>data-structures<br/>binary-tree<br/>Binary Tree: GATE DS&AI 2024 | Question: 18<br/>​​​​​​<br/>Consider the following tree traversals on a full binary tree:<br/>i<br/>.<br/>Preorder<br/>ii<br/>.<br/>Inorder</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357524/gate-cse-2021-set-2-question-16"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2004 | Question: 54</strong></div><p>Which one of the following binary trees has its inorder and preorder traversals as<br/>and<br/>,<br/>respectively?<br/>binary-tree<br/>easy<br/>data-structures</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/3697/gate-it-2004-question-54"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2005 | Question: 50</strong></div><p>In a binary tree, for every node the diﬀerence between the number of nodes in the left and right subtrees is<br/>at most<br/>. If the height of the tree is<br/>, then the minimum number of nodes in the tree is<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3811/gate-it-2005-question-50"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2006 | Question: 71</strong></div><p>An array<br/>of<br/>distinct integers is interpreted as a complete binary tree. The index of the ﬁrst element of<br/>the array is<br/>. The index of the parent of element<br/>, is?<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3615/gate-it-2006-question-71"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2006 | Question: 73</strong></div><p>An array<br/>of n distinct integers is interpreted as a complete binary tree. The index of the first element of the<br/>array is<br/>. If the root node is at level<br/>, the level of element<br/>,<br/>, is<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3617/gate-it-2006-question-73"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2006 | Question: 9</strong></div><p>In a binary tree, the number of internal nodes of degree<br/>is<br/>, and the number of internal nodes of degree<br/>is<br/>. The number of leaf nodes in the binary tree is<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3617/gate-it-2006-question-73"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2008 | Question: 46</strong></div><p>The following three are known to be the preorder, inorder and postorder sequences of a binary tree. But it is<br/>not known which is which.<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>Pick the true statement from the following.<br/>A<br/>.<br/>I and II are preorder and inorder sequences, respectively<br/>B<br/>.<br/>I and III are preorder and postorder sequences, respectively<br/>C<br/>.<br/>II is the inorder sequence, but nothing more can be said about the other two sequences<br/>D<br/>.<br/>II and III are the preorder and inorder sequences, respectively<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3356/gate-it-2008-question-46"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2008 | Question: 76</strong></div><p>A binary tree with<br/>nodes has<br/>,<br/>and<br/>nodes of degree one, two and three respec<br/>tively. The<br/>degree of a node is defined as the number of its neighbours.<br/>can be expressed as<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3356/gate-it-2008-question-46"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binary Tree: GATE IT 2008 | Question: 77</strong></div><p>A binary tree with<br/>nodes has<br/>,<br/>and<br/>nodes of degree one, two and three respec<br/>tively. The<br/>degree of a node is defined as the number of its neighbours.<br/>Starting with the above tree, while there remains a node<br/>of degree two in the tree, add an edge between the two<br/>neighbours of<br/>and then remove<br/>from the tree. How many edges will remain at the end of the process?<br/>data-structures<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3356/gate-it-2008-question-46"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Structures",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Structures: GATE CSE 1997 | Question: 6.2</strong></div><p>L e t<br/>be the graph with<br/>vertices numbered<br/>to<br/>.  Two vertices<br/>and<br/>are adjacent  if<br/>or<br/>. The number of connected components in<br/>is<br/>data-structures<br/>graph-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/2129"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Structures",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Structures: GATE CSE 2014 | Set 1 | Question: 3</strong></div><p>Let<br/>be a directed graph where<br/>is the set of vertices and<br/>the set of edges. Then which one<br/>of the following graphs has the same strongly connected components as<br/>?<br/>A<br/>.<br/>=<br/>where<br/>B<br/>.<br/>=<br/>where<br/>C<br/>.<br/>=<br/>where<br/>there is a path of length<br/>from<br/>to<br/>in<br/>D<br/>.<br/>=<br/>where<br/>is the set of vertices in<br/>which are not isolated<br/>data-structures<br/>graph-theory<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/2129"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Data Structures",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Structures: GATE CSE 2016 | Set 1 | Question: 38</strong></div><p>Consider the weighted undirected graph with<br/>vertices, where the weight of edge<br/>is given by the<br/>entry<br/>in the matrix<br/>.<br/>W=<br/>The largest possible integer value of<br/>, for which at least one shortest path between some pair of vertices will<br/>contain the edge with weight<br/>is ___________.<br/>data-structures<br/>graph-theory<br/>Data Structures: GATE DS&AI 2024 | Question: 6<br/>​​​​​​<br/>Match the items in<br/>Column<br/>with the items in<br/>Column<br/>in the following table:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>gate-ds-ai-2024<br/>data-structures<br/>match-the-following</p></div>",
+      "options": [],
+      "correctAnswer": "12",
+      "discussUrl": "https://gateoverflow.in/test/2129"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 1996 | Question: 1.13</strong></div><p>An advantage of chained hash table (external hashing) over the open addressing scheme is<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2127"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 1996 | Question: 15</strong></div><p>Insert the characters of the string<br/>into a hash table of size<br/>.<br/>Use the hash function<br/>and linear probing to resolve collisions.<br/>A<br/>.<br/>Which insertions cause collisions?<br/>B<br/>.<br/>Display the final hash table.<br/>data-structures<br/>hashing<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2717/gate-cse-1996-question-1-13"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 1997 | Question: 12</strong></div><p>Consider a hash table with<br/>buckets, where external (overﬂow) chaining is used to resolve collisions. The<br/>hash function is such that the probability that a key value is hashed to a particular bucket is<br/>. The hash<br/>table is initially empty and<br/>distinct values are inserted in the table.<br/>A<br/>.<br/>What is the probability that bucket number<br/>is empty after the<br/>insertion?<br/>B<br/>.<br/>What is the probability that no collision has occurred in any of the<br/>insertions?<br/>C<br/>.<br/>What is the probability that the first collision occurs at the<br/>insertion?<br/>data-structures<br/>hashing<br/>probability<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2127"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2004 | Question: 7</strong></div><p>Given the following input<br/>and the hash function<br/>mod<br/>, which of the following statements are true?<br/>I<br/>.<br/>hash to the same value<br/>II<br/>.<br/>hash to the same value<br/>III<br/>.<br/>All elements hash to the same value<br/>IV<br/>.<br/>Each element hashes to a different value<br/>data-structures<br/>hashing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2127"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2007 | Question: 40</strong></div><p>Consider a hash table of size seven, with starting index zero, and a hash function<br/>.<br/>Assuming the hash table is initially empty, which of the following is the contents of the table when the<br/>sequence<br/>is inserted into the table using closed hashing? Note that − denotes an empty location in the<br/>table.<br/>data-structures<br/>hashing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1238/gate-cse-2007-question-40"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2009 | Question: 36</strong></div><p>The keys<br/>and<br/>are inserted into an initially empty hash table of length<br/>using<br/>open addressing with hash function<br/>and linear probing. What is the resultant hash<br/>table?<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1322/gate-cse-2009-question-36"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2010 | Question: 52</strong></div><p>A hash table of length<br/>uses open addressing with hash function<br/>, and linear probing.<br/>After inserting<br/>values into an empty hash table, the table is shown as below<br/>Which one of the following choices gives a possible order in which the key values could have been inserted in the<br/>table?<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2360/gate-cse-2010-question-52"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2010 | Question: 53</strong></div><p>A hash table of length<br/>uses open addressing with hash function<br/>, and linear<br/>probing. After inserting<br/>values into an empty hash table, the table is shown as below<br/>How many diﬀerent insertion sequences of the key values using the same hash function and linear probing will<br/>result in the hash table shown above?<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2014 | Set 1 | Question: 40</strong></div><p>Consider a hash table with<br/>slots. The hash function is<br/>. The collisions are resolved by<br/>chaining. The following<br/>keys are inserted in the order:<br/>. The maximum,<br/>minimum, and average chain lengths in the hash table, respectively, are<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2014 | Set 3 | Question: 40</strong></div><p>Consider a hash table with<br/>slots. Collisions are resolved using chaining. Assuming simple uniform<br/>hashing, what is the probability that the first<br/>slots are unfilled after the first<br/>insertions?<br/>data-structures<br/>hashing<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2015 | Set 2 | Question: 33</strong></div><p>Which one of the following hash functions  on integers will distribute keys most uniformly over<br/>buckets<br/>numbered<br/>to<br/>for<br/>ranging from<br/>to<br/>?<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE CSE 2015 | Set 3 | Question: 17</strong></div><p>Given that hash table<br/>with<br/>slots that stores<br/>elements, the load factor<br/>for<br/>is _________.<br/>data-structures<br/>hashing<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "80",
+      "discussUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE IT 2006 | Question: 20</strong></div><p>Which of the following statement(s) is TRUE?<br/>I<br/>.<br/>A hash function takes a message of arbitrary length and generates a fixed length code.<br/>II<br/>.<br/>A hash function takes a message of fixed length and generates a code of variable length.<br/>III<br/>.<br/>A hash function may give the same hash value for distinct messages.<br/>data-structures<br/>hashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3559/gate-it-2006-question-20"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE IT 2007 | Question: 28</strong></div><p>Consider a hash function that distributes keys uniformly. The hash table size is<br/>. After hashing of how<br/>many keys will the probability that any new key hashed collides with an existing one exceed<br/>.<br/>data-structures<br/>hashing<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3461/gate-it-2007-question-28"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hashing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hashing: GATE IT 2008 | Question: 48</strong></div><p>Consider a hash table of size<br/>that uses open addressing with linear probing. Let<br/>be<br/>the hash function used. A sequence of records with keys<br/>is inserted into an initially empty hash table, the bins of which are indexed from zero to ten. What is the index of the<br/>bin into which the last record is inserted?<br/>data-structures<br/>hashing<br/>Infix Prefix<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3358/gate-it-2008-question-48"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Infix Prefix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Infix Prefix: GATE CSE 1997 | Question: 1.7</strong></div><p>Which of the following is essential for converting an infix expression to the postfix form efficiently?<br/>infix-prefix<br/>stack<br/>data-structures</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3461/gate-it-2007-question-28"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Infix Prefix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Infix Prefix: GATE CSE 1998 | Question: 19b</strong></div><p>Compute the post fix equivalent of the following expression<br/>stack<br/>infix-prefix<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2223/gate-cse-1997-question-1-7"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Infix Prefix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Infix Prefix: GATE CSE 2004 | Question: 38, ISRO2009-27</strong></div><p>Assume that the operators<br/>are left associative and<br/>is right associative. The order of precedence<br/>(from highest to lowest) is<br/>. The postﬁx expression corresponding to the inﬁx expression<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1035/gate-cse-2004-question-38-isro2009-27"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Infix Prefix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Infix Prefix: GATE CSE 2007 | Question: 38, ISRO2016-27</strong></div><p>The following postfix expression with single digit operands is evaluated using a stack:<br/>Note that<br/>is the exponentiation operator. The top two elements of the stack after the first<br/>is evaluated are<br/>data-structures<br/>stack<br/>infix-prefix<br/>isro2016<br/>Linked List<br/>(24)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(3Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1236/gate-cse-2007-question-38-isro2016-27"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linked List",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked List: GATE CSE 1987 | Question: 1-xv</strong></div><p>In a circular linked list organization, insertion of a record involves modification of<br/>data-structures<br/>linked-list</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1236/gate-cse-2007-question-38-isro2016-27"
+    }
+  ]
+}

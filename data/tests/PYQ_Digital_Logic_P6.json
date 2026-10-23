@@ -1,0 +1,1330 @@
+{
+  "id": "PYQ_Digital_Logic_P6",
+  "fileName": "PYQ_Digital_Logic_P6.json",
+  "title": "GATE Official PYQs | Digital Logic Part 6",
+  "subject": "Digital Logic",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 48,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Interfacing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Interfacing: GATE IT 2005 | Question: 9</strong></div><p>A dynamic RAM has a memory cycle time of<br/>. It has to be refreshed<br/>times per msec and each<br/>refresh takes<br/>. What percentage of the memory cycle time is used for refreshing?<br/>digital-logic<br/>memory-interfacing<br/>Min No Gates<br/>(6)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2199"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE CSE 1995 | Question: 15-a</strong></div><p>Implement a circuit having the following output expression using an inverter and a nand gate<br/>digital-logic<br/>descriptive<br/>min-no-gates<br/>digital-circuits<br/>boolean-algebra</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2651/gate-cse-1995-question-15-a"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE CSE 2000 | Question: 9</strong></div><p>Design a logic circuit to convert a single digit BCD number to the number modulo six as follows (Do not<br/>detect illegal input):<br/>A<br/>.<br/>Write the truth table for all bits. Label the input bits<br/>with<br/>as the least signiﬁcant bit. Label the output<br/>bits<br/>with<br/>as the least significant bit. Use<br/>to signify truth.<br/>B<br/>.<br/>Draw one circuit for each output bit using,<br/>altogether<br/>, two two-input AND gates, one two-input  OR gate and<br/>two NOT gates.<br/>digital-logic<br/>min-no-gates<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2651/gate-cse-1995-question-15-a"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE CSE 2004 | Question: 58</strong></div><p>A circuit outputs a digit in the form of<br/>bits.<br/>is represented by<br/>by<br/>by<br/>. A<br/>combinational circuit is to be designed which takes these<br/>bits as input and outputs<br/>if the digit<br/>, and<br/>otherwise. If only<br/>and<br/>gates may be used, what is the minimum number of gates required?<br/>digital-logic<br/>min-no-gates</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1053/gate-cse-2004-question-58"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE CSE 2009 | Question: 6</strong></div><p>What is the minimum number of gates required to implement the Boolean function<br/>if we have to<br/>use only<br/>gates?<br/>digital-logic<br/>min-no-gates</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2651/gate-cse-1995-question-15-a"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE CSE 2017 | Set 1 | Question: 21</strong></div><p>Consider the Karnaugh map given below, where<br/>represents<br/>\"don't care\"<br/>and blank represents<br/>.<br/>Assume for all inputs<br/>, the respective complements<br/>are also available. The above logic is<br/>implemented using<br/>-input<br/>gates only. The minimum number of gates required is ____________ .<br/>digital-logic<br/>k-map<br/>min-no-gates</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/2651/gate-cse-1995-question-15-a"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min No Gates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min No Gates: GATE IT 2004 | Question: 8</strong></div><p>What is the minimum number of<br/>gates required to implement a<br/>function without using any other logic gate?<br/>digital-logic<br/>min-no-gates<br/>Min Products of Sum Form<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3649/gate-it-2004-question-8"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Products of Sum Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Products of Sum Form: GATE CSE 1990 | Question: 5-a</strong></div><p>Find the minimum product of sums of the following expression<br/>digital-logic<br/>boolean-algebra<br/>min-products-of-sum-form<br/>canonical-normal-form<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85396/gate-cse-1990-question-5-a"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Products of Sum Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Products of Sum Form: GATE CSE 2017 | Set 2 | Question: 28</strong></div><p>Given<br/>; where<br/>represents the '<br/>don't-care<br/>'<br/>condition in Karnaugh maps. Which of the following is a minimum product-of-sums (POS) form of<br/>?<br/>digital-logic<br/>min-products-of-sum-form<br/>Min Sum of Products Form<br/>(16)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(1Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3649/gate-it-2004-question-8"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 1991 | Question: 5-b</strong></div><p>Find the minimum sum of products form of the logic function<br/>where<br/>and<br/>represent minterm and don't<br/>care term respectively.<br/>digital-logic<br/>boolean-algebra<br/>min-sum-of-products-form<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85396/gate-cse-1990-question-5-a"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 1997 | Question: 71</strong></div><p>Let<br/>A<br/>.<br/>Express<br/>as the minimal sum of products. Write only the answer.<br/>B<br/>.<br/>If the output line is stuck at<br/>, for how many input combinations will the value of<br/>be correct?<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in/19701/gate-cse-1997-question-71"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2001 | Question: 10</strong></div><p>a<br/>.<br/>Is the<br/>function<br/>its self-dual? Justify your answer.<br/>b<br/>.<br/>Give a minimal product-of-sum form of the<br/>output of the following<br/>to<br/>converter.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/751/gate-cse-2001-question-10"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2005 | Question: 18</strong></div><p>The switching expression corresponding to<br/>is:<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1354/gate-cse-2005-question-18"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2007 | Question: 9</strong></div><p>Consider the following Boolean function of four variables:<br/>The function is<br/>digital-logic<br/>min-sum-of-products-form<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1207/gate-cse-2007-question-9"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2011 | Question: 14</strong></div><p>The simplified SOP (Sum of Product) from the Boolean expression<br/>is<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2116/gate-cse-2011-question-14"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2014 | Set 1 | Question: 45</strong></div><p>Consider the<br/>multiplexer with two select lines<br/>and<br/>given below<br/>The minimal sum-of-products form of the Boolean expression for the output<br/>of the multiplexer is<br/>digital-logic<br/>multiplexer<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1354/gate-cse-2005-question-18"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2014 | Set 1 | Question: 7</strong></div><p>Consider the following Boolean expression for F:<br/>The minimal sum<br/>of<br/>products form of<br/>is<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1764/gate-cse-2014-set-1-question-7"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2014 | Set 3 | Question: 7</strong></div><p>Consider the following minterm expression for<br/>:<br/>The minterms<br/>,<br/>,<br/>and<br/>are 'do not care' terms. The minimal sum-of-products form for<br/>is<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1764/gate-cse-2014-set-1-question-7"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2018 | Question: 49</strong></div><p>Consider the minterm list form of a Boolean function<br/>given below.<br/>Here,<br/>denotes a minterm and<br/>denotes a don't care term. The number of essential prime implicants of the<br/>function<br/>is ___<br/>digital-logic<br/>min-sum-of-products-form<br/>k-map</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/204124/gate-cse-2018-question-49"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2021 | Set 2 | Question: 52</strong></div><p>Consider a Boolean function<br/>such that<br/>The number of literals in the minimal sum-of-products expression of<br/>is _________<br/>digital-logic<br/>boolean-algebra<br/>min-sum-of-products-form</p></div>",
+      "options": [],
+      "correctAnswer": "6 : 6",
+      "discussUrl": "https://gateoverflow.in/1764/gate-cse-2014-set-1-question-7"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2024 | Set 1 | Question: 37</strong></div><p>Consider a Boolean expression given by<br/>.<br/>Which of the following statements is/are CORRECT?<br/>multiple-selects<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/1764/gate-cse-2014-set-1-question-7"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2025 | Set 1 | Question: 32</strong></div><p>Consider the following four variable Boolean function in sum-of-product form<br/>where the value of the function is computed by considering<br/>as a<br/>-bit binary number, where<br/>denotes<br/>the most signiﬁcant bit and<br/>denotes the least signiﬁcant bit. Note that there are no don't care terms. Which ONE<br/>of the following options is the CORRECT minimized Boolean expression for<br/>?<br/>digital-logic<br/>min-sum-of-products-form<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2026 | Set 1 | Question: 38</strong></div><p>Consider a Boolean function<br/>with the following minterm expression:<br/>Which of the following options is/are the minimal sum-of-products expression(s) of<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>digital-logic<br/>min-sum-of-products-form<br/>k-map<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE CSE 2026 | Set 2 | Question: 30</strong></div><p>Consider the following<br/>-variable Boolean function<br/>Consider<br/>as MSB,<br/>as LSB. Which one of the following options represents the minimal sum of products form<br/>for the above function?<br/>Note:<br/>is OR operation,<br/>is AND operation,<br/>is NOT operation<br/>digital-logic<br/>min-sum-of-products-form<br/>k-map</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Min Sum of Products Form",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Min Sum of Products Form: GATE IT 2008 | Question: 8</strong></div><p>Consider the following Boolean function of four variables<br/>The function is<br/>digital-logic<br/>min-sum-of-products-form</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 1990 | Question: 5-b</strong></div><p>Show with the help of a block diagram how the Boolean function :<br/>can be realised using only a<br/>multiplexer.<br/>descriptive<br/>digital-logic<br/>combinational-circuit<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/956"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 1998 | Question: 1.14</strong></div><p>A multiplexer with a<br/>data select input is a<br/>digital-logic<br/>multiplexer<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2179"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2001 | Question: 2.11</strong></div><p>Consider the circuit shown below. The output of a<br/>MUX is given by the function<br/>.<br/>Which of the following is true?<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2179"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2004 | Question: 60</strong></div><p>Consider a multiplexer with<br/>and<br/>as data inputs and<br/>the as the control input.<br/>selects input<br/>,<br/>and<br/>selects input<br/>. What are the connections required to realize the 2-variable Boolean function<br/>, without using any additional hardware?<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1055/gate-cse-2004-question-60"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2007 | Question: 34</strong></div><p>Suppose only one multiplexer and one inverter are allowed to be used to implement any Boolean function of<br/>variables. What is the minimum size of the multiplexer needed?<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1232/gate-cse-2007-question-34"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2016 | Set 1 | Question: 30</strong></div><p>Consider the two cascade<br/>to<br/>multiplexers as shown in the figure .<br/>The minimal sum of products form of the output<br/>is<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39722/gate-cse-2016-set-1-question-30"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2020 | Question: 19</strong></div><p>A multiplexer is placed between a group of<br/>registers and an accumulator to regulate data movement<br/>such that at any given point in time the content of only one register will move to the accumulator. The<br/>number of select lines needed for the multiplexer is ______.<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/333212/gate-cse-2020-question-19"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2021 | Set 2 | Question: 5</strong></div><p>Which one of the following circuits implements the Boolean function given below?<br/>, where<br/>is the<br/>minterm.<br/>digital-logic<br/>combinational-circuit<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39722/gate-cse-2016-set-1-question-30"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2023 | Question: 11</strong></div><p>The output of a<br/>-input multiplexer is connected back to one of its inputs as shown in the figure.<br/>Match the functional equivalence of this circuit to one of the following options.<br/>digital-logic<br/>combinational-circuit<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399301/gate-cse-2023-question-11"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2023 | Question: 34</strong></div><p>A Boolean digital circuit is composed using two<br/>-input multiplexers<br/>and one<br/>-input<br/>multiplexer<br/>as shown in the ﬁgure.<br/>are the inputs of the multiplexers<br/>and could<br/>be connected to either<br/>or<br/>The select lines of the multiplexers are connected to Boolean variables<br/>as shown.<br/>Which one of the following set of values of<br/>will realise the Boolean function<br/>digital-logic<br/>combinational-circuit<br/>multiplexer</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399277/gate-cse-2023-question-34"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE CSE 2024 | Set 1 | Question: 54</strong></div><p>Consider a digital logic circuit consisting of three<br/>-to-<br/>multiplexers<br/>, and<br/>as shown below.<br/>and<br/>are inputs of<br/>.<br/>and<br/>are inputs of<br/>.<br/>, and<br/>are select lines of<br/>, and<br/>,<br/>respectively.<br/>For an instance of inputs<br/>, and<br/>, the number of combinations of<br/>that<br/>give the output<br/>is ____________.<br/>digital-logic<br/>multiplexer</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/422788/gate-cse-2024-set-1-question-54"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE IT 2005 | Question: 48</strong></div><p>The circuit shown below implements a<br/>NOR gate using two<br/>MUX (control signal<br/>selects the<br/>upper input). What are the values of signals<br/>and<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3809/gate-it-2005-question-48"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplexer",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplexer: GATE IT 2007 | Question: 8</strong></div><p>The following circuit implements a two-input AND gate using two<br/>multiplexers.<br/>What are the values of<br/>?<br/>digital-logic<br/>multiplexer<br/>Multiplexer: GATE1992-04-b<br/>A priority encoder accepts three input signals<br/>and produces a two-bit output<br/>corresponding to the highest priority active input signal. Assume<br/>has the highest priority followed by<br/>and<br/>has the lowest priority. If none of the inputs are active the output should be<br/>, design the priority encoder<br/>using<br/>multiplexers as the main components.<br/>digital-logic<br/>combinational-circuit<br/>multiplexer<br/>descriptive<br/>Number Representation<br/>(57)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3441/gate-it-2007-question-8"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 1990 | Question: 1-viii</strong></div><p>The condition for overﬂow in the addition of two<br/>complement numbers in terms of the carry generated by<br/>the two most significant bits is ___________.<br/>digital-logic<br/>number-representation<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3441/gate-it-2007-question-8"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE CSE 1991 | Question: 01-iii</strong></div><p>Consider the number given by the decimal expression:<br/>The number of<br/>in the unsigned binary representation of the number is ______</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/500/gate-cse-1991-question-01-iii"
+    }
+  ]
+}

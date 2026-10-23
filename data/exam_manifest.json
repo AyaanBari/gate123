@@ -1,0 +1,3890 @@
+[
+  {
+    "id": "GATE2027_Mock_01",
+    "fileName": "GATE2027_Mock_01.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 1",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_02",
+    "fileName": "GATE2027_Mock_02.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 2",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_03",
+    "fileName": "GATE2027_Mock_03.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 3",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_04",
+    "fileName": "GATE2027_Mock_04.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 4",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_05",
+    "fileName": "GATE2027_Mock_05.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 5",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_06",
+    "fileName": "GATE2027_Mock_06.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 6",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_07",
+    "fileName": "GATE2027_Mock_07.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 7",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_08",
+    "fileName": "GATE2027_Mock_08.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 8",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_09",
+    "fileName": "GATE2027_Mock_09.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 9",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_10",
+    "fileName": "GATE2027_Mock_10.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 10",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_11",
+    "fileName": "GATE2027_Mock_11.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 11",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_12",
+    "fileName": "GATE2027_Mock_12.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 12",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_13",
+    "fileName": "GATE2027_Mock_13.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 13",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_14",
+    "fileName": "GATE2027_Mock_14.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 14",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_15",
+    "fileName": "GATE2027_Mock_15.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 15",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_16",
+    "fileName": "GATE2027_Mock_16.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 16",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_17",
+    "fileName": "GATE2027_Mock_17.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 17",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_18",
+    "fileName": "GATE2027_Mock_18.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 18",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_19",
+    "fileName": "GATE2027_Mock_19.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 19",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_20",
+    "fileName": "GATE2027_Mock_20.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 20",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_21",
+    "fileName": "GATE2027_Mock_21.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 21",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_22",
+    "fileName": "GATE2027_Mock_22.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 22",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_23",
+    "fileName": "GATE2027_Mock_23.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 23",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_24",
+    "fileName": "GATE2027_Mock_24.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 24",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_25",
+    "fileName": "GATE2027_Mock_25.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 25",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_26",
+    "fileName": "GATE2027_Mock_26.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 26",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_27",
+    "fileName": "GATE2027_Mock_27.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 27",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_28",
+    "fileName": "GATE2027_Mock_28.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 28",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_29",
+    "fileName": "GATE2027_Mock_29.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 29",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_30",
+    "fileName": "GATE2027_Mock_30.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 30",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_31",
+    "fileName": "GATE2027_Mock_31.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 31",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_32",
+    "fileName": "GATE2027_Mock_32.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 32",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_33",
+    "fileName": "GATE2027_Mock_33.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 33",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_34",
+    "fileName": "GATE2027_Mock_34.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 34",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_35",
+    "fileName": "GATE2027_Mock_35.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 35",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_36",
+    "fileName": "GATE2027_Mock_36.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 36",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_37",
+    "fileName": "GATE2027_Mock_37.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 37",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_38",
+    "fileName": "GATE2027_Mock_38.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 38",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_39",
+    "fileName": "GATE2027_Mock_39.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 39",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_40",
+    "fileName": "GATE2027_Mock_40.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 40",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_41",
+    "fileName": "GATE2027_Mock_41.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 41",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_42",
+    "fileName": "GATE2027_Mock_42.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 42",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_43",
+    "fileName": "GATE2027_Mock_43.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 43",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_44",
+    "fileName": "GATE2027_Mock_44.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 44",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_45",
+    "fileName": "GATE2027_Mock_45.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 45",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_46",
+    "fileName": "GATE2027_Mock_46.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 46",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_47",
+    "fileName": "GATE2027_Mock_47.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 47",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_48",
+    "fileName": "GATE2027_Mock_48.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 48",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_49",
+    "fileName": "GATE2027_Mock_49.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 49",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_50",
+    "fileName": "GATE2027_Mock_50.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 50",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_51",
+    "fileName": "GATE2027_Mock_51.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 51",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_52",
+    "fileName": "GATE2027_Mock_52.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 52",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_53",
+    "fileName": "GATE2027_Mock_53.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 53",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_54",
+    "fileName": "GATE2027_Mock_54.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 54",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_55",
+    "fileName": "GATE2027_Mock_55.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 55",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_56",
+    "fileName": "GATE2027_Mock_56.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 56",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_57",
+    "fileName": "GATE2027_Mock_57.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 57",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_58",
+    "fileName": "GATE2027_Mock_58.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 58",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_59",
+    "fileName": "GATE2027_Mock_59.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 59",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_60",
+    "fileName": "GATE2027_Mock_60.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 60",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_61",
+    "fileName": "GATE2027_Mock_61.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 61",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_62",
+    "fileName": "GATE2027_Mock_62.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 62",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_63",
+    "fileName": "GATE2027_Mock_63.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 63",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_64",
+    "fileName": "GATE2027_Mock_64.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 64",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_65",
+    "fileName": "GATE2027_Mock_65.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 65",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_66",
+    "fileName": "GATE2027_Mock_66.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 66",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_67",
+    "fileName": "GATE2027_Mock_67.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 67",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_68",
+    "fileName": "GATE2027_Mock_68.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 68",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_69",
+    "fileName": "GATE2027_Mock_69.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 69",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_70",
+    "fileName": "GATE2027_Mock_70.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 70",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_71",
+    "fileName": "GATE2027_Mock_71.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 71",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_72",
+    "fileName": "GATE2027_Mock_72.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 72",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_73",
+    "fileName": "GATE2027_Mock_73.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 73",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_74",
+    "fileName": "GATE2027_Mock_74.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 74",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_75",
+    "fileName": "GATE2027_Mock_75.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 75",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_76",
+    "fileName": "GATE2027_Mock_76.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 76",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_77",
+    "fileName": "GATE2027_Mock_77.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 77",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_78",
+    "fileName": "GATE2027_Mock_78.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 78",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_79",
+    "fileName": "GATE2027_Mock_79.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 79",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mock_80",
+    "fileName": "GATE2027_Mock_80.json",
+    "title": "GATE 2027 | Full-Length All India Mock Test 80",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "series": "GATE 2027 Generated Mock Series",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Aptitude",
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_CN_TopicTest1",
+    "fileName": "GO2027_CN_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Computer Networks | Subnetting, TCP & Protocols",
+    "subject": "Computer Networks",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_TOC_TopicTest1",
+    "fileName": "GO2027_TOC_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Theory of Computation | Automata & Grammars",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_DBMS_TopicTest1",
+    "fileName": "GO2027_DBMS_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Databases | Normalization & Transactions",
+    "subject": "Databases (DBMS)",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_OS_TopicTest1",
+    "fileName": "GO2027_OS_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Operating Systems | Sync, Paging & Scheduling",
+    "subject": "Operating Systems",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_DS_TopicTest1",
+    "fileName": "GO2027_DS_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Data Structures | Trees & Heaps",
+    "subject": "Data Structures",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 10,
+    "totalMarks": 15,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GO2027_Algo_TopicTest1",
+    "fileName": "GO2027_Algo_TopicTest1.json",
+    "title": "GO Classes CS 2027 | Algorithms | Asymptotics & Recurrences",
+    "subject": "Algorithms",
+    "testType": "Topic Test",
+    "series": "GO Test Series",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Algorithms",
+    "fileName": "GATE2027_Algorithms.json",
+    "title": "GATE 2027 Original | Algorithms Challenger Test",
+    "subject": "Algorithms",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 8,
+    "totalMarks": 13,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Operating_Systems",
+    "fileName": "GATE2027_Operating_Systems.json",
+    "title": "GATE 2027 Original | Operating Systems Challenger Test",
+    "subject": "Operating Systems",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 5,
+    "totalMarks": 9,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Databases",
+    "fileName": "GATE2027_Databases.json",
+    "title": "GATE 2027 Original | Databases (DBMS) Challenger Test",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 4,
+    "totalMarks": 7,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Theory_of_Computation",
+    "fileName": "GATE2027_Theory_of_Computation.json",
+    "title": "GATE 2027 Original | Theory of Computation Challenger Test",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 3,
+    "totalMarks": 5,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Computer_Networks",
+    "fileName": "GATE2027_Computer_Networks.json",
+    "title": "GATE 2027 Original | Computer Networks Challenger Test",
+    "subject": "Computer Networks",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 2,
+    "totalMarks": 3,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Computer_Architecture",
+    "fileName": "GATE2027_Computer_Architecture.json",
+    "title": "GATE 2027 Original | Computer Organization & Architecture",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 2,
+    "totalMarks": 4,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_Mathematics",
+    "fileName": "GATE2027_Mathematics.json",
+    "title": "GATE 2027 Original | Discrete & Engineering Mathematics",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 45,
+    "totalQuestions": 3,
+    "totalMarks": 5,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "GATE2027_All_Star_Mock",
+    "fileName": "GATE2027_All_Star_Mock.json",
+    "title": "GATE 2027 Original | All-Star Comprehensive Mock Test",
+    "subject": "Full Mock Test (MT)",
+    "testType": "GATE 2027 Original",
+    "series": "GATE 2027 Original",
+    "durationMinutes": 180,
+    "totalQuestions": 27,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "AIMT2",
+    "fileName": "AIMT2.html",
+    "title": "GO Classes CS 2025 | ALL INDIA MOCK TEST 2",
+    "subject": "All India Mock Test (AIMT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "AIMT4",
+    "fileName": "AIMT4.html",
+    "title": "GO Classes CS 2025 | ALL INDIA MOCK TEST 4",
+    "subject": "All India Mock Test (AIMT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "AIMT5",
+    "fileName": "AIMT5.html",
+    "title": "GO Classes CS 2025 | ALL INDIA MOCK TEST 5",
+    "subject": "All India Mock Test (AIMT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "AlgoT3",
+    "fileName": "AlgoT3.html",
+    "title": "GO Classes CS Test Series 2025 | Algorithms | Topic Wise Test 3",
+    "subject": "Algorithms",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "AlgoT4",
+    "fileName": "AlgoT4.html",
+    "title": "GO Classes CS Test Series 2025 | Algorithms | Topic Wise Test 4",
+    "subject": "Algorithms",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CDST",
+    "fileName": "CDST.html",
+    "title": "GO Classes CS Test Series 2025 | Compiler Design | Subject Wise Test",
+    "subject": "Data Structures",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 25,
+    "totalMarks": 35,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CDT1",
+    "fileName": "CDT1.html",
+    "title": "GO Classes CS Test Series 2025 | Compiler Design | Topic Wise Test 1",
+    "subject": "Compiler Design",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CDT2",
+    "fileName": "CDT2.html",
+    "title": "GO Classes CS Test Series 2025 | Compiler Design | Topic Wise Test 2",
+    "subject": "Compiler Design",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CDT3",
+    "fileName": "CDT3.html",
+    "title": "GO Classes CS Test Series 2025 | Compiler Design | Topic Wise Test 3",
+    "subject": "Compiler Design",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CNS1",
+    "fileName": "CNS1.html",
+    "title": "GO Classes CS Test Series 2025 | Computer Networks | Subject Wise Test 1",
+    "subject": "Computer Networks",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CNT1",
+    "fileName": "CNT1.html",
+    "title": "GO Classes CS Test Series 2025 | Computer Networks | Topic Wise Test 1",
+    "subject": "Computer Networks",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CNT2",
+    "fileName": "CNT2.html",
+    "title": "GO Classes CS Test Series 2025 | Computer Networks | Topic Wise Test 2",
+    "subject": "Computer Networks",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CNT3",
+    "fileName": "CNT3.html",
+    "title": "GO Classes CS Test Series 2025 | Computer Networks | Topic Wise Test 3",
+    "subject": "Computer Networks",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CNT4",
+    "fileName": "CNT4.html",
+    "title": "GO Classes CS Test Series 2025 | Computer Networks | Topic Wise Test 4",
+    "subject": "Computer Networks",
+    "testType": "Topic Test",
+    "durationMinutes": 30,
+    "totalQuestions": 10,
+    "totalMarks": 15,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "COAT1",
+    "fileName": "COAT1.html",
+    "title": "GO Classes CS Test Series 2025 | CO and Architecture | Topic Wise Test 1",
+    "subject": "Computer Organization (COA)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "COAT2",
+    "fileName": "COAT2.html",
+    "title": "GO Classes CS Test Series 2025 | CO and Architecture | Topic Wise Test 2",
+    "subject": "Computer Organization (COA)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "COAT3",
+    "fileName": "COAT3.html",
+    "title": "GO Classes CS Test Series 2025 | CO and Architecture | Topic Wise Test 3",
+    "subject": "Computer Organization (COA)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "COAT4",
+    "fileName": "COAT4.html",
+    "title": "GO Classes CS Test Series 2025 | CO and Architecture | Topic Wise Test 4",
+    "subject": "Computer Organization (COA)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "CprogrammingST",
+    "fileName": "CprogrammingST.html",
+    "title": "GO Classes CS Test Series 2025 | C Programming Subject Wise Test",
+    "subject": "C Programming",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DAtabaseT3",
+    "fileName": "DAtabaseT3.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Databases | Test 3",
+    "subject": "Databases (DBMS)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DBMS_T1",
+    "fileName": "DBMS T1.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Databases | Test 1",
+    "subject": "Databases (DBMS)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DBMSSsst",
+    "fileName": "DBMSSsst.html",
+    "title": "GO Classes CS Test Series 2025 | DBMS Subject Wise Test",
+    "subject": "Databases (DBMS)",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DBMST4",
+    "fileName": "DBMST4.html",
+    "title": "GO Classes CS Test Series 2025 | Databases | Test 4",
+    "subject": "Databases (DBMS)",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DBMST5",
+    "fileName": "DBMST5.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Databases | Transaction management",
+    "subject": "Databases (DBMS)",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DL_ST1",
+    "fileName": "DL ST1.html",
+    "title": "GO Classes CS Test Series 2025 | Digital Logic | Subject Wise Test 1",
+    "subject": "Digital Logic",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DL_T2",
+    "fileName": "DL T2.html",
+    "title": "GO Classes Cs Test Series 2025 | Digital Logic | Test 2",
+    "subject": "Digital Logic",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DL_T3",
+    "fileName": "DL T3.html",
+    "title": "GO Classes Cs Test Series 2025 | Digital Logic | Test 3",
+    "subject": "Digital Logic",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DLT1",
+    "fileName": "DLT1.html",
+    "title": "GO Classes Cs Test Series 2025 | Digital Logic | Test 1",
+    "subject": "Digital Logic",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DM_T2",
+    "fileName": "DM T2.html",
+    "title": "GO Classes CS Test Series 2025 | Discrete Mathematics | Topic Wise Test 2",
+    "subject": "Discrete Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DM_t4",
+    "fileName": "DM t4.html",
+    "title": "GO Classes Test Series 2025 | Discrete Mathematics | Topic wise Test 4",
+    "subject": "Discrete Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DMT1",
+    "fileName": "DMT1.html",
+    "title": "GO Classes CS Test Series 2025 | Discrete Mathematics | Topic Wise Test 1",
+    "subject": "Discrete Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DMT3",
+    "fileName": "DMT3.html",
+    "title": "GO Classes CS Test Series 2025 | Discrete Mathematics | Topic Wise Test 3",
+    "subject": "Discrete Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DMT5",
+    "fileName": "DMT5.html",
+    "title": "GO Classes Test Series 2025 | Discrete Mathematics | Topic Wise Test 5",
+    "subject": "Discrete Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DSAT1",
+    "fileName": "DSAT1.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structure and Algorithms | Topic Wise Test 1",
+    "subject": "Data Structures",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DSAT2",
+    "fileName": "DSAT2.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structure and Algorithms | Topic Wise Test 2",
+    "subject": "Data Structures",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DSAT3",
+    "fileName": "DSAT3.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structures and Algorithms | Topic Wise Test 3",
+    "subject": "Data Structures",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DSST1",
+    "fileName": "DSST1.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structures | Subject Wise Test 1",
+    "subject": "Data Structures",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DST4",
+    "fileName": "DST4.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structures | Topic Wise Test 4",
+    "subject": "Data Structures",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "DST5",
+    "fileName": "DST5.html",
+    "title": "GO Classes CS Test Series 2025 | Data Structures | Topic Wise Test 5",
+    "subject": "Data Structures",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "Databases_T2",
+    "fileName": "Databases T2.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Databases | Test 2",
+    "subject": "Databases (DBMS)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "EM_S1",
+    "fileName": "EM S1.html",
+    "title": "GO Classes CS Test Series 2025 | Engineering Mathematics | Subject Wise 1",
+    "subject": "Engineering Mathematics",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "EM_T1",
+    "fileName": "EM T1.html",
+    "title": "GO Classes CS Test Series 2025 | Linear Algebra | Topic Wise Test 1",
+    "subject": "Engineering Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 60,
+    "totalQuestions": 20,
+    "totalMarks": 30,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "EMT3",
+    "fileName": "EMT3.html",
+    "title": "GO Classes CS Test Series 2025 | Engineering Mathematics | Topic Wise Test 3",
+    "subject": "Engineering Mathematics",
+    "testType": "Topic Test",
+    "durationMinutes": 60,
+    "totalQuestions": 20,
+    "totalMarks": 30,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT1",
+    "fileName": "MT1.html",
+    "title": "GO Classes CS Test Series 2025 | Mock GATE | Test 1",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT14",
+    "fileName": "MT14.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE 14",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 66,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT2",
+    "fileName": "MT2.html",
+    "title": "GO Classes CS Test Series 2025 | Mock GATE | Test 2",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT3",
+    "fileName": "MT3.html",
+    "title": "GO Classes CS Test Series 2025 | Mock GATE | Test 3",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT4",
+    "fileName": "MT4.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE | Test 4",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT5",
+    "fileName": "MT5.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE | Test 5",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT6",
+    "fileName": "MT6.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE | Test 6",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT7",
+    "fileName": "MT7.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE | Test 7",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT8",
+    "fileName": "MT8.html",
+    "title": "GO Classes CS Test Series 2025 | Mock GATE | Test 8",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MT9",
+    "fileName": "MT9.html",
+    "title": "GO Classes CS Test Series 2025 | MOCK GATE | Test 9",
+    "subject": "Full Mock Test (MT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "MisedsubjectFT3",
+    "fileName": "MisedsubjectFT3.html",
+    "title": "GO Classes CS Test Series 2025 | Mixed Subjects | Full Length Test 2",
+    "subject": "Data Structures",
+    "testType": "Mixed Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "OSST1",
+    "fileName": "OSST1.html",
+    "title": "GO Classes CS Test Series 2025 | Operating Systems | Subject Wise Test 1",
+    "subject": "Operating Systems",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "OST1",
+    "fileName": "OST1.html",
+    "title": "GO Classes CS Test Series 2025 | Operating Systems | Topic Wise Test 1",
+    "subject": "Operating Systems",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "OST2",
+    "fileName": "OST2.html",
+    "title": "GO Classes CS Test Series 2025 | Operating Systems | Topic Wise Test 2",
+    "subject": "Operating Systems",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "OST3",
+    "fileName": "OST3.html",
+    "title": "GO Classes CS Test Series 2025 | Operating Systems | Topic Wise Test 3",
+    "subject": "Operating Systems",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "OST4",
+    "fileName": "OST4.html",
+    "title": "GO Classes CS Test Series 2025 | Operating Systems | Topic Wise Test 4",
+    "subject": "Operating Systems",
+    "testType": "Subject Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "PRogrammingT3",
+    "fileName": "PRogrammingT3.html",
+    "title": "GO Classes CS Test Series 2025 | Programming | Test 3",
+    "subject": "C Programming",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "Programming_T1",
+    "fileName": "Programming T1.html",
+    "title": "GO Classes CS Test Series 2025 | Programming | Test 1",
+    "subject": "C Programming",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "TOCCflPDA",
+    "fileName": "TOCCflPDA.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | CFL, PDA",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "TOCRE",
+    "fileName": "TOCRE.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | Regular Expression",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "TOCS1",
+    "fileName": "TOCS1.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | Subject Wise Test 1",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "TOCT1",
+    "fileName": "TOCT1.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | Topic Wise Test 1",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "TPCT5",
+    "fileName": "TPCT5.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | Topic Wise Test 5",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "Toct4",
+    "fileName": "Toct4.html",
+    "title": "GO Classes CS Test Series 2025 | Theory of Computation | Topic Wise Test 4",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "aimt3",
+    "fileName": "aimt3.html",
+    "title": "GO Classes CS 2025 | ALL INDIA MOCK TEST 3",
+    "subject": "All India Mock Test (AIMT)",
+    "testType": "Full Mock Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical",
+      "Aptitude"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "algo_sT1",
+    "fileName": "algo sT1.html",
+    "title": "GO Classes CS Test Series 2025 | Algorithms | Subject Wise Test 1",
+    "subject": "Algorithms",
+    "testType": "Subject Test",
+    "durationMinutes": 90,
+    "totalQuestions": 30,
+    "totalMarks": 40,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "algoT1",
+    "fileName": "algoT1.html",
+    "title": "GO Classes CS Test Series 2025 | Algorithms | Topic Wise Test 1",
+    "subject": "Algorithms",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "algoT2",
+    "fileName": "algoT2.html",
+    "title": "GO Classes CS Test Series 2025 | Algorithms | Topic Wise Test 2",
+    "subject": "Algorithms",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "calculusoptlimit",
+    "fileName": "calculusoptlimit.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Calculus and Optimization | Limit, Continuity",
+    "subject": "Calculus & Optimization",
+    "testType": "Topic Test",
+    "durationMinutes": 50,
+    "totalQuestions": 15,
+    "totalMarks": 20,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "mixeddsa",
+    "fileName": "mixeddsa.html",
+    "title": "GO Classes CS Test Series 2025 | Mixed Subjects | C-programming, Data structures and Algorithms | Full length Test 4",
+    "subject": "Data Structures",
+    "testType": "Mixed Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "mixedsubFT3",
+    "fileName": "mixedsubFT3.html",
+    "title": "GO Classes CS Test Series 2025 | Mixed Subjects | Full Length Test 3",
+    "subject": "Data Structures",
+    "testType": "Mixed Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "mixedsubjcts",
+    "fileName": "mixedsubjcts.html",
+    "title": "GO Classes Cs Test Series 2025 | Mixed Subjects | Full Length Test 1",
+    "subject": "Data Structures",
+    "testType": "Mixed Test",
+    "durationMinutes": 180,
+    "totalQuestions": 65,
+    "totalMarks": 100,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "probability_&_stats_T3",
+    "fileName": "probability & stats T3.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Probability and Statistics | Topic Wise Test 3",
+    "subject": "Probability & Statistics",
+    "testType": "Subject Test",
+    "durationMinutes": 60,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "probalityT1",
+    "fileName": "probalityT1.html",
+    "title": "GO Classes CS Test Series 2025 | Probability | Topic Wise Test 1",
+    "subject": "Probability & Statistics",
+    "testType": "Topic Test",
+    "durationMinutes": 60,
+    "totalQuestions": 20,
+    "totalMarks": 35,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "probalityall",
+    "fileName": "probalityall.html",
+    "title": "GO Classes CS/DA Test Series 2025 | Probability and Statistics | Bayes Theorem, Conditional Probability",
+    "subject": "Probability & Statistics",
+    "testType": "Topic Test",
+    "durationMinutes": 60,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "programming_T2",
+    "fileName": "programming T2.html",
+    "title": "GO Classes CS Test Series 2025 | Programming | Test 2",
+    "subject": "C Programming",
+    "testType": "Topic Test",
+    "durationMinutes": 45,
+    "totalQuestions": 15,
+    "totalMarks": 25,
+    "sections": [
+      "Technical"
+    ],
+    "series": "GO Test Series"
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P1",
+    "fileName": "PYQ_Discrete_Mathematics_P1.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 1",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P2",
+    "fileName": "PYQ_Discrete_Mathematics_P2.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 2",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P3",
+    "fileName": "PYQ_Discrete_Mathematics_P3.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 3",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P4",
+    "fileName": "PYQ_Discrete_Mathematics_P4.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 4",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P5",
+    "fileName": "PYQ_Discrete_Mathematics_P5.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 5",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P6",
+    "fileName": "PYQ_Discrete_Mathematics_P6.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 6",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P7",
+    "fileName": "PYQ_Discrete_Mathematics_P7.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 7",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P8",
+    "fileName": "PYQ_Discrete_Mathematics_P8.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 8",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P9",
+    "fileName": "PYQ_Discrete_Mathematics_P9.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 9",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P10",
+    "fileName": "PYQ_Discrete_Mathematics_P10.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 10",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P11",
+    "fileName": "PYQ_Discrete_Mathematics_P11.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 11",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Discrete_Mathematics_P12",
+    "fileName": "PYQ_Discrete_Mathematics_P12.json",
+    "title": "GATE Official PYQs | Discrete Mathematics Part 12",
+    "subject": "Discrete Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 17,
+    "totalMarks": 20,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Engineering_Mathematics_P1",
+    "fileName": "PYQ_Engineering_Mathematics_P1.json",
+    "title": "GATE Official PYQs | Engineering Mathematics Part 1",
+    "subject": "Engineering Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Engineering_Mathematics_P2",
+    "fileName": "PYQ_Engineering_Mathematics_P2.json",
+    "title": "GATE Official PYQs | Engineering Mathematics Part 2",
+    "subject": "Engineering Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Engineering_Mathematics_P3",
+    "fileName": "PYQ_Engineering_Mathematics_P3.json",
+    "title": "GATE Official PYQs | Engineering Mathematics Part 3",
+    "subject": "Engineering Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 47,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Engineering_Mathematics_P4",
+    "fileName": "PYQ_Engineering_Mathematics_P4.json",
+    "title": "GATE Official PYQs | Engineering Mathematics Part 4",
+    "subject": "Engineering Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Engineering_Mathematics_P5",
+    "fileName": "PYQ_Engineering_Mathematics_P5.json",
+    "title": "GATE Official PYQs | Engineering Mathematics Part 5",
+    "subject": "Engineering Mathematics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 6,
+    "totalMarks": 8,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Probability_Statistics_P1",
+    "fileName": "PYQ_Probability_Statistics_P1.json",
+    "title": "GATE Official PYQs | Probability & Statistics Part 1",
+    "subject": "Probability & Statistics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Probability_Statistics_P2",
+    "fileName": "PYQ_Probability_Statistics_P2.json",
+    "title": "GATE Official PYQs | Probability & Statistics Part 2",
+    "subject": "Probability & Statistics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Probability_Statistics_P3",
+    "fileName": "PYQ_Probability_Statistics_P3.json",
+    "title": "GATE Official PYQs | Probability & Statistics Part 3",
+    "subject": "Probability & Statistics",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 34,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P1",
+    "fileName": "PYQ_General_Aptitude_P1.json",
+    "title": "GATE Official PYQs | General Aptitude Part 1",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 55,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P2",
+    "fileName": "PYQ_General_Aptitude_P2.json",
+    "title": "GATE Official PYQs | General Aptitude Part 2",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 50,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P3",
+    "fileName": "PYQ_General_Aptitude_P3.json",
+    "title": "GATE Official PYQs | General Aptitude Part 3",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 49,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P4",
+    "fileName": "PYQ_General_Aptitude_P4.json",
+    "title": "GATE Official PYQs | General Aptitude Part 4",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 52,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P5",
+    "fileName": "PYQ_General_Aptitude_P5.json",
+    "title": "GATE Official PYQs | General Aptitude Part 5",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_General_Aptitude_P6",
+    "fileName": "PYQ_General_Aptitude_P6.json",
+    "title": "GATE Official PYQs | General Aptitude Part 6",
+    "subject": "General Aptitude",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 19,
+    "totalMarks": 21,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P1",
+    "fileName": "PYQ_Algorithms_P1.json",
+    "title": "GATE Official PYQs | Algorithms Part 1",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P2",
+    "fileName": "PYQ_Algorithms_P2.json",
+    "title": "GATE Official PYQs | Algorithms Part 2",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 49,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P3",
+    "fileName": "PYQ_Algorithms_P3.json",
+    "title": "GATE Official PYQs | Algorithms Part 3",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 49,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P4",
+    "fileName": "PYQ_Algorithms_P4.json",
+    "title": "GATE Official PYQs | Algorithms Part 4",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P5",
+    "fileName": "PYQ_Algorithms_P5.json",
+    "title": "GATE Official PYQs | Algorithms Part 5",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P6",
+    "fileName": "PYQ_Algorithms_P6.json",
+    "title": "GATE Official PYQs | Algorithms Part 6",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 47,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P7",
+    "fileName": "PYQ_Algorithms_P7.json",
+    "title": "GATE Official PYQs | Algorithms Part 7",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P8",
+    "fileName": "PYQ_Algorithms_P8.json",
+    "title": "GATE Official PYQs | Algorithms Part 8",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Algorithms_P9",
+    "fileName": "PYQ_Algorithms_P9.json",
+    "title": "GATE Official PYQs | Algorithms Part 9",
+    "subject": "Algorithms",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 32,
+    "totalMarks": 34,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P1",
+    "fileName": "PYQ_Compiler_Design_P1.json",
+    "title": "GATE Official PYQs | Compiler Design Part 1",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P2",
+    "fileName": "PYQ_Compiler_Design_P2.json",
+    "title": "GATE Official PYQs | Compiler Design Part 2",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P3",
+    "fileName": "PYQ_Compiler_Design_P3.json",
+    "title": "GATE Official PYQs | Compiler Design Part 3",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P4",
+    "fileName": "PYQ_Compiler_Design_P4.json",
+    "title": "GATE Official PYQs | Compiler Design Part 4",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P5",
+    "fileName": "PYQ_Compiler_Design_P5.json",
+    "title": "GATE Official PYQs | Compiler Design Part 5",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 40,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P6",
+    "fileName": "PYQ_Compiler_Design_P6.json",
+    "title": "GATE Official PYQs | Compiler Design Part 6",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Compiler_Design_P7",
+    "fileName": "PYQ_Compiler_Design_P7.json",
+    "title": "GATE Official PYQs | Compiler Design Part 7",
+    "subject": "Compiler Design",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 2,
+    "totalMarks": 2,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P1",
+    "fileName": "PYQ_Data_Structures_P1.json",
+    "title": "GATE Official PYQs | Data Structures Part 1",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 40,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P2",
+    "fileName": "PYQ_Data_Structures_P2.json",
+    "title": "GATE Official PYQs | Data Structures Part 2",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P3",
+    "fileName": "PYQ_Data_Structures_P3.json",
+    "title": "GATE Official PYQs | Data Structures Part 3",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 40,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P4",
+    "fileName": "PYQ_Data_Structures_P4.json",
+    "title": "GATE Official PYQs | Data Structures Part 4",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P5",
+    "fileName": "PYQ_Data_Structures_P5.json",
+    "title": "GATE Official PYQs | Data Structures Part 5",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Data_Structures_P6",
+    "fileName": "PYQ_Data_Structures_P6.json",
+    "title": "GATE Official PYQs | Data Structures Part 6",
+    "subject": "Data Structures",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 33,
+    "totalMarks": 39,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_C_Programming_P1",
+    "fileName": "PYQ_C_Programming_P1.json",
+    "title": "GATE Official PYQs | C Programming Part 1",
+    "subject": "C Programming",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_C_Programming_P2",
+    "fileName": "PYQ_C_Programming_P2.json",
+    "title": "GATE Official PYQs | C Programming Part 2",
+    "subject": "C Programming",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_C_Programming_P3",
+    "fileName": "PYQ_C_Programming_P3.json",
+    "title": "GATE Official PYQs | C Programming Part 3",
+    "subject": "C Programming",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 48,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_C_Programming_P4",
+    "fileName": "PYQ_C_Programming_P4.json",
+    "title": "GATE Official PYQs | C Programming Part 4",
+    "subject": "C Programming",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 12,
+    "totalMarks": 13,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P1",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P1.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 1",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P2",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P2.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 2",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P3",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P3.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 3",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P4",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P4.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 4",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P5",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P5.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 5",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P6",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P6.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 6",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P7",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P7.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 7",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Theory_of_Computation_TOC_P8",
+    "fileName": "PYQ_Theory_of_Computation_TOC_P8.json",
+    "title": "GATE Official PYQs | Theory of Computation (TOC) Part 8",
+    "subject": "Theory of Computation (TOC)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 13,
+    "totalMarks": 16,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P1",
+    "fileName": "PYQ_Computer_Organization_COA_P1.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 1",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P2",
+    "fileName": "PYQ_Computer_Organization_COA_P2.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 2",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P3",
+    "fileName": "PYQ_Computer_Organization_COA_P3.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 3",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 48,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P4",
+    "fileName": "PYQ_Computer_Organization_COA_P4.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 4",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 47,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P5",
+    "fileName": "PYQ_Computer_Organization_COA_P5.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 5",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P6",
+    "fileName": "PYQ_Computer_Organization_COA_P6.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 6",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Organization_COA_P7",
+    "fileName": "PYQ_Computer_Organization_COA_P7.json",
+    "title": "GATE Official PYQs | Computer Organization (COA) Part 7",
+    "subject": "Computer Organization (COA)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 11,
+    "totalMarks": 14,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P1",
+    "fileName": "PYQ_Computer_Networks_P1.json",
+    "title": "GATE Official PYQs | Computer Networks Part 1",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P2",
+    "fileName": "PYQ_Computer_Networks_P2.json",
+    "title": "GATE Official PYQs | Computer Networks Part 2",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 49,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P3",
+    "fileName": "PYQ_Computer_Networks_P3.json",
+    "title": "GATE Official PYQs | Computer Networks Part 3",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P4",
+    "fileName": "PYQ_Computer_Networks_P4.json",
+    "title": "GATE Official PYQs | Computer Networks Part 4",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P5",
+    "fileName": "PYQ_Computer_Networks_P5.json",
+    "title": "GATE Official PYQs | Computer Networks Part 5",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Computer_Networks_P6",
+    "fileName": "PYQ_Computer_Networks_P6.json",
+    "title": "GATE Official PYQs | Computer Networks Part 6",
+    "subject": "Computer Networks",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 25,
+    "totalMarks": 28,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P1",
+    "fileName": "PYQ_Databases_DBMS_P1.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 1",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P2",
+    "fileName": "PYQ_Databases_DBMS_P2.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 2",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P3",
+    "fileName": "PYQ_Databases_DBMS_P3.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 3",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 48,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P4",
+    "fileName": "PYQ_Databases_DBMS_P4.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 4",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P5",
+    "fileName": "PYQ_Databases_DBMS_P5.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 5",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P6",
+    "fileName": "PYQ_Databases_DBMS_P6.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 6",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P7",
+    "fileName": "PYQ_Databases_DBMS_P7.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 7",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Databases_DBMS_P8",
+    "fileName": "PYQ_Databases_DBMS_P8.json",
+    "title": "GATE Official PYQs | Databases (DBMS) Part 8",
+    "subject": "Databases (DBMS)",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 16,
+    "totalMarks": 18,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P1",
+    "fileName": "PYQ_Digital_Logic_P1.json",
+    "title": "GATE Official PYQs | Digital Logic Part 1",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P2",
+    "fileName": "PYQ_Digital_Logic_P2.json",
+    "title": "GATE Official PYQs | Digital Logic Part 2",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P3",
+    "fileName": "PYQ_Digital_Logic_P3.json",
+    "title": "GATE Official PYQs | Digital Logic Part 3",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P4",
+    "fileName": "PYQ_Digital_Logic_P4.json",
+    "title": "GATE Official PYQs | Digital Logic Part 4",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P5",
+    "fileName": "PYQ_Digital_Logic_P5.json",
+    "title": "GATE Official PYQs | Digital Logic Part 5",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P6",
+    "fileName": "PYQ_Digital_Logic_P6.json",
+    "title": "GATE Official PYQs | Digital Logic Part 6",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 48,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P7",
+    "fileName": "PYQ_Digital_Logic_P7.json",
+    "title": "GATE Official PYQs | Digital Logic Part 7",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 40,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Digital_Logic_P8",
+    "fileName": "PYQ_Digital_Logic_P8.json",
+    "title": "GATE Official PYQs | Digital Logic Part 8",
+    "subject": "Digital Logic",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 31,
+    "totalMarks": 32,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P1",
+    "fileName": "PYQ_Operating_Systems_P1.json",
+    "title": "GATE Official PYQs | Operating Systems Part 1",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P2",
+    "fileName": "PYQ_Operating_Systems_P2.json",
+    "title": "GATE Official PYQs | Operating Systems Part 2",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 46,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P3",
+    "fileName": "PYQ_Operating_Systems_P3.json",
+    "title": "GATE Official PYQs | Operating Systems Part 3",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P4",
+    "fileName": "PYQ_Operating_Systems_P4.json",
+    "title": "GATE Official PYQs | Operating Systems Part 4",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 42,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P5",
+    "fileName": "PYQ_Operating_Systems_P5.json",
+    "title": "GATE Official PYQs | Operating Systems Part 5",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 44,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P6",
+    "fileName": "PYQ_Operating_Systems_P6.json",
+    "title": "GATE Official PYQs | Operating Systems Part 6",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 41,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P7",
+    "fileName": "PYQ_Operating_Systems_P7.json",
+    "title": "GATE Official PYQs | Operating Systems Part 7",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 43,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P8",
+    "fileName": "PYQ_Operating_Systems_P8.json",
+    "title": "GATE Official PYQs | Operating Systems Part 8",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 90,
+    "totalQuestions": 40,
+    "totalMarks": 45,
+    "sections": [
+      "Technical"
+    ]
+  },
+  {
+    "id": "PYQ_Operating_Systems_P9",
+    "fileName": "PYQ_Operating_Systems_P9.json",
+    "title": "GATE Official PYQs | Operating Systems Part 9",
+    "subject": "Operating Systems",
+    "testType": "GATE PYQ Series",
+    "series": "GATE PYQs",
+    "durationMinutes": 45,
+    "totalQuestions": 23,
+    "totalMarks": 28,
+    "sections": [
+      "Technical"
+    ]
+  }
+]

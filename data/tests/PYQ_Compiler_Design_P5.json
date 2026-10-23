@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Compiler_Design_P5",
+  "fileName": "PYQ_Compiler_Design_P5.json",
+  "title": "GATE Official PYQs | Compiler Design Part 5",
+  "subject": "Compiler Design",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 40,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE CSE 1995 | Question: 2.4</strong></div><p>What is the value of<br/>printed by the following program?<br/>program COMPUTE<br/>(<br/>input<br/>,<br/>output<br/>);<br/>var<br/>X<br/>:<br/>integer<br/>;<br/>procedure FIND<br/>(<br/>X<br/>:<br/>real<br/>);<br/>begin<br/>X<br/>:=<br/>sqrt<br/>(<br/>X<br/>);<br/>end<br/>;<br/>begin<br/>X<br/>:=<br/>2<br/>FIND<br/>(<br/>X<br/>);<br/>writeln<br/>(<br/>X<br/>);<br/>end<br/>.<br/>compiler-design<br/>parameter-passing<br/>runtime-environment<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2616/gate-cse-1995-question-2-4"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE CSE 1999 | Question: 15</strong></div><p>What will be the output of the following program assuming that parameter passing is<br/>i<br/>.<br/>call by value<br/>ii<br/>.<br/>call by reference<br/>iii<br/>.<br/>call by copy restore<br/>procedure P<br/>{<br/>x<br/>,<br/>y<br/>,<br/>z<br/>};<br/>begin<br/>y<br/>:<br/>y<br/>+<br/>1<br/>;<br/>z<br/>:<br/>x<br/>+<br/>x<br/>;<br/>end<br/>;<br/>begin<br/>a<br/>:=<br/>b<br/>:=<br/>3<br/>;<br/>P<br/>(<br/>a<br/>+<br/>b<br/>,<br/>a<br/>,<br/>a<br/>);<br/>Print<br/>(<br/>a<br/>);<br/>end<br/>parameter-passing<br/>runtime-environment<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1514/gate-cse-1999-question-15"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE CSE 2003 | Question: 74</strong></div><p>The following program fragment is written in a programming language that allows global variables and does<br/>not allow nested declarations of functions.<br/>global<br/>int<br/>i<br/>=<br/>100<br/>,<br/>j<br/>=<br/>5<br/>;<br/>void<br/>P<br/>(<br/>x<br/>)<br/>{<br/>int<br/>i<br/>=<br/>10<br/>;<br/>print<br/>(<br/>x<br/>+<br/>10<br/>);<br/>i<br/>=<br/>200<br/>;<br/>j<br/>=<br/>20<br/>;<br/>print<br/>(<br/>x<br/>);<br/>}<br/>main<br/>()<br/>{<br/>P<br/>(<br/>i<br/>+<br/>j<br/>);}<br/>If the programming language uses dynamic scoping and call by name parameter passing mechanism, the values</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/43575/gate-cse-2003-question-74"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE CSE 2004 | Question: 2,ISRO2017-54</strong></div><p>Consider the following function<br/>void<br/>swap<br/>(<br/>int<br/>a<br/>,<br/>int<br/>b<br/>)<br/>{<br/>int<br/>temp<br/>;<br/>temp<br/>=<br/>a<br/>;<br/>a<br/>=<br/>b<br/>;<br/>b<br/>=<br/>temp<br/>;<br/>}<br/>In order to exchange the values of two variables<br/>and<br/>.<br/>A<br/>.<br/>call<br/>B<br/>.<br/>call<br/>C<br/>.<br/>cannot be used as it does not return any value<br/>D<br/>.<br/>cannot be used as the parameters are passed by value<br/>compiler-design<br/>programming-in-c<br/>parameter-passing<br/>easy<br/>isro2017<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE CSE 2016 | Set 1 | Question: 36</strong></div><p>What will be the output of the following pseudo-code when parameters are passed by reference and<br/>dynamic scoping is assumed?<br/>a<br/>=<br/>3<br/>;<br/>void<br/>n<br/>(<br/>x<br/>)<br/>{<br/>x<br/>=<br/>x<br/>*<br/>a<br/>;<br/>print<br/>(<br/>x<br/>);<br/>}<br/>void<br/>m<br/>(<br/>y<br/>)<br/>{<br/>a<br/>=<br/>1<br/>;<br/>a<br/>=<br/>y<br/>-<br/>a<br/>;<br/>n<br/>(<br/>a<br/>);<br/>print<br/>(<br/>a<br/>);<br/>}<br/>void<br/>main<br/>()<br/>{<br/>m<br/>(<br/>a<br/>);<br/>}<br/>parameter-passing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parameter Passing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parameter Passing: GATE IT 2007 | Question: 33</strong></div><p>Consider the program below in a hypothetical language which allows global variable and a choice of call by<br/>reference or call by value methods of parameter passing.<br/>int<br/>i<br/>;<br/>program main<br/>()<br/>{<br/>int<br/>j<br/>=<br/>60<br/>;<br/>i<br/>=<br/>50<br/>;<br/>call f<br/>(<br/>i<br/>,<br/>j<br/>);<br/>print<br/>i<br/>,<br/>j<br/>;<br/>}<br/>procedure f<br/>(<br/>x<br/>,<br/>y<br/>)<br/>{<br/>i<br/>=<br/>100<br/>;<br/>x<br/>=<br/>10<br/>;<br/>y<br/>=<br/>y<br/>+<br/>i<br/>;<br/>}<br/>Which one of the following options represents the correct output of the program for the two parameter passing<br/>mechanisms?<br/>A<br/>.<br/>Call by value :<br/>; Call by reference :<br/>B<br/>.<br/>Call by value :<br/>; Call by reference :</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3466/gate-it-2007-question-33"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1987 | Question: 1-xiv</strong></div><p>An operator precedence parser is a<br/>compiler-design<br/>parsing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80295/gate-cse-1987-question-1-xiv"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1989 | Question: 1-iii</strong></div><p>Merging states with a common core may produce __________ conﬂicts and does not produce ___________<br/>conflicts in an LALR parser.<br/>descriptive<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80295/gate-cse-1987-question-1-xiv"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1993 | Question: 25</strong></div><p>A simple Pascal like language has only three statements.<br/>i<br/>.<br/>assignment statement e.g. x:=expression<br/>ii<br/>.<br/>loop construct e.g. for i:=expression to expression do statement<br/>iii<br/>.<br/>sequencing e.g. begin statement ;…; statement end<br/>A<br/>.<br/>Write a context-free grammar (CFG) for statements in the above language. Assume that expression has already<br/>been defined. Do not use optional parenthesis and * operator in CFG.<br/>B<br/>.<br/>Show the parse tree for the following statements:<br/>for<br/>j<br/>:=<br/>2<br/>to<br/>10<br/>do<br/>begin<br/>x<br/>:=<br/>expr1<br/>;<br/>y<br/>:=<br/>expr2<br/>;<br/>end<br/>compiler-design<br/>parsing<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2321/gate-cse-1993-question-25"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1995 | Question: 8</strong></div><p>Construct the<br/>table for the following grammar.<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>5<br/>.<br/>6<br/>.<br/>7<br/>.<br/>8<br/>.<br/>9<br/>.<br/>$</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80295/gate-cse-1987-question-1-xiv"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1998 | Question: 1.27</strong></div><p>Type checking is normally done during<br/>compiler-design<br/>parsing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1664/gate-cse-1998-question-1-27"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1998 | Question: 22</strong></div><p>A<br/>.<br/>An identiﬁer in a programming language consists of up to six letters and digits of which the ﬁrst character must<br/>be a letter. Derive a regular expression for the identifier.<br/>B<br/>.<br/>Build an<br/>parsing table for the language defined by the<br/>grammar with productions<br/>compiler-design<br/>parsing<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1664/gate-cse-1998-question-1-27"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 1999 | Question: 1.17</strong></div><p>Which of the following is the most powerful parsing method?<br/>compiler-design<br/>parsing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1664/gate-cse-1998-question-1-27"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2000 | Question: 1.19, UGCNET-Dec2013-II: 30</strong></div><p>Which of the following derivations does a top-down parser use while parsing an input string? The input is<br/>scanned from left to right.<br/>compiler-design<br/>parsing<br/>ugcnetcse-dec2013-paper2</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1664/gate-cse-1998-question-1-27"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2001 | Question: 16</strong></div><p>Consider the following grammar with terminal alphabet<br/>and start symbol<br/>. The<br/>production rules of the grammar are:<br/>a<br/>.<br/>Compute the FIRST and FOLLOW sets for<br/>and<br/>.<br/>b<br/>.<br/>Complete the LL(1) parse table for the grammar.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1664/gate-cse-1998-question-1-27"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2003 | Question: 16</strong></div><p>Which of the following suffices to convert an arbitrary CFG to an LL(1) grammar?<br/>compiler-design<br/>parsing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/906/gate-cse-2003-question-16"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2005 | Question: 83a</strong></div><p>Statement for Linked Answer Questions 83a & 83b:<br/>Consider the following expression grammar. The semantic rules for expression evaluation are stated next to<br/>each grammar production.<br/>The above grammar and the semantic rules are fed to a<br/>yaac<br/>tool (which is an LALR(1) parser generator) for<br/>parsing and evaluating arithmetic expressions. Which one of the following is true about the action of<br/>yaac<br/>for the<br/>given grammar?<br/>A<br/>.<br/>It detects<br/>recursion<br/>and eliminates recursion<br/>B<br/>.<br/>It detects<br/>reduce-reduce<br/>conflict, and resolves<br/>C<br/>.<br/>It detects<br/>shift-reduce<br/>conflict, and resolves the conflict in favor of a<br/>shift<br/>over a<br/>reduce<br/>action<br/>D<br/>.<br/>It detects<br/>shift-reduce<br/>conflict, and resolves the conflict in favor of a<br/>reduce<br/>over a<br/>shift<br/>action<br/>compiler-design<br/>parsing<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1405/gate-cse-2005-question-83a"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2005 | Question: 83b</strong></div><p>Consider the following expression grammar. The semantic rules for expression evaluation are stated next to<br/>each grammar production.<br/>Assume the conﬂicts of this question are resolved using yacc tool and an LALR(1) parser is generated for parsing<br/>arithmetic expressions as per the given grammar. Consider an expression<br/>. What precedence and<br/>associativity properties does the generated parser realize?<br/>A<br/>.<br/>Equal precedence and left associativity; expression is evaluated to<br/>B<br/>.<br/>Equal precedence and right associativity; expression is evaluated to<br/>C<br/>.<br/>Precedence of ‘<br/>’ is higher than that of ‘<br/>’, and both operators are left associative; expression is evaluated to<br/>D<br/>.<br/>Precedence of ‘<br/>’ is higher than that of ‘<br/>’, and both operators are left associative; expression is evaluated to<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1405/gate-cse-2005-question-83a"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2006 | Question: 58</strong></div><p>Consider the following grammar:<br/>In the predictive parser table<br/>of the grammar the entries<br/>and<br/>respectively are<br/>A<br/>.<br/>and<br/>B<br/>.<br/>and<br/>C<br/>.<br/>and<br/>D<br/>.<br/>and<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1836/gate-cse-2006-question-58"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2007 | Question: 18</strong></div><p>Which one of the following is a top-down parser?<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1836/gate-cse-2006-question-58"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2008 | Question: 11</strong></div><p>Which of the following describes a handle (as applicable to LR-parsing) appropriately?<br/>A<br/>.<br/>It is the position in a sentential form where the next shift or reduce operation will occur<br/>B<br/>.<br/>It is non-terminal whose production will be used for reduction in the next step<br/>C<br/>.<br/>It is a production that may be used for reduction in a future step along with a position in the sentential form<br/>where the next shift or reduce operation will occur<br/>D<br/>.<br/>It is the production<br/>that will be used for reduction in the next step along with a position in the sentential form<br/>where the right hand side of the production may be found<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/409/gate-cse-2008-question-11"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2009 | Question: 42</strong></div><p>Which of the following statements are TRUE?<br/>I<br/>.<br/>There exist parsing algorithms for some programming languages whose complexities are less than<br/>II<br/>.<br/>A programming language which allows recursion can be implemented with static storage allocation.<br/>III<br/>.<br/>No L-attributed definition can be evaluated in the framework of bottom-up parsing.<br/>IV<br/>.<br/>Code improving transformations can be performed at both source language and intermediate code level.<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1328/gate-cse-2009-question-42"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2012 | Question: 53</strong></div><p>For the grammar below, a partial<br/>parsing table is also presented along with the grammar. Entries that</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/43312/gate-cse-2012-question-53"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2015 | Set 3 | Question: 31</strong></div><p>Consider the following grammar<br/>G<br/>Where<br/>,<br/>, and<br/>are non-terminal symbols,<br/>, and<br/>are terminal symbols. Which of the following<br/>statement(s) is/are correct?<br/>S1: LL(1) can parse all strings that are generated using grammar<br/>G<br/>S2: LR(1) can parse all strings that are generated using grammar<br/>G<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8488/gate-cse-2015-set-3-question-31"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2017 | Set 1 | Question: 43</strong></div><p>Consider the following grammar:<br/>stmt<br/>if<br/>expr<br/>then<br/>expr<br/>else<br/>expr; stmt |<br/>expr<br/>term<br/>relop<br/>term | term<br/>term<br/>id | number<br/>id<br/>a<br/>|<br/>b<br/>|<br/>c<br/>number<br/>where<br/>relop<br/>is a relational operator<br/>e.g.,<br/>refers to the empty statement, and<br/>if<br/>,<br/>then<br/>,<br/>else<br/>are<br/>terminals.<br/>Consider a program<br/>following the above grammar containing ten<br/>if<br/>terminals. The number of control ﬂow paths in<br/>is________ . For example. the program<br/>if<br/>then<br/>else<br/>has<br/>control flow paths.<br/>and<br/>.<br/>compiler-design<br/>parsing<br/>Ò<br/>Ò</p></div>",
+      "options": [],
+      "correctAnswer": "1024",
+      "discussUrl": "https://gateoverflow.in/8488/gate-cse-2015-set-3-question-31"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE CSE 2024 | Set 1 | Question: 16</strong></div><p>Which of the following is/are Bottom-Up Parser(s)?<br/>multiple-selects<br/>compiler-design<br/>parsing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/422826/gate-cse-2024-set-1-question-16"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE IT 2005 | Question: 83b</strong></div><p>Consider the context-free grammar<br/>where<br/>is the starting symbol, the set of terminals is<br/>, and the set of non-terminals is<br/>.<br/>For the terminal string<br/>, how many parse trees are possible?<br/>compiler-design<br/>parsing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3850/gate-it-2005-question-83b"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Parsing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Parsing: GATE IT 2008 | Question: 79</strong></div><p>CFG<br/>is given with the following productions where<br/>is the start symbol,<br/>is a non-terminal and a and<br/>b are terminals.<br/>For the string \"<br/>\" how many steps are required to derive the string and how many parse trees are there?<br/>compiler-design<br/>parsing<br/>Register Allocation<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3393/gate-it-2008-question-79"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 1997 | Question: 4.9</strong></div><p>The expression<br/>where ‘op’ is one of ‘<br/>’, ‘<br/>’ and ‘<br/>’ (exponentiation) can be evaluated on a CPU with single register without<br/>storing the value of (<br/>) if<br/>compiler-design<br/>register-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422826/gate-cse-2024-set-1-question-16"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 2004 | Question: 10</strong></div><p>Consider the grammar rule<br/>for arith<br/>metic expressions. The code generated is targeted to a<br/>CPU having a single user register. The sub<br/>traction operation requires the ﬁrst operand to be in the register.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/4069/gate-cse-2004-question-10"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 2010 | Question: 37</strong></div><p>The program below uses six temporary variables<br/>.<br/>a<br/>=<br/>1<br/>b<br/>=<br/>10<br/>c<br/>=<br/>20<br/>d<br/>=<br/>a<br/>+<br/>b<br/>e<br/>=<br/>c<br/>+<br/>d<br/>f<br/>=<br/>c<br/>+<br/>e<br/>b<br/>=<br/>c<br/>+<br/>e<br/>e<br/>=<br/>b<br/>+<br/>f<br/>d<br/>=<br/>5<br/>+<br/>e<br/>return<br/>d<br/>+<br/>f<br/>Assuming that all operations take their operands from registers, what is the minimum number of registers needed to<br/>execute this program without spilling?<br/>compiler-design<br/>register-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2338/gate-cse-2010-question-37"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 2011 | Question: 36</strong></div><p>Consider evaluating the following expression tree on a machine with load-store architecture in which<br/>memory can be accessed only through load and store instructions. The variables<br/>and<br/>are initially<br/>stored in memory. The binary operators used in this expression tree can be evaluated by the machine only when<br/>operands are in registers. The instructions produce result only in a register. If no intermediate results can be stored<br/>in memory, what is the minimum number of registers needed to evaluate this expression?<br/>compiler-design<br/>register-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2138/gate-cse-2011-question-36"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 2013 | Question: 48</strong></div><p>The following code segment is executed on a processor which allows only register operands in its<br/>instructions. Each instruction can have atmost two source operands and one destination operand. Assume<br/>that all variables are dead after this code segment.<br/>c<br/>=<br/>a<br/>+<br/>b<br/>;<br/>d<br/>=<br/>c<br/>*<br/>a<br/>;<br/>e<br/>=<br/>c<br/>+<br/>a<br/>;<br/>x<br/>=<br/>c<br/>*<br/>c<br/>;<br/>if<br/>(<br/>x<br/>><br/>a<br/>)<br/>{<br/>y<br/>=<br/>a<br/>*<br/>a<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1556/gate-cse-2013-question-48"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Register Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Register Allocation: GATE CSE 2017 | Set 1 | Question: 52</strong></div><p>Consider the expression<br/>. Let<br/>be the minimum number of registers required<br/>by an<br/>optimal<br/>code generation (without any register spill) algorithm for a load/store architecture, in which<br/>A<br/>.<br/>only load and store instructions can have memory operands and<br/>B<br/>.<br/>arithmetic instructions can have only register or immediate operands.<br/>​​​​​​​<br/>The value of<br/>is _____________ .<br/>compiler-design<br/>register-allocation<br/>Runtime Environment<br/>(22)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(2Q)</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1988 | Question: 2xii</strong></div><p>Consider the following program skeleton and below ﬁgure which shows activation records of procedures<br/>involved in the calling sequence.<br/>Write the access links of the activation records to enable correct access and variables in the procedures from other<br/>procedures involved in the calling sequence<br/>procedure p<br/>;<br/>procedure q<br/>;<br/>procedure r<br/>;<br/>begin<br/>q<br/>end<br/>r<br/>;<br/>begin<br/>r<br/>end<br/>q<br/>;<br/>procedure s<br/>;<br/>begin<br/>q<br/>end<br/>s<br/>;<br/>begin<br/>s</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1989 | Question: 10a</strong></div><p>Will recursion work correctly in a language with static allocation of all variables? Explain.<br/>descriptive<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/89636/gate-cse-1989-question-10a"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1989 | Question: 8b</strong></div><p>Indicate the result of the following program if the language uses (i) static scope rules and (ii) dynamic scope<br/>rules.<br/>var<br/>x<br/>,<br/>y<br/>:<br/>integer<br/>;<br/>procedure A<br/>(<br/>var<br/>z<br/>:<br/>integer<br/>);<br/>var<br/>x<br/>:<br/>integer<br/>;<br/>begin<br/>x<br/>:=<br/>1<br/>;<br/>B<br/>;<br/>z<br/>:=<br/>x<br/>end<br/>;<br/>procedure B<br/>;<br/>begin<br/>x<br/>:=<br/>x<br/>+<br/>1<br/>end<br/>;<br/>begin<br/>x<br/>:=<br/>5<br/>;<br/>A<br/>(<br/>y<br/>);<br/>write<br/>(<br/>y<br/>)<br/>...<br/>end<br/>.<br/>descriptive<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/89636/gate-cse-1989-question-10a"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1990 | Question: 2-v</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>compiler-design<br/>runtime-environment<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/89082/gate-cse-1989-question-8b"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1990 | Question: 4-v</strong></div><p>State whether the following statements are TRUE or FALSE with reason:<br/>The Link-load-and-go loading scheme required less storage space than the link-and-go loading scheme.<br/>true-false<br/>compiler-design<br/>runtime-environment</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/83980/gate-cse-1990-question-2-v"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 1993 | Question: 7.7</strong></div><p>A part of the system software which under all circumstances must reside in the main memory is:<br/>compiler-design<br/>runtime-environment<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2295/gate-cse-1993-question-7-7"
+    }
+  ]
+}

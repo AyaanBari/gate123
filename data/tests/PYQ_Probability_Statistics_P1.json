@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Probability_Statistics_P1",
+  "fileName": "PYQ_Probability_Statistics_P1.json",
+  "title": "GATE Official PYQs | Probability & Statistics Part 1",
+  "subject": "Probability & Statistics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 50,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bayes Theorem",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bayes Theorem: GATE CSE 2018 | Question: 44</strong></div><p>Consider Guwahati,<br/>and Delhi<br/>whose temperatures can be classiﬁed as high<br/>, medium<br/>and low<br/>. Let<br/>denote the probability that Guwahati has high temperature. Similarly,<br/>and</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "0.60 :",
+      "discussUrl": "https://gateoverflow.in/204119/gate-cse-2018-question-44"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Bayes Theorem",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bayes Theorem: GATE CSE 2021 | Set 1 | Question: 54</strong></div><p>A sender<br/>transmits a signal, which can be one of the two kinds:<br/>and<br/>with probabilities<br/>and<br/>respectively, to a receiver<br/>.<br/>In the graph below, the weight of edge<br/>is the probability of receiving<br/>when<br/>is transmitted, where<br/>. For example, the probability that the received signal is<br/>given the transmitted signal was<br/>, is<br/>.<br/>If the received signal is<br/>the probability that the transmitted signal was<br/>(rounded to<br/>decimal places) is<br/>__________.<br/>probability<br/>bayes-theorem<br/>conditional-probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.04 : 0.04",
+      "discussUrl": "https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Bayes Theorem",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bayes Theorem: GATE DA 2025 | Question: 21</strong></div><p>There are three boxes containing white balls and black balls.<br/>Box -<br/>contains<br/>black and<br/>white balls.<br/>Box-<br/>contains<br/>black and<br/>white balls.<br/>Box -<br/>contains<br/>black and<br/>white balls.<br/>In a random experiment, one of these boxes is selected, where the probability of choosing Box-<br/>is<br/>, Box-2 is<br/>,<br/>and Box-<br/>is<br/>. A ball is drawn at random from the selected box. Given that the ball drawn is white, the probability<br/>that it is drawn from Box-<br/>is ____________ (Round off to two decimal places)<br/>gateda-2025<br/>probability<br/>bayes-theorem<br/>Bayesian Network<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "0.25:0.25",
+      "discussUrl": "https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Bernoulli Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bernoulli Distribution: GATE DA 2025 | Question: 30</strong></div><p>​​​​​<br/>A random variable<br/>is said to be distributed as<br/>, denoted by<br/>Bernoulli(<br/>), if<br/>for<br/>. Let<br/>, where<br/>be independent and identically<br/>distributed random variables with<br/>. The value of<br/>, after approximation through Central<br/>Limit Theorem, is given by<br/>Recall that<br/>gateda-2025<br/>probability<br/>random-variable<br/>bernoulli-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460992/gate-da-2025-question-30"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Bernoulli Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bernoulli Distribution: GATE DA 2026 | Question: 54</strong></div><p>L e t<br/>be a matrix such that each of its elements follows<br/>distribution<br/>independently.<br/>The probability that the row-sum of the second row and the column-sum of the third column are both equal to<br/>is<br/>(Rounded off to two decimal places)<br/>gateda-2026<br/>probability<br/>bernoulli-distribution<br/>Binomial Distribution<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [],
+      "correctAnswer": "0.08:0.12",
+      "discussUrl": "https://gateoverflow.in/523160/gate-da-2026-question-54"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE CSE 2002 | Question: 2.16</strong></div><p>Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is<br/>probability<br/>easy<br/>binomial-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460992/gate-da-2025-question-30"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE CSE 2005 | Question: 52</strong></div><p>A random bit string of length n is constructed by tossing a fair coin n times and setting a bit to 0 or 1<br/>depending on outcomes head and tail, respectively. The probability that two such randomly generated<br/>strings are not identical is:<br/>probability<br/>binomial-distribution<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1177/gate-cse-2005-question-52"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE CSE 2006 | Question: 21</strong></div><p>For each element in a set of size<br/>, an unbiased coin is tossed. The<br/>coin tosses are independent. An<br/>element is chosen if the corresponding coin toss was a head. The probability that exactly<br/>elements are<br/>chosen is<br/>probability<br/>binomial-distribution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/982/gate-cse-2006-question-21"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE IT 2005 | Question: 32</strong></div><p>An unbiased coin is tossed repeatedly until the outcome of two successive tosses is the same. Assuming<br/>that the trials are independent, the expected number of tosses is<br/>probability<br/>binomial-distribution<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1177/gate-cse-2005-question-52"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE IT 2006 | Question: 22</strong></div><p>When a coin is tossed, the probability of getting a Head is<br/>. Let<br/>be the random variable<br/>denoting the number of tosses till the ﬁrst Head appears, including the toss where the Head appears.<br/>Assuming that successive tosses are independent, the expected value of<br/>is<br/>probability<br/>binomial-distribution<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/982/gate-cse-2006-question-21"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binomial Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Binomial Distribution: GATE IT 2007 | Question: 1</strong></div><p>Suppose there are two coins. The ﬁrst coin gives heads with probability<br/>when tossed, while the second<br/>coin gives heads with probability<br/>One of the two coins is picked up at random with equal probability and tossed.<br/>What is the probability of obtaining heads ?<br/>probability<br/>binomial-distribution<br/>Chi Square Distribution<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1177/gate-cse-2005-question-52"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Chi Square Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Chi Square Distribution: GATE DA 2026 | Question: 43</strong></div><p>L e t<br/>be<br/>independent random variables. Each of the random variables follows<br/>distribution. Define<br/>.<br/>Which of the following statements is/are correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/3432/gate-it-2007-question-1"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 1994 | Question: 1.4, ISRO2017-2</strong></div><p>Let<br/>and<br/>be any two arbitrary events, then, which one of the following is TRUE?<br/>probability<br/>conditional-probability<br/>isro2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1802"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 1994 | Question: 2.6</strong></div><p>The probability of an event<br/>is<br/>. The probability that events<br/>and<br/>occur together is<br/>while the<br/>probability that<br/>and<br/>occur together is<br/>. The probability of the event<br/>in terms of<br/>and<br/>is<br/>_____________<br/>probability<br/>conditional-probability<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1802"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2003 | Question: 3</strong></div><p>Let<br/>denote the probability of the event<br/>. Given<br/>,<br/>, the values of<br/>and<br/>respectively are<br/>probability<br/>easy<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1803"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2005 | Question: 51</strong></div><p>Box<br/>has<br/>red balls and<br/>blue balls and box<br/>has<br/>red balls and<br/>blue ball. A ball is selected as<br/>follows: (i) select a box (ii) choose a ball from the selected box such that each ball in the box is equally likely<br/>to be chosen. The probabilities of selecting boxes<br/>and<br/>are<br/>and<br/>respectively. Given that a ball selected in<br/>the above process is a red ball, the probability that it came from the box<br/>is:<br/>probability<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1176/gate-cse-2005-question-51"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2008 | Question: 27</strong></div><p>Aishwarya studies either computer science or mathematics everyday. If she studies computer science on a<br/>day, then the probability that she studies mathematics the next day is<br/>. If she studies mathematics on a<br/>day, then the probability that she studies computer science the next day is<br/>. Given that Aishwarya studies<br/>computer science on Monday, what is the probability that she studies computer science on Wednesday?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/425/gate-cse-2008-question-27"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2009 | Question: 21</strong></div><p>An unbalanced dice (with<br/>faces, numbered from<br/>to<br/>) is thrown. The probability that the face value is odd<br/>is<br/>of the probability that the face value is even. The probability of getting any even numbered face is<br/>the same. If the probability that the face is even given that it is greater than<br/>is<br/>, which one of the following<br/>options is closest to the probability that the face value exceeds<br/>?<br/>probability<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/798/gate-cse-2009-question-21"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2011 | Question: 3</strong></div><p>If two fair coins are ﬂipped and at least one of the outcomes is known to be a head, what is the probability<br/>that both outcomes are heads?<br/>probability<br/>easy<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2105/gate-cse-2011-question-3"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2012 | Question: 33</strong></div><p>Suppose a fair six-sided die is rolled once. If the value on the die is<br/>or<br/>the die is rolled a second<br/>time. What is the probability that the sum total of values that turn up is at least<br/>?<br/>probability<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1751/gate-cse-2012-question-33"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2016 | Set 2 | Question: 05</strong></div><p>Suppose that a shop has an equal number of LED bulbs of two diﬀerent types. The probability of an LED<br/>bulb lasting more than<br/>hours given that it is of Type<br/>is<br/>, and given that it is of Type<br/>is<br/>. The<br/>probability that an LED bulb chosen uniformly at random lasts more than<br/>hours is _________.<br/>probability<br/>conditional-probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.55",
+      "discussUrl": "https://gateoverflow.in/798/gate-cse-2009-question-21"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2017 | Set 2 | Question: 26</strong></div><p>and<br/>are considering to apply for a job. The probability that<br/>applies for the job is<br/>the probability<br/>that<br/>applies for the job given that<br/>applies for the job is<br/>and the probability that<br/>applies for the job given<br/>that<br/>applies for the job is<br/>Then the probability that<br/>does not apply for the job given that<br/>does not apply<br/>for this job is<br/>probability<br/>conditional-probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/798/gate-cse-2009-question-21"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2024 | Set 1 | Question: 53</strong></div><p>A bag contains<br/>red balls and<br/>blue balls. Two balls are drawn randomly without replacement. Given<br/>that the ﬁrst ball drawn is red, the probability<br/>(rounded oﬀ to<br/>decimal places)<br/>that both balls drawn are red<br/>is ___________.<br/>probability<br/>conditional-probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.375",
+      "discussUrl": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE CSE 2026 | Set 2 | Question: 53</strong></div><p>Suppose an unbiased coin is tossed<br/>times. Each coin toss is independent of all previous coin tosses. Let<br/>be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let<br/>be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails.<br/>The conditional probability<br/>is equal to<br/>. (rounded off to one decimal place)<br/>conditional-probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.5:0.5",
+      "discussUrl": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE DA 2026 | Question: 47</strong></div><p>A clinic specializes in testing for a disease<br/>. The result of the test can be either positive or negative.<br/>A study revealed that if a person suﬀers from the disease<br/>, the test result in that clinic comes out positive<br/>of<br/>the time, and negative<br/>of the time. If a person is not suﬀering from the disease<br/>, the test comes out positive<br/>of the time and negative<br/>of the time. It is also known that among the general population, the disease<br/>occurs in<br/>of the individuals.<br/>If a person tests positive for<br/>in that clinic, the probability that he/she actually suﬀers from the disease<br/>is<br/>.<br/>(Rounded off to two decimal places)<br/>gateda-2026<br/>probability<br/>conditional-probability</p></div>",
+      "options": [],
+      "correctAnswer": "0.76:0.78",
+      "discussUrl": "https://gateoverflow.in/523093/gate-cse-2026-set-2-question-53"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Conditional Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conditional Probability: GATE IT 2006 | Question: 1</strong></div><p>In a certain town, the probability that it will rain in the afternoon is known to be<br/>. Moreover, meteorological<br/>data indicates that if the temperature at noon is less than or equal to<br/>, the probability that it will rain in<br/>the afternoon is<br/>. The temperature at noon is equally likely to be above<br/>, or at/below<br/>. What is the<br/>probability that it will rain in the afternoon on a day when the temperature at noon is above<br/>?<br/>probability<br/>conditional-probability<br/>Continuous Distribution<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Continuous Distribution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuous Distribution: GATE CSE 2016 | Set 1 | Question: 04</strong></div><p>A probability density function on the interval<br/>is given by<br/>and outside this interval the value of the<br/>function is zero. The value of<br/>is _________.<br/>probability<br/>continuous-distribution<br/>Expectation<br/>(15)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(3Q)</p></div>",
+      "options": [],
+      "correctAnswer": "0.5",
+      "discussUrl": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 1999 | Question: 1.1</strong></div><p>Suppose that the expectation of a random variable<br/>is<br/>. Which of the following statements is true?<br/>A<br/>.<br/>There is a sample point at which<br/>has the value<br/>.<br/>B<br/>.<br/>There is a sample point at which<br/>has value greater than<br/>.<br/>C<br/>.<br/>There is a sample point at which<br/>has a value greater than equal to<br/>.<br/>D<br/>.<br/>None of the above.<br/>probability<br/>expectation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1455/gate-cse-1999-question-1-1"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2004 | Question: 74</strong></div><p>An examination paper has<br/>multiple choice questions of one mark each, with each question having four<br/>choices. Each incorrect answer fetches<br/>marks. Suppose<br/>students choose all their answers<br/>randomly with uniform probability. The sum total of the expected marks obtained by all these students is<br/>probability<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1068/gate-cse-2004-question-74"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2006 | Question: 18</strong></div><p>We are given a set<br/>where<br/>.  A sample<br/>is drawn by  selecting each<br/>independently with probability<br/>. The expected value of the smallest number in sample<br/>is:<br/>probability<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/979/gate-cse-2006-question-18"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2011 | Question: 18</strong></div><p>If the diﬀerence between the expectation of the square of a random variable<br/>and the square of<br/>the expectation of the random variable<br/>is denoted by<br/>, then<br/>probability<br/>random-variable<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/979/gate-cse-2006-question-18"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2013 | Question: 24</strong></div><p>Consider an undirected random graph of eight vertices. The probability that there is an edge between a pair<br/>of vertices is<br/>What is the expected number of unordered cycles of length three?<br/>probability<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1535/gate-cse-2013-question-24"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2014 | Set 2 | Question: 2</strong></div><p>Each of the nine words in the sentence<br/>is written on a<br/>separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random<br/>from the box. The<br/>length of the word drawn is _____________. (The answer should be rounded to one<br/>decimal place.)<br/>probability<br/>expectation<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "3.8 : 3.9",
+      "discussUrl": "https://gateoverflow.in/1068/gate-cse-2004-question-74"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2017 | Set 2 | Question: 31</strong></div><p>For any discrete random variable<br/>, with probability mass function<br/>, and<br/>, deﬁne the polynomial function<br/>. For a certain discrete random variable<br/>, there exists a scalar<br/>such that<br/>. The expectation of<br/>is<br/>probability<br/>random-variable<br/>difficult<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2021 | Set 1 | Question: 35</strong></div><p>Consider the two statements.<br/>There exist random variables<br/>and<br/>such that<br/>For all random variables<br/>and<br/>Which one of the following choices is correct?<br/>probability<br/>random-variable<br/>difficult<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2021 | Set 2 | Question: 29</strong></div><p>In an examination, a student can choose the order in which two questions (<br/>and<br/>) must be<br/>attempted.<br/>If the first question is answered wrong, the student gets zero marks.<br/>If the first question is answered correctly and the second question is not answered correctly, the student gets the<br/>marks only for the first question.<br/>If both the questions are answered correctly, the student gets the sum of the marks of the two questions.<br/>The following table shows the probability of correctly answering a question and the marks of the question<br/>respectively.<br/>Assuming that the student always wants to maximize her expected marks in the examination, in which order should<br/>she attempt  the questions and what is the expected marks for that order (assume that the questions are<br/>independent)?<br/>A<br/>.<br/>First<br/>and then<br/>. Expected marks<br/>.<br/>B<br/>.<br/>First<br/>and then<br/>. Expected marks<br/>.<br/>C<br/>.<br/>First<br/>and then<br/>. Expected marks<br/>.<br/>D<br/>.<br/>First<br/>and then<br/>. Expected marks<br/>.<br/>probability<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE CSE 2026 | Set 1 | Question: 48</strong></div><p>L e t<br/>be a random variable which takes values in the set<br/>. Further,<br/>and<br/>.<br/>The expected value of<br/>, denoted by<br/>, is equal to<br/>. (rounded off to two decimal places)<br/>probability<br/>expectation</p></div>",
+      "options": [],
+      "correctAnswer": "4.24 :",
+      "discussUrl": "https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE DA 2025 | Question: 1</strong></div><p>Suppose<br/>and<br/>are random variables. The conditional expectation of<br/>given<br/>is denoted by<br/>. Then<br/>equals<br/>gateda-2025<br/>probability<br/>random-variable<br/>expectation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE DA 2025 | Question: 10</strong></div><p>Let<br/>, where<br/>is a standard normal random variable, and<br/>are two unknown constants. It is<br/>given that<br/>where<br/>denotes the expectation of random variable<br/>. The values of<br/>are:<br/>gateda-2025<br/>probability<br/>expectation<br/>random-variable</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461021/gate-da-2025-question-1"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Expectation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Expectation: GATE DA 2025 | Question: 51</strong></div><p>A bag contains<br/>white balls and<br/>black balls. In a random experiment,<br/>balls are drawn from the bag<br/>one at a time with replacement. Let<br/>denote the total number of black balls drawn in the experiment.<br/>The expectation of<br/>denoted by<br/>____________. (Round off to one decimal place)<br/>gateda-2025<br/>probability<br/>expectation<br/>Expectation: GATE DS&AI 2024 | Question: 26<br/>​​​​​<br/>A fair six-sided die (with faces numbered<br/>) is repeatedly thrown independently.<br/>What is the expected number of times the die is thrown until two consecutive throws of even numbers are<br/>seen?<br/>gate-ds-ai-2024<br/>probability<br/>expectation<br/>Expectation: GATE DS&AI 2024 | Question: 49<br/>Consider a joint probability density function of two random variables<br/>and</p></div>",
+      "options": [],
+      "correctAnswer": "66.6:66.7",
+      "discussUrl": "https://gateoverflow.in/461021/gate-da-2025-question-1"
+    }
+  ]
+}

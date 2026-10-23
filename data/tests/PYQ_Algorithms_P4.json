@@ -1,0 +1,1288 @@
+{
+  "id": "PYQ_Algorithms_P4",
+  "fileName": "PYQ_Algorithms_P4.json",
+  "title": "GATE Official PYQs | Algorithms Part 4",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE CSE 1989 | Question: 13a</strong></div><p>A language uses an alphabet of six letters,<br/>. The relative frequency of use of each letter of<br/>the alphabet in the language is as given below:<br/>Design a preﬁx binary code for the language which would minimize the average length of the encoded words of the<br/>language.<br/>descriptive<br/>algorithms<br/>huffman-code</p></div>",
+      "options": [],
+      "correctAnswer": "2.33",
+      "discussUrl": "https://gateoverflow.in/93172/gate-cse-1989-question-13a"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE CSE 2007 | Question: 76</strong></div><p>Suppose the letters<br/>have probabilities<br/>, respectively.<br/>Which of the following is the Huffman code for the letter<br/>?<br/>algorithms<br/>greedy-algorithms<br/>huffman-code</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1271/gate-cse-2007-question-76"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE CSE 2007 | Question: 77</strong></div><p>Suppose the letters<br/>have probabilities<br/>, respectively.<br/>What is the average length of the Huffman code for the letters<br/>?<br/>algorithms<br/>greedy-algorithms<br/>huffman-code</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1271/gate-cse-2007-question-76"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE CSE 2017 | Set 2 | Question: 50</strong></div><p>A message is made up entirely of characters from the set<br/>. The table of probabilities<br/>for each of the characters is shown below:<br/>If a message of<br/>characters over<br/>is encoded using Huﬀman coding, then the expected length of the encoded</p></div>",
+      "options": [],
+      "correctAnswer": "225",
+      "discussUrl": "https://gateoverflow.in/test/2011"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE CSE 2021 | Set 2 | Question: 26</strong></div><p>Consider the string<br/>. Each letter in the string must be assigned a binary code satisfying the<br/>following properties:<br/>1<br/>.<br/>For any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter.<br/>2<br/>.<br/>For any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a<br/>code whose length is at most the length of the code assigned to the other letter.<br/>Among the set of all binary code assignments which satisfy the above two properties, what is the minimum length<br/>of the encoded string?<br/>algorithms<br/>huffman-code</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/357514/gate-cse-2021-set-2-question-26"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Huffman Code",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Huffman Code: GATE IT 2006 | Question: 48</strong></div><p>The characters<br/>to<br/>have the set of frequencies based on the first<br/>Fibonacci numbers as follows<br/>,<br/>,<br/>,<br/>,<br/>,<br/>,<br/>,<br/>A Huﬀman code is used to represent the characters. What is the sequence of characters corresponding to the<br/>following code?<br/>algorithms<br/>greedy-algorithms<br/>huffman-code<br/>Identify Function<br/>(38)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3591/gate-it-2006-question-48"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1989 | Question: 8a</strong></div><p>What is the output produced by the following program, when the input is \"HTGATE\"<br/>Function<br/>what<br/>(<br/>s<br/>:<br/>string<br/>):<br/>string<br/>;<br/>var<br/>n<br/>:<br/>integer<br/>;<br/>begin<br/>n<br/>=<br/>s<br/>.<br/>length<br/>if<br/>n<br/><=<br/>1<br/>then<br/>what<br/>:=<br/>s<br/>else<br/>what<br/>:=<br/>contact<br/>(<br/>what<br/>(<br/>substring<br/>(<br/>s<br/>,<br/>2<br/>,<br/>n<br/>)),<br/>s<br/>.<br/>C<br/>[<br/>1<br/>])<br/>end<br/>;<br/>Note<br/>i<br/>.<br/>type string=record<br/>length:integer;<br/>C:array[1..100] of char<br/>end<br/>ii<br/>.<br/>Substring (s, i, j): this yields the string made up of the<br/>through<br/>characters in s; for appropriately deﬁned in<br/>and<br/>.<br/>iii<br/>.<br/>Contact<br/>: this function yields a string of length<br/>length +<br/>- length obtained by concatenating<br/>with<br/>such that<br/>precedes<br/>.<br/>descriptive<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3591/gate-it-2006-question-48"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1990 | Question: 11b</strong></div><p>The following program computes values of a mathematical function<br/>. Determine the form of<br/>.<br/>main<br/>()<br/>{<br/>int<br/>m<br/>,<br/>n<br/>;<br/>float<br/>x<br/>,<br/>y<br/>,<br/>t<br/>;<br/>scanf<br/>(<br/>\"%f%d\"<br/>,<br/>&<br/>x<br/>,<br/>&<br/>n<br/>);<br/>t<br/>=<br/>1<br/>;<br/>y<br/>=<br/>0<br/>;<br/>m<br/>=<br/>1<br/>;<br/>do<br/>{<br/>t<br/>*=<br/>(-<br/>x<br/>/<br/>m<br/>);<br/>y<br/>+=<br/>t<br/>;<br/>}<br/>while<br/>(<br/>m<br/>++<br/><<br/>n<br/>);<br/>printf<br/>(<br/>\"The value of y is %f\"<br/>,<br/>y<br/>);<br/>}<br/>descriptive<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85987/gate-cse-1990-question-11b"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1991 | Question: 03-viii</strong></div><p>Consider the following Pascal function:<br/>Function<br/>X<br/>(<br/>M<br/>:<br/>integer<br/>):<br/>integer<br/>;<br/>Var<br/>i<br/>:<br/>integer<br/>;<br/>Begin<br/>i<br/>:=<br/>0<br/>;<br/>while<br/>i<br/>*<br/>i<br/><<br/>M<br/>do<br/>i<br/>:=<br/>i<br/>+<br/>1<br/>X<br/>:=<br/>i<br/>end<br/>The function call<br/>, if<br/>is positive, will return<br/>algorithms<br/>easy<br/>identify-function<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523/gate-cse-1991-question-03-viii"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1993 | Question: 7.4</strong></div><p>What does the following code do?<br/>var<br/>a<br/>,<br/>b<br/>:<br/>integer<br/>;<br/>begin<br/>a<br/>:=<br/>a<br/>+<br/>b<br/>;<br/>b<br/>:=<br/>a<br/>-<br/>b<br/>;<br/>a<br/>:=<br/>a<br/>-<br/>b<br/>;<br/>end<br/>;<br/>algorithms<br/>identify-function<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85987/gate-cse-1990-question-11b"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1994 | Question: 6</strong></div><p>What function of<br/>,<br/>is computed by this program?<br/>Function<br/>what<br/>(<br/>x<br/>,<br/>n<br/>:<br/>integer<br/>):<br/>integer<br/>:<br/>Var<br/>value<br/>:<br/>integer<br/>begin<br/>value<br/>:=<br/>1<br/>if<br/>n<br/>><br/>0<br/>then</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2502/gate-cse-1994-question-6"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1995 | Question: 1.4</strong></div><p>In the following Pascal program segment, what is the value of X after the execution of the program segment?<br/>X<br/>:=<br/>-<br/>10<br/>;<br/>Y<br/>:=<br/>20<br/>;<br/>If<br/>X<br/>><br/>Y<br/>then<br/>if<br/>X<br/><<br/>0<br/>then<br/>X<br/>:=<br/>abs<br/>(<br/>X<br/>)<br/>else<br/>X<br/>:=<br/>2<br/>*<br/>X<br/>;<br/>algorithms<br/>identify-function<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2591/gate-cse-1995-question-1-4"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1995 | Question: 2.3</strong></div><p>Assume that<br/>and<br/>are non-zero positive integers. What does the following Pascal program segment do?<br/>while<br/>X<br/><><br/>Y<br/>do<br/>if<br/>X<br/>><br/>Y<br/>then<br/>X<br/>:=<br/>X<br/>-<br/>Y<br/>else<br/>Y<br/>:=<br/>Y<br/>-<br/>X<br/>;<br/>write<br/>(<br/>X<br/>);<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2591/gate-cse-1995-question-1-4"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1995 | Question: 4</strong></div><p>A<br/>.<br/>Consider the following Pascal function where<br/>and<br/>are non-zero positive integers. What is the value of<br/>?<br/>function<br/>GET<br/>(<br/>A<br/>,<br/>B<br/>:<br/>integer<br/>):<br/>integer<br/>;<br/>begin<br/>if<br/>B<br/>=<br/>0<br/>then<br/>GET<br/>:=<br/>1<br/>else<br/>if<br/>A<br/><<br/>B<br/>then<br/>GET<br/>:=<br/>0<br/>else<br/>GET<br/>:=<br/>GET<br/>(<br/>A<br/>-<br/>1<br/>,<br/>B<br/>)<br/>+<br/>GET<br/>(<br/>A<br/>-<br/>1<br/>,<br/>B<br/>-<br/>1<br/>)<br/>end<br/>;<br/>B<br/>.<br/>The Pascal procedure given for computing the transpose of an<br/>matrix<br/>of integers has an<br/>error. Find the error and correct it. Assume that the following declaration are made in the main program<br/>const<br/>MAXSIZE<br/>=<br/>20<br/>;<br/>type<br/>INTARR<br/>=<br/>array<br/>[<br/>1.<br/>.<br/>MAXSIZE<br/>,<br/>1.<br/>.<br/>MAXSIZE<br/>]<br/>of<br/>integer<br/>;<br/>Procedure<br/>TRANSPOSE<br/>(<br/>var<br/>A<br/>:<br/>INTARR<br/>;<br/>N<br/>:<br/>integer<br/>);<br/>var<br/>I<br/>,<br/>J<br/>,<br/>TMP<br/>:<br/>integer<br/>;<br/>begin<br/>for<br/>I<br/>:=<br/>1<br/>to N<br/>–<br/>1<br/>do<br/>for<br/>J<br/>:=<br/>1<br/>to N<br/>do<br/>begin<br/>TMP<br/>:=<br/>A<br/>[<br/>I<br/>,<br/>J<br/>];<br/>A<br/>[<br/>I<br/>,<br/>J<br/>]:=<br/>A<br/>[<br/>J<br/>,<br/>I<br/>];</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2591/gate-cse-1995-question-1-4"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1998 | Question: 2.12</strong></div><p>What value would the following function return for the input<br/>?<br/>Function<br/>fun<br/>(<br/>x<br/>:<br/>integer<br/>):<br/>integer<br/>;<br/>Begin<br/>If<br/>x<br/>><br/>100<br/>then<br/>fun<br/>=<br/>x<br/>–<br/>10<br/>Else<br/>fun<br/>=<br/>fun<br/>(<br/>fun<br/>(<br/>x<br/>+<br/>11<br/>))<br/>End<br/>;<br/>algorithms<br/>recursion<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1684/gate-cse-1998-question-2-12"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 1999 | Question: 2.24</strong></div><p>Consider the following<br/>function definition<br/>int<br/>Trial<br/>(<br/>int<br/>a<br/>,<br/>int<br/>b<br/>,<br/>int<br/>c<br/>)<br/>{<br/>if<br/>((<br/>a<br/>>=<br/>b<br/>)<br/>&&<br/>(<br/>c<br/><<br/>b<br/>))<br/>return<br/>b<br/>;<br/>else<br/>if<br/>(<br/>a<br/>>=<br/>b<br/>)<br/>return<br/>Trial<br/>(<br/>a<br/>,<br/>c<br/>,<br/>b<br/>);<br/>else<br/>return<br/>Trial<br/>(<br/>b<br/>,<br/>a<br/>,<br/>c<br/>);<br/>}<br/>The functional Trial:<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1684/gate-cse-1998-question-2-12"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2000 | Question: 2.15</strong></div><p>Suppose you are given an array<br/>and a procedure reverse<br/>which reverses the order of<br/>elements in<br/>between positions<br/>and<br/>(both inclusive). What does the following sequence do, where<br/>:<br/>reverse<br/>(<br/>s<br/>,<br/>1<br/>,<br/>k<br/>);<br/>reverse<br/>(<br/>s<br/>,<br/>k<br/>+<br/>1<br/>,<br/>n<br/>);<br/>reverse<br/>(<br/>s<br/>,<br/>1<br/>,<br/>n<br/>);<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1684/gate-cse-1998-question-2-12"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2003 | Question: 1</strong></div><p>Consider the following<br/>function.<br/>For large values of<br/>, the return value of the function<br/>best approximates<br/>float<br/>f<br/>,(<br/>float<br/>x<br/>,<br/>int<br/>y<br/>)<br/>{<br/>float<br/>p<br/>,<br/>s<br/>;<br/>int<br/>i<br/>;<br/>for<br/>(<br/>s<br/>=<br/>1<br/>,<br/>p<br/>=<br/>1<br/>,<br/>i<br/>=<br/>1<br/>;<br/>i<br/><<br/>y<br/>;<br/>i<br/>++)<br/>{<br/>p<br/>*=<br/>x<br/>/<br/>i<br/>;<br/>s<br/>+=<br/>p<br/>;<br/>}<br/>return<br/>s<br/>;<br/>}</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1684/gate-cse-1998-question-2-12"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2003 | Question: 88</strong></div><p>In the following<br/>program fragment,<br/>,<br/>,<br/>and TwoLog_n are integer variables, and<br/>is an array of<br/>integers. The variable<br/>is initialized to an integer<br/>, and TwoLog_n is initialized to the value of<br/>for<br/>(<br/>k<br/>=<br/>3<br/>;<br/>k<br/><=<br/>n<br/>;<br/>k<br/>++)<br/>A<br/>[<br/>k<br/>]<br/>=<br/>0<br/>;<br/>for<br/>(<br/>k<br/>=<br/>2<br/>;<br/>k<br/><=<br/>TwoLog_n<br/>;<br/>k<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>k<br/>+<br/>1<br/>;<br/>j<br/><=<br/>n<br/>;<br/>j<br/>++)<br/>A<br/>[<br/>j<br/>]<br/>=<br/>A<br/>[<br/>j<br/>]<br/>||<br/>(<br/>j<br/>%<br/>k<br/>);<br/>for<br/>(<br/>j<br/>=<br/>3<br/>;<br/>j<br/><=<br/>n<br/>;<br/>j<br/>++)<br/>if<br/>(!<br/>A<br/>[<br/>j<br/>])<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>j<br/>);<br/>The set of numbers printed by this program fragment is<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/971/gate-cse-2003-question-88"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2004 | Question: 41</strong></div><p>Consider the following C program<br/>main<br/>()<br/>{<br/>int<br/>x<br/>,<br/>y<br/>,<br/>m<br/>,<br/>n<br/>;<br/>scanf<br/>(<br/>\"%d %d\"<br/>,<br/>&<br/>x<br/>,<br/>&<br/>y<br/>);<br/>/* Assume x>0 and y>0*/<br/>m<br/>=<br/>x<br/>;<br/>n<br/>=<br/>y<br/>;<br/>while<br/>(<br/>m<br/>!=<br/>n<br/>)<br/>{<br/>if<br/>(<br/>m<br/>><br/>n<br/>)<br/>m<br/>=<br/>m<br/>-<br/>n<br/>;<br/>else<br/>n<br/>=<br/>n<br/>-<br/>m<br/>;<br/>}<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>The program computes<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1038/gate-cse-2004-question-41"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2004 | Question: 42</strong></div><p>What does the following algorithm approximate? (Assume<br/>).<br/>x<br/>=<br/>m<br/>;<br/>y<br/>=<br/>1<br/>;<br/>While<br/>(<br/>x<br/>-<br/>y<br/>><br/>ϵ<br/>)<br/>{<br/>x<br/>=<br/>(<br/>x<br/>+<br/>y<br/>)/<br/>2<br/>;<br/>y<br/>=<br/>m<br/>/<br/>x<br/>;<br/>}<br/>print<br/>(<br/>x<br/>);<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1038/gate-cse-2004-question-41"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2005 | Question: 31</strong></div><p>Consider the following C-program:<br/>void<br/>foo<br/>(<br/>int<br/>n<br/>,<br/>int<br/>sum<br/>)<br/>{<br/>int<br/>k<br/>=<br/>0<br/>,<br/>j<br/>=<br/>0<br/>;<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>return<br/>;<br/>k<br/>=<br/>n<br/>%<br/>10<br/>;<br/>j<br/>=<br/>n<br/>/<br/>10<br/>;<br/>sum<br/>=<br/>sum<br/>+<br/>k<br/>;<br/>foo<br/>(<br/>j<br/>,<br/>sum<br/>);<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>k<br/>);<br/>}<br/>int<br/>main<br/>()<br/>{<br/>int<br/>a<br/>=<br/>2048<br/>,<br/>sum<br/>=<br/>0<br/>;<br/>foo<br/>(<br/>a<br/>,<br/>sum<br/>);<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>sum<br/>);<br/>}<br/>What does the above program print?<br/>algorithms<br/>identify-function<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1367/gate-cse-2005-question-31"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2006 | Question: 50</strong></div><p>A set<br/>can be represented by an array<br/>as follows:<br/>Consider the following algorithm in which<br/>,<br/>, and<br/>are Boolean arrays of size<br/>:<br/>algorithm zzz<br/>(<br/>x<br/>[],<br/>y<br/>[],<br/>z<br/>[])<br/>{<br/>int<br/>i<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>++<br/>i<br/>)<br/>z<br/>[<br/>i<br/>]<br/>=<br/>(<br/>x<br/>[<br/>i<br/>]<br/>∧<br/>~<br/>y<br/>[<br/>i<br/>])<br/>∨<br/>(~<br/>x<br/>[<br/>i<br/>]<br/>∧<br/>y<br/>[<br/>i<br/>]);<br/>}<br/>The set<br/>computed by the algorithm is:<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1828/gate-cse-2006-question-50"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2006 | Question: 53</strong></div><p>Consider the following C-function in which<br/>and<br/>are two sorted integer arrays and<br/>be<br/>another integer array,<br/>void<br/>xyz<br/>(<br/>int<br/>a<br/>[],<br/>int<br/>b<br/>[],<br/>int<br/>c<br/>[]){<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>;<br/>i<br/>=<br/>j<br/>=<br/>k<br/>=<br/>0<br/>;<br/>while<br/>((<br/>i<br/><<br/>n<br/>)<br/>&&<br/>(<br/>j<br/><<br/>m<br/>))<br/>if<br/>(<br/>a<br/>[<br/>i<br/>]<br/><<br/>b<br/>[<br/>j<br/>])<br/>c<br/>[<br/>k<br/>++]<br/>=<br/>a<br/>[<br/>i<br/>++];<br/>else<br/>c<br/>[<br/>k<br/>++]<br/>=<br/>b<br/>[<br/>j<br/>++];<br/>}<br/>Which of the following condition(s) hold(s) after the termination of the while loop?<br/>i<br/>.<br/>and<br/>if<br/>ii<br/>.<br/>and<br/>if<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1828/gate-cse-2006-question-50"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2009 | Question: 18</strong></div><p>Consider the program below:<br/>#include<br/><stdio.h><br/>int<br/>fun<br/>(<br/>int<br/>n<br/>,<br/>int<br/>*<br/>f_p<br/>)<br/>{<br/>int<br/>t<br/>,<br/>f<br/>;<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>{<br/>*<br/>f_p<br/>=<br/>1<br/>;<br/>return<br/>1<br/>;<br/>}<br/>t<br/>=<br/>fun<br/>(<br/>n<br/>-<br/>1<br/>,<br/>f_p<br/>);<br/>f<br/>=<br/>t<br/>+<br/>*<br/>f_p<br/>;<br/>*<br/>f_p<br/>=<br/>t<br/>;<br/>return<br/>f<br/>;<br/>}<br/>int<br/>main<br/>()<br/>{<br/>int<br/>x<br/>=<br/>15<br/>;<br/>printf<br/>(<br/>\"%d/n\"<br/>,<br/>fun<br/>(<br/>5<br/>,<br/>&<br/>x<br/>));<br/>return<br/>0<br/>;<br/>}<br/>The value printed is:<br/>algorithms<br/>recursion<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1310/gate-cse-2009-question-18"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2010 | Question: 35</strong></div><p>What is the value printed by the following C program?<br/>#include<br/><stdio.h><br/>int<br/>f<br/>(<br/>int<br/>*<br/>a<br/>,<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>0<br/>)<br/>return<br/>0<br/>;<br/>else<br/>if<br/>(*<br/>a<br/>%<br/>2<br/>==<br/>0<br/>)<br/>return<br/>*<br/>a<br/>+<br/>f<br/>(<br/>a<br/>+<br/>1<br/>,<br/>n<br/>-<br/>1<br/>);<br/>else<br/>return<br/>*<br/>a<br/>-<br/>f<br/>(<br/>a<br/>+<br/>1<br/>,<br/>n<br/>-<br/>1<br/>);<br/>}<br/>int<br/>main<br/>()<br/>{<br/>int<br/>a<br/>[]<br/>=<br/>{<br/>12<br/>,<br/>7<br/>,<br/>13<br/>,<br/>4<br/>,<br/>11<br/>,<br/>6<br/>};<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>f<br/>(<br/>a<br/>,<br/>6<br/>));<br/>return<br/>0<br/>;<br/>}<br/>algorithms<br/>recursion<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2336/gate-cse-2010-question-35"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2011 | Question: 48</strong></div><p>Consider the following recursive C function that takes two arguments.<br/>unsigned<br/>int<br/>foo<br/>(<br/>unsigned<br/>int<br/>n<br/>,<br/>unsigned<br/>int<br/>r<br/>)<br/>{<br/>if<br/>(<br/>n<br/>><br/>0<br/>)<br/>return<br/>((<br/>n<br/>%<br/>r<br/>)<br/>+<br/>foo<br/>(<br/>n<br/>/<br/>r<br/>,<br/>r<br/>));<br/>else<br/>return<br/>0<br/>;<br/>}<br/>What is the return value of the function<br/>when it is called as<br/>?<br/>algorithms<br/>recursion<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2154/gate-cse-2011-question-48"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2011 | Question: 49</strong></div><p>Consider the following recursive C function that takes two arguments.<br/>unsigned<br/>int<br/>foo<br/>(<br/>unsigned<br/>int<br/>n<br/>,<br/>unsigned<br/>int<br/>r<br/>)<br/>{<br/>if<br/>(<br/>n<br/>><br/>0<br/>)<br/>return<br/>((<br/>n<br/>%<br/>r<br/>)<br/>+<br/>foo<br/>(<br/>n<br/>/<br/>r<br/>,<br/>r<br/>));<br/>else<br/>return<br/>0<br/>;<br/>}<br/>What is the return value of the function<br/>when it is called as<br/>?<br/>algorithms<br/>recursion<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/43324/gate-cse-2011-question-49"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2013 | Question: 31</strong></div><p>Consider the following function:<br/>int<br/>unknown<br/>(<br/>int<br/>n<br/>){<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>=<br/>0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>n<br/>/<br/>2<br/>;<br/>i<br/><=<br/>n<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>2<br/>;<br/>j<br/><=<br/>n<br/>;<br/>j<br/>=<br/>j<br/>*<br/>2<br/>)<br/>k<br/>=<br/>k<br/>+<br/>n<br/>/<br/>2<br/>;<br/>return<br/>(<br/>k<br/>);<br/>}<br/>The return value of the function is<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1542/gate-cse-2013-question-31"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2014 | Set 1 | Question: 41</strong></div><p>Consider the following C function in which<br/>size<br/>is the number of elements in the array<br/>E<br/>:<br/>int<br/>MyX<br/>(<br/>int<br/>*<br/>E<br/>,<br/>unsigned<br/>int<br/>size<br/>)<br/>{<br/>int<br/>Y<br/>=<br/>0<br/>;<br/>int<br/>Z<br/>;<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>size<br/>;<br/>i<br/>++)<br/>Y<br/>=<br/>Y<br/>+<br/>E<br/>[<br/>i<br/>];<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>size<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>j<br/>=<br/>i<br/>;<br/>j<br/><<br/>size<br/>;<br/>j<br/>++)<br/>{<br/>Z<br/>=<br/>0<br/>;<br/>for<br/>(<br/>k<br/>=<br/>i<br/>;<br/>k<br/><=<br/>j<br/>;<br/>k<br/>++)<br/>Z<br/>=<br/>Z<br/>+<br/>E<br/>[<br/>k<br/>];<br/>if<br/>(<br/>Z<br/>><br/>Y<br/>)<br/>Y<br/>=<br/>Z<br/>;<br/>}<br/>return<br/>Y<br/>;<br/>}<br/>The value returned by the function<br/>MyX<br/>is the<br/>A<br/>.<br/>maximum possible sum of elements in any sub-array of array<br/>E<br/>.<br/>B<br/>.<br/>maximum element in any sub-array of array<br/>E.<br/>C<br/>.<br/>sum of the maximum elements in all possible sub-arrays of array<br/>E<br/>.<br/>D<br/>.<br/>the sum of all the elements in the array<br/>E.<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/43324/gate-cse-2011-question-49"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2014 | Set 2 | Question: 10</strong></div><p>Consider the function func shown below:<br/>int<br/>func<br/>(<br/>int<br/>num<br/>)<br/>{<br/>int<br/>count<br/>=<br/>0<br/>;<br/>while<br/>(<br/>num<br/>)<br/>{<br/>count<br/>++;<br/>num<br/>>>=<br/>1<br/>;<br/>}<br/>return<br/>(<br/>count<br/>);<br/>}<br/>The value returned by func(<br/>) is ________<br/>algorithms<br/>identify-function<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2014 | Set 3 | Question: 10</strong></div><p>Let<br/>be the square matrix of size<br/>. Consider the following pseudocode. What is the expected output?<br/>C<br/>=<br/>100<br/>;<br/>for<br/>i<br/>=<br/>1<br/>to n<br/>do<br/>for<br/>j<br/>=<br/>1<br/>to n<br/>do<br/>{<br/>Temp<br/>=<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]+<br/>C<br/>;<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]<br/>=<br/>A<br/>[<br/>j<br/>][<br/>i<br/>];<br/>A<br/>[<br/>j<br/>][<br/>i<br/>]<br/>=<br/>Temp<br/>-<br/>C<br/>;<br/>}<br/>for<br/>i<br/>=<br/>1<br/>to n<br/>do<br/>for<br/>j<br/>=<br/>1<br/>to n<br/>do<br/>output<br/>(<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]);<br/>A<br/>.<br/>The matrix<br/>itself<br/>B<br/>.<br/>Transpose of the matrix<br/>C<br/>.<br/>Adding<br/>to the upper diagonal elements and subtracting<br/>from lower diagonal elements of<br/>D<br/>.<br/>None of the above<br/>algorithms<br/>identify-function<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2015 | Set 1 | Question: 31</strong></div><p>Consider the following C function.<br/>int<br/>fun1<br/>(<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>k<br/>,<br/>p<br/>,<br/>q<br/>=<br/>0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>1<br/>;<br/>i<br/><<br/>n<br/>;<br/>++<br/>i<br/>)<br/>{<br/>p<br/>=<br/>0<br/>;<br/>for<br/>(<br/>j<br/>=<br/>n<br/>;<br/>j<br/>><br/>1<br/>;<br/>j<br/>=<br/>j<br/>/<br/>2<br/>)<br/>++<br/>p<br/>;<br/>for<br/>(<br/>k<br/>=<br/>1<br/>;<br/>k<br/><<br/>p<br/>;<br/>k<br/>=<br/>k<br/>*<br/>2<br/>)<br/>++<br/>q<br/>;<br/>}<br/>return<br/>q<br/>;<br/>}<br/>Which one of the following most closely approximates the return value of the function<br/>?<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2015 | Set 2 | Question: 11</strong></div><p>Consider the following C function.<br/>int<br/>fun<br/>(<br/>int<br/>n<br/>)<br/>{</p></div>",
+      "options": [],
+      "correctAnswer": "51",
+      "discussUrl": "https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2015 | Set 3 | Question: 49</strong></div><p>Suppose<br/>is an array of length<br/>, where all the entries are from the set<br/>. For<br/>any positive integers<br/>, consider the following pseudocode.<br/>DOSOMETHING<br/>(<br/>c<br/>,<br/>a<br/>,<br/>n<br/>)<br/>z<br/>←<br/>1<br/>for<br/>i<br/>←<br/>0<br/>to k<br/>-<br/>1<br/>do<br/>z<br/>←<br/>z<br/>²<br/>mod n<br/>if<br/>c<br/>[<br/>i<br/>]=<br/>1<br/>then<br/>z<br/>←<br/>(<br/>z<br/>×<br/>a<br/>)<br/>mod n<br/>return<br/>z<br/>If<br/>, then the output of DOSOMETHING(<br/>c, a, n)<br/>is _______.<br/>algorithms<br/>identify-function</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/8558/gate-cse-2015-set-3-question-49"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2019 | Question: 26</strong></div><p>Consider the following C function.<br/>void<br/>convert<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><<br/>0<br/>)<br/>printf<br/>{“%<br/>d<br/>”,<br/>n<br/>);<br/>else<br/>{<br/>convert<br/>(<br/>n<br/>/<br/>2<br/>);<br/>printf<br/>(“%<br/>d<br/>”,<br/>n<br/>%<br/>2<br/>);<br/>}<br/>}<br/>Which one of the following will happen when the function<br/>convert<br/>is called with any positive integer<br/>as argument?<br/>A<br/>.<br/>It will print the binary representation of<br/>and terminate<br/>B<br/>.<br/>It will print the binary representation of<br/>in the reverse order and terminate<br/>C<br/>.<br/>It will print the binary representation of<br/>but will not terminate<br/>D<br/>.<br/>It will not print anything and will not terminate<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302822/gate-cse-2019-question-26"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2020 | Question: 48</strong></div><p>Consider the following C functions.</p></div>",
+      "options": [],
+      "correctAnswer": "81",
+      "discussUrl": "https://gateoverflow.in/333183/gate-cse-2020-question-48"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2021 | Set 1 | Question: 48</strong></div><p>Consider the following<br/>function:<br/>int<br/>SimpleFunction<br/>(<br/>int<br/>Y<br/>[],<br/>int<br/>n<br/>,<br/>int<br/>x<br/>)<br/>{<br/>int<br/>total<br/>=<br/>Y<br/>[<br/>0<br/>],<br/>loopIndex<br/>;<br/>for<br/>(<br/>loopIndex<br/>=<br/>1<br/>;<br/>loopIndex<br/><=<br/>n<br/>-<br/>1<br/>;<br/>loopIndex<br/>++)<br/>total<br/>=<br/>x<br/>*<br/>total<br/>+<br/>Y<br/>[<br/>loopIndex<br/>];<br/>return<br/>total<br/>;<br/>}<br/>L e t<br/>be an array of<br/>elements with<br/>, for all<br/>such that<br/>. The value returned by<br/>is __________<br/>algorithms<br/>identify-function</p></div>",
+      "options": [],
+      "correctAnswer": "1023 : 1023",
+      "discussUrl": "https://gateoverflow.in/357403/gate-cse-2021-set-1-question-48"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2021 | Set 2 | Question: 23</strong></div><p>Consider the following<br/>function:<br/>int<br/>SomeFunction<br/>(<br/>int<br/>x<br/>,<br/>int<br/>y<br/>)<br/>{<br/>if<br/>((<br/>x<br/>==<br/>1<br/>)<br/>||<br/>(<br/>y<br/>==<br/>1<br/>))<br/>return<br/>1<br/>;<br/>if<br/>(<br/>x<br/>==<br/>y<br/>)<br/>return<br/>x<br/>;<br/>if<br/>(<br/>x<br/>><br/>y<br/>)<br/>return<br/>SomeFunction<br/>(<br/>x<br/>-<br/>y<br/>,<br/>y<br/>);<br/>if<br/>(<br/>y<br/>><br/>x<br/>)<br/>return<br/>SomeFunction<br/>(<br/>x<br/>,<br/>y<br/>-<br/>x<br/>);<br/>}<br/>The value returned by<br/>is __________<br/>algorithms<br/>identify-function<br/>output</p></div>",
+      "options": [],
+      "correctAnswer": "15 : 15",
+      "discussUrl": "https://gateoverflow.in/357403/gate-cse-2021-set-1-question-48"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE IT 2005 | Question: 53</strong></div><p>The following<br/>function takes two ASCII strings and determines whether one is an anagram of the other. An<br/>anagram of a string s is a string obtained by permuting the letters in s.<br/>int<br/>anagram<br/>(<br/>char<br/>*<br/>a<br/>,<br/>char<br/>*<br/>b<br/>)<br/>{<br/>int<br/>count<br/>[<br/>128<br/>],<br/>j<br/>;<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>128<br/>;<br/>j<br/>++)<br/>count<br/>[<br/>j<br/>]<br/>=<br/>0<br/>;<br/>j<br/>=<br/>0<br/>;<br/>while<br/>(<br/>a<br/>[<br/>j<br/>]<br/>&&<br/>b<br/>[<br/>j<br/>])<br/>{<br/>A<br/>;<br/>B<br/>;<br/>}<br/>for<br/>(<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>128<br/>;<br/>j<br/>++)<br/>if<br/>(<br/>count<br/>[<br/>j<br/>])<br/>return<br/>0<br/>;<br/>return<br/>1<br/>;<br/>}</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3814/gate-it-2005-question-53"
+    }
+  ]
+}

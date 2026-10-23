@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_Databases_DBMS_P6",
+  "fileName": "PYQ_Databases_DBMS_P6.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 6",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE CSE 2013 | Question: 35</strong></div><p>Consider the following relational schema.<br/>Students(rollno: integer, sname: string)<br/>Courses(courseno: integer, cname: string)<br/>Registration(rollno: integer, courseno: integer, percent: real)<br/>Which of the following queries are equivalent to this query in English?<br/>“Find the distinct names of all students who score more than<br/>in the course numbered 107”<br/>I<br/>.<br/>SELECT DISTINCT S<br/>.<br/>sname FROM<br/>Students<br/>as<br/>S<br/>,<br/>Registration<br/>as<br/>R WHERE<br/>R<br/>.<br/>rollno<br/>=<br/>S<br/>.<br/>rollno AND R<br/>.<br/>courseno<br/>=<br/>107<br/>AND R<br/>.<br/>percent<br/>><br/>90<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>databases<br/>sql<br/>relational-calculus</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1546/gate-cse-2013-question-35"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE IT 2006 | Question: 15</strong></div><p>Which of the following relational query languages have the same expressive power?<br/>I<br/>.<br/>Relational algebra<br/>II<br/>.<br/>Tuple relational calculus restricted to safe expressions<br/>III<br/>.<br/>Domain relational calculus restricted to safe expressions<br/>databases<br/>relational-algebra<br/>relational-calculus<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1546/gate-cse-2013-question-35"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE IT 2007 | Question: 65</strong></div><p>Consider a selection of the form<br/>, where<br/>is a relation with<br/>tuples. Assume that the attribute<br/>values for<br/>among the tuples are uniformly distributed in the interval<br/>Which one of the following<br/>options is the best estimate of the number of tuples returned by the given selection query ?<br/>databases<br/>relational-calculus<br/>probability</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3510/gate-it-2007-question-65"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Calculus: GATE IT 2008 | Question: 75</strong></div><p>Consider the following relational schema:<br/>Consider the following tuple relational calculus query.<br/>If a student needs to score more than 35 marks to pass an exam, what does the query return?<br/>A<br/>.<br/>The empty set<br/>B<br/>.<br/>schools with more than<br/>of its students enrolled in some exam or the other<br/>C<br/>.<br/>schools with a pass percentage above<br/>over all exams taken together<br/>D<br/>.<br/>schools with a pass percentage above<br/>over each exam<br/>databases<br/>relational-calculus<br/>Relational Model<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3389/gate-it-2008-question-75"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Relational Model",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Model: GATE CSE 2023 | Question: 6</strong></div><p>Which one of the options given below refers to the degree (or arity) of a relation in relational database<br/>systems?<br/>A<br/>.<br/>Number of attributes of its relation schema.<br/>B<br/>.<br/>Number of tuples stored in the relation.<br/>C<br/>.<br/>Number of entries in the relation.<br/>D<br/>.<br/>Number of distinct domains of its relation schema.<br/>databases<br/>relational-model<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399306/gate-cse-2023-question-6"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Relational Model",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Relational Model: GATE DA 2025 | Question: 46</strong></div><p>Consider the following two relations, named<br/>and<br/>in a database:<br/>Person<br/>(<br/>aadhaar CHAR<br/>(<br/>12<br/>)<br/>PRIMARY KEY<br/>,<br/>name VARCHAR<br/>(<br/>32<br/>));<br/>Customer<br/>(<br/>name VARCHAR<br/>(<br/>32<br/>),<br/>email VARCHAR<br/>(<br/>32<br/>)<br/>PRIMARY KEY<br/>,<br/>phone CHAR<br/>(<br/>10<br/>),<br/>aadhaar CHAR<br/>(<br/>12<br/>),<br/>FOREIGN KEY<br/>(<br/>aadhaar<br/>)<br/>REFERENCES<br/>Person<br/>(<br/>aadhaar<br/>));<br/>Which of the following statements is/are correct?<br/>A<br/>.<br/>is a candidate key in the<br/>relation<br/>B<br/>.<br/>can be<br/>in the<br/>relation<br/>C<br/>.<br/>is a candidate key in the<br/>relation<br/>D<br/>.<br/>can be<br/>in the<br/>relation<br/>gateda-2025<br/>databases<br/>relational-model<br/>multiple-selects<br/>SQL<br/>(58)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/460976/gate-da-2025-question-46"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1988 | Question: 12iii</strong></div><p>Describe the relational algebraic expression giving the relation returned by the following SQL query.<br/>Select<br/>SNAME<br/>from<br/>S<br/>Where<br/>SNOin<br/>(<br/>select<br/>SNO<br/>from<br/>SP<br/>where<br/>PNOin<br/>(<br/>select<br/>PNO<br/>from<br/>P<br/>Where<br/>COLOUR<br/>=<br/>'BLUE'<br/>))<br/>descriptive<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94625/gate-cse-1988-question-12iii"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1988 | Question: 12iv</strong></div><p>Select<br/>SNAME<br/>from<br/>S<br/>Where<br/>SNOin<br/>(<br/>select<br/>SNO<br/>from<br/>SP<br/>where<br/>PNOin<br/>(<br/>select<br/>PNO<br/>from<br/>P<br/>Where<br/>COLOUR<br/>=<br/>'BLUE'<br/>))<br/>What relations are being used in the above SQL query? Given at least two attributes of each of these relations.<br/>descriptive<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/94625/gate-cse-1988-question-12iii"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1990 | Question: 10-a</strong></div><p>Consider the following relational database:<br/>employees (eno, ename, address, basic-salary)<br/>projects (pno, pname, nos-of-staffs-allotted)<br/>working (pno, eno, pjob)<br/>The queries regarding data in the above database are formulated below in SQL. Describe in ENGLISH sentences<br/>the two queries that have been posted:<br/>i<br/>.<br/>SELECT ename<br/>FROM employees<br/>WHERE eno IN<br/>(<br/>SELECT eno<br/>FROM working<br/>GROUP BY eno<br/>HAVING COUNT<br/>(*)=<br/>(<br/>SELECT COUNT<br/>(*)<br/>FROM projects<br/>))<br/>ii<br/>.<br/>SELECT pname<br/>FROM projects<br/>WHERE pno IN<br/>(<br/>SELECT pno<br/>FROM projects<br/>MINUS<br/>SELECT DISTINCT pno<br/>FROM working<br/>);<br/>descriptive<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85686/gate-cse-1990-question-10-a"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1991 | Question: 12,b</strong></div><p>Suppose a database consist of the following relations:<br/>SUPPLIER<br/>(<br/>SCODE<br/>,<br/>SNAME<br/>,<br/>CITY<br/>).<br/>PART<br/>(<br/>PCODE<br/>,<br/>PNAME<br/>,<br/>PDESC<br/>,<br/>CITY<br/>).<br/>PROJECTS<br/>(<br/>PRCODE<br/>,<br/>PRNAME<br/>,<br/>PRCITY<br/>).<br/>SPPR<br/>(<br/>SCODE<br/>,<br/>PCODE<br/>,<br/>PRCODE<br/>,<br/>QTY<br/>).<br/>Write algebraic solution to the following :<br/>i<br/>.<br/>Get SCODE values for suppliers who supply to both projects PR1 and PR2.<br/>ii<br/>.<br/>Get PRCODE values for projects supplied by at least one supplier not in the same city.<br/>sql<br/>databases<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/42998/gate-cse-1991-question-12-b"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1991 | Question: 12-a</strong></div><p>Suppose a database consist of the following relations:<br/>SUPPLIER<br/>(<br/>SCODE<br/>,<br/>SNAME<br/>,<br/>CITY<br/>).<br/>PART<br/>(<br/>PCODE<br/>,<br/>PNAME<br/>,<br/>PDESC<br/>,<br/>CITY<br/>).<br/>PROJECTS<br/>(<br/>PRCODE<br/>,<br/>PRNAME<br/>,<br/>PRCITY<br/>).<br/>SPPR<br/>(<br/>SCODE<br/>,<br/>PCODE<br/>,<br/>PRCODE<br/>,<br/>QTY<br/>).<br/>Write SQL programs corresponding to the following queries:<br/>i<br/>.<br/>Print PCODE values for parts supplied to any project in DEHLI by a supplier in DELHI.<br/>ii<br/>.<br/>Print all triples <CITY, PCODE, CITY> such that a supplier in ﬁrst city supplies the speciﬁed part to a project in<br/>the second city, but do not print the triples in which the two CITY values are same.<br/>databases<br/>sql<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/42998/gate-cse-1991-question-12-b"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1993 | Question: 24</strong></div><p>The following relations are used to store data about students, courses, enrollment of students in courses and<br/>teachers of courses. Attributes for primary key in each relation are marked by<br/>is course number,<br/>is course name,<br/>is teacher number,<br/>is teacher name,<br/>is student<br/>name, etc.)<br/>For the relational database given above, the following functional dependencies hold:<br/>a<br/>.<br/>Is the database in<br/>normal form<br/>?<br/>b<br/>.<br/>If yes, prove that it is in<br/>. If not, normalize the relations so that they are in<br/>(without proving).<br/>databases<br/>sql<br/>descriptive<br/>database-normalization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/203351/gate-cse-1993-question-24"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1998 | Question: 7-a</strong></div><p>Suppose we have a database consisting of the following three relations.<br/>giving the parlors each student visits.<br/>indicating what kind of ice-creams each parlor serves.<br/>indicating what ice-creams each student likes.<br/>(Assume that each student likes at least one ice-cream and frequents at least one parlor)<br/>Express the following in SQL:<br/>Print the students that frequent at least one parlor that serves some ice-cream that they like.<br/>databases<br/>sql<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1721/gate-cse-1998-question-7-a"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1999 | Question: 2.25</strong></div><p>Which of the following is/are correct?<br/>A<br/>.<br/>An SQL query automatically eliminates duplicates<br/>B<br/>.<br/>An SQL query will not work if there are no indexes on the relations<br/>C<br/>.<br/>SQL permits attribute names to be repeated in the same relation<br/>D<br/>.<br/>None of the above<br/>databases<br/>sql<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1721/gate-cse-1998-question-7-a"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1999 | Question: 22-a</strong></div><p>Consider the set of relations<br/>EMP (Employee-no. Dept-no, Employee-name, Salary)<br/>DEPT (Dept-no. Dept-name, Location)<br/>Write an SQL query to:<br/>a<br/>.<br/>Find all employees names who work in departments located at ‘Calcutta’ and whose salary is greater than<br/>Rs.50,000.<br/>b<br/>.<br/>Calculate, for each department number, the number of employees with a salary greater than Rs. 1,00,000.<br/>databases<br/>sql<br/>easy<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1502/gate-cse-1999-question-2-25"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 1999 | Question: 22-b</strong></div><p>Consider the set of relations<br/>EMP (Employee-no. Dept-no, Employee-name, Salary)<br/>DEPT (Dept-no. Dept-name, Location)<br/>Write an SQL query to:<br/>Calculate, for each department number, the number of employees with a salary greater than Rs. 1,00,000<br/>databases<br/>sql<br/>descriptive<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1502/gate-cse-1999-question-2-25"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2000 | Question: 2.25</strong></div><p>Given relations r(w, x) and s(y, z) the result of<br/>select distinct w, x<br/>from r, s</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1721/gate-cse-1998-question-7-a"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2000 | Question: 2.26</strong></div><p>In SQL, relations can contain null values, and comparisons with null values are treated as unknown.<br/>Suppose all comparisons with a null value are treated as false. Which of the following pairs is not<br/>equivalent?<br/>A<br/>.<br/>B<br/>.<br/>and<br/>where<br/>is an integer<br/>C<br/>.<br/>D<br/>.<br/>none of the above<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/673/gate-cse-2000-question-2-26"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2000 | Question: 22</strong></div><p>Consider a bank database with only one relation<br/>transaction (transno, acctno, date, amount)<br/>The amount attribute value is positive for deposits and negative for withdrawals.<br/>a<br/>.<br/>Define an SQL view TP containing the information<br/>(acctno,T1.date,T2.amount)<br/>for every pair of transaction T1,T2 and such that T1 and T2 are transaction on the same account and the date<br/>of T2 is<br/>the date of T1.<br/>b<br/>.<br/>Using only the above view TP, write a query to ﬁnd for each account the minimum  balance it ever reached (not<br/>including the 0 balance when the account is created). Assume there is at most one transaction per day on<br/>each account and each account has at least one transaction since it was created. To simplify your query, break<br/>it up into 2 steps by defining an intermediate view V.<br/>databases<br/>sql<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/673/gate-cse-2000-question-2-26"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2001 | Question: 2.25</strong></div><p>Consider a relation geq which represents \"greater than or equal to\", that is,<br/>geq only if<br/>.<br/>create table geq<br/>(<br/>ib integer<br/>not<br/>null<br/>,<br/>ub integer<br/>not<br/>null<br/>,<br/>primary key ib<br/>,<br/>foreign key<br/>(<br/>ub<br/>)<br/>references geq on<br/>delete<br/>cascade<br/>);<br/>Which of the following is possible if tuple (x,y) is deleted?<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/673/gate-cse-2000-question-2-26"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2001 | Question: 21-b</strong></div><p>Consider a relation examinee (regno, name, score), where regno is the primary key to score is a real</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/743/gate-cse-2001-question-2-25"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2001 | Question: 21-c</strong></div><p>Consider a relation<br/>where regno is the primary key to score is a real<br/>number.<br/>Suppose the relation<br/>speciﬁes the center where an examinee appears. Write an<br/>SQL query to list the centr_code having an examinee of score greater than<br/>databases<br/>sql<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/203573/gate-cse-2001-question-21-c"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2003 | Question: 86</strong></div><p>Consider the set of relations shown below and the SQL query that follows.<br/>Students: (Roll_number, Name, Date_of_birth)<br/>Courses: (Course_number, Course_name, Instructor)<br/>Grades: (Roll_number, Course_number, Grade)<br/>Select<br/>distinct<br/>Name<br/>from<br/>Students<br/>,<br/>Courses<br/>,<br/>Grades<br/>where<br/>Students<br/>.<br/>Roll_number<br/>=<br/>Grades<br/>.<br/>Roll_number<br/>and<br/>Courses<br/>.<br/>Instructor<br/>=<br/>'Korth'<br/>and<br/>Courses<br/>.<br/>Course_number<br/>=<br/>Grades<br/>.<br/>Course_number<br/>and<br/>Grades<br/>.<br/>Grade<br/>=<br/>'A'<br/>Which of the following sets is computed by the above query?<br/>A<br/>.<br/>Names of students who have got an A grade in all courses taught by Korth<br/>B<br/>.<br/>Names of students who have got an A grade in all courses<br/>C<br/>.<br/>Names of students who have got an A grade in at least one of the courses taught by Korth<br/>D<br/>.<br/>None of the above<br/>databases<br/>sql<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/969/gate-cse-2003-question-86"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2004 | Question: 53</strong></div><p>The employee information in a company is stored in the relation<br/>Employee (name, sex, salary, deptName)<br/>Consider the following SQL query<br/>Select<br/>deptName<br/>From<br/>Employee<br/>Where<br/>sex<br/>=<br/>‘<br/>M<br/>’<br/>Group<br/>by<br/>deptName<br/>Having<br/>avg<br/>(<br/>salary<br/>)<br/>><br/>(<br/>select<br/>avg<br/>(<br/>salary<br/>)<br/>from<br/>Employee<br/>)<br/>It returns the names of the department in which<br/>A<br/>.<br/>the average salary is more than the average salary in the company<br/>B<br/>.<br/>the average salary of male employees is more than the average salary of all male employees in the company<br/>C<br/>.<br/>the average salary of male employees is more than the average salary of employees in same the department<br/>D<br/>.<br/>the average salary of male employees is more than the average salary in the company</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1049/gate-cse-2004-question-53"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2005 | Question: 77,</strong></div><p>ISRO2016-55<br/>The relation<br/>book<br/>(<br/>title<br/>, price) contains the titles and prices of diﬀerent books. Assuming that no two books<br/>have the same price, what does the following SQL query list?<br/>select<br/>title<br/>from<br/>book<br/>as<br/>B<br/>where<br/>(<br/>select<br/>count<br/>(*)<br/>from<br/>book<br/>as<br/>T<br/>where<br/>T<br/>.<br/>price<br/>><br/>B<br/>.<br/>price<br/>)<br/><<br/>5<br/>A<br/>.<br/>Titles of the four most expensive books<br/>B<br/>.<br/>Title of the fifth most inexpensive book<br/>C<br/>.<br/>Title of the fifth most expensive book<br/>D<br/>.<br/>Titles of the five most expensive books<br/>databases<br/>sql<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1400/gate-cse-2005-question-77-isro2016-55"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2006 | Question: 67</strong></div><p>Consider the relation account (customer, balance) where the customer is a primary key and there are no null<br/>values. We would like to rank customers according to decreasing balance. The customer with the largest<br/>balance gets rank<br/>Ties are not broke but ranks are skipped: if exactly two customers have the largest balance<br/>they each get rank<br/>and rank<br/>is not assigned.<br/>select<br/>A<br/>.<br/>customer<br/>,<br/>count<br/>(<br/>B<br/>.<br/>customer<br/>)<br/>from<br/>account A<br/>,<br/>account B<br/>where<br/>A<br/>.<br/>balance<br/><=<br/>B<br/>.<br/>balance<br/>group<br/>by<br/>A<br/>.<br/>customer<br/>select<br/>A<br/>.<br/>customer<br/>,<br/>1<br/>+<br/>count<br/>(<br/>B<br/>.<br/>customer<br/>)<br/>from<br/>account A<br/>,<br/>account B<br/>where<br/>A<br/>.<br/>balance<br/><<br/>B<br/>.<br/>balance<br/>group<br/>by<br/>A<br/>.<br/>customer<br/>Consider these statements about Query<br/>and Query<br/>1<br/>.<br/>Query<br/>will produce the same row set as Query<br/>for some but not all databases.<br/>2<br/>.<br/>Both Query<br/>and Query<br/>are a correct implementation of the specification<br/>3<br/>.<br/>Query<br/>is a correct implementation of the specification but Query<br/>is not<br/>4<br/>.<br/>Neither Query<br/>nor Query<br/>is a correct implementation of the specification<br/>5<br/>.<br/>Assigning rank with a pure relational query takes less time than scanning in decreasing balance order<br/>assigning ranks using ODBC.<br/>Which two of the above statements are correct?<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1845/gate-cse-2006-question-67"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2006 | Question: 68</strong></div><p>Consider the relation enrolled (student, course) in which (student, course) is the primary key, and the relation<br/>paid (student, amount) where student is the primary key. Assume no null values and no foreign keys or<br/>integrity constraints.<br/>Given the following four queries:<br/>Query1:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1845/gate-cse-2006-question-67"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2006 | Question: 69</strong></div><p>Consider the relation enrolled (student, course) in which (student, course) is the primary key, and the relation<br/>paid (student, amount) where student is the primary key. Assume no null values and no foreign keys or<br/>integrity constraints. Assume that amounts<br/>and<br/>were each paid by<br/>of the<br/>students. Consider these query plans (Plan 1 on left, Plan 2 on right) to<br/>“list all courses taken by students who have<br/>paid more than x”<br/>A disk seek takes<br/>disk data transfer bandwidth is<br/>MB/s and checking a tuple to see if amount is greater<br/>than<br/>takes<br/>Which of the following statements is correct?<br/>A<br/>.<br/>Plan 1 and Plan 2 will not output identical row sets for all databases<br/>B<br/>.<br/>A course may be listed more than once in the output of Plan 1 for some databases<br/>C<br/>.<br/>For<br/>Plan 1 executes faster than Plan 2 for all databases<br/>D<br/>.<br/>For<br/>Plan I executes slower than Plan 2 for all databases<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1847/gate-cse-2006-question-69"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2007 | Question: 61</strong></div><p>Consider the table<br/>employee<br/>(empId, name, department, salary) and the two queries<br/>below.<br/>Assuming that department<br/>has more than one employee, and we want to ﬁnd the employees who get<br/>µ</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1259/gate-cse-2007-question-61"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2009 | Question: 55</strong></div><p>Consider the following relational schema:<br/>Consider the following relational query on the above database:<br/>SELECT S.sname<br/>FROM    Suppliers S<br/>WHERE S.sid NOT IN (SELECT C.sid<br/>FROM Catalog C<br/>WHERE C.pid NOT IN (SELECT P.pid<br/>FROM Parts P<br/>WHERE P.color<>'blue'))<br/>Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct<br/>interpretation of the above query?<br/>A<br/>.<br/>Find the names of all suppliers who have supplied a non-blue part.<br/>B<br/>.<br/>Find the names of all suppliers who have not supplied a non-blue part.<br/>C<br/>.<br/>Find the names of all suppliers who have supplied only non-blue part.<br/>D<br/>.<br/>Find the names of all suppliers who have not supplied only blue parts.<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/1339/gate-cse-2009-question-55"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2009 | Question: 56</strong></div><p>Consider the following relational schema:<br/>Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and<br/>(sname, city) forms a candidate key. No other functional dependencies are implied other than those implied by<br/>primary and candidate keys. Which one of the following is<br/>about the above schema?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1339/gate-cse-2009-question-55"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2010 | Question: 19</strong></div><p>A relational schema for a train reservation database is given below.<br/>passenger(pid, pname, age)<br/>reservation(pid, class, tid)<br/>What<br/>pids<br/>are returned by the following SQL query for the above instance of the tables?<br/>SELECT pid<br/>FROM<br/>Reservation<br/>WHERE<br/>class<br/>=<br/>'AC'<br/>AND<br/>EXISTS<br/>(<br/>SELECT<br/>*<br/>FROM<br/>Passenger<br/>WHERE age<br/>><br/>65<br/>AND<br/>Passenger<br/>.<br/>pid<br/>=<br/>Reservation<br/>.<br/>pid<br/>)<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2194/gate-cse-2010-question-19"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2011 | Question: 32</strong></div><p>Consider a database table T containing two columns<br/>and<br/>each of type<br/>. After the creation of the<br/>table, one record<br/>is inserted in the table.<br/>Let<br/>and<br/>denote the respective maximum values of<br/>and<br/>among all records in the table at any point in<br/>time. Using<br/>and<br/>, new records are inserted in the table<br/>times with<br/>and<br/>values being<br/>respectively. It may be noted that each time after the insertion, values of<br/>and<br/>change.<br/>What will be the output of the following SQL query after the steps mentioned above are carried out?<br/>SELECT Y FROM T WHERE X<br/>=<br/>7<br/>;<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2134/gate-cse-2011-question-32"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2011 | Question: 46</strong></div><p>Database table by name<br/>is given below.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2134/gate-cse-2011-question-32"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2012 | Question: 15</strong></div><p>Which of the following statements are<br/>TRUE<br/>about an SQL query?<br/>P : An SQL query can contain a HAVING clause even if it does not have a GROUP BY clause<br/>Q : An SQL query can contain a HAVING clause only if it has a GROUP BY clause<br/>R : All attributes used in the GROUP BY clause must appear in the SELECT clause<br/>S : Not all attributes used in the GROUP BY clause need to appear in the SELECT clause<br/>databases<br/>easy<br/>sql<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/47/gate-cse-2012-question-15"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2012 | Question: 51</strong></div><p>Consider the following relations<br/>and<br/>How many tuples does the result of the following SQL query contain?<br/>SELECT A<br/>.<br/>Id<br/>FROM A<br/>WHERE A<br/>.<br/>Age<br/>><br/>ALL<br/>(<br/>SELECT B<br/>.<br/>Age<br/>FROM B<br/>WHERE B<br/>.<br/>Name<br/>=<br/>‘<br/>Arun<br/>’)<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/47/gate-cse-2012-question-15"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2014 | Set 1 | Question: 22</strong></div><p>Given the following statements:<br/>S1<br/>: A foreign key declaration can always be replaced by an equivalent check  assertion in SQL.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/47/gate-cse-2012-question-15"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2014 | Set 1 | Question: 54</strong></div><p>Given the following schema:<br/>employees(emp-id, first-name, last-name, hire-date, dept-id, salary)<br/>departments(dept-id, dept-name, manager-id, location-id)<br/>You want to display the last names and hire dates of all latest hires in their respective departments in the location<br/>You issue the following query:<br/>SQL<br/>><br/>SELECT<br/>last<br/>-<br/>name<br/>,<br/>hire<br/>-<br/>date<br/>FROM employees<br/>WHERE<br/>(<br/>dept<br/>-<br/>id<br/>,<br/>hire<br/>-<br/>date<br/>)<br/>IN<br/>(<br/>SELECT dept<br/>-<br/>id<br/>,<br/>MAX<br/>(<br/>hire<br/>-<br/>date<br/>)<br/>FROM employees JOIN departments USING<br/>(<br/>dept<br/>-<br/>id<br/>)<br/>WHERE location<br/>-<br/>id<br/>=<br/>1700<br/>GROUP BY dept<br/>-<br/>id<br/>);<br/>What is the outcome?<br/>A<br/>.<br/>It executes but does not give the correct result<br/>B<br/>.<br/>It executes and gives the correct result.<br/>C<br/>.<br/>It generates an error because of pairwise comparison.<br/>D<br/>.<br/>It generates an error because of the GROUP BY clause cannot be used with table joins in a sub-query.<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1934/gate-cse-2014-set-1-question-54"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2014 | Set 2 | Question: 54</strong></div><p>SQL allows duplicate tuples in relations, and correspondingly deﬁnes the multiplicity of tuples in the result of<br/>joins. Which one of the following queries always gives the same answer as the nested query shown below:<br/>select<br/>*<br/>from<br/>R<br/>where<br/>a<br/>in<br/>(<br/>select<br/>S<br/>.<br/>a<br/>from<br/>S<br/>)<br/>A<br/>.<br/>select R.* from R, S where R.a=S.a<br/>B<br/>.<br/>select distinct R.* from R,S where R.a=S.a<br/>C<br/>.<br/>select R.* from R,(select distinct a from S) as S1 where R.a=S1.a<br/>D<br/>.<br/>select R.* from R,S where R.a=S.a and is unique R<br/>databases<br/>sql</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1934/gate-cse-2014-set-1-question-54"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "SQL",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>SQL: GATE CSE 2014 | Set 3 | Question: 54</strong></div><p>Consider the following relational schema:<br/>employee (empId,empName,empDept)<br/>customer (custId,custName,salesRepId,rating)<br/>salesRepId<br/>is a foreign key referring to<br/>empId<br/>of the employee relation. Assume that each employee makes a sale<br/>to at least one customer. What does the following query return?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1934/gate-cse-2014-set-1-question-54"
+    }
+  ]
+}

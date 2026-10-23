@@ -1,0 +1,1330 @@
+{
+  "id": "PYQ_Databases_DBMS_P1",
+  "fileName": "PYQ_Databases_DBMS_P1.json",
+  "title": "GATE Official PYQs | Databases (DBMS) Part 1",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 42,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Armstrong Axioms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Armstrong Axioms: GATE CSE 2026 | Set 2 | Question: 32</strong></div><p>In the context of schema normalization in relational DBMS, consider a set<br/>of functional dependencies. The<br/>set of all functional dependencies implied by<br/>is called the closure of<br/>. To compute the closure of<br/>,<br/>Armstrong's Axioms can be applied. Consider<br/>, and<br/>as sets of attributes over a relational schema. The<br/>three rules of Armstrong's Axioms are described as follows.<br/>Reflexivity: If<br/>, then<br/>Augmentation: If<br/>, then<br/>for any Z<br/>Transitivity: If<br/>and<br/>, then<br/>The additional rule of Union is defined as follows.<br/>Union: If<br/>and<br/>, then<br/>It can be proved that the additional rule of Union is also implied by the three rules of Armstrong's Axioms. Listed<br/>below are four combinations of these three rules. Which one of these combinations is both necessary and suﬃcient<br/>for the proof?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523114/gate-cse-2026-set-2-question-32"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1989 | Question: 12a</strong></div><p>The below ﬁgure shows a<br/>tree where only key values are indicated in the records. Each block can hold<br/>upto three records. A record with a key value<br/>is inserted into the<br/>tree. Obtain the modiﬁed<br/>tree<br/>after insertion.<br/>descriptive<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91199/gate-cse-1989-question-12a"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1994 | Question: 14a</strong></div><p>Consider<br/>- tree of order<br/>shown in ﬁgure. (A<br/>- tree of order<br/>contains between<br/>and<br/>keys in<br/>each node)<br/>Draw the resulting<br/>- tree after<br/>is inserted in the figure below.<br/>databases<br/>b-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2510/gate-cse-1994-question-14a"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1994 | Question: 14b</strong></div><p>For a<br/>- tree of order<br/>with<br/>leaf nodes, the number of nodes accessed during a search is<br/>.<br/>databases<br/>b-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2510/gate-cse-1994-question-14a"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1997 | Question: 19</strong></div><p>A<br/>- tree of order<br/>is a tree in which each internal node has between<br/>and<br/>key values. An internal<br/>node with<br/>key values has<br/>children. The root (if it is an internal node) has between<br/>and<br/>key<br/>values. The distance of a node from the root is the length of the path from the root to the node. All leaves are at the<br/>same distance from the root. The height of the tree is the distance of a leaf from the root.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91199/gate-cse-1989-question-12a"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1999 | Question: 1.25</strong></div><p>Which of the following is correct?<br/>A<br/>.<br/>B-trees are for storing data on disk and B<br/>trees are for main memory.<br/>B<br/>.<br/>Range queries are faster on B<br/>trees.<br/>C<br/>.<br/>B-trees are for primary indexes and B<br/>trees are for secondary indexes.<br/>D<br/>.<br/>The height of a B<br/>tree is independent of the number of records.<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1478/gate-cse-1999-question-1-25"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 1999 | Question: 21</strong></div><p>Consider a B-tree with degree<br/>, that is, the number of children,<br/>, of any internal node (except the root) is<br/>such that<br/>. Derive the maximum and minimum number of records in the leaf nodes for<br/>such a B-tree with height<br/>Assume that the root of a tree is at height<br/>databases<br/>b-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1478/gate-cse-1999-question-1-25"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2000 | Question: 1.22, UGCNET-June2012-II: 11</strong></div><p>B<br/>-trees are preferred to binary trees in databases because<br/>A<br/>.<br/>Disk capacities are greater than memory capacities<br/>B<br/>.<br/>Disk access is much slower than memory access<br/>C<br/>.<br/>Disk data transfer rates are much less than memory data transfer rates<br/>D<br/>.<br/>Disks are more reliable than memory<br/>databases<br/>b-tree<br/>ugcnetcse-june2012-paper2</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1478/gate-cse-1999-question-1-25"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2000 | Question: 21</strong></div><p>(a) Suppose you are given an empty<br/>tree where each node (leaf and internal) can store up to<br/>key<br/>values. Suppose values<br/>are inserted, in order, into the tree. Show the tree pictorially<br/>i<br/>.<br/>after<br/>insertions, and<br/>ii<br/>.<br/>after all<br/>insertions<br/>Do NOT show intermediate stages.<br/>(b) Suppose instead of splitting a node when it is full, we try to move a value to the left sibling. If there is no<br/>left sibling, or the left sibling is full, we split the node. Show the tree after values<br/>have been inserted.<br/>Assume, as in (a) that each node can hold up to<br/>keys.<br/>(c) In general, suppose a<br/>tree node can hold a maximum of<br/>keys,and you insert a long  sequence of keys in<br/>increasing order. Then what approximately is the average number of keys in each leaf level node.<br/>i<br/>.<br/>in the normal case, and<br/>ii<br/>.<br/>with the insertion as in (b).</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1520/gate-cse-1999-question-21"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2001 | Question: 22</strong></div><p>We wish to construct a<br/>tree with fan-out (the number of pointers per node) equal to<br/>for the following<br/>set of key values:<br/>Assume that the tree is initially empty and the values are added in the order given.<br/>a<br/>.<br/>Show the tree after insertion of<br/>, after insertion of<br/>, and after insertion of<br/>. Intermediate trees need not be<br/>shown.<br/>b<br/>.<br/>The key values<br/>and<br/>are now deleted from the tree in that order show the tree after each deletion.<br/>databases<br/>b-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/763/gate-cse-2001-question-22"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2002 | Question: 17</strong></div><p>a<br/>.<br/>The following table refers to search items for a key in<br/>-trees and<br/>trees.<br/>A successful search means that the key exists in the database and unsuccessful means that it is not present in<br/>the database. Each of the entries<br/>and<br/>can have a value of either Constant or Variable.<br/>Constant means that the search time is the same, independent of the speciﬁc key value, where variable means<br/>that it is dependent on the specific key value chosen for the search.<br/>Give the correct values for the entries<br/>and<br/>(for example<br/>b<br/>.<br/>Relation<br/>has the following view defined on it:<br/>CREATE VIEW V AS<br/>(<br/>SELECT R1<br/>.<br/>A<br/>,<br/>R2<br/>.<br/>B<br/>FROM R AS R1<br/>,<br/>R<br/>as<br/>R2<br/>WHERE R1<br/>.<br/>B<br/>=<br/>R2<br/>.<br/>A<br/>)<br/>i<br/>.<br/>The current contents of relation<br/>are shown below. What are the contents of the view<br/>?<br/>ii<br/>.<br/>The tuples<br/>and<br/>are now inserted into<br/>What are the<br/>additional<br/>tuples that are inserted in<br/>?<br/>databases<br/>b-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/870/gate-cse-2002-question-17"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2002 | Question: 2.23, UGCNET-June2012-II: 26</strong></div><p>A<br/>- tree index is to be built on the<br/>Name<br/>attribute of the relation<br/>STUDENT.<br/>Assume that all the student<br/>names are of length<br/>bytes, disk blocks are of size<br/>bytes, and index pointers are of size<br/>bytes. Given<br/>the scenario, what would be the best choice of the degree (i.e. number of pointers per node) of the<br/>- tree?<br/>databases<br/>b-tree<br/>ugcnetcse-june2012-paper2</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2003 | Question: 65</strong></div><p>Consider the following<br/>tree (i.e., B-tree with a minimum degree of two) in which each data item is<br/>a letter. The usual alphabetical ordering of letters is used in constructing the tree.<br/>What is the result of inserting<br/>in the above tree?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/952/gate-cse-2003-question-65"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2004 | Question: 52</strong></div><p>The order of an internal node in a<br/>tree index is the maximum number of children it can have. Suppose<br/>that a child pointer takes<br/>bytes, the search ﬁeld value takes<br/>bytes, and the block size is<br/>bytes.<br/>What is the order of the internal node?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/952/gate-cse-2003-question-65"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2005 | Question: 28</strong></div><p>Which of the following is a key factor for preferring<br/>-trees to binary search trees for indexing database<br/>relations?<br/>A<br/>.<br/>Database relations have a large number of records<br/>B<br/>.<br/>Database relations are sorted on the primary key<br/>C<br/>.<br/>-trees require less memory than binary search trees<br/>D<br/>.<br/>Data transfer from disks is in blocks<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1364/gate-cse-2005-question-28"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2007 | Question: 63, ISRO2016-59</strong></div><p>The order of a leaf node in a<br/>- tree is the maximum number of (value, data record pointer) pairs it can<br/>hold. Given that the block size is<br/>, data record pointer is<br/>long, the value ﬁeld is<br/>long and a block pointer is<br/>long, what is the order of the leaf node?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2008 | Question: 41</strong></div><p>A B-tree of order<br/>is built from scratch by<br/>successive insertions. What is the maximum number of node<br/>splitting operations that may take place?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/453/gate-cse-2008-question-41"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2009 | Question: 44</strong></div><p>The following key values are inserted into a<br/>- tree in which order of the internal nodes is<br/>, and that<br/>of the leaf nodes is<br/>, in the sequence given below. The order of internal nodes is the maximum number of<br/>tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in<br/>it. The<br/>- tree is initially empty<br/>,<br/>,<br/>,<br/>,<br/>,<br/>,<br/>The maximum number of times leaf nodes would get split up as a result of these insertions is<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1330/gate-cse-2009-question-44"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2010 | Question: 18</strong></div><p>Consider a<br/>-tree in which the maximum number of keys in a node is<br/>. What is the minimum number of<br/>keys in any non-root node?<br/>databases<br/>b-tree<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2191/gate-cse-2010-question-18"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2015 | Set 2 | Question: 6</strong></div><p>With reference to the<br/>tree index of order<br/>shown below, the minimum number of nodes (including the<br/>Root node) that must be fetched in order to satisfy the following query. \"Get all records with a search key<br/>greater than or equal to<br/>and less than<br/>\" is ______.<br/>databases<br/>b-tree</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/453/gate-cse-2008-question-41"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2015 | Set 3 | Question: 46</strong></div><p>Consider a<br/>tree in which the search key is<br/>long, block size is<br/>, record pointer is<br/>long and the block pointer is<br/>long. The maximum number of keys that can be accommodated</p></div>",
+      "options": [],
+      "correctAnswer": "50",
+      "discussUrl": "https://gateoverflow.in/453/gate-cse-2008-question-41"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2016 | Set 2 | Question: 21</strong></div><p>B+ Trees are considered BALANCED because.<br/>A<br/>.<br/>The lengths of the paths from the root to all leaf nodes are all equal.<br/>B<br/>.<br/>The lengths of the paths from the root to all leaf nodes differ from each other by at most<br/>.<br/>C<br/>.<br/>The number of children of any two non-leaf sibling nodes differ by at most<br/>.<br/>D<br/>.<br/>The number of records in any two leaf nodes differ by at most<br/>.<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2017 | Set 2 | Question: 49</strong></div><p>In a<br/>Tree , if the search-key value is<br/>bytes long , the block size is<br/>bytes and the pointer size is<br/>, then the maximum order of the<br/>Tree is ____<br/>databases<br/>b-tree</p></div>",
+      "options": [],
+      "correctAnswer": "52",
+      "discussUrl": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2019 | Question: 14</strong></div><p>Which one of the following statements is NOT correct about the<br/>tree data structure used for creating an<br/>index of a relational database table?<br/>A<br/>.<br/>Tree is a height-balanced tree<br/>B<br/>.<br/>Non-leaf nodes have pointers to data records<br/>C<br/>.<br/>Key values in each node are kept in sorted order<br/>D<br/>.<br/>Each leaf node has a pointer to the next leaf node<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302834/gate-cse-2019-question-14"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2024 | Set 1 | Question: 11</strong></div><p>In a<br/>tree, the requirement of at least half-full<br/>node occupancy is relaxed for which one of the<br/>following cases?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2025 | Set 1 | Question: 11</strong></div><p>Consider the following<br/>tree with<br/>nodes, in which a node can store at most<br/>key values The value<br/>is<br/>now inserted in the<br/>tree. Which of the following options(s) is/are CORRECT?<br/>A<br/>.<br/>None of the nodes will split.<br/>B<br/>.<br/>At least one node will split and redistribute.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE CSE 2025 | Set 2 | Question: 47</strong></div><p>In a<br/>- tree where each node can hold at most four key values, a root to leaf path consists of the following<br/>nodes:<br/>The<br/>-marked keys signify that these are data entries in a leaf.<br/>Assume that a pointer between keys<br/>and<br/>points to a subtree containing keys in<br/>, and that when a leaf<br/>is created, the smallest key in it is copied up into its parent.<br/>A record with key value<br/>is inserted into the<br/>- tree.<br/>The smallest key value in the parent of the leaf that contains<br/>is __________. (Answer in integer)<br/>databases<br/>b-tree</p></div>",
+      "options": [],
+      "correctAnswer": "33:33",
+      "discussUrl": "https://gateoverflow.in/460846/gate-cse-2025-set-2-question-47"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE DA 2026 | Question: 31</strong></div><p>Consider a B+ Tree where the maximum number of key values in each leaf node is<br/>and the maximum<br/>number of pointers in each non-leaf node is<br/>. Let the content of the B+ Tree be as shown in the figure.<br/>Which of the following options denotes the key value(s) stored in the root node after inserting a key value<br/>in the<br/>given B+ Tree?<br/>gateda-2026<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523184/gate-da-2026-question-31"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE IT 2004 | Question: 79</strong></div><p>Consider a table<br/>in a relational database with a key ﬁeld<br/>. A<br/>-tree of order<br/>is used as an access<br/>structure on<br/>, where<br/>denotes the maximum number of tree pointers in a B-tree index node. Assume that<br/>is<br/>long; disk block size is<br/>; each data pointer P<br/>D<br/>is<br/>bytes long and each block pointer P<br/>B<br/>is<br/>bytes long. In order for each<br/>-tree node to fit in a single disk block, the maximum value of<br/>is<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3723/gate-it-2004-question-79"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE IT 2005 | Question: 23, ISRO2017-67</strong></div><p>A B-Tree used as an index for a large database table has four levels including the root node. If a new key is<br/>inserted in this index, then the maximum number of nodes that could be newly created in the process are<br/>databases<br/>b-tree<br/>isro2017</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE IT 2006 | Question: 61</strong></div><p>In a database ﬁle structure, the search key ﬁeld is<br/>long, the block size is<br/>, a record pointer<br/>i s<br/>and a block pointer is<br/>. The largest possible order of a non-leaf node in a<br/>tree<br/>implementing this file structure is<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3605/gate-it-2006-question-61"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE IT 2007 | Question: 84</strong></div><p>Consider the<br/>tree in the adjoining figure, where each node has at most two keys and three links.<br/>Keys<br/>and then<br/>are inserted into this tree in that order. Exactly how many of the following nodes<br/>(disregarding the links) will be present in the tree after the two insertions?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3536/gate-it-2007-question-84"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "B Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>B Tree: GATE IT 2007 | Question: 85</strong></div><p>Consider the<br/>tree in the adjoining figure, where each node has at most two keys and three links.<br/>Keys<br/>and then<br/>are inserted into this tree in that order. Now the key<br/>is deleted from the<br/>tree<br/>resulting after the two insertions made earlier. Consider the following statements about the<br/>tree resulting after<br/>this deletion.<br/>i<br/>.<br/>The height of the tree remains the same.<br/>ii<br/>.<br/>The node<br/>(disregarding the links) is present in the tree.<br/>iii<br/>.<br/>The root node remains unchanged (disregarding the links).<br/>Which one of the following options is true?<br/>databases<br/>b-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3536/gate-it-2007-question-84"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 1994 | Question: 3.7</strong></div><p>An instance of a relational scheme<br/>has distinct values for attribute<br/>. Can you conclude that<br/>is a candidate key for<br/>databases<br/>easy<br/>database-normalization<br/>candidate-key<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2493/gate-cse-1994-question-3-7"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 2005 | Question: 78</strong></div><p>Consider a relation scheme<br/>on which the following functional dependencies hold:<br/>{<br/>,<br/>,<br/>,<br/>}. What are the candidate keys R?<br/>databases<br/>candidate-key<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1401/gate-cse-2005-question-78"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 2011 | Question: 12</strong></div><p>Consider a relational table with a single record for each registered student with the following attributes:<br/>1<br/>.<br/>Unique registration number for each registered student<br/>2<br/>.<br/>Unique identity number, unique at the national level for each citizen<br/>3<br/>.<br/>Unique account number at the bank. A student can have multiple accounts or joint<br/>accounts. This attribute stores the primary account number.<br/>4<br/>.<br/>Name of the student<br/>5<br/>.<br/>Room number of the hostel<br/>Which of the following options is<br/>INCORRECT<br/>?<br/>A<br/>.<br/>is a candidate key<br/>B<br/>.<br/>can be a primary key<br/>C<br/>.<br/>is a candidate key if all students are from the same country<br/>D<br/>.<br/>If<br/>is a super key such that<br/>is<br/>then<br/>is also a superkey<br/>databases<br/>candidate-key</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2114/gate-cse-2011-question-12"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 2014 | Set 2 | Question: 21</strong></div><p>The maximum number of superkeys for the relation schema<br/>with<br/>as the key is _____.<br/>databases<br/>easy<br/>candidate-key</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/test/2166"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 2014 | Set 2 | Question: 22</strong></div><p>Given an instance of the STUDENTS relation as shown as below</p></div>",
+      "options": [],
+      "correctAnswer": "19",
+      "discussUrl": "https://gateoverflow.in/test/2166"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE CSE 2014 | Set 3 | Question: 22</strong></div><p>A<br/>prime attribute<br/>of a relation scheme<br/>is an attribute that appears<br/>databases<br/>easy<br/>candidate-key</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2056/gate-cse-2014-set-3-question-22"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Candidate Key",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Candidate Key: GATE DA 2026 | Question: 7</strong></div><p>L e t<br/>be a relational schema with functional dependency set<br/>.<br/>Which of the following statements is correct?<br/>A<br/>.<br/>and<br/>are the only candidate keys of<br/>.<br/>B<br/>.<br/>and<br/>are the only candidate keys of<br/>.<br/>C<br/>.<br/>and<br/>are the only candidate keys of<br/>.<br/>D<br/>.<br/>and<br/>are the only candidate keys of<br/>.<br/>gateda-2026<br/>databases<br/>functional-dependency<br/>candidate-key<br/>Conflict Serializable<br/>(12)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523208/gate-da-2026-question-7"
+    }
+  ]
+}

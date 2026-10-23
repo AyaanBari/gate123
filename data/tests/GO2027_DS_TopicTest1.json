@@ -1,0 +1,292 @@
+{
+  "id": "GO2027_DS_TopicTest1",
+  "fileName": "GO2027_DS_TopicTest1.json",
+  "title": "GO Classes CS 2027 | Data Structures | Trees & Heaps",
+  "subject": "Data Structures",
+  "testType": "Topic Test",
+  "series": "GO Test Series",
+  "durationMinutes": 45,
+  "totalQuestions": 10,
+  "totalMarks": 15,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Binary Search Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Binary Search Trees</strong></div>\n<p>The postorder traversal of a Binary Search Tree (BST) is: $2, 4, 3, 7, 9, 8, 5$. What is the preorder traversal of this BST?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In postorder (Left, Right, Root), the last element $5$ is the root. In BST, elements $< 5$ ($\\{2, 4, 3\\}$) are in left subtree and $> 5$ ($\\{7, 9, 8\\}$) are in right subtree. Left subtree root is 3, with left child 2 and right child 4. Right subtree root is 8, with left child 7 and right child 9. Preorder (Root, Left, Right) is $5, 3, 2, 4, 8, 7, 9$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$5, 3, 2, 4, 8, 7, 9$</span>",
+          "textHtml": "<span>$5, 3, 2, 4, 8, 7, 9$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$5, 8, 9, 7, 3, 4, 2$</span>",
+          "textHtml": "<span>$5, 8, 9, 7, 3, 4, 2$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$2, 3, 4, 5, 7, 8, 9$</span>",
+          "textHtml": "<span>$2, 3, 4, 5, 7, 8, 9$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$5, 2, 3, 4, 7, 8, 9$</span>",
+          "textHtml": "<span>$5, 2, 3, 4, 7, 8, 9$</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Binary Heaps",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Binary Heaps</strong></div>\n<p>A complete binary min-heap contains 100 distinct elements. If the root is at height 0, what is the maximum height of any leaf node in this heap?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Height of a complete binary tree with $n$ nodes is $\\lfloor \\log_2 n \\rfloor$. For $n = 100$, $2^6 = 64 \\le 100 < 2^7 = 128$. Hence the tree has height $\\lfloor \\log_2 100 \\rfloor = 6$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Hash Tables",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Hash Tables</strong></div>\n<p>Which of the following statements is/are <strong>TRUE</strong> regarding open addressing in hash tables?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    <b>A is TRUE:</b> Linear probing creates long contiguous runs of occupied slots.<br/><b>B is FALSE:</b> Quadratic probing eliminates primary clustering but still suffers from secondary clustering (keys hashing to same initial slot follow identical probe paths).<br/><b>C is TRUE:</b> Double hashing uses two independent hash functions to disperse keys.<br/><b>D is TRUE:</b> Because all keys reside within the array table itself, number of keys cannot exceed table capacity.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Linear probing suffers from primary clustering.</span>",
+          "textHtml": "<span>Linear probing suffers from primary clustering.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Quadratic probing completely eliminates both primary and secondary clustering.</span>",
+          "textHtml": "<span>Quadratic probing completely eliminates both primary and secondary clustering.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Double hashing uses probe sequence $h(k, i) = (h_1(k) + i \\cdot h_2(k)) \\pmod m$ and avoids primary clustering.</span>",
+          "textHtml": "<span>Double hashing uses probe sequence $h(k, i) = (h_1(k) + i \\cdot h_2(k)) \\pmod m$ and avoids primary clustering.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>In open addressing, the load factor $\\alpha$ can never exceed 1.0.</span>",
+          "textHtml": "<span>In open addressing, the load factor $\\alpha$ can never exceed 1.0.</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Stacks and Queues",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Stacks and Queues</strong></div>\n<p>A queue is implemented using two stacks $S_1$ and $S_2$. Enqueue pushes onto $S_1$. Dequeue pops from $S_2$; if $S_2$ is empty, all elements from $S_1$ are popped and pushed to $S_2$, then $S_2$ is popped. What is the amortized cost per operation over a sequence of $n$ enqueue and dequeue operations?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Every element is pushed to $S_1$ once, popped from $S_1$ once, pushed to $S_2$ once, and popped from $S_2$ once. That is at most 4 stack operations per element over its entire lifetime in the queue. Total cost for $n$ operations is $O(n)$, giving amortized cost $O(1)$ per operation.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$O(1)$</span>",
+          "textHtml": "<span>$O(1)$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$O(\\log n)$</span>",
+          "textHtml": "<span>$O(\\log n)$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$O(n)$</span>",
+          "textHtml": "<span>$O(n)$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$O(n^2)$</span>",
+          "textHtml": "<span>$O(n^2)$</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "AVL Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | AVL Trees</strong></div>\n<p>What is the minimum number of nodes in an AVL tree of height 5, where a tree with a single node has height 0?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Let $N(h)$ be the minimum number of nodes in an AVL tree of height $h$. $N(h) = N(h-1) + N(h-2) + 1$ with $N(0) = 1, N(1) = 2$.<br/>$N(2) = 2 + 1 + 1 = 4$.<br/>$N(3) = 4 + 2 + 1 = 7$.<br/>$N(4) = 7 + 4 + 1 = 12$.<br/>$N(5) = 12 + 7 + 1 = 20$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "20",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Binary Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Binary Trees</strong></div>\n<p>A strictly binary tree (every non-leaf node has exactly 2 children) has 45 internal nodes. What is the number of leaf nodes in this tree?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In any strictly binary tree, the number of leaf nodes $L$ and internal nodes $I$ satisfy $L = I + 1$. Here $I = 45 \\implies L = 45 + 1 = 46$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "46",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Red-Black Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Red-Black Trees</strong></div>\n<p>Which of the following is an <strong>INVALID</strong> property of a Red-Black Tree with $n$ nodes?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    By definition of Red-Black trees (CLRS), property 2 strictly requires that the root node must be BLACK. If the root were allowed to be red, it violates the standard invariant.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Every red node has two black children</span>",
+          "textHtml": "<span>Every red node has two black children</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Every simple path from a node to any of its descendant leaves contains the same number of black nodes</span>",
+          "textHtml": "<span>Every simple path from a node to any of its descendant leaves contains the same number of black nodes</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>The root can be either red or black without violating the tree definition</span>",
+          "textHtml": "<span>The root can be either red or black without violating the tree definition</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>The height of a Red-Black tree with $n$ internal nodes is at most $2 \\log_2(n+1)$</span>",
+          "textHtml": "<span>The height of a Red-Black tree with $n$ internal nodes is at most $2 \\log_2(n+1)$</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "B-Trees",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | B-Trees</strong></div>\n<p>Consider a B-Tree of order $m=5$ (where order $m$ is the maximum number of children a node can have). Which of the following statements is/are <strong>TRUE</strong>?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    For B-Tree of order $m=5$:<br/>- Max children $= 5$, max keys $= m-1 = 4$.<br/>- Min children for non-root internal node $= \\lceil m/2 \\rceil = \\lceil 5/2 \\rceil = 3$.<br/>- Min keys for non-root internal node $= \\lceil m/2 \\rceil - 1 = 3 - 1 = 2$.<br/>- Root has at least 2 children if not leaf.<br/>All statements are correct.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>The root node must contain at least 2 children unless it is a leaf.</span>",
+          "textHtml": "<span>The root node must contain at least 2 children unless it is a leaf.</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Every internal node other than the root must contain at least $\\lceil 5/2 \\rceil = 3$ children.</span>",
+          "textHtml": "<span>Every internal node other than the root must contain at least $\\lceil 5/2 \\rceil = 3$ children.</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>The maximum number of keys in any node is 4.</span>",
+          "textHtml": "<span>The maximum number of keys in any node is 4.</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Every internal node other than the root must contain at least 2 keys.</span>",
+          "textHtml": "<span>Every internal node other than the root must contain at least 2 keys.</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Binary Heaps",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Binary Heaps</strong></div>\n<p>A max-heap is constructed from an array $[10, 20, 15, 30, 40, 50, 60, 25]$ using Floyd's bottom-up `BUILD-MAX-HEAP` algorithm. What is the value at index 2 (1-indexed, root at index 1) after the heap is built?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Array: indices 1 to 8: $[10, 20, 15, 30, 40, 50, 60, 25]$.<br/>Leaves are indices 5 to 8 ($40, 50, 60, 25$).<br/>Heapify at index 4 (value 30, child 8 with value 25): unchanged.<br/>Heapify at index 3 (value 15, children 6 and 7 with values 50, 60): swap 15 with 60 $\\rightarrow$ index 3 becomes 60.<br/>Heapify at index 2 (value 20, children 4 and 5 with values 30, 40): swap 20 with 40 $\\rightarrow$ index 2 becomes 40.<br/>Heapify at index 1 (value 10, children 2 and 3 with values 40, 60): swap 10 with 60 $\\rightarrow$ index 1 is 60, index 3 gets 10, which swaps with 50.<br/>Index 2 retains value 40.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "40",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Linked Lists",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>⚡ GO Classes CS 2027 Style | Linked Lists</strong></div>\n<p>Floyd's Cycle-Finding Algorithm (tortoise and hare) uses two pointers moving at speeds 1 and 2 respectively. If a linked list has a non-cyclic prefix of length $\\mu$ and a cycle of length $\\lambda$, where do the two pointers first meet relative to the start of the cycle?</p>\n<div class=\"solution-explanation-panel\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Official Solution & Step-by-Step Derivation:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    When the slow pointer enters the cycle at step $\\mu$, the fast pointer is at position $(2\\mu - \\mu) \\pmod \\lambda = \\mu \\pmod \\lambda$. The distance fast must catch up is $\\lambda - (\\mu \\pmod \\lambda)$. With relative speed 1 step/iteration, they meet at distance $(\\lambda - (\\mu \\pmod \\lambda)) \\pmod \\lambda$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>At distance $(\\lambda - (\\mu \\pmod \\lambda)) \\pmod \\lambda$ from the start of the cycle</span>",
+          "textHtml": "<span>At distance $(\\lambda - (\\mu \\pmod \\lambda)) \\pmod \\lambda$ from the start of the cycle</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Always at the start of the cycle</span>",
+          "textHtml": "<span>Always at the start of the cycle</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>At distance $\\mu \\pmod \\lambda$ from the start of the cycle</span>",
+          "textHtml": "<span>At distance $\\mu \\pmod \\lambda$ from the start of the cycle</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>They never meet if $\\lambda$ is even</span>",
+          "textHtml": "<span>They never meet if $\\lambda$ is even</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

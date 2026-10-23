@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_General_Aptitude_P2",
+  "fileName": "PYQ_General_Aptitude_P2.json",
+  "title": "GATE Official PYQs | General Aptitude Part 2",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 50,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Arithmetic Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Arithmetic Series: GATE CSE 2013 | Question: 58</strong></div><p>What will be the maximum sum of<br/>?<br/>quantitative-aptitude<br/>easy<br/>arithmetic-series</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1562/gate-cse-2013-question-58"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Arithmetic Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Arithmetic Series: GATE CSE 2015 | Set 2 | GA | Question: 6</strong></div><p>If the list of letters<br/>,<br/>,<br/>,<br/>,<br/>is an arithmetic sequence, which of the following are also in arithmetic<br/>sequence?<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>quantitative-aptitude<br/>arithmetic-series<br/>Arithmetic Series: GATE2011 AG: GA-6<br/>The sum of<br/>terms of the series<br/>is<br/>A.<br/>B.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Average",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Average: GATE CSE 2025 | Set 1 | GA | Question: 3</strong></div><p>The average marks obtained by a class in an examination were calculated as<br/>. However, while<br/>checking the marks entered, the teacher found that the marks of one student were entered incorrectly as<br/>instead of<br/>. After correcting the marks, the average becomes<br/>. How many students does the class have?<br/>quantitative-aptitude<br/>average<br/>Bar Graph<br/>(4)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1879"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Bar Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bar Graph: GATE CSE 2015 | Set 3 | GA | Question: 10</strong></div><p>The exports and imports (in crores of<br/>.) of a country from the year<br/>to<br/>are given in the following<br/>bar chart. In which year is the combined percentage increase in imports and exports the highest?<br/>quantitative-aptitude<br/>data-interpretation<br/>bar-graph</p></div>",
+      "options": [],
+      "correctAnswer": "2006",
+      "discussUrl": "https://gateoverflow.in/460098/gate-cse-2025-set-1-ga-question-3"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bar Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bar Graph: GATE CSE 2020 | GA | Question: 10</strong></div><p>The total revenue of a company during<br/>is shown in the bar graph. If the total expenditure of<br/>the company in each year is<br/>million rupees, then the aggregate proﬁt or loss (in percentage) on the total<br/>expenditure of the company during<br/>is ___________.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8389/gate-cse-2015-set-3-ga-question-10"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Bar Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bar Graph: GATE CSE 2021 | Set 2 | GA | Question: 9</strong></div><p>The number of units of a product sold in three diﬀerent years and the respective net proﬁts are presented in the<br/>ﬁgure above. The cost/unit in Year<br/>was<br/>₹<br/>, which was half the cost/unit in Year<br/>. The cost/unit in Year<br/>was<br/>one-third of the cost/unit in Year<br/>. Taxes were paid on the selling price at<br/>,<br/>, and<br/>respectively for<br/>the three years. Net proﬁt is calculated as the diﬀerence between the selling price and the sum of cost and taxes<br/>paid in that year.<br/>The ratio of the selling price in Year<br/>to the selling price in Year<br/>is _________.<br/>quantitative-aptitude<br/>data-interpretation<br/>bar-graph</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Bar Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bar Graph: GATE DA 2025 | GA | Question: 10</strong></div><p>The number of patients per shift<br/>consulting Dr. Gita in her past<br/>shifts is shown in the ﬁgure. If the<br/>amount she earns is<br/>₹<br/>, what is the average amount (in<br/>₹<br/>) she has earned per shift in the<br/>past<br/>shifts?<br/>Note: The figure shown is representative.<br/>gateda-2025<br/>quantitative-aptitude<br/>bar-graph<br/>data-interpretation<br/>Bayes Theorem<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461023/gate-da-2025-ga-question-10"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Bayes Theorem",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bayes Theorem: GATE CSE 2012 | Question: 63</strong></div><p>An automobile plant contracted to buy shock absorbers from two suppliers<br/>and<br/>.<br/>supplies<br/>and<br/>Y supplies<br/>of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that<br/>pass the quality test are considered reliable. Of<br/>shock absorbers,<br/>are reliable. Of<br/>shock absorbers,<br/>are reliable.<br/>The probability that a randomly chosen shock absorber, which is found to be reliable, is made by<br/>is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2211/gate-cse-2012-question-63"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Cartesian Coordinates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cartesian Coordinates: GATE CSE 2020 | GA | Question: 9</strong></div><p>Two straight lines are drawn perpendicular to each other in<br/>plane. If<br/>and<br/>are the acute angles<br/>the straight lines make with the<br/>axis, then<br/>is ________.<br/>quantitative-aptitude<br/>geometry<br/>cartesian-coordinates</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333232/gate-cse-2020-ga-question-9"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cartesian Coordinates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cartesian Coordinates: GATE CSE 2022 | GA | Question: 2</strong></div><p>A function<br/>is defined in the interval<br/>on the<br/>axis as<br/>Which one of the following is the area under the curve for the interval<br/>on the<br/>axis?<br/>quantitative-aptitude<br/>cartesian-coordinates<br/>area<br/>Cartesian Coordinates: GATE2012 AE: GA-9<br/>Two points<br/>and<br/>lie on a straight line having a slope of<br/>. The value of<br/>is<br/>quantitative-aptitude<br/>cartesian-coordinates<br/>geometry<br/>Cartesian Coordinates: GATE2014 AE: GA-4<br/>If<br/>, then the tangent at<br/>,<br/>quantitative-aptitude<br/>geometry<br/>cartesian-coordinates<br/>Circle<br/>(3)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333232/gate-cse-2020-ga-question-9"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Circle",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circle: GATE CSE 2018 | GA | Question: 3</strong></div><p>The area of a square is<br/>. What is the area of the circle which has the diagonal of the square as its<br/>diameter?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1863"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Circle",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circle: GATE CSE 2020 | GA | Question: 8</strong></div><p>The ﬁgure below shows an annular ring with outer and inner as<br/>and<br/>, respectively. The annular space<br/>has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If<br/>maximum<br/>number of circles can be painted, then the unpainted area available in annular space is _____.<br/>quantitative-aptitude<br/>geometry<br/>circle<br/>area</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333233/gate-cse-2020-ga-question-8"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Circle",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Circle: GATE DA 2026 | GA | Question: 10</strong></div><p>In the given ﬁgure,<br/>, and<br/>are three points on a circle of radius<br/>cm with<br/>as its center,<br/>, and<br/>. The ﬁgure is representative. The area of the shaded region<br/>is<br/>.<br/>gateda-2026<br/>quantitative-aptitude<br/>geometry<br/>circle<br/>area<br/>Clock Time<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523216/gate-da-2026-ga-question-10"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Clock Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Clock Time: GATE CSE 2014 | Set 2 | GA | Question: 10</strong></div><p>At what time between<br/>a. m. and<br/>a. m. will the minute hand and hour hand of a clock make an angle</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333233/gate-cse-2020-ga-question-8"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2010 | Question: 65</strong></div><p>Given digits<br/>how many distinct<br/>digit numbers greater than<br/>can be formed?<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2373/gate-cse-2010-question-65"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2016 | Set 2 | GA | Question: 09</strong></div><p>In a<br/>rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the<br/>grid?<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1824"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Combinatory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Combinatory: GATE CSE 2017 | Set 1 | GA | Question: 9</strong></div><p>Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue<br/>and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel<br/>like all the colours. In how many diﬀerent ways can they choose the shirts so that no one has a shirt with a colour<br/>he or she dislikes?<br/>quantitative-aptitude<br/>Combinatory: GATE2011 MN: GA-59<br/>In how many ways<br/>scholarships can be awarded to<br/>applicants, when each applicant can receive any<br/>number of scholarships?<br/>quantitative-aptitude<br/>Combinatory: GATE2012 AR: GA-5<br/>Ten teams participate in a tournament. Every team plays each of the other teams twice. The total number of<br/>matches to be played is<br/>quantitative-aptitude</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1824"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Contour Plots",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Contour Plots: GATE CSE 2017 | Set 1 | GA | Question: 10</strong></div><p>A contour line joins locations having the same height above the mean sea level. The following is a contour<br/>plot of a geographical region. Contour lines are shown at<br/>m intervals in this plot. If in a ﬂood, the water<br/>level rises to<br/>m, which of the villages<br/>get submerged?<br/>general-aptitude<br/>quantitative-aptitude<br/>data-interpretation<br/>contour-plots</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118413/gate-cse-2017-set-1-ga-question-10"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Contour Plots",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Contour Plots: GATE CSE 2017 | Set 2 | GA | Question: 10</strong></div><p>An air pressure contour line joins locations in a region having the same atmospheric pressure. The following<br/>is an air pressure contour plot of a geographical region. Contour lines are shown at<br/>bar intervals in this<br/>plot.<br/>If the possibility of a thunderstorm is given by how fast air pressure rises or drops over a region, which of the<br/>following regions is most likely to have a thunderstorm?<br/>quantitative-aptitude<br/>data-interpretation<br/>contour-plots<br/>Cost Market Price<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118413/gate-cse-2017-set-1-ga-question-10"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cost Market Price",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cost Market Price: GATE CSE 2011 | Question: 63</strong></div><p>The variable cost<br/>of manufacturing a product varies according to the equation<br/>, where<br/>is the<br/>quantity produced. The ﬁxed cost<br/>of production of same product reduces with<br/>according to the<br/>equation<br/>. How many units should be produced to minimize the total cost<br/>?<br/>quantitative-aptitude<br/>cost-market-price</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2173/gate-cse-2011-question-63"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cost Market Price",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cost Market Price: GATE CSE 2012 | Question: 56</strong></div><p>The cost function for a product in a ﬁrm is given by<br/>, where<br/>is the amount of production. The ﬁrm can<br/>sell the product at a market price of<br/>per unit. The number of units to be produced by the ﬁrm such that<br/>the profit is maximized is<br/>quantitative-aptitude<br/>cost-market-price</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2193/gate-cse-2012-question-56"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cost Market Price",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cost Market Price: GATE CSE 2019 | GA | Question: 4</strong></div><p>Ten friends planned to share equally the cost of buying a gift for their teacher. When two of them decided<br/>not to contribute, each of the other friends had to pay Rs.<br/>more. The cost of the gift was Rs. ____<br/>general-aptitude<br/>quantitative-aptitude<br/>cost-market-price<br/>Cost Market Price: GATE2014 AE: GA-5<br/>A foundry has a ﬁxed daily cost of<br/>whenever it operates and a variable cost of<br/>,where<br/>is the daily production in tonnes. What is the cost of production in<br/>per tonne for a daily production of<br/>tonnes.<br/>quantitative-aptitude<br/>cost-market-price<br/>Cubes<br/>(2)</p></div>",
+      "options": [],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302869/gate-cse-2019-ga-question-4"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cubes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cubes: GATE CSE 2016 | Set 1 | GA | Question: 05</strong></div><p>A cube is built using<br/>cubic blocks of side one unit. After it is built, one cubic block is removed from every<br/>corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.<br/>quantitative-aptitude<br/>geometry<br/>cubes</p></div>",
+      "options": [],
+      "correctAnswer": "1300",
+      "discussUrl": "https://gateoverflow.in/2193/gate-cse-2012-question-56"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cubes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cubes: GATE CSE 2021 | Set 2 | GA | Question: 3</strong></div><p>If<br/>is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube,<br/>then,<br/>quantitative-aptitude<br/>mensuration<br/>cubes<br/>Currency Notes<br/>(1)<br/>Currency Notes: GATE2012 CY: GA-10<br/>Raju has<br/>currency notes in his pocket consisting of only Rs.<br/>notes and Rs.<br/>notes. The total money<br/>value of the notes is Rs.<br/>. The number of Rs.<br/>notes that Raju has is<br/>quantitative-aptitude<br/>numerical-computation<br/>currency-notes<br/>Data Interpretation<br/>(3)<br/>₹</p></div>",
+      "options": [],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2193/gate-cse-2012-question-56"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Interpretation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Interpretation: GATE CSE 2011 | Question: 62</strong></div><p>and<br/>are four types of dangerous microbes recently found in a human habitat. The area of each<br/>circle with its diameter printed in brackets represents the growth of a single microbe surviving human<br/>immunity system within<br/>hours of entering the body. The danger to human beings varies proportionately with the<br/>toxicity, potency and growth attributed to a microbe shown in the figure below:<br/>A pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe.<br/>Which microbe should the company target in its first attempt?<br/>quantitative-aptitude<br/>data-interpretation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2172/gate-cse-2011-question-62"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Interpretation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Interpretation: GATE CSE 2026 | Set 2 | GA | Question: 8</strong></div><p>Figures<br/>and<br/>represent intercity highway systems. The black dots represent cities and the line<br/>segments between them represent intercity highways.<br/>A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once,<br/>and finally return to the same city from which she started.<br/>Which one of the following options is then true?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1832"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Data Interpretation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Interpretation: GATE DA 2025 | GA | Question: 7</strong></div><p>Weight of a person can be expressed as a function of their age. The function usually varies from person to<br/>person. Suppose this function is identical for two brothers, and it monotonically increases till the age of 50<br/>years and then it monotonically decreases. Let<br/>and<br/>(in years) denote the ages of the brothers and<br/>.<br/>Which one of the following statements is correct about their age on the day when they attain the same weight?<br/>gateda-2025<br/>quantitative-aptitude<br/>data-interpretation<br/>Digital Image Processing<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/461026/gate-da-2025-ga-question-7"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Digital Image Processing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Digital Image Processing: GATE DA 2025 | GA | Question: 3</strong></div><p>​​​​<br/>A<br/>digital image has pixel intensities<br/>as shown in the figure. The number of pixels with<br/>is:<br/>gateda-2025<br/>quantitative-aptitude<br/>digital-image-processing<br/>easy<br/>Factors<br/>(3)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461026/gate-da-2025-ga-question-7"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Factors",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Factors: GATE CSE 2013 | Question: 62</strong></div><p>Out of all the<br/>-digit integers between<br/>and<br/>a<br/>-digit number has to be selected at random. What is<br/>the probability that the selected number is not divisible by<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1566/gate-cse-2013-question-62"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Factors",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Factors: GATE CSE 2018 | GA | Question: 4</strong></div><p>What would be the smallest natural number which when divided either by<br/>or by<br/>or by<br/>leaves a<br/>remainder of<br/>in each case?<br/>quantitative-aptitude<br/>factors<br/>Factors: GATE2010 MN: GA-8<br/>Consider the set of integers<br/>The number of integers that is divisible by neither<br/>nor<br/>is<br/>general-aptitude<br/>quantitative-aptitude<br/>factors<br/>Fractions<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204065/gate-cse-2018-ga-question-4"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Fractions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Fractions: GATE CSE 2018 | GA | Question: 6</strong></div><p>In appreciation of the social improvements completed in a town, a wealthy philanthropist decided to gift<br/>to each male senior citizen in the town and<br/>to each female senior citizen. Altogether, there<br/>were 300 senior citizens eligible for this gift. However, only<br/>of the eligible men and<br/>of the eligible women<br/>claimed the gift.How much money (in Rupees) did the philanthropist give away in total?<br/>quantitative-aptitude<br/>fractions<br/>Functions<br/>(7)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204065/gate-cse-2018-ga-question-4"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 2 | GA | Question: 9</strong></div><p>If<br/>are distinct integers such that:<br/>Also a function<br/>Also the same operations are valid with two variable functions of the form<br/>What is the value of<br/>?<br/>functions</p></div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204065/gate-cse-2018-ga-question-4"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 3 | GA | Question: 5</strong></div><p>A function<br/>is linear and has a value of<br/>at<br/>and<br/>at<br/>. Find its value at<br/>.<br/>quantitative-aptitude<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8303/gate-cse-2015-set-3-ga-question-5"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2015 | Set 3 | GA | Question: 8</strong></div><p>Choose the most appropriate equation for the function drawn as thick line, in the plot below.<br/>quantitative-aptitude<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8303/gate-cse-2015-set-3-ga-question-5"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2023 | GA | Question: 7</strong></div><p>Consider two functions of time<br/>where<br/>Now consider the following two statements:<br/>i<br/>.<br/>For some<br/>.<br/>ii<br/>.<br/>There exists a<br/>such that<br/>for all<br/>.<br/>Which one of the following options is<br/>quantitative-aptitude<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/399249/gate-cse-2023-ga-question-7"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Functions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Functions: GATE CSE 2023 | GA | Question: 9</strong></div><p>and<br/>are functions of<br/>and<br/>, respectively, and<br/>for all values of<br/>and<br/>. Which one<br/>of the following options is necessarily<br/>for a<br/>and<br/>quantitative-aptitude<br/>functions<br/>Functions: GATE2010 MN: GA-10<br/>Given the following four functions<br/>which<br/>function will have the largest value for sufficiently large values of n</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399249/gate-cse-2023-ga-question-7"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Geometry",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Geometry: GATE CSE 2014 | Set 1 | GA | Question: 10</strong></div><p>When a point inside of a tetrahedron (a solid with four triangular surfaces) is connected by straight lines to<br/>its corners, how many (new) internal planes are created with these lines?<br/>quantitative-aptitude<br/>geometry</p></div>",
+      "options": [],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40228/gate2012-ar-ga-7"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Geometry",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Geometry: GATE CSE 2024 | Set 1 | GA | Question: 7</strong></div><p>A rectangular paper sheet of dimensions<br/>is taken. The two longer edges of the sheet are<br/>joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is<br/>also taken.<br/>Then, the ratio of the volume of the cylindrical tube to the volume of the cube is<br/>quantitative-aptitude<br/>geometry</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/40228/gate2012-ar-ga-7"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Geometry",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Geometry: GATE CSE 2025 | Set 2 | GA | Question: 9</strong></div><p>In the Given ﬁgure, PQRS is a square of side<br/>cm and PLMN is a rectangle. The corner L of the rectangle<br/>is on the side QR. Side MN of the rectangle passes through the corner S of the square.<br/>What is the area (in<br/>) of the rectangle PLMN?<br/>Note: The figure shown is representative.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40228/gate2012-ar-ga-7"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Geometry",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Geometry: GATE DA 2025 | GA | Question: 4</strong></div><p>In the given ﬁgure, the numbers associated with the rectangle, triangle, and ellipse are<br/>, and<br/>,<br/>respectively. Which one among the given options is the most appropriate combination of<br/>, and<br/>?<br/>gateda-2025<br/>quantitative-aptitude<br/>geometry</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461029/gate-da-2025-ga-question-4"
+    }
+  ]
+}

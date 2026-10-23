@@ -1,0 +1,1183 @@
+{
+  "id": "PYQ_C_Programming_P3",
+  "fileName": "PYQ_C_Programming_P3.json",
+  "title": "GATE Official PYQs | C Programming Part 3",
+  "subject": "C Programming",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 48,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2016 | Set 1 | Question: 12</strong></div><p>Consider the following \"C\" program.<br/>void<br/>f<br/>(<br/>int<br/>,<br/>short<br/>);<br/>void<br/>main<br/>()<br/>{<br/>int<br/>i<br/>=<br/>100<br/>;<br/>short<br/>s<br/>=<br/>12<br/>;<br/>short<br/>*<br/>p<br/>=<br/>&<br/>s<br/>;<br/>____________<br/>;<br/>// call to f()<br/>}<br/>Which one of the following expressions , when placed in the blank above, will NOT result in a type checking error?<br/>programming-in-c<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8185/gate-cse-2015-set-1-question-1-1"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2016 | Set 1 | Question: 34</strong></div><p>The following function computes the maximum value contained in an integer array<br/>of size<br/>.<br/>int<br/>max<br/>(<br/>int<br/>*<br/>p<br/>,<br/>int<br/>n<br/>)<br/>{<br/>int<br/>a<br/>=<br/>0<br/>,<br/>b<br/>=<br/>n<br/>-<br/>1<br/>;<br/>while<br/>(<br/>__________<br/>)<br/>{<br/>if<br/>(<br/>p<br/>[<br/>a<br/>]<=<br/>p<br/>[<br/>b<br/>])<br/>{<br/>a<br/>=<br/>a<br/>+<br/>1<br/>;}<br/>else<br/>{<br/>b<br/>=<br/>b<br/>-<br/>1<br/>;}<br/>}<br/>return<br/>p<br/>[<br/>a<br/>];<br/>}<br/>The missing loop condition is:<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8185/gate-cse-2015-set-1-question-1-1"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2017 | Set 1 | Question: 53</strong></div><p>Consider the following C program.<br/>#include<br/><stdio.h></p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8185/gate-cse-2015-set-1-question-1-1"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2017 | Set 1 | Question: 55</strong></div><p>The output of executing the following C program is _______________ .<br/>#include<br/><stdio.h><br/>int<br/>total<br/>(<br/>int<br/>v<br/>)<br/>{<br/>static<br/>int<br/>count<br/>=<br/>0<br/>;<br/>while<br/>(<br/>v<br/>)<br/>{<br/>count<br/>+=<br/>v<br/>&<br/>1<br/>;<br/>v<br/>>>=<br/>1<br/>;<br/>}<br/>return<br/>count<br/>;<br/>}<br/>void<br/>main<br/>()<br/>{<br/>static<br/>int<br/>x<br/>=<br/>0<br/>;<br/>int<br/>i<br/>=<br/>5<br/>;<br/>for<br/>(;<br/>i<br/>><br/>0<br/>;<br/>i<br/>--)<br/>{<br/>x<br/>=<br/>x<br/>+<br/>total<br/>(<br/>i<br/>);<br/>}<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>x<br/>);<br/>}<br/>programming<br/>programming-in-c</p></div>",
+      "options": [],
+      "correctAnswer": "23",
+      "discussUrl": "https://gateoverflow.in/118442/gate-cse-2017-set-1-question-55"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2017 | Set 2 | Question: 2</strong></div><p>Match the following:<br/>programming<br/>programming-in-c<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118442/gate-cse-2017-set-1-question-55"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2017 | Set 2 | Question: 54</strong></div><p>Consider the following C program.<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>int<br/>m<br/>=<br/>10<br/>;<br/>int<br/>n<br/>,<br/>n1<br/>;<br/>n<br/>=++<br/>m<br/>;</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/118442/gate-cse-2017-set-1-question-55"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2018 | Question: 32</strong></div><p>Consider the following C code. Assume that unsigned long int type length is<br/>bits.<br/>unsigned<br/>long<br/>int<br/>fun<br/>(<br/>unsigned<br/>long<br/>int<br/>n<br/>)<br/>{<br/>unsigned<br/>long<br/>int<br/>i<br/>,<br/>j<br/>=<br/>0<br/>,<br/>sum<br/>=<br/>0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>n<br/>;<br/>i<br/>><br/>1<br/>;<br/>i<br/>=<br/>i<br/>/<br/>2<br/>)<br/>j<br/>++;<br/>for<br/>(<br/>;<br/>j<br/>><br/>1<br/>;<br/>j<br/>=<br/>j<br/>/<br/>2<br/>)<br/>sum<br/>++;<br/>return<br/>sum<br/>;<br/>}<br/>The value returned when we call fun with the input<br/>is:<br/>programming-in-c<br/>programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204106/gate-cse-2018-question-32"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2019 | Question: 27</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>int<br/>r<br/>()<br/>{<br/>static<br/>int<br/>num<br/>=<br/>7<br/>;<br/>return<br/>num<br/>--;<br/>}<br/>int<br/>main<br/>()<br/>{<br/>for<br/>(<br/>r<br/>();<br/>r<br/>();<br/>r<br/>())<br/>printf<br/>(“%<br/>d<br/>”,<br/>r<br/>());<br/>return<br/>0<br/>;<br/>}<br/>Which one of the following values will be displayed on execution of the programs?<br/>programming-in-c<br/>programming</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302821/gate-cse-2019-question-27"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2019 | Question: 52</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>float<br/>sum<br/>=<br/>0.0<br/>,<br/>j<br/>=<br/>1.0<br/>,<br/>i<br/>=<br/>2.0<br/>;<br/>while<br/>(<br/>i<br/>/<br/>j<br/>><br/>0.0625<br/>)<br/>{<br/>j<br/>=<br/>j<br/>+<br/>j<br/>;<br/>sum<br/>=<br/>sum<br/>+<br/>i<br/>/<br/>j<br/>;<br/>printf<br/>(<br/>\"%f\\n\"<br/>,<br/>sum<br/>);<br/>}<br/>return<br/>0<br/>;<br/>}<br/>The number of times the variable sum will be printed, when the above program is executed, is _________<br/>programming-in-c<br/>programming</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/302821/gate-cse-2019-question-27"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2019 | Question: 53</strong></div><p>Consider the following C program:<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>int<br/>a<br/>[]<br/>=<br/>{<br/>2<br/>,<br/>4<br/>,<br/>6<br/>,<br/>8<br/>,<br/>10<br/>};<br/>int<br/>i<br/>,<br/>sum<br/>=<br/>0<br/>,<br/>*<br/>b<br/>=<br/>a<br/>+<br/>4<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>5<br/>;<br/>i<br/>++)<br/>sum<br/>=<br/>sum<br/>+(*<br/>b<br/>-<br/>i<br/>)-*(<br/>b<br/>-<br/>i<br/>);<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>sum<br/>);<br/>return<br/>0<br/>;<br/>}<br/>The output of the above C program is _______<br/>programming-in-c<br/>programming</p></div>",
+      "options": [],
+      "correctAnswer": "10",
+      "discussUrl": "https://gateoverflow.in/302795/gate-cse-2019-question-53"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2021 | Set 1 | Question: 37</strong></div><p>​​​​​<br/>Consider the following<br/>program.<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>int<br/>i<br/>,<br/>j<br/>,<br/>count<br/>;<br/>count<br/>=<br/>0<br/>;<br/>i<br/>=<br/>0<br/>;<br/>for<br/>(<br/>j<br/>=-<br/>3<br/>;<br/>j<br/><=<br/>3<br/>;<br/>j<br/>++)<br/>{<br/>if<br/>((<br/>j<br/>>=<br/>0<br/>)<br/>&&<br/>(<br/>i<br/>++))<br/>count<br/>=<br/>count<br/>+<br/>j<br/>;<br/>}<br/>count<br/>=<br/>count<br/>+<br/>i<br/>;<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>count<br/>);<br/>return<br/>0<br/>;<br/>}<br/>Which one of the following options is correct?<br/>A<br/>.<br/>The program will not compile successfully<br/>B<br/>.<br/>The program will compile successfully and output<br/>when executed<br/>C<br/>.<br/>The program will compile successfully and output<br/>when executed<br/>D<br/>.<br/>The program will compile successfully and output<br/>when executed<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302795/gate-cse-2019-question-53"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2024 | Set 1 | Question: 38</strong></div><p>​​<br/>Consider the following<br/>function definition.<br/>int<br/>f<br/>(<br/>int<br/>x<br/>,<br/>int<br/>y<br/>){<br/>for<br/>(<br/>int<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>y<br/>;<br/>i<br/>++<br/>)<br/>{<br/>x<br/>=<br/>x<br/>+<br/>x<br/>+<br/>y<br/>;<br/>}<br/>return<br/>x<br/>;<br/>}<br/>Which of the following statements is/are TRUE about the above function?<br/>A<br/>.<br/>If the inputs are<br/>, then the return value is greater than<br/>B<br/>.<br/>If the inputs are<br/>, then the return value is greater than<br/>C<br/>.<br/>If the inputs are<br/>, then the return value is less than<br/>D<br/>.<br/>If the inputs are<br/>, then the return value is greater than<br/>multiple-selects<br/>programming<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/302795/gate-cse-2019-question-53"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE CSE 2026 | Set 2 | Question: 9</strong></div><p>Consider the following three ANSI-C programs,<br/>and<br/>.<br/>Which one of the following statements is true?<br/>A<br/>.<br/>Only<br/>will compile without any error<br/>B<br/>.<br/>Only<br/>will compile without any error<br/>C<br/>.<br/>Only<br/>will compile without any error<br/>D<br/>.<br/>All three programs<br/>and<br/>will compile without any error<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523137/gate-cse-2026-set-2-question-9"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE IT 2004 | Question: 59</strong></div><p>What is the output of the following program?<br/>#include<br/><stdio.h><br/>int<br/>funcf<br/>(<br/>int<br/>x<br/>);<br/>int<br/>funcg<br/>(<br/>int<br/>y<br/>);<br/>main<br/>()<br/>{<br/>int<br/>x<br/>=<br/>5<br/>,<br/>y<br/>=<br/>10<br/>,<br/>count<br/>;<br/>for<br/>(<br/>count<br/>=<br/>1<br/>;<br/>count<br/><=<br/>2<br/>;<br/>++<br/>count<br/>)<br/>{<br/>y<br/>+=<br/>funcf<br/>(<br/>x<br/>)<br/>+<br/>funcg<br/>(<br/>x<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>y<br/>);<br/>}<br/>}<br/>funcf<br/>(<br/>int<br/>x<br/>)<br/>{<br/>int<br/>y<br/>;<br/>y<br/>=<br/>funcg<br/>(<br/>x<br/>);<br/>return<br/>(<br/>y<br/>);<br/>}<br/>funcg<br/>(<br/>int<br/>x<br/>)<br/>{<br/>static<br/>int<br/>y<br/>=<br/>10<br/>;<br/>y<br/>+=<br/>1<br/>;<br/>return<br/>(<br/>y<br/>+<br/>x<br/>);<br/>}<br/>programming<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3702/gate-it-2004-question-59"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE IT 2004 | Question: 60</strong></div><p>Choose the correct option to ﬁll the<br/>and<br/>so that the program prints an input string in reverse order.<br/>Assume that the input string is terminated by a new line character.<br/>#include<br/><stdio.h><br/>void<br/>wrt_it<br/>(<br/>void<br/>);<br/>int<br/>main<br/>(<br/>void<br/>)<br/>{<br/>printf<br/>(<br/>\"Enter Text\"<br/>);</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3702/gate-it-2004-question-59"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE IT 2005 | Question: 58</strong></div><p>Let<br/>be an array containing<br/>integers in increasing order. The following algorithm determines whether<br/>there are two distinct numbers in the array whose difference is a specified number<br/>.<br/>i<br/>=<br/>0<br/>;<br/>j<br/>=<br/>1<br/>;<br/>while<br/>(<br/>j<br/><<br/>n<br/>){<br/>if<br/>(<br/>E<br/>)<br/>j<br/>++;<br/>else<br/>if<br/>(<br/>a<br/>[<br/>j<br/>]<br/>-<br/>a<br/>[<br/>i<br/>]<br/>==<br/>S<br/>)<br/>break<br/>;<br/>else<br/>i<br/>++;<br/>}<br/>if<br/>(<br/>j<br/><<br/>n<br/>)<br/>printf<br/>(<br/>\"yes\"<br/>)<br/>else<br/>printf<br/>(<br/>\"no\"<br/>);<br/>Choose the correct expression for E.<br/>programming<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3819/gate-it-2005-question-58"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE IT 2006 | Question: 51</strong></div><p>Which one of the choices given below would be printed when the following program is executed?<br/>#include<br/><stdio.h><br/>int<br/>a1<br/>[]<br/>=<br/>{<br/>6<br/>,<br/>7<br/>,<br/>8<br/>,<br/>18<br/>,<br/>34<br/>,<br/>67<br/>};<br/>int<br/>a2<br/>[]<br/>=<br/>{<br/>23<br/>,<br/>56<br/>,<br/>28<br/>,<br/>29<br/>};<br/>int<br/>a3<br/>[]<br/>=<br/>{-<br/>12<br/>,<br/>27<br/>,<br/>-<br/>31<br/>};<br/>int<br/>*<br/>x<br/>[]<br/>=<br/>{<br/>a1<br/>,<br/>a2<br/>,<br/>a3<br/>};<br/>void<br/>print<br/>(<br/>int<br/>*<br/>a<br/>[])<br/>{<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>a<br/>[<br/>0<br/>][<br/>2<br/>]);<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>*<br/>a<br/>[<br/>2<br/>]);<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>*++<br/>a<br/>[<br/>0<br/>]);<br/>printf<br/>(<br/>\"%d,\"<br/>,<br/>*(++<br/>a<br/>)[<br/>0<br/>]);<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>a<br/>[-<br/>1<br/>][+<br/>1<br/>]);<br/>}<br/>main<br/>()<br/>{<br/>print<br/>(<br/>x<br/>);<br/>}<br/>programming<br/>programming-in-c</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3594/gate-it-2006-question-51"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming In C",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming In C: GATE IT 2007 | Question: 31</strong></div><p>Consider the C program given below :<br/>#include<br/><stdio.h><br/>int<br/>main<br/>()<br/>{<br/>int<br/>sum<br/>=<br/>0<br/>,<br/>maxsum<br/>=<br/>0<br/>,<br/>i<br/>,<br/>n<br/>=<br/>6<br/>;<br/>int<br/>a<br/>[]<br/>=<br/>{<br/>2<br/>,<br/>-<br/>2<br/>,<br/>-<br/>1<br/>,<br/>3<br/>,<br/>4<br/>,<br/>2<br/>};<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>if<br/>(<br/>i<br/>==<br/>0<br/>||<br/>a<br/>[<br/>i<br/>]<br/><<br/>0<br/>||<br/>a<br/>[<br/>i<br/>]<br/><<br/>a<br/>[<br/>i<br/>-<br/>1<br/>])<br/>{<br/>if<br/>(<br/>sum<br/>><br/>maxsum<br/>)<br/>maxsum<br/>=<br/>sum<br/>;<br/>sum<br/>=<br/>(<br/>a<br/>[<br/>i<br/>]<br/>><br/>0<br/>)<br/>?<br/>a<br/>[<br/>i<br/>]<br/>:<br/>0<br/>;<br/>}<br/>else<br/>sum<br/>+=<br/>a<br/>[<br/>i<br/>];<br/>}<br/>if<br/>(<br/>sum<br/>><br/>maxsum<br/>)<br/>maxsum<br/>=<br/>sum<br/>;<br/>printf<br/>(<br/>\"%d\\n\"<br/>,<br/>maxsum<br/>);<br/>}<br/>What is the value printed out when this program is executed?<br/>programming<br/>programming-in-c<br/>Programming Paradigms<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3464/gate-it-2007-question-31"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming Paradigms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming Paradigms: GATE CSE 2004 | Question: 1</strong></div><p>The goal of structured programming is to:<br/>A<br/>.<br/>have well indented programs<br/>B<br/>.<br/>be able to infer the flow of control from the compiled code<br/>C<br/>.<br/>be able to infer the flow of control from the program text<br/>D<br/>.<br/>avoid the use of GOTO statements<br/>programming<br/>easy<br/>programming-paradigms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3464/gate-it-2007-question-31"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Programming Paradigms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Programming Paradigms: GATE CSE 2004 | Question: 90</strong></div><p>Choose the best matching between the programming styles in Group 1 and their characteristics in Group 2.<br/>programming<br/>programming-paradigms<br/>match-the-following<br/>Recursion<br/>(19)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/998/gate-cse-2004-question-1"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 1991 | Question: 01,x</strong></div><p>Consider the following recursive definition of<br/>:<br/>fib<br/>(<br/>n<br/>)<br/>:=<br/>if<br/>n<br/>=<br/>0<br/>then<br/>1<br/>else<br/>if<br/>n<br/>=<br/>1<br/>then<br/>1</p></div>",
+      "options": [],
+      "correctAnswer": "41",
+      "discussUrl": "https://gateoverflow.in/507/gate-cse-1991-question-01-x"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 1994 | Question: 21</strong></div><p>Consider the following recursive function:<br/>function<br/>fib<br/>(<br/>n<br/>:<br/>integer<br/>);<br/>integer<br/>;<br/>begin<br/>if<br/>(<br/>n<br/>=<br/>0<br/>)<br/>or<br/>(<br/>n<br/>=<br/>1<br/>)<br/>then<br/>fib<br/>:=<br/>1<br/>else<br/>fib<br/>:=<br/>fib<br/>(<br/>n<br/>-<br/>1<br/>)<br/>+<br/>fib<br/>(<br/>n<br/>-<br/>2<br/>)<br/>end<br/>;<br/>The above function is run on a computer with a stack of<br/>bytes. Assuming that only return address and<br/>parameter are passed on the stack, and that an integer value and an address takes<br/>bytes each, estimate the<br/>maximum value of<br/>for which the stack will not overflow. Give reasons for your answer.<br/>programming<br/>recursion<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "16",
+      "discussUrl": "https://gateoverflow.in/2517/gate-cse-1994-question-21"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2000 | Question: 16</strong></div><p>A recursive program to compute Fibonacci numbers is shown below. Assume you are also given an array<br/>with all elements initialized to<br/>fib<br/>(<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>><br/>M<br/>)<br/>error<br/>();<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>return<br/>1<br/>;<br/>if<br/>(<br/>n<br/>==<br/>1<br/>)<br/>return<br/>1<br/>;<br/>if<br/>(<br/>▭<br/>)<br/>________________________<br/>(<br/>1<br/>)<br/>return<br/>▭<br/>__________________<br/>(<br/>2<br/>)<br/>t<br/>=<br/>fib<br/>(<br/>n<br/>-<br/>1<br/>)<br/>+<br/>fib<br/>(<br/>n<br/>-<br/>2<br/>);<br/>▭<br/>_____________________________<br/>(<br/>3<br/>)<br/>return<br/>t<br/>;<br/>}<br/>A<br/>.<br/>Fill in the boxes with expressions/statement to make<br/>store and reuse computed Fibonacci values. Write<br/>the box number and the corresponding contents in your answer book.<br/>B<br/>.<br/>What is the time complexity of the resulting program when computing<br/>algorithms<br/>descriptive<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/687/gate-cse-2000-question-16"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2001 | Question: 13</strong></div><p>Consider the following C program:<br/>void<br/>abc<br/>(<br/>char<br/>*<br/>s<br/>)<br/>{<br/>if<br/>(<br/>s<br/>[<br/>0<br/>]==<br/>'\\0'<br/>)<br/>return<br/>;<br/>abc<br/>(<br/>s<br/>+<br/>1<br/>);<br/>abc<br/>(<br/>s<br/>+<br/>1<br/>);<br/>printf<br/>(<br/>\"%c\"<br/>,<br/>s<br/>[<br/>0<br/>]);<br/>}<br/>main<br/>()<br/>{<br/>abc<br/>(<br/>\"123\"<br/>);<br/>}<br/>A<br/>.<br/>What will be the output of the program?<br/>B<br/>.<br/>If<br/>is called with a null-terminated string<br/>of length<br/>characters (not counting the null ('\\0') character),<br/>how many characters will be printed by<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/754/gate-cse-2001-question-13"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2002 | Question: 11</strong></div><p>The following recursive function in C is a solution to the Towers of Hanoi problem.<br/>void<br/>move<br/>(<br/>int<br/>n<br/>,<br/>char<br/>A<br/>,<br/>char<br/>B<br/>,<br/>char<br/>C<br/>)<br/>{<br/>if<br/>(......................)<br/>{<br/>move<br/>(.............................);<br/>printf<br/>(<br/>\"Move disk %d from pole %c to pole %c\\n\"<br/>,<br/>n<br/>,<br/>A<br/>,<br/>C<br/>);<br/>move<br/>(.....................);<br/>}<br/>}<br/>Fill in the dotted parts of the solution.<br/>programming<br/>recursion<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/864/gate-cse-2002-question-11"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2004 | Question: 31, ISRO2008-40</strong></div><p>Consider the following C function:<br/>int<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>static<br/>int<br/>i<br/>=<br/>1<br/>;<br/>if<br/>(<br/>n<br/>>=<br/>5<br/>)<br/>return<br/>n<br/>;<br/>n<br/>=<br/>n<br/>+<br/>i<br/>;<br/>i<br/>++;<br/>return<br/>f<br/>(<br/>n<br/>);<br/>}<br/>The value returned by<br/>is:<br/>programming<br/>programming-in-c<br/>recursion<br/>easy<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1028/gate-cse-2004-question-31-isro2008-40"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2005 | Question: 81b</strong></div><p>double<br/>foo<br/>(<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>;<br/>double<br/>sum<br/>;<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>{<br/>return<br/>1.0<br/>;<br/>}<br/>else<br/>{<br/>sum<br/>=<br/>0.0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>sum<br/>+=<br/>foo<br/>(<br/>i<br/>);<br/>}<br/>return<br/>sum<br/>;<br/>}<br/>}<br/>Suppose we modify the above function<br/>and stores the value of<br/>, as and when they are<br/>computed. With this modiﬁcation the time complexity for function<br/>is signiﬁcantly reduced. The space<br/>complexity of the modified function would be:<br/>programming<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/82146/gate-cse-2005-question-81b"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2007 | Question: 42</strong></div><p>Consider the following C function:<br/>int<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>static<br/>int<br/>r<br/>=<br/>0<br/>;<br/>if<br/>(<br/>n<br/><=<br/>0<br/>)<br/>return<br/>1<br/>;<br/>if<br/>(<br/>n<br/>><br/>3<br/>)<br/>{<br/>r<br/>=<br/>n<br/>;<br/>return<br/>f<br/>(<br/>n<br/>-<br/>2<br/>)<br/>+<br/>2<br/>;<br/>}<br/>return<br/>f<br/>(<br/>n<br/>-<br/>1<br/>)<br/>+<br/>r<br/>;<br/>}<br/>What is the value of<br/>?<br/>programming<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1240/gate-cse-2007-question-42"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2014 | Set 2 | Question: 40</strong></div><p>Consider the following function.<br/>double<br/>f<br/>(<br/>double<br/>x<br/>){<br/>if<br/>(<br/>abs<br/>(<br/>x<br/>*<br/>x<br/>-<br/>3<br/>)<br/><<br/>0.01<br/>)<br/>return<br/>x<br/>;<br/>else<br/>return<br/>f<br/>(<br/>x<br/>/<br/>2<br/>+<br/>1.5<br/>/<br/>x<br/>);<br/>}<br/>Give a value<br/>(to<br/>decimals) such that<br/>will return<br/>:_____.<br/>programming<br/>recursion</p></div>",
+      "options": [],
+      "correctAnswer": "1.72 : 1.74",
+      "discussUrl": "https://gateoverflow.in/1240/gate-cse-2007-question-42"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2015 | Set 2 | Question: 15</strong></div><p>Consider the following function written in the C programming langauge :<br/>void<br/>foo<br/>(<br/>char<br/>*<br/>a<br/>)<br/>{<br/>if<br/>(*<br/>a<br/>&&<br/>*<br/>a<br/>!=<br/>' '<br/>)<br/>{<br/>foo<br/>(<br/>a<br/>+<br/>1<br/>);<br/>putchar<br/>(*<br/>a<br/>);<br/>}<br/>}<br/>The output of the above function on input \"<br/>\" is<br/>programming<br/>programming-in-c<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1240/gate-cse-2007-question-42"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2016 | Set 1 | Question: 35</strong></div><p>What will be the output of the following<br/>program?<br/>void<br/>count<br/>(<br/>int<br/>n<br/>)<br/>{<br/>static<br/>int<br/>d<br/>=<br/>1<br/>;<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>d<br/>);<br/>d<br/>++;<br/>if<br/>(<br/>n<br/>><br/>1<br/>)<br/>count<br/>(<br/>n<br/>-<br/>1<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>d<br/>);<br/>}</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1240/gate-cse-2007-question-42"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2016 | Set 2 | Question: 37</strong></div><p>Consider the following program:<br/>int<br/>f<br/>(<br/>int<br/>*<br/>p<br/>,<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>return<br/>0<br/>;<br/>else<br/>return<br/>max<br/>(<br/>f<br/>(<br/>p<br/>+<br/>1<br/>,<br/>n<br/>-<br/>1<br/>),<br/>p<br/>[<br/>0<br/>]<br/>-<br/>p<br/>[<br/>1<br/>]);<br/>}<br/>int<br/>main<br/>()<br/>{<br/>int<br/>a<br/>[]<br/>=<br/>{<br/>3<br/>,<br/>5<br/>,<br/>2<br/>,<br/>6<br/>,<br/>4<br/>};<br/>printf<br/>(<br/>\" %d\"<br/>,<br/>f<br/>(<br/>a<br/>,<br/>5<br/>));<br/>}<br/>Note:<br/>returns the maximum of<br/>and<br/>.<br/>The value printed by this program is ________.<br/>programming-in-c<br/>recursion</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/39602/gate-cse-2016-set-2-question-37"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2017 | Set 1 | Question: 35</strong></div><p>Consider the following two functions.<br/>void<br/>fun1<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>return<br/>;<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>fun2<br/>(<br/>n<br/>-<br/>2<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>void<br/>fun2<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>return<br/>;<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>fun1<br/>(++<br/>n<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>The output printed when<br/>is called is<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>programming<br/>tricky<br/>recursion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39602/gate-cse-2016-set-2-question-37"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2017 | Set 1 | Question: 36</strong></div><p>Consider the C functions foo and bar given below:<br/>int<br/>foo<br/>(<br/>int<br/>val<br/>)<br/>{<br/>int<br/>x<br/>=<br/>0<br/>;<br/>while<br/>(<br/>val<br/>><br/>0<br/>)<br/>{<br/>x<br/>=<br/>x<br/>+<br/>foo<br/>(<br/>val<br/>--);</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39602/gate-cse-2016-set-2-question-37"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2018 | Question: 21</strong></div><p>Consider the following<br/>program:<br/>#include<br/><stdio.h><br/>int<br/>counter<br/>=<br/>0<br/>;<br/>int<br/>calc<br/>(<br/>int<br/>a<br/>,<br/>int<br/>b<br/>)<br/>{<br/>int<br/>c<br/>;<br/>counter<br/>++;<br/>if<br/>(<br/>b<br/>==<br/>3<br/>)<br/>return<br/>(<br/>a<br/>*<br/>a<br/>*<br/>a<br/>);<br/>else<br/>{<br/>c<br/>=<br/>calc<br/>(<br/>a<br/>,<br/>b<br/>/<br/>3<br/>);<br/>return<br/>(<br/>c<br/>*<br/>c<br/>*<br/>c<br/>);<br/>}<br/>}<br/>int<br/>main<br/>()<br/>{<br/>calc<br/>(<br/>4<br/>,<br/>81<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>counter<br/>);<br/>}<br/>The output of this program is ______.<br/>programming-in-c<br/>recursion<br/>programming</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/204095/gate-cse-2018-question-21"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2020 | Question: 46</strong></div><p>Consider the following C functions.<br/>int<br/>fun1<br/>(<br/>int<br/>n<br/>)<br/>{<br/>static<br/>int<br/>i<br/>=<br/>0<br/>;<br/>if<br/>(<br/>n<br/>><br/>0<br/>)<br/>{<br/>++<br/>i<br/>;<br/>fun1<br/>(<br/>n<br/>-<br/>1<br/>);<br/>}<br/>return<br/>(<br/>i<br/>);<br/>}<br/>int<br/>fun2<br/>(<br/>int<br/>n<br/>)<br/>{<br/>static<br/>int<br/>i<br/>=<br/>0<br/>;<br/>if<br/>(<br/>n<br/>><br/>0<br/>)<br/>{<br/>i<br/>=<br/>i<br/>+<br/>fun1<br/>(<br/>n<br/>)<br/>;<br/>fun2<br/>(<br/>n<br/>-<br/>1<br/>)<br/>;<br/>}<br/>return<br/>(<br/>i<br/>);<br/>}<br/>The return value of<br/>is _________<br/>programming-in-c<br/>recursion</p></div>",
+      "options": [],
+      "correctAnswer": "55",
+      "discussUrl": "https://gateoverflow.in/333185/gate-cse-2020-question-46"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2025 | Set 1 | Question: 51</strong></div><p>#include<br/><stdio.h></p></div>",
+      "options": [],
+      "correctAnswer": "5:5",
+      "discussUrl": "https://gateoverflow.in/204095/gate-cse-2018-question-21"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE CSE 2026 | Set 2 | Question: 51</strong></div><p>Consider the following ANSI-C function.<br/>int<br/>func<br/>(<br/>int<br/>start<br/>,<br/>int<br/>end<br/>){<br/>int<br/>length<br/>=<br/>end<br/>+<br/>1<br/>-<br/>start<br/>;<br/>if<br/>((<br/>length<br/><<br/>1<br/>)||(<br/>start<br/><<br/>0<br/>)||(<br/>end<br/><<br/>0<br/>)){<br/>return<br/>(<br/>0<br/>);<br/>}<br/>if<br/>(<br/>length<br/>%<br/>3<br/>==<br/>0<br/>){<br/>return<br/>(<br/>func<br/>(<br/>start<br/>+<br/>1<br/>,<br/>end<br/>));<br/>}<br/>else<br/>if<br/>(<br/>length<br/>%<br/>3<br/>==<br/>1<br/>){<br/>return<br/>(<br/>1<br/>+<br/>func<br/>(<br/>start<br/>,<br/>end<br/>-<br/>1<br/>));<br/>}<br/>else<br/>{<br/>return<br/>(<br/>func<br/>(<br/>start<br/>+<br/>2<br/>,<br/>end<br/>));<br/>}<br/>}<br/>The maximum possible value that can be returned from this function is<br/>. (answer in integer)<br/>Note: Ignore syntax errors (if any) in the function.<br/>programming-in-c<br/>recursion<br/>output</p></div>",
+      "options": [],
+      "correctAnswer": "1:1",
+      "discussUrl": "https://gateoverflow.in/523095/gate-cse-2026-set-2-question-51"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Recursion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Recursion: GATE IT 2007 | Question: 27</strong></div><p>The function f is defined as follows:<br/>int<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>return<br/>1<br/>;<br/>else<br/>if<br/>(<br/>n<br/>%<br/>2<br/>==<br/>0<br/>)<br/>return<br/>f<br/>(<br/>n<br/>/<br/>2<br/>);<br/>else<br/>return<br/>f<br/>(<br/>3n<br/>-<br/>1<br/>);<br/>}<br/>Assuming that arbitrarily large integers can be passed as a parameter to the function, consider the following<br/>statements.<br/>i<br/>.<br/>The function<br/>terminates for finitely many different values of<br/>.<br/>ii<br/>.<br/>The function<br/>terminates for infinitely many different values of<br/>.<br/>iii<br/>.<br/>The function<br/>does not terminate for finitely many different values of<br/>.<br/>iv<br/>.<br/>The function<br/>does not terminate for infinitely many different values of<br/>.<br/>Which one of the following options is true of the above?<br/>programming<br/>recursion<br/>Runtime Environment<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3460/gate-it-2007-question-27"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Runtime Environment",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Runtime Environment: GATE CSE 2026 | Set 2 | Question: 7</strong></div><p>In C runtime environment, which one of the following is stored in heap?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523095/gate-cse-2026-set-2-question-51"
+    }
+  ]
+}

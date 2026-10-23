@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Operating_Systems_P3",
+  "fileName": "PYQ_Operating_Systems_P3.json",
+  "title": "GATE Official PYQs | Operating Systems Part 3",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 2018 | Question: 9</strong></div><p>The following are some events that occur after a device controller issues an interrupt while process<br/>is<br/>under execution.<br/>P. The processor pushes the process status of<br/>onto the control stack<br/>Q. The processor finishes the execution of the current instruction<br/>R. The processor executes the interrupt service routine<br/>S. The processor pops the process status of<br/>from the control stack<br/>T. The processor loads the new PC value based on the interrupt<br/>Which of the following is the correct order in which the events above occur?<br/>operating-system<br/>interrupts<br/>co-and-architecture<br/>io-handling</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/204083/gate-cse-2018-question-9"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE IT 2004 | Question: 11, ISRO2011-33</strong></div><p>What is the bit rate of a video terminal unit with<br/>characters/line,<br/>and horizontal sweep<br/>time of<br/>(including<br/>of retrace time)?<br/>operating-system<br/>io-handling<br/>easy<br/>isro2011</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3652/gate-it-2004-question-11-isro2011-33"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE IT 2006 | Question: 8</strong></div><p>Which of the following DMA transfer modes and interrupt handling mechanisms will enable the highest I/O<br/>band-width?<br/>operating-system<br/>io-handling<br/>dma<br/>Input Output<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204083/gate-cse-2018-question-9"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Input Output",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Input Output: GATE CSE 2025 | Set 1 | Question: 19</strong></div><p>Suppose in a multiprogramming environment, the following C program segment is executed. A process goes<br/>into I/O queue whenever an I/O related operation is performed. Assume that there will always be a context<br/>switch whenever a process requests for an I/O, and also whenever the process returns from an I/O. The number of<br/>times the process will enter the ready queue during its lifetime (not counting the time the process enters the ready<br/>queue when it is run initially) is ___________ . Answer in integer)<br/>int<br/>main<br/>()<br/>{<br/>µ<br/>µ</p></div>",
+      "options": [],
+      "correctAnswer": "21:21",
+      "discussUrl": "https://gateoverflow.in/204083/gate-cse-2018-question-9"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Inter Process Communication",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Inter Process Communication: GATE CSE 1997 | Question: 3.7</strong></div><p>I/O redirection<br/>A<br/>.<br/>implies changing the name of a file<br/>B<br/>.<br/>can be employed to use an existing file as input file for a program<br/>C<br/>.<br/>implies connecting<br/>programs through a pipe<br/>D<br/>.<br/>None of the above<br/>operating-system<br/>inter-process-communication<br/>Interrupts<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2238/gate-cse-1997-question-3-7"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1993 | Question: 6.8</strong></div><p>The details of an interrupt cycle are shown in figure.<br/>Given that an interrupt input arrives every<br/>msec, what is the percentage  of the  total time that the CPU devotes<br/>for the main program execution.<br/>operating-system<br/>interrupts<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "90.00",
+      "discussUrl": "https://gateoverflow.in/2238/gate-cse-1997-question-3-7"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1997 | Question: 3.8</strong></div><p>When an interrupt occurs, an operating system<br/>A<br/>.<br/>ignores the interrupt<br/>B<br/>.<br/>always changes state of interrupted process after processing the interrupt<br/>C<br/>.<br/>always resumes execution of interrupted process after processing the interrupt<br/>D<br/>.<br/>may change state of interrupted process to ‘blocked’ and schedule another process.<br/>operating-system<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2238/gate-cse-1997-question-3-7"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1998 | Question: 1.18</strong></div><p>Which of the following devices should get higher priority in assigning interrupts?<br/>operating-system<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1655/gate-cse-1998-question-1-18"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1999 | Question: 1.9</strong></div><p>Listed below are some operating system abstractions (in the left column) and the hardware components (in<br/>the right column)<br/>A<br/>.<br/>(A) – 2 (B) – 4 (C) – 3 (D) – 1<br/>B<br/>.<br/>(A) – 1 (B) – 2 (C) – 3 (D) – 4<br/>C<br/>.<br/>(A) – 3 (B) – 2 (C) – 4 (D) – 1<br/>D<br/>.<br/>(A) – 4 (B) – 1 (C) – 2 (D) – 3<br/>operating-system<br/>easy<br/>interrupts<br/>virtual-memory<br/>disk</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1655/gate-cse-1998-question-1-18"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2001 | Question: 1.12</strong></div><p>A processor needs software interrupt to<br/>A<br/>.<br/>test the interrupt system of the processor<br/>B<br/>.<br/>implement co-routines<br/>C<br/>.<br/>obtain system services which need execution of privileged instructions<br/>D<br/>.<br/>return from subroutine<br/>operating-system<br/>interrupts<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1655/gate-cse-1998-question-1-18"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2011 | Question: 11</strong></div><p>A computer handles several interrupt sources of which of the following are relevant for this question.<br/>Interrupt from CPU temperature sensor (raises interrupt if CPU temperature is too high)<br/>Interrupt from Mouse (raises Interrupt if the mouse is moved or a button is pressed)<br/>Interrupt from Keyboard (raises Interrupt if a key is pressed or released)<br/>Interrupt from Hard Disk (raises Interrupt when a disk read is completed)<br/>Which one of these will be handled at the<br/>HIGHEST<br/>priority?<br/>1<br/>.<br/>Interrupt from Hard Disk<br/>2<br/>.<br/>Interrupt from Mouse<br/>3<br/>.<br/>Interrupt from Keyboard<br/>4<br/>.<br/>Interrupt from CPU temperature sensor<br/>operating-system<br/>interrupts<br/>Least Recently Used<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2113/gate-cse-2011-question-11"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Least Recently Used",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Least Recently Used: GATE CSE 2023 | Question: 47</strong></div><p>Consider the following two-dimensional array<br/>in the<br/>programming language, which is stored in row-<br/>major order:<br/>int<br/>D<br/>[<br/>128<br/>][<br/>128<br/>];<br/>Demand paging is used for allocating memory and each physical page frame holds<br/>elements of the array<br/>The Least Recently Used<br/>page-replacement policy is used by the operating system. A total of<br/>physical<br/>page frames are allocated to a process which executes the following code snippet:<br/>for<br/>(<br/>int<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>128<br/>;<br/>i<br/>++)<br/>for<br/>(<br/>int<br/>j<br/>=<br/>0<br/>;<br/>j<br/><<br/>128<br/>;<br/>j<br/>++)<br/>D<br/>[<br/>j<br/>][<br/>i<br/>]<br/>*=<br/>10<br/>;<br/>The number of page faults generated during the execution of this code snippet is _______________.<br/>operating-system<br/>page-replacement<br/>least-recently-used<br/>page-faults<br/>Linked Allocation<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "4096",
+      "discussUrl": "https://gateoverflow.in/399264/gate-cse-2023-question-47"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Linked Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linked Allocation: GATE CSE 2025 | Set 1 | Question: 41</strong></div><p>A disk of size<br/>bytes is divided into blocks of<br/>bytes. A ﬁle is stored in the disk using linked<br/>allocation. In linked allocation, each data block reserves<br/>bytes to store the pointer to the next data block.<br/>The link part of the last data block contains a NULL pointer (also of<br/>bytes). Suppose a ﬁle of<br/>bytes needs to<br/>be stored in the disk. Assume,<br/>and<br/>. The amount of space in bytes that will be wasted due to<br/>internal fragmentation is __________. (Answer in integer)<br/>operating-system<br/>linked-allocation<br/>internal-fragmentation<br/>Memory Management<br/>(9)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(2Q)</p></div>",
+      "options": [],
+      "correctAnswer": "65468:65468",
+      "discussUrl": "https://gateoverflow.in/460039/gate-cse-2025-set-1-question-41"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 1992 | Question: 12-b</strong></div><p>Let the page reference and the working set window be<br/>and<br/>, respectively. The initial<br/>working set at time<br/>contains the pages<br/>, where<br/>was referenced at time<br/>,<br/>was<br/>referenced at time<br/>, and<br/>was referenced at time<br/>. Determine the total number of page faults and<br/>the average number of page frames used by computing the working set at each reference.<br/>operating-system<br/>memory-management<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "3.2",
+      "discussUrl": "https://gateoverflow.in/43582/gate-cse-1992-question-12-b"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 1995 | Question: 5</strong></div><p>A computer installation has<br/>of main memory. The jobs arrive and finish in the following sequences.<br/>Job<br/>1<br/>requiring<br/>200k<br/>arrives<br/>Job<br/>2<br/>requiring<br/>350k<br/>arrives<br/>Job<br/>3<br/>requiring<br/>300k<br/>arrives<br/>Job<br/>1<br/>finishes<br/>Job<br/>4<br/>requiring<br/>120k<br/>arrives<br/>Job<br/>5<br/>requiring<br/>150k<br/>arrives<br/>Job<br/>6<br/>requiring<br/>80k<br/>arrives<br/>A<br/>.<br/>Draw the memory allocation table using Best Fit and First Fit algorithms.<br/>B<br/>.<br/>Which algorithm performs better for this sequence?<br/>operating-system<br/>memory-management<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460039/gate-cse-2025-set-1-question-41"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 1996 | Question: 2.18</strong></div><p>A<br/>memory is managed using variable partitions but no compaction. It currently has two<br/>partitions of sizes<br/>and<br/>respectively. The smallest allocation request in<br/>that<br/>could be denied is for<br/>operating-system<br/>memory-management</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2747/gate-cse-1996-question-2-18"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 1998 | Question: 2.16</strong></div><p>The overlay tree for a program is as shown below:<br/>What will be the size of the partition (in physical memory) required to load (and run) this program?<br/>operating-system<br/>memory-management</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2747/gate-cse-1996-question-2-18"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 2014 | Set 2 | Question: 55</strong></div><p>Consider the main memory system that consists of<br/>memory modules attached to the system bus, which is<br/>one word wide. When a write request is made, the bus is occupied for<br/>nanoseconds (ns) by the data,<br/>address, and control signals. During the same<br/>ns, and for<br/>ns thereafter, the addressed memory module<br/>executes one cycle accepting and storing the data. The (internal) operation of diﬀerent memory modules may<br/>overlap in time, but only one request can be on the bus at any time. The maximum number of stores (of one word<br/>each) that can be initiated in<br/>millisecond is ________<br/>operating-system<br/>memory-management</p></div>",
+      "options": [],
+      "correctAnswer": "10000",
+      "discussUrl": "https://gateoverflow.in/2747/gate-cse-1996-question-2-18"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 2015 | Set 2 | Question: 30</strong></div><p>Consider<br/>memory partitions of sizes<br/>,<br/>,<br/>,<br/>,<br/>and<br/>, where<br/>refers to<br/>. These partitions need to be allotted to four processes of sizes<br/>,<br/>,<br/>,<br/>in that order. If the best-fit algorithm is used, which partitions are NOT allotted to any process?<br/>operating-system<br/>memory-management<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2747/gate-cse-1996-question-2-18"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE CSE 2020 | Question: 11</strong></div><p>Consider allocation of memory to a new process. Assume that none of the existing holes in the memory will<br/>exactly ﬁt the process’s memory requirement. Hence, a new hole of smaller size will be created if allocation<br/>is made in any of the existing holes. Which one of the following statement is TRUE?<br/>A<br/>.<br/>The hole created by first fit is always larger than the hole created by next fit.<br/>B<br/>.<br/>The hole created by worst fit is always larger than the hole created by first fit.<br/>C<br/>.<br/>The hole created by best fit is never larger than the hole created by first fit.<br/>D<br/>.<br/>The hole created by next fit is never larger than the hole created by best fit.<br/>operating-system<br/>memory-management</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333220/gate-cse-2020-question-11"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE IT 2006 | Question: 56</strong></div><p>For each of the four processes<br/>and<br/>. The total size in kilobytes<br/>and the number of<br/>segments are given below.<br/>The page size is<br/>. The size of an entry in the page table is<br/>. The size of an entry in the segment table<br/>is<br/>. The maximum size of a segment is<br/>. The paging method for memory management uses two-<br/>level paging, and its storage overhead is<br/>. The storage overhead for the segmentation method is<br/>. The storage<br/>overhead for the segmentation and paging method is<br/>. What is the relation among the overheads for the diﬀerent<br/>methods of memory management in the concurrent execution of the above four processes?<br/>operating-system<br/>memory-management<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3600/gate-it-2006-question-56"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Memory Management",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Memory Management: GATE IT 2007 | Question: 11</strong></div><p>Let a memory have four free blocks of sizes<br/>,<br/>,<br/>,<br/>. These blocks are allocated following the best-ﬁt<br/>strategy. The allocation requests are stored in a queue as shown below.<br/>The time at which the request for<br/>will be completed will be<br/>operating-system<br/>memory-management<br/>Multilevel Paging<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3444/gate-it-2007-question-11"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Multilevel Paging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multilevel Paging: GATE CSE 2025 | Set 2 | Question: 48</strong></div><p>A computer system supports a logical address space of<br/>bytes. It uses two-level hierarchical paging with<br/>a page size of<br/>bytes. A logical address is divided into a<br/>-bit index to the outer page table, an oﬀset<br/>within the page of the inner page table, and an oﬀset within the desired page. Each entry of the inner page table<br/>uses eight bytes. All the pages in the system have the same size.<br/>The value of<br/>is _________. (Answer in integer)<br/>operating-system<br/>paging<br/>multilevel-paging<br/>OS Protection<br/>(3)</p></div>",
+      "options": [],
+      "correctAnswer": "11:11",
+      "discussUrl": "https://gateoverflow.in/3600/gate-it-2006-question-56"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "OS Protection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>OS Protection: GATE CSE 1999 | Question: 1.11, UGCNET-Dec2015-II: 44</strong></div><p>System calls are usually invoked by using</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3444/gate-it-2007-question-11"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "OS Protection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>OS Protection: GATE CSE 2001 | Question: 1.13</strong></div><p>A CPU has two modes -- privileged and non-privileged. In order to change the mode from privileged to non-<br/>privileged<br/>A<br/>.<br/>a hardware interrupt is needed<br/>B<br/>.<br/>a software interrupt is needed<br/>C<br/>.<br/>a privileged instruction (which does not generate an interrupt) is needed<br/>D<br/>.<br/>a non-privileged instruction (which does not generate an interrupt) is needed<br/>operating-system<br/>os-protection</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/706/gate-cse-2001-question-1-13"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "OS Protection",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>OS Protection: GATE IT 2005 | Question: 19, UGCNET-June2012-III: 57</strong></div><p>A user level process in Unix traps the signal sent on a Ctrl-C input, and has a signal handling routine that<br/>saves appropriate ﬁles before terminating the process. When a Ctrl-C input is given to this process, what is<br/>the mode in which the signal handling routine executes?<br/>operating-system<br/>os-protection<br/>ugcnetcse-june2012-paper3<br/>Page Replacement<br/>(31)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3764/gate-it-2005-question-19-ugcnet-june2012-iii-57"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1993 | Question: 21</strong></div><p>The following page addresses, in the given sequence, were generated by a program:<br/>This program is run on a demand paged virtual memory system, with main memory size equal to<br/>pages. Indicate<br/>the page references for which page faults occur for the following page replacement algorithms.<br/>A<br/>.<br/>LRU<br/>B<br/>.<br/>FIFO<br/>Assume that the main memory is initially empty.<br/>operating-system<br/>page-replacement<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2221"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1994 | Question: 1.13</strong></div><p>A memory page containing a heavily used variable that was initialized very early and is in constant use is<br/>removed then<br/>operating-system<br/>page-replacement<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/706/gate-cse-2001-question-1-13"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1994 | Question: 1.24</strong></div><p>Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/706/gate-cse-2001-question-1-13"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1995 | Question: 1.8</strong></div><p>Which of the following page replacement algorithms suffers from Belady’s anamoly?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2595/gate-cse-1995-question-1-8"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1995 | Question: 2.7</strong></div><p>The address sequence generated by tracing a particular program executing in a pure demand based paging<br/>system with<br/>records per page with<br/>free main memory frame is recorded as follows. What is the<br/>number of page faults?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2595/gate-cse-1995-question-1-8"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1997 | Question: 3.10, ISRO2008-57, ISRO2015-64</strong></div><p>Dirty bit for a page in a page table<br/>operating-system<br/>page-replacement<br/>easy<br/>isro2008<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2241/gate-cse-1997-question-3-10-isro2008-57-isro2015-64"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1997 | Question: 3.5</strong></div><p>Locality of reference implies that the page reference being made by a process<br/>A<br/>.<br/>will always be to the page used in the previous page reference<br/>B<br/>.<br/>is likely to be to one of the pages used in the last few page references<br/>C<br/>.<br/>will always be to one of the pages existing in memory<br/>D<br/>.<br/>will always lead to a page fault<br/>operating-system<br/>page-replacement<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2595/gate-cse-1995-question-1-8"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 1997 | Question: 3.9</strong></div><p>Thrashing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2595/gate-cse-1995-question-1-8"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2001 | Question: 1.21</strong></div><p>Consider a virtual memory system with FIFO page replacement policy. For an arbitrary page access pattern,<br/>increasing the number of page frames in main memory will<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/714/gate-cse-2001-question-1-21"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2002 | Question: 1.23</strong></div><p>The optimal page replacement algorithm will select the page that<br/>A<br/>.<br/>Has not been used for the longest time in the past<br/>B<br/>.<br/>Will not be used for the longest time in the future<br/>C<br/>.<br/>Has been used least number of times<br/>D<br/>.<br/>Has been used most number of times<br/>operating-system<br/>page-replacement<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/714/gate-cse-2001-question-1-21"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2004 | Question: 21, ISRO2007-44</strong></div><p>The minimum number of page frames that must be allocated to a running process in a virtual memory<br/>environment is determined by<br/>operating-system<br/>virtual-memory<br/>page-replacement<br/>isro2007</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/714/gate-cse-2001-question-1-21"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2005 | Question: 22, ISRO2015-36</strong></div><p>Increasing the RAM of a computer typically improves performance because:<br/>operating-system<br/>page-replacement<br/>easy<br/>isro2015</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1358/gate-cse-2005-question-22-isro2015-36"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2007 | Question: 56</strong></div><p>A virtual memory system uses First In First Out (FIFO) page replacement policy and allocates a ﬁxed<br/>number of frames to a process. Consider the following statements:<br/>P:<br/>Increasing the number of page frames allocated to a process sometimes increases the page fault rate.<br/>Q:<br/>Some programs do not exhibit locality of reference.<br/>Which one of the following is TRUE?<br/>operating-system<br/>page-replacement</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1018/gate-cse-2004-question-21-isro2007-44"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Page Replacement",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Page Replacement: GATE CSE 2007 | Question: 82</strong></div><p>A process has been allocated<br/>page frames. Assume that none of the pages of the process are available in<br/>the memory initially. The process makes the following sequence of page references (reference string):<br/>If optimal page replacement policy is used, how many page faults occur for the above reference string?<br/>operating-system<br/>page-replacement<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1274/gate-cse-2007-question-82"
+    }
+  ]
+}

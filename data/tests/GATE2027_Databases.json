@@ -1,0 +1,139 @@
+{
+  "id": "GATE2027_Databases",
+  "fileName": "GATE2027_Databases.json",
+  "title": "GATE 2027 Original | Databases (DBMS) Challenger Test",
+  "subject": "Databases (DBMS)",
+  "testType": "GATE 2027 Original",
+  "series": "GATE 2027 Original",
+  "durationMinutes": 45,
+  "totalQuestions": 4,
+  "totalMarks": 7,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Databases - Concurrency Control",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Databases - Concurrency Control</strong></div>\n<p>Consider the following concurrent schedule $S$ involving three transactions $T_1, T_2, T_3$:<br/>$$S: r_1(X);\\; w_2(X);\\; w_1(X);\\; w_3(X);\\; c_1;\\; c_2;\\; c_3$$<br/>Which of the following statements is correct regarding schedule $S$?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    1. Conflict Graph:<br/>- $r_1(X) \\rightarrow w_2(X) \\implies T_1 \\rightarrow T_2$<br/>- $w_2(X) \\rightarrow w_1(X) \\implies T_2 \\rightarrow T_1$<br/>There is a cycle $T_1 \\rightleftharpoons T_2$, so $S$ is <strong>NOT conflict serializable</strong>.<br/>2. View Serializability check:<br/>- Initial read of $X$: $T_1$ reads initial value.<br/>- Final write of $X$: $T_3$ writes last.<br/>- Write-Read pairs: none.<br/>In serial order $T_2 \\rightarrow T_1 \\rightarrow T_3$:<br/>- $T_1$ reads initial value (since $T_2$ only writes and doesn't affect $T_1$ if $T_1$ is before it? No, in $T_2 \\rightarrow T_1$, $T_1$ would read $T_2$'s write!).<br/>In $S$, $T_1$ reads initial value, so in any view equivalent serial schedule, $T_1$ must precede any writer of $X$, so $T_1$ must be first! But if $T_1$ is first, $T_1 \\rightarrow T_2 \\rightarrow T_3$, final write is $T_3$. However, in $S$, $w_1(X)$ occurs after $w_2(X)$, so $T_2$ does not overwrite $T_1$. Both $w_2$ and $w_1$ are blind writes overridden by $w_3$. Thus view equivalent to $T_2 \\rightarrow T_1 \\rightarrow T_3$.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$S$ is conflict serializable and view serializable</span>",
+          "textHtml": "<span>$S$ is conflict serializable and view serializable</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$S$ is NOT conflict serializable, but it is view serializable to serial schedule $T_1 \\rightarrow T_2 \\rightarrow T_3$</span>",
+          "textHtml": "<span>$S$ is NOT conflict serializable, but it is view serializable to serial schedule $T_1 \\rightarrow T_2 \\rightarrow T_3$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$S$ is NOT conflict serializable, but it is view serializable to serial schedule $T_2 \\rightarrow T_1 \\rightarrow T_3$</span>",
+          "textHtml": "<span>$S$ is NOT conflict serializable, but it is view serializable to serial schedule $T_2 \\rightarrow T_1 \\rightarrow T_3$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$S$ is neither conflict serializable nor view serializable</span>",
+          "textHtml": "<span>$S$ is neither conflict serializable nor view serializable</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Databases - Relational Calculus",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Databases - Relational Calculus</strong></div>\n<p>Which of the following Tuple Relational Calculus (TRC) expressions is/are <strong>UNSAFE</strong>?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    A query is safe if all its result tuples are composed of constants from the domain of the database instance ($\text{DOM}(Q)$).<br/><b>A is UNSAFE:</b> $\\neg(t \\in R)$ generates infinitely many tuples not present in $R$.<br/><b>B is SAFE:</b> $t[A]$ is bounded by values in $R$, and $t[B]=5$ is a constant in the query.<br/><b>C is SAFE:</b> Tuples are bounded by $R \\cup S$.<br/><b>D is UNSAFE:</b> A tuple $t$ satisfying the universal quantifier can contain attributes outside $\text{DOM}(Q)$ or generate arbitrary values when $R$ is empty.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>$\\{ t \\mid \\neg(t \\in R) \\}$</span>",
+          "textHtml": "<span>$\\{ t \\mid \\neg(t \\in R) \\}$</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>$\\{ t \\mid \\exists u \\in R (t[A] = u[A] \\land t[B] = 5) \\}$</span>",
+          "textHtml": "<span>$\\{ t \\mid \\exists u \\in R (t[A] = u[A] \\land t[B] = 5) \\}$</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>$\\{ t \\mid t \\in R \\lor t \\in S \\}$</span>",
+          "textHtml": "<span>$\\{ t \\mid t \\in R \\lor t \\in S \\}$</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>$\\{ t \\mid \\forall u \\in R (t[A] = u[A]) \\}$</span>",
+          "textHtml": "<span>$\\{ t \\mid \\forall u \\in R (t[A] = u[A]) \\}$</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Databases - B+ Tree Indexing",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Databases - B+ Tree Indexing</strong></div>\n<p>A B+ tree index is constructed on a relation with search key size = 16 bytes, record pointer = 8 bytes, block pointer = 8 bytes, and block size = 1024 bytes. What is the maximum number of search keys that can be accommodated in a <strong>leaf node</strong> of this B+ tree, assuming the leaf node includes one block pointer to the next leaf?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In a leaf node of a B+ tree, each entry consists of (Search Key, Record Pointer). In addition, there is one next-leaf block pointer.<br/>Let $p$ be the number of keys in the leaf node.<br/>Total size $= p \\times (\\text{Key Size} + \\text{Record Pointer Size}) + \\text{Next Block Pointer} \\le \\text{Block Size}$<br/>$p \\times (16 + 8) + 8 \\le 1024$<br/>$p \\times 24 + 8 \\le 1024 \\implies 24p \\le 1016 \\implies p \\le \\lfloor 1016 / 24 \\rfloor = 42.33$<br/>Maximum number of keys = 42.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "42",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Databases - SQL & Relational Algebra",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Databases - SQL & Relational Algebra</strong></div>\n<p>Consider a table `Student(id, marks)` containing 10 tuples, where 3 tuples have `marks = NULL` and the remaining 7 tuples have integer marks $50, 60, 70, 80, 90, 95, 100$. What is the number of rows returned by the query:<br/><pre><code>SELECT id FROM Student WHERE marks &gt; 70 OR marks &lt;= 70;</code></pre></p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    In SQL three-valued logic, any comparison with `NULL` (such as `NULL > 70` or `NULL <= 70`) evaluates to `UNKNOWN`.<br/>`UNKNOWN OR UNKNOWN` evaluates to `UNKNOWN`.<br/>The `WHERE` clause only filters in tuples where the condition evaluates to `TRUE`.<br/>For the 3 tuples with `marks = NULL`, the condition is `UNKNOWN`, so they are discarded.<br/>For the 7 non-NULL tuples, the condition evaluates to `TRUE`. Hence, exactly 7 rows are returned.\n  </div>\n</div>\n</div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>10</span>",
+          "textHtml": "<span>10</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>7</span>",
+          "textHtml": "<span>7</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>4</span>",
+          "textHtml": "<span>4</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>0</span>",
+          "textHtml": "<span>0</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

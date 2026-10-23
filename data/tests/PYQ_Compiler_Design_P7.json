@@ -1,0 +1,88 @@
+{
+  "id": "PYQ_Compiler_Design_P7",
+  "fileName": "PYQ_Compiler_Design_P7.json",
+  "title": "GATE Official PYQs | Compiler Design Part 7",
+  "subject": "Compiler Design",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 2,
+  "totalMarks": 2,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Variable Scope",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Variable Scope: GATE CSE 1987 | Question: 1-xx</strong></div><p>For the program given below what will be printed by the write statements marked<br/>and<br/>in the program<br/>if the variables are dynamically scoped?<br/>Var<br/>x<br/>,<br/>y<br/>:<br/>interger<br/>;<br/>procedure P<br/>(<br/>n<br/>:<br/>interger<br/>);<br/>begin<br/>x<br/>:=<br/>(<br/>n<br/>+<br/>2<br/>)/(<br/>n<br/>-<br/>3<br/>);<br/>end<br/>;<br/>procedure Q<br/>Var<br/>x<br/>,<br/>y<br/>:<br/>interger<br/>;<br/>begin<br/>x<br/>:=<br/>3<br/>;<br/>y<br/>:=<br/>4<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/80373/gate-cse-1987-question-1-xix"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Viable Prefix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Viable Prefix: GATE CSE 2015 | Set 1 | Question: 1</strong></div><p>3<br/>Which one of the following is TRUE at any valid state in shift-reduce parsing?<br/>A<br/>.<br/>Viable prefixes appear only at the bottom of the stack and not inside<br/>B<br/>.<br/>Viable prefixes appear only at the top of the stack and not inside<br/>C<br/>.<br/>The stack contains only a set of viable prefixes<br/>D<br/>.<br/>The stack never contains viable prefixes<br/>compiler-design<br/>parsing<br/>viable-prefix<br/>lr-parser<br/>2.1.1<br/>C<br/>2.2.1<br/>B<br/>2.2.2<br/>B;C<br/>2.3.1<br/>N/A<br/>2.3.2<br/>TBA<br/>2.3.3<br/>N/A<br/>2.3.4<br/>A;B;C<br/>2.3.5<br/>True<br/>2.3.6<br/>N/A<br/>2.3.7<br/>True<br/>2.3.8<br/>False<br/>2.3.9<br/>B<br/>2.4.1<br/>C<br/>2.5.1<br/>6:6<br/>2.5.2<br/>A<br/>2.6.1<br/>A<br/>2.6.2<br/>D<br/>2.6.3<br/>A<br/>2.6.4<br/>D<br/>2.6.5<br/>7<br/>2.6.6<br/>D<br/>2.6.7<br/>B<br/>2.6.8<br/>D<br/>2.7.1<br/>C<br/>2.7.2<br/>N/A<br/>2.7.3<br/>A<br/>2.7.4<br/>B<br/>2.7.5<br/>C<br/>2.7.6<br/>B<br/>2.7.7<br/>C<br/>2.7.8<br/>B<br/>2.7.9<br/>D<br/>2.7.10<br/>C<br/>2.7.11<br/>B<br/>2.7.12<br/>B<br/>2.7.13<br/>C<br/>2.8.1<br/>13:13<br/>2.9.1<br/>A<br/>2.9.2<br/>6 : 6<br/>2.10.1<br/>A<br/>2.10.2<br/>6<br/>2.11.1<br/>A;B<br/>2.11.2<br/>A<br/>2.11.3<br/>C<br/>2.11.4<br/>31<br/>2.11.5<br/>A<br/>2.11.6<br/>A;D<br/>2.12.1<br/>N/A<br/>2.12.2<br/>N/A<br/>2.12.3<br/>N/A<br/>2.12.4<br/>N/A<br/>2.12.5<br/>N/A<br/>2.12.6<br/>C<br/>2.12.7<br/>C<br/>2.12.8<br/>N/A<br/>2.12.9<br/>N/A<br/>2.12.10<br/>X<br/>2.12.11<br/>N/A<br/>2.12.12<br/>N/A<br/>2.12.13<br/>D<br/>2.12.14<br/>N/A<br/>2.12.15<br/>N/A<br/>2.12.16<br/>N/A<br/>2.12.17<br/>C<br/>2.12.18<br/>A<br/>2.12.19<br/>N/A<br/>2.12.20<br/>D<br/>2.12.21<br/>A<br/>2.12.22<br/>B<br/>2.12.23<br/>B<br/>2.12.24<br/>C<br/>2.12.25<br/>A<br/>2.12.26<br/>D<br/>2.12.27<br/>B<br/>2.12.28<br/>D<br/>2.12.29<br/>D<br/>2.12.30<br/>A<br/>2.12.31<br/>C<br/>2.12.32<br/>C<br/>2.12.33<br/>C<br/>2.12.34<br/>B<br/>2.12.35<br/>C<br/>2.12.36<br/>C<br/>2.12.37<br/>B<br/>2.12.38<br/>A<br/>2.12.39<br/>C<br/>2.12.40<br/>5<br/>2.12.41<br/>A<br/>2.12.42<br/>179<br/>2.12.43<br/>B;C<br/>2.12.44<br/>C;D<br/>2.12.45<br/>A<br/>2.12.46<br/>C<br/>2.12.47<br/>D<br/>2.13.1<br/>N/A<br/>2.13.2<br/>N/A<br/>2.13.3<br/>N/A<br/>2.13.4<br/>C<br/>2.13.5<br/>A<br/>2.13.6<br/>C</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8187/gate-cse-2015-set-1-question-1-3"
+    }
+  ]
+}

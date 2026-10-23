@@ -1,0 +1,1204 @@
+{
+  "id": "PYQ_General_Aptitude_P3",
+  "fileName": "PYQ_General_Aptitude_P3.json",
+  "title": "GATE Official PYQs | General Aptitude Part 3",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 49,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Geometry",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Geometry: GATE DA 2025 | GA | Question: 8</strong></div><p>​​​​​<br/>A regular dodecagon (<br/>-sided regular polygon) is inscribed in a circle of radius<br/>cm as shown in the ﬁgure.<br/>The side of the dodecagon is<br/>. All the triangles (numbered<br/>to<br/>) in the ﬁgure are used to form<br/>squares of side<br/>and each numbered triangle is used only once to form a square.<br/>The number of squares that can be formed and the number of triangles required to form each square, respectively,<br/>are:<br/>Note: The figure shown is representative.<br/>gateda-2025<br/>quantitative-aptitude<br/>geometry<br/>Graph Coloring<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/461029/gate-da-2025-ga-question-4"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Line Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Line Graph: GATE CSE 2014 | Set 2 | GA | Question: 9</strong></div><p>The ratio of male to female students in a college for ﬁve years is plotted in the following line graph. If the<br/>number of female students doubled in<br/>, by what percent did the number of male students increase in<br/>?<br/>quantitative-aptitude<br/>data-interpretation<br/>line-graph</p></div>",
+      "options": [],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422970/gate-ds&ai-2024-ga-question-2"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Line Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Line Graph: GATE CSE 2014 | Set 3 | GA | Question: 9</strong></div><p>The ratio of male to female students in a college for ﬁve years is plotted in the following line graph. If the<br/>number of female students in<br/>and<br/>is equal, what is the ratio of male students in<br/>to male<br/>students in<br/>?<br/>quantitative-aptitude<br/>data-interpretation<br/>line-graph</p></div>",
+      "options": [],
+      "correctAnswer": "140",
+      "discussUrl": "https://gateoverflow.in/422970/gate-ds&ai-2024-ga-question-2"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Line Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Line Graph: GATE CSE 2016 | Set 2 | GA | Question: 10</strong></div><p></p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422970/gate-ds&ai-2024-ga-question-2"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logarithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logarithms: GATE CSE 2011 | Question: 57</strong></div><p>If<br/>, then which of the following options is<br/>TRUE<br/>?<br/>quantitative-aptitude<br/>logarithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2166/gate-cse-2011-question-57"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Logarithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logarithms: GATE CSE 2018 | GA | Question: 7</strong></div><p>If<br/>and<br/>what is the value of the product<br/>?<br/>quantitative-aptitude<br/>ratio-proportion<br/>logarithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1870"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logarithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logarithms: GATE CSE 2024 | Set 1 | GA | Question: 5</strong></div><p>For positive non-zero real variables<br/>and<br/>, if<br/>then, the value of<br/>is<br/>quantitative-aptitude<br/>logarithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1869"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logarithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logarithms: GATE CSE 2024 | Set 2 | GA | Question: 4</strong></div><p>For positive non-zero real variables<br/>and<br/>, if<br/>then, the value of<br/>is<br/>quantitative-aptitude<br/>logarithms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2166/gate-cse-2011-question-57"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Logarithms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Logarithms: GATE DA 2026 | GA | Question: 4</strong></div><p>Consider two distinct positive real numbers<br/>, with<br/>. Let<br/>and<br/>. The<br/>relation between<br/>and<br/>is<br/>.<br/>gateda-2026<br/>quantitative-aptitude<br/>logarithms<br/>Logarithms: GATE2012 AR: GA-6<br/>A value of<br/>that satisfies the equation<br/>is<br/>quantitative-aptitude<br/>logarithms<br/>Maps<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523222/gate-da-2026-ga-question-4"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Maps",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maps: GATE CSE 2025 | Set 2 | GA | Question: 10</strong></div><p>The diagram below shows a river system consisting of<br/>segments, marked<br/>and<br/>It<br/>splits the land into<br/>zones, marked<br/>and<br/>. We need to connect these zones using the<br/>least number of bridges, Out of the following options, which one is correct?<br/>Note: The figure shown is representative.<br/>quantitative-aptitude<br/>maps<br/>Maxima Minima<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/523222/gate-da-2026-ga-question-4"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2012 | Question: 62</strong></div><p>A political party orders an arch for the entrance to the ground in which the annual convention is being held.<br/>The proﬁle of the arch follows the equation<br/>where<br/>is the height of the arch in meters. The<br/>maximum possible height of the arch is<br/>quantitative-aptitude<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40227/gate2012-ar-ga-6"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2017 | Set 2 | GA | Question: 9</strong></div><p>The number of roots of<br/>in the range<br/>is<br/>quantitative-aptitude<br/>maxima-minima<br/>calculus<br/>Maxima Minima: GATE2010 TF: GA-5<br/>Consider the function<br/>In which range does<br/>take its minimum value<br/>general-aptitude<br/>quantitative-aptitude<br/>maxima-minima<br/>functions<br/>Maxima Minima: GATE2013 CE: GA-6<br/>and<br/>are two positive real numbers such that<br/>and<br/>For which of the<br/>following values of<br/>the function<br/>will give maximum value ?<br/>quantitative-aptitude<br/>maxima-minima<br/>Mensuration<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118423/gate-cse-2017-set-2-ga-question-9"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Mensuration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Mensuration: GATE DA 2025 | GA | Question: 5</strong></div><p>A rectangle has a length<br/>and a width<br/>where<br/>. If the width,<br/>is increased by<br/>, which<br/>one of the following statements is correct for all values of<br/>and<br/>gateda-2025<br/>quantitative-aptitude<br/>mensuration<br/>Modular Arithmetic<br/>(1)<br/>Modular Arithmetic: GATE2012 CY: GA-1<br/>If<br/>=<br/>and<br/>=<br/>, then<br/>=<br/>quantitative-aptitude<br/>modular-arithmetic<br/>Number Representation<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/312024/gate2010-tf-ga-5"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Representation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Representation: GATE DA 2026 | GA | Question: 2</strong></div><p>The product of the digits of a three-digit number is<br/>. The sum of the digits of this three-digit number is<br/>gateda-2026<br/>quantitative-aptitude<br/>number-representation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118423/gate-cse-2017-set-2-ga-question-9"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Series: GATE CSE 2013 | Question: 61</strong></div><p>Find the sum of the expression<br/>quantitative-aptitude<br/>number-series</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1565/gate-cse-2013-question-61"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Series: GATE CSE 2014 | Set 2 | GA | Question: 5</strong></div><p>The value of<br/>is<br/>quantitative-aptitude<br/>easy<br/>number-series</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1853"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Series",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Series: GATE CSE 2014 | Set 3 | GA | Question: 4</strong></div><p>Which number does not belong in the series below?<br/>quantitative-aptitude<br/>number-series<br/>easy<br/>Number Series: GATE2010 TF: GA-7<br/>Consider the series<br/>The sum of the inﬁnite series above<br/>is<br/>general-aptitude<br/>quantitative-aptitude<br/>number-series<br/>Number Series: GATE2013 EE: GA-10<br/>Find the sum to<br/>terms of the series<br/>quantitative-aptitude<br/>number-series<br/>Number System<br/>(4)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(2Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1853"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number System: GATE CSE 2014 | Set 3 | GA | Question: 10</strong></div><p>Consider the equation:<br/>, where<br/>stands for<br/>to the base<br/>. Find<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1853"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number System: GATE CSE 2017 | Set 2 | GA | Question: 8</strong></div><p>is a<br/>digit number starting with the digit<br/>followed by the digit<br/>. Then the number<br/>will have<br/>quantitative-aptitude<br/>number-system</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118422/gate-cse-2017-set-2-ga-question-8"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Number System",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number System: GATE DA 2026 | GA | Question: 9</strong></div><p>, and<br/>are distinct single-digit whole numbers taking values from<br/>to<br/>.<br/>is a two-digit number with<br/>being in the units place and<br/>in the tens place. Similarly,<br/>is a two-digit<br/>number.<br/>It is known that<br/>and<br/>are consecutive numbers and<br/>, with<br/>being a three-<br/>digit number.<br/>The value of<br/>is<br/>gateda-2026<br/>quantitative-aptitude<br/>number-system<br/>Number System: GATE2010 MN: GA-9<br/>A positive integer<br/>in base<br/>when represented in base<br/>has the representation<br/>and in base<br/>has the<br/>representation<br/>We get<br/>where the subtraction is done in base<br/>Which of the following is<br/>necessarily true<br/>general-aptitude<br/>quantitative-aptitude<br/>number-system<br/>Number Theory<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523217/gate-da-2026-ga-question-9"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE CSE 2025 | Set 2 | GA | Question: 3</strong></div><p>​​​​​​<br/>If<br/>for all real values of<br/>, which one of the following statements is true?<br/>quantitative-aptitude<br/>mathematical-logic<br/>number-theory<br/>Number Theory: GATE2012 AE: GA-8<br/>If a prime number on division by<br/>gives a remainder of<br/>then that number can be expressed as<br/>A<br/>.<br/>sum of squares of two natural numbers<br/>B<br/>.<br/>sum of cubes of two natural numbers<br/>C<br/>.<br/>sum of square roots of two natural numbers<br/>D<br/>.<br/>sum of cube roots of two natural numbers</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118422/gate-cse-2017-set-2-ga-question-8"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2014 | Set 1 | GA | Question: 4</strong></div><p>If<br/>, compute<br/>.<br/>quantitative-aptitude<br/>easy<br/>numerical-computation</p></div>",
+      "options": [],
+      "correctAnswer": "96",
+      "discussUrl": "https://gateoverflow.in/test/1873"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2014 | Set 2 | GA | Question: 4</strong></div><p>What is the average of all multiples of<br/>from<br/>to<br/>?<br/>quantitative-aptitude<br/>easy<br/>numerical-computation<br/>factors</p></div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1874"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2017 | Set 1 | GA | Question: 4</strong></div><p>Find the smallest number<br/>such that<br/>is a perfect cube.<br/>general-aptitude<br/>quantitative-aptitude<br/>easy<br/>numerical-computation</p></div>",
+      "options": [],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1873"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2017 | Set 2 | GA | Question: 4</strong></div><p>A test has twenty questions worth<br/>marks in total. There are two types of questions. Multiple choice<br/>questions are worth<br/>marks each and essay questions are worth<br/>marks each. How many multiple choice<br/>questions does the exam have?<br/>quantitative-aptitude<br/>numerical-computation</p></div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1874"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2026 | Set 1 | GA | Question: 3</strong></div><p>Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each<br/>game is eliminated from the tournament. Every player plays until she is defeated or remains the last<br/>undefeated player. The last undefeated player is declared the winner of the tournament. If there are<br/>players in<br/>the beginning of the tournament, how many games should be played in total to declare the winner of the<br/>tournament?<br/>quantitative-aptitude<br/>numerical-computation<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1873"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2026 | Set 1 | GA | Question: 4</strong></div><p>A student needs to enroll for a minimum of<br/>credits. A student cannot enroll for more than<br/>credits. The<br/>credits are divided amongst project and three distinct sets of courses namely, core courses, specialization<br/>courses, and elective courses. It is compulsory for a student to enroll for exactly<br/>credits of core courses and<br/>exactly<br/>credits of project. In addition, a student has to enroll for a minimum of<br/>credits of specialization</p></div>",
+      "options": [],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1873"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Numerical Computation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Numerical Computation: GATE CSE 2026 | Set 1 | GA | Question: 8</strong></div><p>For positive real numbers<br/>and<br/>, the function<br/>is defined as:<br/>. The max function is defined as:<br/>The graph below shows the plot of a function<br/>versus<br/>.<br/>can be expressed as<br/>.<br/>quantitative-aptitude<br/>numerical-computation<br/>Numerical Computation: GATE2010 TF: GA-10<br/>A student is answering a multiple choice examination with<br/>questions with a marking scheme as follows<br/>marks for each correct answer<br/>for a wrong answer<br/>for a question that has not been<br/>attempted<br/>If the student gets<br/>marks in the test then the least possible number of questions the student has NOT<br/>answered is<br/>general-aptitude<br/>quantitative-aptitude<br/>numerical-computation<br/>Numerical Computation: GATE2013 CE: GA-1<br/>A number is as much greater than<br/>as it is smaller than<br/>. The number is:<br/>quantitative-aptitude<br/>numerical-computation<br/>Percentage<br/>(8)</p></div>",
+      "options": [],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/523082/gate-cse-2026-set-1-ga-question-8"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Percentage",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Percentage: GATE CSE 2014 | Set 1 | GA | Question: 8</strong></div><p>Round-trip tickets to a tourist destination are eligible for a discount of<br/>on the total fare. In addition,<br/>groups of<br/>or more get a discount of<br/>on the total fare. If the one way single person fare is<br/>, a<br/>group of<br/>tourists purchasing round-trip tickets will be charged<br/>__________<br/>quantitative-aptitude<br/>easy<br/>percentage</p></div>",
+      "options": [],
+      "correctAnswer": "850",
+      "discussUrl": "https://gateoverflow.in/test/1839"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Percentage",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Percentage: GATE CSE 2014 | Set 3 | GA | Question: 8</strong></div><p>The Gross Domestic Product<br/>in Rupees grew at<br/>during<br/>. For international<br/>comparison, the<br/>is compared in US Dollars<br/>after conversion based on the market exchange<br/>rate. During the period<br/>the exchange rate for the<br/>increased from<br/>.<br/>to<br/>/<br/>. India's GDP in USD during the period<br/>quantitative-aptitude<br/>percentage</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1839"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Percentage",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Percentage: GATE CSE 2024 | Set 1 | GA | Question: 4</strong></div><p>The number of coins of<br/>₹<br/>,<br/>₹<br/>, and<br/>₹<br/>denominations that a person has are in the ratio<br/>. Of the<br/>total amount, the percentage of money in<br/>₹<br/>coins is<br/>quantitative-aptitude<br/>percentage<br/>Percentage: GATE2011 AG: GA-4<br/>There are two candidates<br/>and<br/>in an election. During the campaign,<br/>of the voters promised to vote<br/>for<br/>and rest for<br/>However, on the day of election<br/>of the voters went back on their promise to vote<br/>for<br/>and instead voted for<br/>of the voters went back on their promise to vote for<br/>and instead voted for<br/>Suppose<br/>lost by<br/>votes<br/>then what was the total number of voters?<br/>general-aptitude<br/>quantitative-aptitude<br/>percentage<br/>Percentage: GATE2012 AE: GA-7<br/>The total runs scored by four cricketers<br/>and<br/>in years<br/>and<br/>are given in the following<br/>table;<br/>The player with the lowest percentage increase in total runs is<br/>quantitative-aptitude<br/>percentage</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1839"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Permutation and Combination",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Permutation and Combination: GATE CSE 2024 | Set 2 | GA | Question: 2</strong></div><p>Two wizards try to create a spell using all the four elements,<br/>water, air, ﬁre<br/>, and<br/>earth<br/>. For this, they decide<br/>to mix all these elements in all possible orders. They also decide to work independently. After trying all<br/>possible combination of elements, they conclude that the spell does not work.<br/>How many attempts does each wizard make before coming to this conclusion, independently?<br/>quantitative-aptitude<br/>permutation-and-combination</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/40239/gate2012-cy-ga-8"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Permutation and Combination",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Permutation and Combination: GATE CSE 2025 | Set 1 | GA | Question: 10</strong></div><p>A shop has<br/>distinct ﬂavors of ice-cream. One can purchase any number of scoops of any ﬂavor. The order<br/>in which the scoops are purchased is inconsequential. If one wants to purchase<br/>scoops of ice-cream, in<br/>how many ways can one make that purchase?<br/>quantitative-aptitude<br/>permutation-and-combination</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Permutation and Combination",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Permutation and Combination: GATE DA 2026 | GA | Question: 7</strong></div><p>Five integers are picked from<br/>to<br/>, with possible repetitions, such that their mean is<br/>, median is<br/>,<br/>and they have a single mode of<br/>.<br/>Ignoring permutations, the number of ways to pick these five integers is<br/>gateda-2026<br/>quantitative-aptitude<br/>permutation-and-combination<br/>Permutation and Combination: GATE DS&AI 2024 | GA | Question: 3<br/>How many<br/>-digit positive integers divisible by<br/>can be formed using only the digits<br/>, such<br/>that no digit appears more than once in a number?<br/>gate-ds-ai-2024<br/>quantitative-aptitude<br/>permutation-and-combination<br/>Pie Chart<br/>(5)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523219/gate-da-2026-ga-question-7"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pie Chart",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pie Chart: GATE CSE 2015 | Set 1 | GA | Question: 9</strong></div><p>The pie chart below has the breakup of the number of students from diﬀerent departments in an engineering<br/>college for the year<br/>. The proportion of male to female students in each department is<br/>. There are<br/>males in Electrical Engineering. What is the diﬀerence between the numbers of female students in the civil<br/>department and the female students in the Mechanical department?<br/>quantitative-aptitude<br/>data-interpretation<br/>pie-chart</p></div>",
+      "options": [],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Pie Chart",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pie Chart: GATE CSE 2024 | Set 1 | GA | Question: 8</strong></div><p>The pie chart presents the percentage contribution of diﬀerent macronutrients to a typical<br/>diet of<br/>a person.</p></div>",
+      "options": [],
+      "correctAnswer": "32",
+      "discussUrl": "https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Pie Chart",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pie Chart: GATE CSE 2024 | Set 2 | GA | Question: 8</strong></div><p>The pie charts depict the shares of various power generation technologies in the total electricity generation<br/>of a country for the years<br/>and<br/>.<br/>The renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity<br/>generated remains the same from<br/>to<br/>, what is the percentage increase in the share of the renewable<br/>sources of electricity generation over this period?<br/>quantitative-aptitude<br/>pie-chart<br/>Pie Chart: GATE DS&AI 2024 | GA | Question: 5<br/>In an election, the share of valid votes received by the four candidates<br/>, and<br/>is represented by the<br/>pie chart shown. The total number of votes cast in the election were<br/>, out of which<br/>were<br/>invalid.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/422899/gate-cse-2024-set-2-ga-question-8"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 2016 | Set 1 | GA | Question: 09</strong></div><p>If<br/>, which of the following is a factor of<br/>?<br/>quantitative-aptitude<br/>polynomials<br/>Powers<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/41672/gate2014-ag-ga-8"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Powers",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Powers: GATE DA 2025 | GA | Question: 9</strong></div><p>If a real variable<br/>satisfies<br/>, then the value of<br/>is:<br/>gateda-2025<br/>quantitative-aptitude<br/>powers<br/>Prime Numbers<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Prime Numbers",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prime Numbers: GATE CSE 2025 | Set 2 | GA | Question: 5</strong></div><p>Let<br/>and<br/>denote two arbitrary prime numbers. Which one of the following statemetns is correct for all<br/>values of<br/>and<br/>?<br/>quantitative-aptitude<br/>easy<br/>prime-numbers<br/>Probability<br/>(17)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9"
+    }
+  ]
+}

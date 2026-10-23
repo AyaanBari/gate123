@@ -1,0 +1,1246 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P8",
+  "fileName": "PYQ_Discrete_Mathematics_P8.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 8",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2014 | Set 3 | Question: 50</strong></div><p>There are two elements<br/>in a group<br/>such that every element in the group can be written as a<br/>product of some number of<br/>'s and<br/>'s in some order. It is known that</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/1150/gate-cse-2010-question-4"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2018 | Question: 19</strong></div><p>Let<br/>be a finite group on<br/>elements. The size of a largest possible proper subgroup of<br/>is _____<br/>group-theory<br/>set-theory&algebra</p></div>",
+      "options": [],
+      "correctAnswer": "42",
+      "discussUrl": "https://gateoverflow.in/204093/gate-cse-2018-question-19"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2019 | Question: 10</strong></div><p>Let<br/>be an arbitrary group. Consider the following relations on<br/>:<br/>Which of the above is/are equivalence relation/relations?<br/>engineering-mathematics<br/>discrete-mathematics<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302838/gate-cse-2019-question-10"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2020 | Question: 18</strong></div><p>Let<br/>be a group of<br/>elements. Then the largest possible size of a subgroup of<br/>other than<br/>itself is<br/>_______.<br/>group-theory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/204093/gate-cse-2018-question-19"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2021 | Set 1 | Question: 34</strong></div><p>Let<br/>be a group of order<br/>, and<br/>be a subgroup of<br/>such that<br/>. Which one of the following<br/>options is correct?<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/204093/gate-cse-2018-question-19"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2022 | Question: 17</strong></div><p>Which of the following statements is/are<br/>for a group<br/>A<br/>.<br/>If for all<br/>then<br/>is commutative.<br/>B<br/>.<br/>If for all<br/>then<br/>is commutative. Here,<br/>is the identity element of<br/>C<br/>.<br/>If the order of<br/>is<br/>then<br/>is commutative.<br/>D<br/>.<br/>If<br/>is commutative, then a subgroup of<br/>need not be commutative.<br/>set-theory&algebra<br/>group-theory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2023 | Question: 41</strong></div><p>Let<br/>be a set and<br/>denote the powerset of<br/>.<br/>Define a binary operation<br/>on<br/>as follows:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2024 | Set 1 | Question: 42</strong></div><p>Consider the operators<br/>and<br/>deﬁned by<br/>, for positive integers. Which of the<br/>following statements is/are TRUE?<br/>A<br/>.<br/>Operator<br/>obeys the associative law<br/>B<br/>.<br/>Operator<br/>obeys the associative law<br/>C<br/>.<br/>Operator<br/>over the operator<br/>obeys the distributive law<br/>D<br/>.<br/>Operator<br/>over the operator<br/>obeys the distributive law<br/>multiple-selects<br/>set-theory&algebra<br/>group-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Group Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Group Theory: GATE CSE 2024 | Set 2 | Question: 53</strong></div><p>Let<br/>be the group of integers<br/>with addition modulo<br/>as the group operation. The<br/>number of elements in the group<br/>that are their own inverses is ___________.<br/>set-theory&algebra<br/>group-theory<br/>Identify Function<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE CSE 2025 | Set 1 | Question: 39</strong></div><p>is the set of non-negative integers. Let<br/>be the set of functions from<br/>to itself. For<br/>any two functions,<br/>, we define<br/>for every number<br/>in<br/>. Which of the following is/are CORRECT about the mathematical structure<br/>?<br/>A<br/>.<br/>is an Abelian group.<br/>B<br/>.<br/>is an Abelian monoid.<br/>C<br/>.<br/>is a non-Abelian group.<br/>D<br/>.<br/>is a non-Abelian monoid.<br/>set-theory&algebra<br/>identify-function<br/>group-theory<br/>multiple-selects<br/>easy<br/>Lattice<br/>(10)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 1988 | Question: 1vii</strong></div><p>The complement(s) of the element<br/>in the lattice shown in below figure is (are) ____</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 1990 | Question: 17c</strong></div><p>Show that the elements of the lattice<br/>, where<br/>is the set of positive intergers and<br/>if and only<br/>if<br/>divides<br/>, satisfy the distributive property.<br/>descriptive<br/>set-theory&algebra<br/>lattice</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/86884/gate-cse-1990-question-17c"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 1992 | Question: 14b</strong></div><p>Consider the set of integers<br/>together with the two binary operations LCM (lowest<br/>common multiple) and GCD (greatest common divisor). Which of the following algebraic structures does this<br/>represent?<br/>set-theory&algebra<br/>partial-order<br/>lattice</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/43580/gate-cse-1992-question-14b"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 1994 | Question: 2.9</strong></div><p>The Hasse diagrams of all the lattices with up to four elements are ________ (write all the relevant Hasse<br/>diagrams)<br/>set-theory&algebra<br/>lattice<br/>fill-in-the-blanks</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/86884/gate-cse-1990-question-17c"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 1997 | Question: 3.3</strong></div><p>In the lattice deﬁned by the Hasse diagram given in following ﬁgure, how many complements does the<br/>element ‘<br/>’ have?<br/>set-theory&algebra<br/>lattice</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43580/gate-cse-1992-question-14b"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 2002 | Question: 4</strong></div><p>is binary relation on set<br/>. Is it irreﬂexive? Add the minimum number of<br/>ordered pairs to S to make it an equivalence relation. Give the modified<br/>.<br/>Let<br/>and let<br/>be the powerset of<br/>. Consider the binary relation '<br/>(set inclusion)' on<br/>. Draw<br/>the Hasse diagram corresponding to the lattice (<br/>)<br/>set-theory&algebra<br/>lattice<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/857/gate-cse-2002-question-4"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 2005 | Question: 9</strong></div><p>The following is the Hasse diagram of the poset<br/>The poset is :<br/>set-theory&algebra<br/>lattice</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1158/gate-cse-2005-question-9"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 2015 | Set 1 | Question: 34</strong></div><p>Suppose<br/>is a lattice represented by the following Hasse diagram:<br/>For any<br/>, not necessarily distinct ,<br/>and<br/>are join and meet of<br/>, respectively. Let<br/>be the set of all ordered triplets of the elements of<br/>. Let<br/>be the probability that<br/>an element<br/>chosen equiprobably satisfies<br/>. Then<br/>set-theory&algebra<br/>lattice</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1158/gate-cse-2005-question-9"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE CSE 2017 | Set 2 | Question: 21</strong></div><p>Consider the set<br/>under partial ordering<br/>The Hasse diagram of the partial order<br/>is shown below.</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/857/gate-cse-2002-question-4"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Lattice",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Lattice: GATE IT 2008 | Question: 28</strong></div><p>Consider the following Hasse diagrams.<br/>Which all of the above represent a lattice?<br/>set-theory&algebra<br/>lattice<br/>Mathematical Induction<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3318/gate-it-2008-question-28"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Mathematical Induction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Mathematical Induction: GATE CSE 1995 | Question: 23</strong></div><p>Prove using mathematical induction for<br/>set-theory&algebra<br/>proof<br/>mathematical-induction<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2661/gate-cse-1995-question-23"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Mathematical Induction",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Mathematical Induction: GATE CSE 2000 | Question: 3</strong></div><p>Consider the following sequence:<br/>and<br/>.<br/>Prove by induction on<br/>that<br/>.<br/>set-theory&algebra<br/>mathematical-induction<br/>descriptive<br/>Number Theory<br/>(7)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3318/gate-it-2008-question-28"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE CSE 1995</strong></div><p>| Question: 7(A)<br/>Determine the number of divisors of<br/>set-theory&algebra<br/>number-theory</p></div>",
+      "options": [],
+      "correctAnswer": "24",
+      "discussUrl": "https://gateoverflow.in/2661/gate-cse-1995-question-23"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE CSE 2014 | Set 2 | Question: 49</strong></div><p>The number of distinct positive integral factors of<br/>is _____________<br/>set-theory&algebra<br/>easy<br/>number-theory</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/2015/gate-cse-2014-set-2-question-49"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE CSE 2015 | Set 2 | Question: 9</strong></div><p>The number of divisors of<br/>is ____.<br/>set-theory&algebra<br/>number-theory<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "36",
+      "discussUrl": "https://gateoverflow.in/2015/gate-cse-2014-set-2-question-49"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE IT 2005 | Question: 34</strong></div><p>Let<br/>, where<br/>and<br/>are distinct prime numbers. How many numbers m satisfy<br/>and<br/>Note that<br/>is the greatest common divisor of<br/>and<br/>.<br/>set-theory&algebra<br/>number-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3780/gate-it-2005-question-34"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE IT 2007 | Question: 16</strong></div><p>The minimum positive integer<br/>such that<br/>is<br/>set-theory&algebra<br/>number-theory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3449/gate-it-2007-question-16"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Number Theory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Number Theory: GATE IT 2008 | Question: 24</strong></div><p>The exponent of<br/>in the prime factorization of<br/>is<br/>set-theory&algebra<br/>number-theory<br/>Number Theory: GATE1991-15,a<br/>Show that the product of the least common multiple and the greatest common divisor of two positive integers<br/>and<br/>is<br/>.<br/>set-theory&algebra<br/>number-theory<br/>proof<br/>descriptive<br/>Onto<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3285/gate-it-2008-question-24"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Onto",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Onto: GATE CSE 2025 | Set 1 | Question: 7</strong></div><p>is a function from<br/>to<br/>,<br/>is a function from<br/>to<br/>, and their composition deﬁned as<br/>is a<br/>mapping from<br/>to<br/>.<br/>If<br/>and<br/>are onto (surjective) functions, which ONE of the following is TRUE about the function<br/>?<br/>A<br/>.<br/>must be an onto (surjective) function.<br/>B<br/>.<br/>must be a one-to-one (injective) function.<br/>C<br/>.<br/>must be a bijective function, that is, both one-to-one and onto.<br/>D<br/>.<br/>is not required to be a one-to-one or onto function.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2015/gate-cse-2014-set-2-question-49"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 1991 | Question: 01,xiv</strong></div><p>If the longest chain in a partial order is of length<br/>, then the partial order can be written as a _____ of<br/>antichains.<br/>set-theory&algebra<br/>partial-order<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 1993 | Question: 8.5</strong></div><p>The less-than relation,<br/>on real number is<br/>A<br/>.<br/>a partial ordering since it is asymmetric and reflexive<br/>B<br/>.<br/>a partial ordering since it is antisymmetric and reflexive<br/>C<br/>.<br/>not a partial ordering because it is not asymmetric and not reflexive<br/>D<br/>.<br/>not a partial ordering because it is not antisymmetric and reflexive<br/>E<br/>.<br/>none of the above<br/>set-theory&algebra<br/>partial-order<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "E",
+      "discussUrl": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 1996 | Question: 1.2</strong></div><p>Let<br/>, Let<br/>be the partial order deﬁned by<br/>if<br/>divides<br/>. Number of edges in<br/>the Hasse diagram of<br/>is<br/>set-theory&algebra<br/>partial-order</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 1997 | Question: 6.1</strong></div><p>A partial order<br/>is deﬁned on the set<br/>as<br/>for all<br/>and<br/>for all<br/>,<br/>where<br/>. The number of total orders on the set S which contain the partial order<br/>is<br/>set-theory&algebra<br/>partial-order</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 1998 | Question: 11</strong></div><p>Suppose<br/>and<br/>is the following partition of A<br/>a<br/>.<br/>List the ordered pairs of the equivalence relations induced by<br/>.<br/>b<br/>.<br/>Draw the graph of the above equivalence relation.<br/>c<br/>.<br/>Let<br/>and<br/>Draw a Poset diagram of the poset,<br/>.<br/>set-theory&algebra<br/>partial-order<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1725/gate-cse-1998-question-11"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 2003 | Question: 31</strong></div><p>Let<br/>be a partial order with two minimal elements a and b, and a maximum element c. Let P: S<br/>{<br/>True, False<br/>} be a predicate deﬁned on S. Suppose that P(a) =<br/>True<br/>, P(b) =<br/>False<br/>and P(x)<br/>P(y) for<br/>a ll<br/>satisfying<br/>, where<br/>stands for logical implication. Which of the following statements<br/>CANNOT be true?<br/>A<br/>.<br/>P(x) =<br/>True<br/>for all x<br/>S such that x ≠ b<br/>B<br/>.<br/>P(x) =<br/>False<br/>for all x<br/>S such that x ≠ a and x ≠ c<br/>C<br/>.<br/>P(x) =<br/>False<br/>for all x<br/>S such that b ≤ x and x ≠ c<br/>D<br/>.<br/>P(x) =<br/>False<br/>for all x<br/>S such that a ≤ x and b ≤ x<br/>set-theory&algebra<br/>partial-order<br/>propositional-logic</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/921/gate-cse-2003-question-31"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 2004 | Question: 73</strong></div><p>The inclusion of which of the following sets into<br/>is necessary and sufficient to make<br/>a complete lattice under the partial order defined by set containment?<br/>set-theory&algebra<br/>partial-order</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1067/gate-cse-2004-question-73"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 2007 | Question: 26</strong></div><p>Consider the set<br/>Consider the following<br/>partitions<br/>on<br/>.<br/>Let<br/>be the partial order on the set of partitions<br/>defined as follows:<br/>if and only if<br/>refines<br/>. The poset diagram for<br/>is:<br/>set-theory&algebra<br/>partial-order<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1224/gate-cse-2007-question-26"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE CSE 2024 | Set 2 | Question: 24</strong></div><p>Let<br/>be the partial order defined on the set<br/>as follows<br/>The number of total orders on<br/>that contain<br/>is __________.</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/921/gate-cse-2003-question-31"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Partial Order",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Partial Order: GATE IT 2007 | Question: 23</strong></div><p>A partial order<br/>is defined on the set of natural numbers as follows. Here<br/>denotes integer division.<br/>i<br/>.<br/>ii<br/>.<br/>if and only if<br/>) and<br/>Consider the following ordered pairs:<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>iv<br/>.<br/>Which of these ordered pairs of natural numbers are contained in<br/>?<br/>set-theory&algebra<br/>partial-order<br/>Polynomials<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3456/gate-it-2007-question-23"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 1997 | Question: 4.4</strong></div><p>A polynomial<br/>is such that<br/>and<br/>. The minimum degree it<br/>should have is<br/>set-theory&algebra<br/>polynomials</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3456/gate-it-2007-question-23"
+    }
+  ]
+}

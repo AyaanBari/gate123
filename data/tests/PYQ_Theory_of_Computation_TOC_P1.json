@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_Theory_of_Computation_TOC_P1",
+  "fileName": "PYQ_Theory_of_Computation_TOC_P1.json",
+  "title": "GATE Official PYQs | Theory of Computation (TOC) Part 1",
+  "subject": "Theory of Computation (TOC)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 1989 | Question: 3-ii</strong></div><p>Context-free languages and regular languages are both closed under the operation (s) of :<br/>easy<br/>theory-of-computation<br/>closure-property<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/87117/gate-cse-1989-question-3-ii"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 1992 | Question: 16</strong></div><p>Which of the following three statements are true? Prove your answer.<br/>i<br/>.<br/>The union of two recursive languages is recursive.<br/>ii<br/>.<br/>The language<br/>is not regular.<br/>iii<br/>.<br/>Regular languages are closed under infinite union.<br/>theory-of-computation<br/>closure-property<br/>proof<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/595/gate-cse-1992-question-16"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2002 | Question: 2.14</strong></div><p>Which of the following is true?<br/>A<br/>.<br/>The complement of a recursive language is recursive<br/>B<br/>.<br/>The complement of a recursively enumerable language is recursively enumerable<br/>C<br/>.<br/>The complement of a recursive language is either recursive or recursively enumerable<br/>D<br/>.<br/>The complement of a context-free language is context-free<br/>theory-of-computation<br/>easy<br/>closure-property</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2271"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2013 | Question: 17</strong></div><p>Which of the following statements is/are<br/>FALSE<br/>?<br/>1<br/>.<br/>For every non-deterministic Turing machine, there exists an equivalent deterministic Turing machine.<br/>2<br/>.<br/>Turing recognizable languages are closed under union and complementation.<br/>3<br/>.<br/>Turing decidable languages are closed under intersection and complementation.<br/>4<br/>.<br/>Turing recognizable languages are closed under union and intersection.<br/>theory-of-computation<br/>closure-property</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/87117/gate-cse-1989-question-3-ii"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2016 | Set 2 | Question: 18</strong></div><p>Consider the following types of languages:<br/>: Regular,<br/>: Context-free,<br/>: Recursive,<br/>: Recursively<br/>enumerable. Which of the following is/are<br/>TRUE ?<br/>I<br/>.<br/>is recursively enumerable.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/2271"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2017 | Set 2 | Question: 04</strong></div><p>Let<br/>be any two context-free languages and<br/>be any regular language. Then which of the following<br/>is/are CORRECT?<br/>I<br/>.<br/>is context-free<br/>II<br/>.<br/>is context-free<br/>III<br/>.<br/>is context-free<br/>IV<br/>.<br/>is context-free<br/>theory-of-computation<br/>closure-property</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118143/gate-cse-2017-set-2-question-04"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2018 | Question: 7</strong></div><p>The set of all recursively enumerable languages is:<br/>theory-of-computation<br/>closure-property<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118143/gate-cse-2017-set-2-question-04"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2025 | Set 2 | Question: 20</strong></div><p>Consider the two lists List I and List II given below:<br/>For matching of items in List I with those in List II, which of the following option(s) is/are CORRECT?<br/>theory-of-computation<br/>closure-property<br/>match-the-following<br/>multiple-selects<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/118143/gate-cse-2017-set-2-question-04"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE CSE 2026 | Set 1 | Question: 41</strong></div><p>Let<br/>and<br/>be two languages over a finite alphabet, such that<br/>and<br/>are regular languages.<br/>Which of the following statements is/are always true?<br/>theory-of-computation<br/>closure-property<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118143/gate-cse-2017-set-2-question-04"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Closure Property",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Closure Property: GATE IT 2006 | Question: 32</strong></div><p>Let<br/>be a context-free language and<br/>a regular language. Then the language<br/>is<br/>theory-of-computation<br/>closure-property<br/>easy<br/>Context Free Grammar<br/>(2)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(11Q)<br/>Weekly Quiz 10<br/>(10Q)<br/>Weekly Quiz 4<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3571/gate-it-2006-question-32"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Grammar: GATE CSE 2025 | Set 1 | Question: 9</strong></div><p>Consider the following context-free grammar<br/>, where<br/>, and<br/>are the variables (non-terminals),<br/>and<br/>are the terminal symbols,<br/>is the start variable, and the rules of<br/>are described as:<br/>Which ONE of the languages<br/>is accepted by<br/>?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>context-free-grammar<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3571/gate-it-2006-question-32"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Context Free Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Grammar: GATE CSE 2026 | Set 1 | Question: 15</strong></div><p>Consider the following grammar where<br/>is the start symbol, and<br/>and<br/>are terminal symbols.<br/>Which of the following statements is/are true?<br/>A<br/>.<br/>The grammar is ambiguous<br/>B<br/>.<br/>The string<br/>has two distinct derivations in this grammar<br/>C<br/>.<br/>The string<br/>has only one rightmost derivation<br/>D<br/>.<br/>The language generated by the grammar is undecidable<br/>theory-of-computation<br/>context-free-grammar<br/>multiple-selects<br/>Context Free Language<br/>(35)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(14Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/3571/gate-it-2006-question-32"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1987 | Question: 2k</strong></div><p>State whether the following statements are TRUE or FALSE:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/3571/gate-it-2006-question-32"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1992 | Question: 02,xix</strong></div><p>Context-free languages are:<br/>context-free-language<br/>theory-of-computation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/572/gate-cse-1992-question-02-xix"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1995 | Question: 2.20</strong></div><p>Which of the following deﬁnitions below generate the same language as<br/>, where<br/>?<br/>I<br/>.<br/>II<br/>.<br/>)<br/>III<br/>.<br/>theory-of-computation<br/>easy<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/572/gate-cse-1992-question-02-xix"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1996 | Question: 2.8</strong></div><p>If<br/>and<br/>are context free languages and<br/>a regular set, one of the languages below is not necessarily<br/>a context free language. Which one?<br/>theory-of-computation<br/>context-free-language<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/572/gate-cse-1992-question-02-xix"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1996 | Question: 2.9</strong></div><p>Deﬁne a context free languages<br/>,<br/>for some<br/>in<br/>( in other<br/>words,<br/>is the set of prefixes of<br/>)<br/>Let<br/>Then<br/>is:<br/>A<br/>.<br/>the set of all binary strings with unequal number of<br/>’s and<br/>’s<br/>B<br/>.<br/>the set of all binary strings including null string<br/>C<br/>.<br/>the set of all binary strings with exactly one more<br/>than the number of<br/>’s or one more<br/>than the number of<br/>’s<br/>D<br/>.<br/>None of the above<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/572/gate-cse-1992-question-02-xix"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1999 | Question: 1.5</strong></div><p>Context-free languages are closed under:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/572/gate-cse-1992-question-02-xix"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 1999 | Question: 7</strong></div><p>Show that the language<br/>is not context free.<br/>is not<br/>or<br/>.<br/>theory-of-computation<br/>context-free-language<br/>proof</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1506/gate-cse-1999-question-7"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2000 | Question: 7</strong></div><p>A<br/>.<br/>Construct as minimal ﬁnite state machine that accepts the language, over<br/>, of all strings that contain<br/>neither the substring<br/>nor the substring<br/>.<br/>B<br/>.<br/>Consider the grammar<br/>where<br/>,<br/>are non-terminal symbols with<br/>being the start symbol;<br/>are terminal symbols and<br/>is the<br/>empty string. This grammar generates strings of the form<br/>for some<br/>, where<br/>and<br/>satisfy some<br/>condition. What is the condition on the values of<br/>and<br/>?<br/>theory-of-computation<br/>descriptive<br/>regular-language<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1506/gate-cse-1999-question-7"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2001 | Question: 1.5</strong></div><p>Which of the following statements is true?<br/>A<br/>.<br/>If a language is context free it can always be accepted by a deterministic push-down automaton<br/>B<br/>.<br/>The union of two context free languages is context free<br/>C<br/>.<br/>The intersection of two context free languages is a context free<br/>D<br/>.<br/>The complement of a context free language is a context free<br/>theory-of-computation<br/>context-free-language<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1506/gate-cse-1999-question-7"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2003 | Question: 51</strong></div><p>Let<br/>be a context free grammar where the rule set R is<br/>Which of the following statements is true?<br/>A<br/>.<br/>is not ambiguous<br/>B<br/>.<br/>There exist<br/>such that<br/>C<br/>.<br/>There is a deterministic pushdown automaton that accepts<br/>D<br/>.<br/>We can find a deterministic finite state automaton that accepts<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/940/gate-cse-2003-question-51"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2005 | Question: 57</strong></div><p>Consider the languages:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1380/gate-cse-2005-question-57"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2006 | Question: 19</strong></div><p>Let<br/>,<br/>and<br/>.<br/>Which of these languages are NOT context free?<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/980/gate-cse-2006-question-19"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2009 | Question: 12, ISRO2016-37</strong></div><p>The language generated by the above grammar over the alphabet<br/>is the set of:<br/>theory-of-computation<br/>context-free-language<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1304/gate-cse-2009-question-12-isro2016-37"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2015 | Set 3 | Question: 32</strong></div><p>Which of the following languages are context-free?<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1304/gate-cse-2009-question-12-isro2016-37"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2016 | Set 1 | Question: 16</strong></div><p>Which of the following languages is generated by the given grammar?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/980/gate-cse-2006-question-19"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2016 | Set 1 | Question: 42</strong></div><p>Consider the following context-free grammars;<br/>Which one of the following pairs of languages is generated by<br/>and<br/>,respectively?<br/>A<br/>.<br/>and<br/>B<br/>.<br/>and<br/>C<br/>.<br/>and<br/>D<br/>.<br/>and<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39705/gate-cse-2016-set-1-question-42"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2016 | Set 2 | Question: 43</strong></div><p>Consider the following languages:<br/>Which one of the following is TRUE?<br/>A<br/>.<br/>Both<br/>and<br/>are context-free.<br/>B<br/>.<br/>is context-free while<br/>is not context-free.<br/>C<br/>.<br/>is context-free while<br/>is not context-free.<br/>D<br/>.<br/>Neither<br/>nor<br/>is context-free.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39705/gate-cse-2016-set-1-question-42"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2017 | Set 1 | Question: 10</strong></div><p>Consider the following context-free grammar over the alphabet<br/>with<br/>as the start symbol:<br/>Which one of the following represents the language generated by the above grammar?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39705/gate-cse-2016-set-1-question-42"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2017 | Set 1 | Question: 34</strong></div><p>If<br/>is a grammar with productions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/39705/gate-cse-2016-set-1-question-42"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2017 | Set 1 | Question: 38</strong></div><p>Consider the following languages over the alphabet<br/>. Let<br/>and<br/>.<br/>Which of the following are context-free languages?<br/>I<br/>.<br/>II<br/>.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118321/gate-cse-2017-set-1-question-38"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2017 | Set 2 | Question: 16</strong></div><p>Identify the language generated by the following grammar, where<br/>is the start variable.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118321/gate-cse-2017-set-1-question-38"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2019 | Question: 31</strong></div><p>Which one of the following languages over<br/>is NOT context-free?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302817/gate-cse-2019-question-31"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2021 | Set 1 | Question: 1</strong></div><p>Suppose that<br/>is a regular language and<br/>is a context-free language. Which one of the following<br/>languages is<br/>necessarily context-free?<br/>context-free-language<br/>theory-of-computation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118321/gate-cse-2017-set-1-question-38"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2021 | Set 2 | Question: 41</strong></div><p>For a string<br/>, we define<br/>to be the reverse of<br/>. For example, if<br/>then<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/118321/gate-cse-2017-set-1-question-38"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2022 | Question: 38</strong></div><p>Consider the following languages:<br/>Which of the following statements is/are<br/>A<br/>.<br/>is not context-free but<br/>and<br/>are deterministic context-free.<br/>B<br/>.<br/>Neither<br/>nor<br/>is context-free.<br/>C<br/>.<br/>and<br/>all are context-free.<br/>D<br/>.<br/>Neither<br/>nor its complement is context-free.<br/>theory-of-computation<br/>context-free-language<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/371898/gate-cse-2022-question-38"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2023 | Question: 29</strong></div><p>Consider the context-free grammar<br/>below<br/>where<br/>and<br/>are non-terminals, and<br/>and<br/>are terminal symbols. The starting non-terminal is<br/>.<br/>Which one of the following statements is<br/>A<br/>.<br/>The language generated by<br/>is<br/>B<br/>.<br/>The language generated by<br/>is<br/>C<br/>.<br/>The language generated by<br/>is<br/>D<br/>.<br/>The language generated by<br/>is not a regular language<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399282/gate-cse-2023-question-29"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2025 | Set 1 | Question: 35</strong></div><p>Consider the following two languages over the alphabet<br/>, where<br/>and<br/>are natural numbers.<br/>Which ONE of the following statements is CORRECT?<br/>A<br/>.<br/>Both<br/>and<br/>are context-free languages.<br/>B<br/>.<br/>is a context-free language but<br/>is not a context-free language.<br/>C<br/>.<br/>is not a context-free language but<br/>is a context-free language.<br/>D<br/>.<br/>Neither<br/>nor<br/>are context-free languages.<br/>theory-of-computation<br/>context-free-language</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/371898/gate-cse-2022-question-38"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Context Free Language",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Context Free Language: GATE CSE 2026 | Set 1 | Question: 42</strong></div><p>Consider the following context-free grammar<br/>.<br/>In the above grammar,<br/>is the start symbol,<br/>and<br/>are terminal symbols, and<br/>and<br/>are non-terminal<br/>symbols.<br/>Let<br/>be the language generated by the grammar<br/>. For a string<br/>, let<br/>be the number of<br/>'s in<br/>and<br/>be the number of<br/>'s in<br/>.<br/>Which of the following statements is/are true?<br/>A<br/>.<br/>There is a string<br/>such that<br/>B<br/>.<br/>For every string<br/>C<br/>.<br/>There is a string<br/>such that<br/>D<br/>.<br/>For every string<br/>theory-of-computation<br/>context-free-language<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523038/gate-cse-2026-set-1-question-42"
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "id": "PYQ_General_Aptitude_P6",
+  "fileName": "PYQ_General_Aptitude_P6.json",
+  "title": "GATE Official PYQs | General Aptitude Part 6",
+  "subject": "General Aptitude",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 19,
+  "totalMarks": 21,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2015 | Set 3 | GA | Question: 9</strong></div><p>Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest<br/>order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket<br/>several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his<br/>problem, success at the highest level will continue to elude him.<br/>Which of the statement(s) below is/are logically valid and can be inferred from the above passage?<br/>i<br/>.<br/>He was already a successful batsman at the highest level.<br/>ii<br/>.<br/>He was to improve his temperament in order to become a great batsman.<br/>iii<br/>.<br/>He failed to make many of his good starts count.<br/>iv<br/>.<br/>Improving his technical skills will guarantee success.<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2031/gate-cse-2014-set-3-ga-question-7"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2016 | Set 2 | GA | Question: 07</strong></div><p>Computers were invented for performing only high-end useful computations. However, it is no<br/>understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many<br/>believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile<br/>computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments<br/>are good or, more importantly, required.<br/>Which of the statement(s) below is/are logically valid and can be inferred from the above paragraph?<br/>(i) The author believes that computers are not good for us.<br/>(ii) Mobile computers and the internet are both intended inventions.<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2031/gate-cse-2014-set-3-ga-question-7"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2017 | Set 1 | GA | Question: 6</strong></div><p>\"The hold of the nationalist imagination on our colonial past is such that anything inadequately or improperly<br/>nationalist is just not history.\"<br/>Which of the following statements best reflects the author's opinion?<br/>A<br/>.<br/>Nationalists are highly imaginative.<br/>B<br/>.<br/>History is viewed through the filter of nationalism.<br/>C<br/>.<br/>Our colonial past never happened.<br/>D<br/>.<br/>Nationalism has to be both adequately and properly imagined.<br/>general-aptitude<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118409/gate-cse-2017-set-1-ga-question-6"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2022 | GA | Question: 6</strong></div><p>Some people believe that “what gets measured, improves”. Some others believe that “what gets measured,<br/>gets gamed”. One possible reason for the diﬀerence in the beliefs is the work culture in organizations. In<br/>organizations with good work culture, metrics help improve outcomes. However, the same metrics are<br/>counterproductive in organizations with poor work culture.<br/>Which one of the following is the<br/>logical inference based on the information in the above passage?<br/>A<br/>.<br/>Metrics are useful in organizations with poor work culture<br/>B<br/>.<br/>Metrics are useful in organizations with good work culture<br/>C<br/>.<br/>Metrics are always counterproductive in organizations with good work culture<br/>D<br/>.<br/>Metrics are never useful in organizations with good work culture<br/>verbal-aptitude<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118409/gate-cse-2017-set-1-ga-question-6"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Passage Reading",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Passage Reading: GATE CSE 2025 | Set 1 | GA | Question: 6</strong></div><p>\"I put the brown paper in my pocket along with the chalks, and possibly other things. I suppose every one<br/>must have reﬂected how primeval and how poetical are the things that one carries in one's pocket: the<br/>pocket-knife, for instance the type of all human tools, the infant of the sword. Once I planned to write a book of<br/>poems entirely about the things in my pocket. But I found it would be too long: and the age of the great epics is<br/>past.\"<br/>(From G.K. Chesterton's \"A Piece of Chalk\")<br/>Based only on the information provided in the above passage, which one of the following statements is true?<br/>A<br/>.<br/>The author of the passage carries a mirror in his pocket to reflect upon things.<br/>B<br/>.<br/>The author of the passage had decided to write a poem on epics.<br/>C<br/>.<br/>The pocket-knife is described as the infant of the sword.<br/>D<br/>.<br/>Epics are described as too inconvenient to write.<br/>verbal-aptitude<br/>passage-reading<br/>Passage Reading: GATE2010 MN: GA-6<br/>The ban on smoking in designated public places can save a large number of people from the well-known<br/>eﬀects of environmental tobacco smoke. Passive smoking seriously impairs respiratory health. The ban<br/>rightly seeks to protect non-smokers from its ill effects.<br/>Which of the following statements best sums up the meaning of the above passage:<br/>A<br/>.<br/>Effects of environmental tobacco are well known.<br/>B<br/>.<br/>The ban on smoking in public places protects the non-smokers.<br/>C<br/>.<br/>Passive smoking is bad for health.<br/>D<br/>.<br/>The ban on smoking in public places excludes passive smoking.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118409/gate-cse-2017-set-1-ga-question-6"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Meaning: GATE CSE 2014 | Set 2 | GA | Question: 3</strong></div><p>Match the columns.<br/>verbal-aptitude<br/>word-meaning<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/41667/gate2014-ag-ga-3"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Meaning: GATE CSE 2015 | Set 2 | GA | Question: 2</strong></div><p>Choose the statement where underlined word is used correctly.<br/>A<br/>.<br/>The industrialist had a<br/>personnel<br/>jet.<br/>B<br/>.<br/>I write my experience in my<br/>personnel<br/>diary.<br/>C<br/>.<br/>All<br/>personnel<br/>are being given the day off.<br/>D<br/>.<br/>Being religious is a<br/>personnel<br/>aspect.<br/>verbal-aptitude<br/>word-meaning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/41667/gate2014-ag-ga-3"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Meaning: GATE CSE 2016 | Set 1 | GA | Question: 02</strong></div><p>A rewording of something written or spoken is a __________.<br/>verbal-aptitude<br/>word-meaning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/41667/gate2014-ag-ga-3"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Meaning: GATE CSE 2016 | Set 2 | GA | Question: 03</strong></div><p>Find the odd one in the following group of words.<br/>mock, deride, praise, jeer<br/>verbal-aptitude<br/>word-meaning<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-ga-question-03"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Meaning: GATE CSE 2020 | GA | Question: 2</strong></div><p>His knowledge of the subject was excellent but his classroom performance was_______.<br/>verbal-aptitude<br/>english-grammar<br/>word-meaning<br/>Word Pairs<br/>(14)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-ga-question-03"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2010 | Question: 60</strong></div><p>The question below consists of a pair of related words followed by four pairs of words. Select the pair that<br/>best expresses the relation in the original pair.<br/>Unemployed : Worker<br/>verbal-aptitude<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2368/gate-cse-2010-question-60"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2013 | Question: 57</strong></div><p>Complete the sentence:<br/>Universalism is to particularism as diffuseness is to _______________.<br/>verbal-aptitude<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1560/gate-cse-2013-question-57"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2015 | Set 1 | GA | Question: 5</strong></div><p>Which one of the following combinations is incorrect?<br/>verbal-aptitude<br/>difficult<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-ga-question-03"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2015 | Set 3 | GA | Question: 4</strong></div><p>Select the pair of best expresses a relationship similar to that expressed in the pair:<br/>Children : Pediatrician<br/>verbal-aptitude<br/>easy<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-ga-question-03"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2020 | GA | Question: 3</strong></div><p>Select the word that fits the analogy:<br/>Cook : Cook :: Fly : _______<br/>verbal-aptitude<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333238/gate-cse-2020-ga-question-3"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2021 | Set 1 | GA | Question: 5</strong></div><p>___________ is to<br/>surgery as writer<br/>is to ___________<br/>Which one of the following options maintains a similar logical relation in the above sentence?<br/>verbal-aptitude<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2021 | Set 2 | GA | Question: 5</strong></div><p>_______<br/>Which one of the following options maintains a similar logical relation in the above?<br/>verbal-aptitude<br/>word-pairs<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333238/gate-cse-2020-ga-question-3"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2023 | GA | Question: 2</strong></div><p>Kind : _______ : : Often : Frequently (By word meaning)<br/>verbal-aptitude<br/>word-pairs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B,D",
+      "discussUrl": "https://gateoverflow.in/333238/gate-cse-2020-ga-question-3"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Word Pairs",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Word Pairs: GATE CSE 2025 | Set 2 | GA | Question: 2</strong></div><p>​​​​​<br/>Bird : Nest :: Bee : ______<br/>verbal-aptitude<br/>word-pairs<br/>easy<br/>Word Pairs: GATE2010 MN: GA-2<br/>The question below consists of a pair of related words followed by four pairs of words<br/>Select the pair that<br/>best expresses the relation in the original pair<br/>Preamble : Constitution<br/>general-aptitude<br/>verbal-aptitude<br/>word-pairs<br/>Word Pairs: GATE2010 TF: GA-2<br/>The question below consists of a pair of related words followed by four pairs of words. Select the pair the<br/>best expresses the relation in the original pair</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333238/gate-cse-2020-ga-question-3"
+    }
+  ]
+}

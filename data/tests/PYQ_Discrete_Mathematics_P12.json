@@ -1,0 +1,628 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P12",
+  "fileName": "PYQ_Discrete_Mathematics_P12.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 12",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 45,
+  "totalQuestions": 17,
+  "totalMarks": 20,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2026 | Set 2 | GA | Question: 1</strong></div><p>Expedite, Hasten, Hurry,<br/>Fill the blank by choosing a word with a meaning similar to that of the words given above.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1911"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tenses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tenses: GATE CSE 2013 | Question: 59</strong></div><p>Were you a bird, you ___________________ in the sky.<br/>verbal-aptitude<br/>tenses</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1563/gate-cse-2013-question-59"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tenses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tenses: GATE CSE 2014 | Set 2 | GA | Question: 2</strong></div><p>Who ___________ was coming to see us this evening?<br/>verbal-aptitude<br/>tenses</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40300/gate2014-ae-ga-1"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tenses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tenses: GATE CSE 2014 | Set 3 | GA | Question: 2</strong></div><p>If she _______________ how to calibrate the instrument, she _______________ done the experiment.<br/>verbal-aptitude<br/>easy<br/>english-grammar<br/>tenses</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/40300/gate2014-ae-ga-1"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tenses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tenses: GATE CSE 2017 | Set 1 | GA | Question: 1</strong></div><p>After Rajendra Chola returned from his voyage to Indonesia, he ________ to visit the temple in Thanjavur.<br/>general-aptitude<br/>verbal-aptitude<br/>tenses<br/>english-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40300/gate2014-ae-ga-1"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Tenses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Tenses: GATE DA 2025 | GA | Question: 2</strong></div><p>We _________ tennis in the lawn when it suddenly started to rain.<br/>Select the most appropriate option to complete the above sentence.<br/>gateda-2025<br/>verbal-aptitude<br/>tenses<br/>easy<br/>Tenses: GATE2012 AE: GA-1<br/>Choose the most appropriate alternative from the options given below to complete the following<br/>sentence:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40300/gate2014-ae-ga-1"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2012 | Question: 61</strong></div><p>Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal<br/>interviews to collect and collate economic data. Requirements: High School-pass, must be available<br/>for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.<br/>Which one of the following is the best inference from the above advertisement?<br/>verbal-aptitude<br/>verbal-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/40213/gate2012-ae-ga-2"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2014 | Set 1 | GA | Question: 7</strong></div><p>Geneticists say that they are very close to conﬁrming the genetic roots of psychiatric illnesses such as<br/>depression and schizophrenia, and consequently, that doctors will be able to eradicate these diseases<br/>through early identification and gene therapy.<br/>On which of the following assumptions does the statement above rely?<br/>Select one:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/40213/gate2012-ae-ga-2"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2015 | Set 3 | GA | Question: 6</strong></div><p>Alexander turned his attention towards India, since he had conquered Persia.<br/>Which one of the statements below is logically valid and can be inferred from the above sentence?<br/>A<br/>.<br/>Alexander would not have turned his attention towards India had he not conquered Persia.<br/>B<br/>.<br/>Alexander was not ready to rest on his laurels, and wanted to march to India.<br/>C<br/>.<br/>Alexander was not completely in control of his army and could command it to move towards India.<br/>D<br/>.<br/>Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move<br/>further.<br/>verbal-aptitude<br/>verbal-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-ga-question-6"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2016 | Set 1 | GA | Question: 07</strong></div><p>Indian currency notes show the denomination indicated in at least seventeen languages. If this is not an<br/>indication of the nation's diversity, nothing else is.<br/>Which of the following can be logically inferred from the above sentences?<br/>A<br/>.<br/>India is a country of exactly seventeen languages.<br/>B<br/>.<br/>Linguistic pluralism is the only indicator of a nation's diversity.<br/>C<br/>.<br/>Indian currency notes have sufficient space for all the Indian languages.<br/>D<br/>.<br/>Linguistic pluralism is strong evidence of India's diversity.<br/>verbal-aptitude<br/>verbal-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-ga-question-6"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2017 | Set 2 | GA | Question: 6</strong></div><p>“We lived in a culture that denied any merit to literary works, considering them important only when they<br/>were handmaidens to something seemingly more urgent – namely ideology. This was a country where all<br/>gestures, even the most private, were interpreted in political terms.”<br/>The author’s belief that ideology is not as important as literature is revealed by the word:<br/>passage-reading<br/>verbal-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-ga-question-6"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2019 | GA | Question: 6</strong></div><p>The police arrested four criminals –<br/>and<br/>The criminals knew each other. They made the<br/>following statements:<br/>says “Q committed the crime.”<br/>says “S committed the crime.”<br/>says “ I did not do it.”<br/>says “What Q said about me is false”.<br/>Assume only one of the arrested four committed the crime and only one of the statements made above is true. Who<br/>committed the crime?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-ga-question-6"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2019 | GA | Question: 8</strong></div><p>“A recent High Court judgement has sought to dispel the idea of begging as a disease – which leads to its<br/>stigmatization and criminalization  – and to regard it as a symptom. The underlying disease is the failure of<br/>the state to protect citizens who fall through the social security net.”<br/>Which one of the following statements can be inferred from the given passage?<br/>A<br/>.<br/>Beggars are lazy people who beg because they are unwilling to work<br/>B<br/>.<br/>Beggars are created because of the lack of social welfare schemes<br/>C<br/>.<br/>Begging is an offence that has to be dealt with firmly<br/>D<br/>.<br/>Begging has to be banned because it adversely affects the welfare of the state<br/>general-aptitude<br/>verbal-aptitude<br/>verbal-reasoning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302865/gate-cse-2019-ga-question-8"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2020 | GA | Question: 4</strong></div><p>The dawn of the<br/>st century witnessed the melting glaciers oscillating between giving too much and too<br/>little to billions of people who depend on them for fresh water. The UN climate report estimates that without<br/>deep cuts to man-made emissions, at least<br/>of the northern hemisphere’s surface permafrost could melt by the<br/>end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas,<br/>nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.<br/>Which one of the following statements can be inferred from the given passage?<br/>A<br/>.<br/>Nation-states do not have environmental concerns.<br/>B<br/>.<br/>Nation-states are responsible for providing fresh water to billions of people.<br/>C<br/>.<br/>Billions of people are responsible for man-made emissions.<br/>D<br/>.<br/>Billions of people are affected by melting glaciers.<br/>verbal-aptitude<br/>verbal-reasoning<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/333237/gate-cse-2020-ga-question-4"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2020 | GA | Question: 6</strong></div><p>Goods and Services Tax (GST) is an indirect tax introduced in India in<br/>that is imposed on the supply of<br/>goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on<br/>goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few<br/>components specific to state governments, central government  and Union Territories (UTs).<br/>Which one of the following statements can be inferred from the given passage?<br/>A<br/>.<br/>GST is imposed on the production of goods and services.<br/>B<br/>.<br/>GST includes all indirect taxes.<br/>C<br/>.<br/>GST does not have a component specific to UT.<br/>D<br/>.<br/>GST is imposed at the point of usage of goods and services.<br/>verbal-aptitude<br/>verbal-reasoning<br/>passage-reading</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302865/gate-cse-2019-ga-question-8"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2021 | Set 1 | GA | Question: 10</strong></div><p>Some people suggest anti-obesity measures<br/>such as displaying calorie information in restaurant<br/>menus. Such measures sidestep addressing the core problems that cause obesity: poverty and income<br/>inequality.<br/>Which one of the following statements summarizes the passage?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/302865/gate-cse-2019-ga-question-8"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Verbal Reasoning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Verbal Reasoning: GATE CSE 2021 | Set 2 | GA | Question: 6</strong></div><p>Listening to music during exercise improves performance and reduces discomfort. Scientists researched<br/>whether listening to music while studying can help students learn better and the results were inconclusive.<br/>Students who needed external stimulation for studying fared worse while students who did not need any external<br/>stimulation benefited from music.<br/>Which one of the following statements is the<br/>inference of the above passage?<br/>A<br/>.<br/>Listening to music has no effect on learning and a positive effect on physical exercise<br/>B<br/>.<br/>Listening to music has a clear positive effect both in physical exercise and on learning<br/>C<br/>.<br/>Listening to music has a clear positive eﬀect on physical exercise. Music has a positive eﬀect on learning only in<br/>some students<br/>D<br/>.<br/>Listening to music has a clear positive eﬀect on learning in all students. Music has a positive eﬀect only in some<br/>students who exercise<br/>verbal-aptitude<br/>verbal-reasoning<br/>passage-reading<br/>Verbal Reasoning: GATE2013 AE: GA-3<br/>Mahatama Gandhi was known for his humility as<br/>A<br/>.<br/>he played an important role in humiliating exit of British from India.<br/>B<br/>.<br/>he worked for humanitarian causes.<br/>C<br/>.<br/>he displayed modesty in his interactions.<br/>D<br/>.<br/>he was a fine human being<br/>verbal-aptitude<br/>verbal-reasoning<br/>Verbal Reasoning: GATE2013 EE: GA-5<br/>Statement:<br/>You can always give me a ring whenever you need.<br/>Which one of the following is the best inference from the above statement?<br/>A<br/>.<br/>Because I have a nice caller tune.<br/>B<br/>.<br/>Because I have a better telephone facility.<br/>C<br/>.<br/>Because a friend in need is a friend indeed.<br/>D<br/>.<br/>Because you need not pay towards the telephone bills when you give me a ring.<br/>verbal-reasoning<br/>verbal-aptitude<br/>Verbal Reasoning: GATE2013 EE: GA-7<br/>Statement:<br/>There were diﬀerent streams of freedom movements in colonial India carried out by<br/>the moderates, liberals, radicals, socialists, and so on.<br/>Which one of the following is the best inference from the above statement?<br/>A<br/>.<br/>The emergence of nationalism in colonial India led to our Independence.<br/>B<br/>.<br/>Nationalism in India emerged in the context of colonialism.<br/>C<br/>.<br/>Nationalism in India is homogeneous.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6"
+    }
+  ]
+}

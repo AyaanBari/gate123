@@ -1,0 +1,1246 @@
+{
+  "id": "PYQ_Engineering_Mathematics_P2",
+  "fileName": "PYQ_Engineering_Mathematics_P2.json",
+  "title": "GATE Official PYQs | Engineering Mathematics Part 2",
+  "subject": "Engineering Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 44,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2015 | Set 3 | Question: 9</strong></div><p>The value of<br/>is<br/>calculus<br/>limits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2016 | Set 1 | Question: 3</strong></div><p>calculus<br/>limits<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2017 | Set 1 | Question: 28</strong></div><p>The value of<br/>calculus<br/>limits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2019 | Question: 13</strong></div><p>Compute<br/>engineering-mathematics<br/>calculus<br/>limits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302835/gate-cse-2019-question-13"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2021 | Set 1 | Question: 20</strong></div><p>Consider the following expression.<br/>The value of the above expression (rounded to 2 decimal places) is ___________.<br/>calculus<br/>limits</p></div>",
+      "options": [],
+      "correctAnswer": "0.25 : 0.25",
+      "discussUrl": "https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2022 | Question: 24</strong></div><p>The value of the following limit is ________________.<br/>calculus<br/>limits</p></div>",
+      "options": [],
+      "correctAnswer": "-0.5",
+      "discussUrl": "https://gateoverflow.in/371912/gate-cse-2022-question-24"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE DA 2025 | Question: 22</strong></div><p>(Round off to one decimal place)<br/>gateda-2025<br/>calculus<br/>limits</p></div>",
+      "options": [],
+      "correctAnswer": "0.5:0.5",
+      "discussUrl": "https://gateoverflow.in/371912/gate-cse-2022-question-24"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE DA 2025 | Question: 49</strong></div><p>Let<br/>be such that<br/>for all<br/>. Then<br/>__________<br/>(Answer in integer)</p></div>",
+      "options": [],
+      "correctAnswer": "0:0",
+      "discussUrl": "https://gateoverflow.in/461000/gate-da-2025-question-22"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 1987 | Question: 1-xxvi</strong></div><p>If<br/>then<br/>A<br/>.<br/>There must be a root of<br/>between<br/>and<br/>B<br/>.<br/>There need not be a root of<br/>between<br/>and<br/>C<br/>.<br/>There fourth derivative of<br/>with respect to<br/>vanishes at<br/>D<br/>.<br/>The fourth derivative of<br/>with respect to<br/>vanishes at<br/>calculus<br/>maxima-minima</p></div>",
+      "options": [],
+      "correctAnswer": "0.5",
+      "discussUrl": "https://gateoverflow.in/422912/gate-ds&ai-2024-question-50"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 1995 | Question: 1.21</strong></div><p>In the interval<br/>the equation<br/>has<br/>calculus<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/422912/gate-ds&ai-2024-question-50"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 1995 | Question: 25a</strong></div><p>Find the minimum value of<br/>.<br/>calculus<br/>maxima-minima<br/>easy<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2608/gate-cse-1995-question-1-21"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 1997 | Question: 4.1</strong></div><p>What is the maximum value of the function<br/>in the interval<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422912/gate-ds&ai-2024-question-50"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2008 | Question: 25</strong></div><p>A point on a curve is said to be an extremum if it is a local minimum or a local maximum. The number of<br/>distinct extrema for the curve<br/>is<br/>calculus<br/>maxima-minima<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/423/gate-cse-2008-question-25"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2012 | Question: 9</strong></div><p>Consider the function<br/>in the interval<br/>. The number and location(s) of the local<br/>minima of this function are<br/>calculus<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/41/gate-cse-2012-question-9"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2015 | Set 2 | GA | Question: 3</strong></div><p>Consider a function<br/>. The value of<br/>at which the function attains a<br/>maximum, and the maximum value of the function are:<br/>set-theory&algebra<br/>functions<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/423/gate-cse-2008-question-25"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2020 | Question: 1</strong></div><p>Consider the functions<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>Which of the above functions is/are increasing everywhere in<br/>?<br/>engineering-mathematics<br/>calculus<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/41/gate-cse-2012-question-9"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE CSE 2023 | Question: 18</strong></div><p>Let<br/>be a real-valued function.<br/>Which of the following statements is/are</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/399293/gate-cse-2023-question-18"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE DA 2025 | Question: 39</strong></div><p>Consider the function<br/>. Which of the following statements<br/>is/are correct?<br/>A<br/>.<br/>The maximum value of<br/>is attained at<br/>B<br/>.<br/>The minimum value of<br/>is attained at<br/>C<br/>.<br/>The maximum value of<br/>is<br/>D<br/>.<br/>The minimum value of the derivative of<br/>is attained at<br/>gateda-2025<br/>calculus<br/>maxima-minima<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/460983/gate-da-2025-question-39"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE DA 2026 | Question: 17</strong></div><p>Let<br/>be a function defined on<br/>.<br/>Which of the following statements is/are correct?<br/>gateda-2026<br/>calculus<br/>maxima-minima<br/>multiple-selects<br/>Maxima Minima: GATE DS&AI 2024 | Question: 40<br/>​​​​​<br/>Consider the function<br/>where<br/>is the set of all real numbers.<br/>Which of the following statements is/are TRUE?<br/>gate-ds-ai-2024<br/>calculus<br/>maxima-minima<br/>multiple-selects<br/>Maxima Minima: GATE DS&AI 2024 | Question: 5<br/>For any twice diﬀerentiable function<br/>, if at some<br/>and<br/>, then the<br/>function<br/>necessarily has a<br/>at<br/>.<br/>Note:<br/>denotes the set of real numbers.<br/>gate-ds-ai-2024<br/>calculus<br/>maxima-minima</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523198/gate-da-2026-question-17"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Maxima Minima",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maxima Minima: GATE IT 2008 | Question: 31</strong></div><p>If<br/>is defined as follows, what is the minimum value of<br/>for<br/>?<br/>calculus<br/>maxima-minima<br/>Polynomials<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3341/gate-it-2008-question-31"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 1987 | Question: 1-xxii</strong></div><p>The equation<br/>has<br/>calculus<br/>polynomials</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3341/gate-it-2008-question-31"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Polynomials",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Polynomials: GATE CSE 1995 | Question: 2.8</strong></div><p>If the cube roots of unity are<br/>and<br/>, then the roots of the following equation are<br/>calculus<br/>polynomials<br/>Summation<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3341/gate-it-2008-question-31"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Summation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Summation: GATE DA 2026 | Question: 25</strong></div><p>The value of<br/>is<br/>. (Answer in integer)<br/>gateda-2026<br/>calculus<br/>summation<br/>5.1.1<br/>N/A<br/>5.1.2<br/>B<br/>5.1.3<br/>A<br/>5.1.4<br/>A<br/>5.1.5<br/>A<br/>5.1.6<br/>C<br/>5.1.7<br/>19 : 19<br/>5.1.8<br/>03 : 03<br/>5.1.9<br/>40:40<br/>5.1.10<br/>A<br/>5.1.11<br/>C<br/>5.2.1<br/>0<br/>5.2.2<br/>B<br/>5.2.3<br/>A<br/>5.2.4<br/>A;C<br/>5.3.1<br/>D<br/>5.3.2<br/>-2<br/>5.3.3<br/>C<br/>5.3.4<br/>9<br/>5.3.5<br/>C<br/>5.3.6<br/>D<br/>5.3.7<br/>-2.1:-1.9<br/>5.3.8<br/>A;C;D<br/>5.3.9<br/>A;B;C<br/>5.3.10<br/>A<br/>5.3.11<br/>B;C;D<br/>5.4.1<br/>N/A<br/>5.4.2<br/>N/A<br/>5.4.3<br/>A<br/>5.4.4<br/>D<br/>5.4.5<br/>D<br/>5.4.6<br/>A<br/>5.4.7<br/>4<br/>5.4.8<br/>-1<br/>5.4.9<br/>A<br/>5.4.10<br/>0.288 : 0.289<br/>5.4.11<br/>B<br/>5.5.1<br/>1<br/>5.5.2<br/>1<br/>5.5.3<br/>A<br/>5.5.4<br/>B<br/>5.5.5<br/>C<br/>5.5.6<br/>C<br/>5.5.7<br/>1<br/>5.5.8<br/>C<br/>5.5.9<br/>C<br/>5.5.10<br/>0.25 : 0.25<br/>5.5.11<br/>-0.5<br/>5.5.12<br/>0.5:0.5<br/>5.5.13<br/>0:0</p></div>",
+      "options": [],
+      "correctAnswer": "1:1",
+      "discussUrl": "https://gateoverflow.in/523190/gate-da-2026-question-25"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cartesian Coordinates",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cartesian Coordinates: GATE IT 2007 | Question: 80</strong></div><p>Let<br/>be<br/>points in the<br/>plane such that no three of them are collinear. For every pair of<br/>points<br/>and<br/>, let<br/>be the line passing through them. Let<br/>be the line with the steepest gradient<br/>amongst all<br/>lines.<br/>Which one of the following properties should necessarily be satisfied ?<br/>A<br/>.<br/>and<br/>are adjacent to each other with respect to their<br/>-coordinate<br/>B<br/>.<br/>Either<br/>or<br/>has the largest or the smallest<br/>-coordinate among all the points<br/>C<br/>.<br/>The difference between<br/>-coordinates<br/>and<br/>is minimum<br/>D<br/>.<br/>None of the above<br/>linear-algebra<br/>cartesian-coordinates<br/>Determinant<br/>(12)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3532/gate-it-2007-question-80"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 1997 | Question: 1.3</strong></div><p>The determinant of the matrix<br/>linear-algebra<br/>determinant</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3532/gate-it-2007-question-80"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2000 | Question: 1.3</strong></div><p>The determinant of the matrix<br/>linear-algebra<br/>easy<br/>determinant</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3532/gate-it-2007-question-80"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2013 | Question: 3</strong></div><p>Which one of the following does NOT equal</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3532/gate-it-2007-question-80"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2014 | Set 2 | Question: 4</strong></div><p>If the matrix<br/>is such that<br/>then the determinant of<br/>is equal to ______.<br/>linear-algebra<br/>easy<br/>determinant</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/1956/gate-cse-2014-set-2-question-4"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2019 | Question: 9</strong></div><p>Let<br/>be a square matrix. Consider the following two statements on<br/>.<br/>I<br/>.<br/>is invertible<br/>II<br/>.<br/>Determinant of<br/>is non-zero<br/>Which one of the following is TRUE?<br/>engineering-mathematics<br/>linear-algebra<br/>determinant</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1956/gate-cse-2014-set-2-question-4"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2023 | Question: 8</strong></div><p>Let<br/>and<br/>Let<br/>and<br/>denote the determinants of the matrices<br/>and<br/>respectively.<br/>Which one of the options given below is<br/>A<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/302839/gate-cse-2019-question-9"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2024 | Set 2 | Question: 37</strong></div><p>Let<br/>be an<br/>matrix over the set of all real numbers<br/>. Let<br/>be a matrix obtained from<br/>by<br/>swapping two rows. Which of the following statements is/are TRUE?<br/>A<br/>.<br/>The determinant of<br/>is the negative of the determinant of<br/>B<br/>.<br/>If<br/>is invertible, then<br/>is also invertible<br/>C<br/>.<br/>If<br/>is symmetric, then<br/>is also symmetric<br/>D<br/>.<br/>If the trace of<br/>is zero, then the trace of<br/>is also zero<br/>linear-algebra<br/>multiple-selects<br/>matrix<br/>determinant</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2025 | Set 2 | Question: 4</strong></div><p>Let<br/>,<br/>, and<br/>be non-singular matrices of order<br/>satisfying the equations<br/>,<br/>and<br/>.<br/>Which ONE of the following is the value of the deteminant of<br/>?<br/>linear-algebra<br/>determinant<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE CSE 2026 | Set 2 | Question: 52</strong></div><p>The determinant of a<br/>matrix<br/>is<br/>. The value of the determinant of<br/>is<br/>. (answer in integer)<br/>linear-algebra<br/>determinant<br/>Determinant: GATE DS&AI 2024 | Question: 25<br/>Consider the<br/>matrix<br/>.<br/>The determinant of<br/>is<br/>.<br/>gate-ds-ai-2024<br/>matrix<br/>determinant<br/>linear-algebra<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "48:48",
+      "discussUrl": "https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE IT 2004 | Question: 32</strong></div><p>Let<br/>be an<br/>matrix of the following form.</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/3675/gate-it-2004-question-32"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Determinant",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Determinant: GATE IT 2005 | Question: 3</strong></div><p>The determinant of the matrix given below is<br/>linear-algebra<br/>determinant<br/>Eigen Value<br/>(33)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(13Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3747/gate-it-2005-question-3"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 1993 | Question: 01.1</strong></div><p>The eigen vector<br/>of the matrix<br/>is (are)<br/>eigen-value<br/>linear-algebra<br/>easy<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/test/1780"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2002 | Question: 5a</strong></div><p>Obtain the eigen values of the matrix<br/>linear-algebra<br/>eigen-value<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/858/gate-cse-2002-question-5a"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2005 | Question: 49</strong></div><p>What are the eigenvalues of the following<br/>matrix?<br/>linear-algebra<br/>eigen-value<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1174/gate-cse-2005-question-49"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2007 | Question: 25</strong></div><p>Let A be a<br/>matrix with eigen values -5,-2,1,4. Which of the following is an eigen value of  the matrix<br/>, where<br/>is the<br/>identity matrix?<br/>eigen-value<br/>linear-algebra<br/>difficult</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/254/gate-cse-2007-question-25"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Eigen Value",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Eigen Value: GATE CSE 2008 | Question: 28</strong></div><p>How many of the following matrices have an eigenvalue 1?<br/>and<br/>eigen-value<br/>linear-algebra<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/426/gate-cse-2008-question-28"
+    }
+  ]
+}

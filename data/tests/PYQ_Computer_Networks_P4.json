@@ -1,0 +1,1288 @@
+{
+  "id": "PYQ_Computer_Networks_P4",
+  "fileName": "PYQ_Computer_Networks_P4.json",
+  "title": "GATE Official PYQs | Computer Networks Part 4",
+  "subject": "Computer Networks",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2016 | Set 1 | Question: 24</strong></div><p>Which one of the following protocols is<br/>NOT<br/>used to resolve one form of address to another one?<br/>computer-networks<br/>network-protocols<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1268/gate-cse-2007-question-70"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2019 | Question: 29</strong></div><p>Suppose that in an IP-over-Ethernet network, a machine X wishes to ﬁnd the MAC address of another<br/>machine Y  in its subnet. Which one of the following techniques can be used for this?<br/>A<br/>.<br/>X sends an ARP request packet to the local gateway’s IP address which then ﬁnds the MAC address of Y and<br/>sends to X<br/>B<br/>.<br/>X sends an ARP request packet to the local gateway’s MAC address which then ﬁnds the MAC address of Y<br/>and sends to X<br/>C<br/>.<br/>X sends an ARP request packet with broadcast MAC address in its local subnet<br/>D<br/>.<br/>X sends an ARP request packet with broadcast IP address in its local subnet<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/302819/gate-cse-2019-question-29"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2021 | Set 1 | Question: 49</strong></div><p>Consider the sliding window ﬂow-control protocol operating between a sender and a receiver over a full-<br/>duplex error-free link. Assume the following:<br/>The time taken for processing the data frame by the receiver is negligible.<br/>The time taken for processing the acknowledgement frame by the sender is negligible.<br/>The sender has infinite number of frames available for transmission.<br/>The size of the data frame is<br/>bits and the size of the acknowledgement frame is<br/>bits.<br/>The link data rate in each direction is<br/>Mbps (<br/>bits per second).<br/>One way propagation delay of the link is<br/>milliseconds.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "50 : 52",
+      "discussUrl": "https://gateoverflow.in/1268/gate-cse-2007-question-70"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2021 | Set 1 | Question: 8</strong></div><p>Consider the following two statements.<br/>: Destination<br/>address of an<br/>reply is a broadcast address.<br/>: Destination<br/>address of an<br/>request is a broadcast address.<br/>Which one of the following choices is correct?<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE CSE 2024 | Set 1 | Question: 6</strong></div><p>A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection<br/>to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple<br/>embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The<br/>following packets leave the user's computer in some order.<br/>i<br/>.<br/>HTTP GET request for the index page<br/>ii<br/>.<br/>DNS request to resolve the web server's name to its IP address<br/>iii<br/>.<br/>HTTP GET request for an image object<br/>iv<br/>.<br/>TCP SYN to open a connection to the web server<br/>Which one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the<br/>computer?<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE IT 2007 | Question: 69</strong></div><p>Consider the following clauses:<br/>i<br/>.<br/>Not inherently suitable for client authentication.<br/>ii<br/>.<br/>Not a state sensitive protocol.<br/>iii<br/>.<br/>Must be operated with more than one server.<br/>iv<br/>.<br/>Suitable for structured message organization.<br/>v<br/>.<br/>May need two ports on the serve side for proper operation.<br/>The option that has the maximum number of correct matches is<br/>A<br/>.<br/>IMAP-i;  FTP-ii;  HTTP-iii;  DNS-iv;  POP3-v<br/>B<br/>.<br/>FTP-i;  POP3-ii;  SMTP-iii;  HTTP-iv;  IMAP-v<br/>C<br/>.<br/>POP3-i;  SMTP-ii;  DNS-iii;  IMAP-iv;  HTTP-v<br/>D<br/>.<br/>SMTP-i;  HTTP-ii;  IMAP-iii;  DNS-iv;  FTP-v<br/>computer-networks<br/>network-protocols</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3514/gate-it-2007-question-69"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Protocols: GATE IT 2008 | Question: 68</strong></div><p>Which of the following statements are TRUE?<br/>S1:<br/>TCP handles both congestion and flow control<br/>S2:<br/>UDP handles congestion but not flow control<br/>S3:<br/>Fast retransmit deals with congestion but not flow control<br/>S4:<br/>Slow start mechanism deals with both congestion and flow control<br/>computer-networks<br/>network-protocols<br/>Network Switching<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3382/gate-it-2008-question-68"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Switching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Switching: GATE CSE 2005 | Question: 73</strong></div><p>In a packet switching network, packets are routed from source to destination along a single path having two<br/>intermediate nodes. If the message size is<br/>bytes and each packet contains a header of<br/>bytes, then the<br/>optimum packet size is:<br/>computer-networks<br/>network-switching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1396/gate-cse-2005-question-73"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Switching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Switching: GATE CSE 2014 | Set 2 | Question: 26</strong></div><p>Consider the store and forward packet switched network given below. Assume that the bandwidth of each<br/>link is<br/>bytes / sec. A user on host<br/>sends a ﬁle of size<br/>bytes to host<br/>through routers<br/>and<br/>in three diﬀerent ways. In the ﬁrst case a single packet containing the complete ﬁle is transmitted from<br/>to<br/>. In<br/>the second case, the ﬁle is split into<br/>equal parts, and these packets are transmitted from<br/>to<br/>. In the third<br/>case, the file is split into<br/>equal parts and these packets are sent from<br/>to<br/>. Each packet contains<br/>bytes of<br/>header information along with the user data. Consider only transmission time and ignore processing, queuing and<br/>propagation delays. Also assume that there are no errors during transmission. Let<br/>,<br/>and<br/>be the times<br/>taken to transmit the file in the first, second and third case respectively. Which one of the following is CORRECT?<br/>computer-networks<br/>network-switching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3382/gate-it-2008-question-68"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Network Switching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Switching: GATE CSE 2015 | Set 3 | Question: 36</strong></div><p>Two hosts are connected via a packet switch with<br/>bits per second links. Each link has a propagation<br/>delay of<br/>microseconds. The switch begins forwarding a packet<br/>microseconds after it receives the<br/>same. If<br/>bits of data are to be transmitted between the two hosts using a packet size of<br/>bits, the time<br/>elapsed between the transmission of the ﬁrst bit of data and the reception of the last bit of the data in microseconds<br/>is ______.<br/>computer-networks<br/>network-switching</p></div>",
+      "options": [],
+      "correctAnswer": "1575",
+      "discussUrl": "https://gateoverflow.in/3382/gate-it-2008-question-68"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Network Switching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Network Switching: GATE IT 2004 | Question: 22</strong></div><p>Which one of the following statements is FALSE?<br/>A<br/>.<br/>Packet switching leads to better utilization of bandwidth resources than circuit switching</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3663/gate-it-2004-question-22"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Osi Model",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Osi Model: GATE CSE 2025 | Set 1 | Question: 6</strong></div><p>Identify the ONE CORRECT matching between the OSI layers and their corresponding functionalities as<br/>shown.<br/>computer-networks<br/>osi-model<br/>easy<br/>Probability<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460074/gate-cse-2025-set-1-question-6"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Probability",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Probability: GATE CSE 2025 | Set 1 | Question: 46</strong></div><p>Suppose a<br/>-bit message is transmitted from a source to a destination through a noisy channel. The<br/>probability that a bit of the message gets ﬂipped during transmission is<br/>. Flipping of each bit is<br/>independent of one another. The probability that the message is delivered error-free to the destination is<br/>___________ (rounded off to three decimal places)<br/>computer-networks<br/>probability<br/>easy<br/>Pure Aloha<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "0.949:0.952",
+      "discussUrl": "https://gateoverflow.in/460074/gate-cse-2025-set-1-question-6"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Pure Aloha",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Pure Aloha: GATE CSE 2021 | Set 2 | Question: 54</strong></div><p>Consider a network using the pure<br/>medium access control protocol, where each frame is of length<br/>bits. The channel transmission rate is<br/>Mbps (<br/>bits per second). The aggregate number of<br/>transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions)<br/>is modelled as a Poisson process with a rate of<br/>frames per second. Throughput is deﬁned as the average<br/>number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest<br/>integer) is ______________<br/>computer-networks<br/>mac-protocol<br/>pure-aloha<br/>Routing<br/>(14)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(4Q)</p></div>",
+      "options": [],
+      "correctAnswer": "130 : 140",
+      "discussUrl": "https://gateoverflow.in/460074/gate-cse-2025-set-1-question-6"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2005 | Question: 26</strong></div><p>In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate<br/>bridges. Since more than one path may exist between two LANs, packets may have to be routed through<br/>multiple bridges. Why is the<br/>spanning tree algorithm<br/>used for bridge-routing?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1362/gate-cse-2005-question-26"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2014 | Set 1 | Question: 23</strong></div><p>Consider the following three statements about link state and distance vector routing protocols, for a large<br/>network with<br/>network nodes and<br/>links.<br/>[S1]: The computational overhead in link state protocols is higher than in distance vector protocols.<br/>[S2]: A distance vector protocol (with split horizon) avoids persistent routing loops, but not a link state protocol.<br/>[S3]: After a topology change, a link state protocol will converge faster than a distance vector protocol.<br/>Which one of the following is correct about<br/>,<br/>, and<br/>?<br/>computer-networks<br/>routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2014 | Set 2 | Question: 23</strong></div><p>Which of the following is TRUE about the interior gateway routing protocols<br/>Routing Information Protocol<br/>and Open Shortest Path First<br/>A<br/>.<br/>RIP uses distance vector routing and OSPF uses link state routing<br/>B<br/>.<br/>OSPF uses distance vector routing and RIP uses link state routing<br/>C<br/>.<br/>Both RIP and OSPF use link state routing<br/>D<br/>.<br/>Both RIP and OSPF use distance vector routing<br/>computer-networks<br/>routing<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2014 | Set 3 | Question: 26</strong></div><p>An IP router implementing Classless Inter-domain Routing (CIDR) receives a packet with address<br/>. The router's routing table has the following entries:<br/>The identifier of the output interface on which this packet will be forwarded is ______.<br/>computer-networks<br/>routing</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2017 | Set 2 | Question: 09</strong></div><p>Consider the following statements about the routing protocols. Routing Information Protocol (RIP) and Open<br/>Shortest Path First (OSPF) in an<br/>network.<br/>I<br/>.<br/>RIP uses distance vector routing<br/>II<br/>.<br/>RIP packets are sent using UDP<br/>III<br/>.<br/>OSPF packets are sent using TCP<br/>IV<br/>.<br/>OSPF operation is based on link-state routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2020 | Question: 15</strong></div><p>Consider the following statements about the functionality of an<br/>based router.<br/>I<br/>.<br/>A router does not modify the<br/>packets during forwarding.<br/>II<br/>.<br/>It is not necessary for a router to implement any routing protocol.<br/>III<br/>.<br/>A router should reassemble<br/>fragments if the<br/>of the outgoing link is larger than the size of the incoming<br/>packet.<br/>Which of the above statements is/are TRUE?<br/>computer-networks<br/>routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/333216/gate-cse-2020-question-15"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2023 | Question: 15</strong></div><p>Which of the following statements is/are<br/>about the<br/>routing protocol used in the Internet?<br/>A<br/>.<br/>implements Bellman-Ford algorithm to find shortest paths.<br/>B<br/>.<br/>uses Dijkstra's shortest path algorithm to implement least-cost path routing.<br/>C<br/>.<br/>is used as an inter-domain routing protocol.<br/>D<br/>.<br/>implements hierarchical routing.<br/>computer-networks<br/>routing<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/333216/gate-cse-2020-question-15"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2024 | Set 1 | Question: 26</strong></div><p>Consider a network path<br/>between nodes<br/>and<br/>via router<br/>. Node<br/>sends a ﬁle of size<br/>bytes to<br/>via this path by splitting the ﬁle into chunks of<br/>bytes each. Node<br/>sends these chunks one<br/>after the other without any wait time between the successive chunk transmissions. Assume that the size of extra<br/>headers added to these chunks is negligible, and that the chunk size is less than the<br/>.<br/>Each of the links<br/>and<br/>has a bandwidth of<br/>, and negligible propagation latency. Router<br/>immediately transmits every packet it receives from<br/>to<br/>, with negligible processing and queueing delays.<br/>Router<br/>can simultaneously receive on<br/>and transmit on<br/>.<br/>Assume<br/>starts transmitting the chunks at time<br/>.<br/>Which one of the following options gives the time (<br/>in seconds, rounded oﬀ to<br/>decimal places<br/>) at which<br/>receives<br/>all the chunks of the file?<br/>computer-networks<br/>routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333216/gate-cse-2020-question-15"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2024 | Set 1 | Question: 48</strong></div><p>Consider the entries shown below in the forwarding table of an<br/>router. Each entry consists of an<br/>preﬁx<br/>and the corresponding next hop router for packets whose destination<br/>address matches the preﬁx. The<br/>notation \" /<br/>\" in a prefix indicates a subnet mask with the most significant<br/>bits set to<br/>.</p></div>",
+      "options": [],
+      "correctAnswer": "40",
+      "discussUrl": "https://gateoverflow.in/333216/gate-cse-2020-question-15"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE CSE 2026 | Set 2 | Question: 11</strong></div><p>Consider a ﬁle of size<br/>million bytes being transferred between two hosts connected via a path consisting of<br/>three consecutive links of bandwidth<br/>Mbps ,<br/>kbps , and<br/>Mbps , respectively. All processing delays<br/>and propagation delays are negligible. Assume that there is no other background traﬃc over the path and no other<br/>additional overhead to transfer the file.<br/>Which one of the following is the total time (in seconds) to transfer the file?<br/>Note:<br/>computer-networks<br/>routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523135/gate-cse-2026-set-2-question-11"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE IT 2005 | Question: 85a</strong></div><p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node<br/>maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the<br/>cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is<br/>synchronously updated as follows. In each updated interval, three tasks are performed.<br/>i<br/>.<br/>A node determines whether its neighbours in the graph are accessible. If so, it sets the tentative cost to each<br/>accessible neighbour as<br/>. Otherwise, the cost is set to<br/>.<br/>ii<br/>.<br/>From each accessible neighbour, it gets the costs to relay to other nodes via that neighbour (as the next hop).<br/>iii<br/>.<br/>Each node updates its routing table based on the information received in the previous two steps by choosing the<br/>minimum cost.<br/>For the graph given above, possible routing tables for various nodes after they have stabilized, are shown in the<br/>following options. Identify the correct table.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3858/gate-it-2005-question-85a"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE IT 2005 | Question: 85b</strong></div><p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node<br/>maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the<br/>cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is<br/>synchronously updated as follows. In each updated interval, three tasks are performed.<br/>i<br/>.<br/>A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each<br/>accessible neighbor as<br/>. Otherwise, the cost is set to<br/>.<br/>ii<br/>.<br/>From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).<br/>iii<br/>.<br/>Each node updates its routing table based on the information received in the previous two steps by choosing the<br/>minimum cost.<br/>Continuing from the earlier problem, suppose at some time<br/>, when the costs have stabilized, node<br/>goes down.<br/>The cost from node<br/>to node<br/>at time<br/>is :<br/>computer-networks<br/>routing</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3859/gate-it-2005-question-85b"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE IT 2007 | Question: 63</strong></div><p>A group of<br/>routers is interconnected in a centralized complete binary tree with a router at each tree node.<br/>Router<br/>communicates with router<br/>by sending a message to the root of the tree. The root then sends the<br/>message back down to router<br/>. The mean number of hops per message, assuming all possible router pairs are<br/>equally likely is<br/>computer-networks<br/>routing<br/>binary-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3508/gate-it-2007-question-63"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing: GATE IT 2008 | Question: 67</strong></div><p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following<br/>are true?<br/>(S1):<br/>Count to infinity is a problem only with DV and not LS routing<br/>(S2):<br/>In LS, the shortest path algorithm is run only at one node<br/>(S3):<br/>In DV, the shortest path algorithm is run only at one node<br/>(S4):<br/>DV requires lesser number of network messages than LS</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3381/gate-it-2008-question-67"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Routing Protocols",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Routing Protocols: GATE CSE 2025 | Set 2 | Question: 7</strong></div><p>Consider the routing protocols given in<br/>List I<br/>and the names given in<br/>List II<br/>:<br/>For matching of items in<br/>List I<br/>with those in<br/>List II<br/>, which ONE of the following options is CORRECT?<br/>computer-networks<br/>match-the-following<br/>routing-protocols<br/>easy<br/>Sliding Window<br/>(16)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460828/gate-cse-2025-set-2-question-7"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2003 | Question: 84</strong></div><p>Host<br/>is sending data to host<br/>over a full duplex link.<br/>and<br/>are using the sliding window protocol for<br/>ﬂow control. The send and receive window sizes are<br/>packets each. Data packets (sent only from<br/>to<br/>)<br/>are all<br/>bytes long and the transmission time for such a packet is<br/>. Acknowledgment packets (sent only<br/>from<br/>to<br/>) are very small and require negligible transmission time. The propagation delay over the link is<br/>. What is the maximum achievable throughput in this communication?<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/967/gate-cse-2003-question-84"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2005 | Question: 25</strong></div><p>The maximum window size for data transmission using the selective reject protocol with<br/>frame<br/>sequence numbers is:<br/>computer-networks<br/>sliding-window<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460828/gate-cse-2025-set-2-question-7"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2006 | Question: 44</strong></div><p>Station<br/>uses<br/>packets to transmit messages to Station<br/>using a sliding window protocol. The<br/>round trip delay between A and<br/>is<br/>and the bottleneck bandwidth on the path between<br/>and<br/>is<br/>. What is the optimal window size that<br/>should use?<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1820/gate-cse-2006-question-44"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2006 | Question: 46</strong></div><p>Station<br/>needs to send a message consisting of<br/>packets to Station<br/>using a sliding window (window<br/>size<br/>) and go-back-<br/>error control strategy. All packets are ready and immediately available for<br/>transmission. If every<br/>th packet that<br/>transmits gets lost (but no acks from<br/>ever get lost), then what is the<br/>number of packets that<br/>will transmit for sending the message to<br/>?<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1822/gate-cse-2006-question-46"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2007 | Question: 69</strong></div><p>The distance between two stations<br/>and<br/>is<br/>kilometers. All frames are<br/>bits long. The propagation<br/>delay per kilometer is<br/>seconds. Let<br/>bits/second be the channel capacity. Assuming that the processing<br/>delay is negligible, the<br/>number of bits for the sequence number ﬁeld in a frame for maximum utilization,<br/>when the<br/>is used, is:<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1267/gate-cse-2007-question-69"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2009 | Question: 57, ISRO2016-75</strong></div><p>Frames of<br/>are sent over a<br/>duplex link between two hosts. The propagation time is<br/>. Frames are to be transmitted into this link to maximally pack them in transit (within the link).<br/>What is the minimum number of bits<br/>that will be required to represent the sequence numbers distinctly?<br/>Assume that no time gap needs to be given between transmission of two frames.<br/>computer-networks<br/>sliding-window<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1340/gate-cse-2009-question-57-isro2016-75"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2009 | Question: 58</strong></div><p>Frames of<br/>are sent over a<br/>bps duplex link between two hosts. The propagation time is<br/>.<br/>Frames are to be transmitted into this link to maximally pack them in transit (within the link).<br/>Let<br/>be the minimum number of bits<br/>that will be required to represent the sequence numbers distinctly<br/>assuming that no time gap needs to be given between transmission of two frames.<br/>Suppose that the sliding window protocol is used with the sender window size of<br/>, where<br/>is the numbers of bits<br/>as mentioned earlier and acknowledgements are always piggy backed. After sending<br/>frames, what is the<br/>minimum time the sender will have to wait before starting transmission of the next frame? (Identify the closest<br/>choice ignoring the frame processing time)<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1340/gate-cse-2009-question-57-isro2016-75"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2014 | Set 1 | Question: 28</strong></div><p>Consider a selective repeat sliding window protocol that uses a frame size of<br/>to send data on a<br/>link with a one-way latency of<br/>. To achieve a link utilization of<br/>, the minimum number of<br/>bits required to represent the sequence number field is ________.<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [],
+      "correctAnswer": "5",
+      "discussUrl": "https://gateoverflow.in/1822/gate-cse-2006-question-46"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2015 | Set 3 | Question: 28</strong></div><p>Consider a network connecting two systems located<br/>apart. The bandwidth of the network is<br/>per second. The propagation speed of the media is<br/>per second. It needs to<br/>design a Go-Back-<br/>sliding window protocol for this network. The average packet size is<br/>. The network is<br/>to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in<br/>bits of the sequence number field has to be ______.<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [],
+      "correctAnswer": "8",
+      "discussUrl": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2016 | Set 2 | Question: 55</strong></div><p>Consider a<br/>bits/second satellite communication link with one way propagation delay of<br/>milliseconds. Selective retransmission (repeat) protocol is used on this link to send data with a frame size of<br/>kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the<br/>sequence number field to achieve<br/>utilization is ________.<br/>computer-networks<br/>sliding-window</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Sliding Window",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sliding Window: GATE CSE 2026 | Set 1 | Question: 35</strong></div><p>Consider the implementation of sliding window protocol over a lossless link, with a window size of<br/>frames, where each frame is of size<br/>bits (including header). The bandwidth of the link is<br/>and the one-way propagation delay is<br/>milliseconds. Assume that processing times at<br/>the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the<br/>following options gives the minimum size of<br/>(in number of frames) required to achieve<br/>link utilization?<br/>sliding-window<br/>computer-networks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28"
+    }
+  ]
+}

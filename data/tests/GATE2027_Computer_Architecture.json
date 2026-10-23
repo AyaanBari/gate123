@@ -1,0 +1,46 @@
+{
+  "id": "GATE2027_Computer_Architecture",
+  "fileName": "GATE2027_Computer_Architecture.json",
+  "title": "GATE 2027 Original | Computer Organization & Architecture",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE 2027 Original",
+  "series": "GATE 2027 Original",
+  "durationMinutes": 45,
+  "totalQuestions": 2,
+  "totalMarks": 4,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Computer Organization - Memory Hierarchy",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Computer Organization - Memory Hierarchy</strong></div>\n<p>A computer system has a 64 KB, 4-way set-associative cache with a block size of 32 bytes. The processor generates 32-bit byte-addressable physical memory addresses. How many bits are there in the <strong>Tag</strong> field of each address?</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Cache size = $64\\text{ KB} = 2^{16}$ bytes.<br/>Block size = $32\\text{ bytes} = 2^5$ bytes $\\implies$ Block Offset = 5 bits.<br/>Number of cache lines = $\\frac{64\\text{ KB}}{32\\text{ B}} = 2^{11} = 2048$ lines.<br/>With 4-way set associativity, number of sets = $\\frac{2048}{4} = 512 = 2^9$ sets $\\implies$ Set Index = 9 bits.<br/>Address length = 32 bits.<br/>Tag bits $= 32 - (\\text{Set Index} + \\text{Block Offset}) = 32 - (9 + 5) = 32 - 14 = 18$ bits.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "18",
+      "discussUrl": "https://gateoverflow.in"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Computer Organization - Pipelining",
+      "questionHtml": "<div class=\"res_question_text\">\n<div class=\"q-source-tag\"><strong>🔥 GATE 2027 Original: Computer Organization - Pipelining</strong></div>\n<p>A 5-stage instruction pipeline has an ideal CPI of 1. Branch instructions constitute 20% of the instruction mix. Conditional branches are resolved in the 3rd stage (causing a 2-cycle penalty on misprediction). A dynamic branch predictor is used with a prediction accuracy of 85%. Assuming no other pipeline stalls, what is the effective CPI of this processor? (Round to 2 decimal places).</p>\n<div class=\"original-explanation-box\" style=\"margin-top: 1.25rem; padding: 1rem; border-radius: 8px; background: rgba(99, 102, 241, 0.08); border-left: 4px solid var(--accent-primary);\">\n  <strong style=\"color: var(--accent-primary);\">💡 Detailed Concept & Solution:</strong>\n  <div style=\"margin-top: 0.5rem; line-height: 1.6; font-size: 0.95rem;\">\n    Branch frequency = 0.20.<br/>Misprediction rate $= 1 - 0.85 = 0.15$.<br/>Penalty per mispredicted branch = 2 cycles.<br/>Stall cycles per instruction $= 0.20 \\times 0.15 \\times 2 = 0.06$ cycles.<br/>Effective CPI $= \\text{Ideal CPI} + \\text{Stalls} = 1 + 0.06 = 1.06$.\n  </div>\n</div>\n</div>",
+      "options": [],
+      "correctAnswer": "1.06",
+      "discussUrl": "https://gateoverflow.in"
+    }
+  ]
+}

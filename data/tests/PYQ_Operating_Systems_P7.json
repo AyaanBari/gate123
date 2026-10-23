@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Operating_Systems_P7",
+  "fileName": "PYQ_Operating_Systems_P7.json",
+  "title": "GATE Official PYQs | Operating Systems Part 7",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2005 | Question: 41</strong></div><p>Given below is a program which when executed spawns two concurrent processes :<br/>semaphore<br/>/* Process now forks into concurrent processes<br/>&<br/>*/<br/>Consider the following statements about processes<br/>and<br/>I<br/>.<br/>It is possible for process<br/>to starve.<br/>II<br/>.<br/>It is possible for process<br/>to starve.<br/>Which of the following holds?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3788/gate-it-2005-question-41"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2005 | Question: 42</strong></div><p>Two concurrent processes<br/>and<br/>use four shared resources<br/>and<br/>, as shown below.<br/>Both processes are started at the same time, and each resource can be accessed by only one process at a time<br/>The following scheduling constraints exist between the access of resources by the processes:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3788/gate-it-2005-question-41"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2006 | Question: 55</strong></div><p>Consider the solution to the bounded buﬀer producer/consumer problem by using general semaphores<br/>and<br/>. The semaphore<br/>is the mutual exclusion semaphore initialized to<br/>. The semaphore<br/>corresponds to the number of free slots in the buﬀer and is initialized to<br/>. The semaphore<br/>corresponds to the<br/>number of elements in the buffer and is initialized to<br/>.<br/>Which of the following interchange operations may result in a deadlock?<br/>I<br/>.<br/>Interchanging Wait<br/>and Wait<br/>in the Producer process<br/>II<br/>.<br/>Interchanging Signal<br/>and Signal<br/>in the Consumer process<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3598/gate-it-2006-question-55"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2007 | Question: 10</strong></div><p>Processes<br/>and<br/>use critical_ﬂag in the following routine to achieve mutual exclusion. Assume that<br/>critical_flag is initialized to FALSE in the main program.<br/>get_exclusive_access<br/>(<br/>)<br/>{<br/>if<br/>(<br/>critical _flag<br/>==<br/>FALSE<br/>)<br/>{<br/>critical_flag<br/>=<br/>TRUE<br/>;<br/>critical_region<br/>()<br/>;<br/>critical_flag<br/>=<br/>FALSE<br/>;<br/>}<br/>}<br/>Consider the following statements.<br/>i<br/>.<br/>It is possible for both<br/>and<br/>to access critical_region concurrently.<br/>ii<br/>.<br/>This may lead to a deadlock.<br/>Which of the following holds?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3443/gate-it-2007-question-10"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2007 | Question: 56</strong></div><p>Synchronization in the classical readers and writers problem can be achieved through use of semaphores. In<br/>the following incomplete code for readers-writers problem, two binary semaphores mutex and wrt are used<br/>to obtain synchronization<br/>wait<br/>(<br/>wrt<br/>)<br/>writing<br/>is<br/>performed<br/>signal<br/>(<br/>wrt<br/>)<br/>wait<br/>(<br/>mutex<br/>)<br/>readcount<br/>=<br/>readcount<br/>+<br/>1<br/>if<br/>readcount<br/>=<br/>1<br/>then<br/>S1<br/>S2<br/>reading<br/>is<br/>performed<br/>S3<br/>readcount<br/>=<br/>readcount<br/>-<br/>1<br/>if<br/>readcount<br/>=<br/>0<br/>then<br/>S4<br/>signal<br/>(<br/>mutex<br/>)<br/>The values of<br/>(in that order) are<br/>A<br/>.<br/>signal (mutex), wait (wrt), signal (wrt), wait (mutex)<br/>B<br/>.<br/>signal (wrt), signal (mutex), wait (mutex), wait (wrt)<br/>C<br/>.<br/>wait (wrt), signal (mutex), wait (mutex), signal (wrt)<br/>D<br/>.<br/>signal (mutex), wait (mutex), signal (mutex), wait (mutex)<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3498/gate-it-2007-question-56"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2008 | Question: 53</strong></div><p>The following is a code with two threads, producer and consumer, that can run in parallel. Further,<br/>and<br/>are binary semaphores quipped with the standard<br/>and<br/>operations.<br/>semaphore S<br/>=<br/>1<br/>,<br/>Q<br/>=<br/>0<br/>;<br/>integer x<br/>;<br/>producer<br/>:<br/>consumer<br/>:<br/>while<br/>(<br/>true<br/>)<br/>do<br/>while<br/>(<br/>true<br/>)<br/>do<br/>P<br/>(<br/>S<br/>);<br/>P<br/>(<br/>Q<br/>);<br/>x<br/>=<br/>produce<br/>();<br/>consume<br/>(<br/>x<br/>);<br/>V<br/>(<br/>Q<br/>);<br/>V<br/>(<br/>S<br/>);<br/>done<br/>done<br/>Which of the following is TRUE about the program above?<br/>A<br/>.<br/>The process can deadlock<br/>B<br/>.<br/>One of the threads can starve<br/>C<br/>.<br/>Some of the items produced by the producer may be lost<br/>D<br/>.<br/>Values generated and stored in '<br/>' by the producer will always be consumed before the producer can generate<br/>a new value<br/>operating-system<br/>process-synchronization<br/>Resource Allocation<br/>(27)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3363/gate-it-2008-question-53"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1988 | Question: 11</strong></div><p>A number of processes could be in a deadlock state if none of them can execute due to non-availability of<br/>suﬃcient resources. Let<br/>represent ﬁve processes and let there be four resources types<br/>. Suppose the following data structures have been used.<br/>Available:<br/>A vector of length<br/>such that if Available<br/>, there are k instances of resource type<br/>available in</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2211"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1989 | Question: 11a</strong></div><p>i<br/>.<br/>A system of four concurrent processes,<br/>and<br/>, use shared resources<br/>and<br/>. The sequences in<br/>which processes,<br/>and<br/>request and release resources are as follows:<br/>If a resource is free, it is granted to a requesting process immediately. There is no preemption of granted resources.<br/>A resource is taken back from a process only when the process explicitly releases it.<br/>Can the system of four processes get into a deadlock? If yes, give a sequence (ordering) of operations (for<br/>requesting and releasing resources) of these processes which leads to a deadlock.<br/>ii<br/>.<br/>Will the processes always get into a deadlock? If your answer is no, give a sequence of these operations which<br/>leads to completion of all processes.<br/>iii<br/>.<br/>What strategies can be used to prevent deadlocks in a system of concurrent processes using shared resources</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91093/gate-cse-1989-question-11a"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1992 | Question: 02-xi</strong></div><p>A computer system has<br/>tape devices, with n processes competing for them. Each process may need<br/>tape drives. The maximum value of n for which the system is guaranteed to be deadlock-free is:<br/>operating-system<br/>resource-allocation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/568/gate-cse-1992-question-02-xi"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1993 | Question: 7.9, UGCNET-Dec2012-III: 41</strong></div><p>Consider a system having<br/>resources of the same type. These resources are shared by<br/>processes<br/>, and<br/>which have peak demands of<br/>, and<br/>respectively.  For what value of<br/>deadlock will not<br/>occur?<br/>operating-system<br/>resource-allocation<br/>ugcnetcse-dec2012-paper3<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D;E",
+      "discussUrl": "https://gateoverflow.in/568/gate-cse-1992-question-02-xi"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1994 | Question: 28</strong></div><p>Consider the resource allocation graph in the figure.<br/>A<br/>.<br/>Find if the system is in a deadlock state<br/>B<br/>.<br/>Otherwise, find a safe sequence<br/>operating-system<br/>resource-allocation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2524/gate-cse-1994-question-28"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1996 | Question: 22</strong></div><p>A computer system uses the Banker’s Algorithm to deal with deadlocks. Its current state is shown in the<br/>table below, where<br/>,<br/>,<br/>are processes, and<br/>,<br/>,<br/>are resources types.<br/>A<br/>.<br/>Show that the system can be in this state<br/>B<br/>.<br/>What will the system do on a request by process<br/>for one unit of resource type<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2297/gate-cse-1993-question-7-9-ugcnet-dec2012-iii-41"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1997 | Question: 6.7</strong></div><p>An operating system contains<br/>user processes each requiring<br/>units of resource<br/>. The minimum number<br/>of units of<br/>such that no deadlocks will ever arise is<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2263/gate-cse-1997-question-6-7"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1997 | Question: 75</strong></div><p>An operating system handles requests to resources as follows.<br/>A process (which asks for some resources, uses them for some time and then exits the system) is assigned<br/>a unique timestamp are when it starts. The timestamps are monotonically increasing with time. Let us denote the<br/>timestamp of a process<br/>by<br/>.<br/>When a process<br/>requests for a resource the<br/>does the following:<br/>i<br/>.<br/>If no other process is currently holding the resource, the<br/>awards the resource to<br/>.<br/>ii<br/>.<br/>If some process<br/>with<br/>is holding the resource, the<br/>makes<br/>wait for the resources.<br/>iii<br/>.<br/>If some process<br/>with<br/>is holding the resource, the<br/>restarts<br/>and awards the resources<br/>to<br/>. (Restarting means taking back the resources held by a process, killing it and starting it again with the<br/>same timestamp)<br/>When a process releases a resource, the process with the smallest timestamp (if any) amongst those waiting for<br/>the resource is awarded the resource.<br/>A<br/>.<br/>Can a deadlock over arise? If yes, show how. If not prove it.<br/>B<br/>.<br/>Can a process P ever starve? If yes, show how. If not prove it.<br/>operating-system<br/>resource-allocation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2263/gate-cse-1997-question-6-7"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 1998 | Question: 1.32</strong></div><p>A computer has six tape drives, with<br/>processes competing for them. Each process may need two drives.<br/>What is the maximum value of<br/>for the system to be deadlock free?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2263/gate-cse-1997-question-6-7"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2000 | Question: 2.23</strong></div><p>Which of the following is not a valid deadlock prevention scheme?<br/>A<br/>.<br/>Release all resources before requesting a new resource.<br/>B<br/>.<br/>Number the resources uniquely and never request a lower numbered resource than the last one requested.<br/>C<br/>.<br/>Never request a resource after releasing any resource.<br/>D<br/>.<br/>Request and all required resources be allocated before execution.<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2263/gate-cse-1997-question-6-7"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2001 | Question: 19</strong></div><p>Two concurrent processes<br/>and<br/>want to use resources<br/>and<br/>in a mutually exclusive manner.<br/>Initially,<br/>and<br/>are free. The programs executed by the two processes are given below.<br/>A<br/>.<br/>Is mutual exclusion guaranteed for<br/>and<br/>? If not show a possible interleaving of the statements of<br/>and<br/>such mutual exclusion is violated (i.e., both<br/>and<br/>use<br/>and<br/>at the same time).<br/>B<br/>.<br/>Can deadlock occur in the above program? If yes, show a possible interleaving of the statements of<br/>and<br/>leading to deadlock.<br/>C<br/>.<br/>Exchange the statements<br/>and<br/>and statements<br/>and<br/>. Is mutual exclusion guaranteed now? Can<br/>deadlock occur?<br/>operating-system<br/>resource-allocation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/760/gate-cse-2001-question-19"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2005 | Question: 71</strong></div><p>Suppose<br/>processes,<br/>share<br/>identical resource units, which can be reserved and released<br/>one at a time. The maximum resource requirement of process<br/>is<br/>, where<br/>. Which one of the<br/>following is a sufficient condition for ensuring that deadlock does not occur?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1394/gate-cse-2005-question-71"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2006 | Question: 66</strong></div><p>Consider the following snapshot of a system running<br/>processes. Process<br/>is  holding<br/>instances of a<br/>resource<br/>,<br/>. Currently, all instances of<br/>are occupied. Further, for all<br/>, process<br/>has placed a<br/>request for an additional<br/>instances while holding the<br/>instances it already has. There are exactly two processes<br/>and<br/>and such that<br/>. Which one of the following can serve as  a necessary condition to guarantee<br/>that the system is not approaching a deadlock?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1844/gate-cse-2006-question-66"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2007 | Question: 57</strong></div><p>A single processor system has three resource types<br/>and<br/>, which are shared by three processes.<br/>There are<br/>units of each resource type. Consider the following scenario, where the column<br/>alloc<br/>denotes<br/>the number of units of each resource type allocated to each process, and the column<br/>request<br/>denotes the number<br/>of units of each resource type requested by a process in order to complete execution. Which of these processes<br/>will finish<br/>LAST<br/>?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1255/gate-cse-2007-question-57"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2008 | Question: 65</strong></div><p>Which of the following is NOT true of deadlock prevention and deadlock avoidance schemes?<br/>A<br/>.<br/>In deadlock prevention, the request for resources is always granted if the resulting state is safe<br/>B<br/>.<br/>In deadlock avoidance, the request for resources is always granted if the resulting state is safe<br/>C<br/>.<br/>Deadlock avoidance is less restrictive than deadlock prevention<br/>D<br/>.<br/>Deadlock avoidance requires knowledge of resource requirements<br/>apriori..<br/>operating-system<br/>easy<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/488/gate-cse-2008-question-65"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2009 | Question: 30</strong></div><p>Consider a system with<br/>types of resources<br/>(<br/>units),<br/>(<br/>units),<br/>(<br/>units),<br/>(<br/>units). A non-<br/>preemptive resource allocation policy is used. At any given instance, a request is not entertained if it cannot<br/>be completely satisfied. Three processes<br/>,<br/>,<br/>request the resources as follows if executed independently.<br/>Which one of the following statements is TRUE if all three processes run concurrently starting at time<br/>?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1316/gate-cse-2009-question-30"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2010 | Question: 46</strong></div><p>A system has<br/>resources<br/>, and<br/>processes<br/>. The implementation of the<br/>resource request logic of each process<br/>is as follows:<br/>In which of the following situations is a deadlock possible?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2348/gate-cse-2010-question-46"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2013 | Question: 16</strong></div><p>Three concurrent processes<br/>,<br/>, and<br/>execute three diﬀerent code segments that access and update<br/>certain shared variables. Process<br/>executes the<br/>operation (i.e.,<br/>) on semaphores<br/>,<br/>and<br/>;<br/>process<br/>executes the<br/>operation on semaphores<br/>,<br/>and<br/>; process<br/>executes the<br/>operation on<br/>semaphores<br/>,<br/>, and<br/>before entering the respective code segments. After completing the execution of its code<br/>segment, each process invokes the<br/>operation (i.e.,<br/>) on its three semaphores. All semaphores are binary<br/>semaphores initialized to one. Which one of the following represents a deadlock-free order of invoking the<br/>operations by the processes?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1438/gate-cse-2013-question-16"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2014 | Set 1 | Question: 31</strong></div><p>An operating system uses the<br/>Banker's algorithm<br/>for deadlock avoidance when managing the allocation of<br/>three resource types<br/>and<br/>to three processes<br/>and<br/>The table given below presents the<br/>current system state. Here, the<br/>Allocation matrix<br/>shows the current number of resources of each type allocated to<br/>each process and the<br/>Max matrix<br/>shows the maximum number of resources of each type required by each process<br/>during its execution.<br/>There are<br/>units of type<br/>units of type<br/>and<br/>units of type<br/>still available. The system is currently in<br/>a<br/>safe<br/>state. Consider the following independent requests for additional resources in the current state:<br/>REQ1<br/>:<br/>requests<br/>units of<br/>units of<br/>and<br/>units of<br/>REQ2<br/>:<br/>requests<br/>units of<br/>units of<br/>and<br/>units of<br/>Which one of the following is<br/>TRUE<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2348/gate-cse-2010-question-46"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2014 | Set 3 | Question: 31</strong></div><p>A system contains three programs and each requires three tape units for its operation. The minimum<br/>number of tape units which the system must have such that deadlocks never arise is _________.<br/>operating-system<br/>resource-allocation<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/2065/gate-cse-2014-set-3-question-31"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2015 | Set 2 | Question: 23</strong></div><p>A system has<br/>identical resources and<br/>processes competing for them. Each process can request at<br/>most<br/>resources. Which one of the following values of<br/>could lead to a deadlock?<br/>operating-system<br/>resource-allocation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2065/gate-cse-2014-set-3-question-31"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2015 | Set 3 | Question: 52</strong></div><p>Consider the following policies for preventing deadlock in a system with mutually exclusive resources.<br/>I<br/>.<br/>Process should acquire all their resources at the beginning of execution. If any resource is not available, all<br/>resources acquired so far are released.<br/>II<br/>.<br/>The resources are numbered uniquely, and processes are allowed to request for resources only in increasing<br/>resource numbers<br/>III<br/>.<br/>The resources are numbered uniquely, and processes are allowed to request for resources only in deccreasing<br/>resource numbers<br/>IV<br/>.<br/>The resources are numbered uniquely. A processes is allowed to request for resources only for a resource with<br/>resource number larger than its currently held resources<br/>Which of the above policies can be used for preventing deadlock?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2065/gate-cse-2014-set-3-question-31"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2017 | Set 2 | Question: 33</strong></div><p>A system shares<br/>tape drives. The current allocation and maximum requirement of tape drives for that<br/>processes are shown below:<br/>Which of the following best describes current state of the system?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2065/gate-cse-2014-set-3-question-31"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2019 | Question: 39</strong></div><p>Consider the following snapshot of a system running<br/>concurrent processes. Process<br/>is holding<br/>instances of a resource<br/>,<br/>. Assume that all instances of<br/>are currently in use. Further, for all<br/>,<br/>process<br/>can place a request for at most<br/>additional instances of<br/>while holding the<br/>instances it already has.<br/>Of the<br/>processes, there are exactly two processes<br/>and<br/>such that<br/>. Which one of the following<br/>conditions guarantees that no other process apart from<br/>and<br/>can complete execution?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/302809/gate-cse-2019-question-39"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE CSE 2022 | Question: 16</strong></div><p>Which of the following statements is/are<br/>with respect to deadlocks?<br/>A<br/>.<br/>Circular wait is a necessary condition for the formation of deadlock.<br/>B<br/>.<br/>In a system where each resource has more than one instance, a cycle in its wait-for graph indicates the<br/>presence of a deadlock.<br/>C<br/>.<br/>If the current allocation of resources to processes leads the system to unsafe state, then deadlock will<br/>necessarily occur.<br/>D<br/>.<br/>In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in<br/>deadlock state.<br/>operating-system<br/>resource-allocation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/371920/gate-cse-2022-question-16"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE IT 2005 | Question: 62</strong></div><p>Two shared resources<br/>and<br/>are used by processes<br/>and<br/>. Each process has a certain priority for<br/>accessing each resource. Let<br/>denote the priority of<br/>for accessing<br/>. A process<br/>can snatch a<br/>resource<br/>from process<br/>if<br/>is greater than<br/>.<br/>Given the following :<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>Which of the following conditions ensures that<br/>and<br/>can never deadlock?<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3823/gate-it-2005-question-62"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Resource Allocation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation: GATE IT 2008 | Question: 54</strong></div><p>An operating system implements a policy that requires a process to release all resources before making a<br/>request for another resource. Select the TRUE statement from the following:<br/>A<br/>.<br/>Both starvation and deadlock can occur<br/>B<br/>.<br/>Starvation can occur but deadlock cannot occur<br/>C<br/>.<br/>Starvation cannot occur but deadlock can occur<br/>D<br/>.<br/>Neither starvation nor deadlock can occur<br/>operating-system<br/>resource-allocation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3364/gate-it-2008-question-54"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Resource Allocation Graph",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Resource Allocation Graph: GATE CSE 2025 | Set 2 | Question: 38</strong></div><p>consists of all active processes in an operating system.<br/>consists of single instances of distinct types of resources in the system.<br/>The resource allocation graph has the following assignment and claim edges.<br/>Assignment edges:<br/>(the assignment edge<br/>means resource<br/>is assigned to process<br/>, and so on for others)<br/>Claim edges:<br/>(the claim edge<br/>means process<br/>is waiting for resource<br/>, and so on for others)<br/>Which of the following statement(s) is/are CORRECT?<br/>A<br/>.<br/>Aborting<br/>makes the system deadlock free.<br/>B<br/>.<br/>Aborting<br/>makes the system deadlock free.<br/>C<br/>.<br/>Aborting<br/>makes the system deadlock free.<br/>D<br/>.<br/>Aborting<br/>and<br/>makes the system deadlock free.<br/>operating-system<br/>resource-allocation-graph<br/>multiple-selects<br/>Round Robin Scheduling<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C;D",
+      "discussUrl": "https://gateoverflow.in/460797/gate-cse-2025-set-2-question-38"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Round Robin Scheduling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Round Robin Scheduling: GATE CSE 2022 | Question: 32</strong></div><p>Consider four processes<br/>and<br/>scheduled on a<br/>as per round robin algorithm with a time<br/>quantum of<br/>The processes arrive in the order<br/>all at time<br/>There is exactly one<br/>context switch from<br/>to<br/>exactly one context switch from<br/>to<br/>and exactly two context switches from<br/>to<br/>There is no context switch from<br/>to<br/>Switching to a ready process after the termination of another process is also<br/>considered a context switch. Which one of the following is<br/>possible as<br/>burst time<br/>of<br/>these processes?<br/>operating-system<br/>process-scheduling<br/>round-robin-scheduling<br/>Semaphore<br/>(11)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(3Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/371904/gate-cse-2022-question-32"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 1990 | Question: 1-vii</strong></div><p>Semaphore operations are atomic because they are implemented within the OS _________.<br/>operating-system<br/>semaphore<br/>process-synchronization<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371904/gate-cse-2022-question-32"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 1992 | Question: 02,x, ISRO2015-35</strong></div><p>At a particular time of computation, the value of a counting semaphore is<br/>. Then<br/>operations and<br/>operations were completed on this semaphore. The resulting value of the semaphore is :<br/>operating-system<br/>semaphore<br/>easy<br/>isro2015<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460797/gate-cse-2025-set-2-question-38"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 1998 | Question: 1.31</strong></div><p>A counting semaphore was initialized to<br/>. Then<br/>(wait) operations and<br/>(signal) operations were<br/>completed on this semaphore. The resulting value of the semaphore is<br/>operating-system<br/>process-synchronization<br/>semaphore<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1668/gate-cse-1998-question-1-31"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2008 | Question: 63</strong></div><p>The<br/>and<br/>operations on counting semaphores, where s is a counting semaphore, are defined as follows:<br/>If<br/>then wait;<br/>If<br/>then wake up process waiting on s;<br/>Assume that<br/>and<br/>the wait and signal operations on binary semaphores are provided. Two binary semaphores<br/>and<br/>are used to implement the semaphore operations<br/>and<br/>as follows:<br/>The initial values of<br/>and<br/>are respectively<br/>operating-system<br/>semaphore</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/486/gate-cse-2008-question-63"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Semaphore",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Semaphore: GATE CSE 2016 | Set 2 | Question: 49</strong></div><p>Consider a non-negative counting semaphore<br/>. The operation<br/>decrements<br/>, and<br/>increments<br/>. During an execution,<br/>operations and<br/>operations are issued in some order. The largest<br/>initial value of<br/>for which at least one<br/>operation will remain blocked is _______<br/>operating-system<br/>semaphore</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/486/gate-cse-2008-question-63"
+    }
+  ]
+}

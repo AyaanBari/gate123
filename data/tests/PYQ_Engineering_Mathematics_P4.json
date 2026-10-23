@@ -1,0 +1,1351 @@
+{
+  "id": "PYQ_Engineering_Mathematics_P4",
+  "fileName": "PYQ_Engineering_Mathematics_P4.json",
+  "title": "GATE Official PYQs | Engineering Mathematics Part 4",
+  "subject": "Engineering Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 46,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2004 | Question: 26</strong></div><p>The number of diﬀerent<br/>symmetric matrices with each element being either 0 or 1 is: (Note:<br/>is same as<br/>)<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1023/gate-cse-2004-question-26"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2004 | Question: 27</strong></div><p>Let<br/>be<br/>matrices, each with non-zero determinant. If<br/>, then<br/>is<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1023/gate-cse-2004-question-26"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2004 | Question: 76</strong></div><p>In an<br/>matrix all non-zero entries are covered in<br/>rows and<br/>columns. Then the maximum number<br/>of non-zero entries, such that no two are on the same row or column, is<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1070/gate-cse-2004-question-76"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2006 | Question: 23</strong></div><p>is an<br/>real matrix.<br/>is an<br/>real vector. Suppose there are two<br/>vectors,<br/>and<br/>such<br/>that,<br/>and<br/>. Which one of the following statements is false?<br/>A<br/>.<br/>Determinant of<br/>is zero.<br/>B<br/>.<br/>There are an infinite number of solutions to<br/>C<br/>.<br/>There is an<br/>such that<br/>D<br/>.<br/>must have two identical rows<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/984/gate-cse-2006-question-23"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2015 | Set 2 | Question: 27</strong></div><p>Perform the following operations on the matrix<br/>i<br/>.<br/>Add the third row to the second row<br/>ii<br/>.<br/>Subtract the third column from the first column.<br/>The determinant of the resultant matrix is _____.<br/>linear-algebra<br/>matrix<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/1070/gate-cse-2004-question-76"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2022 | Question: 10</strong></div><p>Consider the following two statements with respect to the matrices<br/>and<br/>Statement<br/>Statement<br/>where<br/>represents the trace of a matrix. Which one of the following holds?<br/>A<br/>.<br/>Statement<br/>is correct and Statement<br/>is wrong.<br/>B<br/>.<br/>Statement<br/>is wrong and Statement<br/>is correct.<br/>C<br/>.<br/>Both Statement<br/>and Statement<br/>are correct.<br/>D<br/>.<br/>Both Statement<br/>and Statement<br/>are wrong.<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1070/gate-cse-2004-question-76"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2025 | Set 2 | Question: 1</strong></div><p>​​​​<br/>If<br/>, then which ONE of the following is<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1070/gate-cse-2004-question-76"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE CSE 2026 | Set 1 | Question: 10</strong></div><p>Let<br/>. Consider an<br/>matrix<br/>with its elements from<br/>. Let the vector<br/>be in the null space of<br/>.<br/>Which of the following options is/are always correct?<br/>A<br/>.<br/>Determinant of<br/>is<br/>B<br/>.<br/>Determinant of<br/>is<br/>C<br/>.<br/>Rank of<br/>is<br/>D<br/>.<br/>There are at least two non-zero vectors in the null space of<br/>linear-algebra<br/>matrix<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE DA 2025 | Question: 27</strong></div><p>​​<br/>Let<br/>be such that<br/>. Which one of the following statements is ALWAYS correct?<br/>gateda-2025<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460995/gate-da-2025-question-27"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE DA 2025 | Question: 42</strong></div><p>A n<br/>matrix<br/>with real entries satisﬁes the property:<br/>, for all<br/>, where<br/>denotes the Euclidean norm. Which of the following statements is/are ALWAYS correct?<br/>gateda-2025<br/>linear-algebra<br/>matrix<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/460995/gate-da-2025-question-27"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE DA 2026 | Question: 11</strong></div><p>Let<br/>be a<br/>matrix, where<br/>, and<br/>.<br/>Which of the following options is equal to<br/>?<br/>gateda-2026<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE DA 2026 | Question: 42</strong></div><p>Let<br/>be a matrix, where<br/>and<br/>is the identity matrix of<br/>order<br/>.<br/>Which of the following options is/are correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE IT 2004 | Question: 36</strong></div><p>If matrix<br/>and<br/>(<br/>is the identity matrix and<br/>is the zero<br/>matrix), then the inverse of<br/>is<br/>linear-algebra<br/>matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3679/gate-it-2004-question-36"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix: GATE IT 2008 | Question: 29</strong></div><p>If<br/>is a square matrix with a zero determinant, which of the following assertion (s) is (are) correct?<br/>S1:<br/>Each row of<br/>can be represented as a linear combination of the other rows<br/>S2:<br/>Each column of<br/>can be represented as a linear combination of the other columns<br/>S3:<br/>has a nontrivial solution<br/>S4:<br/>has an inverse<br/>linear-algebra<br/>matrix<br/>Multiplicity<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3319/gate-it-2008-question-29"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Multiplicity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Multiplicity: GATE CSE 2026 | Set 1 | Question: 3</strong></div><p>For<br/>, the maximum multiplicity of any eigenvalue of an<br/>matrix with elements from<br/>is<br/>eigen-value<br/>multiplicity<br/>linear-algebra<br/>Orthonormality<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3679/gate-it-2004-question-36"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Orthonormality",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Orthonormality: GATE DA 2025 | Question: 15</strong></div><p>Which of the following statements is/are correct?<br/>A<br/>.<br/>has a unique set of orthonormal basis vectors<br/>B<br/>.<br/>does not have a unique set of orthonormal basis vectors<br/>C<br/>.<br/>Linearly independent vectors in<br/>are orthonormal<br/>D<br/>.<br/>Orthonormal vectors<br/>are linearly independent<br/>gateda-2025<br/>linear-algebra<br/>vector-space<br/>orthonormality<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/461007/gate-da-2025-question-15"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Orthonormality",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Orthonormality: GATE DA 2025 | Question: 40</strong></div><p>Let<br/>be a system of orthonormal vectors in<br/>. Consider the matrix<br/>. Which of the following statements is/are correct?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/461007/gate-da-2025-question-15"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 1994 | Question: 1.9</strong></div><p>The rank of matrix<br/>is:<br/>linear-algebra<br/>matrix<br/>rank-of-matrix<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1784"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 1995 | Question: 1.24</strong></div><p>The rank of the following<br/>matrix, where<br/>is a real number is<br/>linear-algebra<br/>matrix<br/>rank-of-matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1784"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 1998 | Question: 2.1</strong></div><p>The rank of the matrix given below is:<br/>linear-algebra<br/>matrix<br/>rank-of-matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1784"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 2002 | Question: 1.1</strong></div><p>The rank of the matrix<br/>is<br/>linear-algebra<br/>easy<br/>rank-of-matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/1784"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 2017 | Set 2 | Question: 22</strong></div><p>Let<br/>and<br/>be two matrices.<br/>Then the rank of<br/>is ___________ .<br/>linear-algebra<br/>rank-of-matrix</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/118363/gate-cse-2017-set-2-question-22"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 2020 | Question: 27</strong></div><p>Let<br/>and<br/>be two<br/>matrices over real numbers. Let rank(<br/>) and<br/>denote the rank and<br/>determinant of a matrix<br/>, respectively. Consider the following statements.<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>Which of the above statements are TRUE?<br/>linear-algebra<br/>matrix<br/>rank-of-matrix</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333204/gate-cse-2020-question-27"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Rank of Matrix",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Rank of Matrix: GATE CSE 2021 | Set 2 | Question: 24</strong></div><p>Suppose that<br/>is a<br/>matrix such that every solution of the equation<br/>is a scalar multiple of<br/>. The rank of<br/>is __________<br/>linear-algebra<br/>matrix<br/>rank-of-matrix<br/>Singular Value Decomposition<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)<br/>Singular Value Decomposition: GATE DS&AI 2024 | Question: 51<br/>Let<br/>, and let<br/>be the singular values of the matrix<br/>(where<br/>is the<br/>transpose of<br/>). The value of<br/>is<br/>gate-ds-ai-2024<br/>linear-algebra<br/>singular-value-decomposition<br/>Statistics<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)<br/>Statistics: GATE 2023 Stats Exam Q. 13<br/>Consider the following statements.<br/>(I) Let<br/>and<br/>be two<br/>real matrices. If<br/>is invertible, then<br/>.</p></div>",
+      "options": [],
+      "correctAnswer": "4 : 4",
+      "discussUrl": "https://gateoverflow.in/118363/gate-cse-2017-set-2-question-22"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 1996 | Question: 1.7</strong></div><p>Let<br/>be a system of linear equations where<br/>is an<br/>matrix and<br/>is a<br/>column vector<br/>and<br/>is an<br/>column vector of unknowns. Which of the following is false?<br/>A<br/>.<br/>The system has a solution if and only if, both<br/>and the augmented matrix<br/>have the same rank.<br/>B<br/>.<br/>If<br/>and<br/>is the zero vector, then the system has infinitely many solutions.<br/>C<br/>.<br/>If<br/>and<br/>is a non-zero vector, then the system has a unique solution.<br/>D<br/>.<br/>The system will have only a trivial solution when<br/>,<br/>is the zero vector and<br/>.<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2711/gate-cse-1996-question-1-7"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 1998 | Question: 1.2</strong></div><p>Consider the following set of equations<br/>This set<br/>linear-algebra<br/>system-of-equations<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2711/gate-cse-1996-question-1-7"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 1998 | Question: 9</strong></div><p>Derive the expressions for the number of operations required to solve a system of linear equations in<br/>unknowns using the Gaussian Elimination Method. Assume that one operation refers to a multiplication<br/>followed by an addition.<br/>linear-algebra<br/>system-of-equations<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2711/gate-cse-1996-question-1-7"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2003 | Question: 41</strong></div><p>Consider the following system of linear equations<br/>Notice that the second and the third columns of the coeﬃcient matrix are linearly dependent. For how many values<br/>of<br/>, does this system of equations have infinitely many solutions?<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/932/gate-cse-2003-question-41"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2004 | Question: 71</strong></div><p>How many solutions does the following system of linear equations have?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2711/gate-cse-1996-question-1-7"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2005 | Question: 48</strong></div><p>Consider the following system of linear equations :<br/>The system of equations has<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1173/gate-cse-2005-question-48"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2008 | Question: 3</strong></div><p>The following system of equations<br/>has a unique solution. The only possible value(s) for<br/>is/are<br/>easy<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/1173/gate-cse-2005-question-48"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2014 | Set 1 | Question: 4</strong></div><p>Consider the following system of equations:<br/>The number of solutions for this system is ______________<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/1173/gate-cse-2005-question-48"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2015 | Set 3 | Question: 33</strong></div><p>If the following system has non-trivial solution,<br/>,<br/>then which one of the following options is TRUE?<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1173/gate-cse-2005-question-48"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2016 | Set 2 | Question: 04</strong></div><p>Consider the systems, each consisting of<br/>linear equations in<br/>variables.<br/>I<br/>.<br/>If<br/>, then all such systems have a solution.<br/>II<br/>.<br/>If<br/>, then none of these systems has a solution.<br/>III<br/>.<br/>If<br/>, then there exists a system which has a solution.<br/>Which one of the following is<br/>CORRECT<br/>?<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39545/gate-cse-2016-set-2-question-04"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2017 | Set 1 | Question: 3</strong></div><p>Let<br/>be scalars, not all zero, such that<br/>= 0 where<br/>are column vectors in<br/>.<br/>Consider the set of linear equations<br/>where<br/>and<br/>. The set of equations has<br/>A<br/>.<br/>a unique solution at<br/>where<br/>denotes a<br/>-dimensional vector of all 1.<br/>B<br/>.<br/>no solution<br/>C<br/>.<br/>infinitely many solutions<br/>D<br/>.<br/>finitely many solutions<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39545/gate-cse-2016-set-2-question-04"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2024 | Set 1 | Question: 39</strong></div><p>​​<br/>Let<br/>be any<br/>matrix, where<br/>. Which of the following statements is/are TRUE about the system<br/>of linear equations<br/>?<br/>A<br/>.<br/>There exist at least<br/>linearly independent solutions to this system<br/>B<br/>.<br/>There exist<br/>linearly independent vectors such that every solution is a linear combination of these vectors<br/>C<br/>.<br/>There exists a non-zero solution in which at least<br/>variables are<br/>D<br/>.<br/>There exists a solution in which at least<br/>variables are non-zero<br/>multiple-selects<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39545/gate-cse-2016-set-2-question-04"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2025 | Set 1 | Question: 13</strong></div><p>Consider the given system of linear equations for variables<br/>and<br/>, where<br/>is a real-valued constant.<br/>Which of the following option(s) is/are CORRECT?<br/>A<br/>.<br/>There is exactly one value of<br/>for which the above system of equations has no solution.<br/>B<br/>.<br/>There exist an infinite number of values of<br/>for which the system of equations has no solution.<br/>C<br/>.<br/>There exists exactly one value of<br/>for which the system of equations has exactly one solution.<br/>D<br/>.<br/>There exists exactly one value of<br/>for which the system of equations has an infinite number of solutions.<br/>linear-algebra<br/>system-of-equations<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;D",
+      "discussUrl": "https://gateoverflow.in/39545/gate-cse-2016-set-2-question-04"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE CSE 2026 | Set 2 | Question: 21</strong></div><p>Consider the system of linear equations given below.<br/>Suppose the values of<br/>and<br/>are chosen such that the system of linear equations produce multiple solutions.<br/>Then the product of<br/>and<br/>is<br/>. (answer in integer)<br/>linear-algebra<br/>system-of-equations</p></div>",
+      "options": [],
+      "correctAnswer": "24:24",
+      "discussUrl": "https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE DA 2025 | Question: 3</strong></div><p>The sum of the elements in each row of<br/>is 1. If<br/>, which one of the following<br/>statements is correct (for<br/>)?<br/>A<br/>.<br/>The equation<br/>has no solution<br/>B<br/>.<br/>The equation<br/>has exactly two solutions<br/>C<br/>.<br/>The equation<br/>has infinitely many solutions<br/>D<br/>.<br/>The equation<br/>has a unique solution<br/>gateda-2025<br/>linear-algebra<br/>system-of-equations<br/>System of Equations: GATE DS&AI 2024 | Question: 38<br/>​​​​​​<br/>Which of the following statements is/are TRUE?<br/>Note:<br/>denotes the set of real numbers.<br/>A<br/>.<br/>There exist<br/>, and<br/>such that<br/>has a unique solution and<br/>has<br/>infinite solutions.<br/>B<br/>.<br/>There exist<br/>, and<br/>such that<br/>has no solutions and<br/>has inﬁnite<br/>solutions.<br/>C<br/>.<br/>There exist<br/>, and<br/>such that<br/>has a unique solution and<br/>has<br/>infinite solutions.<br/>D<br/>.<br/>There exist<br/>, and<br/>such that<br/>has a unique solution and<br/>has no<br/>solutions.<br/>linear-algebra<br/>system-of-equations<br/>gate-ds-ai-2024<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "System of Equations",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>System of Equations: GATE IT 2004 | Question: 6</strong></div><p>What values of x, y and z satisfy the following system of linear equations?<br/>linear-algebra<br/>system-of-equations<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D",
+      "discussUrl": "https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21"
+    }
+  ]
+}

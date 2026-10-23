@@ -1,0 +1,1393 @@
+{
+  "id": "PYQ_Algorithms_P8",
+  "fileName": "PYQ_Algorithms_P8.json",
+  "title": "GATE Official PYQs | Algorithms Part 8",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 45,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Searching",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Searching: GATE CSE 2025 | Set 2 | Question: 31</strong></div><p>An array<br/>of length<br/>with distinct elements is said to be bitonic if there is an index<br/>such that<br/>is sorted in the non-decreasing order and<br/>is sorted in the non-increasing order.<br/>Which ONE of the following represents the best possible asymptotic bound for the worst-case number of<br/>comparisons by an algorithm that searches for an element in a bitonic array<br/>?<br/>algorithms<br/>searching<br/>bitonic-array<br/>time-complexity<br/>Selection Sort<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Selection Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Selection Sort: GATE CSE 2009 | Question: 11</strong></div><p>What is the number of swaps required to sort<br/>elements using selection sort, in the worst case?<br/>algorithms<br/>sorting<br/>easy<br/>selection-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Selection Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Selection Sort: GATE CSE 2013 | Question: 6</strong></div><p>Which one of the following is the tightest upper bound that represents the number of swaps required to sort<br/>numbers using selection sort?<br/>algorithms<br/>sorting<br/>easy<br/>selection-sort<br/>Shortest Path<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(15Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1415/gate-cse-2013-question-6"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2002 | Question: 12</strong></div><p>Fill in the blanks in the following template of an algorithm to compute all pairs shortest path lengths in a<br/>directed graph<br/>with<br/>adjacency matrix<br/>.<br/>equals<br/>if there is an edge in<br/>from<br/>to<br/>, and<br/>otherwise. Your aim in filling in the blanks is to ensure that the algorithm is correct.<br/>INITIALIZATION<br/>:<br/>For<br/>i<br/>=<br/>1<br/>...<br/>n<br/>{<br/>For<br/>j<br/>=<br/>1<br/>...<br/>n<br/>{<br/>if<br/>a<br/>[<br/>i<br/>,<br/>j<br/>]<br/>=<br/>0<br/>then<br/>P<br/>[<br/>i<br/>,<br/>j<br/>]<br/>=<br/>_______<br/>else<br/>P<br/>[<br/>i<br/>,<br/>j<br/>]<br/>=<br/>_______<br/>;}<br/>}<br/>ALGORITHM<br/>:<br/>For<br/>i<br/>=<br/>1<br/>...<br/>n<br/>{<br/>For<br/>j<br/>=<br/>1<br/>...<br/>n<br/>{<br/>For<br/>k<br/>=<br/>1<br/>...<br/>n<br/>{<br/>P<br/>[<br/>__<br/>,<br/>__<br/>]<br/>=<br/>min<br/>{<br/>_______<br/>,<br/>______<br/>};<br/>}<br/>}<br/>}<br/>a<br/>.<br/>Copy the complete line containing the blanks in the Initialization step and fill in the blanks.<br/>b<br/>.<br/>Copy the complete line containing the blanks in the Algorithm step and fill in the blanks.<br/>c<br/>.<br/>Fill in the blank: The running time of the Algorithm is<br/>(___).<br/>algorithms<br/>graph-algorithms<br/>time-complexity<br/>descriptive<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/865/gate-cse-2002-question-12"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2003 | Question: 67</strong></div><p>Let<br/>be an undirected graph with a subgraph<br/>. Weights are assigned to edges of<br/>as follows.<br/>A single-source shortest path algorithm is executed on the weighted graph<br/>with an arbitrary vertex<br/>of<br/>as the source. Which of the following can always be inferred from the path costs computed?<br/>A<br/>.<br/>The number of edges in the shortest paths from<br/>to all vertices of<br/>B<br/>.<br/>is connected<br/>C<br/>.<br/>forms a clique in<br/>D<br/>.<br/>is a tree<br/>algorithms<br/>graph-algorithms<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/954/gate-cse-2003-question-67"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2007 | Question: 41</strong></div><p>In an unweighted, undirected connected graph, the shortest path from a node<br/>to every other node is<br/>computed most efficiently, in terms of<br/>time<br/>complexity<br/>, by</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1415/gate-cse-2013-question-6"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2020 | Question: 40</strong></div><p>L e t<br/>be a directed, weighted graph with weight function<br/>. For some function<br/>, for each edge<br/>, define<br/>as<br/>.<br/>Which one of the options completes the following sentence so that it is TRUE?<br/>“The shortest paths in<br/>under<br/>are shortest paths under<br/>too,_____________”.<br/>A<br/>.<br/>for every<br/>B<br/>.<br/>if and only if<br/>is positive<br/>C<br/>.<br/>if and only if<br/>is negative<br/>D<br/>.<br/>if and only if<br/>is the distance from<br/>to<br/>in the graph obtained by adding a new vertex<br/>to<br/>and edges of<br/>zero weight from<br/>to every vertex of<br/>algorithms<br/>graph-algorithms<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/333191/gate-cse-2020-question-40"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2025 | Set 1 | Question: 8</strong></div><p>Let<br/>be any undirected graph with positive edge weights, and<br/>be a minimum spanning tree of<br/>. For any<br/>two vertices,<br/>and<br/>, let<br/>and<br/>be the shortest distances between<br/>and<br/>in<br/>and<br/>,<br/>respectively. Which ONE of the options is CORRECT for all possible<br/>and<br/>?<br/>algorithms<br/>minimum-spanning-tree<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/333191/gate-cse-2020-question-40"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE CSE 2025 | Set 2 | Question: 27</strong></div><p>Let<br/>be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant<br/>is<br/>added to the weight of every edge.<br/>Which ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths<br/>(SPs) in<br/>before and after the edge weight update?<br/>A<br/>.<br/>Every MST remains an MST, and every SP remains an SP.<br/>B<br/>.<br/>MSTs need not remain MSTs, and every SP remains an SP.<br/>C<br/>.<br/>Every MST remains an MST, and SPs need not remain SPs.<br/>D<br/>.<br/>MSTs need not remain MSTs, and SPs need not remain SPs.<br/>algorithms<br/>minimum-spanning-tree<br/>shortest-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333191/gate-cse-2020-question-40"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE DA 2025 | Question: 48</strong></div><p>Let<br/>be a simple, unweighted, and undirected graph. A subset of the vertices and edges of<br/>are shown<br/>below.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/460072/gate-cse-2025-set-1-question-8"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Shortest Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Shortest Path: GATE IT 2007 | Question: 3, UGCNET-June2012-III: 34</strong></div><p>Consider a weighted, undirected graph with positive edge weights and let<br/>be an edge in the graph. It is<br/>known that the shortest path from the source vertex<br/>to<br/>has weight 53 and the shortest path from<br/>to<br/>has weight 65. Which one of the following statements is always TRUE?<br/>algorithms<br/>graph-algorithms<br/>ugcnetcse-june2012-paper3<br/>shortest-path<br/>Sorting<br/>(22)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3434/gate-it-2007-question-3-ugcnet-june2012-iii-34"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1988 | Question: 1iii</strong></div><p>Quicksort is ________ efficient than heapsort in the worst case.<br/>algorithms<br/>sorting<br/>fill-in-the-blanks<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3434/gate-it-2007-question-3-ugcnet-june2012-iii-34"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1990 | Question: 3-v</strong></div><p>The complexity of comparison based sorting algorithms is:<br/>algorithms<br/>sorting<br/>easy<br/>time-complexity<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3434/gate-it-2007-question-3-ugcnet-june2012-iii-34"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1991 | Question: 01,vii</strong></div><p>The minimum number of comparisons required to sort<br/>elements is ______<br/>algorithms<br/>sorting</p></div>",
+      "options": [],
+      "correctAnswer": "7",
+      "discussUrl": "https://gateoverflow.in/3434/gate-it-2007-question-3-ugcnet-june2012-iii-34"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1991 | Question: 13</strong></div><p>Give an optimal algorithm in pseudo-code for sorting a sequence of<br/>numbers which has only<br/>distinct<br/>numbers (<br/>is not known a Priori). Give a brief analysis for the time-complexity of your algorithm.<br/>sorting<br/>time-complexity<br/>algorithms<br/>difficult<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/91338/gate-cse-1988-question-1iii"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1992 | Question: 02,ix</strong></div><p>Following algorithm(s) can be used to sort<br/>in the range<br/>in<br/>time<br/>easy<br/>algorithms<br/>sorting<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/559/gate-cse-1992-question-02-ix"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1996 | Question: 14</strong></div><p>A two dimensional array<br/>of integers is partially sorted if<br/>a<br/>.<br/>The smallest item in the array is at<br/>where<br/>and<br/>.<br/>b<br/>.<br/>The smallest item is deleted. Complete the following<br/>procedure to insert item<br/>(which is guaranteed to be<br/>smaller than any item in the last row or column) still keeping<br/>partially sorted.<br/>procedure insert<br/>(<br/>x<br/>:<br/>integer<br/>);<br/>var<br/>i<br/>,<br/>j<br/>:<br/>integer<br/>;<br/>begin<br/>i<br/>:=<br/>1<br/>;<br/>j<br/>:=<br/>1<br/>,<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]:=<br/>x<br/>;<br/>while<br/>(<br/>x<br/>><br/>__<br/>or<br/>x<br/>><br/>__<br/>)<br/>do<br/>if<br/>A<br/>[<br/>i<br/>+<br/>1<br/>][<br/>j<br/>]<br/><<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]<br/>___<br/>then<br/>begin<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]:=<br/>A<br/>[<br/>i<br/>+<br/>1<br/>][<br/>j<br/>];<br/>i<br/>:=<br/>i<br/>+<br/>1<br/>;<br/>end<br/>else<br/>begin<br/>_____<br/>end<br/>A<br/>[<br/>i<br/>][<br/>j<br/>]:=<br/>____<br/>end<br/>algorithms<br/>sorting<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2766/gate-cse-1996-question-14"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1998 | Question: 1.22</strong></div><p>Give the correct matching for the following pairs:<br/>algorithms<br/>sorting<br/>easy<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2766/gate-cse-1996-question-14"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1999 | Question: 1.12</strong></div><p>A sorting technique is called stable if<br/>A<br/>.<br/>it takes<br/>time<br/>B<br/>.<br/>it maintains the relative order of occurrence of non-distinct elements<br/>C<br/>.<br/>it uses divide and conquer paradigm<br/>D<br/>.<br/>it takes<br/>space<br/>algorithms<br/>sorting<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2766/gate-cse-1996-question-14"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 1999 | Question: 8</strong></div><p>Let<br/>be an<br/>matrix such that the elements in each row and each column are arranged in ascending<br/>order. Draw a decision tree, which ﬁnds<br/>st<br/>,<br/>nd<br/>and<br/>rd<br/>smallest elements in minimum number of<br/>comparisons.<br/>algorithms<br/>sorting<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1659/gate-cse-1998-question-1-22"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2000 | Question: 17</strong></div><p>An array contains four occurrences of<br/>, ﬁve occurrences of<br/>, and three occurrences of<br/>in any order. The<br/>array is to be sorted using swap operations (elements that are swapped need to be adjacent).<br/>a<br/>.<br/>What is the minimum number of swaps needed to sort such an array in the worst case?<br/>b<br/>.<br/>Give an ordering of  elements in the above array so that the minimum number of swaps needed to sort the<br/>array is maximum.<br/>algorithms<br/>sorting<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/688/gate-cse-2000-question-17"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2005 | Question: 39</strong></div><p>Suppose there are<br/>sorted lists of<br/>elements each. The time complexity of producing a<br/>sorted list of all these elements is: (Hint:Use a heap data structure)<br/>algorithms<br/>sorting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/784/gate-cse-2005-question-39"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2006 | Question: 14, ISRO2011-14</strong></div><p>Which one of the following in place sorting algorithms needs the minimum number of swaps?<br/>algorithms<br/>sorting<br/>easy<br/>isro2011</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2007 | Question: 14</strong></div><p>Which of the following sorting algorithms has the lowest worse-case complexity?<br/>algorithms<br/>sorting<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2016 | Set 1 | Question: 13</strong></div><p>The worst case running times of<br/>Insertion sort<br/>,<br/>Merge sort<br/>and<br/>Quick sort<br/>, respectively are:<br/>A<br/>.<br/>,<br/>and<br/>B<br/>.<br/>,<br/>and<br/>C<br/>.<br/>,<br/>and<br/>D<br/>.<br/>,<br/>and<br/>algorithms<br/>sorting<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/688/gate-cse-2000-question-17"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2016 | Set 2 | Question: 13</strong></div><p>Assume that the algorithms considered here sort the input sequences in ascending order. If the input is<br/>already in the ascending order, which of the following are<br/>TRUE<br/>?<br/>I<br/>.<br/>Quicksort runs in<br/>time<br/>II<br/>.<br/>Bubblesort runs in<br/>time<br/>III<br/>.<br/>Mergesort runs in<br/>time<br/>IV<br/>.<br/>Insertion sort runs in<br/>time</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/688/gate-cse-2000-question-17"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2021 | Set 1 | Question: 9</strong></div><p>Consider the following array.<br/>Which algorithm out of the following options uses the least number of comparisons (among the array elements) to<br/>sort the above array in ascending order?<br/>algorithms<br/>sorting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/357443/gate-cse-2021-set-1-question-9"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2024 | Set 2 | Question: 25</strong></div><p>Let<br/>be an array containing integer values. The distance of<br/>is deﬁned as the minimum number of<br/>elements in<br/>that must be replaced with another integer so that the resulting array is sorted in non-<br/>decreasing order. The distance of the array<br/>is ___________.<br/>algorithms<br/>sorting</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/357443/gate-cse-2021-set-1-question-9"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE CSE 2025 | Set 2 | Question: 10</strong></div><p>​​​​<br/>Consider an unordered list of<br/>distinct integers.<br/>What is the minimum number of element comparisons required to ﬁnd an integer in the list that is NOT the<br/>largest in the list?<br/>algorithms<br/>sorting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/357443/gate-cse-2021-set-1-question-9"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE DA 2026 | Question: 39</strong></div><p>Consider the problem of sorting the given array in ascending order:<br/>Consider two sorting algorithms Bubble Sort<br/>and Insertion Sort<br/>.<br/>Let<br/>be the total number of comparisons done by<br/>on the elements of<br/>and<br/>be the total number of<br/>comparisons done by<br/>on the elements of<br/>.<br/>Which of the following options is/are correct?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>on<br/>will perform only one swap<br/>D<br/>.<br/>Both<br/>and<br/>on<br/>will make at least one unnecessary comparison (i.e., comparing elements that are already<br/>in correct order)<br/>gateda-2026<br/>algorithms<br/>sorting<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/523176/gate-da-2026-question-39"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE IT 2005 | Question: 59</strong></div><p>Let<br/>and<br/>be two sorted arrays containing<br/>integers each, in non-decreasing order. Let<br/>be a sorted<br/>array containing<br/>integers obtained by merging the two arrays<br/>and<br/>. Assuming the arrays are indexed<br/>starting from<br/>, consider the following four statements<br/>I<br/>.<br/>II<br/>.<br/>III<br/>.<br/>IV<br/>.<br/>Which of the following is TRUE?<br/>algorithms<br/>sorting</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3820/gate-it-2005-question-59"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sorting",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sorting: GATE IT 2008 | Question: 43</strong></div><p>If we use Radix Sort to sort<br/>integers in the range<br/>, for some<br/>which is independent of<br/>,<br/>the time taken would be?<br/>algorithms<br/>sorting<br/>Space Complexity<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3353/gate-it-2008-question-43"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Space Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Space Complexity: GATE CSE 2005 | Question: 81a</strong></div><p>double<br/>foo<br/>(<br/>int<br/>n<br/>)<br/>{<br/>int<br/>i<br/>;<br/>double<br/>sum<br/>;<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>{<br/>return<br/>1.0<br/>;<br/>}<br/>else<br/>{<br/>sum<br/>=<br/>0.0<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>sum<br/>+=<br/>foo<br/>(<br/>i<br/>);<br/>}<br/>return<br/>sum<br/>;<br/>}<br/>}</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3820/gate-it-2005-question-59"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Strongly Connected Components",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Strongly Connected Components: GATE CSE 2008 | Question: 7</strong></div><p>The most eﬃcient algorithm for ﬁnding the number of connected components in an undirected graph on<br/>vertices and<br/>edges has time complexity<br/>algorithms<br/>graph-algorithms<br/>time-complexity<br/>strongly-connected-components</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/405/gate-cse-2008-question-7"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Strongly Connected Components",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Strongly Connected Components: GATE CSE 2018 | Question: 43</strong></div><p>Let<br/>be a graph with<br/>vertices, with each vertex labelled by a distinct permutation of the numbers<br/>There is an edge between vertices<br/>and<br/>if and only if the label of<br/>can be obtained by<br/>swapping two adjacent numbers in the label of<br/>. Let<br/>denote the degree of a vertex in<br/>, and<br/>denote the<br/>number of connected components in<br/>. Then,<br/>______.<br/>algorithms<br/>graph-algorithms<br/>strongly-connected-components</p></div>",
+      "options": [],
+      "correctAnswer": "109",
+      "discussUrl": "https://gateoverflow.in/204117/gate-cse-2018-question-43"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Strongly Connected Components",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Strongly Connected Components: GATE IT 2006 | Question: 46</strong></div><p>Which of the following is the correct decomposition of the directed graph given below into its strongly<br/>connected components?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>algorithms<br/>graph-algorithms<br/>strongly-connected-components<br/>Time Complexity<br/>(31)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(9Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3589/gate-it-2006-question-46"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1988 | Question: 6i</strong></div><p>Given below is the sketch of a program that represents the path in a two-person game tree by the sequence<br/>of active procedure calls at any time. The program assumes that the payoﬀs are real number in a limited<br/>range; that the constant INF is larger than any positive payoﬀ and its negation is smaller than any negative payoﬀ<br/>and that there is a function “payoﬀ” and that computes the payoﬀ for any board that is a leaf. The type “boardtype”<br/>has been suitably declared to represent board positions. It is player-<br/>’s move if mode = MAX and player-<br/>’s move if<br/>mode=MIN. The type modetype = (MAX, MIN). The functions “min” and “max” ﬁnd the minimum and maximum of<br/>two real numbers.<br/>function<br/>search<br/>(<br/>B<br/>:<br/>boardtype<br/>;<br/>mode<br/>:<br/>modetype<br/>):<br/>real<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3589/gate-it-2006-question-46"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1989 | Question: 2-iii</strong></div><p>Match the pairs in the following:<br/>match-the-following<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/87080/gate-cse-1989-question-2-iii"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1993 | Question: 8.7</strong></div><p>, where<br/>stands for order<br/>is:<br/>algorithms<br/>time-complexity<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D;E",
+      "discussUrl": "https://gateoverflow.in/87080/gate-cse-1989-question-2-iii"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Time Complexity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Time Complexity: GATE CSE 1999 | Question: 1.13</strong></div><p>Suppose we want to arrange the<br/>numbers stored in any array such that all negative values occur before all<br/>positive ones. Minimum number of exchanges required in the worst case is<br/>algorithms<br/>time-complexity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/87080/gate-cse-1989-question-2-iii"
+    }
+  ]
+}

@@ -1,0 +1,1456 @@
+{
+  "id": "PYQ_Discrete_Mathematics_P11",
+  "fileName": "PYQ_Discrete_Mathematics_P11.json",
+  "title": "GATE Official PYQs | Discrete Mathematics Part 11",
+  "subject": "Discrete Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Patterns In Three Dimensions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Patterns In Three Dimensions: GATE CSE 2024 | Set 2 | GA | Question: 9</strong></div><p>A cube is to be cut into<br/>pieces of equal size and shape. Here, each cut should be straight and it should not<br/>stop till it reaches the other end of the cube.<br/>The minimum number of such cuts required is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399251/gate-cse-2023-ga-question-5"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Patterns In Two Dimensions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Patterns In Two Dimensions: GATE CSE 2021 | Set 1 | GA | Question: 2</strong></div><p>A polygon is convex if, for every pair of points,<br/>and<br/>belonging to the polygon, the line segment<br/>lies<br/>completely inside or on the polygon.<br/>Which one of the following is<br/>a convex polygon?<br/>spatial-aptitude<br/>patterns-in-two-dimensions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422962/gate-ds&ai-2024-ga-question-10"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Patterns In Two Dimensions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Patterns In Two Dimensions: GATE CSE 2022 | GA | Question: 10</strong></div><p>A plot of land must be divided between four families. They want their individual plots to be similar in shape,<br/>not necessarily equal in area. The land has equally spaced poles, marked as dots in the below ﬁgure. Two<br/>ropes,<br/>and<br/>are already present and cannot be moved.<br/>What is the least number of<br/>straight ropes needed to create the desired plots? A single rope can pass<br/>through three poles that are aligned in a straight line.<br/>spatial-aptitude<br/>patterns-in-two-dimensions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422962/gate-ds&ai-2024-ga-question-10"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Patterns In Two Dimensions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Patterns In Two Dimensions: GATE CSE 2026 | Set 1 | GA | Question: 2</strong></div><p>The figure shows two<br/>-tile patterns.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/422962/gate-ds&ai-2024-ga-question-10"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Patterns In Two Dimensions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Patterns In Two Dimensions: GATE CSE 2026 | Set 2 | GA | Question: 2</strong></div><p>A black square PQRS has been cut into two parts. One part of it is shown in Panel<br/>Which one of the<br/>shapes in Panel<br/>is the other part?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/523156/gate-cse-2026-set-2-ga-question-2"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Antonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Antonyms: GATE CSE 2011 | Question: 60</strong></div><p>Choose the word from the options given below that is most nearly opposite in the meaning to the given word<br/>Amalgamate<br/>verbal-aptitude<br/>antonyms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2170/gate-cse-2011-question-60"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Antonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Antonyms: GATE CSE 2014 | Set 3 | GA | Question: 3</strong></div><p>Choose the word that is opposite in meaning to the word “coherent”.<br/>verbal-aptitude<br/>antonyms<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2026/gate-cse-2014-set-3-ga-question-3"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Antonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Antonyms: GATE CSE 2026 | Set 1 | GA | Question: 1</strong></div><p>The antonym of the word protagonist is<br/>.<br/>verbal-aptitude<br/>antonyms<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2026/gate-cse-2014-set-3-ga-question-3"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Antonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Antonyms: GATE DA 2026 | GA | Question: 1</strong></div><p>Verbosity : Brevity :: Insolence :<br/>Choose the word that best fills the blank.<br/>gateda-2026<br/>verbal-aptitude<br/>antonyms<br/>Antonyms: GATE2011 AG: GA-2<br/>Choose the word from the questions given below that is most nearly opposite in meaning to the given word:<br/>general-aptitude<br/>verbal-aptitude<br/>antonyms<br/>Antonyms: GATE2011 GG: GA-2<br/>Choose the word from the options given below that is most nearly opposite in meaning to the given word:<br/>Polemical<br/>verbal-aptitude<br/>antonyms<br/>Antonyms: GATE2011 MN: GA-56<br/>Choose the word from the options given below that is most nearly opposite in meaning to the given word:<br/>Deference<br/>verbal-aptitude<br/>antonyms<br/>Articles<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2026/gate-cse-2014-set-3-ga-question-3"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Articles",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Articles: GATE CSE 2016 | Set 2 | GA | Question: 01</strong></div><p>The man who is now Municipal Commissioner worked as ________________.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2026/gate-cse-2014-set-3-ga-question-3"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Articles",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Articles: GATE CSE 2025 | Set 1 | GA | Question: 1</strong></div><p>Ravi had _______ younger brother who taught at _________ university. He was widely regarded as<br/>________ honorable man.<br/>Select the option with the correct sequence of articles to fill in the blanks.<br/>verbal-aptitude<br/>articles<br/>easy<br/>Comparative Forms<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Comparative Forms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Comparative Forms: GATE CSE 2015 | Set 1 | GA | Question: 1</strong></div><p>Didn't you buy ____ when you went shopping?<br/>verbal-aptitude<br/>easy<br/>english-grammar<br/>comparative-forms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Comparative Forms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Comparative Forms: GATE CSE 2021 | Set 2 | GA | Question: 1</strong></div><p>Gauri said that she can play the keyboard __________ her sister.<br/>verbal-aptitude<br/>comparative-forms<br/>English Grammar<br/>(5)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "English Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>English Grammar: GATE CSE 2015 | Set 2 | GA | Question: 1</strong></div><p>We __________ our friends's birthday and we _________ how to make it up to him.<br/>verbal-aptitude<br/>easy<br/>english-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "English Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>English Grammar: GATE CSE 2015 | Set 3 | GA | Question: 2</strong></div><p>The Tamil version of __________ John Abraham-starrer<br/>Madras Cafe<br/>__________ cleared by the Censor<br/>Board with no cuts last week, but the ﬁlm's distributor _______ no takers among the exhibitors for a release<br/>in Tamilnadu _______ this Friday.<br/>verbal-aptitude<br/>english-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "English Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>English Grammar: GATE CSE 2017 | Set 2 | GA | Question: 2</strong></div><p>Saturn is ___________ to be seen on a clear night with the naked eye.<br/>verbal-aptitude<br/>english-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/118416/gate-cse-2017-set-2-ga-question-2"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "English Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>English Grammar: GATE CSE 2020 | GA | Question: 1</strong></div><p>Raman is conﬁdent of speaking English _______six months as he has been practising regularly_______the<br/>last three weeks<br/>verbal-aptitude<br/>english-grammar</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118416/gate-cse-2017-set-2-ga-question-2"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "English Grammar",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>English Grammar: GATE CSE 2021 | Set 1 | GA | Question: 3</strong></div><p>Consider the following sentences:<br/>i<br/>.<br/>Everybody in the class is prepared for the exam.<br/>ii<br/>.<br/>Babu invited Danish to his home because he enjoys playing chess.<br/>Which of the following is the<br/>observation about the above two sentences?<br/>A<br/>.<br/>is grammatically correct and<br/>is unambiguous<br/>B<br/>.<br/>is grammatically incorrect and<br/>is unambiguous<br/>C<br/>.<br/>is grammatically correct and<br/>is ambiguous<br/>D<br/>.<br/>is grammatically incorrect and<br/>is ambiguous<br/>verbal-aptitude<br/>english-grammar<br/>Grammatical Error<br/>(6)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/118416/gate-cse-2017-set-2-ga-question-2"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammatical Error",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammatical Error: GATE CSE 2012 | Question: 59</strong></div><p>Choose the grammatically<br/>INCORRECT<br/>sentence:<br/>A<br/>.<br/>They gave us the money back less the service charges of Three Hundred rupees.<br/>B<br/>.<br/>This country’s expenditure is not less than that of Bangladesh.<br/>C<br/>.<br/>The committee initially asked for a funding of Fifty Lakh rupees, but later settled for a lesser sum.<br/>D<br/>.<br/>This country’s expenditure on educational reforms is very less.<br/>verbal-aptitude<br/>grammatical-error</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2198/gate-cse-2012-question-59"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammatical Error",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammatical Error: GATE CSE 2013 | Question: 60</strong></div><p>Choose the grammatically<br/>INCORRECT<br/>sentence:<br/>verbal-aptitude<br/>grammatical-error</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1564/gate-cse-2013-question-60"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammatical Error",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammatical Error: GATE CSE 2015 | Set 2 | GA | Question: 10</strong></div><p>Out of the following<br/>sentences, select the most suitable sentence with respect to grammar and usage:<br/>A<br/>.<br/>Since the report lacked needed information, it was of no use to them.<br/>B<br/>.<br/>The report was useless to them because there were no needed information in it.<br/>C<br/>.<br/>Since the report did not contain the needed information, it was not real useful to them.<br/>D<br/>.<br/>Since the report lacked needed information, it would not had been useful to them.<br/>verbal-aptitude<br/>english-grammar<br/>grammatical-error</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8041/gate-cse-2015-set-2-ga-question-10"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Grammatical Error",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Grammatical Error: GATE CSE 2016 | Set 1 | GA | Question: 01</strong></div><p>Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.<br/>A<br/>.<br/>I will not leave the place until the minister does not meet me.<br/>B<br/>.<br/>I will not leave the place until the minister doesn't meet me.<br/>C<br/>.<br/>I will not leave the place until the minister meet me.<br/>D<br/>.<br/>I will not leave the place until the minister meets me.<br/>verbal-aptitude<br/>english-grammar<br/>easy<br/>grammatical-error<br/>Grammatical Error: GATE2012 AR: GA-3<br/>Choose the grammatically CORRECT sentence:<br/>A<br/>.<br/>He laid in bed till<br/>o’clock in the morning.<br/>B<br/>.<br/>He layed in bed till<br/>o’clock in the morning.<br/>C<br/>.<br/>He lain in bed till<br/>o’clock in the morning.<br/>D<br/>.<br/>He lay in bed till<br/>o’clock in the morning.<br/>verbal-aptitude<br/>english-grammar<br/>easy<br/>grammatical-error<br/>Grammatical Error: GATE2013 EE: GA-4<br/>Choose the grammatically<br/>CORRECT<br/>sentence:<br/>english-grammar<br/>verbal-aptitude<br/>grammatical-error<br/>Incorrect Sentence Part<br/>(5)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8041/gate-cse-2015-set-2-ga-question-10"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Incorrect Sentence Part",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Incorrect Sentence Part: GATE CSE 2014 | Set 3 | GA | Question: 1</strong></div><p>an envelope<br/>and<br/>Which one of the above underlined parts of the sentence is NOT appropriate?<br/>verbal-aptitude<br/>easy<br/>english-grammar<br/>incorrect-sentence-part</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/8041/gate-cse-2015-set-2-ga-question-10"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Narrative Sequencing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Narrative Sequencing: GATE DA 2025 | GA | Question: 6</strong></div><p>Column-I has statements made by Shanthala; and, Column-II has responses given by Kanishk.<br/>Identify the option that has the correct match between Column-I and Column-II.<br/>A<br/>.<br/>B<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/41660/gate2014-ag-ga-1"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Phrase Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Phrase Meaning: GATE CSE 2014 | Set 1 | GA | Question: 1</strong></div><p>Which of the following options is the closest in meaning to the phrase in bold in the sentence below?<br/>It is fascinating to see life forms<br/>cope with<br/>varied environmental conditions.<br/>verbal-aptitude<br/>phrase-meaning<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/41671/gate2014-ag-ga-7"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Phrase Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Phrase Meaning: GATE CSE 2014 | Set 1 | GA | Question: 3</strong></div><p>In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey<br/>by the statement?<br/>verbal-aptitude<br/>phrase-meaning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/41671/gate2014-ag-ga-7"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Phrase Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Phrase Meaning: GATE CSE 2015 | Set 1 | GA | Question: 2</strong></div><p>Which of the following options is the closest in meaning of the sentence below?<br/>She enjoyed herself immensely at the party.<br/>verbal-aptitude<br/>easy<br/>phrase-meaning</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/41671/gate2014-ag-ga-7"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Phrase Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Phrase Meaning: GATE CSE 2015 | Set 1 | GA | Question: 7</strong></div><p>Select the alternative meaning of the underlined part of the sentence.<br/>The chain snatchers<br/>when the police party arrived.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/41671/gate2014-ag-ga-7"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Phrase Meaning",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Phrase Meaning: GATE CSE 2016 | Set 2 | GA | Question: 02</strong></div><p>Nobody knows how the Indian cricket team is going to<br/>cope with<br/>the diﬃcult and seamer-friendly wickets in<br/>Australia.<br/>Choose the option which is closest in meaning to the underlined phrase in the above sentence.<br/>verbal-aptitude<br/>phrase-meaning<br/>Prepositions<br/>(1)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39531/gate-cse-2016-set-2-ga-question-02"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Prepositions",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Prepositions: GATE DA 2026 | GA | Question: 6</strong></div><p>'My friend and I parted __ the door__ the cabin that I had rented __ the night.'<br/>Choose the option with the correct sequence of words to fill the blanks.<br/>gateda-2026<br/>verbal-aptitude<br/>fill-in-the-blanks<br/>prepositions<br/>Sentence Ordering<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39531/gate-cse-2016-set-2-ga-question-02"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Sentence Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sentence Ordering: GATE CSE 2023 | GA | Question: 8</strong></div><p>Which one of the following sentence sequences creates a coherent narrative?<br/>i<br/>.<br/>Once on the terrace, on her way to her small room in the corner, she notices the man right away.<br/>ii<br/>.<br/>She begins to pant by the time she has climbed all the stairs.<br/>iii<br/>.<br/>Mina has bought vegetables and rice at the market, so her bags are heavy.<br/>iv<br/>.<br/>He was leaning against the parapet, watching the traffic below.<br/>verbal-aptitude<br/>sentence-ordering</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/399248/gate-cse-2023-ga-question-8"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Sentence Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Sentence Ordering: GATE CSE 2024 | Set 2 | GA | Question: 6</strong></div><p>​​​​​<br/>Sequence the following sentences in a coherent passage.<br/>: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising<br/>to an average height of<br/>across the contact zone.<br/>: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static<br/>geological feature.<br/>: The natural process of the cooling of this massive ediﬁce absorbed large quantities of atmospheric carbon<br/>dioxide, altering the earth's atmosphere and making it better suited for life.<br/>: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39531/gate-cse-2016-set-2-ga-question-02"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statement Sufficiency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statement Sufficiency: GATE CSE 2015 | Set 1 | GA | Question: 4</strong></div><p>Based on the given statements, select the most appropriate option to solve the given question.<br/>If two ﬂoors in a certain building are<br/>feet apart, how many steps are there in a set of stairs that extends<br/>from the first floor to the second floor of the building?<br/>Statements:<br/>I<br/>.<br/>Each step is<br/>foot high.<br/>II<br/>.<br/>Each step is<br/>foot wide.<br/>A<br/>.<br/>Statements I alone is sufficient, but statement II alone is not sufficient.<br/>B<br/>.<br/>Statements II alone is sufficient, but statement I alone is not sufficient.<br/>C<br/>.<br/>Both statements together are sufficient, but neither statement alone is sufficient.<br/>D<br/>.<br/>Statements I and II together are not sufficient.<br/>verbal-aptitude<br/>easy<br/>statement-sufficiency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8006/gate-cse-2015-set-1-ga-question-4"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statement Sufficiency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statement Sufficiency: GATE CSE 2015 | Set 2 | GA | Question: 5</strong></div><p>Based on the given statements, select the most appropriate option to solve the given question.<br/>What will be the total weight of<br/>poles each of same weight?<br/>Statements:<br/>I<br/>.<br/>One fourth of the weight of the pole is<br/>.<br/>II<br/>.<br/>The total weight of these poles is<br/>more than the total weight of two poles.<br/>A<br/>.<br/>Statement I alone is not sufficient.<br/>B<br/>.<br/>Statement II alone is not sufficient.<br/>C<br/>.<br/>Either I or II alone is sufficient.<br/>D<br/>.<br/>Both statements I and II together are not sufficient.<br/>logical-reasoning<br/>statement-sufficiency<br/>Statements Follow<br/>(1)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(7Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/8006/gate-cse-2015-set-1-ga-question-4"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Statements Follow",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Statements Follow: GATE CSE 2015 | Set 1 | GA | Question: 8</strong></div><p>The given statement is followed by some courses of action. Assuming the statement to be true, decide the<br/>correct option.<br/>Statement:<br/>There has been a significant drop in the water level in the lakes supplying water to the city.<br/>Course of action:<br/>I<br/>.<br/>The water supply authority should impose a partial cut in supply to tackle the situation.<br/>II<br/>.<br/>The government should appeal to all the residents through mass media for minimal use of water.<br/>III<br/>.<br/>The government should ban the water supply in lower areas.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8006/gate-cse-2015-set-1-ga-question-4"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2010 | Question: 57</strong></div><p>Which of the following options is the closest in meaning to the word given below:<br/>Circuitous<br/>verbal-aptitude<br/>word-meaning<br/>synonyms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2365/gate-cse-2010-question-57"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2011 | Question: 56</strong></div><p>Which of the following options is the closest in the meaning to the word below:<br/>Inexplicable<br/>verbal-aptitude<br/>synonyms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2165/gate-cse-2011-question-56"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2012 | Question: 58</strong></div><p>Which one of the following options is the closest in meaning to the word given below?<br/>Mitigate<br/>verbal-aptitude<br/>synonyms<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2197/gate-cse-2012-question-58"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2013 | Question: 56</strong></div><p>Which one of the following options is the closest in meaning to the word given below?<br/>Nadir<br/>verbal-aptitude<br/>synonyms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2165/gate-cse-2011-question-56"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Synonyms",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Synonyms: GATE CSE 2017 | Set 2 | GA | Question: 1</strong></div><p>Choose the option with words that are not synonyms.<br/>verbal-aptitude<br/>synonyms</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/1911"
+    }
+  ]
+}

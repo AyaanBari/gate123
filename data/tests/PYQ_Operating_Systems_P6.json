@@ -1,0 +1,1414 @@
+{
+  "id": "PYQ_Operating_Systems_P6",
+  "fileName": "PYQ_Operating_Systems_P6.json",
+  "title": "GATE Official PYQs | Operating Systems Part 6",
+  "subject": "Operating Systems",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1993 | Question: 22</strong></div><p>Write a concurrent program using<br/>and semaphores to represent the precedence<br/>constraints of the statements<br/>to<br/>, as shown in figure below.<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2319/gate-cse-1993-question-22"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1994 | Question: 27</strong></div><p>A<br/>.<br/>Draw a precedence graph for the following sequential code. The statements are numbered from<br/>to<br/>read n<br/>i := 1<br/>if i > n next<br/>a(i) := i+1<br/>i := i+1<br/>next : write a(i)<br/>B<br/>.<br/>Can this graph be converted to a concurrent program using parbegin-parend construct only?<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2523/gate-cse-1994-question-27"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1995 | Question: 19</strong></div><p>Consider the following program segment for concurrent processing using semaphore operators<br/>and<br/>for<br/>synchronization. Draw the precedence graph for the statements<br/>to<br/>.<br/>var<br/>a<br/>,<br/>b<br/>,<br/>c<br/>,<br/>d<br/>,<br/>e<br/>,<br/>f<br/>,<br/>g<br/>,<br/>h<br/>,<br/>i<br/>,<br/>j<br/>,<br/>k<br/>:<br/>semaphore<br/>;<br/>begin<br/>cobegin<br/>begin<br/>S1<br/>;<br/>V<br/>(<br/>a<br/>);<br/>V<br/>(<br/>b<br/>)<br/>end<br/>;<br/>begin<br/>P<br/>(<br/>a<br/>);<br/>S2<br/>;<br/>V<br/>(<br/>c<br/>);<br/>V<br/>(<br/>d<br/>)<br/>end<br/>;<br/>begin<br/>P<br/>(<br/>c<br/>);<br/>S4<br/>;<br/>V<br/>(<br/>e<br/>)<br/>end<br/>;<br/>begin<br/>P<br/>(<br/>d<br/>);<br/>S5<br/>;<br/>V<br/>(<br/>f<br/>)<br/>end<br/>;<br/>begin<br/>P<br/>(<br/>e<br/>);<br/>P<br/>(<br/>f<br/>);<br/>S7<br/>;<br/>V<br/>(<br/>k<br/>)<br/>end</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2319/gate-cse-1993-question-22"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1996 | Question: 1.19, ISRO2008-61</strong></div><p>A critical section is a program segment<br/>A<br/>.<br/>which should run in a certain amount of time<br/>B<br/>.<br/>which avoids deadlocks<br/>C<br/>.<br/>where shared resources are accessed<br/>D<br/>.<br/>which must be enclosed by a pair of semaphore operations,<br/>and<br/>operating-system<br/>process-synchronization<br/>easy<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2723/gate-cse-1996-question-1-19-isro2008-61"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1996 | Question: 2.19</strong></div><p>A solution to the Dining Philosophers Problem which avoids deadlock is to<br/>A<br/>.<br/>ensure that all philosophers pick up the left fork before the right fork<br/>B<br/>.<br/>ensure that all philosophers pick up the right fork before the left fork<br/>C<br/>.<br/>ensure that one particular philosopher picks up the left fork before the right fork, and that all other philosophers<br/>pick up the right fork before the left fork<br/>D<br/>.<br/>None of the above<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2723/gate-cse-1996-question-1-19-isro2008-61"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1996 | Question: 21</strong></div><p>The concurrent programming constructs fork and join are as below:<br/>Fork <label> which creates a new process executing from the specified label<br/>Join <variable> which decrements the speciﬁed synchronization variable (by<br/>) and terminates the process if the<br/>new value is not<br/>.<br/>Show the precedence graph for<br/>,<br/>,<br/>,<br/>, and<br/>of the concurrent program below.<br/>N<br/>=<br/>2<br/>M<br/>=<br/>2<br/>Fork<br/>L3<br/>Fork<br/>L4<br/>S1<br/>L1<br/>:<br/>join<br/>N<br/>S3<br/>L2<br/>:<br/>join<br/>M<br/>S5<br/>L3<br/>:<br/>S2<br/>Goto<br/>L1<br/>L4<br/>:<br/>S4<br/>Goto<br/>L2<br/>Next<br/>:<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2723/gate-cse-1996-question-1-19-isro2008-61"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1997 | Question: 6.8</strong></div><p>Each Process<br/>is coded as follows<br/>repeat<br/>P(mutex)<br/>{Critical section}<br/>V(mutex)<br/>forever<br/>The code for<br/>is identical except it uses V(mutex) in place of P(mutex). What is the largest number of processes<br/>that can be inside the critical section at any moment?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2264/gate-cse-1997-question-6-8"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1997 | Question: 73</strong></div><p>A concurrent system consists of<br/>processes using a shared resource<br/>in a non-preemptible and mutually<br/>exclusive manner. The processes have unique priorities in the range<br/>,<br/>being the highest priority. It is<br/>required to synchronize the processes such that the resource is always allocated to the highest priority requester.<br/>The pseudo code for the system is as follows.<br/>Shared data<br/>mutex<br/>:<br/>semaphore<br/>=<br/>1<br/>:<br/>/* initialized to 1*/<br/>process<br/>[<br/>3<br/>]:<br/>semaphore<br/>=<br/>0<br/>;<br/>/*all initialized to 0 */<br/>R_requested<br/>[<br/>3<br/>]:<br/>boolean<br/>=<br/>false<br/>;<br/>/*all initialized to flase */<br/>busy<br/>:<br/>boolean<br/>=<br/>false<br/>;<br/>/*initialized to false */<br/>Code for processes<br/>begin<br/>process<br/>my<br/>-<br/>priority<br/>:<br/>integer<br/>;<br/>my<br/>-<br/>priority<br/>:=<br/>___<br/>;<br/>/*in the range 1..3*/<br/>repeat<br/>request_R<br/>(<br/>my<br/>-<br/>priority<br/>);<br/>P<br/>(<br/>proceed<br/>[<br/>my<br/>-<br/>priority<br/>]);<br/>{<br/>use<br/>shared resource R<br/>}<br/>release_R<br/>(<br/>my<br/>-<br/>priority<br/>);<br/>forever<br/>end<br/>process<br/>;<br/>Procedures<br/>procedure request_R<br/>(<br/>priority<br/>);<br/>P<br/>(<br/>mutex<br/>);<br/>if<br/>busy<br/>=<br/>true<br/>then<br/>R_requested<br/>[<br/>priority<br/>]:=<br/>true<br/>;<br/>else<br/>begin<br/>V<br/>(<br/>proceed<br/>[<br/>priority<br/>]);<br/>busy<br/>:=<br/>true<br/>;<br/>end<br/>V<br/>(<br/>mutex<br/>)<br/>Give the pseudo code for the procedure release_R.<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2264/gate-cse-1997-question-6-8"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1998 | Question: 1.30</strong></div><p>When the result of a computation depends on the speed of the processes involved, there is said to be</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2264/gate-cse-1997-question-6-8"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1999 | Question: 20-a</strong></div><p>A certain processor provides a 'test and set' instruction that is used as follows:<br/>TSET<br/>register<br/>,<br/>flag<br/>This instruction atomically copies ﬂag to register and sets ﬂag to<br/>. Give pseudo-code for implementing the entry<br/>and exit code to a critical region using this instruction.<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 1999 | Question: 20-b</strong></div><p>Consider the following solution to the producer-consumer problem using a buﬀer of size 1. Assume that the<br/>initial value of count is 0. Also assume that the testing of count and assignment to count are atomic<br/>operations.<br/>Producer:<br/>Repeat<br/>Produce an item;<br/>if count = 1 then sleep;<br/>place item in buffer.<br/>count = 1;<br/>Wakeup(Consumer);<br/>Forever<br/>Consumer:<br/>Repeat<br/>if count = 0 then sleep;<br/>Remove item from buffer;<br/>count = 0;<br/>Wakeup(Producer);<br/>Consume item;<br/>Forever;<br/>Show that in this solution it is possible that both the processes are sleeping at the same time.<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2000 | Question: 1.21</strong></div><p>Let<br/>be mutexes (binary semaphores) and<br/>be processes.<br/>Suppose each process<br/>executes the following:<br/>wait<br/>(<br/>m<br/>[<br/>i<br/>]);<br/>wait<br/>(<br/>m<br/>(<br/>i<br/>+<br/>1<br/>)<br/>mod<br/>4<br/>]);<br/>...........<br/>release<br/>(<br/>m<br/>[<br/>i<br/>]);<br/>release<br/>(<br/>m<br/>(<br/>i<br/>+<br/>1<br/>)<br/>mod<br/>4<br/>]);<br/>This could cause<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2000 | Question: 20</strong></div><p>a. Fill in the boxes below to get a solution for the reader-writer problem, using a single binary semaphore,<br/>mutex (initialized to<br/>) and busy waiting. Write the box numbers (<br/>,<br/>and<br/>), and their contents in your<br/>answer book.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2001 | Question: 2.22</strong></div><p>Consider Peterson's algorithm for mutual exclusion between two concurrent processes i and j. The program<br/>executed by process is shown below.<br/>repeat<br/>flag<br/>[<br/>i<br/>]<br/>=<br/>true<br/>;<br/>turn<br/>=<br/>j<br/>;<br/>while<br/>(<br/>P<br/>)<br/>do<br/>no<br/>-<br/>op<br/>;<br/>Enter<br/>critical section<br/>,<br/>perform actions<br/>,<br/>then<br/>exit<br/>critical section<br/>Flag<br/>[<br/>i<br/>]<br/>=<br/>false<br/>;<br/>Perform<br/>other non<br/>-<br/>critical section actions<br/>.<br/>Until<br/>false<br/>;<br/>For the program to guarantee mutual exclusion, the predicate P in the while loop should be<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/740/gate-cse-2001-question-2-22"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2002 | Question: 18-a</strong></div><p>Draw the process state transition diagram of an OS in which (i) each process is in one of the ﬁve states:<br/>created, ready, running, blocked (i.e., sleep or wait), or terminated, and (ii) only non-preemptive scheduling<br/>is used by the OS. Label the transitions appropriately.<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/871/gate-cse-2002-question-18-a"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2002 | Question: 18-b</strong></div><p>The functionality of atomic TEST-AND-SET assembly language instruction is given by the following C<br/>function<br/>int<br/>TEST<br/>-<br/>AND<br/>-<br/>SET<br/>(<br/>int<br/>*<br/>x<br/>)<br/>{<br/>int<br/>y<br/>;<br/>A1<br/>:<br/>y<br/>=*<br/>x<br/>;<br/>A2<br/>:<br/>*<br/>x<br/>=<br/>1<br/>;<br/>A3<br/>:<br/>return<br/>y<br/>;<br/>}<br/>i<br/>.<br/>Complete the following C functions for implementing code for entering and leaving critical sections on the above<br/>TEST-AND-SET instruction.<br/>int<br/>mutex<br/>=<br/>0<br/>;<br/>void<br/>enter<br/>-<br/>cs<br/>()<br/>{<br/>while<br/>(......................);<br/>}<br/>void<br/>leave<br/>-<br/>cs<br/>()<br/>{<br/>.........................;<br/>}<br/>ii<br/>.<br/>Is the above solution to the critical section problem deadlock free and starvation-free?<br/>iii<br/>.<br/>For the above solution, show by an example that mutual exclusion is not ensured if TEST-AND-SET instruction<br/>is not atomic?<br/>operating-system<br/>process-synchronization<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/205818/gate-cse-2002-question-18-b"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2002 | Question: 20</strong></div><p>The following solution to the single producer single consumer problem uses semaphores for<br/>synchronization.<br/>#define<br/>BUFFSIZE<br/>100<br/>buffer buf<br/>[<br/>BUFFSIZE<br/>];<br/>int<br/>first<br/>=<br/>last<br/>=<br/>0<br/>;<br/>semaphore b_full<br/>=<br/>0<br/>;<br/>semaphore b_empty<br/>=<br/>BUFFSIZE<br/>void<br/>producer<br/>()<br/>{<br/>while<br/>(<br/>1<br/>)<br/>{<br/>produce an item<br/>;<br/>p1<br/>:.................;<br/>put the item<br/>into<br/>buff<br/>(<br/>first<br/>);<br/>first<br/>=<br/>(<br/>first<br/>+<br/>1<br/>)%<br/>BUFFSIZE<br/>;<br/>p2<br/>:<br/>...............;<br/>}<br/>}<br/>void<br/>consumer<br/>()<br/>{<br/>while<br/>(<br/>1<br/>)<br/>{<br/>c1<br/>:............<br/>take the item<br/>from<br/>buf<br/>[<br/>last<br/>];<br/>last<br/>=<br/>(<br/>last<br/>+<br/>1<br/>)%<br/>BUFFSIZE<br/>;<br/>c2<br/>:............;<br/>consume the item<br/>;<br/>}<br/>}<br/>A<br/>.<br/>Complete the dotted part of the above solution.<br/>B<br/>.<br/>Using another semaphore variable, insert one line statement each immediately after<br/>, immediately before<br/>,<br/>immediately after<br/>and immediately before<br/>so that the program works correctly for multiple producers and<br/>consumers.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/205818/gate-cse-2002-question-18-b"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2003 | Question: 80</strong></div><p>Suppose we want to synchronize two concurrent processes<br/>and<br/>using binary semaphores<br/>and<br/>.<br/>The code for the processes<br/>and<br/>is shown below.<br/>Process P:<br/>Process Q:<br/>while<br/>(<br/>1<br/>){<br/>W<br/>:<br/>print<br/>'0'<br/>;<br/>print<br/>'0'<br/>;<br/>X<br/>:<br/>}<br/>while<br/>(<br/>1<br/>){<br/>Y<br/>:<br/>print<br/>'1'<br/>;<br/>print<br/>'1'<br/>;<br/>Z<br/>:<br/>}<br/>Synchronization statements can be inserted only at points<br/>and<br/>Which of the following will always lead to an output staring with<br/>?<br/>A<br/>.<br/>at<br/>at<br/>at<br/>at<br/>and<br/>initially<br/>B<br/>.<br/>at<br/>at<br/>at<br/>at<br/>initially<br/>and<br/>initially<br/>C<br/>.<br/>at<br/>at<br/>at<br/>at<br/>and<br/>initially<br/>D<br/>.<br/>at<br/>at<br/>at<br/>at<br/>initially<br/>, and<br/>initially<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/964/gate-cse-2003-question-80"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2003 | Question: 81</strong></div><p>Suppose we want to synchronize two concurrent processes<br/>and<br/>using binary semaphores<br/>and<br/>.<br/>The code for the processes<br/>and<br/>is shown below.<br/>Synchronization statements can be inserted only at points<br/>and<br/>Which of the following will ensure that the output string never contains a substring of the form<br/>and<br/>where<br/>is odd?<br/>A<br/>.<br/>at<br/>at<br/>at<br/>at<br/>and<br/>initially<br/>B<br/>.<br/>at<br/>at<br/>at<br/>at<br/>and<br/>initially<br/>C<br/>.<br/>at<br/>at<br/>at<br/>at<br/>initially<br/>D<br/>.<br/>at<br/>at<br/>at<br/>at<br/>and<br/>initially<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/964/gate-cse-2003-question-80"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2004 | Question: 48</strong></div><p>Consider two processes<br/>and<br/>accessing the shared variables<br/>and<br/>protected by two binary</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1044/gate-cse-2004-question-48"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2006 | Question: 61</strong></div><p>The atomic<br/>fetch-and-set<br/>instruction unconditionally sets the memory location<br/>to<br/>and fetches the old<br/>value of<br/>in<br/>without allowing any intervening access to the memory location<br/>. Consider the following<br/>implementation of<br/>and<br/>functions on a binary semaphore<br/>.<br/>void<br/>P<br/>(<br/>binary_semaphore<br/>*<br/>s<br/>)<br/>{<br/>unsigned<br/>y<br/>;<br/>unsigned<br/>*<br/>x<br/>=<br/>&(<br/>s<br/>-><br/>value<br/>);<br/>do<br/>{<br/>fetch<br/>-<br/>and<br/>-<br/>set<br/>x<br/>,<br/>y<br/>;<br/>}<br/>while<br/>(<br/>y<br/>);<br/>}<br/>void<br/>V<br/>(<br/>binary_semaphore<br/>*<br/>s<br/>)<br/>{<br/>S<br/>-><br/>value<br/>=<br/>0<br/>;<br/>}<br/>Which one of the following is true?<br/>A<br/>.<br/>The implementation may not work if context switching is disabled in<br/>B<br/>.<br/>Instead of using<br/>fetch-and –set<br/>, a pair of normal load/store can be used<br/>C<br/>.<br/>The implementation of<br/>is wrong<br/>D<br/>.<br/>The code does not implement a binary semaphore<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1839/gate-cse-2006-question-61"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2006 | Question: 78</strong></div><p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e., each process in<br/>the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the<br/>number of processes in the set be three and<br/>be a binary semaphore with the usual<br/>and<br/>functions. Consider<br/>the following<br/>implementation of a barrier with line numbers shown on left.<br/>void barrier (void) {<br/>1<br/>:<br/>P<br/>(<br/>S<br/>);<br/>2<br/>:<br/>process_arrived<br/>++;<br/>3<br/>:<br/>V<br/>(<br/>S<br/>);</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1839/gate-cse-2006-question-61"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2006 | Question: 79</strong></div><p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e., each process in<br/>the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the<br/>number of processes in the set be three and<br/>be a binary semaphore with the usual<br/>and<br/>functions. Consider<br/>the following<br/>implementation of a barrier with line numbers shown on left.<br/>void barrier (void) {<br/>1<br/>P<br/>(<br/>S<br/>);<br/>2<br/>process_arrived<br/>++;<br/>3<br/>V<br/>(<br/>S<br/>);<br/>4<br/>while<br/>(<br/>process_arrived<br/>!=<br/>3<br/>);<br/>5<br/>P<br/>(<br/>S<br/>);<br/>6<br/>process_left<br/>++;<br/>7<br/>if<br/>(<br/>process_left<br/>==<br/>3<br/>)<br/>{<br/>8<br/>process_arrived<br/>=<br/>0<br/>;<br/>9<br/>process_left<br/>=<br/>0<br/>;<br/>10<br/>}<br/>11<br/>V<br/>(<br/>S<br/>);<br/>}<br/>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a<br/>concurrent program all the three processes call the barrier function when they need to synchronize globally.<br/>Which one of the following rectifies the problem in the implementation?<br/>A<br/>.<br/>Lines<br/>to<br/>are simply replaced by process_arrived--<br/>B<br/>.<br/>At the beginning of the barrier the ﬁrst process to enter the barrier waits until process_arrived becomes zero<br/>before proceeding to execute<br/>.<br/>C<br/>.<br/>Context switch is disabled at the beginning of the barrier and re-enabled at the end.<br/>D<br/>.<br/>The variable process_left is made private instead of shared<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43564/gate-cse-2006-question-79"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2007 | Question: 58</strong></div><p>Two processes,<br/>and<br/>, need to access a critical section of code. Consider the following<br/>synchronization construct used by the processes:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1256/gate-cse-2007-question-58"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2009 | Question: 33</strong></div><p>The<br/>enter_CS()<br/>and<br/>leave_CS()<br/>functions to implement critical section of a process are realized using test-<br/>and-set instruction as follows:<br/>void enter_CS(X)<br/>{<br/>while(test-and-set(X));<br/>}<br/>void leave_CS(X)<br/>{<br/>X = 0;<br/>}<br/>In the above solution,<br/>is a memory location associated with the<br/>and is initialized to<br/>. Now consider the<br/>following statements:<br/>I<br/>.<br/>The above solution to<br/>problem is deadlock-free<br/>II<br/>.<br/>The solution is starvation free<br/>III<br/>.<br/>The processes enter<br/>in FIFO order<br/>IV<br/>.<br/>More than one process can enter<br/>at the same time<br/>Which of the above statements are TRUE?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1319/gate-cse-2009-question-33"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2010 | Question: 23</strong></div><p>Consider the methods used by processes<br/>and<br/>for accessing their critical sections whenever needed,<br/>as given below. The initial values of shared boolean variables<br/>and<br/>are randomly assigned.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2202/gate-cse-2010-question-23"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2010 | Question: 45</strong></div><p>The following program consists of<br/>concurrent processes and<br/>binary semaphores. The semaphores are<br/>initialized as<br/>and<br/>How many times will process<br/>print '<br/>'?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2347/gate-cse-2010-question-45"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2012 | Question: 32</strong></div><p>Fetch_And_Add(X,i)<br/>is an atomic Read-Modify-Write instruction that reads the value of memory location<br/>,<br/>increments it by the value<br/>, and returns the old value of<br/>. It is used in the pseudocode shown below to<br/>implement a busy-wait lock.<br/>is an unsigned integer shared variable initialized to<br/>. The value of<br/>corresponds to<br/>lock being available, while any non-zero value corresponds to the lock being not available.<br/>AcquireLock<br/>(<br/>L<br/>){<br/>while<br/>(<br/>Fetch_And_Add<br/>(<br/>L<br/>,<br/>1<br/>))<br/>L<br/>=<br/>1<br/>;<br/>}<br/>ReleaseLock<br/>(<br/>L<br/>){<br/>L<br/>=<br/>0<br/>;<br/>}<br/>This implementation<br/>A<br/>.<br/>fails as<br/>can overflow<br/>B<br/>.<br/>fails as<br/>can take on a non-zero value when the lock is actually available<br/>C<br/>.<br/>works correctly but may starve some processes<br/>D<br/>.<br/>works correctly without starvation<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1750/gate-cse-2012-question-32"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2013 | Question: 34</strong></div><p>A shared variable<br/>, initialized to zero, is operated on by four concurrent processes<br/>as follows.<br/>Each of the processes<br/>and<br/>reads<br/>from memory, increments by one, stores it to memory, and then<br/>terminates. Each of the processes<br/>and<br/>reads<br/>from memory, decrements by two, stores it to memory, and<br/>then terminates. Each process before reading<br/>invokes the<br/>operation (i.e., wait) on a counting semaphore<br/>and invokes the<br/>operation (i.e., signal) on the semaphore<br/>after storing<br/>to memory. Semaphore<br/>is initialized<br/>to two. What is the maximum possible value of<br/>after all processes complete execution?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1545/gate-cse-2013-question-34"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2013 | Question: 39</strong></div><p>A certain computation generates two arrays a and b such that<br/>for<br/>and<br/>for<br/>. Suppose this computation is decomposed into two concurrent processes<br/>and<br/>such that<br/>computes the array<br/>and<br/>computes the array<br/>. The processes employ two binary semaphores<br/>and<br/>,<br/>both initialized to zero. The array<br/>is shared by the two processes. The structures of the processes are shown<br/>below.<br/>Process X:<br/>private<br/>i<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>a<br/>[<br/>i<br/>]<br/>=<br/>f<br/>(<br/>i<br/>);<br/>ExitX<br/>(<br/>R<br/>,<br/>S<br/>);<br/>}<br/>Process Y:<br/>private<br/>i<br/>;<br/>for<br/>(<br/>i<br/>=<br/>0<br/>;<br/>i<br/><<br/>n<br/>;<br/>i<br/>++)<br/>{<br/>EntryY<br/>(<br/>R<br/>,<br/>S<br/>);<br/>b<br/>[<br/>i<br/>]<br/>=<br/>g<br/>(<br/>a<br/>[<br/>i<br/>]);<br/>}<br/>Which one of the following represents the<br/>CORRECT<br/>implementations of ExitX and EntryY?<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1545/gate-cse-2013-question-34"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2014 | Set 2 | Question: 31</strong></div><p>Consider the procedure below for the<br/>Producer-Consumer<br/>problem which uses semaphores:<br/>semaphore n<br/>=<br/>0<br/>;<br/>semaphore s<br/>=<br/>1<br/>;</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1545/gate-cse-2013-question-34"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2015 | Set 1 | Question: 9</strong></div><p>The following two functions<br/>and<br/>that share a variable<br/>with an initial value of<br/>execute<br/>concurrently.<br/>The number of distinct values that<br/>can possibly take after the execution is______________________.<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/8121/gate-cse-2015-set-1-question-9"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2015 | Set 3 | Question: 10</strong></div><p>Two processes<br/>and<br/>need to access a critical section. Consider the following synchronization construct<br/>used by both the processes</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/8121/gate-cse-2015-set-1-question-9"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2016 | Set 1 | Question: 50</strong></div><p>Consider the following proposed solution for the critical section problem. There are<br/>processes :<br/>. In the code, function<br/>returns an integer not smaller than any of its arguments .For all<br/>is initialized to zero.<br/>Code for<br/>;<br/>do<br/>{<br/>c<br/>[<br/>i<br/>]=<br/>1<br/>;<br/>t<br/>[<br/>i<br/>]=<br/>pmax<br/>(<br/>t<br/>[<br/>0<br/>],....,<br/>t<br/>[<br/>n<br/>-<br/>1<br/>])+<br/>1<br/>;<br/>c<br/>[<br/>i<br/>]=<br/>0<br/>;<br/>for<br/>every j<br/>!=<br/>i<br/>in<br/>{<br/>0<br/>,....,<br/>n<br/>-<br/>1<br/>}<br/>{<br/>while<br/>(<br/>c<br/>[<br/>j<br/>]);<br/>while<br/>(<br/>t<br/>[<br/>j<br/>]<br/>!=<br/>0<br/>&&<br/>t<br/>[<br/>j<br/>]<br/><=<br/>t<br/>[<br/>i<br/>]);<br/>}<br/>Critical<br/>Section<br/>;<br/>t<br/>[<br/>i<br/>]=<br/>0<br/>;<br/>Remainder<br/>Section<br/>;<br/>}<br/>while<br/>(<br/>true<br/>);<br/>Which of the following is TRUE about the above solution?<br/>A<br/>.<br/>At most one process can be in the critical section at any time<br/>B<br/>.<br/>The bounded wait condition is satisfied<br/>C<br/>.<br/>The progress condition is satisfied<br/>D<br/>.<br/>It cannot cause a deadlock<br/>operating-system<br/>process-synchronization<br/>difficult<br/>ambiguous</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/39719/gate-cse-2016-set-1-question-50"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2016 | Set 2 | Question: 48</strong></div><p>Consider the following two-process synchronization solution.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/39719/gate-cse-2016-set-1-question-50"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2017 | Set 1 | Question: 27</strong></div><p>A multithreaded program<br/>executes with<br/>number of threads and uses<br/>number of locks for ensuring<br/>mutual exclusion while operating on shared memory locations. All locks in the program are<br/>non-reentrant<br/>,<br/>i.e., if a thread holds a lock<br/>, then it cannot re-acquire lock<br/>without releasing it. If a thread is unable to acquire a<br/>lock, it blocks until the lock becomes available. The<br/>minimum<br/>value of<br/>and the<br/>minimum<br/>value of<br/>together for<br/>which execution of<br/>can result in a deadlock are:<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/118307/gate-cse-2017-set-1-question-27"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2018 | Question: 40</strong></div><p>Consider the following solution to the producer-consumer synchronization problem. The shared buﬀer size is<br/>. Three semaphores<br/>,<br/>and<br/>are deﬁned with respective initial values of<br/>and<br/>.<br/>Semaphore<br/>denotes the number of available slots in the buﬀer, for the consumer to read from. Semaphore<br/>denotes the number of available slots in the buﬀer, for the producer to write to. The placeholder variables,<br/>denoted by<br/>,<br/>,<br/>and<br/>, in the code below can be assigned either<br/>or<br/>. The valid semaphore<br/>operations are:<br/>and<br/>.<br/>Which one of the following assignments tp<br/>,<br/>,<br/>and<br/>will yield the correct solution?<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204114/gate-cse-2018-question-40"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2019 | Question: 23</strong></div><p>Consider three concurrent processes<br/>and<br/>as shown below, which access a shared variable<br/>that has been initialized to<br/>The processes are executed on a uniprocessor system running a time-shared operating system. If the minimum<br/>and maximum possible values of<br/>after the three processes have completed execution are<br/>and<br/>respectively,<br/>then the value of<br/>is ______<br/>operating-system<br/>process-synchronization</p></div>",
+      "options": [],
+      "correctAnswer": "80",
+      "discussUrl": "https://gateoverflow.in/302825/gate-cse-2019-question-23"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE CSE 2024 | Set 2 | Question: 36</strong></div><p>Consider a multi-threaded program with two threads<br/>and<br/>. The threads share two semaphores:<br/>(initialized to<br/>) and<br/>(initialized to<br/>). The threads also share a global variable<br/>(initialized to<br/>). The<br/>threads execute the code shown below.<br/>//code of T 1<br/>wait<br/>(<br/>s1<br/>);<br/>x<br/>=<br/>x<br/>+<br/>1<br/>;<br/>print<br/>(<br/>x<br/>);<br/>wait<br/>(<br/>s2<br/>);<br/>signal<br/>(<br/>s1<br/>);<br/>// code of T2<br/>wait<br/>(<br/>s1<br/>);<br/>x<br/>=<br/>x<br/>+<br/>1<br/>;<br/>print<br/>(<br/>x<br/>)<br/>;<br/>signal<br/>(<br/>s2<br/>);<br/>signal<br/>(<br/>s1<br/>);<br/>Which of the following outcomes is/are possible when threads<br/>and<br/>execute concurrently?<br/>A<br/>.<br/>runs first and prints<br/>runs next and prints<br/>B<br/>.<br/>runs first and prints<br/>runs next and prints<br/>C<br/>.<br/>runs first and prints<br/>does not print anything (deadlock)<br/>D<br/>.<br/>runs first and prints<br/>does not print anything (deadlock)<br/>operating-system<br/>multiple-selects<br/>process-synchronization</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/302825/gate-cse-2019-question-23"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Process Synchronization",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Process Synchronization: GATE IT 2004 | Question: 65</strong></div><p>The semaphore variables full, empty and mutex are initialized to<br/>,<br/>and<br/>, respectively. Process P<br/>1<br/>repeatedly adds one item at a time to a buﬀer of size<br/>, and process P<br/>2<br/>repeatedly removes one item at a<br/>time from the same buﬀer using the programs given below. In the programs,<br/>,<br/>,<br/>and<br/>are unspeciﬁed<br/>statements.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3708/gate-it-2004-question-65"
+    }
+  ]
+}

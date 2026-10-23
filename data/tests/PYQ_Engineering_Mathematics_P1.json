@@ -1,0 +1,1225 @@
+{
+  "id": "PYQ_Engineering_Mathematics_P1",
+  "fileName": "PYQ_Engineering_Mathematics_P1.json",
+  "title": "GATE Official PYQs | Engineering Mathematics Part 1",
+  "subject": "Engineering Mathematics",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 1996 | Question: 3</strong></div><p>Let<br/>be a function defined by<br/>Find the values for the constants<br/>and<br/>so that<br/>is continuous and diﬀerentiable everywhere on the real<br/>line.<br/>calculus<br/>continuity<br/>differentiation<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2755/gate-cse-1996-question-3"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 1998 | Question: 1.4</strong></div><p>Consider the function<br/>in the interval<br/>. In this interval, the function is<br/>calculus<br/>continuity<br/>differentiation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/test/1766"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2007 | Question: 1</strong></div><p>Consider the following two statements about the function<br/>:<br/>P.<br/>is continuous for all real values of<br/>.<br/>Q.<br/>is differentiable for all real values of<br/>.<br/>Which of the following is<br/>TRUE<br/>?<br/>calculus<br/>continuity<br/>differentiation<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1766"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2013 | Question: 22</strong></div><p>Which one of the following functions is continuous at<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.<br/>D<br/>.<br/>calculus<br/>continuity</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1533/gate-cse-2013-question-22"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2014 | Set 1 | Question: 47</strong></div><p>A function<br/>is continuous in the interval<br/>. It is known that<br/>and<br/>. Which<br/>one of the following statements must be true?<br/>A<br/>.<br/>There exists a<br/>in the interval<br/>such that<br/>B<br/>.<br/>For every<br/>in the interval<br/>,<br/>=<br/>C<br/>.<br/>The maximum value of the function in the interval<br/>is<br/>D<br/>.<br/>There exists a<br/>in the interval<br/>such that<br/>=<br/>calculus<br/>continuity<br/>tricky</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1533/gate-cse-2013-question-22"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2015 | Set 2 | Question: 26</strong></div><p>Let<br/>and<br/>denote the area of region bounded by<br/>and the X-axis, when<br/>varies from<br/>to<br/>. Which of the following statements is/are TRUE?<br/>I<br/>.<br/>is continuous in<br/>II<br/>.<br/>is not bounded in<br/>III<br/>.<br/>is nonzero and finite<br/>calculus<br/>continuity<br/>functions</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1533/gate-cse-2013-question-22"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2021 | Set 2 | Question: 25</strong></div><p>Suppose that<br/>is a continuous function on the interval<br/>and a diﬀerentiable function in the<br/>interval<br/>such that for every<br/>in the interval,<br/>. If<br/>, then<br/>is at most<br/>__________<br/>calculus<br/>continuity</p></div>",
+      "options": [],
+      "correctAnswer": "19 : 19",
+      "discussUrl": "https://gateoverflow.in/1533/gate-cse-2013-question-22"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2026 | Set 1 | Question: 22</strong></div><p>Consider the function<br/>defined as follows:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "03 : 03",
+      "discussUrl": "https://gateoverflow.in/1533/gate-cse-2013-question-22"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Continuity",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Continuity: GATE CSE 2026 | Set 2 | Question: 54</strong></div><p>Consider a function<br/>defined as follows.<br/>For a real number<br/>if the second digit after the decimal point in<br/>is one of the four digits<br/>and<br/>. Otherwise,<br/>is equal to<br/>.<br/>The number of points in<br/>at which<br/>is discontinuous is<br/>. (answer in integer)<br/>calculus<br/>continuity<br/>Continuity: GATE DS&AI 2024 | Question: 27<br/>​​​​​<br/>Let<br/>be a function. Note:<br/>denotes the set of real numbers.<br/>Which ONE of the following choices gives the values of<br/>that make the function<br/>continuous and<br/>differentiable?<br/>gate-ds-ai-2024<br/>calculus<br/>continuity<br/>differentiation<br/>Continuity: GATE2010 ME<br/>The function<br/>​<br/>A<br/>.<br/>is continuous<br/>and differentiable<br/>B<br/>.<br/>is continuous<br/>and differentiable<br/>except at<br/>C<br/>.<br/>is continuous<br/>and differentiable<br/>except at<br/>D<br/>.<br/>is continuous<br/>except<br/>and differentiable<br/>calculus<br/>engineering-mathematics<br/>continuity<br/>Definite Integral<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)</p></div>",
+      "options": [],
+      "correctAnswer": "40:40",
+      "discussUrl": "https://gateoverflow.in/523092/gate-cse-2026-set-2-question-54"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Definite Integral",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Definite Integral: GATE CSE 2023 | Question: 21</strong></div><p>The value of the definite integral<br/>is _________. (Rounded off to the nearest integer)<br/>calculus<br/>definite-integral</p></div>",
+      "options": [],
+      "correctAnswer": "0",
+      "discussUrl": "https://gateoverflow.in/399290/gate-cse-2023-question-21"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Definite Integral",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Definite Integral: GATE CSE 2024 | Set 2 | Question: 6</strong></div><p>​​​​​<br/>Let<br/>be a continuous function from<br/>to<br/>such that<br/>Which one of the following options is the CORRECT value of<br/>?<br/>calculus<br/>definite-integral</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/399290/gate-cse-2023-question-21"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Definite Integral",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Definite Integral: GATE CSE 2025 | Set 2 | Question: 2</strong></div><p>​​​​​<br/>The value of<br/>such that<br/>, satisfying the equation<br/>is<br/>calculus<br/>definite-integral</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/399290/gate-cse-2023-question-21"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Definite Integral",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Definite Integral: GATE CSE 2026 | Set 2 | Question: 17</strong></div><p>For a real number<br/>, let<br/>. Which of the following statements is/are true?<br/>A<br/>.<br/>The value of<br/>is independent of the value of<br/>B<br/>.<br/>The value of<br/>can vary with the value of<br/>C<br/>.<br/>There exists<br/>such that<br/>is a positive real number<br/>D<br/>.<br/>There exists<br/>such that<br/>is a negative real number<br/>calculus<br/>definite-integral<br/>multiple-selects<br/>Differentiation<br/>(11)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(10Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/399290/gate-cse-2023-question-21"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 1996 | Question: 1.6</strong></div><p>The formula used to compute an approximation for the second derivative of a function<br/>at a point<br/>is<br/>calculus<br/>differentiation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/399290/gate-cse-2023-question-21"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2014 | Set 1 | Question: 46</strong></div><p>The function<br/>satisfies the following equation:<br/>The value of<br/>is______.<br/>calculus<br/>easy<br/>differentiation</p></div>",
+      "options": [],
+      "correctAnswer": "-2",
+      "discussUrl": "https://gateoverflow.in/1924/gate-cse-2014-set-1-question-46"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2014 | Set 1 | Question: 6</strong></div><p>Let the function<br/>where<br/>and<br/>denote the derivative of<br/>with respect to<br/>. Which of the following statements<br/>is/are<br/>TRUE<br/>?<br/>I<br/>.<br/>There exists<br/>such that<br/>II<br/>.<br/>There exists<br/>such that<br/>calculus<br/>differentiation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1924/gate-cse-2014-set-1-question-46"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2016 | Set 2 | Question: 02</strong></div><p>Let<br/>be a polynomial and<br/>be its derivative. If the degree of<br/>is<br/>, then<br/>the degree of<br/>is __________.<br/>calculus<br/>differentiation</p></div>",
+      "options": [],
+      "correctAnswer": "9",
+      "discussUrl": "https://gateoverflow.in/1924/gate-cse-2014-set-1-question-46"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2017 | Set 2 | Question: 10</strong></div><p>If<br/>and<br/>, then the constants<br/>and<br/>are<br/>engineering-mathematics<br/>calculus<br/>differentiation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1924/gate-cse-2014-set-1-question-46"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2024 | Set 1 | Question: 1</strong></div><p>L e t<br/>be a function such that<br/>, where<br/>is the set of all real<br/>numbers. The set of all points where<br/>is NOT differentiable is<br/>calculus<br/>differentiation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1924/gate-cse-2014-set-1-question-46"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2025 | Set 1 | Question: 21</strong></div><p>Consider the given function<br/>.<br/>If the function is differentiable everywhere, the value of<br/>must be ________. (rounded off to one decimal place)<br/>calculus<br/>differentiation</p></div>",
+      "options": [],
+      "correctAnswer": "-2.1:-1.9",
+      "discussUrl": "https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE CSE 2026 | Set 1 | Question: 36</strong></div><p>Let<br/>be defined as follows:<br/>Which of the following statements is/are true?<br/>differentiation<br/>calculus<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C;D",
+      "discussUrl": "https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE DA 2025 | Question: 14</strong></div><p>Consider two functions<br/>and<br/>. Both functions are diﬀerentiable at a point<br/>.<br/>Which of the following functions is/are ALWAYS diﬀerentiable at<br/>? The symbol<br/>denotes product and the<br/>symbol<br/>denotes composition of functions.<br/>gateda-2025<br/>calculus<br/>differentiation<br/>limits<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE DA 2025 | Question: 4</strong></div><p>Let<br/>. Let<br/>denote the<br/>derivative of<br/>evaluated at<br/>. What is the value of<br/>? (Note: ! denotes factorial)<br/>gateda-2025<br/>calculus<br/>differentiation</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Differentiation",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Differentiation: GATE DA 2025 | Question: 41</strong></div><p>Let<br/>be a twice-diﬀerentiable function and suppose its second derivative satisﬁes<br/>for<br/>all<br/>. Which of the following statements is/are ALWAYS correct?<br/>A<br/>.<br/>has a local minima<br/>B<br/>.<br/>There does not exist<br/>and<br/>, such that<br/>C<br/>.<br/>has at most one global minimum<br/>D<br/>.<br/>has at most one local minimum<br/>gateda-2025<br/>calculus<br/>maxima-minima<br/>differentiation<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C;D",
+      "discussUrl": "https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 1993 | Question: 02.6</strong></div><p>The value of the double integral<br/>is_________.<br/>calculus<br/>integration<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/610/gate-cse-1993-question-02-6"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 1998 | Question: 8</strong></div><p>a<br/>.<br/>Find the points of local maxima and minima, if any, of the following function defined in<br/>.<br/>b<br/>.<br/>Integrate<br/>calculus<br/>maxima-minima<br/>integration<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1722/gate-cse-1998-question-8"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2000 | Question: 2.3</strong></div><p>Let<br/>, and<br/>.<br/>Which of the following statements is true?<br/>calculus<br/>integration</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/1772"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2009 | Question: 25</strong></div><p>calculus<br/>integration</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/802/gate-cse-2009-question-25"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2011 | Question: 31</strong></div><p>Given<br/>, what will be the evaluation of the definite integral<br/>?<br/>calculus<br/>integration</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2133/gate-cse-2011-question-31"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2014 | Set 3 | Question: 47</strong></div><p>The value of the integral given below is</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/610/gate-cse-1993-question-02-6"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2014 | Set 3 | Question: 6</strong></div><p>If<br/>, then the value of<br/>is equal to ______.<br/>calculus<br/>integration<br/>limits<br/>easy</p></div>",
+      "options": [],
+      "correctAnswer": "4",
+      "discussUrl": "https://gateoverflow.in/2040/gate-cse-2014-set-3-question-6"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2015 | Set 1 | Question: 44</strong></div><p>Compute the value of:<br/>calculus<br/>integration</p></div>",
+      "options": [],
+      "correctAnswer": "-1",
+      "discussUrl": "https://gateoverflow.in/2040/gate-cse-2014-set-3-question-6"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2015 | Set 3 | Question: 45</strong></div><p>If for non-zero<br/>where<br/>is<br/>calculus<br/>integration</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2040/gate-cse-2014-set-3-question-6"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE CSE 2018 | Question: 16</strong></div><p>The value of<br/>correct to three decimal places (assuming that<br/>) is ____<br/>calculus<br/>integration</p></div>",
+      "options": [],
+      "correctAnswer": "0.288 : 0.289",
+      "discussUrl": "https://gateoverflow.in/204090/gate-cse-2018-question-16"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Integration",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Integration: GATE IT 2005 | Question: 35</strong></div><p>What is the value of<br/>calculus<br/>integration<br/>Limits<br/>(15)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(8Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3782/gate-it-2005-question-35"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 1993 | Question: 02.1</strong></div><p>is __________<br/>limits<br/>calculus<br/>fill-in-the-blanks</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 1995 | Question: 7(B)</strong></div><p>Compute without using power series expansion<br/>calculus<br/>limits</p></div>",
+      "options": [],
+      "correctAnswer": "1",
+      "discussUrl": "https://gateoverflow.in/359942/gate-cse-1995-question-7-b"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2008 | Question: 1</strong></div><p>equals<br/>calculus<br/>limits<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2010 | Question: 5</strong></div><p>What is the value of<br/>?<br/>calculus<br/>limits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Limits",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Limits: GATE CSE 2015 | Set 1 | Question: 4</strong></div><p>is<br/>calculus<br/>limits</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/605/gate-cse-1993-question-02-1"
+    }
+  ]
+}

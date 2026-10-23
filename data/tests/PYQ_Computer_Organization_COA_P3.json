@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P3",
+  "fileName": "PYQ_Computer_Organization_COA_P3.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 3",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 48,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2022 | Question: 23</strong></div><p>A cache memory that has a hit rate of<br/>has an access latency<br/>and miss penalty<br/>An<br/>optimization is done on the cache to reduce the miss rate. However, the optimization results in an increase<br/>of cache access latency to<br/>whereas the miss penalty is not aﬀected. The minimum hit rate<br/>(rounded oﬀ to<br/>two decimal places)<br/>needed after the optimization such that it should not increase the average memory access time<br/>is _______________.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "0.85",
+      "discussUrl": "https://gateoverflow.in/371922/gate-cse-2022-question-14"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2023 | Question: 54</strong></div><p>A n<br/>-way set associative cache of size<br/>is used in a system with<br/>-bit<br/>address. The address is sub-divided into<br/>and<br/>The number of bits in the<br/>is ___________.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "19",
+      "discussUrl": "https://gateoverflow.in/399257/gate-cse-2023-question-54"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2024 | Set 1 | Question: 43</strong></div><p>Consider two set-associative cache memory architectures:<br/>, which uses the write back policy, and<br/>, which uses the write through policy. Both of them use the<br/>(Least Recently Used)<br/>block<br/>replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are<br/>TRUE?<br/>A<br/>.<br/>A read miss in<br/>never evicts a dirty block<br/>B<br/>.<br/>A read miss in<br/>never triggers a write back operation of a cache block to main memory<br/>C<br/>.<br/>A write hit in<br/>can modify the value of the dirty bit of a cache block<br/>D<br/>.<br/>A write miss in<br/>always writes the victim cache block to main memory before loading the missed block to<br/>the cache<br/>co-and-architecture<br/>cache-memory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/371922/gate-cse-2022-question-14"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2024 | Set 1 | Question: 46</strong></div><p>A given program has<br/>load/store instructions. Suppose the ideal<br/>(cycles per instruction) without<br/>any memory stalls is<br/>. The program exhibits<br/>miss rate on instruction cache and<br/>miss rate on data<br/>cache. The miss penalty is<br/>cycles. The speedup<br/>(rounded oﬀ to two decimal places)<br/>achieved with a perfect<br/>cache (i.e., with NO data or instruction cache misses) is __________.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "3",
+      "discussUrl": "https://gateoverflow.in/422796/gate-cse-2024-set-1-question-46"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2026 | Set 1 | Question: 28</strong></div><p>The size of the physical address space of a processor is<br/>bytes. The capacity of a cache memory unit is<br/>bytes. The cache block size is<br/>bytes. The cache memory unit can be built as a direct mapped cache<br/>or as a<br/>-way set-associative cache, where<br/>and<br/>. Let the length of the TAG ﬁeld be<br/>bits<br/>for the direct mapped cache, and<br/>bits for the set-associative cache.<br/>Which one of the following options is true?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/422796/gate-cse-2024-set-1-question-46"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2026 | Set 1 | Question: 44</strong></div><p>Consider a system that has a cache memory unit and a memory management unit (MMU). The address<br/>input to the cache memory is a physical address. The MMU has a translation lookaside buﬀer (TLB).<br/>Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as<br/>invalid.<br/>For a given memory reference, which of the following sequences of events can NEVER happen?<br/>co-and-architecture<br/>cache-memory<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;C",
+      "discussUrl": "https://gateoverflow.in/422796/gate-cse-2024-set-1-question-46"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2004 | Question: 12, ISRO2016-77</strong></div><p>Consider a system with<br/>level cache. Access times of Level<br/>cache, Level<br/>cache and main memory are<br/>,<br/>, and<br/>respectively. The hit rates of Level<br/>and Level<br/>caches are<br/>and<br/>,<br/>respectively. What is the average access time of the system ignoring the search time within the cache?<br/>co-and-architecture<br/>cache-memory<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3653/gate-it-2004-question-12-isro2016-77"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2004 | Question: 48</strong></div><p>Consider a fully associative cache with<br/>cache blocks (numbered<br/>) and the following sequence of<br/>memory block requests:<br/>If LRU replacement policy is used, which cache block will have memory block<br/>?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3653/gate-it-2004-question-12-isro2016-77"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2005 | Question: 61</strong></div><p>Consider a<br/>-way set associative cache memory with<br/>sets and total<br/>cache blocks<br/>and a main<br/>memory with<br/>blocks<br/>. What memory blocks will be present in the cache after the following<br/>sequence of memory block references if<br/>LRU<br/>policy is used for cache block replacement. Assuming that initially the<br/>cache did not have any memory block from the current job?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3822/gate-it-2005-question-61"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2006 | Question: 42</strong></div><p>A cache line is<br/>bytes. The main memory has latency<br/>and bandwidth<br/>. The time<br/>required to fetch the entire cache line from the main memory is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3585/gate-it-2006-question-42"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2006 | Question: 43</strong></div><p>A computer system has a level-<br/>instruction cache (<br/>-cache), a level-<br/>data cache (<br/>-cache) and a level-<br/>cache (<br/>-cache) with the following specifications:<br/>The length of the physical address of a word in the main memory is<br/>bits. The capacity of the tag memory in the<br/>-cache,<br/>-cache and<br/>-cache is, respectively,<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3585/gate-it-2006-question-42"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2007 | Question: 37</strong></div><p>Consider a Direct Mapped Cache with 8 cache blocks (numbered<br/>). If the memory block requests are<br/>in the following order<br/>Which of the following memory blocks will not be in the cache at the end of the sequence ?<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3470/gate-it-2007-question-37"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2008 | Question: 80</strong></div><p>Consider a computer with a<br/>-ways set-associative mapped cache of the following character<br/>istics: a total of<br/>of main memory, a word size of<br/>byte, a block size of<br/>words and a cache size of<br/>.<br/>The number of bits in the TAG, SET and WORD fields, respectively are:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3403/gate-it-2008-question-80"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE IT 2008 | Question: 81</strong></div><p>Consider a computer with a<br/>-ways set-associative mapped cache of the following character<br/>istics: a total of<br/>of main memory, a word size of<br/>, a block size of<br/>words and a cache size of<br/>.<br/>While accessing the memory location<br/>by the<br/>CPU<br/>, the contents of the TAG ﬁeld of the corresponding<br/>cache line is:<br/>co-and-architecture<br/>cache-memory<br/>Conflict Misses<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3405/gate-it-2008-question-81"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Conflict Misses",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Conflict Misses: GATE CSE 2017 | Set 1 | Question: 51</strong></div><p>Consider a<br/>-way set associative cache with<br/>blocks and uses<br/>replacement. Initially the cache is<br/>empty. Conﬂict misses are those misses which occur due to the contention of multiple blocks for the same<br/>cache set. Compulsory misses occur due to ﬁrst time access to the block. The following sequence of access to<br/>memory blocks :<br/>is repeated<br/>times. The number of<br/>conflict misses<br/>experienced by the cache is _________ .<br/>co-and-architecture<br/>cache-memory<br/>conflict-misses<br/>Control Unit<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "76",
+      "discussUrl": "https://gateoverflow.in/3405/gate-it-2008-question-81"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Control Unit",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Control Unit: GATE CSE 1987 | Question: 1-vi</strong></div><p>A microprogrammed control unit<br/>A<br/>.<br/>Is faster than a hard-wired control unit.<br/>B<br/>.<br/>Facilitates easy implementation of new instruction.<br/>C<br/>.<br/>Is useful when very small programs are to be run.<br/>D<br/>.<br/>Usually refers to the control unit of a microprocessor.<br/>co-and-architecture<br/>control-unit<br/>microprogramming<br/>DMA<br/>(8)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(12Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3405/gate-it-2008-question-81"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2004 | Question: 68</strong></div><p>A hard disk with a transfer rate of<br/>Mbytes/second is constantly transferring data to memory using DMA.<br/>The processor runs at<br/>MHz, and takes<br/>and<br/>clock cycles to initiate and complete DMA transfer<br/>respectively. If the size of the transfer is<br/>Kbytes, what is the percentage of processor time consumed for the<br/>transfer operation?<br/>dma<br/>co-and-architecture</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1062/gate-cse-2004-question-68"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2005 | Question: 70</strong></div><p>Consider a disk drive with the following specifications:<br/>surfaces,<br/>tracks/surface,<br/>sectors/track,<br/>KB/sector, rotation speed<br/>rpm. The disk is<br/>operated in cycle stealing mode whereby whenever one<br/>byte word is ready it is sent to memory; similarly, for<br/>writing, the disk interface reads a<br/>byte word from the memory in each DMA cycle. Memory cycle time is<br/>nsec.<br/>The maximum percentage of time that the CPU gets blocked during DMA operation is:<br/>co-and-architecture<br/>disk<br/>dma</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2016 | Set 1 | Question: 31</strong></div><p>The size of the data count register of a<br/>controller is<br/>. The processor needs to transfer a ﬁle of<br/>kilobytes from disk to main memory. The memory is byte addressable. The minimum number of<br/>times the<br/>controller needs to get the control of the system bus from the processor to transfer the ﬁle from the<br/>disk to main memory is _________.<br/>co-and-architecture<br/>dma</p></div>",
+      "options": [],
+      "correctAnswer": "456",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2021 | Set 2 | Question: 20</strong></div><p>Consider a computer system with<br/>support. The<br/>module is transferring one<br/>-bit character in<br/>one<br/>cycle from a device to memory through<br/>cycle stealing<br/>at regular intervals. Consider a<br/>processor. If<br/>processor cycles are used for<br/>, the data transfer rate of the device is __________ bits per<br/>second.<br/>co-and-architecture<br/>dma</p></div>",
+      "options": [],
+      "correctAnswer": "80000 : 80000",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2022 | Question: 7</strong></div><p>Which one of the following facilitates transfer of bulk data from hard disk to main memory with the highest<br/>throughput?<br/>co-and-architecture<br/>dma</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2024 | Set 1 | Question: 5</strong></div><p>​​​​<br/>Which one of the following statements is FALSE?<br/>A<br/>.<br/>In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in<br/>a stolen cycle<br/>B<br/>.<br/>For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode<br/>C<br/>.<br/>Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism<br/>D<br/>.<br/>The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored<br/>interrupts<br/>co-and-architecture<br/>dma</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE CSE 2024 | Set 2 | Question: 1</strong></div><p>Consider a computer with a<br/>processor. Its<br/>controller can transfer<br/>bytes in<br/>cycle from a<br/>device to main memory through cycle stealing at regular intervals. Which one of the following is the data<br/>transfer rate<br/>(in bits per second)<br/>of the<br/>controller if<br/>of the processor cycles are used for<br/>?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1393/gate-cse-2005-question-70"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DMA",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DMA: GATE IT 2004 | Question: 51</strong></div><p>The storage area of a disk has the innermost diameter of<br/>cm and outermost diameter of<br/>cm. The<br/>maximum storage density of the disk is<br/>bits/cm. The disk rotates at a speed of<br/>RPM. The main<br/>memory of a computer has<br/>-bit word length and<br/>µs cycle time. If cycle stealing is used for data transfer from the<br/>disk, the percentage of memory cycles stolen for transferring one word is<br/>co-and-architecture<br/>dma<br/>DRAM<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3694/gate-it-2004-question-51"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "DRAM",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>DRAM: GATE CSE 2019 | Question: 2</strong></div><p>The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the<br/>memory system has<br/>address lines denoted by<br/>to<br/>. What is the range of address (in hexadecimal)<br/>of the memory system that can get enabled by the chip select (CS) signal?<br/>co-and-architecture<br/>dram<br/>memory-interfacing<br/>Data Dependency<br/>(4)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/3694/gate-it-2004-question-51"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Dependency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Dependency: GATE CSE 2005 | Question: 68</strong></div><p>A<br/>stage pipelined CPU has the following sequence of stages:<br/>IF – instruction fetch from instruction memory<br/>RD – Instruction decode and register read<br/>EX – Execute: ALU operation for data and address computation<br/>MA – Data memory access – for write access, the register read at RD state is used.<br/>WB – Register write back<br/>Consider the following sequence of instructions:<br/>:<br/>;<br/>:<br/>,<br/>;<br/>:<br/>,<br/>;<br/>Let each stage take one clock cycle.<br/>What is the number of clock cycles taken to complete the above sequence of instructions starting from the fetch of<br/>?<br/>co-and-architecture<br/>pipelining<br/>data-dependency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1391/gate-cse-2005-question-68"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Dependency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Dependency: GATE CSE 2008 | Question: 36</strong></div><p>Which of the following are NOT true in a pipelined processor?<br/>I<br/>.<br/>Bypassing can handle all RAW hazards<br/>II<br/>.<br/>Register renaming can eliminate all register carried WAR hazards<br/>III<br/>.<br/>Control hazard penalties can be eliminated by dynamic branch prediction<br/>pipelining<br/>co-and-architecture<br/>data-dependency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/447/gate-cse-2008-question-36"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Dependency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Dependency: GATE CSE 2015 | Set 3 | Question: 47</strong></div><p>Consider the following code sequence having ﬁve instructions from<br/>. Each of these instructions has<br/>the following format.<br/>OP Ri, Rj, Rk<br/>Where operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri.<br/>: ADD R1, R2, R3<br/>: MUL R7, R1, R3<br/>: SUB R4, R1, R5<br/>: ADD R3, R2, R4<br/>: MUL R7, R8, R9<br/>Consider the following three statements.<br/>S1: There is an anti-dependence between instructions<br/>S2: There is an anti-dependence between instructions<br/>S3: Within an instruction pipeline an anti-dependence always creates one or more stalls<br/>Which one of the above statements is/are correct?<br/>co-and-architecture<br/>pipelining<br/>data-dependency</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/447/gate-cse-2008-question-36"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Dependency",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Dependency: GATE IT 2007 | Question: 39</strong></div><p>Data forwarding techniques can be used to speed up the operation in presence of data dependencies.<br/>Consider the following replacements of LHS with RHS.<br/>i<br/>.<br/>ii<br/>.<br/>iii<br/>.<br/>iv<br/>.<br/>In which of the following options, will the result of executing the RHS be the same as executing the LHS irrespective<br/>of the instructions that follow ?<br/>data-dependency<br/>co-and-architecture<br/>Data Hazards<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/3472/gate-it-2007-question-39"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Hazards",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Hazards: GATE CSE 2026 | Set 1 | Question: 6</strong></div><p>Which one of the following dependencies among the register operands of diﬀerent instructions can cause a<br/>data hazard in a pipelined processor?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/447/gate-cse-2008-question-36"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 1990 | Question: 8a</strong></div><p>A single bus CPU consists of four general purpose register, namely,<br/>and<br/>(Instruction Register). Assuming suitable<br/>microinstructions, write a microroutine for the instruction,<br/>.<br/>descriptive<br/>co-and-architecture<br/>data-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/85669/gate-cse-1990-question-8a"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2001 | Question: 2.13</strong></div><p>Consider the following data path of a simple non-pipelined CPU. The registers<br/>,<br/>the<br/>and the<br/>are<br/>-<br/>wide.<br/>and<br/>are<br/>-<br/>registers. The<br/>is of size<br/>and the<br/>is of size<br/>. Each memory operation takes<br/>clock cycles and uses<br/>(Memory<br/>Address Register) and<br/>(Memory Date Register).<br/>can be decremented locally.<br/>The<br/>instruction \"<br/>push r<br/>\" where,<br/>or<br/>has the specification<br/>How many<br/>clock cycles are required to execute the \"<br/>push r<br/>\" instruction?<br/>co-and-architecture<br/>data-path<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/test/2034"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2005 | Question: 79</strong></div><p>Consider the following data path of a</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1402/gate-cse-2005-question-79"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2005 | Question: 80</strong></div><p>Consider the following data path of a<br/>T h e<br/>the bus and all the registers in the data path are of identical size. All operations including<br/>incrementation of the<br/>and the<br/>are to be carried out in the<br/>Two clock cycles are needed for<br/>memory read operation – the ﬁrst one for loading address in the<br/>and the next one for loading data from the<br/>memory bus into the<br/>The instruction \"call Rn, sub” is a two word instruction. Assuming that<br/>is incremented during the fetch cycle of<br/>the first word of the instruction, its register transfer interpretation is<br/>;<br/>;<br/>The minimum number of<br/>CPU<br/>clock cycles needed during the execution cycle of this instruction is:<br/>co-and-architecture<br/>data-path<br/>machine-instruction</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/43568/gate-cse-2005-question-80"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2016 | Set 2 | Question: 30</strong></div><p>Suppose the functions<br/>and<br/>can be computed in<br/>and<br/>nanoseconds by functional units<br/>and<br/>,<br/>respectively. Given two instances of<br/>and two instances of<br/>, it is required to implement the<br/>computation<br/>for<br/>. Ignoring all other delays, the minimum time required to complete this<br/>computation is ____________ nanoseconds.<br/>co-and-architecture<br/>data-path</p></div>",
+      "options": [],
+      "correctAnswer": "28",
+      "discussUrl": "https://gateoverflow.in/39627/gate-cse-2016-set-2-question-30"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2020 | Question: 4</strong></div><p>Consider the following data path diagram.<br/>Consider an instruction:<br/>. The following steps are used to execute it over the given data path.<br/>Assume that PC is incremented appropriately. The subscripts<br/>and<br/>indicate read and write operations,<br/>respectively.<br/>1<br/>.<br/>2<br/>.<br/>3<br/>.<br/>4<br/>.<br/>5<br/>.<br/>Which one of the following is the correct order of execution of the above steps?<br/>co-and-architecture<br/>data-path</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/333227/gate-cse-2020-question-4"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Data Path",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Data Path: GATE CSE 2025 | Set 1 | Question: 17</strong></div><p>A partial data path of a processor is given in the ﬁgure, where<br/>and<br/>are<br/>-bit registers. Which<br/>option(s) is/are CORRECT related to arithmetic operations using the data path as shown?<br/>A<br/>.<br/>The data path can implement arithmetic operations involving two registers.<br/>B<br/>.<br/>The data path can implement arithmetic operations involving one register and one immediate value.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C",
+      "discussUrl": "https://gateoverflow.in/39627/gate-cse-2016-set-2-question-30"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Direct Mapping",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direct Mapping: GATE CSE 2022 | Question: 44</strong></div><p>Consider a system with<br/>direct mapped data cache with a block size of<br/>The system has a<br/>physical address space of<br/>and a word length of<br/>During the execution of a program, four<br/>data words<br/>and<br/>are accessed in that order<br/>times<br/>Hence, there are<br/>accesses to data cache altogether. Assume that the data cache is initially empty and no other data words are<br/>accessed by the program. The addresses of the ﬁrst bytes of<br/>and<br/>are<br/>and<br/>respectively. For the execution of the above program, which of the following statements is/are<br/>with respect to the data cache?<br/>A<br/>.<br/>Every access to<br/>is a hit.<br/>B<br/>.<br/>Once<br/>is brought to the cache it is never evicted.<br/>C<br/>.<br/>At the end of the execution only<br/>and<br/>reside in the cache.<br/>D<br/>.<br/>Every access to<br/>evicts<br/>from the cache.<br/>co-and-architecture<br/>direct-mapping<br/>multiple-selects<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;D",
+      "discussUrl": "https://gateoverflow.in/371892/gate-cse-2022-question-44"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Direct Mapping",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direct Mapping: GATE CSE 2025 | Set 1 | Question: 26</strong></div><p>Consider a memory system with<br/>bytes of main memory and<br/>bytes of cache memory. Assume that<br/>the processor generates<br/>-bit memory address, and the cache block size is<br/>bytes. If the cache uses<br/>direct mapping, how many bits will be required to store all the<br/>values? [Assume memory is byte addressable,<br/>,<br/>.]<br/>co-and-architecture<br/>cache-memory<br/>direct-mapping<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371892/gate-cse-2022-question-44"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Direct Mapping",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direct Mapping: GATE CSE 2025 | Set 2 | Question: 29</strong></div><p>For a direct-mapped cache,<br/>bits are used for the tag ﬁeld and<br/>bits are used to index into a cache block.<br/>The size of each cache block is one byte. Assume that there is no other information stored for each cache<br/>block.<br/>Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in<br/>this system (byte addressable), respectively?<br/>co-and-architecture<br/>direct-mapping<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/371892/gate-cse-2022-question-44"
+    }
+  ]
+}

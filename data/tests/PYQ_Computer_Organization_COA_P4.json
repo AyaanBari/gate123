@@ -1,0 +1,1183 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P4",
+  "fileName": "PYQ_Computer_Organization_COA_P4.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 4",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 47,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Direct Mapping",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direct Mapping: GATE CSE 2026 | Set 2 | Question: 42</strong></div><p>Consider a system with a processor and a<br/>KB direct mapped cache with block size of<br/>bytes. The<br/>system has a<br/>MB physical memory. Four words<br/>, and S are accessed by the processor in the<br/>same order<br/>times. That is, there are a total of<br/>memory references in the sequence<br/>Assume that the cache memory is initially empty. The physical addresses of the words are given below (<br/>word<br/>byte).</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B",
+      "discussUrl": "https://gateoverflow.in/371892/gate-cse-2022-question-44"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Direct Mapping",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Direct Mapping: GATE CSE 2026 | Set 2 | Question: 46</strong></div><p>Consider a system with<br/>MB physical memory and a word length of<br/>byte. The system uses a direct<br/>mapped cache, with block numbers starting from<br/>. The word with physical address<br/>is mapped to<br/>the cache block number<br/>. The maximum possible size of the cache (in KB ) for this conﬁguration is<br/>.<br/>(answer in integer)<br/>Note:<br/>and<br/>co-and-architecture<br/>direct-mapping<br/>cache-memory<br/>Disk<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "128",
+      "discussUrl": "https://gateoverflow.in/523100/gate-cse-2026-set-2-question-46"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Disk",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Disk: GATE CSE 2026 | Set 1 | Question: 49</strong></div><p>Consider a hard disk with a rotational speed of<br/>rpm. The time to move the read/write head from a<br/>track to its adjacent track is<br/>millisecond. Initially, the head is on track<br/>. The number of sectors per track is<br/>. The sector size is<br/>bytes. It is necessary to transfer data from<br/>randomly located sectors in each of the<br/>following tracks in the order:<br/>and<br/>.<br/>The total time for the data transfer (in milliseconds) from the hard disk is<br/>. (rounded oﬀ to one decimal<br/>place)<br/>operating-system<br/>disk<br/>Hazards<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "77.3 : 77.3",
+      "discussUrl": "https://gateoverflow.in/523100/gate-cse-2026-set-2-question-46"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Hazards",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Hazards: GATE CSE 2026 | Set 1 | Question: 50</strong></div><p>The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the<br/>operations for the arithmetic and logic instructions. Let<br/>denote the time taken by the EX stage to<br/>perform the operation for an instruction. For each instruction type, the values of<br/>and<br/>(the number of<br/>instructions of that type in a sequence of<br/>instructions for a program P ), are given in the table below.<br/>The duration of the pipeline clock cycle is<br/>nanosecond. Assume that the latch time for the interstage buﬀers in the<br/>pipeline is negligible.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "95 : 95",
+      "discussUrl": "https://gateoverflow.in/523100/gate-cse-2026-set-2-question-46"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1987 | Question: 2a</strong></div><p>State whether the following statements are TRUE or FALSE<br/>In a microprocessor-based system, if a bus (DMA) request and an interrupt request arrive sumultaneously, the<br/>microprocessor attends first to the bus request.<br/>co-and-architecture<br/>interrupts<br/>io-handling<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/80572/gate-cse-1987-question-2a"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1987 | Question: 2b</strong></div><p>State whether the following statements are TRUE or FALSE:<br/>Data transfer between a microprocessor and an I/O device is usually faster in memory-mapped-I/O scheme than in<br/>I/O-mapped -I/O scheme.<br/>co-and-architecture<br/>io-handling<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/80572/gate-cse-1987-question-2a"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1990 | Question: 4-ii</strong></div><p>State whether the following statements are TRUE or FALSE with reason:<br/>The data transfer between memory and I/O devices using programmed I/O is faster than interrupt-driven I/O.<br/>true-false<br/>co-and-architecture<br/>io-handling<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/85390/gate-cse-1990-question-4-ii"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1996 | Question: 1.24</strong></div><p>For the daisy chain scheme of connecting I/O devices, which of the following statements is true?<br/>A<br/>.<br/>It gives non-uniform priority to various devices<br/>B<br/>.<br/>It gives uniform priority to all devices<br/>C<br/>.<br/>It is only useful for connecting slow devices to a processor device<br/>D<br/>.<br/>It requires a separate interrupt pin on the processor for each device</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80572/gate-cse-1987-question-2a"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1996 | Question: 25</strong></div><p>A hard disk is connected to a<br/>MHz processor through a DMA controller.  Assume that the initial set-up of<br/>a DMA transfer takes<br/>clock cycles for the processor, and assume that the handling of the interrupt at<br/>DMA completion requires<br/>clock cycles for the processor. The hard disk has a transfer rate of<br/>Kbytes/sec<br/>and average block transferred is<br/>K bytes.  What fraction of the processor time is consumed by the disk, if the disk<br/>is actively transferring<br/>of the time?<br/>co-and-architecture<br/>io-handling<br/>dma</p></div>",
+      "options": [],
+      "correctAnswer": "1.4 : 1.5",
+      "discussUrl": "https://gateoverflow.in/2777/gate-cse-1996-question-25"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 1997 | Question: 2.4</strong></div><p>The correct matching for the following pairs is:<br/>co-and-architecture<br/>io-handling<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2777/gate-cse-1996-question-25"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 2008 | Question: 64, ISRO2009-13</strong></div><p>Which of the following statements about synchronous and asynchronous I/O is NOT true?<br/>A<br/>.<br/>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O<br/>B<br/>.<br/>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of<br/>the I/O<br/>C<br/>.<br/>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O<br/>call does not wait for completion of the I/O<br/>D<br/>.<br/>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is<br/>invoked after the completion of I/O<br/>operating-system<br/>io-handling<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/487/gate-cse-2008-question-64-isro2009-13"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "IO Handling",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>IO Handling: GATE CSE 2011 | Question: 28</strong></div><p>On a non-pipelined sequential processor, a program segment, which is the part of the interrupt service<br/>routine, is given to transfer<br/>bytes from an I/O device to memory.<br/>Initialize<br/>the address<br/>register<br/>Initialize<br/>the count to<br/>500<br/>LOOP<br/>:<br/>Load<br/>a<br/>byte<br/>from<br/>device<br/>Store<br/>in<br/>memory at address given<br/>by<br/>address<br/>register<br/>Increment<br/>the address<br/>register<br/>Decrement<br/>the count<br/>If<br/>count<br/>!=<br/>0<br/>go to LOOP<br/>Assume that each statement in this program is equivalent to a machine instruction which takes one clock cycle to<br/>execute if it is a non-load/store instruction. The load-store instructions take two clock cycles to execute.<br/>The designer of the system also has an alternate approach of using the DMA controller to implement the same<br/>transfer. The DMA controller requires<br/>clock cycles for initialization and other overheads. Each DMA transfer<br/>cycle takes two clock cycles to transfer one byte of data from the device to the memory.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2130/gate-cse-2011-question-28"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 1990 | Question: 4-iii</strong></div><p>State whether the following statements are TRUE or FALSE with reason:<br/>The flags are affected when conditional CALL or JUMP instructions are executed.<br/>true-false<br/>co-and-architecture<br/>instruction-execution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "False",
+      "discussUrl": "https://gateoverflow.in/test/2040"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 1992 | Question: 01-iv</strong></div><p>Many of the advanced microprocessors prefetch instructions and store it in an instruction buﬀer to speed up<br/>processing. This speed up is achieved because ________<br/>co-and-architecture<br/>easy<br/>instruction-execution<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/548/gate-cse-1992-question-01-iv"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 1995 | Question: 1.2</strong></div><p>Which of the following statements is true?<br/>co-and-architecture<br/>instruction-execution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/test/2040"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 2002 | Question: 1.13</strong></div><p>Which of the following is not a form of memory<br/>co-and-architecture<br/>easy<br/>instruction-execution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/85391/gate-cse-1990-question-4-iii"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 2006 | Question: 43</strong></div><p>Consider a new instruction named branch-on-bit-set (mnemonic bbs). The instruction “bbs reg, pos, label”<br/>jumps to label if bit in position pos of register operand reg is one. A register is<br/>-bits wide and the bits are<br/>numbered<br/>to<br/>bit in position<br/>being the least signiﬁcant. Consider the following emulation of this instruction<br/>on a processor that does not have bbs implemented.<br/>Branch to label if temp is non-zero. The variable temp is a temporary register. For correct emulation, the variable<br/>mask must be generated by<br/>co-and-architecture<br/>instruction-execution</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1819/gate-cse-2006-question-43"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 2017 | Set 1 | Question: 49</strong></div><p>Consider a RISC machine where each instruction is exactly<br/>bytes long. Conditional and unconditional<br/>branch instructions use PC-relative addressing mode with Oﬀset speciﬁed in bytes to the target location of<br/>the branch instruction. Further the Oﬀset is always with respect to the address of the next instruction in the program<br/>sequence. Consider the following instruction sequence<br/>If the target of the branch instruction is<br/>then the decimal value of the Offset is ____________ .<br/>co-and-architecture<br/>instruction-execution</p></div>",
+      "options": [],
+      "correctAnswer": "-16.0",
+      "discussUrl": "https://gateoverflow.in/118332/gate-cse-2017-set-1-question-49"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Instruction Execution",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Execution: GATE CSE 2025 | Set 2 | Question: 51</strong></div><p>An application executes<br/>number of instructions in<br/>seconds. There are four types of<br/>instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is<br/>__________. (rounded off to one decimal place)<br/>co-and-architecture<br/>instruction-execution<br/>clock-cycles<br/>Instruction Format<br/>(11)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(10Q)</p></div>",
+      "options": [],
+      "correctAnswer": "3.0:3.0",
+      "discussUrl": "https://gateoverflow.in/118332/gate-cse-2017-set-1-question-49"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 1988 | Question: 2-ii</strong></div><p>Using an expanding opcode encoding for instructions, is it possible to encode all of the following in an<br/>instruction format shown in the below figure. Justify your answer.<br/>co-and-architecture<br/>instruction-format<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/118332/gate-cse-2017-set-1-question-49"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 1992 | Question: 01-vi</strong></div><p>In an<br/>-bit computer instruction format, the size of address ﬁeld is<br/>-bits. The computer uses expanding<br/>OP code technique and has<br/>two-address instructions and<br/>one-address instructions. The number of<br/>zero-address instructions it can support is ________<br/>co-and-architecture<br/>machine-instruction<br/>instruction-format</p></div>",
+      "options": [],
+      "correctAnswer": "256",
+      "discussUrl": "https://gateoverflow.in/551/gate-cse-1992-question-01-vi"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 1994 | Question: 3.2</strong></div><p>State True or False with one line explanation<br/>Expanding opcode instruction formats are commonly employed in RISC. (Reduced Instruction Set Computers)<br/>machines.<br/>co-and-architecture<br/>machine-instruction<br/>instruction-format<br/>true-false</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "True",
+      "discussUrl": "https://gateoverflow.in/551/gate-cse-1992-question-01-vi"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2014 | Set 1 | Question: 9</strong></div><p>A machine has a<br/>architecture, with<br/>long instructions. It has<br/>registers, each of which is<br/>bits long. It needs to support<br/>instructions, which have an immediate operand in addition to two register<br/>operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate<br/>operand is ____________<br/>co-and-architecture<br/>machine-instruction<br/>instruction-format</p></div>",
+      "options": [],
+      "correctAnswer": "16383",
+      "discussUrl": "https://gateoverflow.in/551/gate-cse-1992-question-01-vi"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2016 | Set 2 | Question: 31</strong></div><p>Consider a processor with<br/>registers and an instruction set of size twelve. Each instruction has ﬁve distinct<br/>ﬁelds, namely, opcode, two source register identiﬁers, one destination register identiﬁer, and twelve-bit<br/>immediate value. Each instruction must be stored in memory in a byte-aligned fashion. If a program has<br/>instructions, the amount of memory (in bytes) consumed by the program text is _________.<br/>instruction-format<br/>machine-instruction<br/>co-and-architecture</p></div>",
+      "options": [],
+      "correctAnswer": "500",
+      "discussUrl": "https://gateoverflow.in/551/gate-cse-1992-question-01-vi"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2018 | Question: 51</strong></div><p>A processor has<br/>integer registers<br/>and<br/>ﬂoating point registers<br/>It uses a<br/>instruction format. There are four categories of instructions:<br/>and<br/>category consists of four instructions, each with<br/>integer<br/>register operands<br/>category consists of eight instructions, each with<br/>ﬂoating point register<br/>operands<br/>category consists of fourteen instructions, each with one integer register operand and<br/>one ﬂoating point register operand<br/>category consists of<br/>instructions, each with a ﬂoating<br/>point register operand<br/>The maximum value of<br/>is _________.<br/>co-and-architecture<br/>machine-instruction<br/>instruction-format</p></div>",
+      "options": [],
+      "correctAnswer": "32",
+      "discussUrl": "https://gateoverflow.in/551/gate-cse-1992-question-01-vi"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2020 | Question: 44</strong></div><p>A processor has<br/>registers and uses<br/>-bit instruction format. It has two types of instructions: I-type and<br/>R-type. Each I-type instruction contains an opcode, a register name, and a<br/>-bit immediate value. Each R-<br/>type instruction contains an opcode and two register names. If there are<br/>distinct I-type opcodes, then the<br/>maximum number of distinct R-type opcodes is _______.<br/>co-and-architecture<br/>instruction-format<br/>machine-instruction</p></div>",
+      "options": [],
+      "correctAnswer": "14",
+      "discussUrl": "https://gateoverflow.in/333187/gate-cse-2020-question-44"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2024 | Set 2 | Question: 47</strong></div><p>A processor with<br/>general purpose registers uses a<br/>-bit instruction format. The instruction format<br/>consists of an opcode ﬁeld, an addressing mode ﬁeld, two register operand ﬁelds, and a<br/>-bit scalar ﬁeld. If<br/>addressing modes are to be supported, the maximum number of unique opcodes possible for every addressing<br/>mode is ___________.<br/>co-and-architecture<br/>instruction-format</p></div>",
+      "options": [],
+      "correctAnswer": "32",
+      "discussUrl": "https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2024 | Set 2 | Question: 51</strong></div><p>A processor uses a<br/>-bit instruction format and supports byte-addressable memory access. The<br/>of the<br/>processor has<br/>distinct instructions. The instructions are equally divided into two types, namely<br/>-type<br/>and<br/>-type, whose formats are shown below.<br/>R - type Instruction Format:<br/>I - type Instruction Format:<br/>In the<br/>,<br/>bit is used to distinguish between<br/>-type and<br/>-type instructions and the remaining bits<br/>indicate the operation. The processor has<br/>architectural registers, and all register ﬁelds in the instructions are of<br/>equal size.<br/>Let<br/>be the number of bits used to encode the<br/>ﬁeld,<br/>be the number of bits used to encode the<br/>ﬁeld, and<br/>be the number of bits used to encode the immediate value/address ﬁeld. The value of<br/>is __________.<br/>co-and-architecture<br/>instruction-format</p></div>",
+      "options": [],
+      "correctAnswer": "34",
+      "discussUrl": "https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2026 | Set 1 | Question: 5</strong></div><p>Consider a processor<br/>whose instruction set architecture is the load-store architecture. The instruction<br/>format is such that the first operand of any instruction is the destination operand.<br/>Which one of the following sequences of instructions corresponds to the high-level language statement<br/>?<br/>Note: X, Y, and Z are memory operands. R<br/>, R<br/>, and R<br/>are registers.<br/>co-and-architecture<br/>instruction-format</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Format",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Format: GATE CSE 2026 | Set 2 | Question: 34</strong></div><p>Consider a processor that has<br/>general purpose registers and it uses<br/>-byte instruction format for all its<br/>instructions. Variable-sized opcodes are permitted. There are three diﬀerent types of instructions; M-type, R-<br/>type, and C-type. Each M-type instruction has<br/>register operands and a<br/>-bit immediate operand. Each Rtype<br/>instruction has<br/>register operands. Each C-type instruction has a register operand and a<br/>-bit oﬀset value. If there<br/>are<br/>unique M-type opcodes and<br/>unique R-type opcodes, which one of the following options gives the maximum</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Instruction Set Architecture",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Instruction Set Architecture: GATE CSE 2025 | Set 2 | Question: 18</strong></div><p>​​​​<br/>Which of the following is/are part of an Instruction Set Architecture of a processor?<br/>co-and-architecture<br/>instruction-set-architecture<br/>multiple-selects<br/>easy<br/>Interrupts<br/>(10)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(11Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1987 | Question: 1-viii</strong></div><p>On receiving an interrupt from a I/O device the CPU:<br/>A<br/>.<br/>Halts for a predetermined time.<br/>B<br/>.<br/>Hands over control of address bus and data bus to the interrupting device.<br/>C<br/>.<br/>Branches off to the interrupt service routine immediately.<br/>D<br/>.<br/>Branches off to the interrupt service routine after completion of the current instruction.<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1995 | Question: 1.3</strong></div><p>In a vectored interrupt:<br/>A<br/>.<br/>The branch address is assigned to a fixed location in memory<br/>B<br/>.<br/>The interrupting source supplies the branch information to the processor through an interrupt vector<br/>C<br/>.<br/>The branch address is obtained from a register in the processor<br/>D<br/>.<br/>None of the above<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 1998 | Question: 1.20</strong></div><p>Which of the following is true?<br/>A<br/>.<br/>Unless enabled, a CPU will not be able to process interrupts.<br/>B<br/>.<br/>Loop instructions cannot be interrupted till they complete.<br/>C<br/>.<br/>A processor checks for interrupts before executing a new instruction.<br/>D<br/>.<br/>Only level triggered interrupts are possible on microprocessors.<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2002 | Question: 1.9</strong></div><p>A device employing INTR line for device interrupt puts the CALL instruction on the data bus while:<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/813/gate-cse-2002-question-1-9"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2005 | Question: 69</strong></div><p>A device with data transfer rate<br/>KB/sec is connected to a CPU. Data is transferred byte-wise. Let the<br/>interrupt overhead be<br/>sec. The byte transfer time between the device interface register and CPU or<br/>memory is negligible. What is the minimum performance gain of operating the device under interrupt mode over<br/>operating it under program-controlled mode?<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1392/gate-cse-2005-question-69"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2009 | Question: 8, UGCNET-June2012-III: 58</strong></div><p>A CPU generally handles an interrupt by executing an interrupt service routine:<br/>A<br/>.<br/>As soon as an interrupt is raised.<br/>B<br/>.<br/>By checking the interrupt register at the end of fetch cycle.<br/>C<br/>.<br/>By checking the interrupt register after finishing the execution of the current instruction.<br/>D<br/>.<br/>By checking the interrupt register at fixed time intervals.<br/>co-and-architecture<br/>interrupts<br/>ugcnetcse-june2012-paper3</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/813/gate-cse-2002-question-1-9"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2020 | Question: 3</strong></div><p>Consider the following statements.<br/>I<br/>.<br/>Daisy chaining is used to assign priorities in attending interrupts.<br/>II<br/>.<br/>When a device raises a vectored interrupt, the CPU does polling to identify the source of interrupt.<br/>III<br/>.<br/>In polling, the CPU periodically checks the status bits to know if any device needs its attention.<br/>IV<br/>.<br/>During DMA, both the CPU and DMA controller can be bus masters at the same time.<br/>Which of the above statements is/are TRUE?<br/>co-and-architecture<br/>interrupts</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/813/gate-cse-2002-question-1-9"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2023 | Question: 24</strong></div><p>A keyboard connected to a computer is used at a rate of<br/>keystroke per second. The computer system<br/>polls the keyboard every<br/>(milli seconds) to check for a keystroke and consumes<br/>(micro<br/>seconds) for each poll. If it is determined after polling that a key has been pressed, the system consumes an<br/>additional<br/>to process the keystroke. Let<br/>denote the fraction of a second spent in polling and processing<br/>a keystroke.<br/>In an alternative implementation, the system uses interrupts instead of polling. An interrupt is raised for every<br/>keystroke. It takes a total of<br/>for servicing an interrupt and processing a keystroke. Let<br/>denote the fraction<br/>of a second spent in servicing the interrupt and processing a keystroke.</p></div>",
+      "options": [],
+      "correctAnswer": "10.2",
+      "discussUrl": "https://gateoverflow.in/399287/gate-cse-2023-question-24"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Interrupts",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Interrupts: GATE CSE 2025 | Set 1 | Question: 1</strong></div><p>Suppose a program is running on a non-pipelined single processor computer system. The computer is<br/>connected to an external device that can interrupt the processor asynchronously. The processor needs to<br/>execute the interrupt service routine (ISR) to serve this interrupt. The following steps (not necessarily in order) are<br/>taken by the processor when the interrupt arrives:<br/>i<br/>.<br/>The processor saves the content of the program counter.<br/>ii<br/>.<br/>The program counter is loaded with the start address of the ISR.<br/>iii<br/>.<br/>The processor finishes the present instruction.<br/>Which ONE of the following is the CORRECT sequence of steps?<br/>co-and-architecture<br/>interrupts<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/460080/gate-cse-2025-set-1-question-1"
+    }
+  ]
+}

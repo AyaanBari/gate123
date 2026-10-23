@@ -1,0 +1,1330 @@
+{
+  "id": "PYQ_Computer_Organization_COA_P1",
+  "fileName": "PYQ_Computer_Organization_COA_P1.json",
+  "title": "GATE Official PYQs | Computer Organization (COA) Part 1",
+  "subject": "Computer Organization (COA)",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 43,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1987 | Question: 1-V</strong></div><p>The most relevant addressing mode to write position-independent codes is:<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/80194/gate-cse-1987-question-1-v"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1988 | Question: 9iii</strong></div><p>In the program scheme given below indicate the instructions containing any operand needing relocation for<br/>position independent behaviour. Justify your answer.<br/>descriptive<br/>co-and-architecture<br/>addressing-modes</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/80194/gate-cse-1987-question-1-v"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1989 | Question: 2-ii</strong></div><p>Match the pairs in the following questions:<br/>match-the-following<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2035"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1993 | Question: 10</strong></div><p>The instruction format of a CPU is:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2307/gate-cse-1993-question-10"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1996 | Question: 1.16, ISRO2016-42</strong></div><p>Relative mode of addressing is most relevant to writing:<br/>co-and-architecture<br/>addressing-modes<br/>easy<br/>isro2016</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1998 | Question: 1.19</strong></div><p>Which of the following addressing modes permits relocation without any change whatsoever in the code?<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 1999 | Question: 2.23</strong></div><p>A certain processor supports only the immediate and the direct addressing modes. Which of the following<br/>programming language features cannot be implemented on this processor?<br/>co-and-architecture<br/>addressing-modes<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2000 | Question: 1.10</strong></div><p>The most appropriate matching for the following pairs<br/>is<br/>co-and-architecture<br/>easy<br/>addressing-modes<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2001 | Question: 2.9</strong></div><p>Which is the most appropriate match for the items in the first column with the items in the second column:<br/>co-and-architecture<br/>addressing-modes<br/>easy<br/>match-the-following</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/727/gate-cse-2001-question-2-9"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2002 | Question: 1.24</strong></div><p>In the absolute addressing mode:<br/>A<br/>.<br/>the operand is inside the instruction<br/>B<br/>.<br/>the address of the operand in inside the instruction<br/>C<br/>.<br/>the register containing the address of the operand is specified inside the instruction<br/>D<br/>.<br/>the location of the operand is implicit<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/727/gate-cse-2001-question-2-9"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2004 | Question: 20</strong></div><p>Which of the following addressing modes are suitable for program relocation at run time?<br/>I<br/>.<br/>Absolute addressing<br/>II<br/>.<br/>Based addressing<br/>III<br/>.<br/>Relative addressing<br/>IV<br/>.<br/>Indirect addressing<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/727/gate-cse-2001-question-2-9"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2005 | Question: 65</strong></div><p>Consider a three word machine instruction<br/>The ﬁrst operand (destination)<br/>uses indexed addressing mode with<br/>as the index register. The second<br/>operand (source)<br/>uses indirect addressing mode.<br/>and<br/>are memory addresses residing at the second<br/>and third words, respectively. The ﬁrst word of the instruction speciﬁes the opcode, the index register designation<br/>and the source and destination addressing modes. During execution of<br/>instruction, the two operands are<br/>added and stored in the destination (first operand).<br/>The number of memory cycles needed during the execution cycle of the instruction is:<br/>co-and-architecture<br/>addressing-modes</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1388/gate-cse-2005-question-65"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2005 | Question: 66</strong></div><p>Match each of the high level language statements given on the left hand side with the most natural<br/>addressing mode from those listed on the right hand side.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1388/gate-cse-2005-question-65"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2008 | Question: 33, ISRO2009-80</strong></div><p>Which of the following is/are true of the auto-increment addressing mode?<br/>I<br/>.<br/>It is useful in creating self-relocating code<br/>II<br/>.<br/>If it is included in an Instruction Set Architecture, then an additional ALU is required for eﬀective address<br/>calculation<br/>III<br/>.<br/>The amount of increment depends on the size of the data item accessed<br/>addressing-modes<br/>co-and-architecture<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/444/gate-cse-2008-question-33-isro2009-80"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2011 | Question: 21</strong></div><p>Consider a hypothetical processor with an instruction of type<br/>, which during execution<br/>reads a<br/>word from memory and stores it in a<br/>register<br/>. The eﬀective address of the<br/>memory location is obtained by the addition of a constant<br/>and the contents of register<br/>. Which of the following<br/>best reflects the addressing mode implemented by this instruction for the operand in memory?<br/>co-and-architecture<br/>addressing-modes<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2123/gate-cse-2011-question-21"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2017 | Set 1 | Question: 11</strong></div><p>Consider the<br/>struct defined below:<br/>struct<br/>data<br/>{<br/>int<br/>marks<br/>[<br/>100<br/>];<br/>char<br/>grade<br/>;<br/>int<br/>cnumber<br/>;<br/>};<br/>struct<br/>data student<br/>;<br/>The base address of student is available in register<br/>. The field student.grade can be accessed efficiently using:<br/>A<br/>.<br/>Post-increment addressing mode,<br/>B<br/>.<br/>Pre-decrement addressing mode,<br/>C<br/>.<br/>Register direct addressing mode,<br/>D<br/>.<br/>Index addressing mode,<br/>, where<br/>is an offset represented in<br/>complement<br/>representation<br/>co-and-architecture<br/>addressing-modes</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2123/gate-cse-2011-question-21"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE CSE 2026 | Set 1 | Question: 4</strong></div><p>Match each addressing mode in<br/>with a data element or an element of a data structure (in a high-level<br/>language) in<br/>:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/444/gate-cse-2008-question-33-isro2009-80"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE IT 2006 | Question: 39, ISRO2009-42</strong></div><p>Which of the following statements about relative addressing mode is FALSE?<br/>A<br/>.<br/>It enables reduced instruction size<br/>B<br/>.<br/>It allows indexing of array element with same instruction<br/>C<br/>.<br/>It enables easy relocation of data<br/>D<br/>.<br/>It enables faster address calculation than absolute addressing<br/>co-and-architecture<br/>addressing-modes<br/>isro2009</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3578/gate-it-2006-question-39-isro2009-42"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Addressing Modes",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Addressing Modes: GATE IT 2006 | Question: 40</strong></div><p>The memory locations<br/>and<br/>have data values<br/>and<br/>respectively before the<br/>following program is executed.<br/>Which of the statements below is TRUE after the program is executed ?<br/>co-and-architecture<br/>addressing-modes<br/>Average Memory Access Time<br/>(3)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3578/gate-it-2006-question-39-isro2009-42"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Average Memory Access Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Average Memory Access Time: GATE CSE 1992 | Question: 5-a</strong></div><p>The access times of the main memory and the Cache memory, in a computer system, are<br/>n sec and<br/>nsec, respectively. It is estimated that<br/>of the main memory request are for read the rest for write. The<br/>hit ratio for the read access only is<br/>and a write-through policy (where both main and cache memories are<br/>updated simultaneously) is used. Determine the average time of the main memory (in ns).<br/>co-and-architecture<br/>cache-memory<br/>average-memory-access-time</p></div>",
+      "options": [],
+      "correctAnswer": "180",
+      "discussUrl": "https://gateoverflow.in/3578/gate-it-2006-question-39-isro2009-42"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Average Memory Access Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Average Memory Access Time: GATE CSE 2025 | Set 1 | Question: 43</strong></div><p>A computer has a memory hierarchy consisting of two-level cache<br/>and<br/>and a main memory. If the<br/>processor needs to access data from memory, it ﬁrst looks into<br/>cache. If the data is not found in<br/>cache, it goes to<br/>cache. If it fails to get the data from<br/>cache, it goes to main memory, where the data is<br/>deﬁnitely available. Hit rates and access times of various memory units are shown in the ﬁgure. The average<br/>memory access time in nanoseconds<br/>is ________. (rounded off to two decimal places)<br/>co-and-architecture<br/>cache-memory<br/>multilevel-cache<br/>average-memory-access-time</p></div>",
+      "options": [],
+      "correctAnswer": "11.83:11.87",
+      "discussUrl": "https://gateoverflow.in/460037/gate-cse-2025-set-1-question-43"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Average Memory Access Time",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Average Memory Access Time: GATE CSE 2025 | Set 2 | Question: 45</strong></div><p>Given a computing system with two levels of cache (L1 and L2) and a main memory. The ﬁrst level (L1)<br/>cache access time is<br/>nanosecond (ns) and the \"hit rate\" for L1 cache is<br/>while the processor is<br/>accessing the data from L1 cache. Whereas, for the second level (L2) cache, the \"hit rate\" is<br/>and the \"miss<br/>penalty\" for transferring data from L2 cache to L1 cache is<br/>ns . The \"miss penalty\" for the data to be transferred<br/>from main memory to L2 cache is<br/>ns .<br/>Then the average memory access time in this system in nanoseconds is __________ . (rounded oﬀ to one decimal<br/>place)<br/>co-and-architecture<br/>cache-memory<br/>average-memory-access-time<br/>multilevel-cache<br/>Bit Vector<br/>(1)</p></div>",
+      "options": [],
+      "correctAnswer": "4:4",
+      "discussUrl": "https://gateoverflow.in/460037/gate-cse-2025-set-1-question-43"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 2.0,
+      "penalty": 0.0,
+      "category": "Bit Vector",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Bit Vector: GATE CSE 2026 | Set 2 | Question: 43</strong></div><p>To keep track of free blocks in a ﬁle system, one of the two approaches is generally used - using bitmaps<br/>(bit vectors) or using linked lists. Consider that the linked list approach is used to keep track of free blocks in<br/>a ﬁle system. Assume that the disk size is<br/>GB , block size is<br/>KB , and block numbers used are<br/>-bit long. A<br/>single pointer of size<br/>bytes is used in each block of the list to point to the next block of the list. The number of<br/>blocks required to hold the free disk block numbers is<br/>. (answer in integer)<br/>Note:<br/>and<br/>co-and-architecture<br/>bit-vector<br/>file-system</p></div>",
+      "options": [],
+      "correctAnswer": "16417",
+      "discussUrl": "https://gateoverflow.in/460037/gate-cse-2025-set-1-question-43"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "CISC RISC Architecture",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CISC RISC Architecture: GATE CSE 1999 | Question: 2.22</strong></div><p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically<br/>co-and-architecture<br/>cisc-risc-architecture<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;B;C;D",
+      "discussUrl": "https://gateoverflow.in/1499/gate-cse-1999-question-2-22"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "CISC RISC Architecture",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>CISC RISC Architecture: GATE CSE 2018 | Question: 5</strong></div><p>Consider the following processor design characteristics:<br/>I<br/>.<br/>Register-to-register arithmetic operations only<br/>II<br/>.<br/>Fixed-length instruction format<br/>III<br/>.<br/>Hardwired control unit<br/>Which of the characteristics above  are used in the design of a RISC processor?<br/>co-and-architecture<br/>cisc-risc-architecture<br/>easy<br/>Cache Memory<br/>(69)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(15Q)<br/>Test 5<br/>(15Q)<br/>Test 6<br/>(15Q)<br/>Test 7<br/>(15Q)<br/>Test 8<br/>(4Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/204079/gate-cse-2018-question-5"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1987 | Question: 4b</strong></div><p>What is cache memory? What is rationale of using cache memory?<br/>co-and-architecture<br/>cache-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1499/gate-cse-1999-question-2-22"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1989 | Question: 6a</strong></div><p>A certain computer system was designed with cache memory of size<br/>Kbytes and main memory size of<br/>Kbytes. The cache implementation was fully associative cache with<br/>bytes per block. The CPU memory<br/>data path was<br/>bits and the memory was<br/>way interleaved. Each memory read request presents two<br/>bit<br/>words. A program with the model shown below was run to evaluate the cache design.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/test/2026"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1990 | Question: 7a</strong></div><p>A block-set associative cache memory consists of<br/>blocks divided into four block sets. The main memory<br/>consists of<br/>blocks and each block contains<br/>eight bit words.<br/>1<br/>.<br/>How many bits are required for addressing the main memory?<br/>2<br/>.<br/>How many bits are needed to represent the TAG, SET and WORD fields?<br/>descriptive<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [],
+      "correctAnswer": "22",
+      "discussUrl": "https://gateoverflow.in/85403/gate-cse-1990-question-7a"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1993 | Question: 11</strong></div><p>In the three-level memory hierarchy shown in the following table,<br/>denotes the probability that an access<br/>request will refer to<br/>.<br/>If a miss occurs at level<br/>, a page transfer occurs from<br/>to<br/>and the average time required for such a<br/>page swap is<br/>. Calculate the average time<br/>required for a processor to read one word from this memory<br/>system.<br/>co-and-architecture<br/>cache-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2308/gate-cse-1993-question-11"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1995 | Question: 1.6</strong></div><p>The principle of locality justifies the use of:<br/>co-and-architecture<br/>cache-memory<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/85403/gate-cse-1990-question-7a"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1995 | Question: 2.25</strong></div><p>A computer system has a<br/>word cache organized in block-set-associative manner with<br/>blocks per set,<br/>words per block. The number of bits in the SET and WORD fields of the main memory address format is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2308/gate-cse-1993-question-11"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1996 | Question: 26</strong></div><p>A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:</p></div>",
+      "options": [],
+      "correctAnswer": "61.25",
+      "discussUrl": "https://gateoverflow.in/2638/gate-cse-1995-question-2-25"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1998 | Question: 18</strong></div><p>For a set-associative Cache organization, the parameters are as follows:<br/>Calculate the hit ratio for a loop executed<br/>times where the size of the loop is<br/>, and<br/>is a non-<br/>zero integer and<br/>.<br/>Give the value of the hit ratio for<br/>.<br/>co-and-architecture<br/>cache-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1732/gate-cse-1998-question-18"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 1999 | Question: 1.22</strong></div><p>The main memory of a computer has<br/>blocks while the cache has<br/>blocks. If the cache uses the set<br/>associative mapping scheme with<br/>blocks per set, then block<br/>of the main memory maps to the set:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1732/gate-cse-1998-question-18"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2001 | Question: 1.7, ISRO2008-18</strong></div><p>More than one word are put in one cache block to:<br/>co-and-architecture<br/>easy<br/>cache-memory<br/>isro2008</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1732/gate-cse-1998-question-18"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2001 | Question: 9</strong></div><p>A CPU has<br/>memory address and a<br/>cache memory. The cache is organized as a<br/>set associative cache with cache block size of<br/>bytes.<br/>A<br/>.<br/>What is the number of sets in the cache?<br/>B<br/>.<br/>What is the size (in bits) of the tag field per cache block?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1732/gate-cse-1998-question-18"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2002 | Question: 10</strong></div><p>In a C program, an array is declared as<br/>. Each array element is<br/>in size, and the<br/>starting address of the array is<br/>. This program is run on a computer that has a direct mapped<br/>data cache of size<br/>, with block (line) size of<br/>.<br/>A<br/>.<br/>Which elements of the array conflict with element<br/>in the data cache? Justify your answer briefly.<br/>B<br/>.<br/>If the program accesses the elements of this array one by one in reverse order i.e., starting with the last element<br/>and ending with the ﬁrst element,  how many data cache misses would occur? Justify your answer brieﬂy.<br/>Assume that the data cache is initially empty and that no other data or instruction accesses are to be<br/>considered.<br/>co-and-architecture<br/>cache-memory<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/863/gate-cse-2002-question-10"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2004 | Question: 65</strong></div><p>Consider a small two-way set-associative cache memory, consisting of four blocks. For choosing the block<br/>to be replaced, use the least recently used (LRU) scheme. The number of cache misses for the following<br/>sequence of block addresses is:<br/>.<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1059/gate-cse-2004-question-65"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2005 | Question: 67</strong></div><p>Consider a direct mapped cache of size<br/>with block size<br/>. The<br/>generates<br/>addresses. The number of bits needed for cache indexing and the number of tag bits are respectively,<br/>co-and-architecture<br/>cache-memory<br/>easy</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1390/gate-cse-2005-question-67"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Cache Memory",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Cache Memory: GATE CSE 2006 | Question: 74</strong></div><p>Consider two cache organizations. First one is<br/>set associative with<br/>block size, the<br/>second is of same size but direct mapped. The size of an address is<br/>in  both cases . A<br/>multiplexer has latency of<br/>while a<br/>comparator has latency of<br/>. The hit latency of the set<br/>associative organization is<br/>while that of direct mapped is<br/>.<br/>The value of<br/>is:<br/>co-and-architecture<br/>cache-memory</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/1851/gate-cse-2006-question-74"
+    }
+  ]
+}

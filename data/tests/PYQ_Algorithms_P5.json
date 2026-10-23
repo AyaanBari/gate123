@@ -1,0 +1,1309 @@
+{
+  "id": "PYQ_Algorithms_P5",
+  "fileName": "PYQ_Algorithms_P5.json",
+  "title": "GATE Official PYQs | Algorithms Part 5",
+  "subject": "Algorithms",
+  "testType": "GATE PYQ Series",
+  "series": "GATE PYQs",
+  "durationMinutes": 90,
+  "totalQuestions": 40,
+  "totalMarks": 41,
+  "sections": [
+    "Technical"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "qNum": "Q #1",
+      "displayNum": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE IT 2005 | Question: 57</strong></div><p>What is the output printed by the following program?<br/>#include<br/><stdio.h><br/>int<br/>f<br/>(<br/>int<br/>n<br/>,<br/>int<br/>k<br/>)<br/>{<br/>if<br/>(<br/>n<br/>==<br/>0<br/>)<br/>return<br/>0<br/>;<br/>else<br/>if<br/>(<br/>n<br/>%<br/>2<br/>)<br/>return<br/>f<br/>(<br/>n<br/>/<br/>2<br/>,<br/>2<br/>*<br/>k<br/>)<br/>+<br/>k<br/>;<br/>else<br/>return<br/>f<br/>(<br/>n<br/>/<br/>2<br/>,<br/>2<br/>*<br/>k<br/>)<br/>-<br/>k<br/>;<br/>}<br/>int<br/>main<br/>()<br/>{<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>f<br/>(<br/>20<br/>,<br/>1<br/>));<br/>return<br/>0<br/>;<br/>}<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3818/gate-it-2005-question-57"
+    },
+    {
+      "index": 1,
+      "qNum": "Q #2",
+      "displayNum": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE IT 2006 | Question: 52</strong></div><p>The following function computes the value of<br/>correctly for all legal values<br/>and<br/>(<br/>and<br/>)<br/>int<br/>func<br/>(<br/>int<br/>m<br/>,<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>E<br/>)<br/>return<br/>1<br/>;<br/>else<br/>return<br/>(<br/>func<br/>(<br/>m<br/>-<br/>1<br/>,<br/>n<br/>)<br/>+<br/>func<br/>(<br/>m<br/>-<br/>1<br/>,<br/>n<br/>-<br/>1<br/>));<br/>}<br/>In the above function, which of the following is the correct expression for E?<br/>algorithms<br/>identify-function</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3595/gate-it-2006-question-52"
+    },
+    {
+      "index": 2,
+      "qNum": "Q #3",
+      "displayNum": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE IT 2008 | Question: 82</strong></div><p>Consider the code fragment written in C below :<br/>void<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>{<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>else<br/>{<br/>f<br/>(<br/>n<br/>/<br/>2<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>%<br/>2<br/>);<br/>}<br/>}<br/>What does f(173) print?</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/3406/gate-it-2008-question-82"
+    },
+    {
+      "index": 3,
+      "qNum": "Q #4",
+      "displayNum": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Identify Function",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Identify Function: GATE IT 2008 | Question: 83</strong></div><p>Consider the code fragment written in C below :<br/>void<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>{<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>else<br/>{<br/>f<br/>(<br/>n<br/>/<br/>2<br/>);<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>%<br/>2<br/>);<br/>}<br/>}<br/>Which of the following implementations will produce the same output for<br/>as the above code?<br/>P1<br/>P2<br/>void<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/>/<br/>2<br/>)<br/>{<br/>f<br/>(<br/>n<br/>/<br/>2<br/>);<br/>}<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>%<br/>2<br/>);<br/>}<br/>void<br/>f<br/>(<br/>int<br/>n<br/>)<br/>{<br/>if<br/>(<br/>n<br/><=<br/>1<br/>)<br/>{<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>);<br/>}<br/>else<br/>{<br/>printf<br/>(<br/>\"%d\"<br/>,<br/>n<br/>%<br/>2<br/>);<br/>f<br/>(<br/>n<br/>/<br/>2<br/>);<br/>}<br/>}<br/>algorithms<br/>recursion<br/>identify-function<br/>Insertion Sort<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/3407/gate-it-2008-question-83"
+    },
+    {
+      "index": 4,
+      "qNum": "Q #5",
+      "displayNum": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Insertion Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Insertion Sort: GATE CSE 2003 | Question: 22</strong></div><p>The usual<br/>implementation of Insertion Sort to sort an array uses linear search to identify the position<br/>where an element is to be inserted into the already sorted part of the array. If, instead, we use binary search<br/>to identify the position, the worst case running time will<br/>algorithms<br/>sorting<br/>time-complexity<br/>insertion-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/912/gate-cse-2003-question-22"
+    },
+    {
+      "index": 5,
+      "qNum": "Q #6",
+      "displayNum": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Insertion Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Insertion Sort: GATE CSE 2003 | Question: 62</strong></div><p>In a permutation<br/>, of<br/>distinct integers, an inversion is a pair<br/>such that<br/>and<br/>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to<br/>permutations of<br/>with at most<br/>inversions?<br/>algorithms<br/>sorting<br/>insertion-sort<br/>Inversion<br/>(2)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/912/gate-cse-2003-question-22"
+    },
+    {
+      "index": 6,
+      "qNum": "Q #7",
+      "displayNum": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Inversion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Inversion: GATE CSE 2003 | Question: 61</strong></div><p>In a permutation<br/>, of n distinct integers, an inversion is a pair<br/>such that<br/>and<br/>.<br/>If all permutations are equally likely, what is the expected number of inversions in a randomly chosen<br/>permutation of<br/>?<br/>algorithms<br/>sorting<br/>inversion</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/949/gate-cse-2003-question-61"
+    },
+    {
+      "index": 7,
+      "qNum": "Q #8",
+      "displayNum": 8,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Inversion",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Inversion: GATE DA 2025 | Question: 19</strong></div><p>Suppose that insertion sort is applied to the array<br/>and it takes exactly two swaps<br/>to sort the array. Select all possible values of<br/>.<br/>gateda-2025<br/>algorithms<br/>insertion-sort<br/>sorting<br/>multiple-selects<br/>easy<br/>inversion<br/>Linear Probing<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A;C",
+      "discussUrl": "https://gateoverflow.in/461003/gate-da-2025-question-19"
+    },
+    {
+      "index": 8,
+      "qNum": "Q #9",
+      "displayNum": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linear Probing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linear Probing: GATE CSE 2026 | Set 1 | Question: 14</strong></div><p>Consider a hash table<br/>that is initially empty. The hash table is maintained using open<br/>addressing with linear probing. The hash function used is<br/>.<br/>Consider the following sequence of insertions performed on<br/>:<br/>Which of the following positions in the hash table is/are empty after these insertions are performed?<br/>algorithms<br/>hashing<br/>linear-probing<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/949/gate-cse-2003-question-61"
+    },
+    {
+      "index": 9,
+      "qNum": "Q #10",
+      "displayNum": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Linear Probing",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Linear Probing: GATE DA 2025 | Question: 8</strong></div><p>Consider a hash table of size 10 with indices<br/>, with the hash function<br/>where linear probing is used to handle collisions. The hash table is initially empty and then the following sequence<br/>of keys is inserted into the hash table:<br/>. The indices where the keys<br/>and<br/>are stored are,<br/>respectively<br/>gateda-2025<br/>algorithms<br/>hashing<br/>linear-probing<br/>easy<br/>Matrix Chain Ordering<br/>(3)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(5Q)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/461003/gate-da-2025-question-19"
+    },
+    {
+      "index": 10,
+      "qNum": "Q #11",
+      "displayNum": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Matrix Chain Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix Chain Ordering: GATE CSE 2011 | Question: 38</strong></div><p>Four Matrices<br/>and<br/>of dimensions<br/>and<br/>respectively can be<br/>multiplied in several ways with diﬀerent number of total scalar multiplications. For example when multiplied<br/>as<br/>, the total number of scalar multiplications is<br/>. When multiplied as<br/>, the total number of scalar multiplications is<br/>.<br/>If<br/>and<br/>, then the minimum number of scalar multiplications needed is<br/>algorithms<br/>dynamic-programming<br/>matrix-chain-ordering</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2140/gate-cse-2011-question-38"
+    },
+    {
+      "index": 11,
+      "qNum": "Q #12",
+      "displayNum": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Matrix Chain Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix Chain Ordering: GATE CSE 2016 | Set 2 | Question: 38</strong></div><p>Let<br/>and<br/>be four matrices of dimensions<br/>and<br/>, respectively.<br/>The minimum number of scalar multiplications required to ﬁnd the product<br/>using the basic<br/>matrix multiplication method is _________.<br/>dynamic-programming<br/>algorithms<br/>matrix-chain-ordering</p></div>",
+      "options": [],
+      "correctAnswer": "1500",
+      "discussUrl": "https://gateoverflow.in/2140/gate-cse-2011-question-38"
+    },
+    {
+      "index": 12,
+      "qNum": "Q #13",
+      "displayNum": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 2.0,
+      "penalty": 0.67,
+      "category": "Matrix Chain Ordering",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Matrix Chain Ordering: GATE CSE 2018 | Question: 31</strong></div><p>Assume that multiplying a matrix<br/>of dimension<br/>with another matrix<br/>of dimension<br/>requires<br/>scalar multiplications. Computing the product of<br/>matrices<br/>can be done by<br/>parenthesizing in diﬀerent ways. Deﬁne<br/>as an<br/>explicitly computed pair<br/>for a given paranthesization if<br/>they are directly multiplied. For example, in the matrix multiplication chain<br/>using<br/>parenthesization<br/>and<br/>are only explicitly computed pairs.<br/>Consider a matrix multiplication chain<br/>, where matrices<br/>and<br/>are of dimensions<br/>and<br/>, respectively. In the parenthesization of<br/>that<br/>minimizes the total number of scalar multiplications, the explicitly computed pairs is/are<br/>algorithms<br/>dynamic-programming<br/>matrix-chain-ordering<br/>Maximum Minimum<br/>(1)</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/204105/gate-cse-2018-question-31"
+    },
+    {
+      "index": 13,
+      "qNum": "Q #14",
+      "displayNum": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Maximum Minimum",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Maximum Minimum: GATE CSE 2014 | Set 1 | Question: 39</strong></div><p>The minimum number of comparisons required to ﬁnd the minimum and the maximum of<br/>numbers is<br/>________<br/>algorithms<br/>maximum-minimum<br/>sorting<br/>Merge Sort<br/>(4)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(14Q)</p></div>",
+      "options": [],
+      "correctAnswer": "147.1 : 148.1",
+      "discussUrl": "https://gateoverflow.in/2140/gate-cse-2011-question-38"
+    },
+    {
+      "index": 14,
+      "qNum": "Q #15",
+      "displayNum": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Merge Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merge Sort: GATE CSE 1999 | Question: 1.14, ISRO2015-42</strong></div><p>If one uses straight two-way merge sort algorithm to sort the following elements in ascending order:<br/>then the order of these elements after second pass of the algorithm is:<br/>A<br/>.<br/>B<br/>.<br/>C<br/>.</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2140/gate-cse-2011-question-38"
+    },
+    {
+      "index": 15,
+      "qNum": "Q #16",
+      "displayNum": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Merge Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merge Sort: GATE CSE 2012 | Question: 39</strong></div><p>A list of<br/>strings, each of length<br/>, is sorted into lexicographic order using the merge-sort algorithm. The<br/>worst case running time of this computation is<br/>algorithms<br/>sorting<br/>merge-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1762/gate-cse-2012-question-39"
+    },
+    {
+      "index": 16,
+      "qNum": "Q #17",
+      "displayNum": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Merge Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merge Sort: GATE CSE 2015 | Set 3 | Question: 27</strong></div><p>Assume that a mergesort algorithm in the worst case takes<br/>seconds for an input of size<br/>. Which of the<br/>following most closely approximates the maximum input size of a problem that can be solved in<br/>minutes?<br/>algorithms<br/>sorting<br/>merge-sort</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/1762/gate-cse-2012-question-39"
+    },
+    {
+      "index": 17,
+      "qNum": "Q #18",
+      "displayNum": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Merge Sort",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merge Sort: GATE CSE 2026 | Set 2 | Question: 22</strong></div><p>Consider an array<br/>. Suppose the merge sort algorithm is executed on<br/>array<br/>to sort it in increasing order. The merge sort algorithm will carry out a total of<br/>merge operations.<br/>A merge operation on sorted left array<br/>and sorted right array<br/>is said to be void if the output of the merge<br/>operation is the elements of array<br/>followed by the elements of array<br/>.<br/>The number of void merge operations among these<br/>merge operations is<br/>. (answer in integer)<br/>algorithms<br/>merge-sort<br/>Merging<br/>(2)<br/>✍<br/>Practice Test:<br/>Test 1<br/>(6Q)</p></div>",
+      "options": [],
+      "correctAnswer": "3:3",
+      "discussUrl": "https://gateoverflow.in/1762/gate-cse-2012-question-39"
+    },
+    {
+      "index": 18,
+      "qNum": "Q #19",
+      "displayNum": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Merging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merging: GATE CSE 1995 | Question: 1.16</strong></div><p>For merging two sorted lists of sizes<br/>and<br/>into a sorted list of size<br/>, we require comparisons of<br/>algorithms<br/>sorting<br/>merging</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/1762/gate-cse-2012-question-39"
+    },
+    {
+      "index": 19,
+      "qNum": "Q #20",
+      "displayNum": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Merging",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Merging: GATE CSE 2014 | Set 2 | Question: 38</strong></div><p>Suppose<br/>are sorted sequences having lengths<br/>respectively. They are to<br/>be merged into a single sequence by merging together two sequences at a time. The number of<br/>comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.<br/>algorithms<br/>sorting<br/>merging<br/>Minimum Spanning Tree<br/>(35)<br/>✍<br/>Practice Tests:<br/>Test 1<br/>(15Q)<br/>Test 2<br/>(15Q)<br/>Test 3<br/>(15Q)<br/>Test 4<br/>(9Q)</p></div>",
+      "options": [],
+      "correctAnswer": "358",
+      "discussUrl": "https://gateoverflow.in/1762/gate-cse-2012-question-39"
+    },
+    {
+      "index": 20,
+      "qNum": "Q #21",
+      "displayNum": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "typeRaw": "Multiple Select Question",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 1991 | Question: 03,vi</strong></div><p>Kruskal’s algorithm for ﬁnding a minimum spanning tree of a weighted graph<br/>with<br/>vertices and<br/>edges<br/>has the time complexity of:<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree<br/>time-complexity<br/>multiple-selects</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B;D;E",
+      "discussUrl": "https://gateoverflow.in/521/gate-cse-1991-question-03-vi"
+    },
+    {
+      "index": 21,
+      "qNum": "Q #22",
+      "displayNum": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 1992 | Question: 01,ix</strong></div><p>Complexity of Kruskal’s algorithm for ﬁnding the minimum spanning tree of an undirected graph containing<br/>vertices and<br/>edges if the edges are sorted is _______<br/>minimum-spanning-tree<br/>algorithms<br/>time-complexity<br/>easy<br/>fill-in-the-blanks</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/549/gate-cse-1992-question-01-ix"
+    },
+    {
+      "index": 22,
+      "qNum": "Q #23",
+      "displayNum": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 1995 | Question: 22</strong></div><p>How many minimum spanning trees does the following graph have? Draw them. (Weights are assigned to<br/>edges).<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree<br/>easy<br/>descriptive</p></div>",
+      "options": [],
+      "correctAnswer": "2",
+      "discussUrl": "https://gateoverflow.in/2660/gate-cse-1995-question-22"
+    },
+    {
+      "index": 23,
+      "qNum": "Q #24",
+      "displayNum": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 1996 | Question: 16</strong></div><p>A complete, undirected, weighted graph<br/>is given on the vertex<br/>for any ﬁxed ‘n’. Draw<br/>the minimum spanning tree of<br/>if<br/>A<br/>.<br/>the weight of the edge<br/>is<br/>B<br/>.<br/>the weight of the edge<br/>is<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/2768/gate-cse-1996-question-16"
+    },
+    {
+      "index": 24,
+      "qNum": "Q #25",
+      "displayNum": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 1997 | Question: 9</strong></div><p>Consider a graph whose vertices are points in the plane with integer co-ordinates<br/>such that<br/>and<br/>, where<br/>is an integer. Two vertices<br/>and<br/>are adjacent iﬀ<br/>. The weight of an edge<br/>A<br/>.<br/>What is the weight of a minimum weight-spanning tree in this graph? Write only the answer without any<br/>explanations.<br/>B<br/>.<br/>What is the weight of a maximum weight-spanning tree in this graph? Write only the answer without any<br/>explanations.<br/>algorithms<br/>minimum-spanning-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/521/gate-cse-1991-question-03-vi"
+    },
+    {
+      "index": 25,
+      "qNum": "Q #26",
+      "displayNum": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2000 | Question: 2.18</strong></div><p>Let<br/>be an undirected connected graph with distinct edge weights. Let<br/>be the edge with maximum<br/>weight and<br/>the edge with minimum weight. Which of the following statements is false?<br/>A<br/>.<br/>Every minimum spanning tree of<br/>must contain<br/>B<br/>.<br/>If<br/>is in a minimum spanning tree, then its removal must disconnect<br/>C<br/>.<br/>No minimum spanning tree contains<br/>D<br/>.<br/>has a unique minimum spanning tree<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/665/gate-cse-2000-question-2-18"
+    },
+    {
+      "index": 26,
+      "qNum": "Q #27",
+      "displayNum": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2001 | Question: 15</strong></div><p>Consider a weighted undirected graph with vertex set<br/>and edge set<br/>.<br/>The third value in each tuple represents the weight of the edge specified in the tuple.<br/>A<br/>.<br/>List the edges of a minimum spanning tree of the graph.<br/>B<br/>.<br/>How many distinct minimum spanning trees does this graph have?<br/>C<br/>.<br/>Is the minimum among the edge weights of a minimum spanning tree unique over all possible minimum<br/>spanning trees of a graph?<br/>D<br/>.<br/>Is the maximum among the edge weights of a minimum spanning tree unique over all possible minimum<br/>spanning tree of a graph?<br/>algorithms<br/>minimum-spanning-tree<br/>descriptive</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "A",
+      "discussUrl": "https://gateoverflow.in/756/gate-cse-2001-question-15"
+    },
+    {
+      "index": 27,
+      "qNum": "Q #28",
+      "displayNum": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2003 | Question: 68</strong></div><p>What is the weight of a minimum spanning tree of the following graph?<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/955/gate-cse-2003-question-68"
+    },
+    {
+      "index": 28,
+      "qNum": "Q #29",
+      "displayNum": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2005 | Question: 6</strong></div><p>An undirected graph<br/>has<br/>nodes. its adjacency matrix is given by an<br/>square matrix whose (i)<br/>diagonal elements are 0’s and (ii) non-diagonal elements are 1’s. Which one of the following is TRUE?<br/>A<br/>.<br/>Graph<br/>has no minimum spanning tree (MST)<br/>B<br/>.<br/>Graph<br/>has unique MST of cost<br/>C<br/>.<br/>Graph<br/>has multiple distinct MSTs, each of cost<br/>D<br/>.<br/>Graph<br/>has multiple spanning trees of different costs</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/665/gate-cse-2000-question-2-18"
+    },
+    {
+      "index": 29,
+      "qNum": "Q #30",
+      "displayNum": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2006 | Question: 11</strong></div><p>Consider a weighted complete graph<br/>on the vertex set<br/>such that the weight of the<br/>edge<br/>is<br/>. The weight of a minimum spanning tree of<br/>is:<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/890/gate-cse-2006-question-11"
+    },
+    {
+      "index": 30,
+      "qNum": "Q #31",
+      "displayNum": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2006 | Question: 47</strong></div><p>Consider the following graph:<br/>Which one of the following cannot be the sequence of edges added,<br/>in that order<br/>, to a minimum spanning tree<br/>using Kruskal’s algorithm?<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/890/gate-cse-2006-question-11"
+    },
+    {
+      "index": 31,
+      "qNum": "Q #32",
+      "displayNum": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2007 | Question: 49</strong></div><p>Let<br/>be the minimum weight among all edge weights in an undirected connected graph. Let<br/>be a speciﬁc<br/>edge of weight<br/>. Which of the following is FALSE?<br/>A<br/>.<br/>There is a minimum spanning tree containing<br/>B<br/>.<br/>If<br/>is not in a minimum spanning tree<br/>, then in the cycle formed by adding<br/>to<br/>, all edges have the same<br/>weight.<br/>C<br/>.<br/>Every minimum spanning tree has an edge of weight<br/>D<br/>.<br/>is present in every minimum spanning tree<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1247/gate-cse-2007-question-49"
+    },
+    {
+      "index": 32,
+      "qNum": "Q #33",
+      "displayNum": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2009 | Question: 38</strong></div><p>Consider the following graph:</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/1324/gate-cse-2009-question-38"
+    },
+    {
+      "index": 33,
+      "qNum": "Q #34",
+      "displayNum": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2010 | Question: 50</strong></div><p>Consider a complete undirected graph with vertex set<br/>. Entry<br/>in the matrix<br/>below is the<br/>weight of the edge<br/>What is the minimum possible weight of a spanning tree<br/>in this graph such that vertex<br/>is a leaf node in the tree<br/>?<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "D",
+      "discussUrl": "https://gateoverflow.in/2355/gate-cse-2010-question-50"
+    },
+    {
+      "index": 34,
+      "qNum": "Q #35",
+      "displayNum": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2010 | Question: 51</strong></div><p>Consider a complete undirected graph with vertex set<br/>. Entry<br/>in the matrix<br/>below is the<br/>weight of the edge<br/>What is the minimum possible weight of a path<br/>from vertex<br/>to vertex<br/>in this graph such that<br/>contains at<br/>most<br/>edges?<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2355/gate-cse-2010-question-50"
+    },
+    {
+      "index": 35,
+      "qNum": "Q #36",
+      "displayNum": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2011 | Question: 54</strong></div><p>An undirected graph<br/>contains<br/>nodes named<br/>. Two nodes<br/>are<br/>connected if and only if<br/>. Each edge<br/>is assigned a weight<br/>. A sample graph with<br/>is shown below.<br/>What will be the cost of the minimum spanning tree (MST) of such a graph with<br/>nodes?<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "B",
+      "discussUrl": "https://gateoverflow.in/2162/gate-cse-2011-question-54"
+    },
+    {
+      "index": 36,
+      "qNum": "Q #37",
+      "displayNum": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2011 | Question: 55</strong></div><p>An undirected graph<br/>contains<br/>nodes named<br/>. Two nodes<br/>are<br/>connected if and only if<br/>. Each edge<br/>is assigned a weight<br/>. A sample graph with<br/>is shown below.<br/>The length of the path from<br/>to<br/>in the MST of previous question with<br/>is<br/>algorithms<br/>graph-algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "C",
+      "discussUrl": "https://gateoverflow.in/2162/gate-cse-2011-question-54"
+    },
+    {
+      "index": 37,
+      "qNum": "Q #38",
+      "displayNum": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "typeRaw": "Multiple Choice Type",
+      "marks": 1.0,
+      "penalty": 0.33,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2012 | Question: 29</strong></div><p>Let<br/>be a weighted graph with edge weights greater than one and<br/>be the graph constructed by squaring<br/>the weights of edges in<br/>. Let<br/>and<br/>be the minimum spanning trees of<br/>and<br/>, respectively, with total<br/>weights<br/>and<br/>. Which of the following statements is<br/>TRUE<br/>?<br/>algorithms<br/>minimum-spanning-tree<br/>marks-to-all</p></div>",
+      "options": [
+        {
+          "id": "A",
+          "html": "<span>Option (A)</span>",
+          "textHtml": "<span>Option (A)</span>"
+        },
+        {
+          "id": "B",
+          "html": "<span>Option (B)</span>",
+          "textHtml": "<span>Option (B)</span>"
+        },
+        {
+          "id": "C",
+          "html": "<span>Option (C)</span>",
+          "textHtml": "<span>Option (C)</span>"
+        },
+        {
+          "id": "D",
+          "html": "<span>Option (D)</span>",
+          "textHtml": "<span>Option (D)</span>"
+        }
+      ],
+      "correctAnswer": "X",
+      "discussUrl": "https://gateoverflow.in/786/gate-cse-2012-question-29"
+    },
+    {
+      "index": 38,
+      "qNum": "Q #39",
+      "displayNum": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2014 | Set 2 | Question: 52</strong></div><p>The number of distinct minimum spanning trees for the weighted graph below is _____<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "6",
+      "discussUrl": "https://gateoverflow.in/2162/gate-cse-2011-question-54"
+    },
+    {
+      "index": 39,
+      "qNum": "Q #40",
+      "displayNum": 40,
+      "section": "Technical",
+      "type": "NAT",
+      "typeRaw": "Numerical Answer Type",
+      "marks": 1.0,
+      "penalty": 0.0,
+      "category": "Minimum Spanning Tree",
+      "questionHtml": "<div class=\"res_question_text\"><div class=\"q-source-tag\"><strong>Minimum Spanning Tree: GATE CSE 2015 | Set 1 | Question: 43</strong></div><p>The graph shown below has<br/>edges with distinct integer edge weights. The minimum spanning tree (<br/>MST<br/>)<br/>is of weight<br/>and contains the edges:<br/>. The edge weights of<br/>only those edges which are in the<br/>MST<br/>are given in the ﬁgure shown below. The minimum possible sum of weights<br/>of all<br/>edges of this graph is_______________.<br/>algorithms<br/>minimum-spanning-tree</p></div>",
+      "options": [],
+      "correctAnswer": "69",
+      "discussUrl": "https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43"
+    }
+  ]
+}
