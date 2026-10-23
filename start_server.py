@@ -229,7 +229,7 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
 
 def run_server():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    port    = find_available_port(8080)
+    port = int(os.environ.get('PORT', find_available_port(8080)))
     handler = ExamServerHandler
 
     handler.extensions_map.update({
@@ -241,7 +241,8 @@ def run_server():
 
     socketserver.TCPServer.allow_reuse_address = True
 
-    with socketserver.TCPServer(('127.0.0.1', port), handler) as httpd:
+    host = '0.0.0.0'
+    with socketserver.TCPServer((host, port), handler) as httpd:
         url = f"http://localhost:{port}/index.html"
         print("=" * 65)
         print("  GATE CS CBT EXAM SYSTEM — WITH TELEMETRY")

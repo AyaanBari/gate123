@@ -1,0 +1,7 @@
+# Core Web Application, API, and SQLite Database:
+# Pure Python 3 Standard Library (http.server, sqlite3, hashlib, json, socketserver)
+# No external runtime dependencies required for running the web application!
+
+# Optional build/pipeline dependencies (for running offline scraping & PDF processors):
+beautifulsoup4>=4.12.0
+pypdf>=4.0.0
