@@ -44,9 +44,10 @@ class ExamApp {
       qMarkedReview: {},   // { [idx]: bool }
       qRevisited: {},      // { [idx]: bool }
       qVisited: {},        // { [idx]: bool } — first visit flag
+      endSent: false,
     };
     // Send session-end on tab close / navigate away
-    window.addEventListener('beforeunload', () => this._telEndSession());
+    window.addEventListener('pagehide', () => this._telEndSession());
     // Track visibility (tab hide = student distracted?)
     document.addEventListener('visibilitychange', () => {
       this._telBehavior(document.hidden ? 'tab_hidden' : 'tab_visible');
@@ -83,14 +84,20 @@ class ExamApp {
   }
 
   /** Fire-and-forget POST to a telemetry endpoint. Never throws. */
-  async _telPost(endpoint, payload) {
+  async _telPost(endpoint, payload, options = {}) {
     try {
-      await fetch(endpoint, {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
+        body: JSON.stringify(payload),
+        ...options,
       });
-    } catch (_) { /* server offline – silently ignore */ }
+      if (!response.ok) console.warn(`Telemetry request failed (${response.status}): ${endpoint}`);
+      return response.ok;
+    } catch (error) {
+      console.warn(`Telemetry request could not reach the server: ${endpoint}`, error);
+      return false;
+    }
   }
 
   /** Log a session start or end event. */
@@ -109,7 +116,19 @@ class ExamApp {
   }
 
   _telEndSession() {
-    this._telSessionEvent('end');
+    if (this._tel.endSent) return;
+    this._tel.endSent = true;
+    const payload = {
+      email: this.currentUser?.email || '',
+      sessionId: this._tel.sessionId,
+      eventType: 'end',
+      durationSeconds: Math.round((Date.now() - this._tel.sessionStart) / 1000),
+      pagesVisited: [...this._tel.pagesVisited],
+      seriesBrowsed: [...this._tel.seriesBrowsed],
+    };
+    const body = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+    if (navigator.sendBeacon?.('/api/telemetry/session', body)) return;
+    this._telPost('/api/telemetry/session', payload, { keepalive: true });
   }
 
   /** Log a single behavioral event. */
@@ -130,9 +149,6 @@ class ExamApp {
       const prev = this._tel._currentQIdx;
       const spent = Math.round((now - (this._tel._qEnterTime || now)) / 1000);
       this._tel.qTimeSpent[prev] = (this._tel.qTimeSpent[prev] || 0) + spent;
-      if (this._tel.qVisited[prev]) {
-        this._tel.qRevisited[idx] = true; // coming back to a visited question
-      }
     }
     if (!this._tel.qVisited[idx]) {
       this._tel.qVisited[idx] = true;
@@ -377,6 +393,7 @@ class ExamApp {
 
       // Normalize the user object from backend
       const user = data.user;
+      user.adminToken = data.adminToken || null;
       user.hasFullAccess = user.has_access_code == true || user.has_access_code === 1 || user.role === 'admin';
       user.isAdmin = user.role === 'admin' || user.email.toLowerCase().trim() === this.ADMIN_EMAIL;
 
@@ -2250,7 +2267,9 @@ class ExamApp {
     const tbody = document.getElementById('admin-users-tbody');
 
     try {
-      const resp = await fetch(`/api/admin/data?adminEmail=${encodeURIComponent(adminEmail)}`);
+      const resp = await fetch('/api/admin/data', {
+        headers: { 'Authorization': `Bearer ${this.currentUser?.adminToken || ''}` },
+      });
       if (!resp.ok) throw new Error('Failed to load admin dataset');
       const data = await resp.json();
 
@@ -2334,8 +2353,11 @@ class ExamApp {
     try {
       const resp = await fetch('/api/admin/toggle-access', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ adminEmail, targetEmail, grant })
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${this.currentUser?.adminToken || ''}`,
+        },
+        body: JSON.stringify({ targetEmail, grant })
       });
       const data = await resp.json();
       if (!resp.ok) throw new Error(data.error || 'Failed to update user access');
@@ -2367,9 +2389,14 @@ class ExamApp {
     const adminEmail = this.currentUser ? this.currentUser.email : this.ADMIN_EMAIL;
 
     try {
-      const resp = await fetch(`/api/admin/telemetry?adminEmail=${encodeURIComponent(adminEmail)}`);
+      const resp = await fetch('/api/admin/telemetry', {
+        headers: { 'Authorization': `Bearer ${this.currentUser?.adminToken || ''}` },
+      });
       if (!resp.ok) throw new Error('Telemetry request failed');
       const data = await resp.json();
+      const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      })[char]);
 
       // 1. KPI Counters
       document.getElementById('tel-stat-active-24h').textContent = data.activeUsers24h || 0;
@@ -2476,7 +2503,7 @@ class ExamApp {
           auditTbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 2rem; color: var(--text-muted);">No login or audit events recorded yet.</td></tr>`;
         } else {
           auditTbody.innerHTML = data.recentLogins.map(ev => {
-            let evBadge = `<span class="brand-tag" style="background: rgba(99,102,241,0.2); color:#c7d2fe;">${ev.event_type}</span>`;
+            let evBadge = `<span class="brand-tag" style="background: rgba(99,102,241,0.2); color:#c7d2fe;">${escapeHtml(ev.event_type)}</span>`;
             if (ev.event_type === 'login') {
               evBadge = `<span class="brand-tag" style="background: rgba(16,185,129,0.2); color:#6ee7b7;">🔑 Login</span>`;
             } else if (ev.event_type === 'register') {
@@ -2485,9 +2512,10 @@ class ExamApp {
               evBadge = `<span class="brand-tag" style="background: rgba(245,158,11,0.2); color:#fde68a;">🔓 Code Unlock</span>`;
             }
 
-            const cleanIp = ev.ip_address || '127.0.0.1';
-            const cleanPlatform = ev.platform || 'Unknown OS';
-            const cleanRes = ev.screen_res || 'Standard';
+            const cleanIp = escapeHtml(ev.ip_address || 'Unavailable');
+            const cleanPlatform = escapeHtml(ev.platform || 'Unknown OS');
+            const cleanRes = escapeHtml(ev.screen_res || 'Standard');
+            const cleanUserAgent = escapeHtml(ev.user_agent || '');
 
             return `
               <tr>
@@ -2495,7 +2523,7 @@ class ExamApp {
                   ${ev.timestamp ? new Date(ev.timestamp).toLocaleString() : 'Recent'}
                 </td>
                 <td>
-                  <div style="font-weight: 700; color: var(--text-primary); font-size: 0.88rem;">${ev.user_email}</div>
+                  <div style="font-weight: 700; color: var(--text-primary); font-size: 0.88rem;">${escapeHtml(ev.user_email)}</div>
                 </td>
                 <td>${evBadge}</td>
                 <td>
@@ -2503,12 +2531,28 @@ class ExamApp {
                 </td>
                 <td style="color: var(--text-secondary); font-size: 0.82rem;">${cleanPlatform}</td>
                 <td style="color: var(--text-muted); font-size: 0.8rem; font-family: var(--font-mono);">${cleanRes}</td>
-                <td style="color: var(--text-muted); font-size: 0.75rem; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${ev.user_agent || ''}">
-                  ${ev.timezone || ''} ${ev.user_agent ? '· ' + ev.user_agent.split(' ')[0] : ''}
+                <td style="color: var(--text-muted); font-size: 0.75rem; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${cleanUserAgent}">
+                  ${escapeHtml(ev.timezone || '')} ${ev.user_agent ? '· ' + escapeHtml(ev.user_agent.split(' ')[0]) : ''}
                 </td>
               </tr>
             `;
           }).join('');
+        }
+      }
+
+      const accessTbody = document.getElementById('tel-site-access-tbody');
+      if (accessTbody) {
+        if (!data.recentSiteAccess?.length) {
+          accessTbody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding: 1.5rem; color: var(--text-muted);">No site accesses recorded yet.</td></tr>`;
+        } else {
+          accessTbody.innerHTML = data.recentSiteAccess.map(event => `
+            <tr>
+              <td style="white-space:nowrap; color:var(--text-muted);">${escapeHtml(event.timestamp ? new Date(event.timestamp).toLocaleString() : 'Unknown')}</td>
+              <td><code>${escapeHtml(event.ip_address || 'Unavailable')}</code></td>
+              <td>${escapeHtml(event.request_path || '')}</td>
+              <td style="max-width:320px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${escapeHtml(event.user_agent || '')}">${escapeHtml(event.user_agent || 'Unknown')}</td>
+            </tr>
+          `).join('');
         }
       }
 

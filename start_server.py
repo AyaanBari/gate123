@@ -5,11 +5,77 @@ import os
 import sys
 import json
 import urllib.parse
+import ipaddress
+import base64
+import hashlib
+import hmac
+import secrets
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scripts import db_manager
 
 db_manager.init_db()
+
+# Admin tokens are issued after a successful login. Set this environment variable
+# to a stable random secret when running more than one server worker.
+ADMIN_TOKEN_SECRET = os.environ.get('ADMIN_API_TOKEN_SECRET') or secrets.token_bytes(32)
+
+
+def _trusted_proxy_networks():
+    values = os.environ.get('TRUSTED_PROXY_CIDRS', '127.0.0.1/32,::1/128')
+    networks = []
+    for value in values.split(','):
+        value = value.strip()
+        if not value:
+            continue
+        try:
+            networks.append(ipaddress.ip_network(value, strict=False))
+        except ValueError:
+            print(f'Ignoring invalid TRUSTED_PROXY_CIDRS entry: {value}')
+    return networks
+
+
+TRUSTED_PROXY_NETWORKS = _trusted_proxy_networks()
+
+
+def _normalize_ip(value):
+    try:
+        address = ipaddress.ip_address(value.strip())
+        if isinstance(address, ipaddress.IPv6Address) and address.ipv4_mapped:
+            address = address.ipv4_mapped
+        return address
+    except (ValueError, AttributeError):
+        return None
+
+
+def _is_trusted_proxy(address):
+    return any(address.version == network.version and address in network for network in TRUSTED_PROXY_NETWORKS)
+
+
+def create_admin_token(email):
+    payload = json.dumps({'sub': email.lower().strip(), 'exp': int(time.time()) + 12 * 60 * 60}, separators=(',', ':')).encode('utf-8')
+    encoded = base64.urlsafe_b64encode(payload).rstrip(b'=').decode('ascii')
+    signature = hmac.new(ADMIN_TOKEN_SECRET if isinstance(ADMIN_TOKEN_SECRET, bytes) else ADMIN_TOKEN_SECRET.encode('utf-8'), encoded.encode('ascii'), hashlib.sha256).digest()
+    return encoded + '.' + base64.urlsafe_b64encode(signature).rstrip(b'=').decode('ascii')
+
+
+def verify_admin_token(header_value):
+    if not header_value or not header_value.startswith('Bearer '):
+        return None
+    try:
+        encoded, signature_text = header_value[7:].split('.', 1)
+        secret = ADMIN_TOKEN_SECRET if isinstance(ADMIN_TOKEN_SECRET, bytes) else ADMIN_TOKEN_SECRET.encode('utf-8')
+        expected = hmac.new(secret, encoded.encode('ascii'), hashlib.sha256).digest()
+        provided = base64.urlsafe_b64decode(signature_text + '=' * (-len(signature_text) % 4))
+        if not hmac.compare_digest(expected, provided):
+            return None
+        payload = json.loads(base64.urlsafe_b64decode(encoded + '=' * (-len(encoded) % 4)))
+        if payload.get('sub') != db_manager.ADMIN_EMAIL or int(payload.get('exp', 0)) < int(time.time()):
+            return None
+        return payload['sub']
+    except (ValueError, TypeError, KeyError, json.JSONDecodeError):
+        return None
 
 if sys.platform == 'win32':
     try:
@@ -34,7 +100,7 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Session-Id')
         super().end_headers()
 
     def do_OPTIONS(self):
@@ -43,12 +109,43 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
 
     def send_json(self, status_code, data):
         self.send_response(status_code)
-        self.send_header('Content-Type', 'application/json')
+        self.send_header('Content-Type', 'application/json; charset=utf-8')
         self.end_headers()
         self.wfile.write(json.dumps(data).encode('utf-8'))
 
     def get_client_ip(self):
-        return self.client_address[0] if self.client_address else ''
+        peer = _normalize_ip(self.client_address[0]) if self.client_address else None
+        if peer is None:
+            return ''
+        if not _is_trusted_proxy(peer):
+            return str(peer)
+
+        forwarded = self.headers.get('X-Forwarded-For', '')
+        chain = [_normalize_ip(item) for item in forwarded.split(',') if item.strip()]
+        chain = [item for item in chain if item is not None]
+        current = peer
+        for address in reversed(chain):
+            if not _is_trusted_proxy(current):
+                break
+            current = address
+        return str(current)
+
+    def require_admin(self):
+        email = verify_admin_token(self.headers.get('Authorization', ''))
+        if not email:
+            self.send_json(401, {'error': 'Administrator sign-in required'})
+            return None
+        return email
+
+    def log_site_page_access(self, path):
+        is_page = path in ('/', '/index.html') or path.lower().endswith('.html')
+        is_exam_data = path == '/data/exam_manifest.json' or (path.startswith('/data/tests/') and path.lower().endswith('.json'))
+        if not (is_page or is_exam_data):
+            return
+        try:
+            db_manager.log_site_access(self.get_client_ip(), path, self.headers.get('User-Agent', ''))
+        except Exception as exc:
+            print('Site-access telemetry error:', exc)
 
     # ── GET routes ───────────────────────────────────────────────────────────
 
@@ -63,29 +160,26 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
                 return self.send_json(400, {"error": "Email required"})
             return self.send_json(200, db_manager.get_user_analytics(email))
 
+        if path in ('/api/admin/data', '/api/admin/telemetry', '/api/admin/student-detail'):
+            admin = self.require_admin()
+            if not admin:
+                return
+
         if path == '/api/admin/data':
-            admin = query.get('adminEmail', [''])[0]
-            if admin.lower().strip() != db_manager.ADMIN_EMAIL:
-                return self.send_json(403, {"error": "Unauthorized"})
             return self.send_json(200, db_manager.get_admin_data())
 
         # ── Telemetry dashboard ───────────────────────────────────────────
         if path == '/api/admin/telemetry':
-            admin = query.get('adminEmail', [''])[0]
             data = db_manager.get_telemetry_dashboard(admin)
-            if 'error' in data:
-                return self.send_json(403, data)
             return self.send_json(200, data)
 
         # ── Single-student drill-down ─────────────────────────────────────
         if path == '/api/admin/student-detail':
-            admin   = query.get('adminEmail', [''])[0]
             student = query.get('studentEmail', [''])[0]
             data = db_manager.get_student_telemetry_detail(admin, student)
-            if 'error' in data:
-                return self.send_json(403, data)
             return self.send_json(200, data)
 
+        self.log_site_page_access(path)
         return super().do_GET()
 
     # ── POST routes ──────────────────────────────────────────────────────────
@@ -98,8 +192,10 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
         body_bytes  = self.rfile.read(content_len) if content_len > 0 else b'{}'
         try:
             body = json.loads(body_bytes.decode('utf-8'))
-        except Exception:
-            body = {}
+            if not isinstance(body, dict):
+                raise ValueError('JSON body must be an object')
+        except (UnicodeDecodeError, json.JSONDecodeError, ValueError):
+            return self.send_json(400, {"error": "Invalid JSON request body"})
 
         ip = self.get_client_ip()
 
@@ -145,7 +241,10 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
                     timezone=body.get('timezone', ''))
             except Exception:
                 pass
-            return self.send_json(200, {"success": True, "user": result})
+            response = {"success": True, "user": result}
+            if result.get('email') == db_manager.ADMIN_EMAIL:
+                response['adminToken'] = create_admin_token(result['email'])
+            return self.send_json(200, response)
 
         if path == '/api/auth/unlock':
             email = body.get('email', '')
@@ -172,9 +271,9 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
 
         # Admin toggle
         if path == '/api/admin/toggle-access':
-            admin  = body.get('adminEmail', '')
-            if admin.lower().strip() != db_manager.ADMIN_EMAIL:
-                return self.send_json(403, {"error": "Unauthorized"})
+            admin = self.require_admin()
+            if not admin:
+                return
             target = body.get('targetEmail', '')
             grant  = bool(body.get('grant', True))
             db_manager.toggle_user_access(target, grant)
@@ -193,8 +292,9 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
                     pages=body.get('pagesVisited'),
                     series=body.get('seriesBrowsed'),
                     ip=ip)
-            except Exception:
-                pass
+            except Exception as exc:
+                print('Session telemetry error:', exc)
+                return self.send_json(500, {"error": "Could not save session telemetry"})
             return self.send_json(200, {"ok": True})
 
         if path == '/api/telemetry/questions':
@@ -202,9 +302,10 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
             email = body.get('email', 'guest')
             rows  = body.get('rows', [])
             try:
-                db_manager.save_question_telemetry(email, rows)
+                db_manager.save_question_telemetry(email, rows, ip=ip)
             except Exception as e:
                 print("Q-telemetry error:", e)
+                return self.send_json(500, {"error": "Could not save question telemetry"})
             return self.send_json(200, {"ok": True})
 
         if path == '/api/telemetry/event':
@@ -214,9 +315,11 @@ class ExamServerHandler(http.server.SimpleHTTPRequestHandler):
                     email=body.get('email', ''),
                     session_id=body.get('sessionId', ''),
                     event_type=body.get('eventType', ''),
-                    event_data=body.get('data'))
-            except Exception:
-                pass
+                    event_data=body.get('data'),
+                    ip=ip)
+            except Exception as exc:
+                print('Behavior telemetry error:', exc)
+                return self.send_json(500, {"error": "Could not save behavior telemetry"})
             return self.send_json(200, {"ok": True})
 
         return self.send_json(404, {"error": "Not Found"})

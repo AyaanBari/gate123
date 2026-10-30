@@ -71,6 +71,10 @@ Open PowerShell or Command Prompt in this directory and run:
 python start_server.py
 ```
 
+### Telemetry deployment settings
+
+The server stores site-access IP records and telemetry in `data/exam_system.db`. When deploying behind a reverse proxy, set `TRUSTED_PROXY_CIDRS` to the proxy's exact IP or CIDR ranges so visitor IPs can be resolved safely. Forwarded IP headers from other peers are ignored. Set a stable, random `ADMIN_API_TOKEN_SECRET` for deployments with multiple workers or restarts; administrator API tokens expire after 12 hours. See [the telemetry bug report and deployment notes](docs/telemetry-bug-report.md).
+
 ---
 
 ## ⚡ Real GATE CBT Exam Environment

@@ -8,10 +8,18 @@ import os
 import hashlib
 import json
 import time
+from datetime import datetime, timezone
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "exam_system.db")
+DB_PATH = os.environ.get(
+    "EXAM_DB_PATH",
+    os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "exam_system.db"),
+)
 DEFAULT_ACCESS_CODE = "12G3A4T8WE"
 ADMIN_EMAIL = "musicfusion123456@gmail.com"
+
+
+def utc_timestamp():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 
 def hash_pw(password):
@@ -115,18 +123,34 @@ def init_db():
         session_id  TEXT,
         event_type  TEXT NOT NULL,
         event_data  TEXT,
+        ip_address  TEXT,
         timestamp   TEXT NOT NULL
     )''')
 
+    c.execute('''CREATE TABLE IF NOT EXISTS site_access_events (
+        id           INTEGER PRIMARY KEY AUTOINCREMENT,
+        ip_address   TEXT NOT NULL,
+        request_path TEXT NOT NULL,
+        user_agent   TEXT,
+        timestamp    TEXT NOT NULL
+    )''')
+
+    for table in ("question_telemetry", "behavior_events"):
+        columns = {row[1] for row in c.execute(f"PRAGMA table_info({table})")}
+        if "ip_address" not in columns:
+            c.execute(f"ALTER TABLE {table} ADD COLUMN ip_address TEXT")
+    c.execute("CREATE INDEX IF NOT EXISTS idx_site_access_timestamp ON site_access_events(timestamp DESC)")
+    c.execute("CREATE INDEX IF NOT EXISTS idx_site_access_ip ON site_access_events(ip_address)")
+
     # Seed data
     c.execute('INSERT OR IGNORE INTO access_codes (code, is_active, created_at) VALUES (?, 1, ?)',
-              (DEFAULT_ACCESS_CODE, time.strftime("%Y-%m-%d %H:%M:%S")))
+              (DEFAULT_ACCESS_CODE, utc_timestamp()))
 
     c.execute('SELECT id FROM users WHERE email = ?', (ADMIN_EMAIL,))
     if not c.fetchone():
         c.execute('''INSERT INTO users (email, name, password_hash, role, has_access_code, created_at)
                      VALUES (?, 'Administrator', ?, 'admin', 1, ?)''',
-                  (ADMIN_EMAIL, hash_pw("admin123"), time.strftime("%Y-%m-%d %H:%M:%S")))
+                  (ADMIN_EMAIL, hash_pw("admin123"), utc_timestamp()))
 
     conn.commit()
     conn.close()
@@ -143,7 +167,7 @@ def register_user(email, name, password):
         conn.close(); return False, "User with this email already exists"
     role = 'admin' if email == ADMIN_EMAIL else 'student'
     has_access = 1 if email == ADMIN_EMAIL else 0
-    now = time.strftime("%Y-%m-%d %H:%M:%S")
+    now = utc_timestamp()
     c.execute('''INSERT INTO users (email, name, password_hash, role, has_access_code, created_at, last_login)
                  VALUES (?,?,?,?,?,?,?)''',
               (email, name.strip(), hash_pw(password), role, has_access, now, now))
@@ -160,7 +184,7 @@ def login_user(email, password):
         conn.close(); return False, "Account not found with this email"
     if user['password_hash'] != hash_pw(password):
         conn.close(); return False, "Invalid password"
-    now = time.strftime("%Y-%m-%d %H:%M:%S")
+    now = utc_timestamp()
     c.execute('UPDATE users SET last_login = ? WHERE email = ?', (now, email))
     conn.commit()
     data = {"id": user["id"], "email": user["email"], "name": user["name"],
@@ -187,7 +211,7 @@ def verify_and_unlock_code(email, code):
 def save_attempt(email, attempt_data):
     email = email.lower().strip()
     conn = get_db(); c = conn.cursor()
-    now = time.strftime("%Y-%m-%d %H:%M:%S")
+    now = utc_timestamp()
     c.execute('''INSERT INTO test_attempts
         (user_email,test_id,test_title,subject,score,total_marks,accuracy,time_taken_seconds,attempted_date,responses_json)
         VALUES (?,?,?,?,?,?,?,?,?,?)''',
@@ -273,7 +297,7 @@ def log_login_event(email, event_type, ip='', user_agent='', screen_res='',
         (user_email,event_type,ip_address,user_agent,screen_res,platform,language,timezone,timestamp)
         VALUES(?,?,?,?,?,?,?,?,?)''',
         (email.lower().strip(), event_type, ip, user_agent, screen_res,
-         platform, language, timezone, time.strftime("%Y-%m-%d %H:%M:%S")))
+         platform, language, timezone, utc_timestamp()))
     conn.commit(); conn.close()
 
 
@@ -285,20 +309,30 @@ def log_session_event(email, session_id, event_type, duration=None,
         VALUES(?,?,?,?,?,?,?,?)''',
         ((email or 'guest').lower().strip(), session_id, event_type, duration,
          json.dumps(pages) if pages else None, json.dumps(series) if series else None,
-         ip, time.strftime("%Y-%m-%d %H:%M:%S")))
+         ip, utc_timestamp()))
     conn.commit(); conn.close()
 
 
-def save_question_telemetry(email, rows):
+def log_site_access(ip, request_path, user_agent=''):
+    if not ip:
+        return
+    conn = get_db(); c = conn.cursor()
+    c.execute('''INSERT INTO site_access_events (ip_address,request_path,user_agent,timestamp)
+                 VALUES(?,?,?,?)''',
+              (ip, request_path[:500], user_agent[:500], utc_timestamp()))
+    conn.commit(); conn.close()
+
+
+def save_question_telemetry(email, rows, ip=''):
     if not rows: return
     conn = get_db(); c = conn.cursor()
-    now = time.strftime("%Y-%m-%d %H:%M:%S")
+    now = utc_timestamp()
     for q in rows:
         c.execute('''INSERT INTO question_telemetry
             (user_email,test_id,test_title,question_index,subject,question_type,marks,
              time_spent_sec,answer_changes,marked_review,was_revisited,final_answer,
-             is_correct,marks_awarded,is_attempted,test_mode,recorded_at)
-            VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
+             is_correct,marks_awarded,is_attempted,test_mode,ip_address,recorded_at)
+            VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
             (email.lower().strip(), q.get('testId',''), q.get('testTitle',''),
              int(q.get('questionIndex',0)), q.get('subject',''), q.get('type','MCQ'),
              float(q.get('marks',1)), int(q.get('timeSpent',0)),
@@ -306,17 +340,17 @@ def save_question_telemetry(email, rows):
              1 if q.get('markedReview') else 0, 1 if q.get('wasRevisited') else 0,
              str(q.get('finalAnswer','')), 1 if q.get('isCorrect') else 0,
              float(q.get('marksAwarded',0)), 1 if q.get('isAttempted') else 0,
-             q.get('testMode','exam'), now))
+             q.get('testMode','exam'), ip, now))
     conn.commit(); conn.close()
 
 
-def log_behavior_event(email, session_id, event_type, event_data=None):
+def log_behavior_event(email, session_id, event_type, event_data=None, ip=''):
     conn = get_db(); c = conn.cursor()
-    c.execute('''INSERT INTO behavior_events (user_email,session_id,event_type,event_data,timestamp)
-                 VALUES(?,?,?,?,?)''',
+    c.execute('''INSERT INTO behavior_events (user_email,session_id,event_type,event_data,ip_address,timestamp)
+                 VALUES(?,?,?,?,?,?)''',
               ((email or 'guest').lower().strip(), session_id or '', event_type,
                json.dumps(event_data) if event_data else None,
-               time.strftime("%Y-%m-%d %H:%M:%S")))
+               ip, utc_timestamp()))
     conn.commit(); conn.close()
 
 
@@ -339,6 +373,7 @@ def get_telemetry_dashboard(admin_email):
         "totalSessions":  q1("SELECT COUNT(*) as c FROM session_events WHERE event_type='start'").get('c',0),
         "avgSessionMins": q1("SELECT ROUND(AVG(duration_seconds)/60.0,1) as v FROM session_events WHERE event_type='end' AND duration_seconds IS NOT NULL").get('v',0) or 0,
         "recentLogins": q("SELECT user_email,event_type,ip_address,platform,screen_res,user_agent,timezone,timestamp FROM login_events ORDER BY id DESC LIMIT 60"),
+        "recentSiteAccess": q("SELECT ip_address,request_path,user_agent,timestamp FROM site_access_events ORDER BY id DESC LIMIT 100"),
         "hardestQuestions": q("""
             SELECT test_id,test_title,question_index,subject,question_type,marks,
                    COUNT(*) as seen_by, ROUND(AVG(time_spent_sec),1) as avg_sec,
@@ -394,7 +429,7 @@ def get_student_telemetry_detail(admin_email, student_email):
                  FROM question_telemetry WHERE user_email=?
                  ORDER BY recorded_at DESC,question_index ASC LIMIT 200''', (email,))
     qs = [dict(r) for r in c.fetchall()]
-    c.execute('SELECT event_type,event_data,timestamp FROM behavior_events WHERE user_email=? ORDER BY id DESC LIMIT 60', (email,))
+    c.execute('SELECT event_type,event_data,ip_address,timestamp FROM behavior_events WHERE user_email=? ORDER BY id DESC LIMIT 60', (email,))
     behaviors = [dict(r) for r in c.fetchall()]
     conn.close()
     return {"logins": logins, "sessions": sessions, "questions": qs, "behaviors": behaviors}
