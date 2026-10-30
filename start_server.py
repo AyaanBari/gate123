@@ -9,7 +9,6 @@ import ipaddress
 import base64
 import hashlib
 import hmac
-import secrets
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -17,9 +16,10 @@ from scripts import db_manager
 
 db_manager.init_db()
 
-# Admin tokens are issued after a successful login. Set this environment variable
-# to a stable random secret when running more than one server worker.
-ADMIN_TOKEN_SECRET = os.environ.get('ADMIN_API_TOKEN_SECRET') or secrets.token_bytes(32)
+# The SQLite-backed fallback keeps tokens valid across Render restarts. A stable
+# environment variable is still preferred when sharing auth across multiple DBs.
+ADMIN_TOKEN_SECRET = os.environ.get('ADMIN_API_TOKEN_SECRET') or db_manager.get_or_create_setting(
+    'admin_api_token_secret', lambda: os.urandom(32).hex())
 
 
 def _trusted_proxy_networks():

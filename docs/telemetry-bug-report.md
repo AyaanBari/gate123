@@ -27,8 +27,8 @@ Some site visits and telemetry records had no useful client IP address, and the 
 
 Set `TRUSTED_PROXY_CIDRS` to the exact proxy IP addresses or CIDR ranges used by the deployment. The default trusts only loopback. Without correct proxy configuration, the app records the immediate peer address (often the proxy) because forwarded headers cannot be trusted from arbitrary clients.
 
-Set a long random `ADMIN_API_TOKEN_SECRET` and keep it stable across restarts and server workers so administrator sessions remain valid. Tokens expire after 12 hours. Previously cached admin sessions must sign in again to receive a token.
+Admin token signing keys are now generated once and stored in the SQLite `app_settings` table, so they remain stable when the database persists across restarts. If a deployment replaces or separates its database between deploys or instances, set a long random `ADMIN_API_TOKEN_SECRET` in the service environment and keep it stable. Tokens expire after 12 hours. Previously cached admin sessions must sign in again to receive a token.
 
-On Render, configure `ADMIN_API_TOKEN_SECRET` once in the service Environment settings and keep it unchanged across deploys. The dashboard now distinguishes a rejected administrator token from an unreachable server and requests a fresh sign-in on HTTP 401.
+On Render, the dashboard distinguishes a rejected administrator token from an unreachable server and requests a fresh sign-in on HTTP 401. The `Procfile` starts the server and telemetry API with `python start_server.py`.
 
 Site access records include visitor IP, requested page/resource, browser user-agent, and UTC timestamp in the SQLite database. Restrict database and administrator access to authorized operators.

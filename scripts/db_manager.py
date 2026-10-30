@@ -135,6 +135,11 @@ def init_db():
         timestamp    TEXT NOT NULL
     )''')
 
+    c.execute('''CREATE TABLE IF NOT EXISTS app_settings (
+        setting_key TEXT PRIMARY KEY,
+        setting_value TEXT NOT NULL
+    )''')
+
     for table in ("question_telemetry", "behavior_events"):
         columns = {row[1] for row in c.execute(f"PRAGMA table_info({table})")}
         if "ip_address" not in columns:
@@ -155,6 +160,19 @@ def init_db():
     conn.commit()
     conn.close()
     print("Database initialized at", DB_PATH)
+
+
+def get_or_create_setting(setting_key, generate_value):
+    """Read a persistent application setting, creating it once when absent."""
+    conn = get_db(); c = conn.cursor()
+    c.execute('INSERT OR IGNORE INTO app_settings (setting_key, setting_value) VALUES (?, ?)',
+              (setting_key, generate_value()))
+    c.execute('SELECT setting_value FROM app_settings WHERE setting_key = ?', (setting_key,))
+    row = c.fetchone()
+    conn.commit(); conn.close()
+    if not row:
+        raise RuntimeError(f'Could not initialize application setting: {setting_key}')
+    return row['setting_value']
 
 
 # ─── Auth ─────────────────────────────────────────────────────────────────────
