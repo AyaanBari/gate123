@@ -34,7 +34,8 @@ An audit of `data/tests/*.json` found:
 - 271 test files and 11,214 questions; all files parsed as JSON.
 - One MCQ with an empty options array: `data/tests/DSAT2.json`, Q11. Its four choices were present in an ordered list embedded in the prompt and have been restored from that source markup.
 - Nine MCQs had a one-item prompt list mistaken for the choices while the actual four-choice list remained embedded in the prompt; those choices have also been restored.
-- 5,274 MCQ/MSQ records across 192 files contain generic placeholder choices.
+- Follow-up scan: 5,272 MCQ/MSQ records across 192 files still contain unusable choices. This includes 3,112 PYQ entries, 2,130 generated mocks, and 30 other-series entries, with 1,843 distinct discussion URLs.
+- All remaining affected records are listed in `QUESTION_CHOICE_AUDIT.csv`; 44 prompts contain apparent A-D labels that may allow further recovery from their source markup.
 - No MCQ/MSQ record has a missing `options` property or a choice item without display text; defensive handling was still needed for malformed records.
 
 ## Likely cause
@@ -52,4 +53,8 @@ Choice extraction failed when source prompts contained earlier one-item ordered 
 
 ## Remaining data repair
 
-The existing 5,274 generic-placeholder records do not contain their real choice text in the stored option fields. The player now identifies these questions instead of presenting the placeholders as valid answers. Their original alternatives need to be recovered from the source material before those questions can be made fully answerable.
+The remaining 5,272 unusable choice records do not contain their real choice text in the stored option fields. The player now identifies these questions instead of presenting the placeholders as valid answers. Their original alternatives need to be recovered from the source material before those questions can be made fully answerable. See `QUESTION_CHOICE_AUDIT.csv` for the affected test/question locations and source discussion links.
+
+## Follow-up: GATE CSE 2014 Set 1, Question 54
+
+The choices for the SQL question at `https://gateoverflow.in/1934/gate-cse-2014-set-1-question-54` were restored in both `PYQ_Databases_DBMS_P6.json` and its copy in `GATE2027_Mock_01.json`.

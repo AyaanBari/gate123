@@ -521,23 +521,23 @@
       "options": [
         {
           "id": "A",
-          "html": "<span>Option (A)</span>",
-          "textHtml": "<span>Option (A)</span>"
+          "html": "<span>It executes but does not give the correct result</span>",
+          "textHtml": "<span>It executes but does not give the correct result</span>"
         },
         {
           "id": "B",
-          "html": "<span>Option (B)</span>",
-          "textHtml": "<span>Option (B)</span>"
+          "html": "<span>It executes and gives the correct result.</span>",
+          "textHtml": "<span>It executes and gives the correct result.</span>"
         },
         {
           "id": "C",
-          "html": "<span>Option (C)</span>",
-          "textHtml": "<span>Option (C)</span>"
+          "html": "<span>It generates an error because of pairwise comparison.</span>",
+          "textHtml": "<span>It generates an error because of pairwise comparison.</span>"
         },
         {
           "id": "D",
-          "html": "<span>Option (D)</span>",
-          "textHtml": "<span>Option (D)</span>"
+          "html": "<span>It generates an error because of the GROUP BY clause cannot be used with table joins in a sub-query.</span>",
+          "textHtml": "<span>It generates an error because of the GROUP BY clause cannot be used with table joins in a sub-query.</span>"
         }
       ],
       "correctAnswer": "B",
