@@ -202,19 +202,11 @@ def parse_volume(pdf_filename, default_vol_title):
             if not discuss_url and urls:
                 discuss_url = urls[min(idx, len(urls)-1)]
                 
-            # Options for MCQ/MSQ
+            # This text-only PDF parser cannot reliably recover answer choices.
+            # Keep the options and answer key empty rather than fabricating them.
             options = []
-            if q_type in ["MCQ", "MSQ"]:
-                options = [
-                    {"id": "A", "html": "<span>Option (A)</span>"},
-                    {"id": "B", "html": "<span>Option (B)</span>"},
-                    {"id": "C", "html": "<span>Option (C)</span>"},
-                    {"id": "D", "html": "<span>Option (D)</span>"}
-                ]
-                
-            # If answer is empty or N/A, provide a reasonable fallback or reference link
-            if not correct_ans or correct_ans == 'N/A':
-                correct_ans = "Refer GO Discussion" if is_nat else "A"
+            if correct_ans == 'N/A':
+                correct_ans = ''
                 
             q_html = format_question_html(body_text, header)
             

@@ -1087,6 +1087,55 @@ class ExamApp {
   }
 
   // --- Question Rendering ---
+  getUsableChoiceOptions(question) {
+    if (!Array.isArray(question?.options) || question.options.length < 2) return null;
+
+    const options = question.options.map((option, index) => {
+      const fallbackId = String.fromCharCode(65 + index);
+      const id = typeof option === 'string'
+        ? fallbackId
+        : String(option?.id ?? fallbackId).trim();
+      const textHtml = typeof option === 'string'
+        ? option
+        : (option?.textHtml ?? option?.html ?? option?.text ?? '');
+
+      if (!id || typeof textHtml !== 'string' || !textHtml.trim()) return null;
+
+      const plainText = textHtml
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/&nbsp;|&#160;|&#xA0;/gi, ' ')
+        .replace(/&amp;/gi, '&')
+        .replace(/&#40;|&lpar;/gi, '(')
+        .replace(/&#41;|&rpar;/gi, ')')
+        .replace(/\s+/g, ' ')
+        .trim();
+      const isPlaceholder = /fallback-opt/i.test(textHtml) || /^option\s*\(?[a-z0-9]+\)?$/i.test(plainText);
+
+      return { id, textHtml, isPlaceholder };
+    });
+
+    if (options.some(option => !option || option.isPlaceholder)) return null;
+    return options.map(({ id, textHtml }) => ({ id, textHtml }));
+  }
+
+  renderUnavailableChoiceMessage(question, container) {
+    const message = document.createElement('div');
+    message.className = 'question-data-warning';
+    message.textContent = 'Answer choices are unavailable for this question. It cannot be answered or graded until the source data is repaired.';
+    container.appendChild(message);
+
+    if (question.discussUrl) {
+      const link = document.createElement('a');
+      link.className = 'img-discuss-link';
+      link.href = question.discussUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = 'View the original discussion';
+      message.appendChild(document.createTextNode(' '));
+      message.appendChild(link);
+    }
+  }
+
   renderQuestion(index) {
     if (!this.currentTest || index < 0 || index >= this.currentTest.questions.length) return;
 
@@ -1114,8 +1163,9 @@ class ExamApp {
     document.getElementById('q-number-display').textContent = `Question ${q.displayNum || (index + 1)}`;
     
     const typeBadge = document.getElementById('q-type-display');
-    typeBadge.textContent = q.typeRaw || q.type;
-    typeBadge.className = `q-type-badge q-type-${q.type.toLowerCase()}`;
+    const questionType = String(q.type || '').toUpperCase();
+    typeBadge.textContent = q.typeRaw || questionType || 'Question';
+    typeBadge.className = `q-type-badge q-type-${questionType.toLowerCase()}`;
 
     document.getElementById('q-marks-display').textContent = `+${q.marks} / -${q.penalty || 0}`;
 
@@ -1123,7 +1173,9 @@ class ExamApp {
     const promptContainer = document.getElementById('q-prompt-container');
     
     // Inject question body with error fallback on images
-    let promptHtml = q.questionHtml;
+    let promptHtml = typeof q.questionHtml === 'string' && q.questionHtml.trim()
+      ? q.questionHtml
+      : '<p>Question text is unavailable in the source data.</p>';
     // Replace img tags to attach an onerror handler
     promptHtml = promptHtml.replace(/<img\s+([^>]*?)src=["']([^"']+)["']([^>]*?)>/gi, (match, before, src, after) => {
       return `
@@ -1137,11 +1189,19 @@ class ExamApp {
     const optionsContainer = document.getElementById('q-options-container');
     optionsContainer.innerHTML = '';
 
-    if (q.type === 'MCQ') {
-      this.renderMcqOptions(q, userResp, optionsContainer);
-    } else if (q.type === 'MSQ') {
-      this.renderMsqOptions(q, userResp, optionsContainer);
-    } else if (q.type === 'NAT') {
+    const choiceOptions = questionType === 'MCQ' || questionType === 'MSQ'
+      ? this.getUsableChoiceOptions(q)
+      : null;
+
+    if (questionType === 'MCQ' || questionType === 'MSQ') {
+      if (!choiceOptions) {
+        this.renderUnavailableChoiceMessage(q, optionsContainer);
+      } else if (questionType === 'MCQ') {
+        this.renderMcqOptions(q, userResp, optionsContainer, index, choiceOptions);
+      } else {
+        this.renderMsqOptions(q, userResp, optionsContainer, index, choiceOptions);
+      }
+    } else if (questionType === 'NAT') {
       this.renderNatInput(q, userResp, optionsContainer);
     }
 
@@ -1156,7 +1216,9 @@ class ExamApp {
             <button class="tool-btn" onclick="app.revealPracticeAnswer(${index})">👁️ Check Answer</button>
           </div>
           <div id="practice-ans-reveal-${index}" class="hidden" style="margin-top: 0.5rem; font-size: 0.9rem;">
-            <b>Correct Answer:</b> <span style="color: var(--gate-green); font-family: var(--font-mono); font-weight: 700;">${q.correctAnswer}</span>
+            ${(questionType === 'MCQ' || questionType === 'MSQ') && !choiceOptions || !q.correctAnswer
+              ? '<b>Answer unavailable:</b> the choices or answer key are missing from the source data.'
+              : `<b>Correct Answer:</b> <span style="color: var(--gate-green); font-family: var(--font-mono); font-weight: 700;">${q.correctAnswer}</span>`}
             ${q.discussUrl ? `<div style="margin-top: 0.35rem;"><a href="${q.discussUrl}" target="_blank" class="img-discuss-link">💬 View GateOverflow Discussion</a></div>` : ''}
           </div>
         </div>
@@ -1198,11 +1260,11 @@ class ExamApp {
   }
 
   // --- Option Renderers ---
-  renderMcqOptions(q, userResp, container) {
+  renderMcqOptions(q, userResp, container, index = this.currentQIndex, options = this.getUsableChoiceOptions(q)) {
     const list = document.createElement('div');
     list.className = 'options-workspace';
 
-    q.options.forEach(opt => {
+    options.forEach(opt => {
       const isSelected = userResp.value === opt.id;
       const row = document.createElement('div');
       row.className = `option-row ${isSelected ? 'selected' : ''}`;
@@ -1226,7 +1288,7 @@ class ExamApp {
     container.appendChild(list);
   }
 
-  renderMsqOptions(q, userResp, container) {
+  renderMsqOptions(q, userResp, container, index = this.currentQIndex, options = this.getUsableChoiceOptions(q)) {
     const list = document.createElement('div');
     list.className = 'options-workspace';
     // MSQ hint
@@ -1237,7 +1299,7 @@ class ExamApp {
 
     const selectedVals = Array.isArray(userResp.value) ? userResp.value : [];
 
-    q.options.forEach(opt => {
+    options.forEach(opt => {
       const isSelected = selectedVals.includes(opt.id);
       const row = document.createElement('div');
       row.className = `option-row msq-row ${isSelected ? 'selected' : ''}`;
@@ -1521,7 +1583,9 @@ class ExamApp {
 
     const evaluatedQuestions = questions.map((q, idx) => {
       const resp = this.userResponses[idx];
-      const hasAnswer = this.hasAnswer(idx);
+      const choiceDataUnavailable = ['MCQ', 'MSQ'].includes(String(q.type || '').toUpperCase())
+        && !this.getUsableChoiceOptions(q);
+      const hasAnswer = !choiceDataUnavailable && this.hasAnswer(idx);
       let isCorrect = false;
       let marksAwarded = 0;
 
@@ -1600,6 +1664,8 @@ class ExamApp {
 
       return {
         ...q,
+        choiceDataUnavailable,
+        correctAnswer: choiceDataUnavailable || !q.correctAnswer ? 'Unavailable' : q.correctAnswer,
         userResponse: resp.value,
         userStatus: resp.status,
         isCorrect,

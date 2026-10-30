@@ -863,6 +863,20 @@ body {
   gap: 0.75rem;
 }
 
+.question-data-warning {
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: var(--radius-md);
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.question-data-warning .img-discuss-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 .option-row {
   display: flex;
   align-items: flex-start;

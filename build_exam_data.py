@@ -165,11 +165,14 @@ def extract_test(file_path):
             if q_text_div:
                 # Find options ol (not inside pre)
                 all_ols = q_text_div.find_all('ol')
-                opt_ol = None
-                for candidate_ol in all_ols:
-                    if candidate_ol.find_parent('pre') is None:
-                        opt_ol = candidate_ol
-                        break
+                option_lists = [
+                    candidate_ol for candidate_ol in all_ols
+                    if candidate_ol.find_parent('pre') is None
+                    and len(candidate_ol.find_all('li', recursive=False)) >= 2
+                ]
+                # Source question bodies may contain one-item ordered lists as part
+                # of the prompt. The answer choices are the last multi-item list.
+                opt_ol = option_lists[-1] if option_lists else None
                         
                 if opt_ol:
                     lis = opt_ol.find_all('li', recursive=False)
@@ -180,14 +183,8 @@ def extract_test(file_path):
                             'textHtml': str(li)
                         })
                     opt_ol.decompose()
-                elif q_type in ('MCQ', 'MSQ'):
-                    # Fallback standard 4 options if options were in image/text
-                    options = [
-                        {'id': 'A', 'textHtml': '<span class="fallback-opt">Option A</span>'},
-                        {'id': 'B', 'textHtml': '<span class="fallback-opt">Option B</span>'},
-                        {'id': 'C', 'textHtml': '<span class="fallback-opt">Option C</span>'},
-                        {'id': 'D', 'textHtml': '<span class="fallback-opt">Option D</span>'}
-                    ]
+                # Do not invent selectable options when the source has none.
+                # The client reports incomplete choice data and keeps the item ungradable.
                 
                 # Question HTML
                 q_html = str(q_text_div)
