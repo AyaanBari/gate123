@@ -73,7 +73,7 @@ python start_server.py
 
 ### Telemetry deployment settings
 
-The server stores site-access IP records and telemetry in `data/exam_system.db`. When deploying behind a reverse proxy, set `TRUSTED_PROXY_CIDRS` to the proxy's exact IP or CIDR ranges so visitor IPs can be resolved safely. Forwarded IP headers from other peers are ignored. Set a stable, random `ADMIN_API_TOKEN_SECRET` for deployments with multiple workers or restarts; administrator API tokens expire after 12 hours. See [the telemetry bug report and deployment notes](docs/telemetry-bug-report.md).
+The server stores site-access IP records and telemetry in `data/exam_system.db`. The Render web service must use `python start_server.py` as its start command; the repository `Procfile` already specifies it. In the Render service's **Environment** settings, set `ADMIN_API_TOKEN_SECRET` to a long random value and keep it unchanged across deploys/restarts. Without this, a restart invalidates saved admin tokens and the browser will ask the administrator to sign in again. Set `TRUSTED_PROXY_CIDRS` to the proxy's exact IP or CIDR ranges so visitor IPs can be resolved safely. Forwarded IP headers from other peers are ignored. Administrator API tokens expire after 12 hours. See [the telemetry bug report and deployment notes](docs/telemetry-bug-report.md).
 
 ---
 

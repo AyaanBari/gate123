@@ -2270,7 +2270,11 @@ class ExamApp {
       const resp = await fetch('/api/admin/data', {
         headers: { 'Authorization': `Bearer ${this.currentUser?.adminToken || ''}` },
       });
-      if (!resp.ok) throw new Error('Failed to load admin dataset');
+      if (!resp.ok) {
+        const error = new Error('Failed to load admin dataset');
+        error.status = resp.status;
+        throw error;
+      }
       const data = await resp.json();
 
       document.getElementById('admin-stat-users').textContent = data.totalUsers || 1;
@@ -2321,6 +2325,12 @@ class ExamApp {
         `;
       }).join('');
     } catch (err) {
+      if (err.status === 401) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding:2rem; color:var(--text-muted);">Your administrator session expired. Please sign in again to load admin data.</td></tr>`;
+        this.saveUserSession(null);
+        this.showAuthModal();
+        return;
+      }
       console.warn('Admin API offline, showing local fallback:', err);
       document.getElementById('admin-stat-users').textContent = 1;
       document.getElementById('admin-stat-attempts').textContent = this.history.length;
@@ -2341,7 +2351,7 @@ class ExamApp {
         </tr>
         <tr>
           <td colspan="7" style="text-align:center; padding:0.75rem 1rem; color:var(--text-muted); font-size:0.8rem; background: rgba(245,158,11,0.05);">
-            ⚠️ Server offline — start <code>python start_server.py</code> to see all registered students here.
+            ⚠️ Admin service unavailable — check the server response and Render logs, then reload this page.
           </td>
         </tr>
       `;

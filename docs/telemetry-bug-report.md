@@ -29,4 +29,6 @@ Set `TRUSTED_PROXY_CIDRS` to the exact proxy IP addresses or CIDR ranges used by
 
 Set a long random `ADMIN_API_TOKEN_SECRET` and keep it stable across restarts and server workers so administrator sessions remain valid. Tokens expire after 12 hours. Previously cached admin sessions must sign in again to receive a token.
 
+On Render, configure `ADMIN_API_TOKEN_SECRET` once in the service Environment settings and keep it unchanged across deploys. The dashboard now distinguishes a rejected administrator token from an unreachable server and requests a fresh sign-in on HTTP 401.
+
 Site access records include visitor IP, requested page/resource, browser user-agent, and UTC timestamp in the SQLite database. Restrict database and administrator access to authorized operators.
